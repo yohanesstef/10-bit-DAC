@@ -5,15 +5,15 @@ V {}
 S {}
 E {}
 B 2 200 -760 1000 -360 {flags=graph
-y1=0.0178518
-y2=2.8879638
+y1=-0.92
+y2=2.6
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=8.0750309e-07
-x2=9.1276587e-07
+x1=1.1932659e-06
+x2=1.2167674e-06
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -44,7 +44,7 @@ value="
   .control
      reset
      save all
-     tran 1n 3u
+     tran 0.1n 3u
      write inv-tb.raw
      set appendwrite
      
