@@ -1,0 +1,52 @@
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_0p35 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_0p35 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_0p35 |Circuit 2: sky130_fd_pr__res_xhigh_po_0p35 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_0p35 and sky130_fd_pr__res_xhigh_po_0p35 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_DC3STL in circuit res_seg_3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_C6QFN9 in circuit res_seg_3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_QVBRHU in circuit res_seg_3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_SH7SJB in circuit res_seg_3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_ATZZMR in circuit res_seg_3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_WGDRS6 in circuit res_seg_3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_5MWDXP in circuit res_seg_3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_UHCT9Y in circuit res_seg_3 (0)(1 instance)
+
+Subcircuit summary:
+Circuit 1: res_seg_3                       |Circuit 2: res_seg_3                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_xhigh_po_0p35 (8)        |sky130_fd_pr__res_xhigh_po_0p35 (8)        
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: res_seg_3                       |Circuit 2: res_seg_3                       
+-------------------------------------------|-------------------------------------------
+v8                                         |v8                                         
+v0                                         |v0                                         
+v4                                         |v4                                         
+v5                                         |v5                                         
+v3                                         |v3                                         
+v6                                         |v6                                         
+v2                                         |v2                                         
+v7                                         |v7                                         
+v1                                         |v1                                         
+gnd                                        |gnd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes res_seg_3 and res_seg_3 are equivalent.
+
+Final result: Circuits match uniquely.
+.

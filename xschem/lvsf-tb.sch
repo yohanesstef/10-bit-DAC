@@ -6,14 +6,14 @@ S {}
 E {}
 B 2 200 -760 1000 -360 {flags=graph
 y1=0
-y2=5
+y2=1.8
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.0002451171
-x2=0.00024645666
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -33,8 +33,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.0002451171
-x2=0.00024645666
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -54,8 +54,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.0002451171
-x2=0.00024645666
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -68,15 +68,15 @@ logx=0
 logy=0
 }
 B 2 1000 -1160 1800 -760 {flags=graph
-y1=0
-y2=5
+y1=-1
+y2=4
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.0002451171
-x2=0.00024645666
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -96,8 +96,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.0002451171
-x2=0.00024645666
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -117,8 +117,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.0002451171
-x2=0.00024645666
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -134,7 +134,7 @@ C {devices/simulator_commands.sym} 0 -480 0 0 {name=COMMANDS
 simulator=ngspice
 only_toplevel=false 
 value="  
-  .param max_freq=500e3 period=\{1/max_freq\} time_high=\{period/2\}
+  .param max_freq=100e3 period=\{1/max_freq\} time_high=\{period/2\}
   .param delay_vin1=\{time_high\} delay_vin2=\{time_high*1.5\}
   .param lval=100u
 
@@ -148,7 +148,7 @@ value="
   .control
      reset
      save all
-     tran 1n 1m
+     tran 1n 100u
      write lvsf-tb.raw
      set appendwrite
      

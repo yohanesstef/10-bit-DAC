@@ -1,0 +1,66 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1743275510
+<< metal1 >>
+rect 136 1250 524 1278
+rect 922 1204 1316 1232
+rect 1716 1186 2110 1214
+rect -284 274 104 302
+rect 512 294 906 322
+rect 1320 300 1714 328
+rect 2132 326 2526 354
+use sky130_fd_pr__res_xhigh_po_0p35_DC3STL  XR1
+timestamp 1743275510
+transform 1 0 -291 0 1 785
+box -201 -677 201 677
+use sky130_fd_pr__res_xhigh_po_0p35_C6QFN9  XR2
+timestamp 1743275510
+transform 1 0 111 0 1 779
+box -201 -671 201 671
+use sky130_fd_pr__res_xhigh_po_0p35_QVBRHU  XR3
+timestamp 1743275510
+transform 1 0 513 0 1 775
+box -201 -667 201 667
+use sky130_fd_pr__res_xhigh_po_0p35_SH7SJB  XR4
+timestamp 1743275510
+transform 1 0 915 0 1 771
+box -201 -663 201 663
+use sky130_fd_pr__res_xhigh_po_0p35_ATZZMR  XR5
+timestamp 1743275510
+transform 1 0 1317 0 1 767
+box -201 -659 201 659
+use sky130_fd_pr__res_xhigh_po_0p35_WGDRS6  XR6
+timestamp 1743275510
+transform 1 0 1719 0 1 764
+box -201 -656 201 656
+use sky130_fd_pr__res_xhigh_po_0p35_5MWDXP  XR7
+timestamp 1743275510
+transform 1 0 2121 0 1 762
+box -201 -654 201 654
+use sky130_fd_pr__res_xhigh_po_0p35_UHCT9Y  XR8
+timestamp 1743275510
+transform 1 0 2523 0 1 759
+box -201 -651 201 651
+<< labels >>
+flabel metal1 s -288 1084 -288 1084 0 FreeSans 480 0 0 0 v8
+port 0 nsew
+flabel metal1 s 104 504 104 504 0 FreeSans 480 0 0 0 v7
+port 1 nsew
+flabel metal1 s 506 1052 506 1052 0 FreeSans 480 0 0 0 v6
+port 2 nsew
+flabel metal1 s 914 490 914 490 0 FreeSans 480 0 0 0 v5
+port 3 nsew
+flabel metal1 s 1318 1052 1318 1052 0 FreeSans 480 0 0 0 v4
+port 4 nsew
+flabel metal1 s 1718 488 1718 488 0 FreeSans 480 0 0 0 v3
+port 5 nsew
+flabel metal1 s 2120 1034 2120 1034 0 FreeSans 480 0 0 0 v2
+port 6 nsew
+flabel metal1 s 2514 490 2514 490 0 FreeSans 480 0 0 0 v1
+port 7 nsew
+flabel metal1 s 2526 1030 2526 1030 0 FreeSans 480 0 0 0 v0
+port 8 nsew
+flabel locali s 2454 1340 2592 1374 0 FreeSans 480 0 0 0 gnd
+port 9 nsew
+<< end >>

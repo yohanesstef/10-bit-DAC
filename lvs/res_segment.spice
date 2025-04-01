@@ -1,6 +1,0 @@
-** sch_path: /home/yohanes/10-bit-DAC/xschem/res_segment.sch
-.subckt res_segment out gnd
-*.PININFO out:I gnd:I
-XR1 gnd out gnd sky130_fd_pr__res_high_po_0p35 L=0.5 mult=1 m=1
-.ends
-.end
