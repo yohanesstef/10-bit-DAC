@@ -9,7 +9,7 @@ C {devices/ipin.sym} 330 -310 0 0 {name=p5 lab=vin[0:52]}
 C {devices/opin.sym} 310 -270 0 0 {name=p6 lab=vout[0:16]}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
 C {devices/ipin.sym} 330 -250 0 0 {name=p8 lab=VNB}
-C {devices/ipin.sym} 330 -290 0 0 {name=p12 lab=dec[0:4]}
+C {devices/ipin.sym} 330 -290 0 0 {name=p12 lab=dec[0:3]}
 C {vselector_16b.sym} 680 -130 0 0 {name=x1}
 C {devices/lab_pin.sym} 830 -360 0 1 {name=p2 sig_type=std_logic lab=vout[0:16]}
 C {vselector_16b.sym} 680 -200 0 0 {name=x2}

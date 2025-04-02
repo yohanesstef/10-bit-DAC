@@ -4,16 +4,16 @@ K {}
 V {}
 S {}
 E {}
-B 2 800 -810 1600 -410 {flags=graph
-y1=1.694
-y2=2.724
-ypos1=0
-ypos2=2
+B 2 170 -1150 970 -400 {flags=graph
+y1=-2.0797367
+y2=7.4242633
+ypos1=0.085732681
+ypos2=12.632148
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=1e-07
+x1=-7.3267444e-06
+x2=0.00030577641
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -22,24 +22,24 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-digital=0
+digital=1
 rainbow=1
-color="4 5 6 7 8 9 10 11 12 13 14 15 16 17"
-node="v[0]
-v[1]
-v[2]
-v[3]
-v[4]
-v[5]
-v[6]
-v[7]
-v[8]
-v[9]
-v[10]
-v[11]
-v[12]
-v[13]"}
-B 2 1600 -810 2400 -410 {flags=graph
+color="4 5 6 7 8 9 10 11 12 13 14 15"
+node="d0[0]
+d0[1]
+d0[2]
+d0[3]
+d1[0]
+d1[1]
+d1[2]
+d1[3]
+
+
+d2[3]
+d2[2]
+d2[1]
+d2[0]"}
+B 2 970 -800 1770 -400 {flags=graph
 y1=3.1
 y2=3.8
 ypos1=0
@@ -47,8 +47,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=1e-07
+x1=-7.3267444e-06
+x2=0.00030577641
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -71,72 +71,28 @@ v[48]
 v[49]
 v[50]
 v[51]"}
-B 2 0 -1160 800 -410 {flags=graph
-y1=-2.0797367
-y2=7.4242633
-ypos1=0.033949976
-ypos2=12.706617
-divy=5
-subdivy=1
-unity=1
-x1=-2.1700937e-05
-x2=0.00023429907
-divx=5
-subdivx=1
-xlabmag=1.0
-ylabmag=1.0
-dataset=-1
-unitx=1
-logx=0
-logy=0
-digital=1
-rainbow=1
-color="4 5 6 7 8 9 10 11 12 13 14 15"
-node="d0[0]
-d0[1]
-d0[2]
-d0[3]
-d1[0]
-d1[1]
-d1[2]
-d1[3]
-d2[0]
-d2[1]
-d2[2]
-d2[3]"}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {sky130_fd_pr/corner.sym} 0 -180 0 0 {name=CORNER only_toplevel=true corner=tt}
-C {devices/lab_pin.sym} 540 -270 0 1 {name=p3 sig_type=std_logic lab=v[0:52]}
 C {devices/launcher.sym} 240 -380 0 0 {name=h5
 descr="load tran" 
-tclcommand="xschem raw_read $netlist_dir/res_seg_2-tb.raw tran"
+tclcommand="xschem raw_read $netlist_dir/signal_test-tb.raw tran"
 }
 C {devices/launcher.sym} 430 -380 0 0 {name=h1
 descr="load dc" 
-tclcommand="xschem raw_read $netlist_dir/res_seg_2-tb.raw dc"
+tclcommand="xschem raw_read $netlist_dir/signal_test-tb.raw dc"
 }
 C {devices/launcher.sym} 605 -380 0 0 {name=h2
 descr="Show Raw file" 
-tclcommand="textwindow $netlist_dir/res_seg_1-tb.raw"
+tclcommand="textwindow $netlist_dir/signal_test-tb.raw"
 }
-C {devices/lab_pin.sym} 240 -270 0 0 {name=p16 sig_type=std_logic lab=gnd}
-C {res_seg_2.sym} 390 -270 0 0 {name=x1}
-C {vselector_6b_2v.sym} 390 -180 0 0 {name=x2}
-C {devices/lab_pin.sym} 540 -220 0 1 {name=p1 sig_type=std_logic lab=VH}
-C {devices/lab_pin.sym} 540 -200 0 1 {name=p2 sig_type=std_logic lab=VL}
-C {devices/lab_pin.sym} 240 -220 0 0 {name=p4 sig_type=std_logic lab=v[0:52]}
-C {devices/lab_pin.sym} 240 -200 0 0 {name=p5 sig_type=std_logic lab=d0[0:3]}
-C {devices/lab_pin.sym} 240 -180 0 0 {name=p6 sig_type=std_logic lab=d1[0:3]}
-C {devices/lab_pin.sym} 240 -160 0 0 {name=p7 sig_type=std_logic lab=d3[0:3]}
-C {devices/lab_pin.sym} 240 -140 0 0 {name=p8 sig_type=std_logic lab=gnd}
-C {devices/simulator_commands.sym} 0 -330 0 0 {name=COMMANDS
+C {devices/simulator_commands.sym} 0 -320 0 0 {name=COMMANDS
 simulator=ngspice
 only_toplevel=false 
 value="  
   .option wnflag=1
   .option safecurrents
   ********************Static Voltage Sources***************************
-  Vddh vddh gnd dc 5.5
+  Vddh vddh gnd dc 5
 
   V52 v[52] gnd dc 3.8499
   v0 v[0] gnd dc 0.874109
@@ -171,7 +127,7 @@ value="
      reset
      save all
      tran 1n 500u
-     write res_seg_2-tb.raw
+     write signal_test-tb.raw
      set appendwrite
 *    quit 0
   .endc
