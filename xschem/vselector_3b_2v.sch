@@ -102,6 +102,9 @@ N 900 -160 900 -150 {lab=b[3]}
 N 610 -130 610 -110 {lab=VL}
 N 1080 -130 1080 -110 {lab=VH}
 N 570 -170 610 -170 {lab=VPB}
+N 1490 -200 1490 -180 {lab=VH}
+N 1320 -200 1320 -180 {lab=VL}
+N 1320 -120 1490 -120 {lab=VNB}
 C {devices/ipin.sym} 120 -220 0 0 {name=p5 lab=vin[0:8]}
 C {devices/opin.sym} 100 -160 0 0 {name=p6 lab=VH}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
@@ -446,3 +449,8 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1320 -150 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=16 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1490 -150 0 0 {name=C2 model=cap_mim_m3_1 W=1 L=1 MF=16 spiceprefix=X}
+C {devices/lab_pin.sym} 1320 -200 0 0 {name=p1 sig_type=std_logic lab=VL}
+C {devices/lab_pin.sym} 1490 -200 0 0 {name=p35 sig_type=std_logic lab=VH}
+C {devices/lab_pin.sym} 1320 -120 0 0 {name=p61 sig_type=std_logic lab=VNB}

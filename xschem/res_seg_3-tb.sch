@@ -81,56 +81,6 @@ rainbow=1
 color="4 5"
 node="vl
 vh"}
-B 2 940 -1510 1740 -1110 {flags=graph
-y1=2.24
-y2=4.54
-ypos1=1.0273939
-ypos2=7.8926187
-divy=5
-subdivy=1
-unity=1
-x1=-1.1652279e-06
-x2=9.883477e-05
-divx=5
-subdivx=1
-xlabmag=1.0
-ylabmag=1.0
-dataset=-1
-unitx=1
-logx=0
-logy=0
-digital=0
-rainbow=1
-color="4 5 6"
-node="x2.v4[0]
-x2.v4[1]
-x2.v4[2]"}
-B 2 140 -1510 940 -1110 {flags=graph
-y1=3.2
-y2=6
-ypos1=1.0273939
-ypos2=7.8926187
-divy=5
-subdivy=1
-unity=1
-x1=-1.1652279e-06
-x2=9.883477e-05
-divx=5
-subdivx=1
-xlabmag=1.0
-ylabmag=1.0
-dataset=-1
-unitx=1
-logx=0
-logy=0
-digital=0
-rainbow=1
-color="4 5 6 7 8"
-node="x2.v5[0]
-x2.v5[1]
-x2.v5[2]
-x2.v5[3]
-x2.v5[4]"}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {devices/simulator_commands.sym} 0 -330 0 0 {name=COMMANDS
 simulator=ngspice
