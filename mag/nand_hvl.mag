@@ -1,0 +1,23 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1743671838
+<< metal1 >>
+rect 446 48 926 76
+rect 446 -692 926 -664
+use sky130_fd_sc_hvl__nand2_1  x1 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
+timestamp 1743671589
+transform 1 0 446 0 1 -715
+box -66 -43 546 897
+<< labels >>
+flabel metal1 s 898 66 898 66 0 FreeSans 320 0 0 0 VDDH
+port 0 nsew
+flabel metal1 s 840 -680 840 -680 0 FreeSans 320 0 0 0 GND
+port 1 nsew
+flabel locali s 529 -351 529 -351 0 FreeSans 320 0 0 0 B
+port 2 nsew
+flabel locali s 872 -375 872 -375 0 FreeSans 320 0 0 0 A
+port 3 nsew
+flabel locali s 697 -377 697 -377 0 FreeSans 320 0 0 0 X
+port 4 nsew
+<< end >>
