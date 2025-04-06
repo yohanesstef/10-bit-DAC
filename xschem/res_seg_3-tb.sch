@@ -5,14 +5,14 @@ V {}
 S {}
 E {}
 B 2 140 -710 940 -310 {flags=graph
-y1=3.7
-y2=4.3
+y1=0
+y2=1
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.1652279e-06
+x1=-1.1652277e-06
 x2=9.883477e-05
 divx=5
 subdivx=1
@@ -42,7 +42,7 @@ ypos2=8.5171201
 divy=5
 subdivy=1
 unity=1
-x1=-1.1652279e-06
+x1=-1.1652277e-06
 x2=9.883477e-05
 divx=5
 subdivx=1
@@ -59,14 +59,14 @@ node="b[5]
 b[4]
 b[3]"}
 B 2 940 -1110 1740 -710 {flags=graph
-y1=3.2
-y2=6
+y1=0.94
+y2=1.6
 ypos1=1.0273939
 ypos2=7.8926187
 divy=5
 subdivy=1
 unity=1
-x1=-1.1652279e-06
+x1=-1.1652277e-06
 x2=9.883477e-05
 divx=5
 subdivx=1
@@ -81,6 +81,9 @@ rainbow=1
 color="4 5"
 node="vl
 vh"}
+N 860 -190 860 -170 {lab=VH}
+N 690 -190 690 -170 {lab=VL}
+N 690 -110 860 -110 {lab=gnd}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {devices/simulator_commands.sym} 0 -330 0 0 {name=COMMANDS
 simulator=ngspice
@@ -89,10 +92,11 @@ value="
   .option wnflag=1
   .option safecurrents
   ********************Static Voltage Sources***************************
-  Vddh vddh gnd dc 5
+  Vddh vddh gnd dc 5.5
+  Vpb  vpb  gnd dc 5.5
 
-  V8 v[8] gnd dc 4.2182
-  v0 v[0] gnd dc 3.85
+  V8 v[8] gnd dc 4.719
+  v0 v[0] gnd dc 4.3209
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
   .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
@@ -104,6 +108,10 @@ value="
   Vb3  b[3]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
   Vb4  b[4]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
   Vb5  b[5]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
+
+  Vbb3  bb[3]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
+  Vbb4  bb[4]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
+  Vbb5  bb[5]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
   ********************Simulation Commands*****************************
   .control
      reset
@@ -131,9 +139,14 @@ tclcommand="textwindow $netlist_dir/res_segment.raw"
 C {res_seg_3.sym} 380 -250 0 0 {name=x1}
 C {devices/lab_pin.sym} 230 -250 0 0 {name=p16 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 230 -200 0 0 {name=p1 sig_type=std_logic lab=v[0:8]}
-C {devices/lab_pin.sym} 230 -140 0 0 {name=p2 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 230 -160 0 0 {name=p4 sig_type=std_logic lab=vddh}
+C {devices/lab_pin.sym} 230 -160 0 0 {name=p4 sig_type=std_logic lab=bb[3:5]}
 C {devices/lab_pin.sym} 230 -180 0 0 {name=p5 sig_type=std_logic lab=b[3:5]}
 C {devices/lab_pin.sym} 530 -200 0 1 {name=p7 sig_type=std_logic lab=VH}
 C {devices/lab_pin.sym} 530 -180 0 1 {name=p8 sig_type=std_logic lab=VL}
 C {vselector_3b_2v.sym} 380 -170 0 0 {name=x2}
+C {devices/lab_pin.sym} 230 -140 0 0 {name=p6 sig_type=std_logic lab=vpb}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 690 -140 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=16 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 860 -140 0 0 {name=C2 model=cap_mim_m3_1 W=1 L=1 MF=16 spiceprefix=X}
+C {devices/lab_pin.sym} 690 -190 0 0 {name=p2 sig_type=std_logic lab=VL}
+C {devices/lab_pin.sym} 860 -190 0 0 {name=p35 sig_type=std_logic lab=VH}
+C {devices/lab_pin.sym} 690 -110 0 0 {name=p61 sig_type=std_logic lab=gnd}

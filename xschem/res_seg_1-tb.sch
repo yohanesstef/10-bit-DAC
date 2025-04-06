@@ -12,8 +12,8 @@ ypos2=13.733389
 divy=5
 subdivy=1
 unity=1
-x1=0.00025378574
-x2=0.0003792687
+x1=-8.8716158e-06
+x2=0.00015496839
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -38,15 +38,15 @@ d2[1]
 d2[2]
 d2[3]"}
 B 2 930 -800 2260 -400 {flags=graph
-y1=0.49
-y2=0.96
+y1=-0.23
+y2=0.92
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.00025378574
-x2=0.0003792687
+x1=-8.8716158e-06
+x2=0.00015496839
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -57,24 +57,29 @@ logx=0
 logy=0
 digital=0
 rainbow=1
-color="4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"
+color="4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 21 21 21 21"
 node="v[64]
 v[63]
 v[62]
 v[61]
 v[60]
-v[59]
-v[58]
-v[57]
-v[56]
-v[55]
-v[54]
-v[53]
-v[52]
-v[51]
-v[50]
-v[49]
-v[48]"}
+v[16]
+v[15]
+v[14]
+v[13]
+v[12]
+v[11]
+v[10]
+v[9]
+v[8]
+v[7]
+v[6]
+v[5]
+v[4]
+v[3]
+v[2]
+v[1]
+v[0]"}
 B 2 930 -1150 2260 -800 {flags=graph
 y1=-0.16
 y2=0.99
@@ -83,8 +88,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.00025378574
-x2=0.0003792687
+x1=-8.8716158e-06
+x2=0.00015496839
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -130,7 +135,7 @@ value="
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
 
-  V64 v[64] gnd dc 0.874109
+  V64 v[64] gnd dc 1.0442
   v0 v[0] gnd dc 0
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
@@ -168,3 +173,6 @@ value="
 *    quit 0
   .endc
 "}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 670 -200 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=8 spiceprefix=X}
+C {devices/lab_pin.sym} 670 -170 0 0 {name=p2 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 670 -230 0 0 {name=p9 sig_type=std_logic lab=vout}

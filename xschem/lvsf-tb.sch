@@ -130,6 +130,7 @@ unitx=1
 logx=0
 logy=0
 }
+N 820 -160 900 -160 {lab=gnd}
 C {devices/simulator_commands.sym} 0 -480 0 0 {name=COMMANDS
 simulator=ngspice
 only_toplevel=false 
@@ -180,3 +181,16 @@ C {lvsf.sym} 560 -190 0 0 {name=x1}
 C {devices/lab_pin.sym} 710 -200 0 1 {name=p5 sig_type=std_logic lab=outb}
 C {devices/lab_pin.sym} 410 -200 0 0 {name=p6 sig_type=std_logic lab=inb}
 C {sky130_fd_pr/corner.sym} 10 -330 0 0 {name=CORNER only_toplevel=true corner=tt}
+C {devices/capa.sym} 820 -190 0 0 {name=C1
+m=1
+value=1p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/capa.sym} 900 -190 0 0 {name=C2
+m=1
+value=1p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/lab_pin.sym} 820 -220 0 1 {name=p7 sig_type=std_logic lab=out}
+C {devices/lab_pin.sym} 900 -220 0 1 {name=p8 sig_type=std_logic lab=outb}
+C {devices/lab_pin.sym} 820 -160 0 0 {name=p9 sig_type=std_logic lab=gnd}

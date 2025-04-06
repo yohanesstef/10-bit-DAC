@@ -32,9 +32,3 @@ C {devices/lab_pin.sym} 240 -210 0 0 {name=p11 sig_type=std_logic lab=dec0[0:3]}
 C {devices/lab_pin.sym} 630 -210 0 0 {name=p7 sig_type=std_logic lab=dec1[0:3]}
 C {devices/lab_pin.sym} 1010 -210 0 0 {name=p13 sig_type=std_logic lab=dec2[0:3]}
 C {devices/lab_pin.sym} 240 -170 0 0 {name=p14 sig_type=std_logic lab=VNB}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1430 -200 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=8 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1610 -200 0 0 {name=C2 model=cap_mim_m3_1 W=1 L=1 MF=8 spiceprefix=X}
-C {devices/lab_pin.sym} 1610 -230 2 0 {name=p15 sig_type=std_logic lab=VH}
-C {devices/lab_pin.sym} 1430 -230 2 0 {name=p16 sig_type=std_logic lab=VL}
-C {devices/lab_pin.sym} 1430 -170 0 0 {name=p17 sig_type=std_logic lab=VNB}
-C {devices/lab_pin.sym} 1610 -170 0 0 {name=p18 sig_type=std_logic lab=VNB}

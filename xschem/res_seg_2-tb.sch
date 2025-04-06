@@ -5,15 +5,15 @@ V {}
 S {}
 E {}
 B 2 800 -810 2130 -410 {flags=graph
-y1=1.3
-y2=3.9
+y1=2
+y2=4.4
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-9.6605744e-06
-x2=0.00027189942
+x1=0
+x2=0.0005
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -24,7 +24,7 @@ logx=0
 logy=0
 digital=0
 rainbow=1
-color="4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 4 4 4"
+color="4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"
 node="v[52]
 v[51]
 v[50]
@@ -41,11 +41,7 @@ v[40]
 v[39]
 v[38]
 v[37]
-v[36]
-v[35]
-v[34]
-v[33]
-v[32]"}
+v[36]"}
 B 2 0 -1160 800 -410 {flags=graph
 y1=-2.0797367
 y2=7.4242633
@@ -54,8 +50,8 @@ ypos2=12.706617
 divy=5
 subdivy=1
 unity=1
-x1=-9.6605744e-06
-x2=0.00027189942
+x1=0
+x2=0.0005
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -80,15 +76,15 @@ d2[1]
 d2[2]
 d2[3]"}
 B 2 800 -1160 1450 -810 {flags=graph
-y1=0.229823
-y2=3.9650677
+y1=0.1211923
+y2=5.4999448
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-9.6605744e-06
-x2=0.00027189942
+x1=0
+x2=0.0005
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -102,6 +98,7 @@ rainbow=1
 color="4 5"
 node="vh
 vl"}
+N 690 -120 870 -120 {lab=gnd}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {sky130_fd_pr/corner.sym} 0 -180 0 0 {name=CORNER only_toplevel=true corner=tt}
 C {devices/lab_pin.sym} 540 -270 0 1 {name=p3 sig_type=std_logic lab=v[0:52]}
@@ -134,8 +131,8 @@ value="
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
 
-  V52 v[52] gnd dc 3.8499
-  v0 v[0] gnd dc 0.874109
+  V52 v[52] gnd dc 4.3209
+  v0 v[0] gnd dc 1.0442
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
   .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
@@ -174,3 +171,13 @@ value="
 "}
 C {vselector_6b_2v.sym} 390 -180 0 0 {name=x2}
 C {devices/lab_pin.sym} 540 -200 0 1 {name=p2 sig_type=std_logic lab=VL}
+C {devices/param.sym} 710 -280 0 0 {name=s1 value="
++wp=0.42
++wn=0.42
++l=0.5
+"}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 690 -150 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=4 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 870 -150 0 0 {name=C2 model=cap_mim_m3_1 W=1 L=1 MF=4 spiceprefix=X}
+C {devices/lab_pin.sym} 870 -180 2 0 {name=p15 sig_type=std_logic lab=VH}
+C {devices/lab_pin.sym} 690 -180 2 0 {name=p9 sig_type=std_logic lab=VL}
+C {devices/lab_pin.sym} 690 -120 0 0 {name=p17 sig_type=std_logic lab=gnd}

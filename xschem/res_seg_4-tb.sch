@@ -12,8 +12,8 @@ ypos2=12.950787
 divy=5
 subdivy=1
 unity=1
-x1=0.00031998939
-x2=0.00032003659
+x1=0
+x2=0.0005
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -38,15 +38,15 @@ d2[1]
 d2[2]
 d2[3]"}
 B 2 820 -790 2150 -390 {flags=graph
-y1=4.2
-y2=5.1
+y1=4.8
+y2=5.6
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.00031998939
-x2=0.00032003659
+x1=0
+x2=0.0005
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -57,7 +57,7 @@ logx=0
 logy=0
 digital=0
 rainbow=1
-color="4 5 6 7 8 9 10 11 12 13"
+color="4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19"
 node="v[63]
 v[62]
 v[61]
@@ -67,17 +67,23 @@ v[58]
 v[57]
 v[56]
 v[55]
-v[54]"}
+v[54]
+v[5]
+v[4]
+v[3]
+v[2]
+v[1]
+v[0]"}
 B 2 820 -1140 2150 -790 {flags=graph
-y1=4.1
+y1=4.6
 y2=5.6
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.00031998939
-x2=0.00032003659
+x1=0
+x2=0.0005
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -122,8 +128,8 @@ value="
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
 
-  V63 v[63] gnd dc 5
-  v0 v[0] gnd dc 4.2182
+  V63 v[63] gnd dc 5.5
+  v0 v[0] gnd dc 4.719
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
   .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}

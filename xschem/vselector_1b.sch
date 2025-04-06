@@ -20,11 +20,6 @@ C {devices/opin.sym} 100 -200 0 0 {name=p6 lab=VL}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
 C {devices/ipin.sym} 120 -180 0 0 {name=p8 lab=VNB}
 C {devices/ipin.sym} 120 -240 0 0 {name=p12 lab=DIN}
-C {devices/param.sym} 50 -360 0 0 {name=s1 value="
-+wp=0.42
-+wn=0.42
-+l=0.5
-"}
 C {devices/lab_pin.sym} 300 -290 0 0 {name=p2 sig_type=std_logic lab=vin[0]}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 280 -240 2 1 {name=M1
 L=l
