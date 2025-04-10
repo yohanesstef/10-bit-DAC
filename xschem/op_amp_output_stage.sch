@@ -47,8 +47,8 @@ color="4 5"
 node="in2
 in1"}
 B 2 190 -1550 990 -1150 {flags=graph
-y1=4.2e-08
-y2=5.5
+y1=-23.107292
+y2=-17.607292
 ypos1=0
 ypos2=2
 divy=5

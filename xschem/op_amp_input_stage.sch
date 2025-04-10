@@ -12,8 +12,8 @@ ypos2=2
 divy=5
 subdivy=4
 unity=1
-x1=0
-x2=3e-05
+x1=4.7317405e-06
+x2=5.3408996e-06
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -23,18 +23,18 @@ unitx=1
 logx=0
 logy=0
 color="4 7"
-node="in1
-in2"}
+node="inx
+iny"}
 B 2 2080 -470 3050 -70 {flags=graph
-y1=-0.00062
-y2=0.00065
+y1=-1.2e-08
+y2=1.6e-05
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=3e-05
+x1=4.7317405e-06
+x2=5.3408996e-06
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -62,8 +62,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=3e-05
+x1=4.7317405e-06
+x2=5.3408996e-06
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -78,15 +78,15 @@ outp1
 outn2
 outn1"}
 B 2 2080 -870 3050 -470 {flags=graph
-y1=-0.00062
-y2=0.00065
+y1=-1.2e-08
+y2=1.6e-05
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=3e-05
+x1=4.7317405e-06
+x2=5.3408996e-06
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -106,59 +106,101 @@ i(vmeas7)
 i(vmeas6)
 i(vmeas5)
 i(vmeas4)"}
+B 2 1280 -1270 2080 -870 {flags=graph
+y1=1.0956663e-06
+y2=7.0699936e-06
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=4.7317405e-06
+x2=5.3408996e-06
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color="4 5"
+node="i(vmeas4)
+i(vmeas)"}
+B 2 2070 -1270 2870 -870 {flags=graph
+y1=-1.2e-08
+y2=1.6e-05
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=4.7317405e-06
+x2=5.3408996e-06
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color="4 5"
+node="i(vmeas19)
+i(vmeas18)"}
 N 520 -120 730 -120 {lab=in0}
 N 520 -150 730 -150 {lab=gnd}
 N 620 -120 620 -100 {lab=in0}
 N 380 -200 380 -180 {lab=ip0}
 N 380 -200 870 -200 {lab=ip0}
 N 870 -200 870 -180 {lab=ip0}
-N 340 -160 340 -150 {lab=in1}
-N 340 -160 480 -160 {lab=in1}
-N 480 -160 480 -150 {lab=in1}
-N 770 -160 770 -150 {lab=in2}
-N 770 -160 910 -160 {lab=in2}
-N 910 -160 910 -150 {lab=in2}
+N 340 -160 340 -150 {lab=inx}
+N 340 -160 480 -160 {lab=inx}
+N 480 -160 480 -150 {lab=inx}
+N 770 -160 770 -150 {lab=iny}
+N 770 -160 910 -160 {lab=iny}
+N 910 -160 910 -150 {lab=iny}
 N 520 -260 730 -260 {lab=in1}
 N 520 -290 730 -290 {lab=gnd}
 N 620 -260 620 -240 {lab=in1}
 N 380 -340 380 -320 {lab=ip1}
 N 380 -340 870 -340 {lab=ip1}
 N 870 -340 870 -320 {lab=ip1}
-N 340 -300 340 -290 {lab=in1}
-N 340 -300 480 -300 {lab=in1}
-N 480 -300 480 -290 {lab=in1}
-N 770 -300 770 -290 {lab=in2}
-N 770 -300 910 -300 {lab=in2}
-N 910 -300 910 -290 {lab=in2}
+N 340 -300 340 -290 {lab=inx}
+N 340 -300 480 -300 {lab=inx}
+N 480 -300 480 -290 {lab=inx}
+N 770 -300 770 -290 {lab=iny}
+N 770 -300 910 -300 {lab=iny}
+N 910 -300 910 -290 {lab=iny}
 N 520 -400 730 -400 {lab=in2}
 N 520 -430 730 -430 {lab=gnd}
 N 620 -400 620 -380 {lab=in2}
 N 380 -480 380 -460 {lab=ip2}
 N 380 -480 870 -480 {lab=ip2}
 N 870 -480 870 -460 {lab=ip2}
-N 340 -440 340 -430 {lab=in1}
-N 340 -440 480 -440 {lab=in1}
-N 480 -440 480 -430 {lab=in1}
-N 770 -440 770 -430 {lab=in2}
-N 770 -440 910 -440 {lab=in2}
-N 910 -440 910 -430 {lab=in2}
+N 340 -440 340 -430 {lab=inx}
+N 340 -440 480 -440 {lab=inx}
+N 480 -440 480 -430 {lab=inx}
+N 770 -440 770 -430 {lab=iny}
+N 770 -440 910 -440 {lab=iny}
+N 910 -440 910 -430 {lab=iny}
 N 520 -540 730 -540 {lab=in3}
 N 520 -570 730 -570 {lab=gnd}
 N 620 -540 620 -520 {lab=in3}
 N 380 -620 380 -600 {lab=ip3}
 N 380 -620 870 -620 {lab=ip3}
 N 870 -620 870 -600 {lab=ip3}
-N 340 -580 340 -570 {lab=in1}
-N 340 -580 480 -580 {lab=in1}
-N 480 -580 480 -570 {lab=in1}
-N 770 -580 770 -570 {lab=in2}
-N 770 -580 910 -580 {lab=in2}
-N 910 -580 910 -570 {lab=in2}
+N 340 -580 340 -570 {lab=inx}
+N 340 -580 480 -580 {lab=inx}
+N 480 -580 480 -570 {lab=inx}
+N 770 -580 770 -570 {lab=iny}
+N 770 -580 910 -580 {lab=iny}
+N 910 -580 910 -570 {lab=iny}
 N 970 -140 1210 -140 {lab=outp1}
 N 970 -270 1210 -270 {lab=outp2}
 N 970 -460 1210 -460 {lab=outn1}
 N 970 -600 1210 -600 {lab=outn2}
-C {devices/lab_pin.sym} 340 -160 0 0 {name=p2 sig_type=std_logic lab=in1}
+C {devices/lab_pin.sym} 340 -150 0 0 {name=p2 sig_type=std_logic lab=inx}
 C {devices/lab_pin.sym} 520 -180 0 1 {name=p3 sig_type=std_logic lab=outn01}
 C {devices/lab_pin.sym} 620 -150 0 0 {name=p4 sig_type=std_logic lab=gnd}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
@@ -198,8 +240,8 @@ value="
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
   
-  vin1 in1 gnd sin(\{5.5/2\} \{5.5/2\} 100k)
-  vin2 in2 gnd sin(\{5.5/2\} \{-5.5/2\} 100k)
+  vinx inx gnd sin(\{5.5/2\} \{5.5/2\} 100k)
+  viny iny gnd sin(\{5.5/2\} \{-5.5/2\} 100k)
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
   .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
@@ -268,7 +310,6 @@ device=resistor
 m=1}
 C {devices/lab_pin.sym} 970 -200 0 1 {name=p12 sig_type=std_logic lab=outp01}
 C {devices/lab_pin.sym} 890 -670 0 0 {name=p13 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 910 -160 0 1 {name=p7 sig_type=std_logic lab=in2}
 C {devices/param.sym} 150 -180 0 0 {name=s1 value="
 +wp=3
 +wn=1
@@ -301,7 +342,6 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 340 -300 0 0 {name=p20 sig_type=std_logic lab=in1}
 C {devices/lab_pin.sym} 520 -320 0 1 {name=p21 sig_type=std_logic lab=outn11}
 C {devices/lab_pin.sym} 620 -290 0 0 {name=p22 sig_type=std_logic lab=gnd}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 500 -290 0 0 {name=M5
@@ -339,7 +379,6 @@ C {devices/lab_pin.sym} 870 -290 0 0 {name=p26 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 620 -340 0 0 {name=p27 sig_type=std_logic lab=ip1}
 C {devices/lab_pin.sym} 730 -320 0 0 {name=p28 sig_type=std_logic lab=outn12}
 C {devices/lab_pin.sym} 870 -260 0 0 {name=p29 sig_type=std_logic lab=outp12}
-C {devices/lab_pin.sym} 910 -300 0 1 {name=p30 sig_type=std_logic lab=in2}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} 890 -290 0 1 {name=M7
 L=l
 W=wp
@@ -368,7 +407,6 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 340 -440 0 0 {name=p31 sig_type=std_logic lab=in1}
 C {devices/lab_pin.sym} 520 -460 0 1 {name=p32 sig_type=std_logic lab=outn21}
 C {devices/lab_pin.sym} 620 -430 0 0 {name=p33 sig_type=std_logic lab=gnd}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 500 -430 0 0 {name=M9
@@ -406,7 +444,6 @@ C {devices/lab_pin.sym} 870 -430 0 0 {name=p37 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 620 -480 0 0 {name=p38 sig_type=std_logic lab=ip2}
 C {devices/lab_pin.sym} 730 -460 0 0 {name=p39 sig_type=std_logic lab=outn22}
 C {devices/lab_pin.sym} 870 -400 0 0 {name=p40 sig_type=std_logic lab=outp22}
-C {devices/lab_pin.sym} 910 -440 0 1 {name=p41 sig_type=std_logic lab=in2}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} 890 -430 0 1 {name=M11
 L=l
 W=wp
@@ -435,7 +472,6 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 340 -580 0 0 {name=p42 sig_type=std_logic lab=in1}
 C {devices/lab_pin.sym} 520 -600 0 1 {name=p43 sig_type=std_logic lab=outn31}
 C {devices/lab_pin.sym} 620 -570 0 0 {name=p44 sig_type=std_logic lab=gnd}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 500 -570 0 0 {name=M13
@@ -473,7 +509,6 @@ C {devices/lab_pin.sym} 870 -570 0 0 {name=p48 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 620 -620 0 0 {name=p49 sig_type=std_logic lab=ip3}
 C {devices/lab_pin.sym} 730 -600 0 0 {name=p50 sig_type=std_logic lab=outn32}
 C {devices/lab_pin.sym} 870 -540 0 0 {name=p51 sig_type=std_logic lab=outp32}
-C {devices/lab_pin.sym} 910 -580 0 1 {name=p52 sig_type=std_logic lab=in2}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} 890 -570 0 1 {name=M15
 L=l
 W=wp
@@ -562,3 +597,10 @@ C {devices/lab_pin.sym} 890 -790 0 1 {name=p69 sig_type=std_logic lab=outp1}
 C {devices/lab_pin.sym} 980 -790 0 1 {name=p70 sig_type=std_logic lab=outp2}
 C {devices/lab_pin.sym} 1190 -670 0 1 {name=p71 sig_type=std_logic lab=outn2}
 C {devices/lab_pin.sym} 1100 -670 0 1 {name=p72 sig_type=std_logic lab=outn1}
+C {devices/lab_pin.sym} 340 -290 0 0 {name=p20 sig_type=std_logic lab=inx}
+C {devices/lab_pin.sym} 340 -430 0 0 {name=p31 sig_type=std_logic lab=inx}
+C {devices/lab_pin.sym} 340 -570 0 0 {name=p42 sig_type=std_logic lab=inx}
+C {devices/lab_pin.sym} 910 -570 0 1 {name=p7 sig_type=std_logic lab=iny}
+C {devices/lab_pin.sym} 910 -430 0 1 {name=p30 sig_type=std_logic lab=iny}
+C {devices/lab_pin.sym} 910 -290 0 1 {name=p41 sig_type=std_logic lab=iny}
+C {devices/lab_pin.sym} 910 -150 0 1 {name=p52 sig_type=std_logic lab=iny}

@@ -142,7 +142,7 @@ C {devices/lab_pin.sym} 230 -200 0 0 {name=p1 sig_type=std_logic lab=v[52]}
 C {devices/lab_pin.sym} 230 -120 0 0 {name=p2 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 230 -160 0 0 {name=p5 sig_type=std_logic lab=b[0:3]}
 C {devices/lab_pin.sym} 530 -200 0 1 {name=p7 sig_type=std_logic lab=vout[0:3]}
-C {interpolating_dec_4b.sym} 370 -160 0 0 {name=x2}
+C {interpolating_dec_4b.sym} 380 -160 0 0 {name=x2}
 C {devices/lab_pin.sym} 230 -180 0 0 {name=p6 sig_type=std_logic lab=v[51]}
 C {devices/capa.sym} 710 -160 0 0 {name=C1
 m=1

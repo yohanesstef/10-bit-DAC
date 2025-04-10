@@ -12,8 +12,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0005
+x1=-1.6719566e-05
+x2=0.00030328043
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -50,8 +50,8 @@ ypos2=12.706617
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0005
+x1=-1.6719566e-05
+x2=0.00030328043
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -75,16 +75,16 @@ d2[0]
 d2[1]
 d2[2]
 d2[3]"}
-B 2 800 -1160 1450 -810 {flags=graph
-y1=0.1211923
-y2=5.4999448
+B 2 800 -1190 1640 -810 {flags=graph
+y1=0.047
+y2=4.4
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0005
+x1=-1.6719566e-05
+x2=0.00030328043
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -128,6 +128,7 @@ only_toplevel=false
 value="  
   .option wnflag=1
   .option safecurrents
+  .options reltol=1e-5
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
 
