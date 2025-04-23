@@ -12,8 +12,8 @@ ypos2=2
 divy=5
 subdivy=4
 unity=1
-x1=4.7317405e-06
-x2=5.3408996e-06
+x1=0
+x2=3e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -26,15 +26,15 @@ color="4 7"
 node="inx
 iny"}
 B 2 2080 -470 3050 -70 {flags=graph
-y1=-1.2e-08
-y2=1.6e-05
+y1=-1.3e-08
+y2=1.6e-06
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=4.7317405e-06
-x2=5.3408996e-06
+x1=0
+x2=3e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -43,27 +43,17 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color="4 5 6 7 8 9 10 11 12 13"
-node="i(vmeas18)
-i(vmeas16)
-i(vmeas11)
-i(vmeas10)
-i(vmeas9)
-i(vmeas8)
-i(vmeas3)
-i(vmeas2)
-i(vmeas1)
-i(vmeas)"}
+}
 B 2 1280 -870 2080 -470 {flags=graph
-y1=-0.0012
-y2=5.6
+y1=-0.0013
+y2=5.1
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=4.7317405e-06
-x2=5.3408996e-06
+x1=0
+x2=3e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -78,15 +68,15 @@ outp1
 outn2
 outn1"}
 B 2 2080 -870 3050 -470 {flags=graph
-y1=-1.2e-08
-y2=1.6e-05
+y1=-1.3e-08
+y2=1.6e-06
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=4.7317405e-06
-x2=5.3408996e-06
+x1=0
+x2=3e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -107,15 +97,15 @@ i(vmeas6)
 i(vmeas5)
 i(vmeas4)"}
 B 2 1280 -1270 2080 -870 {flags=graph
-y1=1.0956663e-06
-y2=7.0699936e-06
+y1=-3.6e-09
+y2=1.1e-07
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=4.7317405e-06
-x2=5.3408996e-06
+x1=0
+x2=3e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -127,16 +117,16 @@ logy=0
 color="4 5"
 node="i(vmeas4)
 i(vmeas)"}
-B 2 2070 -1270 2870 -870 {flags=graph
-y1=-1.2e-08
-y2=1.6e-05
+B 2 2080 -1270 3050 -870 {flags=graph
+y1=-1.3e-08
+y2=1.6e-06
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=4.7317405e-06
-x2=5.3408996e-06
+x1=0
+x2=3e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -224,7 +214,7 @@ value="
   .option wnflag=1
   .option safecurrents
   ********************Static Current Sources***************************
-  .param base_current=1u
+  .param base_current=100n
   .param i0=base_current i1=\{2*i0\} i2=\{4*i0\} i3=\{8*i0\}
   Ip0 vddh ip0 i0
   In0 in0  gnd i0
@@ -238,10 +228,11 @@ value="
   Ip3 vddh ip3 i3
   In3 in3  gnd i3
   ********************Static Voltage Sources***************************
-  Vddh vddh gnd dc 5.5
+  .param vh=5.5 vcm=\{vh/2\} va=\{vh/2\}
+  Vddh vddh gnd dc 5.
   
-  vinx inx gnd sin(\{5.5/2\} \{5.5/2\} 100k)
-  viny iny gnd sin(\{5.5/2\} \{-5.5/2\} 100k)
+  vinx inx gnd sin(\{vcm\} \{va\} 100k)
+  viny iny gnd sin(\{vcm\} \{-va\} 100k)
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
   .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
