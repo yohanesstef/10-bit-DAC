@@ -5,15 +5,15 @@ V {}
 S {}
 E {}
 B 2 870 -600 1670 -200 {flags=graph
-y1=5.1e-07
-y2=5.2e-07
+y1=1.7e-07
+y2=1.8e-07
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.5
-x2=2.5
+x1=2.5
+x2=3.5
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -25,15 +25,15 @@ logy=0
 color=21
 node=i(vmeas)}
 B 2 870 -1000 1670 -600 {flags=graph
-y1=2.5e-07
-y2=2.7e-07
+y1=4.5e-08
+y2=8.9e-08
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.5
-x2=2.5
+x1=2.5
+x2=3.5
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -46,15 +46,15 @@ color="4 5"
 node="i(vmeas2)
 i(vmeas1)"}
 B 2 1670 -1000 2470 -600 {flags=graph
-y1=2.5e-07
-y2=2.7e-07
+y1=-9e-12
+y2=1.8e-07
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.5
-x2=2.5
+x1=2.5
+x2=3.5
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -67,15 +67,15 @@ color="4 5"
 node="i(vmeas6)
 i(vmeas5)"}
 B 2 1670 -600 2470 -200 {flags=graph
-y1=0.56
-y2=0.74
+y1=0.53
+y2=0.77
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.5
-x2=2.5
+x1=2.5
+x2=3.5
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -90,15 +90,15 @@ vgn1
 net1
 net3"}
 B 2 870 -1400 1670 -1000 {flags=graph
-y1=4.5
-y2=4.6
+y1=1.7
+y2=3.4
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.5
-x2=2.5
+x1=2.5
+x2=3.5
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -107,8 +107,9 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color=4
-node=vgp1}
+color="4 5"
+node="vp
+vn"}
 N 230 -270 230 -260 {lab=#net1}
 N 270 -230 300 -230 {lab=vgn1}
 N 300 -320 300 -230 {lab=vgn1}
@@ -204,7 +205,7 @@ value="
 
 *  vp vp gnd dc 2.8933
 *  vn vn gnd dc 0
-  vb1 vb1 gnd dc 3.3
+  vb1 vb1 gnd dc 3
   vb2 vb2 gnd dc 2
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
@@ -225,7 +226,7 @@ value="
      reset
      save all
 *     dc ip 4u 6u 0.01u
-     dc vb2 1.5 2.5 0.01
+     dc vb1 2.5 3.5 0.01
 *     tran 0.1n 500n
      write lv_cm-tb.raw
      set appendwrite
@@ -277,12 +278,12 @@ C {devices/lab_pin.sym} 710 -200 2 1 {name=p8 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 710 -390 2 0 {name=p10 sig_type=std_logic lab=vn}
 C {devices/ammeter.sym} 710 -600 0 0 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {devices/ammeter.sym} 710 -300 0 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
-C {devices/param.sym} 140 -1100 0 0 {name=s1 value="
+C {devices/param.sym} 170 -830 0 0 {name=s1 value="
 +l=1
-+wp=3
-+wn=1.5
-+m_cm=8
-+m_fcm=6
++wp=4.8
++wn=1.6
++m_cm=2
++m_fcm=2
 +m_iref=2"}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} 180 -420 0 1 {name=M4
 L=l

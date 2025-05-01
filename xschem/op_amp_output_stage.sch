@@ -12,8 +12,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.4734048e-05
-x2=2.8056363e-05
+x1=-2.4660912e-05
+x2=2.5339088e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -33,8 +33,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.4734048e-05
-x2=2.8056363e-05
+x1=-2.4660912e-05
+x2=2.5339088e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -47,15 +47,15 @@ color="4 5"
 node="in2
 in1"}
 B 2 190 -1550 990 -1150 {flags=graph
-y1=-23.107292
-y2=-17.607292
+y1=4.2e-08
+y2=5.5
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.4734048e-05
-x2=2.8056363e-05
+x1=-2.4660912e-05
+x2=2.5339088e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -75,8 +75,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.4734048e-05
-x2=2.8056363e-05
+x1=-2.4660912e-05
+x2=2.5339088e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -133,28 +133,28 @@ N 1680 -640 1680 -580 {lab=vddh}
 N 1630 -670 1670 -670 {lab=vgp2}
 N 1680 -310 1680 -280 {lab=gnd}
 N 1680 -280 1680 -250 {lab=gnd}
-N 1890 -480 1890 -410 {lab=out}
-N 1890 -510 1900 -510 {lab=#net2}
-N 1900 -520 1900 -510 {lab=#net2}
-N 1900 -540 1900 -520 {lab=#net2}
-N 1890 -540 1900 -540 {lab=#net2}
-N 1890 -380 1900 -380 {lab=#net3}
-N 1900 -380 1900 -350 {lab=#net3}
-N 1890 -350 1900 -350 {lab=#net3}
-N 2040 -450 2100 -450 {lab=load}
-N 2100 -450 2100 -430 {lab=load}
+N 1970 -510 1970 -440 {lab=out}
+N 1970 -540 1980 -540 {lab=#net2}
+N 1980 -550 1980 -540 {lab=#net2}
+N 1980 -570 1980 -550 {lab=#net2}
+N 1970 -570 1980 -570 {lab=#net2}
+N 1970 -410 1980 -410 {lab=#net3}
+N 1980 -410 1980 -380 {lab=#net3}
+N 1970 -380 1980 -380 {lab=#net3}
+N 2120 -480 2180 -480 {lab=out}
+N 2180 -480 2180 -460 {lab=out}
 N 420 -560 630 -560 {lab=in}
 N 420 -590 630 -590 {lab=gnd}
 N 520 -560 520 -540 {lab=in}
 N 280 -640 280 -620 {lab=ip}
 N 280 -640 770 -640 {lab=ip}
 N 770 -640 770 -620 {lab=ip}
-N 240 -600 240 -590 {lab=inx}
-N 240 -600 380 -600 {lab=inx}
-N 380 -600 380 -590 {lab=inx}
-N 670 -600 670 -590 {lab=out}
-N 670 -600 810 -600 {lab=out}
-N 810 -600 810 -590 {lab=out}
+N 240 -600 240 -590 {lab=Vx}
+N 240 -600 380 -600 {lab=Vx}
+N 380 -600 380 -590 {lab=Vx}
+N 670 -600 670 -590 {lab=Vy}
+N 670 -600 810 -600 {lab=Vy}
+N 810 -600 810 -590 {lab=Vy}
 N 1360 -320 1360 -310 {lab=outp1}
 N 1290 -280 1320 -280 {lab=vgn1}
 N 1360 -350 1370 -350 {lab=gnd}
@@ -178,7 +178,43 @@ N 1140 -280 1290 -280 {lab=vgn1}
 N 1110 -350 1320 -350 {lab=vb2}
 N 1110 -610 1320 -610 {lab=vb1}
 N 1170 -470 1260 -470 {lab=vn}
-N 1890 -450 1980 -450 {lab=out}
+N 1970 -480 2060 -480 {lab=out}
+N 510 -310 550 -310 {
+lab=#net4}
+N 330 -360 330 -200 {
+lab=#net4}
+N 330 -360 510 -360 {
+lab=#net4}
+N 330 -140 330 -120 {
+lab=GND}
+N 510 -140 510 -120 {
+lab=GND}
+N 510 -220 590 -220 {
+lab=#net5}
+N 510 -220 510 -200 {
+lab=#net5}
+N 510 -270 550 -270 {
+lab=GND}
+N 510 -270 510 -250 {
+lab=GND}
+N 430 -260 430 -220 {
+lab=#net5}
+N 590 -260 590 -220 {
+lab=#net5}
+N 510 -360 510 -310 {
+lab=#net4}
+N 590 -400 590 -320 {
+lab=Vy}
+N 430 -400 430 -320 {
+lab=Vx}
+N 430 -220 510 -220 {
+lab=#net5}
+N 470 -270 510 -270 {
+lab=GND}
+N 470 -310 510 -310 {
+lab=#net4}
+N 2060 -480 2120 -480 {lab=out}
+N 1860 -480 1970 -480 {lab=out}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
 C {devices/launcher.sym} 260 -730 0 0 {name=h5
 descr="load tran" 
@@ -231,7 +267,8 @@ value="
      save all
      *dc vin 0 5.5 0.001
      *dc Iy 0 1u 0.001u
-     tran 1n 50u
+     *tran 1n 50u
+     ac dec 100 1 10MEG
      write output_stage-tb.raw
      set appendwrite
 *    quit 0
@@ -402,11 +439,11 @@ C {devices/param.sym} 10 -730 0 0 {name=s1 value="
 +l=1
 +wp=3
 +wn=1"}
-C {sky130_fd_pr/pfet_g5v0d10v5.sym} 1870 -510 0 0 {name=M17
+C {sky130_fd_pr/pfet_g5v0d10v5.sym} 1950 -540 0 0 {name=M17
 L=l
-W=wp
+W=6
 nf=1
-mult=12
+mult=2
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -416,11 +453,11 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {sky130_fd_pr/nfet_g5v0d10v5.sym} 1870 -380 0 0 {name=M18
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 1950 -410 0 0 {name=M18
 L=l
-W=wn
+W=2
 nf=1
-mult=12
+mult=2
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -430,28 +467,21 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 1890 -600 0 0 {name=p18 sig_type=std_logic lab=vddh}
-C {devices/lab_pin.sym} 1890 -290 0 0 {name=p20 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 1850 -510 0 0 {name=p22 sig_type=std_logic lab=in1}
-C {devices/lab_pin.sym} 1850 -380 0 0 {name=p25 sig_type=std_logic lab=in2}
-C {devices/lab_pin.sym} 1890 -450 0 1 {name=p26 sig_type=std_logic lab=out}
-C {devices/res.sym} 2010 -450 1 0 {name=R1
-value=10k
-footprint=1206
-device=resistor
-m=1}
-C {devices/lab_pin.sym} 2100 -450 0 1 {name=p27 sig_type=std_logic lab=load}
-C {devices/ammeter.sym} 1890 -570 0 1 {name=Vmeas8 savecurrent=true spice_ignore=0}
-C {devices/ammeter.sym} 1890 -320 0 1 {name=Vmeas9 savecurrent=true spice_ignore=0}
-C {devices/capa.sym} 2100 -400 0 0 {name=C1
+C {devices/lab_pin.sym} 1970 -630 0 0 {name=p18 sig_type=std_logic lab=vddh}
+C {devices/lab_pin.sym} 1970 -320 0 0 {name=p20 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 1930 -540 0 0 {name=p22 sig_type=std_logic lab=in1}
+C {devices/lab_pin.sym} 1930 -410 0 0 {name=p25 sig_type=std_logic lab=in2}
+C {devices/lab_pin.sym} 1970 -480 0 1 {name=p26 sig_type=std_logic lab=out}
+C {devices/ammeter.sym} 1970 -600 0 1 {name=Vmeas8 savecurrent=true spice_ignore=0}
+C {devices/ammeter.sym} 1970 -350 0 1 {name=Vmeas9 savecurrent=true spice_ignore=0}
+C {devices/capa.sym} 2180 -430 0 0 {name=C1
 m=1
 value=1=10p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/lab_pin.sym} 2100 -370 0 0 {name=p28 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 2180 -400 0 0 {name=p28 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 1360 -650 2 1 {name=p21 sig_type=std_logic lab=outn1}
 C {devices/lab_pin.sym} 1360 -320 2 1 {name=p23 sig_type=std_logic lab=outp1}
-C {devices/lab_pin.sym} 240 -600 0 0 {name=p24 sig_type=std_logic lab=inx}
 C {devices/lab_pin.sym} 420 -680 0 1 {name=p29 sig_type=std_logic lab=outn1}
 C {devices/lab_pin.sym} 520 -590 0 0 {name=p30 sig_type=std_logic lab=gnd}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 400 -590 0 0 {name=M11
@@ -489,7 +519,6 @@ C {devices/lab_pin.sym} 770 -590 0 0 {name=p34 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 520 -640 0 0 {name=p35 sig_type=std_logic lab=ip}
 C {devices/lab_pin.sym} 630 -680 0 0 {name=p36 sig_type=std_logic lab=outn2}
 C {devices/lab_pin.sym} 770 -500 0 0 {name=p37 sig_type=std_logic lab=outp2}
-C {devices/lab_pin.sym} 810 -600 0 1 {name=p38 sig_type=std_logic lab=out}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} 790 -590 0 1 {name=M13
 L=l
 W=wp
@@ -618,3 +647,26 @@ C {devices/ammeter.sym} 280 -530 0 0 {name=Vmeas10 savecurrent=true spice_ignore
 C {devices/ammeter.sym} 770 -530 0 0 {name=Vmeas11 savecurrent=true spice_ignore=0}
 C {devices/ammeter.sym} 420 -650 0 0 {name=Vmeas12 savecurrent=true spice_ignore=0}
 C {devices/ammeter.sym} 630 -650 0 0 {name=Vmeas13 savecurrent=true spice_ignore=0}
+C {devices/vcvs.sym} 430 -290 0 1 {name=E1 value=0.5}
+C {devices/vcvs.sym} 590 -290 0 0 {name=E2 value=-0.5}
+C {devices/vsource.sym} 330 -170 0 0 {name=Vdm value="ac 1" savecurrent=false}
+C {devices/vsource.sym} 510 -170 0 0 {name=Vcm value=\{2.75\} savecurrent=false}
+C {devices/gnd.sym} 330 -120 0 0 {name=l5 lab=GND}
+C {devices/gnd.sym} 510 -120 0 0 {name=l6 lab=GND}
+C {devices/gnd.sym} 510 -250 0 0 {name=l7 lab=GND}
+C {devices/lab_wire.sym} 430 -400 0 0 {name=p17 sig_type=std_logic lab=Vx}
+C {devices/lab_wire.sym} 590 -400 0 0 {name=p19 sig_type=std_logic lab=Vy}
+C {devices/lab_wire.sym} 240 -590 0 0 {name=p24 sig_type=std_logic lab=Vx}
+C {devices/lab_wire.sym} 810 -590 0 1 {name=p27 sig_type=std_logic lab=Vy}
+C {devices/capa.sym} 1860 -510 0 0 {name=C2
+m=1
+value=1p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/capa.sym} 1860 -450 2 1 {name=C3
+m=1
+value=1p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/lab_pin.sym} 1860 -540 2 1 {name=p48 sig_type=std_logic lab=OUTNA}
+C {devices/lab_pin.sym} 1860 -420 2 1 {name=p117 sig_type=std_logic lab=OUTPA}
