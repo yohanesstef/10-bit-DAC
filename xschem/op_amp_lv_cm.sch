@@ -5,15 +5,15 @@ V {}
 S {}
 E {}
 B 2 870 -600 1670 -200 {flags=graph
-y1=1.7e-07
-y2=1.8e-07
+y1=1.4e-07
+y2=1.5e-07
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.5
-x2=3.5
+x1=2.8770655
+x2=3.8770655
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -32,8 +32,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.5
-x2=3.5
+x1=2.8770655
+x2=3.8770655
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -53,8 +53,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.5
-x2=3.5
+x1=2.8770655
+x2=3.8770655
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -74,8 +74,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.5
-x2=3.5
+x1=2.8770655
+x2=3.8770655
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -90,15 +90,15 @@ vgn1
 net1
 net3"}
 B 2 870 -1400 1670 -1000 {flags=graph
-y1=1.7
-y2=3.4
+y1=4.5
+y2=5
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.5
-x2=3.5
+x1=2.8770655
+x2=3.8770655
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -107,9 +107,8 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color="4 5"
-node="vp
-vn"}
+color=4
+node=net2}
 N 230 -270 230 -260 {lab=#net1}
 N 270 -230 300 -230 {lab=vgn1}
 N 300 -320 300 -230 {lab=vgn1}
@@ -226,7 +225,7 @@ value="
      reset
      save all
 *     dc ip 4u 6u 0.01u
-     dc vb1 2.5 3.5 0.01
+     dc vb1 2.8 3.8 0.01
 *     tran 0.1n 500n
      write lv_cm-tb.raw
      set appendwrite

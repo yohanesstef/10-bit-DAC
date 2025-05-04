@@ -301,6 +301,11 @@ N 3100 -360 3150 -360 {lab=INVERTING}
 N 2480 -80 2530 -80 {lab=NON_INV}
 N 2480 -220 2530 -220 {lab=NON_INV}
 N 2480 -360 2530 -360 {lab=NON_INV}
+N 2500 -560 2550 -560 {lab=IN[0]}
+N 2500 -720 2550 -720 {lab=IN[1]}
+N 2500 -890 2550 -890 {lab=IN[2]}
+N 2500 -1050 2550 -1050 {lab=IN[3]}
+N 2500 -1210 2550 -1210 {lab=IN[4]}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} -130 50 0 0 {name=M11
 L=l
 W=wn
@@ -1125,3 +1130,8 @@ C {devices/lab_pin.sym} 3150 -360 0 1 {name=p95 sig_type=std_logic lab=INVERTING
 C {devices/lab_pin.sym} 2480 -80 0 0 {name=p96 sig_type=std_logic lab=NON_INV}
 C {devices/lab_pin.sym} 2480 -220 0 0 {name=p97 sig_type=std_logic lab=NON_INV}
 C {devices/lab_pin.sym} 2480 -360 0 0 {name=p98 sig_type=std_logic lab=NON_INV}
+C {devices/lab_pin.sym} 2500 -560 0 0 {name=p99 sig_type=std_logic lab=IN[0]}
+C {devices/lab_pin.sym} 2500 -720 0 0 {name=p100 sig_type=std_logic lab=IN[1]}
+C {devices/lab_pin.sym} 2500 -890 0 0 {name=p101 sig_type=std_logic lab=IN[2]}
+C {devices/lab_pin.sym} 2500 -1050 0 0 {name=p113 sig_type=std_logic lab=IN[3]}
+C {devices/lab_pin.sym} 2500 -1210 0 0 {name=p114 sig_type=std_logic lab=IN[4]}

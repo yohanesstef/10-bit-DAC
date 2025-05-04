@@ -5,15 +5,15 @@ V {}
 S {}
 E {}
 B 2 190 -1240 990 -840 {flags=graph
-y1=1
-y2=1.2
+y1=-0.012
+y2=5.6
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=4
 xlabmag=1.0
@@ -22,20 +22,21 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color="4 5"
+color="4 5 6"
 node="out
-load"
+load
+in[0]"
 }
 B 2 990 -1640 1790 -1240 {flags=graph
-y1=7.8e-08
-y2=7.3e-07
+y1=-2.6e-05
+y2=3.6e-05
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -48,15 +49,15 @@ color="4 5"
 node="i(VM_NB)
 i(VM_NA)"}
 B 2 1790 -1640 2590 -1240 {flags=graph
-y1=5.4
-y2=5.6
+y1=1.6
+y2=6.2
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -72,12 +73,12 @@ ip2
 ip1
 ip0"}
 B 2 990 -2040 1790 -1640 {flags=graph
-ypos1=-0.10638253
-ypos2=1.3638012
+ypos1=-0.2
+ypos2=1.8
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -98,15 +99,15 @@ y1=0
 y2=2
 rainbow=0}
 B 2 990 -1240 1790 -840 {flags=graph
-y1=-3.1e-07
-y2=9.4e-07
+y1=-4.7e-05
+y2=0.00012
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -119,15 +120,15 @@ color="4 5"
 node="i(VM_PA)
 i(VM_PB)"}
 B 2 1790 -1240 2590 -840 {flags=graph
-y1=3.2
-y2=3.3
+y1=-0.49
+y2=4
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -143,15 +144,15 @@ in2
 in1
 in0"}
 B 2 2590 -1240 3390 -840 {flags=graph
-y1=0.75
-y2=4.7
+y1=0.66
+y2=4.8
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -164,15 +165,15 @@ color="4 5"
 node="inc
 ind"}
 B 2 2590 -1640 3390 -1240 {flags=graph
-y1=3.2e-07
-y2=9.7e-06
+y1=-5.9e-05
+y2=0.00011
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -185,15 +186,15 @@ color="4 5"
 node="i(vmeas25)
 i(vmeas26)"}
 B 2 1420 -140 2220 260 {flags=graph
-y1=-5.8e-09
-y2=2.1e-07
+y1=-1.6e-06
+y2=1.4e-06
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -206,15 +207,15 @@ color="4 5"
 node="i(vmeas29)
 i(vmeas28)"}
 B 2 2710 -640 3510 -240 {flags=graph
-y1=8.8287335e-09
-y2=1.1674634e-07
+y1=-6.2e-06
+y2=7e-06
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -227,15 +228,15 @@ color="4 5"
 node="i(vmeas20)
 i(vmeas27)"}
 B 2 2220 -140 3020 260 {flags=graph
-y1=-2.4e-08
-y2=4.1e-06
+y1=-0.00017
+y2=0.00031
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -248,15 +249,15 @@ color="4 5"
 node="i(vmeas30)
 i(vmeas31)"}
 B 2 190 -1640 990 -1240 {flags=graph
-y1=1
-y2=1.1
+y1=0
+y2=5.5
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=4
 xlabmag=1.0
@@ -268,15 +269,15 @@ logy=0
 color=4
 node=in[0]}
 B 2 1790 -2040 2590 -1640 {flags=graph
-y1=4.5079119
-y2=4.5498549
+y1=3.8
+y2=4.6
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -289,35 +290,35 @@ color="4 5"
 node="outnb
 vgp1"}
 B 2 190 -2040 990 -1640 {flags=graph
-y1=1
-y2=1.2
+y1=-0.012
+y2=5.6
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-35
-x2=-4
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
-subdivx=8
+subdivx=4
 xlabmag=1.0
 ylabmag=1.0
 dataset=-1
 unitx=1
-logx=1
+logx=0
 logy=0
 color=4
 node=out}
 B 2 2590 -2040 3390 -1640 {flags=graph
-y1=0.75
-y2=0.92
+y1=0.61
+y2=1.8
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -330,15 +331,15 @@ color="4 5"
 node="OUTP4A
 OUTP4B"}
 B 2 3390 -1240 4190 -840 {flags=graph
-y1=3.6
-y2=3.9
+y1=0.0014
+y2=3.6
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=7.4259637e-05
+x2=7.7702243e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -453,9 +454,9 @@ N 500 -280 500 -260 {lab=in1}
 N 260 -360 260 -340 {lab=ip1}
 N 260 -360 750 -360 {lab=ip1}
 N 750 -360 750 -340 {lab=ip1}
-N 220 -320 220 -310 {lab=IN[1]}
-N 220 -320 360 -320 {lab=IN[1]}
-N 360 -320 360 -310 {lab=IN[1]}
+N 220 -320 220 -310 {lab=IN[0]}
+N 220 -320 360 -320 {lab=IN[0]}
+N 360 -320 360 -310 {lab=IN[0]}
 N 650 -320 650 -310 {lab=out}
 N 650 -320 790 -320 {lab=out}
 N 790 -320 790 -310 {lab=out}
@@ -467,9 +468,9 @@ N 500 -700 500 -680 {lab=in4}
 N 260 -780 260 -760 {lab=ip4}
 N 260 -780 750 -780 {lab=ip4}
 N 750 -780 750 -760 {lab=ip4}
-N 220 -740 220 -730 {lab=IN[4]}
-N 220 -740 360 -740 {lab=IN[4]}
-N 360 -740 360 -730 {lab=IN[4]}
+N 220 -740 220 -730 {lab=IN[0]}
+N 220 -740 360 -740 {lab=IN[0]}
+N 360 -740 360 -730 {lab=IN[0]}
 N 650 -740 650 -730 {lab=out}
 N 650 -740 790 -740 {lab=out}
 N 790 -740 790 -730 {lab=out}
@@ -480,9 +481,9 @@ N 500 -420 500 -400 {lab=in2}
 N 260 -500 260 -480 {lab=ip2}
 N 260 -500 750 -500 {lab=ip2}
 N 750 -500 750 -480 {lab=ip2}
-N 220 -460 220 -450 {lab=IN[2]}
-N 220 -460 360 -460 {lab=IN[2]}
-N 360 -460 360 -450 {lab=IN[2]}
+N 220 -460 220 -450 {lab=IN[0]}
+N 220 -460 360 -460 {lab=IN[0]}
+N 360 -460 360 -450 {lab=IN[0]}
 N 650 -460 650 -450 {lab=out}
 N 650 -460 790 -460 {lab=out}
 N 790 -460 790 -450 {lab=out}
@@ -492,19 +493,19 @@ N 500 -560 500 -540 {lab=in3}
 N 260 -640 260 -620 {lab=ip3}
 N 260 -640 750 -640 {lab=ip3}
 N 750 -640 750 -620 {lab=ip3}
-N 220 -600 220 -590 {lab=IN[3]}
-N 220 -600 360 -600 {lab=IN[3]}
-N 360 -600 360 -590 {lab=IN[3]}
+N 220 -600 220 -590 {lab=IN[0]}
+N 220 -600 360 -600 {lab=IN[0]}
+N 360 -600 360 -590 {lab=IN[0]}
 N 650 -600 650 -590 {lab=out}
 N 650 -600 790 -600 {lab=out}
 N 790 -600 790 -590 {lab=out}
 N 400 -420 500 -420 {lab=in2}
 N 400 -560 500 -560 {lab=in3}
 N 170 -170 220 -170 {lab=IN[0]}
-N 170 -310 220 -310 {lab=IN[1]}
-N 170 -450 220 -450 {lab=IN[2]}
-N 170 -590 220 -590 {lab=IN[3]}
-N 170 -730 220 -730 {lab=IN[4]}
+N 170 -310 220 -310 {lab=IN[0]}
+N 170 -450 220 -450 {lab=IN[0]}
+N 170 -590 220 -590 {lab=IN[0]}
+N 170 -730 220 -730 {lab=IN[0]}
 N 790 -170 840 -170 {lab=out}
 N 790 -310 840 -310 {lab=out}
 N 790 -450 840 -450 {lab=out}
@@ -610,12 +611,12 @@ value="
   .param b3_th=\{b2_th*2\} b3_t=\{b3_th*2\}
   *******Signals**********
   .param vh=1.162 vl=1.044
-  *vin0 in[0] gnd dc pulse(5.5 0 \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
-  vin0 in[0] gnd dc vl
-  Vin1 in[1] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
-  Vin2 in[2] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b1_th\} \{b1_t\})
-  Vin3 in[3] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b2_th\} \{b2_t\})
-  Vin4 in[4] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
+  vin0 in[0] gnd dc pulse(5.5 0 \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
+  *vin0 in[0] gnd dc vl
+  *Vin1 in[1] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
+  *Vin2 in[2] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b1_th\} \{b1_t\})
+  *Vin3 in[3] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b2_th\} \{b2_t\})
+  *Vin4 in[4] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
   ********************Simulation Commands*****************************
   .control
      reset   
@@ -789,7 +790,7 @@ C {devices/launcher.sym} 450 -820 0 0 {name=h1
 descr="load dc" 
 tclcommand="xschem raw_read $netlist_dir/op_amp-tb.raw dc"
 }
-C {devices/launcher.sym} 785 -820 0 0 {name=h2
+C {devices/launcher.sym} 1005 -820 0 0 {name=h2
 descr="Show Raw file" 
 tclcommand="textwindow $netlist_dir/pll-tb.raw"
 }
@@ -1315,12 +1316,16 @@ model=nfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} 170 -170 0 0 {name=p19 sig_type=std_logic lab=IN[0]}
-C {devices/lab_pin.sym} 170 -310 0 0 {name=p22 sig_type=std_logic lab=IN[1]}
-C {devices/lab_pin.sym} 170 -450 0 0 {name=p47 sig_type=std_logic lab=IN[2]}
-C {devices/lab_pin.sym} 170 -590 0 0 {name=p30 sig_type=std_logic lab=IN[3]}
-C {devices/lab_pin.sym} 170 -730 0 0 {name=p49 sig_type=std_logic lab=IN[4]}
+C {devices/lab_pin.sym} 170 -310 0 0 {name=p22 sig_type=std_logic lab=IN[0]}
+C {devices/lab_pin.sym} 170 -450 0 0 {name=p47 sig_type=std_logic lab=IN[0]}
+C {devices/lab_pin.sym} 170 -590 0 0 {name=p119 sig_type=std_logic lab=IN[0]}
+C {devices/lab_pin.sym} 170 -730 0 0 {name=p120 sig_type=std_logic lab=IN[0]}
 C {devices/lab_pin.sym} 840 -170 0 1 {name=p50 sig_type=std_logic lab=out}
 C {devices/lab_pin.sym} 840 -310 0 1 {name=p51 sig_type=std_logic lab=out}
 C {devices/lab_pin.sym} 840 -450 0 1 {name=p53 sig_type=std_logic lab=out}
 C {devices/lab_pin.sym} 840 -590 0 1 {name=p54 sig_type=std_logic lab=out}
 C {devices/lab_pin.sym} 840 -730 0 1 {name=p55 sig_type=std_logic lab=out}
+C {devices/launcher.sym} 800 -820 0 0 {name=h26
+descr="Annotate OP" 
+tclcommand="set show_hidden_texts 1; xschem annotate_op"
+}

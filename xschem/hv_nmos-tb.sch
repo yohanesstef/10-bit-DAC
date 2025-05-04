@@ -5,15 +5,15 @@ V {}
 S {}
 E {}
 B 2 1190 -450 1990 -50 {flags=graph
-y1=-0.8
-y2=1.2
+y1=-0.4
+y2=1.6
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=10e-6
+x1=-5e-07
+x2=9.5e-06
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -51,7 +51,7 @@ N 870 -130 870 -110 {
 lab=GND}
 N 870 -230 870 -190 {
 lab=n}
-C {devices/code_shown.sym} 0 -940 0 0 {name=NGSPICE_CTRL only_toplevel=true 
+C {devices/code_shown.sym} -60 -1010 0 0 {name=NGSPICE_CTRL only_toplevel=true 
 value="
 .option sparse
 .temp 27
@@ -66,6 +66,7 @@ compose l_vec  values 0.5 0.6 0.7 0.8 0.9 1 5 10
 compose vg_vec start= 0 stop=1.5  step=100m
 compose vd_vec start= 0 stop=1.5  step=100m
 compose vb_vec values 0 0.4 0.8 1.2
+
 
 foreach var1 $&l_vec
   alterparam lx=$var1
@@ -134,11 +135,11 @@ C {devices/vsource.sym} 720 -160 2 1 {name=vsb value=\{vbx\}}
 C {devices/lab_wire.sym} 520 -240 0 0 {name=p1 sig_type=std_logic lab=g}
 C {devices/lab_wire.sym} 650 -350 0 0 {name=p2 sig_type=std_logic lab=d}
 C {devices/lab_wire.sym} 720 -240 0 1 {name=p3 sig_type=std_logic lab=b}
-C {devices/code_shown.sym} 710 -940 0 0 {name=NGSPICE_SAVE only_toplevel=true 
+C {devices/code_shown.sym} 720 -940 0 0 {name=NGSPICE_SAVE only_toplevel=true 
 value="
 .save b d g n
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cgsol]
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cgdol]
+.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cgso]
+.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cgdo]
 .save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cdd]
 .save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cgb]
 .save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cgd]
@@ -147,20 +148,20 @@ value="
 .save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[css]
 .save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[gds]
 .save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[gm]
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[gmb]
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[ids]
+.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[gmbs]
+.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[id]
 .save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[l]
 .save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[vgs]
 .save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[vds]
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[vsb]
+*.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[vsb]
 .save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[vth]
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[vdss]
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[fug]
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[sid]
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[sfl]
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cjd]
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cjs]
-.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[rg]
+.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[vdsat]
+*.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[fug]
+*.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[sid]
+*.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[sfl]
+*.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cjd]
+*.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cjs]
+*.save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[rgatemod]
 "}
 C {devices/ccvs.sym} 870 -160 0 0 {name=H4 vnam=vd value=1}
 C {devices/gnd.sym} 870 -110 0 0 {name=l6 lab=GND}
@@ -183,5 +184,5 @@ spiceprefix=X
 C {sky130_fd_pr/corner.sym} -120 -150 0 0 {name=CORNER only_toplevel=false corner=tt}
 C {devices/launcher.sym} 1260 -40 0 0 {name=h5
 descr="load noise" 
-tclcommand="xschem raw_read $netlist_dir/hv_nmos-tb.raw noise"
+tclcommand="xschem raw_read $netlist_dir/hv_nmos.raw noise"
 }
