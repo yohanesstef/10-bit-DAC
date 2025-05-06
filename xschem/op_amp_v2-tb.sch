@@ -5,8 +5,8 @@ V {}
 S {}
 E {}
 B 2 1950 -1140 2620 -750 {flags=graph
-y1=1
-y2=1.2
+y1=-0.036
+y2=5.8
 ypos1=0
 ypos2=2
 divy=5
@@ -22,9 +22,10 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color="4 5"
+color="4 5 6"
 node="out
-load"}
+load
+in[0]"}
 B 2 820 -2150 1620 -1750 {flags=graph
 ypos1=0.1
 ypos2=2.1
@@ -94,8 +95,8 @@ color="4 5"
 node="i(vmeas30)
 i(vmeas32)"}
 B 2 2620 -1710 3420 -1310 {flags=graph
-y1=3.78e-06
-y2=1.908e-05
+y1=-5.4e-06
+y2=8.8e-06
 ypos1=0
 ypos2=2
 divy=5
@@ -392,6 +393,26 @@ logy=0
 color=4
 node=difference
 rainbow=1}
+B 2 20 -2150 820 -1750 {flags=graph
+y1=-24
+y2=110
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=0.0001
+divx=5
+subdivx=8
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=1
+logy=0
+color=4
+node="\\"out db20()\\""}
 P 4 5 490 -90 920 -90 920 -750 490 -750 490 -90 {}
 P 4 5 1420 -1140 2090 -1140 2090 -1660 1420 -1660 1420 -1140 {}
 P 4 5 30 -90 460 -90 460 -750 30 -750 30 -90 {}
@@ -876,18 +897,18 @@ value="
   .param b3_th=\{b2_th*2\} b3_t=\{b3_th*2\}
   *******Signals**********
   .param vh=1.162 vl=1.044
-  *vin0 in[0] gnd dc pulse(5.5 0 \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
-  vin0 in[0] gnd dc vl
-  Vin1 in[1] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
-  Vin2 in[2] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b1_th\} \{b1_t\})
-  Vin3 in[3] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b2_th\} \{b2_t\})
-  Vin4 in[4] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
+  vin0 in[0] gnd dc pulse(5.5 0 \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
+  *vin0 in[0] gnd dc vl
+  *Vin1 in[1] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
+  *Vin2 in[2] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b1_th\} \{b1_t\})
+  *Vin3 in[3] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b2_th\} \{b2_t\})
+  *Vin4 in[4] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
   ********************Simulation Commands*****************************
   .control
      reset
      save all
-     *tran 1n 100u
-     dc vin0 -1 6.5 0.01
+     tran 1n 30u
+     *dc vin0 -1 6.5 0.01
      *dc R2 1.9meg 2.1meg 10
 
      *ac dec 100 1 1e9
@@ -907,7 +928,7 @@ value="
 "}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} 2290 -1480 0 0 {name=M31
 L=l
-W=18
+W=30
 nf=1
 mult=m_out
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -921,7 +942,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 2290 -1350 0 0 {name=M32
 L=l
-W=6
+W=10
 nf=1
 mult=m_out
 ad="'int((nf+1)/2) * W/nf * 0.29'" 

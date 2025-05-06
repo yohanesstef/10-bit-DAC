@@ -51,7 +51,7 @@ N 870 -130 870 -110 {
 lab=GND}
 N 870 -230 870 -190 {
 lab=n}
-C {devices/code_shown.sym} -60 -1010 0 0 {name=NGSPICE_CTRL only_toplevel=true 
+C {devices/code_shown.sym} -130 -1010 0 0 {name=NGSPICE_CTRL only_toplevel=true 
 value="
 .option sparse
 .temp 27
@@ -62,10 +62,10 @@ option numdgt=3
 set wr_singlescale
 set wr_vecnames
 
-compose l_vec  values 0.5 0.6 0.7 0.8 0.9 1 5 10
-compose vg_vec start= 0 stop=1.5  step=100m
-compose vd_vec start= 0 stop=1.5  step=100m
-compose vb_vec values 0 0.4 0.8 1.2
+compose l_vec  values 0.8 1 1.5 2 2.5 3
+compose vg_vec start= 0 stop=3  step=50m
+compose vd_vec start= 0 stop=3  step=50m
+compose vb_vec values 0 0.4 0.8 1.2 2 3
 
 
 foreach var1 $&l_vec
@@ -77,8 +77,9 @@ foreach var1 $&l_vec
       alter vd $var3
       foreach var4 $&vb_vec
         alter vsb $var4
+        let vsb = $var4
 	run 
-	wrdata /home/yohanes/10-bit-DAC/simulations/hv_nmos.txt noise1.all
+	wrdata /home/yohanes/10-bit-DAC/sizing/sweep_sky13_hv_nmos.txt noise1.all vsb
 	destroy all
 	set appendwrite
 	unset set wr_vecnames
