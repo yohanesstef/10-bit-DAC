@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -28,7 +28,7 @@ C {sky130_fd_pr/pfet_g5v0d10v5.sym} 340 -360 0 0 {name=M1
 L=l
 W=wp
 nf=1
-mult=m
+mult=mv
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -47,7 +47,7 @@ C {sky130_fd_pr/nfet_g5v0d10v5.sym} 340 -230 0 0 {name=M2
 L=l
 W=wn
 nf=1
-mult=m
+mult=mv
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 

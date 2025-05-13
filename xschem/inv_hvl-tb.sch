@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,8 +12,8 @@ ypos2=7.4242633
 divy=5
 subdivy=1
 unity=1
-x1=-3.6991369e-05
-x2=1.3008631e-05
+x1=-4.0844636e-05
+x2=9.1553637e-06
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -34,8 +34,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-2.2250447e-05
-x2=2.7749553e-05
+x1=-2.4568202e-05
+x2=2.5431798e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -56,8 +56,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-2.2250447e-05
-x2=2.7749553e-05
+x1=-2.4568202e-05
+x2=2.5431798e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -129,5 +129,5 @@ value="
 "}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 670 -180 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=16 spiceprefix=X}
 C {devices/lab_pin.sym} 670 -150 0 0 {name=p17 sig_type=std_logic lab=gnd}
+C {inv_hvl.sym} 390 -200 0 0 {name=x1 m=2}
 C {devices/ammeter.sym} 640 -220 3 0 {name=Vmeas savecurrent=true spice_ignore=0}
-C {inv_hvl.sym} 390 -200 0 0 {name=x1}

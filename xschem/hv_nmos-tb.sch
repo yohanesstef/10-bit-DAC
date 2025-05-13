@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -136,7 +136,7 @@ C {devices/vsource.sym} 720 -160 2 1 {name=vsb value=\{vbx\}}
 C {devices/lab_wire.sym} 520 -240 0 0 {name=p1 sig_type=std_logic lab=g}
 C {devices/lab_wire.sym} 650 -350 0 0 {name=p2 sig_type=std_logic lab=d}
 C {devices/lab_wire.sym} 720 -240 0 1 {name=p3 sig_type=std_logic lab=b}
-C {devices/code_shown.sym} 720 -940 0 0 {name=NGSPICE_SAVE only_toplevel=true 
+C {devices/code_shown.sym} 730 -940 0 0 {name=NGSPICE_SAVE only_toplevel=true 
 value="
 .save b d g n
 .save @m.xm1.msky130_fd_pr__nfet_g5v0d10v5[cgso]

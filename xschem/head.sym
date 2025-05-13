@@ -1,8 +1,8 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7RC file_version=1.2}
 G {}
 K {type=subcircuit
-format="@name @pinlist @symname m=@m"
-template="name=x1 m=1"
+format="@name @pinlist @symname mv=@mv"
+template="name=x1 mv=1"
 }
 V {}
 S {}
@@ -25,4 +25,4 @@ T {VB2} -125 -14 0 0 0.2 0.2 {}
 T {I_OUT} 125 -34 0 1 0.2 0.2 {}
 T {VDDA} -125 6 0 0 0.2 0.2 {}
 T {VPB} -125 26 0 0 0.2 0.2 {}
-T {m=@m} 44 14 0 0 0.3 0.3 {}
+T {mv=@mv} 44 14 0 0 0.3 0.3 {}

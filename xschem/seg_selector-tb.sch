@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -184,11 +184,11 @@ C {devices/launcher.sym} 575 -400 0 0 {name=h2
 descr="Show Raw file" 
 tclcommand="textwindow $netlist_dir/res_segment.raw"
 }
-C {devices/lab_pin.sym} 250 -290 0 0 {name=p1 sig_type=std_logic lab=b[6:9]}
-C {devices/lab_pin.sym} 250 -90 0 0 {name=p2 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 250 -230 0 0 {name=p5 sig_type=std_logic lab=VS2[0:4]}
-C {devices/lab_pin.sym} 550 -330 0 1 {name=p7 sig_type=std_logic lab=vout[0:4]}
-C {devices/lab_pin.sym} 250 -250 0 0 {name=p6 sig_type=std_logic lab=VS1}
+C {devices/lab_pin.sym} 250 -310 0 0 {name=p1 sig_type=std_logic lab=b[6:9]}
+C {devices/lab_pin.sym} 250 -70 0 0 {name=p2 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 250 -230 0 0 {name=p5 sig_type=std_logic lab=VS2[1:4]}
+C {devices/lab_pin.sym} 550 -350 0 1 {name=p7 sig_type=std_logic lab=vout[0:4]}
+C {devices/lab_pin.sym} 250 -270 0 0 {name=p6 sig_type=std_logic lab=VS1}
 C {devices/capa.sym} 710 -160 0 0 {name=C1
 m=1
 value=100f
@@ -218,12 +218,12 @@ value=100f
 footprint=1206
 device="ceramic capacitor"}
 C {seg_selector.sym} 400 -210 0 0 {name=x3}
-C {devices/lab_pin.sym} 250 -210 0 0 {name=p4 sig_type=std_logic lab=VS3[0:3]}
-C {devices/lab_pin.sym} 250 -110 0 0 {name=p17 sig_type=std_logic lab=vddh}
-C {devices/lab_pin.sym} 250 -190 0 0 {name=p18 sig_type=std_logic lab=VS4}
-C {devices/lab_pin.sym} 250 -270 0 0 {name=p19 sig_type=std_logic lab=bb[6:9]}
-C {devices/lab_pin.sym} 250 -130 0 0 {name=p3 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 250 -170 0 0 {name=p16 sig_type=std_logic lab=vdd}
+C {devices/lab_pin.sym} 250 -210 0 0 {name=p4 sig_type=std_logic lab=VS3[0]}
+C {devices/lab_pin.sym} 250 -90 0 0 {name=p17 sig_type=std_logic lab=vddh}
+C {devices/lab_pin.sym} 250 -170 0 0 {name=p18 sig_type=std_logic lab=VS4}
+C {devices/lab_pin.sym} 250 -290 0 0 {name=p19 sig_type=std_logic lab=bb[6:9]}
+C {devices/lab_pin.sym} 250 -110 0 0 {name=p3 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 250 -150 0 0 {name=p16 sig_type=std_logic lab=vdd}
 C {devices/code.sym} 0 -190 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
@@ -239,6 +239,8 @@ m=1
 value=100f
 footprint=1206
 device="ceramic capacitor"}
-C {devices/lab_pin.sym} 250 -150 0 0 {name=p22 sig_type=std_logic lab=vddh}
-C {devices/lab_pin.sym} 250 -330 0 0 {name=p23 sig_type=std_logic lab=vpbias}
-C {devices/lab_pin.sym} 250 -310 0 0 {name=p24 sig_type=std_logic lab=vnbias}
+C {devices/lab_pin.sym} 250 -130 0 0 {name=p22 sig_type=std_logic lab=vddh}
+C {devices/lab_pin.sym} 250 -350 0 0 {name=p23 sig_type=std_logic lab=vpbias}
+C {devices/lab_pin.sym} 250 -330 0 0 {name=p24 sig_type=std_logic lab=vnbias}
+C {devices/lab_pin.sym} 250 -250 0 0 {name=p25 sig_type=std_logic lab=VS2[0]}
+C {devices/lab_pin.sym} 250 -190 0 0 {name=p26 sig_type=std_logic lab=VS3[1:3]}

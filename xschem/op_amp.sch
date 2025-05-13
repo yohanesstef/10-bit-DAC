@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -14,8 +14,8 @@ C {devices/ipin.sym} -160 -170 0 0 {name=p88 lab=VPB}
 C {devices/ipin.sym} -160 -190 0 0 {name=p89 lab=GNDA}
 C {devices/ipin.sym} -160 -150 0 0 {name=p90 lab=VNB}
 C {devices/ipin.sym} -160 -270 0 0 {name=p140 lab=N_IN[0:4]}
-C {head.sym} 660 -750 0 0 {name=x7 m=2}
-C {head.sym} 660 -660 0 0 {name=x8 m=2}
+C {head.sym} 660 -750 0 0 {name=x7 mv=2}
+C {head.sym} 660 -660 0 0 {name=x8 mv=2}
 C {devices/lab_pin.sym} 510 -780 0 0 {name=p22 sig_type=std_logic lab=VHEAD1}
 C {devices/lab_pin.sym} 510 -760 0 0 {name=p23 sig_type=std_logic lab=VHEAD2}
 C {devices/lab_pin.sym} 510 -740 0 0 {name=p24 sig_type=std_logic lab=VDDA}
@@ -41,14 +41,14 @@ C {devices/lab_pin.sym} 810 -690 0 1 {name=p72 sig_type=std_logic lab=I_HEAD1}
 C {devices/lab_pin.sym} 810 -600 0 1 {name=p73 sig_type=std_logic lab=I_HEAD2}
 C {devices/lab_pin.sym} 810 -510 0 1 {name=p74 sig_type=std_logic lab=I_HEAD3}
 C {devices/lab_pin.sym} 810 -420 0 1 {name=p75 sig_type=std_logic lab=I_HEAD4}
-C {head.sym} 660 -570 0 0 {name=x9 m=4}
-C {head.sym} 660 -480 0 0 {name=x10 m=8}
-C {head.sym} 660 -390 0 0 {name=x11 m=16}
-C {tail.sym} 1170 -750 0 0 {name=x12 m=2}
-C {tail.sym} 1170 -660 0 0 {name=x13 m=2}
-C {tail.sym} 1170 -570 0 0 {name=x14 m=4}
-C {tail.sym} 1170 -480 0 0 {name=x15 m=8}
-C {tail.sym} 1170 -390 0 0 {name=x16 m=16}
+C {head.sym} 660 -570 0 0 {name=x9 mv=4}
+C {head.sym} 660 -480 0 0 {name=x10 mv=8}
+C {head.sym} 660 -390 0 0 {name=x11 mv=16}
+C {tail.sym} 1170 -750 0 0 {name=x12 mv=2}
+C {tail.sym} 1170 -660 0 0 {name=x13 mv=2}
+C {tail.sym} 1170 -570 0 0 {name=x14 mv=4}
+C {tail.sym} 1170 -480 0 0 {name=x15 mv=8}
+C {tail.sym} 1170 -390 0 0 {name=x16 mv=16}
 C {devices/lab_pin.sym} 1020 -780 0 0 {name=p43 sig_type=std_logic lab=VTAIL1}
 C {devices/lab_pin.sym} 1020 -760 0 0 {name=p44 sig_type=std_logic lab=VTAIL2}
 C {devices/lab_pin.sym} 1020 -740 0 0 {name=p45 sig_type=std_logic lab=GNDA}
