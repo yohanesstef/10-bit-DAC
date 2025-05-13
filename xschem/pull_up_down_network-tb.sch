@@ -66,7 +66,7 @@ color=4
 node=out}
 N 830 -250 900 -250 {lab=out}
 N 900 -250 900 -230 {lab=out}
-N 900 -170 900 -110 {lab=gnd}
+N 900 -170 900 -110 {lab=vddh}
 C {devices/launcher.sym} 270 -340 0 0 {name=h5
 descr="load tran" 
 tclcommand="xschem raw_read $netlist_dir/inv-tb.raw tran"
@@ -103,7 +103,7 @@ value="
   Vp vpbias gnd dc 3.9946
   Vn vnbias gnd dc 1.2271
   
-  .param vdata=0 vldata=0
+  .param vdata=5.5 vldata=5.5
   v0 v[0] gnd dc vdata
   v1 v[1] gnd dc vdata
   v2 v[2] gnd dc vdata
@@ -127,10 +127,10 @@ value="
   .control
      reset
      save all
-     dc vp 0 5.5 0.001
+     dc vn 0 5.5 0.01
      write pull-tb.raw
      set appendwrite
 *    quit 0
   .endc
 "}
-C {devices/lab_pin.sym} 900 -110 0 0 {name=p10 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 900 -110 0 0 {name=p10 sig_type=std_logic lab=vddh}

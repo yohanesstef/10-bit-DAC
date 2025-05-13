@@ -1,0 +1,8 @@
+** sch_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_1_logic.sch
+.subckt seg_selector_1_logic bb[6] bb[7] bb[8] bb[9] S VDD GND
+*.PININFO S:O GND:I VDD:I bb[6:9]:I
+x1 bb[9] bb[8] GND GND VDD VDD net2 sky130_fd_sc_hd__nand2_1
+x3 net2 net1 GND GND VDD VDD S sky130_fd_sc_hd__nor2_1
+x2 bb[7] bb[6] GND GND VDD VDD net1 sky130_fd_sc_hd__nand2_1
+.ends
+.end

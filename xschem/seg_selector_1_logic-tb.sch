@@ -7,13 +7,13 @@ E {}
 B 2 140 -710 940 -310 {flags=graph
 y1=0
 y2=5.5
-ypos1=0.44785861
-ypos2=3.4124089
+ypos1=0.2996311
+ypos2=3.2641814
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=9.9927756e-06
+x2=1.0014351e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -31,31 +31,6 @@ b[7]
 b[6]
 s"}
 B 2 940 -710 1740 -310 {flags=graph
-y1=-4.7839343
-y2=6.6822441
-ypos1=0.56976454
-ypos2=8.5171201
-divy=5
-subdivy=1
-unity=1
-x1=0
-x2=0.0001
-divx=5
-subdivx=1
-xlabmag=1.0
-ylabmag=1.0
-dataset=-1
-unitx=1
-logx=0
-logy=0
-digital=1
-rainbow=1
-color="4 5 6 7"
-node="b[3]
-b[2]
-b[1]
-b[0]"}
-B 2 940 -1110 1740 -710 {flags=graph
 y1=-0.00019
 y2=1.9
 ypos1=3.2255203
@@ -63,8 +38,8 @@ ypos2=4.9596586
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=9.9927756e-06
+x2=1.0014351e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -77,6 +52,28 @@ digital=0
 rainbow=1
 color=15
 node=s}
+B 2 140 -1110 940 -710 {flags=graph
+y1=-0.00035
+y2=7.9e-05
+ypos1=3.2255203
+ypos2=4.9596586
+divy=5
+subdivy=1
+unity=1
+x1=9.9927756e-06
+x2=1.0014351e-05
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+digital=0
+rainbow=1
+color=4
+node=i(vmeas)}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {devices/simulator_commands.sym} 0 -330 0 0 {name=COMMANDS
 simulator=ngspice
@@ -114,7 +111,6 @@ value="
 *    quit 0
   .endc
 "}
-C {sky130_fd_pr/corner.sym} 0 -180 0 0 {name=CORNER only_toplevel=true corner=tt}
 C {devices/launcher.sym} 210 -290 0 0 {name=h5
 descr="load tran" 
 tclcommand="xschem raw_read $netlist_dir/seg_sel_1_logic-tb.raw tran"
@@ -128,14 +124,22 @@ descr="Show Raw file"
 tclcommand="textwindow $netlist_dir/res_segment.raw"
 }
 C {devices/lab_pin.sym} 230 -140 0 0 {name=p2 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 530 -180 0 1 {name=p7 sig_type=std_logic lab=S}
 C {devices/lab_pin.sym} 230 -180 0 0 {name=p6 sig_type=std_logic lab=bb[6:9]}
-C {devices/capa.sym} 710 -160 0 0 {name=C1
+C {devices/capa.sym} 590 -150 0 0 {name=C1
 m=1
 value=1p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/lab_pin.sym} 710 -190 0 1 {name=p8 sig_type=std_logic lab=S}
-C {devices/lab_pin.sym} 710 -130 0 0 {name=p9 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 590 -180 0 1 {name=p8 sig_type=std_logic lab=S}
+C {devices/lab_pin.sym} 590 -120 0 0 {name=p9 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 230 -160 0 0 {name=p3 sig_type=std_logic lab=vdd}
 C {seg_selector_1_logic.sym} 380 -160 0 0 {name=x1}
+C {devices/ammeter.sym} 560 -180 3 0 {name=Vmeas savecurrent=true spice_ignore=0}
+C {devices/code.sym} 0 -180 0 0 {name=TT_MODELS
+only_toplevel=true
+format="tcleval(@value )"
+value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
+.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
+"
+spice_ignore=false
+place=header}

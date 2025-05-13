@@ -24,7 +24,7 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-}
+sim_type=noise}
 N 650 -210 650 -110 {
 lab=GND}
 N 650 -240 720 -240 {

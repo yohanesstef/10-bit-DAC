@@ -12,17 +12,14 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=-3.7607969e-07
+x2=9.9623931e-05
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
-node="vout[3]
-vout[2]
-vout[1]
-vout[0]"
-color="4 19 6 7"
+node=vout[0]
+color=4
 dataset=-1
 unitx=1
 logx=0
@@ -31,13 +28,13 @@ logy=0
 B 2 810 -790 1610 -390 {flags=graph
 y1=-0.0012
 y2=5.6
-ypos1=0.14090657
-ypos2=4.9432354
+ypos1=-0.57944276
+ypos2=4.2228862
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=-3.7607969e-07
+x2=9.9623931e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -46,9 +43,13 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color="4 5"
+color="4 5 6 7 8 9"
 node="b[1]
-b[0]"
+b[0]
+vout[3]
+vout[2]
+vout[1]
+vout[0]"
 digital=1}
 B 2 10 -1190 810 -790 {flags=graph
 y1=-6.2370432e-05
@@ -58,8 +59,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=-3.7607969e-07
+x2=9.9623931e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -71,8 +72,31 @@ logy=0
 digital=0
 color=10
 node=i(vmeas)}
+B 2 810 -1190 1610 -790 {flags=graph
+y1=-0.0012
+y2=5.6
+ypos1=-0.57944276
+ypos2=4.2228862
+divy=5
+subdivy=1
+unity=1
+x1=-3.7607969e-07
+x2=9.9623931e-05
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+digital=1
+color="4 5 6 7"
+node="x1.din[3]
+x1.din[2]
+x1.din[1]
+x1.din[0]"}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
-C {sky130_fd_pr/corner.sym} 0 -180 0 0 {name=CORNER only_toplevel=true corner=tt}
 C {devices/launcher.sym} 210 -370 0 0 {name=h5
 descr="load tran" 
 tclcommand="xschem raw_read $netlist_dir/dec-tb.raw tran"
@@ -87,9 +111,9 @@ tclcommand="textwindow $netlist_dir/res_seg_4-tb.raw"
 }
 C {devices/lab_pin.sym} 240 -130 0 0 {name=p16 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 240 -190 0 0 {name=p5 sig_type=std_logic lab=b[0:1]}
-C {devices/lab_pin.sym} 180 -170 0 0 {name=p8 sig_type=std_logic lab=vdd}
+C {devices/lab_pin.sym} 230 -330 0 0 {name=p8 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 540 -230 0 1 {name=p1 sig_type=std_logic lab=vout[0:3]}
-C {devices/simulator_commands.sym} 10 -320 0 0 {name=COMMANDS
+C {devices/simulator_commands.sym} 0 -320 0 0 {name=COMMANDS
 simulator=ngspice
 only_toplevel=false 
 value="  
@@ -99,7 +123,7 @@ value="
   Vddh vddh gnd dc 5.5
   Vdd vdd gnd dc 1.8
 
-  .param vpb_val = 2.98 vnb_val=1.508
+  .param vpb_val = 2.98 vnb_val=1.506
   Vp vpbias gnd dc vpb_val
   Vn vnbias gnd dc vnb_val
   ********************Dynamic Voltage Sources***************************
@@ -116,6 +140,9 @@ value="
   .param vhi=1.8
   Vin1 b[0] gnd pulse(0 \{vhi\} \{0\} 1p 1p \{10u\} \{20u\})
   Vin2 b[1] gnd pulse(0 \{vhi\} \{0\} 1p 1p \{20u\} \{40u\})
+
+  *Vin1 b[0] gnd 0
+  *vin2 b[1] gnd 0
   ********************Simulation Commands*****************************
   .control
      reset
@@ -128,7 +155,6 @@ value="
 "}
 C {devices/lab_pin.sym} 700 -100 0 0 {name=p17 sig_type=std_logic lab=gnd}
 C {devices/ammeter.sym} 700 -190 0 0 {name=Vmeas savecurrent=true spice_ignore=0}
-C {decoder_2to4.sym} 390 -180 0 0 {name=x1}
 C {devices/lab_pin.sym} 700 -220 0 1 {name=p2 sig_type=std_logic lab=vout[0]}
 C {devices/lab_pin.sym} 800 -100 0 0 {name=p3 sig_type=std_logic lab=gnd}
 C {devices/ammeter.sym} 800 -190 0 0 {name=Vmeas1 savecurrent=true spice_ignore=0}
@@ -146,7 +172,7 @@ C {devices/ammeter.sym} 1000 -190 0 0 {name=Vmeas3 savecurrent=true spice_ignore
 C {devices/lab_pin.sym} 1000 -220 0 1 {name=p10 sig_type=std_logic lab=vout[3]}
 C {devices/lab_pin.sym} 240 -230 0 0 {name=p11 sig_type=std_logic lab=vpbias}
 C {devices/lab_pin.sym} 240 -210 0 0 {name=p12 sig_type=std_logic lab=vnbias}
-C {devices/lab_pin.sym} 180 -150 0 0 {name=p13 sig_type=std_logic lab=vddh}
+C {devices/lab_pin.sym} 320 -330 0 0 {name=p13 sig_type=std_logic lab=vddh}
 C {devices/capa.sym} 800 -130 0 0 {name=C1
 m=1
 value=100f
@@ -162,5 +188,18 @@ m=1
 value=100f
 footprint=1206
 device="ceramic capacitor"}
-C {devices/ammeter.sym} 210 -150 3 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
-C {devices/ammeter.sym} 210 -170 3 0 {name=Vmeas5 savecurrent=true spice_ignore=0}
+C {devices/ammeter.sym} 230 -300 0 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
+C {devices/ammeter.sym} 320 -300 0 0 {name=Vmeas5 savecurrent=true spice_ignore=0}
+C {devices/code.sym} 0 -170 0 0 {name=TT_MODELS
+only_toplevel=true
+format="tcleval(@value )"
+value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
+.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
+"
+spice_ignore=false
+place=header}
+C {devices/lab_pin.sym} 240 -170 0 0 {name=p14 sig_type=std_logic lab=vdd2}
+C {devices/lab_pin.sym} 240 -150 0 0 {name=p15 sig_type=std_logic lab=vddh2}
+C {devices/lab_pin.sym} 230 -270 0 0 {name=p18 sig_type=std_logic lab=vdd2}
+C {devices/lab_pin.sym} 320 -270 0 0 {name=p19 sig_type=std_logic lab=vddh2}
+C {decoder_2to4_low.sym} 390 -180 0 0 {name=x1}

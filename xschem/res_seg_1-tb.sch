@@ -4,7 +4,7 @@ K {}
 V {}
 S {}
 E {}
-B 2 130 -1150 930 -400 {flags=graph
+B 2 110 -1360 910 -610 {flags=graph
 y1=-2.0797367
 y2=7.4242633
 ypos1=-1.0104347
@@ -12,8 +12,8 @@ ypos2=13.733389
 divy=5
 subdivy=1
 unity=1
-x1=-8.8716158e-06
-x2=0.00015496839
+x1=0
+x2=0.00035
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -37,16 +37,16 @@ d2[0]
 d2[1]
 d2[2]
 d2[3]"}
-B 2 930 -800 2260 -400 {flags=graph
+B 2 910 -1010 2240 -610 {flags=graph
 y1=-0.23
-y2=0.92
+y2=1.1
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-8.8716158e-06
-x2=0.00015496839
+x1=0
+x2=0.00035
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -80,16 +80,16 @@ v[3]
 v[2]
 v[1]
 v[0]"}
-B 2 930 -1150 2260 -800 {flags=graph
-y1=-0.16
-y2=0.99
+B 2 910 -1360 2240 -1010 {flags=graph
+y1=-0.15
+y2=1.2
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-8.8716158e-06
-x2=0.00015496839
+x1=0
+x2=0.00035
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -102,30 +102,66 @@ digital=0
 rainbow=1
 color=4
 node=vout}
+B 2 2240 -1010 3570 -610 {flags=graph
+y1=-0.0079
+y2=1.1
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=0.00035
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+digital=0
+rainbow=1
+color="4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19"
+node="x2.vout1[15]
+x2.vout1[14]
+x2.vout1[13]
+x2.vout1[12]
+x2.vout1[11]
+x2.vout1[10]
+x2.vout1[9]
+x2.vout1[8]
+x2.vout1[7]
+x2.vout1[6]
+x2.vout1[5]
+x2.vout1[4]
+x2.vout1[3]
+x2.vout1[2]
+x2.vout1[1]
+x2.vout1[0]"}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
-C {sky130_fd_pr/corner.sym} 0 -180 0 0 {name=CORNER only_toplevel=true corner=tt}
-C {devices/lab_pin.sym} 520 -320 0 1 {name=p3 sig_type=std_logic lab=v[0:64]}
-C {devices/launcher.sym} 240 -370 0 0 {name=h5
+C {devices/lab_pin.sym} 1020 -320 0 1 {name=p3 sig_type=std_logic lab=v[0:64]}
+C {devices/launcher.sym} 220 -580 0 0 {name=h5
 descr="load tran" 
 tclcommand="xschem raw_read $netlist_dir/res_seg_1-tb.raw tran"
 }
-C {devices/launcher.sym} 430 -370 0 0 {name=h1
+C {devices/launcher.sym} 410 -580 0 0 {name=h1
 descr="load dc" 
 tclcommand="xschem raw_read $netlist_dir/res_seg_1-tb.raw dc"
 }
-C {devices/launcher.sym} 605 -370 0 0 {name=h2
+C {devices/launcher.sym} 585 -580 0 0 {name=h2
 descr="Show Raw file" 
 tclcommand="textwindow $netlist_dir/res_seg_1-tb.raw"
 }
-C {devices/lab_pin.sym} 220 -320 0 0 {name=p16 sig_type=std_logic lab=gnd}
-C {res_seg_1.sym} 370 -320 0 0 {name=x1}
-C {vselector_6b_1v.sym} 380 -190 0 0 {name=x2}
-C {devices/lab_pin.sym} 230 -230 0 0 {name=p4 sig_type=std_logic lab=v[0:63]}
-C {devices/lab_pin.sym} 230 -210 0 0 {name=p5 sig_type=std_logic lab=d0[0:3]}
-C {devices/lab_pin.sym} 230 -190 0 0 {name=p6 sig_type=std_logic lab=d1[0:3]}
-C {devices/lab_pin.sym} 230 -170 0 0 {name=p7 sig_type=std_logic lab=d2[0:3]}
-C {devices/lab_pin.sym} 230 -150 0 0 {name=p8 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 530 -230 0 1 {name=p1 sig_type=std_logic lab=vout}
+C {devices/lab_pin.sym} 720 -320 0 0 {name=p16 sig_type=std_logic lab=gnd}
+C {res_seg_1.sym} 870 -320 0 0 {name=x1}
+C {vselector_6b_1v.sym} 880 -190 0 0 {name=x2}
+C {devices/lab_pin.sym} 730 -230 0 0 {name=p4 sig_type=std_logic lab=v[0:63]}
+C {devices/lab_pin.sym} 730 -210 0 0 {name=p5 sig_type=std_logic lab=d0[0:3]}
+C {devices/lab_pin.sym} 730 -190 0 0 {name=p6 sig_type=std_logic lab=d1[0:3]}
+C {devices/lab_pin.sym} 730 -170 0 0 {name=p7 sig_type=std_logic lab=d2[0:3]}
+C {devices/lab_pin.sym} 730 -150 0 0 {name=p8 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 1030 -230 0 1 {name=p1 sig_type=std_logic lab=vout}
 C {devices/simulator_commands.sym} 0 -320 0 0 {name=COMMANDS
 simulator=ngspice
 only_toplevel=false 
@@ -134,45 +170,80 @@ value="
   .option safecurrents
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
+  Vdd vdd gnd dc 1.8
+
+  .param vpb_val = 2.98 vnb_val=1.506
+  Vp vpbias gnd dc vpb_val
+  Vn vnbias gnd dc vnb_val
 
   V64 v[64] gnd dc 1.0442
   v0 v[0] gnd dc 0
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
   .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
-  .param d2_th =\{base_th\} d2_t=\{d1_th\} 
-  .param d1_th =\{4*d2_th\} d1_t=\{d0_th\} 
-  .param d0_th =\{4*d1_th\} d0_t=\{4*d0_th\}
-
-  .param d20_d =\{0\} d21_d=\{1*d2_th\} d22_d=\{2*d2_th\} d23_d=\{3*d2_th\}
-  .param d10_d =\{0\} d11_d=\{1*d1_th\} d12_d=\{2*d1_th\} d13_d=\{3*d1_th\}
-  .param d00_d =\{0\} d01_d=\{1*d0_th\} d02_d=\{2*d0_th\} d03_d=\{3*d0_th\}
+  .param b3_th=\{base_th\} b3_t=\{b3_th*2\}
+  .param b4_th=\{b3_th*2\} b4_t=\{b4_th*2\}
+  .param b5_th=\{b4_th*2\} b5_t=\{b5_th*2\}
+  .param b6_th=\{b5_th*2\} b6_t=\{b6_th*2\}
+  .param b7_th=\{b6_th*2\} b7_t=\{b7_th*2\}
+  .param b8_th=\{b7_th*2\} b8_t=\{b8_th*2\}
   *******Signals**********
-  .param vhi=5.5
-  Vd00 d0[0] gnd pulse(0 \{vhi\} \{d00_d\} 1n 1n \{d0_th\} \{d0_t\})
-  Vd01 d0[1] gnd pulse(0 \{vhi\} \{d01_d\} 1n 1n \{d0_th\} \{d0_t\})
-  Vd02 d0[2] gnd pulse(0 \{vhi\} \{d02_d\} 1n 1n \{d0_th\} \{d0_t\})
-  Vd03 d0[3] gnd pulse(0 \{vhi\} \{d03_d\} 1n 1n \{d0_th\} \{d0_t\})
+  .param vhi=1.8
+  Vb3  b[0]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
+  Vb4  b[1]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
+  Vb5  b[2]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
+  Vb6  b[3]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b6_th\} \{b6_t\})
+  Vb7  b[4]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b7_th\} \{b7_t\})
+  Vb8  b[5]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b8_th\} \{b8_t\})
 
-  Vd10 d1[0] gnd pulse(0 \{vhi\} \{d10_d\} 1n 1n \{d1_th\} \{d1_t\})
-  Vd11 d1[1] gnd pulse(0 \{vhi\} \{d11_d\} 1n 1n \{d1_th\} \{d1_t\})
-  Vd12 d1[2] gnd pulse(0 \{vhi\} \{d12_d\} 1n 1n \{d1_th\} \{d1_t\})
-  Vd13 d1[3] gnd pulse(0 \{vhi\} \{d13_d\} 1n 1n \{d1_th\} \{d1_t\})
-
-  Vd20 d2[0] gnd pulse(0 \{vhi\} \{d20_d\} 1n 1n \{d2_th\} \{d2_t\})
-  Vd21 d2[1] gnd pulse(0 \{vhi\} \{d21_d\} 1n 1n \{d2_th\} \{d2_t\})
-  Vd22 d2[2] gnd pulse(0 \{vhi\} \{d22_d\} 1n 1n \{d2_th\} \{d2_t\})
-  Vd23 d2[3] gnd pulse(0 \{vhi\} \{d23_d\} 1n 1n \{d2_th\} \{d2_t\})
+  Vbb3  bb[0]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
+  Vbb4  bb[1]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
+  Vbb5  bb[2]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
+  Vbb6  bb[3]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b6_th\} \{b6_t\})
+  Vbb7  bb[4]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b7_th\} \{b7_t\})
+  Vbb8  bb[5]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b8_th\} \{b8_t\})
   ********************Simulation Commands*****************************
   .control
      reset
      save all
-     tran 10n 500u
+     tran 10n 350u
      write res_seg_1-tb.raw
      set appendwrite
 *    quit 0
   .endc
 "}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 670 -200 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=8 spiceprefix=X}
-C {devices/lab_pin.sym} 670 -170 0 0 {name=p2 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 670 -230 0 0 {name=p9 sig_type=std_logic lab=vout}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1170 -200 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=8 spiceprefix=X}
+C {devices/lab_pin.sym} 1170 -170 0 0 {name=p2 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 1170 -230 0 0 {name=p9 sig_type=std_logic lab=vout}
+C {decoder_2to4.sym} 390 -420 0 0 {name=x3}
+C {devices/lab_pin.sym} 240 -300 0 0 {name=p10 sig_type=std_logic lab=b[2:3]}
+C {devices/lab_pin.sym} 240 -410 0 0 {name=p11 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 240 -390 0 0 {name=p12 sig_type=std_logic lab=vddh}
+C {devices/lab_pin.sym} 240 -370 0 0 {name=p13 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 240 -470 0 0 {name=p14 sig_type=std_logic lab=VPBIAS}
+C {devices/lab_pin.sym} 240 -450 0 0 {name=p15 sig_type=std_logic lab=VNBIAS}
+C {devices/lab_pin.sym} 540 -470 0 1 {name=p17 sig_type=std_logic lab=d0[0:3]}
+C {decoder_2to4.sym} 390 -290 0 0 {name=x4}
+C {devices/lab_pin.sym} 240 -170 0 0 {name=p18 sig_type=std_logic lab=b[0:1]}
+C {devices/lab_pin.sym} 240 -280 0 0 {name=p19 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 240 -260 0 0 {name=p20 sig_type=std_logic lab=vddh}
+C {devices/lab_pin.sym} 240 -240 0 0 {name=p21 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 240 -340 0 0 {name=p22 sig_type=std_logic lab=VPBIAS}
+C {devices/lab_pin.sym} 240 -320 0 0 {name=p23 sig_type=std_logic lab=VNBIAS}
+C {devices/lab_pin.sym} 540 -340 0 1 {name=p24 sig_type=std_logic lab=d1[0:3]}
+C {decoder_2to4.sym} 390 -160 0 0 {name=x5}
+C {devices/lab_pin.sym} 240 -430 0 0 {name=p25 sig_type=std_logic lab=b[4:5]}
+C {devices/lab_pin.sym} 240 -150 0 0 {name=p26 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 240 -130 0 0 {name=p27 sig_type=std_logic lab=vddh}
+C {devices/lab_pin.sym} 240 -110 0 0 {name=p28 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 240 -210 0 0 {name=p29 sig_type=std_logic lab=VPBIAS}
+C {devices/lab_pin.sym} 240 -190 0 0 {name=p30 sig_type=std_logic lab=VNBIAS}
+C {devices/lab_pin.sym} 540 -210 0 1 {name=p31 sig_type=std_logic lab=d2[0:3]}
+C {devices/code.sym} 0 -180 0 0 {name=TT_MODELS
+only_toplevel=true
+format="tcleval(@value )"
+value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
+.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
+"
+spice_ignore=false
+place=header}

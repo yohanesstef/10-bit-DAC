@@ -34,6 +34,8 @@ N 1180 -130 1180 -110 {lab=vout[2]}
 N 1320 -130 1320 -110 {lab=vout[3]}
 N 220 -170 690 -170 {lab=VNB}
 N 860 -170 1320 -170 {lab=VNB}
+N 670 -110 690 -110 {lab=vout[3]}
+N 670 -110 670 -90 {lab=vout[3]}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {devices/opin.sym} 60 -120 0 0 {name=p2 lab=vout[0:3]}
 C {devices/ipin.sym} 80 -100 0 0 {name=p4 lab=VNB}
