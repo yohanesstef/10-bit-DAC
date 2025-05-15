@@ -66,7 +66,7 @@ N 630 -740 630 -730 {lab=v[32]}
 N 1170 -740 1170 -730 {lab=v[56]}
 N 990 -740 990 -730 {lab=v[48]}
 N 810 -740 810 -730 {lab=v[40]}
-N 1350 -660 1350 -650 {lab=v[63]}
+N 1350 -660 1350 -650 {lab=VHREF}
 N 1330 -620 1330 -140 {lab=gnd}
 N 1150 -700 1150 -140 {lab=gnd}
 N 970 -700 970 -140 {lab=gnd}
@@ -86,7 +86,7 @@ C {devices/lab_pin.sym} 70 -500 0 1 {name=p7 sig_type=std_logic lab=v[5]}
 C {devices/lab_pin.sym} 70 -580 0 1 {name=p8 sig_type=std_logic lab=v[6]}
 C {devices/lab_pin.sym} 70 -660 0 1 {name=p9 sig_type=std_logic lab=v[7]}
 C {devices/lab_pin.sym} 70 -740 0 1 {name=p10 sig_type=std_logic lab=v[8]}
-C {devices/opin.sym} 40 -780 0 0 {name=p19 lab=v[0:63]}
+C {devices/opin.sym} 40 -780 0 0 {name=p19 lab=v[0:62]}
 C {devices/ipin.sym} 50 -760 0 0 {name=p20 lab=gnd}
 C {devices/lab_pin.sym} 260 -110 0 1 {name=p21 sig_type=std_logic lab=v[8]}
 C {devices/lab_pin.sym} 240 -140 0 0 {name=p22 sig_type=std_logic lab=gnd}
@@ -147,7 +147,7 @@ C {devices/lab_pin.sym} 1350 -340 0 1 {name=p84 sig_type=std_logic lab=v[59]}
 C {devices/lab_pin.sym} 1350 -420 0 1 {name=p85 sig_type=std_logic lab=v[60]}
 C {devices/lab_pin.sym} 1350 -500 0 1 {name=p86 sig_type=std_logic lab=v[61]}
 C {devices/lab_pin.sym} 1350 -580 0 1 {name=p87 sig_type=std_logic lab=v[62]}
-C {devices/lab_pin.sym} 1350 -660 0 1 {name=p88 sig_type=std_logic lab=v[63]}
+C {devices/lab_pin.sym} 1350 -660 0 1 {name=p88 sig_type=std_logic lab=VHREF}
 C {devices/lab_pin.sym} 450 -110 0 1 {name=p40 sig_type=std_logic lab=v[16]}
 C {devices/lab_pin.sym} 810 -110 0 1 {name=p60 sig_type=std_logic lab=v[32]}
 C {devices/lab_pin.sym} 1350 -110 0 1 {name=p90 sig_type=std_logic lab=v[56]}
@@ -472,3 +472,4 @@ L=0.8929
 model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
+C {devices/opin.sym} 40 -800 0 0 {name=p17 lab=VHREF}

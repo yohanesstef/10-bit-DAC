@@ -77,7 +77,7 @@ N 1170 -740 1170 -730 {lab=v[56]}
 N 990 -740 990 -730 {lab=v[48]}
 N 810 -740 810 -730 {lab=v[40]}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
-C {devices/lab_pin.sym} 70 -110 0 1 {name=p3 sig_type=std_logic lab=v[0]}
+C {devices/lab_pin.sym} 70 -110 0 1 {name=p3 sig_type=std_logic lab=VLREF}
 C {devices/lab_pin.sym} 50 -140 0 0 {name=p2 sig_type=std_logic lab=gnd}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 70 -140 2 1 {name=R1
 L=0.8375
@@ -107,7 +107,7 @@ C {devices/lab_pin.sym} 70 -500 0 1 {name=p7 sig_type=std_logic lab=v[5]}
 C {devices/lab_pin.sym} 70 -580 0 1 {name=p8 sig_type=std_logic lab=v[6]}
 C {devices/lab_pin.sym} 70 -660 0 1 {name=p9 sig_type=std_logic lab=v[7]}
 C {devices/lab_pin.sym} 70 -740 0 1 {name=p10 sig_type=std_logic lab=v[8]}
-C {devices/opin.sym} 40 -780 0 0 {name=p19 lab=v[0:64]}
+C {devices/opin.sym} 40 -780 0 0 {name=p19 lab=v[1:64]}
 C {devices/ipin.sym} 50 -760 0 0 {name=p20 lab=gnd}
 C {devices/lab_pin.sym} 260 -110 0 1 {name=p21 sig_type=std_logic lab=v[8]}
 C {devices/lab_pin.sym} 240 -140 0 0 {name=p22 sig_type=std_logic lab=gnd}
@@ -479,3 +479,4 @@ L=0.5508
 model=res_xhigh_po_1p41
 spiceprefix=X
 mult=1}
+C {devices/opin.sym} 40 -800 0 0 {name=p11 lab=VLREF}

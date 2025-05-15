@@ -5,15 +5,15 @@ V {}
 S {}
 E {}
 B 2 2520 -1430 3320 -1030 {flags=graph
-y1=-1
-y2=6.5
+y1=1
+y2=1.2
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=0
+x2=0.0001
 divx=5
 subdivx=4
 xlabmag=1.0
@@ -22,17 +22,16 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color="4 5 6"
+color="4 5"
 node="out
-load
-in[0]"}
+load"}
 B 2 820 -2150 1620 -1750 {flags=graph
 ypos1=0
 ypos2=2
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -60,8 +59,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -80,8 +79,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -101,8 +100,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -122,8 +121,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -143,8 +142,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -164,8 +163,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=-35
+x2=-4
 divx=5
 subdivx=8
 xlabmag=1.0
@@ -184,8 +183,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -205,8 +204,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=0
+x2=0.0001
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -226,8 +225,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=0
+x2=0.0001
 divx=5
 subdivx=4
 xlabmag=1.0
@@ -247,8 +246,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=0
+x2=0.0001
 divx=5
 subdivx=4
 xlabmag=1.0
@@ -267,8 +266,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=9.5549029e-06
-x2=3.1340145e-05
+x1=-35
+x2=-4
 divx=5
 subdivx=8
 xlabmag=1.0
@@ -279,6 +278,33 @@ logx=1
 logy=0
 color=4
 node="\\"out db20()\\""}
+B 2 2520 -1030 3320 -630 {flags=graph
+ypos1=0.076404317
+ypos2=1.0493157
+subdivy=1
+unity=1
+x1=0
+x2=0.0001
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+node="in[4]
+in[3]
+in[2]
+in[1]
+in[0]"
+color="4 5 6 7 9"
+dataset=-1
+unitx=1
+logx=0
+logy=0
+digital=1
+divy=1
+mode=Line
+y1=0
+y2=2
+rainbow=0}
 P 4 5 480 -90 980 -90 980 -750 480 -750 480 -90 {}
 P 4 5 1300 -1070 1990 -1070 1990 -1660 1300 -1660 1300 -1070 {}
 P 4 5 30 -90 460 -90 460 -750 30 -750 30 -90 {}
@@ -314,9 +340,9 @@ N 300 -1090 510 -1090 {lab=gnd}
 N 160 -1140 160 -1120 {lab=i_pdiff1}
 N 160 -1140 650 -1140 {lab=i_pdiff1}
 N 650 -1140 650 -1120 {lab=i_pdiff1}
-N 120 -1100 120 -1090 {lab=in[0]}
-N 120 -1100 260 -1100 {lab=in[0]}
-N 260 -1100 260 -1090 {lab=in[0]}
+N 120 -1100 120 -1090 {lab=in[1]}
+N 120 -1100 260 -1100 {lab=in[1]}
+N 260 -1100 260 -1090 {lab=in[1]}
 N 550 -1100 550 -1090 {lab=out}
 N 550 -1100 690 -1100 {lab=out}
 N 690 -1100 690 -1090 {lab=out}
@@ -325,9 +351,9 @@ N 300 -1260 510 -1260 {lab=gnd}
 N 160 -1310 160 -1290 {lab=i_pdiff2}
 N 160 -1310 650 -1310 {lab=i_pdiff2}
 N 650 -1310 650 -1290 {lab=i_pdiff2}
-N 120 -1270 120 -1260 {lab=in[0]}
-N 120 -1270 260 -1270 {lab=in[0]}
-N 260 -1270 260 -1260 {lab=in[0]}
+N 120 -1270 120 -1260 {lab=in[2]}
+N 120 -1270 260 -1270 {lab=in[2]}
+N 260 -1270 260 -1260 {lab=in[2]}
 N 550 -1270 550 -1260 {lab=out}
 N 550 -1270 690 -1270 {lab=out}
 N 690 -1270 690 -1260 {lab=out}
@@ -336,9 +362,9 @@ N 300 -1420 510 -1420 {lab=gnd}
 N 160 -1470 160 -1450 {lab=i_pdiff3}
 N 160 -1470 650 -1470 {lab=i_pdiff3}
 N 650 -1470 650 -1450 {lab=i_pdiff3}
-N 120 -1430 120 -1420 {lab=in[0]}
-N 120 -1430 260 -1430 {lab=in[0]}
-N 260 -1430 260 -1420 {lab=in[0]}
+N 120 -1430 120 -1420 {lab=in[3]}
+N 120 -1430 260 -1430 {lab=in[3]}
+N 260 -1430 260 -1420 {lab=in[3]}
 N 550 -1430 550 -1420 {lab=out}
 N 550 -1430 690 -1430 {lab=out}
 N 690 -1430 690 -1420 {lab=out}
@@ -347,9 +373,9 @@ N 300 -1580 510 -1580 {lab=gnd}
 N 160 -1630 160 -1610 {lab=i_pdiff4}
 N 160 -1630 650 -1630 {lab=i_pdiff4}
 N 650 -1630 650 -1610 {lab=i_pdiff4}
-N 120 -1590 120 -1580 {lab=in[0]}
-N 120 -1590 260 -1590 {lab=in[0]}
-N 260 -1590 260 -1580 {lab=in[0]}
+N 120 -1590 120 -1580 {lab=in[4]}
+N 120 -1590 260 -1590 {lab=in[4]}
+N 260 -1590 260 -1580 {lab=in[4]}
 N 550 -1590 550 -1580 {lab=out}
 N 550 -1590 690 -1590 {lab=out}
 N 690 -1590 690 -1580 {lab=out}
@@ -622,10 +648,10 @@ N 340 -470 430 -470 {lab=nn2}
 N 200 -310 200 -260 {lab=n5}
 N 380 -330 560 -330 {lab=nn2}
 N 70 -930 120 -930 {lab=in[0]}
-N 70 -1090 120 -1090 {lab=in[0]}
-N 70 -1260 120 -1260 {lab=in[0]}
-N 70 -1420 120 -1420 {lab=in[0]}
-N 70 -1580 120 -1580 {lab=in[0]}
+N 70 -1090 120 -1090 {lab=in[1]}
+N 70 -1260 120 -1260 {lab=in[2]}
+N 70 -1420 120 -1420 {lab=in[3]}
+N 70 -1580 120 -1580 {lab=in[4]}
 C {devices/lab_pin.sym} 300 -960 0 1 {name=p3 sig_type=std_logic lab=OUTN0A}
 C {devices/lab_pin.sym} 400 -930 0 0 {name=p4 sig_type=std_logic lab=gnd}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 280 -930 0 0 {name=M1
@@ -757,20 +783,20 @@ value="
   .param b3_th=\{b2_th*2\} b3_t=\{b3_th*2\}
   *******Signals**********
   .param vh=1.162 vl=1.044
-  vin0 in[0] gnd dc pulse(5.5 0 \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
+  *vin0 in[0] gnd dc pulse(5.5 0 \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
   *vin0 in[0] gnd dc 2.75
-  *vin0 in[0] gnd dc vl
-  *Vin1 in[1] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
-  *Vin2 in[2] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b1_th\} \{b1_t\})
-  *Vin3 in[3] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b2_th\} \{b2_t\})
-  *Vin4 in[4] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
+  vin0 in[0] gnd dc vl
+  Vin1 in[1] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
+  Vin2 in[2] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b1_th\} \{b1_t\})
+  Vin3 in[3] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b2_th\} \{b2_t\})
+  Vin4 in[4] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
   ********************Simulation Commands*****************************
   .control
      reset
      save all
      *save inc ind out load
-     *tran 1n 100u
-     dc vin0 -1 6.5 0.01
+     tran 1n 100u
+     *dc vin0 -1 6.5 0.01
      *dc R2 100k 500k 1k
 
      *ac dec 100 1 1e9
@@ -837,7 +863,7 @@ value=30p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 2420 -1340 0 0 {name=p101 sig_type=std_logic lab=gnd}
-C {devices/launcher.sym} 2710 -1010 0 0 {name=h5
+C {devices/launcher.sym} 2320 -1000 0 0 {name=h5
 descr="load tran" 
 tclcommand="xschem raw_read $netlist_dir/op_amp_v3-tb.raw tran"
 }
@@ -2015,10 +2041,10 @@ model=nfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} 70 -930 0 0 {name=p2 sig_type=std_logic lab=in[0]}
-C {devices/lab_pin.sym} 70 -1090 0 0 {name=p7 sig_type=std_logic lab=in[0]}
-C {devices/lab_pin.sym} 70 -1260 0 0 {name=p12 sig_type=std_logic lab=in[0]}
-C {devices/lab_pin.sym} 70 -1420 0 0 {name=p83 sig_type=std_logic lab=in[0]}
-C {devices/lab_pin.sym} 70 -1580 0 0 {name=p84 sig_type=std_logic lab=in[0]}
+C {devices/lab_pin.sym} 70 -1090 0 0 {name=p7 sig_type=std_logic lab=in[1]}
+C {devices/lab_pin.sym} 70 -1260 0 0 {name=p12 sig_type=std_logic lab=in[2]}
+C {devices/lab_pin.sym} 70 -1420 0 0 {name=p83 sig_type=std_logic lab=in[3]}
+C {devices/lab_pin.sym} 70 -1580 0 0 {name=p84 sig_type=std_logic lab=in[4]}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 1770 -1190 0 0 {name=M26
 L=l
 W=\{wn_sum*3\}

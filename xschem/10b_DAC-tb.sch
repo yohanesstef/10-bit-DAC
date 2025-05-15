@@ -1,4 +1,4 @@
-v {xschem version=3.4.7RC file_version=1.2}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,8 +12,8 @@ ypos2=6.1589845
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=-2.45e-05
+x2=0.0004655
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -36,15 +36,15 @@ d[2]
 d[1]
 d[0]"}
 B 2 940 -880 1740 -480 {flags=graph
-y1=1
-y2=5.6
+y1=-7.5e-05
+y2=1.3
 ypos1=0.56976454
 ypos2=8.5171201
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=-2.45e-05
+x2=0.0004655
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -55,22 +55,19 @@ logx=0
 logy=0
 digital=0
 rainbow=1
-color="4 5 6 7 8"
-node="vout[4]
-vout[3]
-vout[2]
-vout[1]
-vout[0]"}
+color="4 7"
+node="vout
+load"}
 B 2 940 -1280 1740 -880 {flags=graph
-y1=1
-y2=5.6
+y1=-0.12
+y2=5.5
 ypos1=3.2255203
 ypos2=4.9596586
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=-2.45e-05
+x2=0.0004655
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -81,21 +78,23 @@ logx=0
 logy=0
 digital=0
 rainbow=1
-color="4 8 6 7"
-node="vout[3]
-vout[2]
-vout[1]
-vout[0]"}
-B 2 140 -1280 940 -880 {flags=graph
-y1=-0.073
-y2=5.7
-ypos1=3.2255203
-ypos2=4.9596586
+
+color="4 5 6 8 9"
+node="x1.p_in[4]
+x1.p_in[3]
+x1.p_in[2]
+x1.p_in[1]
+x1.p_in[0]"}
+B 2 -240 -1280 940 -880 {flags=graph
+y1=0.33566889
+y2=5.8356689
+ypos1=-0.21
+ypos2=5.9
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=-2.45e-05
+x2=0.0004655
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -106,18 +105,21 @@ logx=0
 logy=0
 digital=0
 rainbow=1
-color="4 5 6 7 8 9 10 11 12 13 14"
-node="vs4
-vs3[3]
-vs3[2]
-vs3[1]
-vs3[0]
-vs2[4]
-vs2[3]
-vs2[2]
-vs2[1]
-vs2[0]
-vs1"}
+
+
+
+color="4 4 4 4 4 4 4 4 4 4 4"
+node="x1.v[126]
+x1.v[114]
+x1.v[113]
+x1.v[112]
+x1.v[111]
+x1.v[65]
+x1.v[64]
+x1.v[63]
+x1.v[62]
+x1.v[1]
+x1.v[0]"}
 N 770 -320 770 -300 {lab=LOAD}
 N 610 -320 650 -320 {lab=VOUT}
 N 440 -110 500 -110 {lab=gnd}
@@ -128,6 +130,7 @@ only_toplevel=false
 value="  
   .option wnflag=1
   .option safecurrents
+  .option klu
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
   Vdd vdd gnd dc 1.8
@@ -135,7 +138,7 @@ value="
   Vgnda gnda gnd dc 0
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
-  .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
+  .param base_f=50e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
   .param d0_th=\{base_th\} d0_t=\{d0_th*2\}
   .param d1_th=\{d0_th*2\} d1_t=\{d1_th*2\}
   .param d2_th=\{d1_th*2\} d2_t=\{d2_th*2\}
@@ -154,21 +157,26 @@ value="
   Vd3  d[3]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d3_th\} \{d3_t\})
   Vd4  d[4]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d4_th\} \{d4_t\})
   Vd5  d[5]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d5_th\} \{d5_t\})
-  *Vd6  d[6]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d6_th\} \{d6_t\})
-  *Vd7  d[7]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d7_th\} \{d7_t\})
-  *Vd8  d[8]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d8_th\} \{d8_t\})
-  *Vd9  d[9]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d9_th\} \{d9_t\})
+  Vd6  d[6]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d6_th\} \{d6_t\})
+  Vd7  d[7]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d7_th\} \{d7_t\})
+  Vd8  d[8]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d8_th\} \{d8_t\})
+  Vd9  d[9]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d9_th\} \{d9_t\})
 
-  Vd6  d[6]  gnd vhi
-  Vd7  d[7]  gnd vhi
-  Vd8  d[8]  gnd 0
-  Vd9  d[9]  gnd vhi
+  *Vd6  d[6]  gnd 0
+  *Vd7  d[7]  gnd 0
+  *Vd8  d[8]  gnd 0
+  *Vd9  d[9]  gnd 0
   ********************Simulation Commands*****************************
   .control
      reset
-     tran 1n 100u
+     set num_threads=60
+     tran 1n 1m
      write 10b_DAC-tb.raw
-     set appendwrite
+     
+     set wr_vecnames
+     set wr_singlescale
+     wrdata /home/yohanes/10-bit-DAC/simulations/top-tb.txt VOUT LOAD D[0] D[1] D[2] D[3] D[4] D[5] D[6] D[7] D[8] D[9]
+
 *    quit 0
   .endc
 "}
@@ -226,8 +234,18 @@ device=resistor
 m=1}
 C {devices/ammeter.sym} 500 -140 0 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
 C {10b_DAC_top.sym} 510 -300 0 0 {name=x1}
-C {devices/code_shown.sym} -590 -150 0 0 {name=NGSPICE_SAVE only_toplevel=true 
+C {devices/code_shown.sym} -590 -300 0 0 {name=NGSPICE_SAVE only_toplevel=true 
 value="
 .save VOUT LOAD
 .save D[0] D[1] D[2] D[3] D[4] D[5] D[6] D[7] D[8] D[9]
+.save x1.P_IN[0] x1.P_IN[1] x1.P_IN[2] x1.P_IN[3] x1.P_IN[4]
+.save x1.b[0] x1.b[1] x1.b[2] x1.b[3] x1.b[4]
+.save x1.b[5] x1.b[6]
+.save x1.bb[0] x1.bb[1] x1.bb[2] x1.bb[3] x1.bb[4]
+.save x1.bb[5] x1.bb[6]
+.save x1.VS1 x1.VL2 x1.VH2 x1.VL3 x1.VH3 x1.VS4
+.save x1.V[0] x1.V[1] x1.V[62] x1.V[63]
+.save x1.V[64] x1.V[65] x1.V[111] x1.V[112]
+.save x1.V[113] x1.V[114] x1.V[126] x1.V[127]
+.save x1.V[128] x1.V[129] x1.V[190] x1.V[191]
 "}

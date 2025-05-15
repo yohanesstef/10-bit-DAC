@@ -7,13 +7,13 @@ E {}
 B 2 20 -1430 820 -680 {flags=graph
 y1=-2.0797367
 y2=7.4242633
-ypos1=-2.0797367
-ypos2=7.4242633
+ypos1=-0.65413662
+ypos2=8.849863
 divy=5
 subdivy=1
 unity=1
-x1=-3.5e-05
-x2=0.000315
+x1=-5.25e-05
+x2=0.0002975
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -32,15 +32,15 @@ b[2]
 b[1]
 b[0]"}
 B 2 820 -1080 2150 -680 {flags=graph
-y1=4.64
-y2=4.94
+y1=4.7
+y2=5
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-3.5e-05
-x2=0.000315
+x1=-5.25e-05
+x2=0.0002975
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -77,8 +77,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-3.5e-05
-x2=0.000315
+x1=-5.25e-05
+x2=0.0002975
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -99,8 +99,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-3.5e-05
-x2=0.000315
+x1=-5.25e-05
+x2=0.0002975
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -129,7 +129,7 @@ x2.v1[2]
 x2.v1[1]
 x2.v1[0]"}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
-C {devices/lab_pin.sym} 1520 -380 0 1 {name=p3 sig_type=std_logic lab=v[0:63]}
+C {devices/lab_pin.sym} 1520 -370 0 1 {name=p3 sig_type=std_logic lab=v[0:62]}
 C {devices/launcher.sym} 210 -660 0 0 {name=h5
 descr="load tran" 
 tclcommand="xschem raw_read $netlist_dir/res_seg_4-tb.raw tran"
@@ -142,7 +142,7 @@ C {devices/launcher.sym} 575 -660 0 0 {name=h2
 descr="Show Raw file" 
 tclcommand="textwindow $netlist_dir/res_seg_4-tb.raw"
 }
-C {devices/lab_pin.sym} 1220 -380 0 0 {name=p16 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 1220 -390 0 0 {name=p16 sig_type=std_logic lab=gnd}
 C {res_seg_4.sym} 1370 -380 0 0 {name=x1}
 C {devices/lab_pin.sym} 1220 -320 0 0 {name=p4 sig_type=std_logic lab=v[0:63]}
 C {devices/lab_pin.sym} 1220 -280 0 0 {name=p6 sig_type=std_logic lab=d[0:3]}
@@ -268,3 +268,4 @@ m=1
 value=0.5p
 footprint=1206
 device="ceramic capacitor"}
+C {devices/lab_pin.sym} 1520 -390 0 1 {name=p54 sig_type=std_logic lab=v[63]}

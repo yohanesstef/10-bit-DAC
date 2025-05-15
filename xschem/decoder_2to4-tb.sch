@@ -119,6 +119,7 @@ only_toplevel=false
 value="  
   .option wnflag=1
   .option safecurrents
+  .option klu
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
   Vdd vdd gnd dc 1.8
@@ -147,6 +148,7 @@ value="
   .control
      reset
      save all
+     set num_threads=36
      tran 1n 100u
      write dec-tb.raw
      set appendwrite

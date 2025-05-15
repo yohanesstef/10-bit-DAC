@@ -7,7 +7,7 @@ E {}
 N 960 -300 960 -230 {lab=v2[0:7]}
 N 1370 -300 1370 -230 {lab=v3[0:3]}
 N 1760 -300 1760 -230 {lab=v4[0:1]}
-N 2170 -300 2170 -280 {lab=vout}
+N 2170 -300 2170 -280 {lab=VOUT}
 C {devices/ipin.sym} 110 -240 0 0 {name=p5 lab=vin[0:63]}
 C {devices/opin.sym} 90 -160 0 0 {name=p6 lab=VOUT}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
@@ -48,7 +48,7 @@ C {devices/lab_pin.sym} 1460 -230 0 0 {name=p29 sig_type=std_logic lab=v3[0:1]}
 C {switch_nmos_1g_2o.sym} 1610 -280 0 0 {name=x7}
 C {devices/lab_pin.sym} 1760 -300 1 0 {name=p30 sig_type=std_logic lab=v4[0:1]}
 C {switch_nmos_2g_2o.sym} 2020 -270 0 0 {name=x8}
-C {devices/lab_pin.sym} 2170 -300 2 0 {name=p31 sig_type=std_logic lab=vout}
+C {devices/lab_pin.sym} 2170 -300 2 0 {name=p31 sig_type=std_logic lab=VOUT}
 C {devices/lab_pin.sym} 1870 -280 0 0 {name=p32 sig_type=std_logic lab=b[0]}
 C {devices/lab_pin.sym} 1870 -260 0 0 {name=p33 sig_type=std_logic lab=bb[0]}
 C {devices/lab_pin.sym} 1870 -240 0 0 {name=p34 sig_type=std_logic lab=VNB}

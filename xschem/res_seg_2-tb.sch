@@ -46,8 +46,8 @@ v[0]"}
 B 2 50 -1360 850 -610 {flags=graph
 y1=-2.0797367
 y2=7.4242633
-ypos1=0.033950049
-ypos2=12.706617
+ypos1=5.1030164
+ypos2=17.775681
 divy=5
 subdivy=1
 unity=1
@@ -63,7 +63,7 @@ logx=0
 logy=0
 digital=1
 rainbow=1
-color="4 5 6 7 8 9 10 11 12 13 14 15"
+color="4 5 6 7 8 9 10 11 12 13 14 15 7 7 7 7 7 7"
 node="d0[0]
 d0[1]
 d0[2]
@@ -75,7 +75,13 @@ d1[3]
 d2[0]
 d2[1]
 d2[2]
-d2[3]"}
+d2[3]
+b[9]
+b[8]
+b[7]
+b[6]
+b[5]
+b[4]"}
 B 2 850 -1390 1690 -1010 {flags=graph
 y1=0.047
 y2=4.1
@@ -129,6 +135,7 @@ value="
   .option wnflag=1
   .option safecurrents
   .options reltol=1e-5
+  .option klu
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
   Vdd vdd gnd dc 1.8
@@ -166,6 +173,7 @@ value="
   ********************Simulation Commands*****************************
   .control
      reset
+     set num_threads=50
      save all
      tran 10n 260u
      write res_seg_2-tb.raw
