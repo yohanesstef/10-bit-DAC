@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -53,7 +53,6 @@ C {devices/lab_pin.sym} 650 -820 0 0 {name=p15 sig_type=std_logic lab=dec2[0:3]}
 C {devices/lab_pin.sym} 620 -440 0 0 {name=p21 sig_type=std_logic lab=d[8:9]}
 C {devices/lab_pin.sym} 620 -310 0 0 {name=p22 sig_type=std_logic lab=d[6:7]}
 C {devices/lab_pin.sym} 620 -180 0 0 {name=p23 sig_type=std_logic lab=d[4:5]}
-C {devices/lab_pin.sym} 650 -660 0 0 {name=p16 sig_type=std_logic lab=dec2[0:3]}
 C {devices/lab_pin.sym} 650 -640 0 0 {name=p17 sig_type=std_logic lab=b[0:3]}
 C {devices/lab_pin.sym} 650 -620 0 0 {name=p18 sig_type=std_logic lab=bb[0:3]}
 C {devices/lab_pin.sym} 650 -970 0 0 {name=p10 sig_type=std_logic lab=dec2[0:3]}
@@ -215,3 +214,9 @@ C {devices/lab_pin.sym} 140 -140 0 0 {name=p163 sig_type=std_logic lab=VDDH}
 C {devices/lab_pin.sym} 140 -120 0 0 {name=p164 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 440 -220 0 1 {name=p165 sig_type=std_logic lab=b[6]}
 C {devices/lab_pin.sym} 440 -200 0 1 {name=p166 sig_type=std_logic lab=bb[6]}
+C {inv_hvl_4o.sym} 690 80 0 0 {name=x22}
+C {devices/lab_pin.sym} 540 60 0 0 {name=p167 sig_type=std_logic lab=dec2[0:3]}
+C {devices/lab_pin.sym} 840 60 0 1 {name=p168 sig_type=std_logic lab=dec2b[0:3]}
+C {devices/lab_pin.sym} 650 -660 0 0 {name=p169 sig_type=std_logic lab=dec2b[0:3]}
+C {devices/lab_pin.sym} 540 80 0 0 {name=p16 sig_type=std_logic lab=VDDH}
+C {devices/lab_pin.sym} 540 100 0 0 {name=p170 sig_type=std_logic lab=GND}

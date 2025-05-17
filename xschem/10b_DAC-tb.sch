@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,8 +12,8 @@ ypos2=6.1589845
 divy=5
 subdivy=1
 unity=1
-x1=-2.45e-05
-x2=0.0004655
+x1=9.7154641e-05
+x2=0.00058715464
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -43,8 +43,8 @@ ypos2=8.5171201
 divy=5
 subdivy=1
 unity=1
-x1=-2.45e-05
-x2=0.0004655
+x1=9.7154641e-05
+x2=0.00058715464
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -66,8 +66,8 @@ ypos2=4.9596586
 divy=5
 subdivy=1
 unity=1
-x1=-2.45e-05
-x2=0.0004655
+x1=9.7154641e-05
+x2=0.00058715464
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -93,8 +93,8 @@ ypos2=5.9
 divy=5
 subdivy=1
 unity=1
-x1=-2.45e-05
-x2=0.0004655
+x1=0.0001020189
+x2=0.0005920189
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -169,7 +169,7 @@ value="
   ********************Simulation Commands*****************************
   .control
      reset
-     set num_threads=60
+     set num_threads=30
      tran 1n 1m
      write 10b_DAC-tb.raw
      
@@ -239,10 +239,10 @@ value="
 .save VOUT LOAD
 .save D[0] D[1] D[2] D[3] D[4] D[5] D[6] D[7] D[8] D[9]
 .save x1.P_IN[0] x1.P_IN[1] x1.P_IN[2] x1.P_IN[3] x1.P_IN[4]
-.save x1.b[0] x1.b[1] x1.b[2] x1.b[3] x1.b[4]
-.save x1.b[5] x1.b[6]
-.save x1.bb[0] x1.bb[1] x1.bb[2] x1.bb[3] x1.bb[4]
-.save x1.bb[5] x1.bb[6]
+*.save x1.b[0] x1.b[1] x1.b[2] x1.b[3] x1.b[4]
+*.save x1.b[5] x1.b[6]
+*.save x1.bb[0] x1.bb[1] x1.bb[2] x1.bb[3] x1.bb[4]
+*.save x1.bb[5] x1.bb[6]
 .save x1.VS1 x1.VL2 x1.VH2 x1.VL3 x1.VH3 x1.VS4
 .save x1.V[0] x1.V[1] x1.V[62] x1.V[63]
 .save x1.V[64] x1.V[65] x1.V[111] x1.V[112]
