@@ -1,10 +1,10 @@
-v {xschem version=3.4.7RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
-N 1430 -180 1490 -180 {lab=VOUT}
+N 1420 -180 1480 -180 {lab=VOUT}
 C {devices/title.sym} 160 -50 0 0 {name=l1 author="Yohanes Stefanus"}
 C {devices/ipin.sym} -160 -290 0 0 {name=p30 lab=P_IN[0:4]}
 C {devices/ipin.sym} -160 -230 0 0 {name=p85 lab=ROUT}
@@ -164,8 +164,8 @@ C {devices/lab_pin.sym} 30 -530 0 0 {name=p136 sig_type=std_logic lab=I_TAIL1}
 C {devices/lab_pin.sym} 30 -400 0 0 {name=p137 sig_type=std_logic lab=I_TAIL2}
 C {devices/lab_pin.sym} 30 -270 0 0 {name=p138 sig_type=std_logic lab=I_TAIL3}
 C {devices/lab_pin.sym} 30 -140 0 0 {name=p139 sig_type=std_logic lab=I_TAIL4}
-C {devices/lab_pin.sym} 1430 -240 2 1 {name=p141 sig_type=std_logic lab=I_ONA}
-C {devices/lab_pin.sym} 1430 -120 2 1 {name=p142 sig_type=std_logic lab=I_OPA}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1430 -210 0 0 {name=C2 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1430 -150 2 1 {name=C3 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
-C {devices/lab_pin.sym} 1490 -180 0 1 {name=p143 sig_type=std_logic lab=VOUT}
+C {devices/lab_pin.sym} 1420 -240 2 1 {name=p198 sig_type=std_logic lab=I_ONA}
+C {devices/lab_pin.sym} 1420 -120 2 1 {name=p199 sig_type=std_logic lab=I_OPA}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1420 -210 0 0 {name=C1 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
+C {devices/lab_pin.sym} 1480 -180 0 1 {name=p200 sig_type=std_logic lab=VOUT}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1420 -150 2 1 {name=C4 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}

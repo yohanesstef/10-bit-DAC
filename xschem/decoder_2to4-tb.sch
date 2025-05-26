@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -96,6 +96,8 @@ node="x1.din[3]
 x1.din[2]
 x1.din[1]
 x1.din[0]"}
+N 1220 -250 1350 -250 {lab=#net1}
+N 1220 -250 1220 -240 {lab=#net1}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {devices/launcher.sym} 210 -370 0 0 {name=h5
 descr="load tran" 
@@ -123,10 +125,12 @@ value="
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
   Vdd vdd gnd dc 1.8
-
+  Vdda vdda gnd 5.5
+  Vgnda gnda gnd 0
   .param vpb_val = 2.98 vnb_val=1.506
-  Vp vpbias gnd dc vpb_val
-  Vn vnbias gnd dc vnb_val
+  
+  *Vp vpbias gnd dc vpb_val
+  *Vn vnbias gnd dc vnb_val
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
   .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
@@ -172,8 +176,6 @@ C {devices/lab_pin.sym} 900 -220 0 1 {name=p7 sig_type=std_logic lab=vout[2]}
 C {devices/lab_pin.sym} 1000 -100 0 0 {name=p9 sig_type=std_logic lab=gnd}
 C {devices/ammeter.sym} 1000 -190 0 0 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 1000 -220 0 1 {name=p10 sig_type=std_logic lab=vout[3]}
-C {devices/lab_pin.sym} 240 -230 0 0 {name=p11 sig_type=std_logic lab=vpbias}
-C {devices/lab_pin.sym} 240 -210 0 0 {name=p12 sig_type=std_logic lab=vnbias}
 C {devices/lab_pin.sym} 320 -330 0 0 {name=p13 sig_type=std_logic lab=vddh}
 C {devices/capa.sym} 800 -130 0 0 {name=C1
 m=1
@@ -205,3 +207,19 @@ C {devices/lab_pin.sym} 240 -150 0 0 {name=p15 sig_type=std_logic lab=vddh2}
 C {devices/lab_pin.sym} 230 -270 0 0 {name=p18 sig_type=std_logic lab=vdd2}
 C {devices/lab_pin.sym} 320 -270 0 0 {name=p19 sig_type=std_logic lab=vddh2}
 C {decoder_2to4_low.sym} 390 -180 0 0 {name=x1}
+C {devices/res.sym} 1220 -210 0 0 {name=R2
+value=192.14k
+footprint=1206
+device=resistor
+m=1}
+C {devices/lab_pin.sym} 1220 -120 0 0 {name=p20 sig_type=std_logic lab=GNDA}
+C {devices/ammeter.sym} 1220 -150 0 0 {name=Vmeas6 savecurrent=true spice_ignore=0}
+C {bias_lvsf.sym} 1500 -220 0 0 {name=x2}
+C {devices/lab_pin.sym} 1350 -230 0 0 {name=p21 sig_type=std_logic lab=VDDA}
+C {devices/lab_pin.sym} 1350 -210 0 0 {name=p22 sig_type=std_logic lab=GNDA}
+C {devices/lab_pin.sym} 1650 -250 0 1 {name=p23 sig_type=std_logic lab=VBPLV}
+C {devices/lab_pin.sym} 1650 -230 0 1 {name=p25 sig_type=std_logic lab=VBNLV}
+C {devices/lab_pin.sym} 1650 -210 0 1 {name=p29 sig_type=std_logic lab=VBPDEC}
+C {devices/lab_pin.sym} 1650 -190 0 1 {name=p30 sig_type=std_logic lab=VBNDEC}
+C {devices/lab_pin.sym} 240 -230 0 0 {name=p11 sig_type=std_logic lab=VBPDEC}
+C {devices/lab_pin.sym} 240 -210 0 0 {name=p12 sig_type=std_logic lab=VBNDEC}

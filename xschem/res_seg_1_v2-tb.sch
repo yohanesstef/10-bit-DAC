@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -140,7 +140,7 @@ x2.vout1[2]
 x2.vout1[1]
 x2.vout1[0]"}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
-C {devices/lab_pin.sym} 1030 -480 0 1 {name=p3 sig_type=std_logic lab=v[0:64]}
+C {devices/lab_pin.sym} 1030 -490 0 1 {name=p3 sig_type=std_logic lab=v[0:64]}
 C {devices/launcher.sym} 220 -580 0 0 {name=h5
 descr="load tran" 
 tclcommand="xschem raw_read $netlist_dir/res_seg_1_v2-tb.raw tran"
@@ -153,8 +153,8 @@ C {devices/launcher.sym} 585 -580 0 0 {name=h2
 descr="Show Raw file" 
 tclcommand="textwindow $netlist_dir/res_seg_1-tb.raw"
 }
-C {devices/lab_pin.sym} 730 -480 0 0 {name=p16 sig_type=std_logic lab=gnd}
-C {res_seg_1.sym} 880 -480 0 0 {name=x1}
+C {devices/lab_pin.sym} 730 -490 0 0 {name=p16 sig_type=std_logic lab=gnd}
+C {res_seg_1.sym} 880 -490 0 0 {name=x1}
 C {devices/lab_pin.sym} 730 -450 0 0 {name=p4 sig_type=std_logic lab=v[0:63]}
 C {devices/lab_pin.sym} 730 -430 0 0 {name=p5 sig_type=std_logic lab=d0[0:3]}
 C {devices/lab_pin.sym} 730 -370 0 0 {name=p8 sig_type=std_logic lab=gnd}
@@ -165,6 +165,9 @@ only_toplevel=false
 value="  
   .option wnflag=1
   .option safecurrents
+  .option gmin
+  .option method=gear
+  *.option klu
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
   Vdd vdd gnd dc 1.8
@@ -209,6 +212,9 @@ value="
      tran 10n 350u
      write res_seg_1_v2-tb.raw
      set appendwrite
+     *set wr_vecnames
+     *set wr_singlescale
+     
 *    quit 0
   .endc
 "}

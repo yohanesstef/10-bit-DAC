@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -177,7 +177,7 @@ value="
   Vn vnbias gnd dc vnb_val
 
   V64 v[64] gnd dc 1.0442
-  v0 v[0] gnd dc 0
+  *v0 v[0] gnd dc 0
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
   .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
@@ -209,6 +209,7 @@ value="
      tran 10n 350u
      write res_seg_1-tb.raw
      set appendwrite
+     wrdata $THESIS_WS/simulations/res_seg_1-tb.txt v[0]
 *    quit 0
   .endc
 "}
@@ -216,7 +217,7 @@ C {sky130_fd_pr/cap_mim_m3_1.sym} 1170 -200 0 0 {name=C1 model=cap_mim_m3_1 W=1 
 C {devices/lab_pin.sym} 1170 -170 0 0 {name=p2 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 1170 -230 0 0 {name=p9 sig_type=std_logic lab=vout}
 C {decoder_2to4.sym} 390 -420 0 0 {name=x3}
-C {devices/lab_pin.sym} 240 -300 0 0 {name=p10 sig_type=std_logic lab=b[2:3]}
+C {devices/lab_pin.sym} 240 -300 0 0 {name=p10 sig_type=std_logic lab=b[2..3]}
 C {devices/lab_pin.sym} 240 -410 0 0 {name=p11 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 240 -390 0 0 {name=p12 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 240 -370 0 0 {name=p13 sig_type=std_logic lab=gnd}
@@ -224,7 +225,7 @@ C {devices/lab_pin.sym} 240 -470 0 0 {name=p14 sig_type=std_logic lab=VPBIAS}
 C {devices/lab_pin.sym} 240 -450 0 0 {name=p15 sig_type=std_logic lab=VNBIAS}
 C {devices/lab_pin.sym} 540 -470 0 1 {name=p17 sig_type=std_logic lab=d0[0:3]}
 C {decoder_2to4.sym} 390 -290 0 0 {name=x4}
-C {devices/lab_pin.sym} 240 -170 0 0 {name=p18 sig_type=std_logic lab=b[0:1]}
+C {devices/lab_pin.sym} 240 -170 0 0 {name=p18 sig_type=std_logic lab=b[0..1]}
 C {devices/lab_pin.sym} 240 -280 0 0 {name=p19 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 240 -260 0 0 {name=p20 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 240 -240 0 0 {name=p21 sig_type=std_logic lab=gnd}
@@ -232,7 +233,7 @@ C {devices/lab_pin.sym} 240 -340 0 0 {name=p22 sig_type=std_logic lab=VPBIAS}
 C {devices/lab_pin.sym} 240 -320 0 0 {name=p23 sig_type=std_logic lab=VNBIAS}
 C {devices/lab_pin.sym} 540 -340 0 1 {name=p24 sig_type=std_logic lab=d1[0:3]}
 C {decoder_2to4.sym} 390 -160 0 0 {name=x5}
-C {devices/lab_pin.sym} 240 -430 0 0 {name=p25 sig_type=std_logic lab=b[4:5]}
+C {devices/lab_pin.sym} 240 -430 0 0 {name=p25 sig_type=std_logic lab=b[4..5]}
 C {devices/lab_pin.sym} 240 -150 0 0 {name=p26 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 240 -130 0 0 {name=p27 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 240 -110 0 0 {name=p28 sig_type=std_logic lab=gnd}
@@ -247,3 +248,11 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 "
 spice_ignore=false
 place=header}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1010 -470 0 0 {name=R1
+L=0.5
+model=res_xhigh_po_5p73
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 990 -470 0 0 {name=p50 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 1010 -440 0 0 {name=p51 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 1010 -500 0 0 {name=p52 sig_type=std_logic lab=v[0]}

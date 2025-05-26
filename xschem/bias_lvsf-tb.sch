@@ -1,4 +1,4 @@
-v {xschem version=3.4.7RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -89,7 +89,7 @@ value="
   VGNDA GNDA gnd 0
   **************************PARAMETERS****************************************
   *.param wsn1=0.6 wsn2=0.6 lx1=5.3 lx2=9.7 lx3=9.2 lx4=4 ws3=1 ws4=1 wsn3=0.64 lx5=12
-  .dc R2 80k 120k 1k
+  .dc R2 1k 500k 1k
   .control
      reset
      save all

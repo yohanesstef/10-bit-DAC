@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,8 +12,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1e-05
+x2=0.00011
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -24,27 +24,34 @@ logx=0
 logy=0
 digital=0
 rainbow=1
-color="4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 4"
-node="v[0]
-v[1]
-v[2]
-v[3]
-v[4]
-v[5]
-v[6]
-v[7]
+color="4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"
+node="v[16]
+v[15]
+v[14]
+v[13]
+v[12]
+v[11]
+v[10]
+v[9]
 v[8]
-v[16]"}
+v[7]
+v[6]
+v[5]
+v[4]
+v[3]
+v[2]
+v[1]
+v[0]"}
 B 2 920 -1160 1720 -760 {flags=graph
 y1=-4.7839343
 y2=6.6822441
-ypos1=0.56976454
-ypos2=8.5171201
+ypos1=-0.22497102
+ypos2=7.7223845
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1e-05
+x2=0.00011
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -68,8 +75,8 @@ ypos2=7.8926187
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1e-05
+x2=0.00011
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -118,12 +125,12 @@ value="
   Vb3  b[3]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
   Vb4  b[4]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
   Vb5  b[5]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
-  Vb6  b[6]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b6_th\} \{b6_t\})
+  Vb6  b[6]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b6_th\} \{b6_t\})
 
   Vbb3  bb[3]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
   Vbb4  bb[4]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
   Vbb5  bb[5]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
-  Vbb6  bb[6]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b6_th\} \{b6_t\})
+  Vbb6  bb[6]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b6_th\} \{b6_t\})
   ********************Simulation Commands*****************************
   .control
      reset

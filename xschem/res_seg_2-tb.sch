@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,8 +12,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.00026
+x1=-1.2809172e-05
+x2=0.00024719083
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -46,13 +46,13 @@ v[0]"}
 B 2 50 -1360 850 -610 {flags=graph
 y1=-2.0797367
 y2=7.4242633
-ypos1=5.1030164
-ypos2=17.775681
+ypos1=0.46162041
+ypos2=18.293331
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.00026
+x1=-1.2809172e-05
+x2=0.00024719083
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -90,8 +90,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.00026
+x1=-1.2809172e-05
+x2=0.00024719083
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -128,7 +128,7 @@ C {devices/lab_pin.sym} 760 -270 0 0 {name=p5 sig_type=std_logic lab=d0[0:2]}
 C {devices/lab_pin.sym} 760 -250 0 0 {name=p6 sig_type=std_logic lab=d1[0:3]}
 C {devices/lab_pin.sym} 760 -230 0 0 {name=p7 sig_type=std_logic lab=d2[0:3]}
 C {devices/lab_pin.sym} 760 -210 0 0 {name=p8 sig_type=std_logic lab=gnd}
-C {devices/simulator_commands.sym} 0 -330 0 0 {name=COMMANDS
+C {devices/simulator_commands.sym} 10 -330 0 0 {name=COMMANDS
 simulator=ngspice
 only_toplevel=false 
 value="  
@@ -149,27 +149,32 @@ value="
   ********************Dynamic Voltage Sources***************************
   *******Calculation**********
   .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
-  .param b3_th=\{base_th\} b3_t=\{b3_th*2\}
-  .param b4_th=\{b3_th*2\} b4_t=\{b4_th*2\}
+  .param b4_th=\{base_th\} b4_t=\{b4_th*2\}
   .param b5_th=\{b4_th*2\} b5_t=\{b5_th*2\}
   .param b6_th=\{b5_th*2\} b6_t=\{b6_th*2\}
   .param b7_th=\{b6_th*2\} b7_t=\{b7_th*2\}
   .param b8_th=\{b7_th*2\} b8_t=\{b8_th*2\}
+  .param b9_th=\{b8_th*2\} b9_t=\{b9_th*2\}
+
+  .param delay_6 = \{base_d+b5_t\}
+  .param delay_7 = \{delay_6\}
+  .param delay_8 = \{delay_7+b7_th\}
+  .param delay_9 = \{delay_8+b8_th\}
   *******Signals**********
   .param vhi=1.8
-  Vb3  b[4]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
-  Vb4  b[5]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
-  Vb5  b[6]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
-  Vb6  b[7]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b6_th\} \{b6_t\})
-  Vb7  b[8]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b7_th\} \{b7_t\})
-  Vb8  b[9]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b8_th\} \{b8_t\})
+  Vb4  b[4]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
+  Vb5  b[5]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
+  Vb6  b[6]  gnd pulse(\{vhi\} 0 \{delay_6\} 1n 1n \{b6_th\} \{b6_t\})
+  Vb7  b[7]  gnd pulse(0 \{vhi\} \{delay_7\} 1n 1n \{b7_th\} \{b7_t\})
+  Vb8  b[8]  gnd pulse(0 \{vhi\} \{delay_8\} 1n 1n \{b8_th\} \{b8_t\})
+  Vb9  b[9]  gnd pulse(0 \{vhi\} \{delay_9\} 1n 1n \{b9_th\} \{b9_t\})
 
-  Vbb3  bb[4]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
-  Vbb4  bb[5]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
-  Vbb5  bb[6]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
-  Vbb6  bb[7]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b6_th\} \{b6_t\})
-  Vbb7  bb[8]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b7_th\} \{b7_t\})
-  Vbb8  bb[9]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b8_th\} \{b8_t\})
+  Vbb4  bb[4]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
+  Vbb5  bb[5]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
+  Vbb6  bb[6]  gnd pulse(0 \{vhi\} \{delay_6\} 1n 1n \{b6_th\} \{b6_t\})
+  Vbb7  bb[7]  gnd pulse(\{vhi\} 0 \{delay_7\} 1n 1n \{b7_th\} \{b7_t\})
+  Vbb8  bb[8]  gnd pulse(\{vhi\} 0 \{delay_8\} 1n 1n \{b8_th\} \{b8_t\})
+  Vbb9  bb[9]  gnd pulse(\{vhi\} 0 \{delay_9\} 1n 1n \{b9_th\} \{b9_t\})
   ********************Simulation Commands*****************************
   .control
      reset
@@ -205,7 +210,6 @@ C {devices/lab_pin.sym} 270 -350 0 0 {name=p24 sig_type=std_logic lab=VPBIAS}
 C {devices/lab_pin.sym} 270 -330 0 0 {name=p25 sig_type=std_logic lab=VNBIAS}
 C {devices/lab_pin.sym} 570 -350 0 1 {name=p26 sig_type=std_logic lab=d1[0:3]}
 C {decoder_2to4.sym} 420 -170 0 0 {name=x5}
-C {devices/lab_pin.sym} 270 -440 0 0 {name=p27 sig_type=std_logic lab=b[8:9]}
 C {devices/lab_pin.sym} 270 -160 0 0 {name=p28 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 270 -140 0 0 {name=p29 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 270 -120 0 0 {name=p30 sig_type=std_logic lab=gnd}
@@ -220,3 +224,10 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 "
 spice_ignore=false
 place=header}
+C {logic_shift_seg2.sym} 910 -430 0 0 {name=x6}
+C {devices/lab_pin.sym} 760 -440 0 0 {name=p34 sig_type=std_logic lab=bb[6:8]}
+C {devices/lab_pin.sym} 760 -460 0 0 {name=p35 sig_type=std_logic lab=b[6:9]}
+C {devices/lab_pin.sym} 760 -420 0 0 {name=p36 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 760 -400 0 0 {name=p37 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 1060 -460 0 1 {name=p39 sig_type=std_logic lab=BS[8:9]}
+C {devices/lab_pin.sym} 270 -440 0 0 {name=p27 sig_type=std_logic lab=BS[8:9]}

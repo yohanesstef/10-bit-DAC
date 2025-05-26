@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -50,6 +50,8 @@ T {Bias For Floating Current Source} -220 -490 0 0 0.4 0.4 {}
 T {Intermediate stage} 230 -490 0 0 0.4 0.4 {}
 T {200nA} -30 -180 0 0 0.4 0.4 {}
 T {1uA} 530 90 0 0 0.4 0.4 {}
+T {Spice script DAC top level simulation} -220 370 0 0 0.4 0.4 {}
+T {Spice script for DC sweep (1st version)} 240 370 0 0 0.4 0.4 {}
 N -110 140 -110 180 {lab=gnd}
 N -110 -370 -110 -350 {lab=pvb1}
 N -110 -450 -110 -430 {lab=vddh2}
@@ -1213,3 +1215,260 @@ C {devices/lab_pin.sym} 2330 740 2 1 {name=p189 sig_type=std_logic lab=OUTNA}
 C {devices/lab_pin.sym} 2330 860 2 1 {name=p190 sig_type=std_logic lab=OUTPA}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 2330 770 0 0 {name=C2 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 2330 830 2 1 {name=C3 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
+C {devices/simulator_commands.sym} -220 450 0 0 {name=COMMANDS
+simulator=ngspice
+only_toplevel=false 
+value="  
+  .options wnflag=0 bypass=1
+  *.option wnflag=1
+  *.option safecurrents
+  *.option klu
+  .options solver=klu nomod
+  .options method=gear rawfile=binary
+  *.options reltol=1e-2 abstol=1e-12 chgtol=1e-14
+  ********************Static Voltage Sources***************************
+  Vddh vddh gnd dc 5.5
+  Vdd vdd gnd dc 1.8
+  Vdda vdda gnd dc 5.5
+  Vgnda gnda gnd dc 0
+
+  VHREF x1.V[191] GND 5.5
+  VLREF x1.V[0] GND 0
+  ********************Dynamic Voltage Sources***************************
+  *******Calculation**********
+  .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
+  .param d0_th=\{base_th\} d0_t=\{d0_th*2\}
+  .param d1_th=\{d0_th*2\} d1_t=\{d1_th*2\}
+  .param d2_th=\{d1_th*2\} d2_t=\{d2_th*2\}
+  .param d3_th=\{d2_th*2\} d3_t=\{d3_th*2\}
+  .param d4_th=\{d3_th*2\} d4_t=\{d4_th*2\}
+  .param d5_th=\{d4_th*2\} d5_t=\{d5_th*2\}
+  .param d6_th=\{d5_th*2\} d6_t=\{d6_th*2\}
+  .param d7_th=\{d6_th*2\} d7_t=\{d7_th*2\}
+  .param d8_th=\{d7_th*2\} d8_t=\{d8_th*2\}
+  .param d9_th=\{d8_th*2\} d9_t=\{d9_th*2\}
+  *******Signals**********
+  .param vhi=1.8
+  Vd0  d0  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d0_th\} \{d0_t\})
+  Vd1  d1  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d1_th\} \{d1_t\})
+  Vd2  d2  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d2_th\} \{d2_t\})
+  Vd3  d3  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d3_th\} \{d3_t\})
+  Vd4  d4  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d4_th\} \{d4_t\})
+  Vd5  d5  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d5_th\} \{d5_t\})
+  Vd6  d6  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d6_th\} \{d6_t\})
+  Vd7  d7  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d7_th\} \{d7_t\})
+  Vd8  d8  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d8_th\} \{d8_t\})
+  Vd9  d9  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d9_th\} \{d9_t\})
+
+  *Vd6  d[6]  gnd 0
+  *Vd7  d[7]  gnd 0
+  *Vd8  d[8]  gnd 0
+  *Vd9  d[9]  gnd 0
+  ********************Simulation Commands*****************************
+  .control
+     reset
+     set num_threads=36
+     tran 1n 10.2m 0 100p
+     write 10b_DAC-tb.raw
+     
+     set wr_vecnames
+     set wr_singlescale
+     wrdata $THESIS_WS/simulations/top-tb.txt VOUT LOAD d0 d1 d2 d3 d4 d5 d6 d7 d8 d9
+
+*    quit 0
+  .endc
+"}
+C {devices/simulator_commands.sym} -200 660 0 0 {name=COMMANDS1
+simulator=ngspice
+only_toplevel=false 
+value="  
+  .options wnflag=0 bypass=1
+  *.option wnflag=1
+  *.option safecurrents
+  *.option klu
+  .options solver=klu nomod
+  .options method=gear rawfile=binary
+  *.options reltol=1e-2 abstol=1e-12 chgtol=1e-14
+  ********************Static Voltage Sources***************************
+  Vddh vddh gnd dc 5.5
+  Vdd vdd gnd dc 1.8
+  Vdda vdda gnd dc 5.5
+  Vgnda gnda gnd dc 0
+
+  VHREF x1.V[191] GND 5.5
+  VLREF x1.V[0] GND 0
+
+  *****INPUT SIGNALS******
+  .param xd0=0 xd1=0 xd2=0 xd3=0 xd4=0 xd5=0 xd6=0 xd7=0 xd8=0 xd9=0 ndata=0
+  Vd0  d0  gnd xd0
+  Vd1  d1  gnd xd1
+  Vd2  d2  gnd xd2
+  Vd3  d3  gnd xd3
+  Vd4  d4  gnd xd4
+  Vd5  d5  gnd xd5
+  Vd6  d6  gnd xd6
+  Vd7  d7  gnd xd7
+  Vd8  d8  gnd xd8
+  Vd9  d9  gnd xd9
+  ********************Dynamic Voltage Sources***************************
+  *******Calculation**********
+  .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
+  .param d0_th=\{base_th\} d0_t=\{d0_th*2\}
+  .param d1_th=\{d0_th*2\} d1_t=\{d1_th*2\}
+  .param d2_th=\{d1_th*2\} d2_t=\{d2_th*2\}
+  .param d3_th=\{d2_th*2\} d3_t=\{d3_th*2\}
+  .param d4_th=\{d3_th*2\} d4_t=\{d4_th*2\}
+  .param d5_th=\{d4_th*2\} d5_t=\{d5_th*2\}
+  .param d6_th=\{d5_th*2\} d6_t=\{d6_th*2\}
+  .param d7_th=\{d6_th*2\} d7_t=\{d7_th*2\}
+  .param d8_th=\{d7_th*2\} d8_t=\{d8_th*2\}
+  .param d9_th=\{d8_th*2\} d9_t=\{d9_th*2\}
+  *******Signals**********
+  .param vhi=1.8
+  *Vd0  d0  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d0_th\} \{d0_t\})
+  *Vd1  d1  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d1_th\} \{d1_t\})
+  *Vd2  d2  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d2_th\} \{d2_t\})
+  *Vd3  d3  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d3_th\} \{d3_t\})
+  *Vd4  d4  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d4_th\} \{d4_t\})
+  *Vd5  d5  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d5_th\} \{d5_t\})
+  *Vd6  d6  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d6_th\} \{d6_t\})
+  *Vd7  d7  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d7_th\} \{d7_t\})
+  *Vd8  d8  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d8_th\} \{d8_t\})
+  *Vd9  d9  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d9_th\} \{d9_t\})
+  ********************Simulation Commands*****************************
+  .control
+     option numdgt=8
+
+     reset
+     set num_threads=36
+     tran 1n 10.2m 0 100p
+     write 10b_DAC-tb.raw
+     
+     set wr_vecnames
+     set wr_singlescale
+     wrdata $THESIS_WS/simulations/top-tb.txt VOUT LOAD d0 d1 d2 d3 d4 d5 d6 d7 d8 d9
+
+*    quit 0
+  .endc
+"}
+C {devices/simulator_commands.sym} 260 480 0 0 {name=COMMANDS2
+simulator=ngspice
+only_toplevel=false 
+value="  
+  *.options wnflag=0 bypass=1
+  .option wnflag=1
+  .option safecurrents
+  *.option klu
+  .options solver=klu nomod
+  .options method=gear rawfile=binary
+  .options reltol=1e-2
+  ********************Static Voltage Sources***************************
+  Vddh vddh gnd dc 5.5
+  Vdd vdd gnd dc 1.8
+  Vdda vdda gnd dc 5.5
+  Vgnda gnda gnd dc 0
+
+  Vin in gnd 0
+
+  VHREF x1.V[191] GND 5.5
+  VLREF x1.V[0] GND 0
+  *****INPUT SIGNALS******
+  .param xd0=0 xd1=0 xd2=0 xd3=0 xd4=0 xd5=0 xd6=0 xd7=0 xd8=0 xd9=0
+  Vd0  d0  gnd \{xd0\}
+  Vd1  d1  gnd \{xd1\}
+  Vd2  d2  gnd \{xd2\}
+  Vd3  d3  gnd \{xd3\}
+  Vd4  d4  gnd \{xd4\}
+  Vd5  d5  gnd \{xd5\}
+  Vd6  d6  gnd \{xd6\}
+  Vd7  d7  gnd \{xd7\}
+  Vd8  d8  gnd \{xd8\}
+  Vd9  d9  gnd \{xd9\}
+  ********************Simulation Commands*****************************
+  .control
+     set num_threads=36
+
+     option numdgt=6
+     set wr_singlescale
+     set wr_vecnames
+
+     let ndata=0
+
+     compose low_to_high values 0 1.8
+     compose high_to_low values 1.8 0
+
+     foreach var9 $&low_to_high
+       alter vd9 $var9
+
+       foreach var8 $&low_to_high
+         alter vd8 $var8
+
+         foreach var7 $&low_to_high
+           alter vd7 $var7
+
+             foreach var6 $&low_to_high
+             alter vd6 $var6
+
+             foreach var5 $&low_to_high
+             alter vd5 $var5
+
+             foreach var4 $&low_to_high
+             alter vd4 $var4
+
+             foreach var3 $&low_to_high
+             alter vd3 $var3
+
+             foreach var2 $&low_to_high
+             alter vd2 $var2
+
+             foreach var1 $&low_to_high
+             alter vd1 $var1
+
+             foreach var0 $&low_to_high
+             alter vd0 $var0
+
+             dc vdummy 5 5 0.1
+             let voutval= v(vout)
+             let vloadval = v(load)
+
+             let ir1 = i(vmeas)
+             let ir2 = i(vmeas1)
+             let ivdd = i(vmeas2)
+             let ivdda = i(vmeas3)
+             let ivddh = i(vmeas4)
+
+             let vd0 = v(d0)
+             let vd1 = v(d1)
+             let vd2 = v(d2)
+             let vd3 = v(d3)
+             let vd4 = v(d4)
+             let vd5 = v(d5)
+             let vd6 = v(d6)
+             let vd7 = v(d7)
+             let vd8 = v(d8)
+             let vd9 = v(d9)
+
+             wrdata $THESIS_WS/simulations/top_dc3-tb.txt voutval vloadval ir1 ir2 ivdd ivdda ivddh ndata vd9 vd8 vd7 vd6 vd5 vd4 vd3 vd2 vd1 vd0
+             let ndata = ndata + 1
+             set appendwrite
+             unset set wr_vecnames
+             destroy all
+
+       end
+       end
+       end
+       end
+       end
+       end
+       end
+       end
+       end
+     end
+
+     set appendwrite=0
+     reset
+     *write 10b_DAC_dc-tb.raw
+
+*    quit 0
+  .endc
+"}

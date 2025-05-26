@@ -1,4 +1,4 @@
-v {xschem version=3.4.7RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -116,7 +116,7 @@ value="
   .control
      reset
      save all
-     tran 1n 50u
+     tran 10n 50u 0 5n
      write inv_hvl-tb.raw
      set appendwrite
 

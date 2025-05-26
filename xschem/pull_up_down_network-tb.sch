@@ -1,19 +1,19 @@
-v {xschem version=3.4.7RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
 B 2 200 -760 1000 -360 {flags=graph
-y1=-0.00049
-y2=-5.9e-12
+y1=-4.4878591e-05
+y2=-4.5058962e-06
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.5012654
-x2=1.5220438
+x1=1.2578968
+x2=1.6358539
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -26,14 +26,14 @@ color=4
 node=i(vmeas)}
 B 2 200 -1160 1000 -760 {flags=graph
 y1=0
-y2=5.5
+y2=0.01
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.5012654
-x2=1.5220438
+x1=1.2578968
+x2=1.6358539
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -45,15 +45,15 @@ logy=0
 color=4
 node=vpbias}
 B 2 1000 -1160 1800 -760 {flags=graph
-y1=0
-y2=0.01
+y1=-0.00021
+y2=1.8
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.5012654
-x2=1.5220438
+x1=1.2578968
+x2=1.6358539
 divx=5
 subdivx=1
 xlabmag=1.0

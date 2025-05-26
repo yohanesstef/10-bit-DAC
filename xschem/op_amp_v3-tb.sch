@@ -1,19 +1,19 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
 B 2 2520 -1430 3320 -1030 {flags=graph
-y1=1
-y2=1.2
+y1=1.1296
+y2=7.0926
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=4
 xlabmag=1.0
@@ -22,16 +22,17 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color="4 5"
+color="4 5 6"
 node="out
-load"}
+load
+IN[0]"}
 B 2 820 -2150 1620 -1750 {flags=graph
 ypos1=0
 ypos2=2
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -59,8 +60,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -79,8 +80,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -100,8 +101,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -121,8 +122,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -135,15 +136,15 @@ color="4 5"
 node="i(vmeas20)
 i(vmeas31)"}
 B 2 2520 -1830 3320 -1430 {flags=graph
-y1=-0.00016
-y2=0.00036
+y1=-0.00017
+y2=0.00013
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -163,8 +164,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-35
-x2=-4
+x1=0
+x2=9
 divx=5
 subdivx=8
 xlabmag=1.0
@@ -173,8 +174,9 @@ dataset=-1
 unitx=1
 logx=1
 logy=0
-color=4
-node=ph(out)}
+color="4 5"
+node="ph(out)
+ph(load)"}
 B 2 820 -2550 1620 -2150 {flags=graph
 y1=-4.2e-05
 y2=0.0003
@@ -183,8 +185,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -204,8 +206,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -225,8 +227,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=4
 xlabmag=1.0
@@ -246,8 +248,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=4
 xlabmag=1.0
@@ -259,15 +261,15 @@ logy=0
 color=4
 node=difference}
 B 2 20 -2150 820 -1750 {flags=graph
-y1=-160
-y2=15
+y1=-28
+y2=74
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-35
-x2=-4
+x1=0
+x2=9
 divx=5
 subdivx=8
 xlabmag=1.0
@@ -276,15 +278,16 @@ dataset=-1
 unitx=1
 logx=1
 logy=0
-color=4
-node="\\"out db20()\\""}
+color="4 5"
+node="\\"out db20()\\"
+\\"load db20()\\""}
 B 2 2520 -1030 3320 -630 {flags=graph
 ypos1=0.076404317
 ypos2=1.0493157
 subdivy=1
 unity=1
-x1=0
-x2=0.0001
+x1=1
+x2=1e+09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -314,7 +317,7 @@ P 4 5 2000 -1140 2500 -1140 2500 -1660 2000 -1660 2000 -1140 {}
 P 4 5 10 -860 800 -860 800 -1660 10 -1660 10 -860 {}
 P 4 5 820 -860 1290 -860 1290 -1660 820 -1660 820 -860 {}
 T {Bias For Floating Current Source @200nA} 490 -780 0 0 0.4 0.4 {}
-T {Reference  @200nA} 30 -780 0 0 0.4 0.4 {}
+T {Reference  @500nA} 30 -780 0 0 0.4 0.4 {}
 T {Intermediate stage} 1310 -1690 0 0 0.4 0.4 {}
 T {Tail Current Source @40nA} 990 -430 0 0 0.4 0.4 {}
 T {Head Current Source @40nA} 990 -780 0 0 0.4 0.4 {}
@@ -323,62 +326,62 @@ T {Rail-to-Rail Differential Pairs} 30 -1690 0 0 0.4 0.4 {}
 T {Diff Pair Currents} 820 -1690 0 0 0.4 0.4 {}
 T {tcleval(Aol: [to_eng [xschem raw value Aol 0]]
 UGF: [to_eng [xschem raw value ugf 0]]
-PM: [to_eng [xschem raw value pm 0]])} -220 -1870 0 0 0.6 0.6 {floater=1}
+PM: [to_eng [xschem raw value pm 0]])} -287.5 -1870 0 0 0.6 0.6 {floater=1}
 N 300 -900 510 -900 {lab=i_ndiff0}
 N 300 -930 510 -930 {lab=gnd}
 N 160 -980 160 -960 {lab=i_pdiff0}
 N 160 -980 650 -980 {lab=i_pdiff0}
 N 650 -980 650 -960 {lab=i_pdiff0}
-N 120 -940 120 -930 {lab=in[0]}
-N 120 -940 260 -940 {lab=in[0]}
-N 260 -940 260 -930 {lab=in[0]}
-N 550 -940 550 -930 {lab=out}
-N 550 -940 690 -940 {lab=out}
-N 690 -940 690 -930 {lab=out}
+N 120 -940 120 -930 {lab=NON_INV}
+N 120 -940 260 -940 {lab=NON_INV}
+N 260 -940 260 -930 {lab=NON_INV}
+N 550 -940 550 -930 {lab=INVERTING}
+N 550 -940 690 -940 {lab=INVERTING}
+N 690 -940 690 -930 {lab=INVERTING}
 N 300 -1060 510 -1060 {lab=i_ndiff1}
 N 300 -1090 510 -1090 {lab=gnd}
 N 160 -1140 160 -1120 {lab=i_pdiff1}
 N 160 -1140 650 -1140 {lab=i_pdiff1}
 N 650 -1140 650 -1120 {lab=i_pdiff1}
-N 120 -1100 120 -1090 {lab=in[1]}
-N 120 -1100 260 -1100 {lab=in[1]}
-N 260 -1100 260 -1090 {lab=in[1]}
-N 550 -1100 550 -1090 {lab=out}
-N 550 -1100 690 -1100 {lab=out}
-N 690 -1100 690 -1090 {lab=out}
+N 120 -1100 120 -1090 {lab=NON_INV}
+N 120 -1100 260 -1100 {lab=NON_INV}
+N 260 -1100 260 -1090 {lab=NON_INV}
+N 550 -1100 550 -1090 {lab=INVERTING}
+N 550 -1100 690 -1100 {lab=INVERTING}
+N 690 -1100 690 -1090 {lab=INVERTING}
 N 300 -1230 510 -1230 {lab=i_ndiff2}
 N 300 -1260 510 -1260 {lab=gnd}
 N 160 -1310 160 -1290 {lab=i_pdiff2}
 N 160 -1310 650 -1310 {lab=i_pdiff2}
 N 650 -1310 650 -1290 {lab=i_pdiff2}
-N 120 -1270 120 -1260 {lab=in[2]}
-N 120 -1270 260 -1270 {lab=in[2]}
-N 260 -1270 260 -1260 {lab=in[2]}
-N 550 -1270 550 -1260 {lab=out}
-N 550 -1270 690 -1270 {lab=out}
-N 690 -1270 690 -1260 {lab=out}
+N 120 -1270 120 -1260 {lab=NON_INV}
+N 120 -1270 260 -1270 {lab=NON_INV}
+N 260 -1270 260 -1260 {lab=NON_INV}
+N 550 -1270 550 -1260 {lab=INVERTING}
+N 550 -1270 690 -1270 {lab=INVERTING}
+N 690 -1270 690 -1260 {lab=INVERTING}
 N 300 -1390 510 -1390 {lab=i_ndiff3}
 N 300 -1420 510 -1420 {lab=gnd}
 N 160 -1470 160 -1450 {lab=i_pdiff3}
 N 160 -1470 650 -1470 {lab=i_pdiff3}
 N 650 -1470 650 -1450 {lab=i_pdiff3}
-N 120 -1430 120 -1420 {lab=in[3]}
-N 120 -1430 260 -1430 {lab=in[3]}
-N 260 -1430 260 -1420 {lab=in[3]}
-N 550 -1430 550 -1420 {lab=out}
-N 550 -1430 690 -1430 {lab=out}
-N 690 -1430 690 -1420 {lab=out}
+N 120 -1430 120 -1420 {lab=NON_INV}
+N 120 -1430 260 -1430 {lab=NON_INV}
+N 260 -1430 260 -1420 {lab=NON_INV}
+N 550 -1430 550 -1420 {lab=INVERTING}
+N 550 -1430 690 -1430 {lab=INVERTING}
+N 690 -1430 690 -1420 {lab=INVERTING}
 N 300 -1550 510 -1550 {lab=i_ndiff4}
 N 300 -1580 510 -1580 {lab=gnd}
 N 160 -1630 160 -1610 {lab=i_pdiff4}
 N 160 -1630 650 -1630 {lab=i_pdiff4}
 N 650 -1630 650 -1610 {lab=i_pdiff4}
-N 120 -1590 120 -1580 {lab=in[4]}
-N 120 -1590 260 -1590 {lab=in[4]}
-N 260 -1590 260 -1580 {lab=in[4]}
-N 550 -1590 550 -1580 {lab=out}
-N 550 -1590 690 -1590 {lab=out}
-N 690 -1590 690 -1580 {lab=out}
+N 120 -1590 120 -1580 {lab=NON_INV}
+N 120 -1590 260 -1590 {lab=NON_INV}
+N 260 -1590 260 -1580 {lab=NON_INV}
+N 550 -1590 550 -1580 {lab=INVERTING}
+N 550 -1590 690 -1590 {lab=INVERTING}
+N 690 -1590 690 -1580 {lab=INVERTING}
 N 860 -1010 1100 -1010 {lab=#net1}
 N 860 -1160 1100 -1160 {lab=#net2}
 N 860 -1330 1100 -1330 {lab=#net3}
@@ -609,11 +612,11 @@ N 400 -1160 400 -1140 {lab=i_pdiff1}
 N 400 -1330 400 -1310 {lab=i_pdiff2}
 N 400 -1490 400 -1470 {lab=i_pdiff3}
 N 400 -1650 400 -1630 {lab=i_pdiff4}
-N 690 -930 740 -930 {lab=out}
-N 690 -1090 740 -1090 {lab=out}
-N 690 -1260 740 -1260 {lab=out}
-N 690 -1420 740 -1420 {lab=out}
-N 690 -1580 740 -1580 {lab=out}
+N 690 -930 740 -930 {lab=INVERTING}
+N 690 -1090 740 -1090 {lab=INVERTING}
+N 690 -1260 740 -1260 {lab=INVERTING}
+N 690 -1420 740 -1420 {lab=INVERTING}
+N 690 -1580 740 -1580 {lab=INVERTING}
 N 130 -340 140 -340 {lab=vddh2}
 N 130 -350 130 -340 {lab=vddh2}
 N 130 -420 130 -350 {lab=vddh2}
@@ -647,11 +650,45 @@ N 430 -470 430 -330 {lab=nn2}
 N 340 -470 430 -470 {lab=nn2}
 N 200 -310 200 -260 {lab=n5}
 N 380 -330 560 -330 {lab=nn2}
-N 70 -930 120 -930 {lab=in[0]}
-N 70 -1090 120 -1090 {lab=in[1]}
-N 70 -1260 120 -1260 {lab=in[2]}
-N 70 -1420 120 -1420 {lab=in[3]}
-N 70 -1580 120 -1580 {lab=in[4]}
+N 70 -930 120 -930 {lab=NON_INV}
+N 70 -1090 120 -1090 {lab=NON_INV}
+N 70 -1260 120 -1260 {lab=NON_INV}
+N 70 -1420 120 -1420 {lab=NON_INV}
+N 70 -1580 120 -1580 {lab=NON_INV}
+N -270 -1200 -230 -1200 {
+lab=#net33}
+N -450 -1250 -450 -1090 {
+lab=#net33}
+N -450 -1250 -270 -1250 {
+lab=#net33}
+N -450 -1030 -450 -1010 {
+lab=GND}
+N -270 -1030 -270 -1010 {
+lab=GND}
+N -270 -1110 -190 -1110 {
+lab=#net34}
+N -270 -1110 -270 -1090 {
+lab=#net34}
+N -270 -1160 -230 -1160 {
+lab=GND}
+N -270 -1160 -270 -1140 {
+lab=GND}
+N -350 -1150 -350 -1110 {
+lab=#net34}
+N -190 -1150 -190 -1110 {
+lab=#net34}
+N -270 -1250 -270 -1200 {
+lab=#net33}
+N -190 -1290 -190 -1210 {
+lab=INVERTING}
+N -350 -1290 -350 -1210 {
+lab=NON_INV}
+N -350 -1110 -270 -1110 {
+lab=#net34}
+N -310 -1160 -270 -1160 {
+lab=GND}
+N -310 -1200 -270 -1200 {
+lab=#net33}
 C {devices/lab_pin.sym} 300 -960 0 1 {name=p3 sig_type=std_logic lab=OUTN0A}
 C {devices/lab_pin.sym} 400 -930 0 0 {name=p4 sig_type=std_logic lab=gnd}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 280 -930 0 0 {name=M1
@@ -783,9 +820,9 @@ value="
   .param b3_th=\{b2_th*2\} b3_t=\{b3_th*2\}
   *******Signals**********
   .param vh=1.162 vl=1.044
-  *vin0 in[0] gnd dc pulse(5.5 0 \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
+  vin0 in[0] gnd dc pulse(5.5 0 \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
   *vin0 in[0] gnd dc 2.75
-  vin0 in[0] gnd dc vl
+  *vin0 in[0] gnd dc vl
   Vin1 in[1] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
   Vin2 in[2] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b1_th\} \{b1_t\})
   Vin3 in[3] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b2_th\} \{b2_t\})
@@ -795,14 +832,14 @@ value="
      reset
      save all
      *save inc ind out load
-     tran 1n 100u
+     *tran 1n 100u
      *dc vin0 -1 6.5 0.01
      *dc R2 100k 500k 1k
 
-     *ac dec 100 1 1e9
+     ac dec 100 1 1e9
      let difference=v(inc)-v(ind)
-     let vout_mag =abs(v(out))
-     let vout_phase_margin = phase(v(out))*180/pi + 180
+     let vout_mag =abs(v(load))
+     let vout_phase_margin = phase(v(load))*180/pi + 180
      meas ac Aol find vout_mag at = 10
      meas ac UGF when vout_mag=1 fall=1
      meas ac PM find vout_phase_margin when vout_mag=1
@@ -811,7 +848,7 @@ value="
      write op_amp_v3-tb.raw
      set wr_vecnames
      set wr_singlescale
-     wrdata /home/yohanes/10-bit-DAC/simulations/op_amp_v3-tb.txt out load
+     wrdata $THESIS_WS/simulations/op_amp_v3-tb.txt out load
      set appendwrite
 *    quit 0
   .endc
@@ -1151,7 +1188,7 @@ C {devices/lab_pin.sym} 295 -845 0 0 {name=p116 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 240 -690 0 1 {name=p117 sig_type=std_logic lab=n1}
 C {devices/lab_pin.sym} 240 -610 0 1 {name=p118 sig_type=std_logic lab=n2}
 C {devices/res.sym} 140 -140 0 0 {name=R2
-value=308.07k
+value=767.08k
 footprint=1206
 device=resistor
 m=1}
@@ -1414,7 +1451,7 @@ C {devices/lab_pin.sym} 400 -1650 0 0 {name=p49 sig_type=std_logic lab=i_pdiff4}
 C {devices/param.sym} -200 -870 0 0 {name=s2 value="
 +wp_iref=1.8
 +wn_iref=0.6
-+miref=10
++miref=25
 +miref2=10
 +
 +wp_bias=4.8
@@ -1422,8 +1459,8 @@ C {devices/param.sym} -200 -870 0 0 {name=s2 value="
 +mbias=2
 +
 +l=1
-+lref=10
-+lr=70
++lref=4
++lr=20
 +
 +midiff0=2
 +midiff1=2
@@ -1504,11 +1541,11 @@ C {devices/launcher.sym} 450 -1730 0 0 {name=h3
 descr="load ac" 
 tclcommand="xschem raw_read $netlist_dir/op_amp_v3-tb.raw ac"
 }
-C {devices/lab_pin.sym} 740 -930 0 1 {name=p31 sig_type=std_logic lab=out}
-C {devices/lab_pin.sym} 740 -1090 0 1 {name=p41 sig_type=std_logic lab=out}
-C {devices/lab_pin.sym} 740 -1260 0 1 {name=p42 sig_type=std_logic lab=out}
-C {devices/lab_pin.sym} 740 -1420 0 1 {name=p52 sig_type=std_logic lab=out}
-C {devices/lab_pin.sym} 740 -1580 0 1 {name=p55 sig_type=std_logic lab=out}
+C {devices/lab_pin.sym} 740 -930 0 1 {name=p31 sig_type=std_logic lab=INVERTING}
+C {devices/lab_pin.sym} 740 -1090 0 1 {name=p41 sig_type=std_logic lab=INVERTING}
+C {devices/lab_pin.sym} 740 -1260 0 1 {name=p42 sig_type=std_logic lab=INVERTING}
+C {devices/lab_pin.sym} 740 -1420 0 1 {name=p52 sig_type=std_logic lab=INVERTING}
+C {devices/lab_pin.sym} 740 -1580 0 1 {name=p55 sig_type=std_logic lab=INVERTING}
 C {devices/ammeter.sym} 140 -810 0 0 {name=Vmeas20 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 295 -785 0 0 {name=p80 sig_type=std_logic lab=vddho}
 C {devices/lab_pin.sym} 140 -840 0 0 {name=p81 sig_type=std_logic lab=vddho}
@@ -2040,11 +2077,11 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 70 -930 0 0 {name=p2 sig_type=std_logic lab=in[0]}
-C {devices/lab_pin.sym} 70 -1090 0 0 {name=p7 sig_type=std_logic lab=in[1]}
-C {devices/lab_pin.sym} 70 -1260 0 0 {name=p12 sig_type=std_logic lab=in[2]}
-C {devices/lab_pin.sym} 70 -1420 0 0 {name=p83 sig_type=std_logic lab=in[3]}
-C {devices/lab_pin.sym} 70 -1580 0 0 {name=p84 sig_type=std_logic lab=in[4]}
+C {devices/lab_pin.sym} 70 -930 0 0 {name=p2 sig_type=std_logic lab=NON_INV}
+C {devices/lab_pin.sym} 70 -1090 0 0 {name=p7 sig_type=std_logic lab=NON_INV}
+C {devices/lab_pin.sym} 70 -1260 0 0 {name=p12 sig_type=std_logic lab=NON_INV}
+C {devices/lab_pin.sym} 70 -1420 0 0 {name=p30 sig_type=std_logic lab=NON_INV}
+C {devices/lab_pin.sym} 70 -1580 0 0 {name=p83 sig_type=std_logic lab=NON_INV}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 1770 -1190 0 0 {name=M26
 L=l
 W=\{wn_sum*3\}
@@ -2061,3 +2098,12 @@ spiceprefix=X
 }
 C {sky130_fd_pr/cap_mim_m3_1.sym} 2100 -1450 0 0 {name=C2 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 2100 -1390 2 1 {name=C3 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
+C {devices/lab_pin.sym} -350 -1290 0 0 {name=p84 sig_type=std_logic lab=NON_INV}
+C {devices/lab_pin.sym} -190 -1290 0 0 {name=p85 sig_type=std_logic lab=INVERTING}
+C {devices/vcvs.sym} -350 -1180 0 1 {name=E1 value=0.5}
+C {devices/vcvs.sym} -190 -1180 0 0 {name=E2 value=-0.5}
+C {devices/vsource.sym} -450 -1060 0 0 {name=Vdm value="ac 1" savecurrent=false}
+C {devices/vsource.sym} -270 -1060 0 0 {name=Vcm value=2.75 savecurrent=false}
+C {devices/gnd.sym} -450 -1010 0 0 {name=l5 lab=GND}
+C {devices/gnd.sym} -270 -1010 0 0 {name=l6 lab=GND}
+C {devices/gnd.sym} -270 -1140 0 0 {name=l7 lab=GND}

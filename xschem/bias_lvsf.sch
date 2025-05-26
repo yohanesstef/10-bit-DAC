@@ -1,4 +1,4 @@
-v {xschem version=3.4.7RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -91,7 +91,7 @@ C {devices/param.sym} 0 -790 0 0 {name=s2 value="
 +miref=2
 +
 +lref=4
-+lr=25"}
++lr=20"}
 C {devices/title.sym} 160 -30 0 0 {name=l1 author="Yohanes Stefanus"}
 C {devices/lab_pin.sym} 300 -820 0 0 {name=p1 sig_type=std_logic lab=VDDA}
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 320 -690 0 1 {name=M2

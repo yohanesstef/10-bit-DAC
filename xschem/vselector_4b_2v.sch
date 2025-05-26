@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -36,8 +36,8 @@ C {devices/lab_pin.sym} 910 -330 2 1 {name=p18 sig_type=std_logic lab=VPB}
 C {devices/lab_pin.sym} 390 -370 3 1 {name=p3 sig_type=std_logic lab=v1[0:8]}
 C {devices/lab_pin.sym} 90 -330 2 1 {name=p4 sig_type=std_logic lab=VPB}
 C {devices/lab_pin.sym} 90 -260 2 1 {name=p19 sig_type=std_logic lab=VPB}
-C {devices/lab_pin.sym} 90 -280 2 1 {name=p20 sig_type=std_logic lab=b[6]}
-C {devices/lab_pin.sym} 90 -350 2 1 {name=p21 sig_type=std_logic lab=bb[6]}
+C {devices/lab_pin.sym} 90 -350 2 1 {name=p20 sig_type=std_logic lab=b[6]}
+C {devices/lab_pin.sym} 90 -280 2 1 {name=p21 sig_type=std_logic lab=bb[6]}
 C {devices/lab_pin.sym} 90 -370 2 1 {name=p22 sig_type=std_logic lab=vin[8:16]}
 C {devices/lab_pin.sym} 90 -300 2 1 {name=p23 sig_type=std_logic lab=vin[0:8]}
 C {devices/lab_pin.sym} 500 -330 2 1 {name=p24 sig_type=std_logic lab=VPB}

@@ -1,0 +1,4 @@
+.include rseg_1.spice
+.include rseg_2.spice
+.include rseg_3.spice
+.include rseg_4.spice
