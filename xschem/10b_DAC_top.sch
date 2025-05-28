@@ -28,7 +28,6 @@ N 1430 -790 1430 -710 {lab=VOUT}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {devices/opin.sym} 1780 -730 0 0 {name=p19 lab=VOUT}
 C {devices/ipin.sym} 1800 -770 0 0 {name=p20 lab=GND}
-C {rstring.sym} 800 -1040 0 0 {name=x5}
 C {vselector_6b_2v.sym} 800 -840 0 0 {name=x2}
 C {vselector_4b_2v.sym} 800 -740 0 0 {name=x3}
 C {vselector_6b_1v_pmos.sym} 800 -640 0 0 {name=x4}
@@ -218,3 +217,4 @@ C {devices/lab_pin.sym} 1120 -1330 0 0 {name=p138 sig_type=std_logic lab=d[6:9]}
 C {devices/lab_pin.sym} 1120 -1290 0 0 {name=p139 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 1120 -1270 0 0 {name=p140 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 1420 -1330 0 1 {name=p141 sig_type=std_logic lab=DS[8:9]}
+C {rstring_v3.sym} 800 -1040 0 0 {name=x5}

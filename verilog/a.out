@@ -1,0 +1,22 @@
+#! /mnt/disk1/home/yohanes/local/bin/vvp-11.0
+:ivl_version "13.0 (devel)" "(s20250103-36-gea26587b5)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/mnt/disk1/home/yohanes/local/lib/ivl-11.0/system.vpi";
+:vpi_module "/mnt/disk1/home/yohanes/local/lib/ivl-11.0/vhdl_sys.vpi";
+:vpi_module "/mnt/disk1/home/yohanes/local/lib/ivl-11.0/vhdl_textio.vpi";
+:vpi_module "/mnt/disk1/home/yohanes/local/lib/ivl-11.0/v2005_math.vpi";
+:vpi_module "/mnt/disk1/home/yohanes/local/lib/ivl-11.0/va_math.vpi";
+S_0x217c5a0 .scope module, "hello" "hello" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /OUTPUT 1 "B";
+o0x7f30a1c15018 .functor BUFZ 1, c4<z>; HiZ drive
+L_0x2157b60 .functor NOT 1, o0x7f30a1c15018, C4<0>, C4<0>, C4<0>;
+v0x21585b0_0 .net "A", 0 0, o0x7f30a1c15018;  0 drivers
+v0x2159ba0_0 .net "B", 0 0, L_0x2157b60;  1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "test.v";

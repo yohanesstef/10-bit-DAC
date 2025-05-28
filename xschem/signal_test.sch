@@ -4,7 +4,7 @@ K {}
 V {}
 S {}
 E {}
-B 2 180 -520 980 -120 {flags=graph
+B 2 190 -1010 990 -610 {flags=graph
 y1=0
 y2=5.5
 ypos1=-0.5646247
@@ -12,8 +12,8 @@ ypos2=7.1744275
 divy=5
 subdivy=1
 unity=1
-x1=0.00034433862
-x2=0.00051439599
+x1=0.00031032714
+x2=0.00048038451
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -37,7 +37,7 @@ d[2]
 d[1]
 d[0]
 clk"}
-B 2 180 -920 980 -520 {flags=graph
+B 2 190 -1410 990 -1010 {flags=graph
 y1=1.6e-09
 y2=1100
 ypos1=-0.49158575
@@ -45,8 +45,8 @@ ypos2=7.2088195
 divy=5
 subdivy=1
 unity=1
-x1=0.00034433862
-x2=0.00051439599
+x1=0.00031032714
+x2=0.00048038451
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -59,6 +59,7 @@ digital=0
 rainbow=1
 color=4
 node=in}
+N 410 -230 410 -210 {lab=CLK}
 C {devices/code.sym} 10 -210 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
@@ -145,3 +146,7 @@ C {devices/launcher.sym} 250 -70 0 0 {name=h1
 descr="load dc" 
 tclcommand="xschem raw_read $netlist_dir/signal_test_dc-tb.raw dc"
 }
+C {adc10b_va.sym} 400 -320 0 0 {name=x1}
+C {devices/lab_pin.sym} 270 -320 0 0 {name=p1 sig_type=std_logic lab=IN}
+C {devices/lab_pin.sym} 410 -210 0 0 {name=p2 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 520 -320 0 1 {name=p3 sig_type=std_logic lab=CLK}

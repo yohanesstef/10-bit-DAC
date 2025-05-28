@@ -206,6 +206,7 @@ C {devices/simulator_commands.sym} 0 -390 0 0 {name=COMMANDS2
 simulator=ngspice
 only_toplevel=false 
 value="  
+  .include $THESIS_WS/spice/header.spice
   *.options wnflag=0 bypass=1
   .option wnflag=1
   .option safecurrents
@@ -213,9 +214,7 @@ value="
   .options solver=klu nomod
   .options method=trap rawfile=binary
   *.options reltol=1e-2 abstol=1e-12 chgtol=1e-12 vabstol=1u
-  .nodeset all = 1
-  *.nodeset V(VOUT) = 2.75 V(LOAD) = 2.75
-
+  .nodeset all = 5
   *nodeset 10 -> higher code
   *nodeset 1 -> Lower code
   ********************Static Voltage Sources***************************
@@ -252,7 +251,6 @@ value="
 
      compose low_to_high values 0 1.8
      compose high_to_low values 1.8 0
-
      foreach var9 $&low_to_high
        alter vd9 $var9
 
@@ -304,7 +302,7 @@ value="
              let vd8 = v(d8)
              let vd9 = v(d9)
 
-             wrdata $THESIS_WS/simulations/dc_L_comp-tb.txt voutval vloadval ir1 ir2 ivdd ivdda ivddh ndata vd9 vd8 vd7 vd6 vd5 vd4 vd3 vd2 vd1 vd0
+             wrdata $THESIS_WS/simulations/dc_M_comp2-tb.txt voutval vloadval ir1 ir2 ivdd ivdda ivddh ndata vd9 vd8 vd7 vd6 vd5 vd4 vd3 vd2 vd1 vd0
              let ndata = ndata + 1
              set appendwrite
              unset set wr_vecnames

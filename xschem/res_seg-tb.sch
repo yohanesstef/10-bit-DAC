@@ -190,7 +190,7 @@ value="
      write res_seg-tb.raw
      set wr_singlescale
      set wr_vecnames
-     wrdata $THESIS_WS/simulations/rseg-tb.txt dc.all
+     wrdata $THESIS_WS/simulations/rseg-tb11.txt dc.all
 
 
 *     dc Vdm 0 1 1
@@ -257,7 +257,7 @@ C {devices/lab_pin.sym} 700 -240 0 0 {name=p17 sig_type=std_logic lab=gnd}
 C {devices/ammeter.sym} 730 -240 1 0 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 1060 -240 0 1 {name=p18 sig_type=std_logic lab=V[0..191]}
 C {rstring_v3.sym} 910 -240 0 0 {name=x2}
-C {sky130_fd_pr/corner.sym} 0 -180 0 0 {name=CORNER only_toplevel=true corner=tt}
+C {sky130_fd_pr/corner.sym} 0 -170 0 0 {name=CORNER only_toplevel=true corner=tt}
 C {devices/lab_pin.sym} 1360 -320 0 1 {name=p19 sig_type=std_logic lab=VDDH}
 C {devices/ammeter.sym} 1360 -290 0 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 1360 -260 0 1 {name=p20 sig_type=std_logic lab=V191}

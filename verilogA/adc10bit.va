@@ -1,0 +1,44 @@
+`include "constants.vams"
+`include "disciplines.vams"
+
+module adc10bit(in, clk, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9);
+  input in, clk;
+  output d0, d1, d2, d3, d4, d5, d6, d7, d8, d9;
+
+  electrical in, clk;
+  electrical d0, d1, d2, d3, d4, d5, d6, d7, d8, d9;
+
+  parameter real VDD = 1.8;
+  parameter real VREF = 1.8;
+  parameter integer N = 10;
+  parameter real VLSB = VREF / (2.0 ** N);
+  parameter real VTH = VREF / 2;
+
+  real v_clk_prev;
+
+  integer code, sampled_code;
+
+  analog begin
+    // Continuously evaluate the input and quantize
+    //if (V(clk) > VTH && v_clk_prev <= VTH) begin
+      code = floor(V(in) / VLSB);
+      if (code > 1023) code = 1023;
+      if (code < 0)    code = 0;
+      sampled_code = code;
+    //end
+
+    v_clk_prev = V(clk);  // update memory
+
+    // Output digital bits as voltages (no transition, just hard logic levels)
+    V(d0) <+ ((code >> 0) & 1) * VDD;
+    V(d1) <+ ((code >> 1) & 1) * VDD;
+    V(d2) <+ ((code >> 2) & 1) * VDD;
+    V(d3) <+ ((code >> 3) & 1) * VDD;
+    V(d4) <+ ((code >> 4) & 1) * VDD;
+    V(d5) <+ ((code >> 5) & 1) * VDD;
+    V(d6) <+ ((code >> 6) & 1) * VDD;
+    V(d7) <+ ((code >> 7) & 1) * VDD;
+    V(d8) <+ ((code >> 8) & 1) * VDD;
+    V(d9) <+ ((code >> 9) & 1) * VDD;
+  end
+endmodule
