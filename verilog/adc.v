@@ -1,27 +1,29 @@
-`timescale 10ns / 10ns
+`timescale 100ns / 10ns
 
 module adc(
-    input wire vin,         // analog input as a real number (simulation only)
     input clk,
     output reg [9:0] dout  // 10-bit digital output
 );
 
-    parameter real VREF = 1024;        // Reference voltage
+    parameter integer VREF = 2;        // Reference voltage
     parameter integer RESOLUTION = 1024; // 2^10 for 10-bit
 
-    integer vin_clamped;
- 
-    always @(posedge clk) begin
-        // Clamp input between 0 and VREF
-        if (vin < 0)
-            vin_clamped = 0;
-        else if (vin >= VREF)
-            vin_clamped = VREF;
-        else
-            vin_clamped = vin;
+    real PI = 3.14159265359;
+    real sin_val = 0;
+    real phase_val = 0;
+    reg clksin;
 
-        // Convert voltage to digital code (integer)
-        dout <= $rtoi( (vin_clamped / VREF) * (RESOLUTION - 1) );
+    initial begin
+        $display("ADC START!!!!!!!!!! YEAH!!!!");
+        dout = 0;
+        clksin = 0;
     end
-
+    always #1 clksin <= ~clksin;
+    always @(posedge(clksin))begin
+        phase_val = phase_val + 4*PI/1013.8 ;
+        sin_val = $sin(phase_val) + 1;
+    end 
+    always @(posedge(clk))begin
+        dout <= $rtoi((sin_val/VREF) * (RESOLUTION-1));
+    end
 endmodule
