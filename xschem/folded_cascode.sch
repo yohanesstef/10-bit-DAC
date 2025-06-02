@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -9,7 +9,6 @@ N 600 -810 770 -810 {lab=VDDA}
 N 770 -690 770 -660 {lab=I_ONA}
 N 640 -720 730 -720 {lab=VGP}
 N 770 -600 960 -600 {lab=OUTA}
-N 770 -600 770 -590 {lab=OUTA}
 N 410 -600 600 -600 {lab=VGP}
 N 640 -630 730 -630 {lab=VBS1}
 N 600 -600 680 -600 {lab=VGP}
@@ -26,6 +25,16 @@ N 600 -210 770 -210 {lab=GNDA}
 N 600 -480 680 -480 {lab=VGN}
 N 680 -480 680 -300 {lab=VGN}
 N 730 -390 820 -390 {lab=VBS2}
+N 600 -270 600 -210 {lab=GNDA}
+N 770 -270 770 -210 {lab=GNDA}
+N 770 -480 770 -420 {lab=OUTB}
+N 600 -480 600 -420 {lab=VGN}
+N 960 -600 960 -540 {lab=OUTA}
+N 770 -600 770 -540 {lab=OUTA}
+N 600 -600 600 -540 {lab=VGP}
+N 410 -600 410 -540 {lab=VGP}
+N 600 -810 600 -750 {lab=VDDA}
+N 770 -810 770 -750 {lab=VDDA}
 C {devices/lab_pin.sym} 770 -810 0 1 {name=p154 sig_type=std_logic lab=VDDA}
 C {devices/param.sym} 170 -730 0 0 {name=s2 value="
 +wp_sum=4.8
@@ -52,8 +61,6 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} 600 -780 0 0 {name=Vmeas1 savecurrent=true spice_ignore=0}
-C {devices/ammeter.sym} 770 -780 0 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 750 -510 0 0 {name=M7
 L=l_sum
 W=wn_fcm
@@ -84,8 +91,6 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} 600 -570 0 0 {name=Vmeas3 savecurrent=true spice_ignore=0}
-C {devices/ammeter.sym} 770 -570 0 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 430 -510 0 1 {name=M10
 L=l_sum
 W=wp_fcm
@@ -101,8 +106,6 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} 410 -570 0 0 {name=Vmeas5 savecurrent=true spice_ignore=0}
-C {devices/ammeter.sym} 960 -570 0 0 {name=Vmeas6 savecurrent=true spice_ignore=0}
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 940 -510 0 0 {name=M9
 L=l_sum
 W=wp_fcm
@@ -137,8 +140,6 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} 600 -450 0 0 {name=Vmeas7 savecurrent=true spice_ignore=0}
-C {devices/ammeter.sym} 770 -450 0 0 {name=Vmeas8 savecurrent=true spice_ignore=0}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 750 -390 0 0 {name=M11
 L=l_sum
 W=wn_sum
@@ -169,8 +170,6 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} 600 -240 0 0 {name=Vmeas9 savecurrent=true spice_ignore=0}
-C {devices/ammeter.sym} 770 -240 0 0 {name=Vmeas10 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 770 -210 0 1 {name=p11 sig_type=std_logic lab=GNDA}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 750 -300 0 0 {name=M14
 L=l_sum

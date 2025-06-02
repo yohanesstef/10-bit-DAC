@@ -1,4 +1,4 @@
-v {xschem version=3.4.7RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -7,15 +7,12 @@ E {}
 N 360 -310 360 -260 {lab=out}
 N 360 -330 360 -310 {lab=out}
 N 320 -340 320 -230 {lab=in}
-N 360 -230 370 -230 {lab=GND}
 N 360 -360 370 -360 {lab=VDDH}
 N 370 -390 370 -360 {lab=VDDH}
 N 360 -410 360 -390 {lab=VDDH}
-N 360 -200 360 -190 {lab=GND}
-N 370 -230 370 -200 {lab=GND}
-N 360 -200 370 -200 {lab=GND}
 N 320 -360 320 -340 {lab=in}
 N 360 -390 370 -390 {lab=VDDH}
+N 360 -230 360 -180 {lab=GND}
 C {devices/opin.sym} 50 -190 0 0 {name=p6 lab=out}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
 C {devices/ipin.sym} 70 -170 0 0 {name=p7 lab=VDDH}
@@ -38,7 +35,7 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 360 -190 0 0 {name=p1 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} 360 -180 0 0 {name=p1 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 360 -410 0 0 {name=p3 sig_type=std_logic lab=VDDH}
 C {devices/lab_pin.sym} 320 -290 0 0 {name=p4 sig_type=std_logic lab=in}
 C {devices/lab_pin.sym} 360 -290 0 1 {name=p9 sig_type=std_logic lab=out}

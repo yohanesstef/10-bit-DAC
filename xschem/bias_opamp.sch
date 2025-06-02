@@ -65,6 +65,9 @@ N 730 -350 730 -240 {lab=VTAIL1}
 N 630 -430 720 -430 {lab=VTAIL2}
 N 720 -430 720 -320 {lab=VTAIL2}
 N 830 -700 830 -660 {lab=VDDA}
+N 1100 -200 1100 -140 {lab=GNDA}
+N 830 -200 830 -140 {lab=GNDA}
+N 630 -200 630 -140 {lab=GNDA}
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 440 -630 0 1 {name=M1
 L=lref
 W=wp_iref
@@ -396,9 +399,6 @@ C {devices/lab_pin.sym} 720 -390 0 1 {name=p10 sig_type=std_logic lab=VTAIL2}
 C {devices/lab_pin.sym} 730 -270 0 1 {name=p11 sig_type=std_logic lab=VTAIL1}
 C {devices/lab_pin.sym} 890 -270 0 1 {name=p12 sig_type=std_logic lab=NVB}
 C {devices/lab_pin.sym} 1170 -630 0 1 {name=p13 sig_type=std_logic lab=PVB}
-C {devices/ammeter.sym} 630 -170 0 0 {name=Vmeas savecurrent=true spice_ignore=0}
-C {devices/ammeter.sym} 830 -170 0 0 {name=Vmeas1 savecurrent=true spice_ignore=0}
-C {devices/ammeter.sym} 1100 -170 0 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
 C {devices/ipin.sym} 140 -320 0 0 {name=p30 lab=ROUT}
 C {devices/opin.sym} 120 -300 0 0 {name=p85 lab=VHEAD1}
 C {devices/ipin.sym} 150 -180 0 0 {name=p87 lab=VDDA}

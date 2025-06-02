@@ -12,8 +12,8 @@ ypos2=7.1744275
 divy=5
 subdivy=1
 unity=1
-x1=0.00031032714
-x2=0.00048038451
+x1=0.00036246654
+x2=0.00041176793
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -45,8 +45,8 @@ ypos2=7.2088195
 divy=5
 subdivy=1
 unity=1
-x1=0.00031032714
-x2=0.00048038451
+x1=0.00036246654
+x2=0.00041176793
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -119,6 +119,11 @@ value="
 
   Vin in gnd SIN(512 512 9.95k)
   Vclk clk gnd pulse(1.8 0 10n 10n 0 5u 10u)
+
+  .subckt adc10b_va in clk d0 d1 d2 d3 d4 d5 d6 d7 d8 d9
+  N1 in clk d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 adc_model
+  .ends
+  .model adc_model adc10bit
   ********************Simulation Commands*****************************
   .control
      reset
@@ -127,8 +132,8 @@ value="
      set wr_singlescale
      set wr_vecnames
      *dc vin 0 1.8 0.0017578125
-     *dc vin 0 1024 1
-     tran 10n 1m
+     dc vin 0 1024 1
+     *tran 10n 1m
 
      *let vval = V(in)
      *let testvar = \{floor(vval*1024/1.8)\}     

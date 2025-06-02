@@ -12,8 +12,8 @@ ypos2=6.0536528
 divy=5
 subdivy=1
 unity=1
-x1=348.86703
-x2=386.86615
+x1=0.0011200752
+x2=0.0046357002
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -36,15 +36,15 @@ d2
 d1
 d0"}
 B 2 940 -880 1740 -480 {flags=graph
-y1=1.9e-08
-y2=5.5
+y1=0.00031
+y2=0.099
 ypos1=0.56976454
 ypos2=8.5171201
 divy=5
 subdivy=1
 unity=1
-x1=348.86703
-x2=386.86615
+x1=0.0011200752
+x2=0.0046357002
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -66,8 +66,8 @@ ypos2=4.9596586
 divy=5
 subdivy=1
 unity=1
-x1=348.86703
-x2=386.86615
+x1=0.0011200752
+x2=0.0046357002
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -93,8 +93,8 @@ ypos2=5.9
 divy=5
 subdivy=1
 unity=1
-x1=348.86703
-x2=386.86615
+x1=0.00075937301
+x2=0.004274998
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -120,9 +120,10 @@ x1.v[63]
 x1.v[62]
 x1.v[1]
 x1.v[0]"}
-N 770 -320 770 -300 {lab=LOAD}
-N 610 -320 650 -320 {lab=VOUT}
-N 440 -110 500 -110 {lab=GNDA}
+N 780 -300 780 -280 {lab=LOAD}
+N 1090 -220 1090 -200 {lab=CLK}
+N 480 -80 530 -80 {lab=GNDA}
+N 640 -300 660 -300 {lab=VOUT}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {devices/launcher.sym} 210 -460 0 0 {name=h5
 descr="load tran" 
@@ -130,13 +131,13 @@ tclcommand="xschem raw_read $netlist_dir/10b_DAC-tb.raw tran"
 }
 C {devices/launcher.sym} 400 -460 0 0 {name=h1
 descr="load dc" 
-tclcommand="xschem raw_read $netlist_dir/10b_DAC_dc-tb.raw dc"
+tclcommand="xschem raw_read $netlist_dir/10b_DAC_dc-tb2.raw dc"
 }
 C {devices/launcher.sym} 575 -460 0 0 {name=h2
 descr="Show Raw file" 
 tclcommand="textwindow $netlist_dir/res_segment.raw"
 }
-C {devices/lab_pin.sym} 360 -350 0 0 {name=p16 sig_type=std_logic lab=VDD2}
+C {devices/lab_pin.sym} 390 -310 0 0 {name=p16 sig_type=std_logic lab=VDD2}
 C {devices/code.sym} 0 -230 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
@@ -145,41 +146,41 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 "
 spice_ignore=false
 place=header}
-C {devices/capa.sym} 770 -270 0 0 {name=C6
+C {devices/capa.sym} 780 -250 0 0 {name=C6
 m=1
 value=30p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/lab_pin.sym} 770 -240 0 0 {name=p101 sig_type=std_logic lab=GNDA}
-C {devices/res.sym} 740 -320 3 0 {name=R1
+C {devices/lab_pin.sym} 780 -220 0 0 {name=p101 sig_type=std_logic lab=GNDA}
+C {devices/res.sym} 750 -300 3 0 {name=R1
 value=10k
 footprint=1206
 device=resistor
 m=1}
-C {devices/lab_pin.sym} 770 -320 0 1 {name=p99 sig_type=std_logic lab=LOAD}
-C {devices/ammeter.sym} 500 -140 0 1 {name=Vmeas1 savecurrent=true spice_ignore=0}
-C {devices/lab_pin.sym} 630 -320 3 1 {name=p8 sig_type=std_logic lab=VOUT}
-C {devices/lab_pin.sym} 200 -200 0 0 {name=p9 sig_type=std_logic lab=VDDH}
-C {devices/lab_pin.sym} 360 -290 0 0 {name=p11 sig_type=std_logic lab=GND}
-C {devices/lab_pin.sym} 360 -270 0 0 {name=p12 sig_type=std_logic lab=GNDA}
-C {devices/lab_pin.sym} 360 -370 0 0 {name=p13 sig_type=std_logic lab=D[0..9]}
-C {devices/res.sym} 440 -200 0 1 {name=R2
+C {devices/lab_pin.sym} 780 -300 0 1 {name=p99 sig_type=std_logic lab=LOAD}
+C {devices/ammeter.sym} 530 -110 0 1 {name=Vmeas1 savecurrent=true spice_ignore=0}
+C {devices/lab_pin.sym} 640 -300 3 1 {name=p8 sig_type=std_logic lab=VOUT}
+C {devices/lab_pin.sym} 210 -160 0 0 {name=p9 sig_type=std_logic lab=VDDH}
+C {devices/lab_pin.sym} 390 -250 0 0 {name=p11 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} 390 -230 0 0 {name=p12 sig_type=std_logic lab=GNDA}
+C {devices/lab_pin.sym} 390 -370 0 0 {name=p13 sig_type=std_logic lab=D[0..9]}
+C {devices/res.sym} 480 -170 0 1 {name=R2
 value=767.08k
 footprint=1206
 device=resistor
 m=1}
-C {devices/lab_pin.sym} 440 -110 0 0 {name=p119 sig_type=std_logic lab=GNDA}
-C {devices/ammeter.sym} 440 -140 0 1 {name=Vmeas savecurrent=true spice_ignore=0}
-C {devices/res.sym} 500 -200 0 0 {name=R3
+C {devices/lab_pin.sym} 480 -80 0 0 {name=p119 sig_type=std_logic lab=GNDA}
+C {devices/ammeter.sym} 480 -110 0 1 {name=Vmeas savecurrent=true spice_ignore=0}
+C {devices/res.sym} 530 -170 0 0 {name=R3
 value=192.15k
 footprint=1206
 device=resistor
 m=1}
-C {devices/ammeter.sym} 360 -170 0 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
+C {devices/ammeter.sym} 370 -130 0 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
 C {10b_DAC_top.sym} 510 -300 0 0 {name=x1}
 C {devices/code_shown.sym} -610 -350 0 0 {name=NGSPICE_SAVE only_toplevel=true 
 value="
-.save VOUT LOAD
+.save VOUT LOAD IN
 .save d0 d1 d2 d3 d4 d5 d6 d7 d8 d9
 .save x1.P_IN[0] x1.P_IN[1] x1.P_IN[2] x1.P_IN[3] x1.P_IN[4]
 *.save x1.b[0] x1.b[1] x1.b[2] x1.b[3] x1.b[4]
@@ -192,137 +193,23 @@ value="
 .save x1.V[113] x1.V[114] x1.V[126] x1.V[127]
 .save x1.V[128] x1.V[129] x1.V[190] x1.V[191]
 "}
-C {devices/ammeter.sym} 280 -170 0 1 {name=Vmeas3 savecurrent=true spice_ignore=0}
-C {devices/lab_pin.sym} 280 -200 2 1 {name=p1 sig_type=std_logic lab=VDDA}
-C {devices/ammeter.sym} 200 -170 0 1 {name=Vmeas4 savecurrent=true spice_ignore=0}
-C {devices/lab_pin.sym} 280 -140 2 1 {name=p2 sig_type=std_logic lab=VDDA2}
-C {devices/lab_pin.sym} 200 -140 0 0 {name=p3 sig_type=std_logic lab=VDDH2}
-C {devices/lab_pin.sym} 360 -310 2 1 {name=p4 sig_type=std_logic lab=VDDA2}
-C {devices/lab_pin.sym} 360 -330 0 0 {name=p5 sig_type=std_logic lab=VDDH2}
-C {devices/lab_pin.sym} 360 -200 2 1 {name=p6 sig_type=std_logic lab=VDD}
-C {devices/ammeter.sym} 680 -320 3 1 {name=Vmeas5 savecurrent=true spice_ignore=0}
-C {devices/lab_pin.sym} 360 -140 2 1 {name=p7 sig_type=std_logic lab=VDD2}
-C {devices/simulator_commands.sym} 0 -390 0 0 {name=COMMANDS2
-simulator=ngspice
-only_toplevel=false 
-value="  
-  .include $THESIS_WS/spice/header.spice
-  *.options wnflag=0 bypass=1
-  .option wnflag=1
-  .option safecurrents
-  *.option klu
-  .options solver=klu nomod
-  .options method=trap rawfile=binary
-  *.options reltol=1e-2 abstol=1e-12 chgtol=1e-12 vabstol=1u
-  .nodeset all = 5
-  *nodeset 10 -> higher code
-  *nodeset 1 -> Lower code
-  ********************Static Voltage Sources***************************
-  Vddh vddh gnd dc 5.5
-  Vdd vdd gnd dc 1.8
-  Vdda vdda gnd dc 5.5
-  Vgnda gnda gnd dc 0
-
-  Vdummy dummy gnd 0
-
-  VHREF x1.V[191] GND 5.5
-  VLREF x1.V[0] GND 0
-  *****INPUT SIGNALS******
-  .param xd0=0 xd1=0 xd2=0 xd3=0 xd4=0 xd5=0 xd6=0 xd7=0 xd8=0 xd9=0
-  Vd0  d0  gnd \{xd0\}
-  Vd1  d1  gnd \{xd1\}
-  Vd2  d2  gnd \{xd2\}
-  Vd3  d3  gnd \{xd3\}
-  Vd4  d4  gnd \{xd4\}
-  Vd5  d5  gnd \{xd5\}
-  Vd6  d6  gnd \{xd6\}
-  Vd7  d7  gnd \{xd7\}
-  Vd8  d8  gnd \{xd8\}
-  Vd9  d9  gnd \{xd9\}
-  ********************Simulation Commands*****************************
-  .control
-     set num_threads=8
-     *set appendwrite
-     option numdgt=6
-     set wr_singlescale
-     set wr_vecnames
-
-     let ndata=0
-
-     compose low_to_high values 0 1.8
-     compose high_to_low values 1.8 0
-     foreach var9 $&low_to_high
-       alter vd9 $var9
-
-       foreach var8 $&low_to_high
-         alter vd8 $var8
-
-         foreach var7 $&low_to_high
-           alter vd7 $var7
-
-             foreach var6 $&low_to_high
-             alter vd6 $var6
-
-             foreach var5 $&low_to_high
-             alter vd5 $var5
-
-             foreach var4 $&low_to_high
-             alter vd4 $var4
-
-             foreach var3 $&low_to_high
-             alter vd3 $var3
-
-             foreach var2 $&low_to_high
-             alter vd2 $var2
-
-             foreach var1 $&low_to_high
-             alter vd1 $var1
-
-             foreach var0 $&low_to_high
-             alter vd0 $var0
-
-             dc vdummy 5 5 0.1
-             let voutval= v(vout)
-             let vloadval = v(load)
-
-             let ir1 = i(vmeas)
-             let ir2 = i(vmeas1)
-             let ivdd = i(vmeas2)
-             let ivdda = i(vmeas3)
-             let ivddh = i(vmeas4)
-
-             let vd0 = v(d0)
-             let vd1 = v(d1)
-             let vd2 = v(d2)
-             let vd3 = v(d3)
-             let vd4 = v(d4)
-             let vd5 = v(d5)
-             let vd6 = v(d6)
-             let vd7 = v(d7)
-             let vd8 = v(d8)
-             let vd9 = v(d9)
-
-             wrdata $THESIS_WS/simulations/dc_M_comp2-tb.txt voutval vloadval ir1 ir2 ivdd ivdda ivddh ndata vd9 vd8 vd7 vd6 vd5 vd4 vd3 vd2 vd1 vd0
-             let ndata = ndata + 1
-             set appendwrite
-             unset set wr_vecnames
-             destroy all
-
-       end
-       end
-       end
-       end
-       end
-       end
-       end
-       end
-       end
-     end
-
-     set appendwrite=0
-     reset
-     *write 10b_DAC_dc-tb.raw
-
-*    quit 0
-  .endc
+C {devices/ammeter.sym} 290 -130 0 1 {name=Vmeas3 savecurrent=true spice_ignore=0}
+C {devices/lab_pin.sym} 290 -160 2 1 {name=p1 sig_type=std_logic lab=VDDA}
+C {devices/ammeter.sym} 210 -130 0 1 {name=Vmeas4 savecurrent=true spice_ignore=0}
+C {devices/lab_pin.sym} 290 -100 2 1 {name=p2 sig_type=std_logic lab=VDDA2}
+C {devices/lab_pin.sym} 210 -100 0 0 {name=p3 sig_type=std_logic lab=VDDH2}
+C {devices/lab_pin.sym} 390 -270 2 1 {name=p4 sig_type=std_logic lab=VDDA2}
+C {devices/lab_pin.sym} 390 -290 0 0 {name=p5 sig_type=std_logic lab=VDDH2}
+C {devices/lab_pin.sym} 370 -160 2 1 {name=p6 sig_type=std_logic lab=VDD}
+C {devices/ammeter.sym} 690 -300 3 1 {name=Vmeas5 savecurrent=true spice_ignore=0}
+C {devices/lab_pin.sym} 370 -100 2 1 {name=p7 sig_type=std_logic lab=VDD2}
+C {adc10b_va.sym} 1080 -310 0 0 {name=x2}
+C {devices/lab_pin.sym} 950 -310 0 0 {name=p10 sig_type=std_logic lab=IN}
+C {devices/lab_pin.sym} 1090 -200 0 0 {name=p14 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 1200 -310 0 1 {name=p15 sig_type=std_logic lab=d[0..9]}
+C {devices/code_shown.sym} -610 -440 0 0 {name=NGSPICE_SAVE1 only_toplevel=true 
+value="
+.include $THESIS_WS/spice/dc-tb.sp
 "}
+C {devices/lab_pin.sym} 390 -350 0 0 {name=p17 sig_type=std_logic lab=VLREF}
+C {devices/lab_pin.sym} 390 -330 0 0 {name=p18 sig_type=std_logic lab=VHREF}

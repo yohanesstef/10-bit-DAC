@@ -166,6 +166,6 @@ C {devices/lab_pin.sym} 30 -270 0 0 {name=p138 sig_type=std_logic lab=I_TAIL3}
 C {devices/lab_pin.sym} 30 -140 0 0 {name=p139 sig_type=std_logic lab=I_TAIL4}
 C {devices/lab_pin.sym} 1420 -240 2 1 {name=p198 sig_type=std_logic lab=I_ONA}
 C {devices/lab_pin.sym} 1420 -120 2 1 {name=p199 sig_type=std_logic lab=I_OPA}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1420 -210 0 0 {name=C1 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
 C {devices/lab_pin.sym} 1480 -180 0 1 {name=p200 sig_type=std_logic lab=VOUT}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1420 -150 2 1 {name=C4 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1420 -210 0 0 {name=C1 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1420 -150 2 1 {name=C2 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}

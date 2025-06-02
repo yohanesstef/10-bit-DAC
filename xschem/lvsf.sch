@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -15,22 +15,26 @@ N 490 -430 490 -380 {lab=OUTPB}
 N 370 -380 490 -380 {lab=OUTPB}
 N 330 -330 490 -330 {lab=VNBIAS}
 N 530 -500 640 -500 {lab=#net1}
-N 530 -460 630 -460 {lab=#net2}
-N 630 -460 630 -440 {lab=#net2}
-N 630 -440 640 -440 {lab=#net2}
-N 260 -500 370 -500 {lab=#net3}
-N 270 -460 370 -460 {lab=#net4}
-N 270 -460 270 -440 {lab=#net4}
-N 260 -440 270 -440 {lab=#net4}
+N 530 -460 630 -460 {lab=#net1}
+N 630 -460 630 -440 {lab=#net1}
+N 630 -440 640 -440 {lab=#net1}
+N 260 -500 370 -500 {lab=#net2}
+N 270 -460 370 -460 {lab=#net2}
+N 270 -460 270 -440 {lab=#net2}
+N 260 -440 270 -440 {lab=#net2}
 N 370 -220 530 -220 {lab=GND}
 N 530 -300 650 -300 {lab=n2}
-N 530 -280 640 -280 {lab=#net5}
-N 640 -280 640 -240 {lab=#net5}
-N 640 -240 650 -240 {lab=#net5}
+N 530 -280 640 -280 {lab=n2}
+N 640 -280 640 -240 {lab=n2}
+N 640 -240 650 -240 {lab=n2}
 N 250 -300 370 -300 {lab=n1}
-N 260 -280 370 -280 {lab=#net6}
-N 260 -280 260 -240 {lab=#net6}
-N 250 -240 260 -240 {lab=#net6}
+N 260 -280 370 -280 {lab=n1}
+N 260 -280 260 -240 {lab=n1}
+N 250 -240 260 -240 {lab=n1}
+N 260 -500 260 -440 {lab=#net2}
+N 250 -300 250 -240 {lab=n1}
+N 650 -300 650 -240 {lab=n2}
+N 640 -500 640 -440 {lab=#net1}
 C {devices/title.sym} 160 -40 0 0 {name=l3 author="Yohanes Stefanus"}
 C {devices/lab_pin.sym} 370 -560 0 0 {name=p1 sig_type=std_logic lab=VDDH}
 C {devices/lab_pin.sym} 370 -220 0 0 {name=p5 sig_type=std_logic lab=GND}
@@ -39,7 +43,6 @@ C {devices/ipin.sym} 100 -280 0 0 {name=p8 lab=INB}
 C {devices/opin.sym} 80 -260 0 0 {name=p9 lab=OUTP}
 C {devices/ipin.sym} 100 -240 0 0 {name=p11 lab=VDDH}
 C {devices/ipin.sym} 100 -220 0 0 {name=p12 lab=GND}
-C {devices/ammeter.sym} 640 -470 0 0 {name=Vmeas savecurrent=true spice_ignore=0}
 C {sky130_fd_pr/nfet3_01v8.sym} 350 -250 0 0 {name=M13
 L=0.15
 W=3
@@ -145,7 +148,6 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} 260 -470 0 0 {name=Vmeas1 savecurrent=true spice_ignore=0}
 C {sky130_fd_pr/nfet3_01v8.sym} 550 -250 0 1 {name=M7
 L=0.15
 W=3
@@ -162,8 +164,6 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_pin.sym} 330 -250 0 0 {name=p2 sig_type=std_logic lab=IN}
-C {devices/ammeter.sym} 650 -270 0 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
-C {devices/ammeter.sym} 250 -270 0 1 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 570 -250 0 1 {name=p3 sig_type=std_logic lab=INB}
 C {devices/lab_pin.sym} 330 -330 0 0 {name=p4 sig_type=std_logic lab=VNBIAS}
 C {devices/lab_pin.sym} 330 -530 0 0 {name=p6 sig_type=std_logic lab=VPBIAS}

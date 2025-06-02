@@ -1,4 +1,9 @@
+*.include $HOME/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 .include rseg_1.spice
 .include rseg_2.spice
 .include rseg_3.spice
 .include rseg_4.spice
+
+.model dac_buff dac_bridge(out_low=0 out_high=1.8
+  +out_undef=0 input_load=10e-15 t_rise=10e-9 t_fall=10e-9)
+.model adc_buff adc_bridge(in_low=0.8 in_high=0.9)

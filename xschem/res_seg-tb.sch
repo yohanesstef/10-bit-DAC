@@ -89,7 +89,7 @@ divy=5
 subdivy=1
 unity=1
 x1=0
-x2=1e-05
+x2=1
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -143,7 +143,7 @@ C {devices/simulator_commands.sym} 0 -320 0 0 {name=COMMANDS
 simulator=ngspice
 only_toplevel=false 
 value="  
-  .include $THESIS_WS/spice/header.spice
+  .include $THESIS_WS/spice/header.cir
   .option wnflag=1
   .option safecurrents
   ********************Static Voltage Sources***************************

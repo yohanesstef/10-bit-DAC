@@ -6,6 +6,7 @@ S {}
 E {}
 N 430 -360 430 -330 {lab=n1}
 N 430 -270 430 -260 {lab=GNDA}
+N 430 -480 430 -420 {lab=I_OUT}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
 C {devices/lab_pin.sym} 430 -260 2 1 {name=p1 sig_type=std_logic lab=GNDA}
 C {devices/opin.sym} 50 -380 0 0 {name=p19 lab=I_OUT}
@@ -32,7 +33,6 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} 430 -450 0 0 {name=Vmeas savecurrent=true spice_ignore=0}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 410 -300 0 0 {name=M2
 L=4
 W=0.6

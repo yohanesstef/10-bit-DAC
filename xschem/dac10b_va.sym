@@ -1,0 +1,18 @@
+v {xschem version=3.4.7 file_version=1.2}
+G {}
+K {type=primative
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 130 0 150 0 {}
+L 4 -100 0 -80 0 {}
+B 5 147.5 -2.5 152.5 2.5 {name=OUT dir=in}
+B 5 -102.5 -2.5 -97.5 2.5 {name=d[0..9] dir=in}
+P 4 6 -80 -60 -80 70 80 70 130 0 80 -60 -80 -60 {}
+T {@symname} -27.5 -6 0 0 0.3 0.3 {}
+T {@name} 45 -72 0 0 0.2 0.2 {}
+T {OUT} 85 -4 0 0 0.2 0.2 {}
+T {d[0..9]} -75 -4 0 0 0.2 0.2 {}

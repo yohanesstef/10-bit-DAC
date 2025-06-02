@@ -1918,3 +1918,9 @@ C {devices/lab_pin.sym} 1120 230 0 0 {name=p201 sig_type=std_logic lab=gnd}
 C {devices/ammeter.sym} 1150 230 1 0 {name=Vmeas1 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 1480 230 0 1 {name=p202 sig_type=std_logic lab=V1[0:191]}
 C {rstring_v3.sym} 1330 230 0 0 {name=x26}
+C {adc10b_v.sym} 1380 940 0 0 {name=ADUT model=dut
+
+device_model=".model dut d_cosim simulation=\\"ivlng\\" sim_args=[\\"adc\\"]"}
+C {devices/lab_pin.sym} 1250 940 0 0 {name=p203 sig_type=std_logic lab=in}
+C {devices/lab_pin.sym} 1390 1030 0 0 {name=p204 sig_type=std_logic lab=clk}
+C {devices/lab_pin.sym} 1500 940 0 1 {name=p205 sig_type=std_logic lab=d[0..9]}

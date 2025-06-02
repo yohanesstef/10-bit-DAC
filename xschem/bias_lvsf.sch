@@ -70,6 +70,11 @@ N 1390 -410 1450 -410 {lab=n14}
 N 1210 -450 1240 -450 {lab=n3}
 N 1210 -370 1240 -370 {lab=n4}
 N 1160 -790 1390 -790 {lab=VDDA}
+N 1390 -340 1390 -280 {lab=GNDA}
+N 1170 -340 1170 -280 {lab=GNDA}
+N 920 -340 920 -280 {lab=GNDA}
+N 730 -340 730 -280 {lab=GNDA}
+N 520 -340 520 -280 {lab=GNDA}
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 320 -760 0 1 {name=M1
 L=lref
 W=wp_iref
@@ -178,7 +183,6 @@ model=pfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} 520 -280 0 0 {name=p6 sig_type=std_logic lab=GNDA}
-C {devices/ammeter.sym} 520 -310 0 0 {name=Vmeas1 savecurrent=true spice_ignore=0}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 540 -450 0 1 {name=M7
 L=lref
 W=wn_iref
@@ -302,7 +306,6 @@ model=nfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} 730 -280 0 0 {name=p9 sig_type=std_logic lab=GNDA}
-C {devices/ammeter.sym} 730 -310 0 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 940 -450 0 1 {name=M15
 L=lref
 W=wn_iref
@@ -334,7 +337,6 @@ model=nfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} 920 -280 0 0 {name=p10 sig_type=std_logic lab=GNDA}
-C {devices/ammeter.sym} 920 -310 0 0 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 790 -370 0 1 {name=p11 sig_type=std_logic lab=VBNLV}
 C {devices/lab_pin.sym} 730 -410 0 1 {name=p12 sig_type=std_logic lab=n6}
 C {devices/lab_pin.sym} 980 -370 0 1 {name=p13 sig_type=std_logic lab=VBNDEC}
@@ -370,7 +372,6 @@ model=pfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} 1170 -280 0 0 {name=p15 sig_type=std_logic lab=GNDA}
-C {devices/ammeter.sym} 1170 -310 0 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 1190 -450 0 1 {name=M19
 L=lref
 W=wn_iref
@@ -466,7 +467,6 @@ model=nfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} 1390 -280 0 0 {name=p22 sig_type=std_logic lab=GNDA}
-C {devices/ammeter.sym} 1390 -310 0 0 {name=Vmeas6 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 1450 -370 0 1 {name=p24 sig_type=std_logic lab=n14}
 C {devices/lab_pin.sym} 1450 -490 0 1 {name=p26 sig_type=std_logic lab=VBPDEC}
 C {devices/lab_pin.sym} 1350 -760 0 0 {name=p27 sig_type=std_logic lab=n1}

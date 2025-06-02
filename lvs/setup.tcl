@@ -1,1 +1,0 @@
-/home/yohanes/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.tech/netgen/setup.tcl

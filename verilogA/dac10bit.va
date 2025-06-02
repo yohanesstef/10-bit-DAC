@@ -1,0 +1,33 @@
+`include "constants.vams"
+`include "disciplines.vams"
+
+module dac10bit(d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, out);
+  input d0, d1, d2, d3, d4, d5, d6, d7, d8, d9;
+  output out;
+
+  electrical d0, d1, d2, d3, d4, d5, d6, d7, d8, d9;
+  electrical out;
+
+  parameter real VDD = 1.8;
+  parameter real VREF = 1.8;
+  parameter integer N = 10;
+  parameter real VLSB = VREF / (2.0 ** N);
+
+  integer code;
+
+  analog begin
+    code = (V(d0) > VDD/2 ? 1 : 0)
+        + (V(d1) > VDD/2 ? 2 : 0)
+        + (V(d2) > VDD/2 ? 4 : 0)
+        + (V(d3) > VDD/2 ? 8 : 0)
+        + (V(d4) > VDD/2 ? 16 : 0)
+        + (V(d5) > VDD/2 ? 32 : 0)
+        + (V(d6) > VDD/2 ? 64 : 0)
+        + (V(d7) > VDD/2 ? 128 : 0)
+        + (V(d8) > VDD/2 ? 256 : 0)
+        + (V(d9) > VDD/2 ? 512 : 0);
+
+    // Output analog voltage
+    V(out) <+ code * VLSB;
+  end
+endmodule

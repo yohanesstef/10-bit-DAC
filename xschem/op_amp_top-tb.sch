@@ -5,8 +5,8 @@ V {}
 S {}
 E {}
 B 2 190 -1000 990 -600 {flags=graph
-y1=-83
-y2=74
+y1=-18.927349
+y2=81.55265
 ypos1=0
 ypos2=2
 divy=5
@@ -23,10 +23,9 @@ unitx=1
 logx=1
 logy=0
 color="4 5"
-node="\\"out db20()\\"
-\\"load db20()\\""
-}
-B 2 190 -1400 990 -1000 {flags=graph
+node="\\"OUT db20()\\"
+\\"LOAD db20()\\""}
+B 2 990 -1000 1790 -600 {flags=graph
 y1=-180
 y2=180
 ypos1=0
@@ -46,72 +45,8 @@ logx=1
 logy=0
 color="4 5"
 node="ph(out)
-ph(load)"}
-B 2 990 -1400 1790 -1000 {flags=graph
-y1=1.1e-11
-y2=6.5e-08
-ypos1=0
-ypos2=2
-divy=5
-subdivy=1
-unity=1
-x1=1
-x2=1e+09
-divx=5
-subdivx=4
-xlabmag=1.0
-ylabmag=1.0
-dataset=-1
-unitx=1
-logx=0
-logy=0
-color=4
-node=i(vmeas30)}
-B 2 990 -1000 1790 -600 {flags=graph
-y1=1.1e-06
-y2=0.0061
-ypos1=0
-ypos2=2
-divy=5
-subdivy=1
-unity=1
-x1=1
-x2=1e+09
-divx=5
-subdivx=4
-xlabmag=1.0
-ylabmag=1.0
-dataset=-1
-unitx=1
-logx=0
-logy=0
-color=4
-node=i(vmeas2)}
-B 2 190 -1800 990 -1400 {flags=graph
-y1=1
-y2=1.2
-ypos1=0.0021839809
-ypos2=0.12096341
-divy=5
-subdivy=1
-unity=1
-x1=1
-x2=1e+09
-divx=5
-subdivx=4
-xlabmag=1.0
-ylabmag=1.0
-dataset=-1
-unitx=1
-logx=0
-logy=0
-color="4 5 6 7 8"
-node="in[4]
-in[3]
-in[2]
-in[1]
-in[0]"
-digital=1}
+ph(load)"
+}
 T {tcleval(Aol: [to_eng [xschem raw value Aol 0]]
 UGF: [to_eng [xschem raw value ugf 0]]
 PM: [to_eng [xschem raw value pm 0]])} -40 -920 0 0 0.6 0.6 {floater=1}
@@ -176,12 +111,14 @@ value="
   .param b3_th=\{b2_th*2\} b3_t=\{b3_th*2\}
   *******Signals**********
   .param vh=1.162 vl=1.044
-  vin0 in[0] gnd dc pulse(5.5 0 \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
-  *vin0 in[0] gnd dc vl
+  *vin0 in[0] gnd dc pulse(5.5 0 \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
+  vin0 in[0] gnd dc vl
   Vin1 in[1] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b0_th\} \{b0_t\})
   Vin2 in[2] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b1_th\} \{b1_t\})
   Vin3 in[3] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b2_th\} \{b2_t\})
   Vin4 in[4] gnd pulse(\{vh\} \{vl\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
+
+  *vin0 in[0] gnd sin(2.75 2.75 1MEG)
   ********************Simulation Commands*****************************
   .control
      reset   
@@ -189,7 +126,7 @@ value="
      write op_amp_top-tb.raw
 
      
-     *tran 1n 100u
+     *tran 10n 30u 
      *dc vin0 -1 6.5 0.01
      ac dec 100 1 1e9
 

@@ -1,6 +1,6 @@
-`timescale 100ns / 10ns
+`timescale 100ns / 100ps
 
-module adc(
+module dsine_gen(
     input clk,
     output reg [9:0] dout  // 10-bit digital output
 );
@@ -14,7 +14,7 @@ module adc(
     reg clksin;
 
     initial begin
-        $display("ADC START!!!!!!!!!! YEAH!!!!");
+        $display("===SINE GENERATOR START===");
         dout = 0;
         clksin = 0;
     end

@@ -1,0 +1,40 @@
+%Digital Data
+D = linspace(0,1023,1024);
+
+%% TN-LCD Parameters for Mobile Device
+theta = pi/4;                % Polarizer Angle (Rad)
+lambda = 550e-9;             % Visible light wavelength (550 nm)
+d = 3.6e-6;                  % Cell gap (3.6 µm)
+V = linspace(0, 5.5, 10240); % Voltage range (from 0 to 5V)
+k_11 = 13e-12;               % Bend Elastic constant (13 pN)
+e0 = 8.854e-12;              % Free Space Permittivity in F/m
+elc = 5.3;                   % Liquid Crystal Dielectric anisotropy
+n_o = 1.5;                   % Ordinary refractive index
+n_e = 1.61;                  % Extraordinary refractive index
+vddh = 5.5;                  % vdd high level
+
+%% Threshold voltage and Voltage dependence
+%Vth = pi * sqrt(k_11 / (e0 * elc));   % Threshold voltage in V
+%V0 = 2*pi*sqrt(pi*k_11/elc);         % Voltage dependence parameter in V
+V0 = 5.5;
+Vth= -1;
+
+%V0 = 2.2;
+%Vth= 2.75;
+
+syms v;
+
+exp1 = exp(-((v-Vth)/V0));
+
+eq_1 = n_e^2 .* (cos(pi/2 - 2.*atan(exp1)).^2);
+eq_2 = n_o^2 .* (sin(pi/2 - 2.*atan(exp1)).^2);
+eq_3 = sqrt(eq_1 + eq_2);
+
+%Birefringence
+delta_n = ((n_e * n_o) ./ eq_3) - n_o;
+%Transmittance
+T(v) = (1 / 2) .* ((sin(2*theta)^2) .* sin(pi.*delta_n.*d./lambda).^2);
+T_val = double(subs(T,v,V));
+T_nom = normalize(T_val,'range',[0,1]);
+%Normally White Transmittance
+T_white = -1 .* T_nom + 1;

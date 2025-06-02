@@ -1,10 +1,12 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
 N 590 -320 590 -250 {lab=VOUT}
+N 590 -440 590 -380 {lab=VDDA}
+N 590 -190 590 -130 {lab=GNDA}
 C {devices/ipin.sym} 250 -330 0 0 {name=p17 lab=GP}
 C {devices/ipin.sym} 250 -310 0 0 {name=p18 lab=GN}
 C {devices/opin.sym} 230 -290 0 0 {name=p27 lab=VOUT}
@@ -48,5 +50,3 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} 590 -410 0 1 {name=Vmeas1 savecurrent=true spice_ignore=0}
-C {devices/ammeter.sym} 590 -160 0 1 {name=Vmeas2 savecurrent=true spice_ignore=0}
