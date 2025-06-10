@@ -1,0 +1,61 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 11665 -23708 12081 -23646
+rect 11592 -24618 11665 -24032
+rect 12647 -24294 12720 -23708
+rect 11535 -25266 11670 -24680
+rect 12647 -24942 12782 -24356
+rect 11488 -25914 11670 -25328
+rect 12642 -25590 12824 -25004
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_2
+timestamp 1749289931
+transform 1 0 1439 0 1 -8235
+box 9957 -17679 10206 -15149
+use rseg_4_pin_right_even_v2  rseg_4_pin_right_even_v2_0
+timestamp 1749289931
+transform 1 0 2630 0 1 -7906
+box 10032 -17684 10281 -15478
+use sky130_fd_pr__res_xhigh_po_1p41_53UU4Z  sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0
+timestamp 1749123380
+transform 0 -1 12156 1 0 -23191
+box -141 -497 141 497
+use sky130_fd_pr__res_xhigh_po_1p41_53UW4Z  sky130_fd_pr__res_xhigh_po_1p41_53UW4Z_0
+timestamp 1748944356
+transform 0 -1 12156 1 0 -23515
+box -141 -497 141 497
+use sky130_fd_pr__res_xhigh_po_1p41_B5ZH9J  sky130_fd_pr__res_xhigh_po_1p41_B5ZH9J_1
+timestamp 1749202939
+transform 0 -1 12156 1 0 -26107
+box -141 -492 141 492
+use sky130_fd_pr__res_xhigh_po_1p41_B5ZK9J  sky130_fd_pr__res_xhigh_po_1p41_B5ZK9J_0
+timestamp 1748944356
+transform 0 -1 12156 1 0 -25135
+box -141 -492 141 492
+use sky130_fd_pr__res_xhigh_po_1p41_B5ZK9J  XR25
+timestamp 1748944356
+transform 0 -1 12156 1 0 -25783
+box -141 -492 141 492
+use sky130_fd_pr__res_xhigh_po_1p41_B5ZK9J  XR26
+timestamp 1748944356
+transform 0 -1 12156 1 0 -25459
+box -141 -492 141 492
+use sky130_fd_pr__res_xhigh_po_1p41_53UW4Z  XR28
+timestamp 1748944356
+transform 0 -1 12156 1 0 -24811
+box -141 -497 141 497
+use sky130_fd_pr__res_xhigh_po_1p41_53UW4Z  XR29
+timestamp 1748944356
+transform 0 -1 12156 1 0 -24487
+box -141 -497 141 497
+use sky130_fd_pr__res_xhigh_po_1p41_53UW4Z  XR30
+timestamp 1748944356
+transform 0 -1 12156 1 0 -24163
+box -141 -497 141 497
+use sky130_fd_pr__res_xhigh_po_1p41_6E4SWG  XR31
+timestamp 1748944356
+transform 0 -1 12156 1 0 -23839
+box -141 -502 141 502
+<< end >>

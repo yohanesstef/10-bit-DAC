@@ -1,0 +1,67 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 8375 -2410 8766 -2348
+rect 10219 -2734 10264 -2410
+rect 8330 -3058 8401 -2734
+rect 10193 -2996 10264 -2734
+rect 8330 -3320 8427 -3058
+rect 10167 -3382 10290 -3058
+rect 8304 -3706 8442 -3382
+rect 10152 -3644 10290 -3382
+rect 8304 -3968 8468 -3706
+rect 10126 -4030 10331 -3706
+rect 8263 -4354 8478 -4030
+rect 10116 -4292 10331 -4030
+rect 8263 -4616 8493 -4354
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_1
+timestamp 1749289931
+transform 1 0 -1876 0 1 13063
+box 9957 -17679 10206 -15149
+use rseg_4_pin_right_even_v2  rseg_4_pin_right_even_v2_0
+timestamp 1749289931
+transform 1 0 232 0 1 13392
+box 10032 -17684 10281 -15478
+use sky130_fd_pr__res_xhigh_po_1p41_5X5ZCF  sky130_fd_pr__res_xhigh_po_1p41_5X5ZCF_0
+timestamp 1749119618
+transform 0 -1 9297 -1 0 -1893
+box -141 -958 141 958
+use sky130_fd_pr__res_xhigh_po_1p41_YY58WS  sky130_fd_pr__res_xhigh_po_1p41_YY58WS_0
+timestamp 1749119618
+transform 0 -1 9297 -1 0 -4809
+box -141 -810 141 810
+use sky130_fd_pr__res_xhigh_po_1p41_YY56WS  XR9
+timestamp 1749119180
+transform 0 -1 9297 -1 0 -4485
+box -141 -810 141 810
+use sky130_fd_pr__res_xhigh_po_1p41_QX57C3  XR10
+timestamp 1749119180
+transform 0 -1 9297 -1 0 -4161
+box -141 -825 141 825
+use sky130_fd_pr__res_xhigh_po_1p41_H2U5BC  XR11
+timestamp 1749119180
+transform 0 -1 9297 -1 0 -3837
+box -141 -835 141 835
+use sky130_fd_pr__res_xhigh_po_1p41_E2U9YT  XR12
+timestamp 1749119180
+transform 0 -1 9297 -1 0 -3513
+box -141 -861 141 861
+use sky130_fd_pr__res_xhigh_po_1p41_4F76E7  XR13
+timestamp 1749119180
+transform 0 -1 9297 -1 0 -3189
+box -141 -876 141 876
+use sky130_fd_pr__res_xhigh_po_1p41_KLD4QF  XR14
+timestamp 1749119180
+transform 0 -1 9297 -1 0 -2865
+box -141 -902 141 902
+use sky130_fd_pr__res_xhigh_po_1p41_HDPFLR  XR15
+timestamp 1749119180
+transform 0 -1 9297 -1 0 -2541
+box -141 -928 141 928
+use sky130_fd_pr__res_xhigh_po_1p41_5X53DF  XR16
+timestamp 1749119180
+transform 0 -1 9297 -1 0 -2217
+box -141 -958 141 958
+<< end >>

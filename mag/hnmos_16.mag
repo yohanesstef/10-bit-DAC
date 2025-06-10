@@ -1,0 +1,26 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749550684
+<< error_s >>
+rect 2205 281 2231 315
+rect 2097 143 2144 224
+rect 2097 105 2113 143
+rect 2289 127 2305 193
+rect 2259 105 2311 127
+rect 2097 21 2155 105
+rect 2247 67 2311 105
+rect 2243 33 2311 67
+rect 2247 21 2305 33
+rect 2097 -5 2113 21
+rect 2289 -5 2305 21
+rect 2205 -127 2231 -93
+use hnmos_8  hnmos_8_0
+timestamp 1749548291
+transform 1 0 -10 0 1 5
+box -137 -180 2351 358
+use hnmos_8  hnmos_8_1
+timestamp 1749548291
+transform 1 0 2198 0 1 5
+box -137 -180 2351 358
+<< end >>

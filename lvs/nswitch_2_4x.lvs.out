@@ -1,0 +1,46 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+Flattening unmatched subcell nswitch_2 in circuit nswitch_2_4x (0)(4 instances)
+Flattening unmatched subcell hnmos_2 in circuit nswitch_2_4x (0)(4 instances)
+Flattening unmatched subcell hnmos_1 in circuit nswitch_2_4x (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_NQHLCX in circuit nswitch_2_4x (0)(8 instances)
+Flattening unmatched subcell vselector_1b in circuit nswitch_2_4x (1)(4 instances)
+
+Subcircuit summary:
+Circuit 1: nswitch_2_4x                    |Circuit 2: nswitch_2_4x                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (8)           |sky130_fd_pr__nfet_g5v0d10v5 (8)           
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: nswitch_2_4x                    |Circuit 2: nswitch_2_4x                    
+-------------------------------------------|-------------------------------------------
+vin[0]                                     |vin[0]                                     
+VNB                                        |VNB                                        
+VL                                         |VL                                         
+VH                                         |VH                                         
+dec[0]                                     |dec[0]                                     
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes nswitch_2_4x and nswitch_2_4x are equivalent.
+
+Final result: Circuits match uniquely.
+.

@@ -1,0 +1,16 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749018033
+<< metal1 >>
+rect 12118 -15473 12178 -15149
+rect 12105 -15735 12178 -15473
+rect 12206 -16121 12266 -15149
+rect 12131 -16383 12266 -16121
+rect 12294 -16769 12354 -15149
+rect 12167 -17031 12354 -16769
+use rseg_1_pin_4  rseg_1_pin_4_2 ~/10-bit-DAC/mag
+timestamp 1748967404
+transform 1 0 10490 0 1 7615
+box 1540 -22764 1864 -22364
+<< end >>

@@ -1,4 +1,22 @@
 .subckt rseg_4_v3 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v18 v19 v20 v21 v22 v23 v24 v25 v26 v27 v28 v29 v30 v31 v32 v33 v34 v35 v36 v37 v38 v39 v40 v41 v42 v43 v44 v45 v46 v47 v48 v49 v50 v51 v52 v53 v54 v55 v56 v57 v58 v59 v60 v61 v62 v63 gnd
+XRD1 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.5538 mult=1 m=1
+XRD8 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.6050 mult=1 m=1
+XRD9 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.6050 mult=1 m=1
+XRD16 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.6563 mult=1 m=1
+XRD17 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.7074 mult=1 m=1
+XRD24 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.7587 mult=1 m=1
+XRD25 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.7587 mult=1 m=1
+XRD32 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.8100 mult=1 m=1
+XRD33 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.8612 mult=1 m=1
+XRD40 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=1.0150 mult=1 m=1
+XRD41 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=1.0150 mult=1 m=1
+XRD48 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=1.2200 mult=1 m=1
+XRD49 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=1.2713 mult=1 m=1
+XRD56 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=1.6300 mult=1 m=1
+XRD57 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=1.7326 mult=1 m=1
+XRD63 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=2.5526 mult=1 m=1
+XRD64 gnd gnd gnd sky130_fd_pr__res_xhigh_po_1p41 L=2.5526 mult=1 m=1
+
 XR1 v0 v1 gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.5538 mult=1 m=1
 XR2 v1 v2 gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.5537 mult=1 m=1
 XR3 v2 v3 gnd sky130_fd_pr__res_xhigh_po_1p41 L=0.6050 mult=1 m=1

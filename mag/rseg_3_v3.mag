@@ -1,0 +1,115 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749552768
+<< pwell >>
+rect 12478 -5378 17402 -1796
+<< psubdiff >>
+rect 12514 -1892 12774 -1832
+rect 17106 -1892 17366 -1832
+rect 12514 -2092 12574 -1892
+rect 12514 -5282 12574 -5082
+rect 17306 -2092 17366 -1892
+rect 17306 -5282 17366 -5082
+rect 12514 -5342 12774 -5282
+rect 17106 -5342 17366 -5282
+<< psubdiffcont >>
+rect 12774 -1892 17106 -1832
+rect 12514 -5082 12574 -2092
+rect 17306 -5082 17366 -2092
+rect 12774 -5342 17106 -5282
+<< locali >>
+rect 12514 -1892 12774 -1832
+rect 17106 -1892 17366 -1832
+rect 12514 -2092 12574 -1892
+rect 12938 -1988 13370 -1892
+rect 13972 -1988 14404 -1892
+rect 15036 -1988 15468 -1892
+rect 16520 -1988 16952 -1892
+rect 12514 -5282 12574 -5082
+rect 17306 -2092 17366 -1892
+rect 12872 -5282 13304 -5186
+rect 14038 -5282 14470 -5186
+rect 15184 -5282 15616 -5186
+rect 16372 -5282 16804 -5186
+rect 17306 -5282 17366 -5082
+rect 12514 -5342 12774 -5282
+rect 17106 -5342 17366 -5282
+<< metal1 >>
+rect 16886 -2322 16946 -2247
+rect 14392 -2337 14398 -2328
+<< via1 >>
+rect 14332 -2584 14392 -2322
+rect 16880 -2584 16940 -2322
+rect 14684 -4852 14744 -4590
+rect 16732 -4852 16792 -4590
+<< metal2 >>
+rect 12478 -2584 14332 -2322
+rect 14392 -2584 14398 -2322
+rect 16874 -2584 16880 -2322
+rect 16940 -2584 17402 -2322
+rect 14678 -4852 14684 -4590
+rect 14744 -4852 16732 -4590
+rect 16792 -4852 16798 -4590
+use pin_8_even_ipo  pin_8_even_ipo_0
+timestamp 1749485294
+transform 1 0 -1543 0 1 -970
+box 16227 -1352 18035 -648
+use pin_8_even_right_ipo  pin_8_even_right_ipo_0
+timestamp 1749485422
+transform 1 0 0 0 1 0
+box 16101 -2322 17216 -1876
+use pin_8_odd_ipo_seg_2  pin_8_odd_ipo_0
+timestamp 1749552768
+transform 1 0 -1281 0 1 -990
+box 13945 -1332 15552 -628
+use pin_8_odd_right_ipo  pin_8_odd_right_ipo_0
+timestamp 1749485422
+transform 1 0 1386 0 1 -667
+box 12666 -1655 13370 -1121
+use rseg_3_1  rseg_3_1_0
+timestamp 1749369846
+transform 1 0 8107 0 1 -107
+box 4563 -5079 6643 -1881
+use rseg_3_2  rseg_3_2_0
+timestamp 1749369846
+transform 1 0 6697 0 1 -236
+box 8081 -4950 10513 -1752
+<< labels >>
+flabel metal1 s 16886 -2322 16886 -2322 2 FreeSans 240 0 0 0 v16
+port 16 ne
+flabel metal1 s 15042 -2322 15042 -2322 2 FreeSans 240 0 0 0 v15
+port 15 ne
+flabel metal1 s 14954 -2322 14954 -2322 2 FreeSans 240 0 0 0 v13
+port 13 ne
+flabel metal1 s 14866 -2322 14866 -2322 2 FreeSans 240 0 0 0 v11
+port 11 ne
+flabel metal1 s 14778 -2322 14778 -2322 2 FreeSans 240 0 0 0 v9
+port 9 ne
+flabel metal1 s 14690 -2322 14690 -2322 2 FreeSans 240 0 0 0 v8
+port 8 ne
+flabel metal1 s 12670 -2322 12670 -2322 2 FreeSans 240 0 0 0 v7
+port 7 ne
+flabel metal1 s 14602 -2322 14602 -2322 2 FreeSans 240 0 0 0 v6
+port 6 ne
+flabel metal1 s 12758 -2322 12758 -2322 2 FreeSans 240 0 0 0 v5
+port 5 ne
+flabel metal1 s 14514 -2322 14514 -2322 2 FreeSans 240 0 0 0 v4
+port 4 ne
+flabel metal1 s 12846 -2322 12846 -2322 2 FreeSans 240 0 0 0 v3
+port 3 ne
+flabel metal1 s 14426 -2322 14426 -2322 2 FreeSans 240 0 0 0 v2
+port 2 ne
+flabel metal1 s 12934 -2322 12934 -2322 2 FreeSans 240 0 0 0 v1
+port 1 ne
+flabel locali s 12514 -5342 12514 -5342 2 FreeSans 1600 0 0 0 gnd
+port 17 ne
+flabel metal2 s 12478 -2584 12478 -2584 2 FreeSans 800 0 0 0 v0
+port 0 ne
+flabel metal1 s 17150 -2322 17150 -2322 2 FreeSans 240 0 0 0 v10
+port 10 ne
+flabel metal1 s 17062 -2322 17062 -2322 2 FreeSans 240 0 0 0 v12
+port 12 ne
+flabel metal1 s 16974 -2322 16974 -2322 2 FreeSans 240 0 0 0 v14
+port 14 ne
+<< end >>

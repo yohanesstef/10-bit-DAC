@@ -1,13 +1,13 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
-N 310 -290 310 -270 {lab=vin[0]}
-N 450 -290 450 -270 {lab=vin[1]}
+N 310 -290 310 -270 {lab=vin0}
+N 450 -290 450 -270 {lab=vin1}
 N 310 -210 450 -210 {lab=VOUT}
-C {devices/ipin.sym} 120 -280 0 0 {name=p5 lab=vin[0:1]}
+C {devices/ipin.sym} 120 -280 0 0 {name=p5 lab=vin[0..1]}
 C {devices/opin.sym} 100 -220 0 0 {name=p6 lab=VOUT}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
 C {devices/ipin.sym} 120 -200 0 0 {name=p8 lab=VPB}
@@ -17,8 +17,8 @@ C {devices/param.sym} 50 -360 0 0 {name=s1 value="
 +wn=0.42
 +l=0.5
 "}
-C {devices/lab_pin.sym} 310 -290 0 0 {name=p2 sig_type=std_logic lab=vin[0]}
-C {devices/lab_pin.sym} 450 -290 0 0 {name=p3 sig_type=std_logic lab=vin[1]}
+C {devices/lab_pin.sym} 310 -290 0 0 {name=p2 sig_type=std_logic lab=vin0}
+C {devices/lab_pin.sym} 450 -290 0 0 {name=p3 sig_type=std_logic lab=vin1}
 C {devices/lab_pin.sym} 310 -210 2 1 {name=p24 sig_type=std_logic lab=VOUT}
 C {devices/lab_pin.sym} 270 -240 2 1 {name=p43 sig_type=std_logic lab=DIN}
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 290 -240 0 0 {name=M1

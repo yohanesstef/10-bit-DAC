@@ -1,4 +1,4 @@
-v {xschem version=3.4.7 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,8 +12,8 @@ ypos2=13.733389
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.00035
+x1=-3.5e-05
+x2=0.000315
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -38,15 +38,15 @@ d2[1]
 d2[2]
 d2[3]"}
 B 2 910 -1010 2240 -610 {flags=graph
-y1=-0.23
-y2=1.1
+y1=-2.1234028
+y2=-0.79340278
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.00035
+x1=-3.5e-05
+x2=0.000315
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -88,8 +88,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.00035
+x1=-3.5e-05
+x2=0.000315
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -110,8 +110,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.00035
+x1=-3.5e-05
+x2=0.000315
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -140,7 +140,6 @@ x2.vout1[2]
 x2.vout1[1]
 x2.vout1[0]"}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
-C {devices/lab_pin.sym} 1030 -490 0 1 {name=p3 sig_type=std_logic lab=v[0:64]}
 C {devices/launcher.sym} 220 -580 0 0 {name=h5
 descr="load tran" 
 tclcommand="xschem raw_read $netlist_dir/res_seg_1_v2-tb.raw tran"
@@ -153,71 +152,6 @@ C {devices/launcher.sym} 585 -580 0 0 {name=h2
 descr="Show Raw file" 
 tclcommand="textwindow $netlist_dir/res_seg_1-tb.raw"
 }
-C {devices/lab_pin.sym} 730 -490 0 0 {name=p16 sig_type=std_logic lab=gnd}
-C {res_seg_1.sym} 880 -490 0 0 {name=x1}
-C {devices/lab_pin.sym} 730 -450 0 0 {name=p4 sig_type=std_logic lab=v[0:63]}
-C {devices/lab_pin.sym} 730 -430 0 0 {name=p5 sig_type=std_logic lab=d0[0:3]}
-C {devices/lab_pin.sym} 730 -370 0 0 {name=p8 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 1030 -450 0 1 {name=p1 sig_type=std_logic lab=vout}
-C {devices/simulator_commands.sym} 0 -320 0 0 {name=COMMANDS
-simulator=ngspice
-only_toplevel=false 
-value="  
-  .option wnflag=1
-  .option safecurrents
-  .option gmin
-  .option method=gear
-  *.option klu
-  ********************Static Voltage Sources***************************
-  Vddh vddh gnd dc 5.5
-  Vdd vdd gnd dc 1.8
-
-  .param vpb_val = 2.98 vnb_val=1.506
-  Vp vpbias gnd dc vpb_val
-  Vn vnbias gnd dc vnb_val
-
-  vpb vplv gnd 3.6965
-  vnb vnlv gnd 1.354
-
-  V64 v[64] gnd dc 1.0442
-  v0 v[0] gnd dc 0
-  ********************Dynamic Voltage Sources***************************
-  *******Calculation**********
-  .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
-  .param b3_th=\{base_th\} b3_t=\{b3_th*2\}
-  .param b4_th=\{b3_th*2\} b4_t=\{b4_th*2\}
-  .param b5_th=\{b4_th*2\} b5_t=\{b5_th*2\}
-  .param b6_th=\{b5_th*2\} b6_t=\{b6_th*2\}
-  .param b7_th=\{b6_th*2\} b7_t=\{b7_th*2\}
-  .param b8_th=\{b7_th*2\} b8_t=\{b8_th*2\}
-  *******Signals**********
-  .param vhi=1.8
-  Vb3  b[0]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
-  Vb4  b[1]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
-  Vb5  b[2]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
-  Vb6  b[3]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b6_th\} \{b6_t\})
-  Vb7  b[4]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b7_th\} \{b7_t\})
-  Vb8  b[5]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b8_th\} \{b8_t\})
-
-  Vbb3  bb[0]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b3_th\} \{b3_t\})
-  Vbb4  bb[1]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
-  Vbb5  bb[2]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
-  Vbb6  bb[3]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b6_th\} \{b6_t\})
-  Vbb7  bb[4]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b7_th\} \{b7_t\})
-  Vbb8  bb[5]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b8_th\} \{b8_t\})
-  ********************Simulation Commands*****************************
-  .control
-     reset
-     save all
-     tran 10n 350u
-     write res_seg_1_v2-tb.raw
-     set appendwrite
-     *set wr_vecnames
-     *set wr_singlescale
-     
-*    quit 0
-  .endc
-"}
 C {devices/lab_pin.sym} 1250 -420 0 0 {name=p2 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 1250 -480 0 0 {name=p9 sig_type=std_logic lab=vout}
 C {decoder_2to4.sym} 390 -420 0 0 {name=x3}
@@ -227,7 +161,7 @@ C {devices/lab_pin.sym} 240 -370 0 0 {name=p13 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 240 -470 0 0 {name=p14 sig_type=std_logic lab=VPBIAS}
 C {devices/lab_pin.sym} 240 -450 0 0 {name=p15 sig_type=std_logic lab=VNBIAS}
 C {devices/lab_pin.sym} 540 -470 0 1 {name=p17 sig_type=std_logic lab=d0[0:3]}
-C {devices/lab_pin.sym} 240 -430 0 0 {name=p25 sig_type=std_logic lab=b[4:5]}
+C {devices/lab_pin.sym} 240 -430 0 0 {name=p25 sig_type=std_logic lab=b[4..5]}
 C {devices/code.sym} 0 -180 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
@@ -236,7 +170,6 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 "
 spice_ignore=false
 place=header}
-C {vselector_seg1.sym} 880 -410 0 0 {name=x2}
 C {lvsf_1buff.sym} 390 -290 0 0 {name=x4}
 C {lvsf_1buff.sym} 390 -160 0 0 {name=x5}
 C {lvsf_1buff.sym} 880 -290 0 0 {name=x6}
@@ -248,17 +181,15 @@ footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 240 -260 0 0 {name=p6 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 240 -240 0 0 {name=p7 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 240 -300 0 0 {name=p10 sig_type=std_logic lab=b[0]}
+C {devices/lab_pin.sym} 240 -300 0 0 {name=p10 sig_type=std_logic lab=b0}
 C {devices/lab_pin.sym} 240 -280 0 0 {name=p18 sig_type=std_logic lab=bb[0]}
 C {devices/lab_pin.sym} 240 -340 0 0 {name=p19 sig_type=std_logic lab=VPLV}
 C {devices/lab_pin.sym} 240 -320 0 0 {name=p20 sig_type=std_logic lab=VNLV}
 C {devices/lab_pin.sym} 540 -340 0 1 {name=p21 sig_type=std_logic lab=d[0]}
 C {devices/lab_pin.sym} 540 -320 0 1 {name=p22 sig_type=std_logic lab=db[0]}
-C {devices/lab_pin.sym} 730 -410 0 0 {name=p23 sig_type=std_logic lab=d[0:3]}
-C {devices/lab_pin.sym} 730 -390 0 0 {name=p24 sig_type=std_logic lab=db[0:3]}
 C {devices/lab_pin.sym} 240 -130 0 0 {name=p26 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 240 -110 0 0 {name=p27 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 240 -170 0 0 {name=p28 sig_type=std_logic lab=b[1]}
+C {devices/lab_pin.sym} 240 -170 0 0 {name=p28 sig_type=std_logic lab=b1}
 C {devices/lab_pin.sym} 240 -150 0 0 {name=p29 sig_type=std_logic lab=bb[1]}
 C {devices/lab_pin.sym} 240 -210 0 0 {name=p30 sig_type=std_logic lab=VPLV}
 C {devices/lab_pin.sym} 240 -190 0 0 {name=p31 sig_type=std_logic lab=VNLV}
@@ -266,7 +197,7 @@ C {devices/lab_pin.sym} 540 -210 0 1 {name=p32 sig_type=std_logic lab=d[1]}
 C {devices/lab_pin.sym} 540 -190 0 1 {name=p33 sig_type=std_logic lab=db[1]}
 C {devices/lab_pin.sym} 730 -260 0 0 {name=p34 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 730 -240 0 0 {name=p35 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 730 -300 0 0 {name=p36 sig_type=std_logic lab=b[2]}
+C {devices/lab_pin.sym} 730 -300 0 0 {name=p36 sig_type=std_logic lab=b2}
 C {devices/lab_pin.sym} 730 -280 0 0 {name=p37 sig_type=std_logic lab=bb[2]}
 C {devices/lab_pin.sym} 730 -340 0 0 {name=p38 sig_type=std_logic lab=VPLV}
 C {devices/lab_pin.sym} 730 -320 0 0 {name=p39 sig_type=std_logic lab=VNLV}
@@ -274,9 +205,20 @@ C {devices/lab_pin.sym} 1030 -340 0 1 {name=p40 sig_type=std_logic lab=d[2]}
 C {devices/lab_pin.sym} 1030 -320 0 1 {name=p41 sig_type=std_logic lab=db[2]}
 C {devices/lab_pin.sym} 730 -130 0 0 {name=p42 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 730 -110 0 0 {name=p43 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 730 -170 0 0 {name=p44 sig_type=std_logic lab=b[3]}
+C {devices/lab_pin.sym} 730 -170 0 0 {name=p44 sig_type=std_logic lab=b3}
 C {devices/lab_pin.sym} 730 -150 0 0 {name=p45 sig_type=std_logic lab=bb[3]}
 C {devices/lab_pin.sym} 730 -210 0 0 {name=p46 sig_type=std_logic lab=VPLV}
 C {devices/lab_pin.sym} 730 -190 0 0 {name=p47 sig_type=std_logic lab=VNLV}
 C {devices/lab_pin.sym} 1030 -210 0 1 {name=p48 sig_type=std_logic lab=d[3]}
 C {devices/lab_pin.sym} 1030 -190 0 1 {name=p49 sig_type=std_logic lab=db[3]}
+C {devices/lab_pin.sym} 730 -470 0 0 {name=p50 sig_type=std_logic lab=V0}
+C {devices/lab_pin.sym} 730 -450 0 0 {name=p51 sig_type=std_logic lab=V64}
+C {devices/lab_pin.sym} 730 -430 0 0 {name=p52 sig_type=std_logic lab=d0[0:3]}
+C {devices/lab_pin.sym} 730 -410 0 0 {name=p53 sig_type=std_logic lab=d[0:3]}
+C {devices/lab_pin.sym} 730 -390 0 0 {name=p54 sig_type=std_logic lab=db[0:3]}
+C {devices/lab_pin.sym} 730 -370 0 0 {name=p55 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 1030 -470 0 1 {name=p56 sig_type=std_logic lab=vout}
+C {devices/code_shown.sym} -260 -320 0 0 {name=s1 only_toplevel=false value="
+.include $THESIS_WS/spice/rseg_1_tb.sp
+.save vout b0 b1 b2 b3 b4 b5"}
+C {top_segment_1_posim.sym} 880 -420 0 0 {name=x1}

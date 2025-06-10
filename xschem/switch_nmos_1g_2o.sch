@@ -1,14 +1,20 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
-N 310 -290 310 -270 {lab=vin[0]}
-N 450 -290 450 -270 {lab=vin[1]}
-N 310 -210 310 -190 {lab=vout[0]}
-N 450 -210 450 -190 {lab=vout[1]}
-N 270 -240 410 -240 {lab=DIN}
+N 330 -290 330 -270 {lab=vin[0]}
+N 470 -290 470 -270 {lab=vin[1]}
+N 330 -210 330 -190 {lab=vout[0]}
+N 470 -210 470 -190 {lab=vout[1]}
+N 330 -250 330 -240 {lab=VNB}
+N 290 -240 290 -220 {lab=DIN}
+N 430 -240 430 -220 {lab=DIN}
+N 470 -250 470 -240 {lab=VNB}
+N 290 -250 330 -250 {lab=VNB}
+N 330 -250 470 -250 {lab=VNB}
+N 290 -220 430 -220 {lab=DIN}
 C {devices/ipin.sym} 120 -280 0 0 {name=p5 lab=vin[0:1]}
 C {devices/opin.sym} 100 -230 0 0 {name=p6 lab=vout[0:1]}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
@@ -19,15 +25,14 @@ C {devices/param.sym} 50 -360 0 0 {name=s1 value="
 +wn=0.42
 +l=0.5
 "}
-C {devices/lab_pin.sym} 310 -290 0 0 {name=p2 sig_type=std_logic lab=vin[0]}
-C {devices/lab_pin.sym} 450 -290 0 0 {name=p3 sig_type=std_logic lab=vin[1]}
-C {devices/lab_pin.sym} 310 -190 2 1 {name=p24 sig_type=std_logic lab=vout[0]}
-C {devices/lab_pin.sym} 270 -240 2 1 {name=p43 sig_type=std_logic lab=DIN}
-C {devices/lab_pin.sym} 450 -190 2 1 {name=p1 sig_type=std_logic lab=vout[1]}
-C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 430 -240 0 0 {name=M2
+C {devices/lab_pin.sym} 330 -290 0 0 {name=p2 sig_type=std_logic lab=vin[0]}
+C {devices/lab_pin.sym} 470 -290 0 0 {name=p3 sig_type=std_logic lab=vin[1]}
+C {devices/lab_pin.sym} 330 -190 2 1 {name=p24 sig_type=std_logic lab=vout[0]}
+C {devices/lab_pin.sym} 290 -220 2 1 {name=p43 sig_type=std_logic lab=DIN}
+C {devices/lab_pin.sym} 470 -190 2 1 {name=p1 sig_type=std_logic lab=vout[1]}
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 310 -240 0 0 {name=M1
 L=l
 W=wn
-body=VNB
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -39,10 +44,9 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 290 -240 0 0 {name=M1
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 450 -240 0 0 {name=M2
 L=l
 W=wn
-body=VNB
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -54,3 +58,4 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
+C {devices/lab_pin.sym} 290 -250 2 1 {name=p19 sig_type=std_logic lab=VNB}

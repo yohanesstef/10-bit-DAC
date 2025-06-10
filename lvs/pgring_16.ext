@@ -1,0 +1,17 @@
+timestamp 1749421208
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use pswitch_16_final pswitch_16_final_0 1 0 2216 0 1 526
+node "w_37186_n4181#" 0 0 37186 -4181 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_16_final_0/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#"
+merge "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/w_n144_n140#"
+merge "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/w_n144_n140#"
+merge "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_0/XM1/w_n144_n140#"
+merge "pswitch_16_final_0/hpmos_1_0/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_1/XM1/w_n144_n140#"
+merge "pswitch_16_final_0/hpmos_1_1/XM1/w_n144_n140#" "w_37186_n4181#"

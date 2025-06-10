@@ -1,0 +1,57 @@
+Netgen 1.5.292 compiled on Thu Mar  6 15:36:50 +07 2025
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/yohanes/10-bit-DAC/lvs/rseg_3_v3.ext.spc
+Call to undefined subcircuit sky130_fd_pr__res_xhigh_po_1p41
+Creating placeholder cell definition.
+Reading netlist file /home/yohanes/10-bit-DAC/lvs/rseg_3_v3.sch.spc
+Call to undefined subcircuit sky130_fd_pr__res_xhigh_po_1p41
+Creating placeholder cell definition.
+
+Reading setup file /home/yohanes/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+Model sky130_fd_pr__res_xhigh_po_1p41 pin 1 == 2
+No property w found for device sky130_fd_pr__res_xhigh_po_1p41
+No property w found for device sky130_fd_pr__res_xhigh_po_1p41
+No property value found for device sky130_fd_pr__res_xhigh_po_1p41
+No property w found for device sky130_fd_pr__res_xhigh_po_1p41
+No property mult found for device sky130_fd_pr__res_xhigh_po_1p41
+Model sky130_fd_pr__res_xhigh_po_1p41 pin 1 == 2
+No property w found for device sky130_fd_pr__res_xhigh_po_1p41
+No property w found for device sky130_fd_pr__res_xhigh_po_1p41
+No property value found for device sky130_fd_pr__res_xhigh_po_1p41
+No property w found for device sky130_fd_pr__res_xhigh_po_1p41
+Comparison output logged to file /home/yohanes/10-bit-DAC/lvs/rseg_3_v3.lvs.out
+Logging to file "/home/yohanes/10-bit-DAC/lvs/rseg_3_v3.lvs.out" enabled
+Circuit sky130_fd_pr__res_xhigh_po_1p41 contains no devices.
+
+Contents of circuit 1:  Circuit: 'rseg_3_v3'
+Circuit rseg_3_v3 contains 20 device instances.
+  Class: sky130_fd_pr__res_xhigh_po_1p41 instances:  20
+Circuit contains 20 nets.
+Contents of circuit 2:  Circuit: 'rseg_3_v3'
+Circuit rseg_3_v3 contains 20 device instances.
+  Class: sky130_fd_pr__res_xhigh_po_1p41 instances:  20
+Circuit contains 18 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'rseg_3_v3'
+Circuit rseg_3_v3 contains 18 device instances.
+  Class: sky130_fd_pr__res_xhigh_po_1p41 instances:  18
+Circuit contains 20 nets.
+Contents of circuit 2:  Circuit: 'rseg_3_v3'
+Circuit rseg_3_v3 contains 17 device instances.
+  Class: sky130_fd_pr__res_xhigh_po_1p41 instances:  17
+Circuit contains 18 nets.
+
+Circuit 1 contains 18 devices, Circuit 2 contains 17 devices. *** MISMATCH ***
+Circuit 1 contains 19 nets,    Circuit 2 contains 18 nets. *** MISMATCH ***
+
+
+Final result: 
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+Logging to file "/home/yohanes/10-bit-DAC/lvs/rseg_3_v3.lvs.out" disabled
+LVS Done.

@@ -1,0 +1,630 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 2 cell rseg_4_v3 is a black box; will not flatten Circuit 1
+Warning: Equate pins:  cell rseg_4_v3 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: rseg_4_v3                       |Circuit 2: rseg_4_v3                       
+-------------------------------------------|-------------------------------------------
+(no matching pin)                          |1                                          
+(no matching pin)                          |2                                          
+(no matching pin)                          |3                                          
+(no matching pin)                          |4                                          
+(no matching pin)                          |5                                          
+(no matching pin)                          |6                                          
+(no matching pin)                          |7                                          
+(no matching pin)                          |8                                          
+(no matching pin)                          |9                                          
+(no matching pin)                          |10                                         
+(no matching pin)                          |11                                         
+(no matching pin)                          |12                                         
+(no matching pin)                          |13                                         
+(no matching pin)                          |14                                         
+(no matching pin)                          |15                                         
+(no matching pin)                          |16                                         
+(no matching pin)                          |17                                         
+(no matching pin)                          |18                                         
+(no matching pin)                          |19                                         
+(no matching pin)                          |20                                         
+(no matching pin)                          |21                                         
+(no matching pin)                          |22                                         
+(no matching pin)                          |23                                         
+(no matching pin)                          |24                                         
+(no matching pin)                          |25                                         
+(no matching pin)                          |26                                         
+(no matching pin)                          |27                                         
+(no matching pin)                          |28                                         
+(no matching pin)                          |29                                         
+(no matching pin)                          |30                                         
+(no matching pin)                          |31                                         
+(no matching pin)                          |32                                         
+(no matching pin)                          |33                                         
+(no matching pin)                          |34                                         
+(no matching pin)                          |35                                         
+(no matching pin)                          |36                                         
+(no matching pin)                          |37                                         
+(no matching pin)                          |38                                         
+(no matching pin)                          |39                                         
+(no matching pin)                          |40                                         
+(no matching pin)                          |41                                         
+(no matching pin)                          |42                                         
+(no matching pin)                          |43                                         
+(no matching pin)                          |44                                         
+(no matching pin)                          |45                                         
+(no matching pin)                          |46                                         
+(no matching pin)                          |47                                         
+(no matching pin)                          |48                                         
+(no matching pin)                          |49                                         
+(no matching pin)                          |50                                         
+(no matching pin)                          |51                                         
+(no matching pin)                          |52                                         
+(no matching pin)                          |53                                         
+(no matching pin)                          |54                                         
+(no matching pin)                          |55                                         
+(no matching pin)                          |56                                         
+(no matching pin)                          |57                                         
+(no matching pin)                          |58                                         
+(no matching pin)                          |59                                         
+(no matching pin)                          |60                                         
+(no matching pin)                          |61                                         
+(no matching pin)                          |62                                         
+(no matching pin)                          |63                                         
+(no matching pin)                          |64                                         
+(no matching pin)                          |65                                         
+v2                                         |(no matching pin)                          
+v4                                         |(no matching pin)                          
+v6                                         |(no matching pin)                          
+v8                                         |(no matching pin)                          
+v9                                         |(no matching pin)                          
+v11                                        |(no matching pin)                          
+v13                                        |(no matching pin)                          
+v15                                        |(no matching pin)                          
+v52                                        |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes rseg_4_v3 and rseg_4_v3 are equivalent.
+Flattening unmatched subcell rseg_4_routing in circuit top_segment_4 (0)(1 instance)
+Flattening unmatched subcell pswitch_8_stage_1 in circuit top_segment_4 (0)(5 instances)
+Flattening unmatched subcell hpmos_8 in circuit top_segment_4 (0)(5 instances)
+Flattening unmatched subcell hpmos_4 in circuit top_segment_4 (0)(10 instances)
+Flattening unmatched subcell hpmos_2 in circuit top_segment_4 (0)(20 instances)
+Flattening unmatched subcell hpmos_1 in circuit top_segment_4 (0)(40 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_WJ97JY in circuit top_segment_4 (0)(40 instances)
+Flattening unmatched subcell pgring_16 in circuit top_segment_4 (0)(1 instance)
+Flattening unmatched subcell pswitch_16_final in circuit top_segment_4 (0)(1 instance)
+Flattening unmatched subcell hpmos_1 in circuit top_segment_4 (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_WJ97JY in circuit top_segment_4 (0)(2 instances)
+Flattening unmatched subcell pswitch_4_stage_3 in circuit top_segment_4 (0)(1 instance)
+Flattening unmatched subcell hpmos_4 in circuit top_segment_4 (0)(1 instance)
+Flattening unmatched subcell hpmos_2 in circuit top_segment_4 (0)(4 instances)
+Flattening unmatched subcell hpmos_1 in circuit top_segment_4 (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_WJ97JY in circuit top_segment_4 (0)(8 instances)
+Flattening unmatched subcell pswitch_4_stage_3_H in circuit top_segment_4 (0)(1 instance)
+Flattening unmatched subcell hpmos_4 in circuit top_segment_4 (0)(1 instance)
+Flattening unmatched subcell hpmos_2 in circuit top_segment_4 (0)(2 instances)
+Flattening unmatched subcell hpmos_1 in circuit top_segment_4 (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_WJ97JY in circuit top_segment_4 (0)(4 instances)
+Flattening unmatched subcell pswitch_8_stage_2 in circuit top_segment_4 (0)(1 instance)
+Flattening unmatched subcell hpmos_8 in circuit top_segment_4 (0)(1 instance)
+Flattening unmatched subcell hpmos_4 in circuit top_segment_4 (0)(2 instances)
+Flattening unmatched subcell hpmos_2 in circuit top_segment_4 (0)(4 instances)
+Flattening unmatched subcell hpmos_1 in circuit top_segment_4 (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_WJ97JY in circuit top_segment_4 (0)(8 instances)
+Flattening unmatched subcell pswitch_8_stage_1_up in circuit top_segment_4 (0)(4 instances)
+Flattening unmatched subcell hpmos_8 in circuit top_segment_4 (0)(4 instances)
+Flattening unmatched subcell hpmos_4 in circuit top_segment_4 (0)(8 instances)
+Flattening unmatched subcell hpmos_2 in circuit top_segment_4 (0)(16 instances)
+Flattening unmatched subcell hpmos_1 in circuit top_segment_4 (0)(32 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_WJ97JY in circuit top_segment_4 (0)(32 instances)
+Flattening unmatched subcell vselector_6b_1v_stage_1_pmos in circuit top_segment_4 (1)(1 instance)
+Flattening unmatched subcell vselector_16b_1v_pmos in circuit top_segment_4 (1)(4 instances)
+Flattening unmatched subcell switch_pmos_1g_8o in circuit top_segment_4 (1)(2 instances)
+Flattening unmatched subcell switch_pmos_1g_4o in circuit top_segment_4 (1)(2 instances)
+Flattening unmatched subcell switch_pmos_1g_2o in circuit top_segment_4 (1)(2 instances)
+Flattening unmatched subcell switch_pmos_2g_1o in circuit top_segment_4 (1)(1 instance)
+
+Subcircuit summary:
+Circuit 1: top_segment_4                   |Circuit 2: top_segment_4                   
+-------------------------------------------|-------------------------------------------
+rseg_4_v3 (1)                              |rseg_4_v3 (1)                              
+sky130_fd_pr__pfet_g5v0d10v5 (94)          |sky130_fd_pr__pfet_g5v0d10v5 (94)          
+Number of devices: 95                      |Number of devices: 95                      
+Number of nets: 174 **Mismatch**           |Number of nets: 165 **Mismatch**           
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: top_segment_4                   |Circuit 2: top_segment_4                   
+
+---------------------------------------------------------------------------------------
+Net: V0                                    |Net: V0                                    
+  rseg_4_v3/m1_14122_n18814# = 1           |  rseg_4_v3/1 = 1                          
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v50      |Net: V1                                    
+  rseg_4_v3/v50 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/2 = 1                          
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v14      |Net: V2                                    
+  rseg_4_v3/v14 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/3 = 1                          
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v51      |Net: V3                                    
+  rseg_4_v3/v51 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/4 = 1                          
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v33      |Net: V4                                    
+  rseg_4_v3/v33 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/5 = 1                          
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v32      |Net: V5                                    
+  rseg_4_v3/v32 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/6 = 1                          
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v37      |Net: V6                                    
+  rseg_4_v3/v37 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/7 = 1                          
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v25      |Net: V7                                    
+  rseg_4_v3/v25 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/8 = 1                          
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v61      |Net: V8                                    
+  rseg_4_v3/v61 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/9 = 1                          
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v36      |Net: V9                                    
+  rseg_4_v3/v36 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/10 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v40      |Net: V10                                   
+  rseg_4_v3/v40 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/11 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v44      |Net: V11                                   
+  rseg_4_v3/v44 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/12 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v9       |Net: V12                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  rseg_4_v3/13 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v10      |Net: V13                                   
+  rseg_4_v3/v10 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/14 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v59      |Net: V14                                   
+  rseg_4_v3/v59 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/15 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v17      |Net: V15                                   
+  rseg_4_v3/v17 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/16 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v38      |Net: V16                                   
+  rseg_4_v3/v38 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/17 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v16      |Net: V17                                   
+  rseg_4_v3/v16 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/18 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v58      |Net: V18                                   
+  rseg_4_v3/v58 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/19 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v21      |Net: V19                                   
+  rseg_4_v3/v21 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/20 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v20      |Net: V20                                   
+  rseg_4_v3/v20 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/21 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v34      |Net: V21                                   
+  rseg_4_v3/v34 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/22 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v30      |Net: V22                                   
+  rseg_4_v3/v30 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/23 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v29      |Net: V23                                   
+  rseg_4_v3/v29 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/24 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v12      |Net: V24                                   
+  rseg_4_v3/v12 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/25 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v62      |Net: V25                                   
+  rseg_4_v3/v62 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/26 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v31      |Net: V26                                   
+  rseg_4_v3/v31 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/27 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v35      |Net: V27                                   
+  rseg_4_v3/v35 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/28 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v23      |Net: V28                                   
+  rseg_4_v3/v23 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/29 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v22      |Net: V29                                   
+  rseg_4_v3/v22 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/30 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v56      |Net: V30                                   
+  rseg_4_v3/v56 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/31 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v27      |Net: V31                                   
+  rseg_4_v3/v27 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/32 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v41      |Net: V32                                   
+  rseg_4_v3/v41 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/33 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v39      |Net: V33                                   
+  rseg_4_v3/v39 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/34 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v3       |Net: V34                                   
+  rseg_4_v3/v3 = 1                         |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/35 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v60      |Net: V35                                   
+  rseg_4_v3/v60 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/36 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v55      |Net: V36                                   
+  rseg_4_v3/v55 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/37 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v7       |Net: V37                                   
+  rseg_4_v3/v7 = 1                         |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/38 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v18      |Net: V38                                   
+  rseg_4_v3/v18 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/39 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v1       |Net: V39                                   
+  rseg_4_v3/v1 = 1                         |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/40 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v26      |Net: V40                                   
+  rseg_4_v3/v26 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/41 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v49      |Net: V41                                   
+  rseg_4_v3/v49 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/42 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v53      |Net: V42                                   
+  rseg_4_v3/v53 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/43 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v19      |Net: V43                                   
+  rseg_4_v3/v19 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/44 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v48      |Net: V44                                   
+  rseg_4_v3/v48 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/45 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v46      |Net: V45                                   
+  rseg_4_v3/v46 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/46 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v45      |Net: V46                                   
+  rseg_4_v3/v45 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/47 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v24      |Net: V47                                   
+  rseg_4_v3/v24 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/48 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v28      |Net: V48                                   
+  rseg_4_v3/v28 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/49 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v47      |Net: V49                                   
+  rseg_4_v3/v47 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/50 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v54      |Net: V50                                   
+  rseg_4_v3/v54 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/51 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v43      |Net: V51                                   
+  rseg_4_v3/v43 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/52 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v57      |Net: V52                                   
+  rseg_4_v3/v57 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/53 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v42      |Net: V53                                   
+  rseg_4_v3/v42 = 1                        |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/54 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v5       |Net: V54                                   
+  rseg_4_v3/v5 = 1                         |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  rseg_4_v3/55 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v4       |Net: V55                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  rseg_4_v3/56 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v13      |Net: V56                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  rseg_4_v3/57 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v6       |Net: V57                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  rseg_4_v3/58 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v15      |Net: V58                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  rseg_4_v3/59 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v11      |Net: V59                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  rseg_4_v3/60 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v2       |Net: V60                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  rseg_4_v3/61 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v8       |Net: V61                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  rseg_4_v3/62 = 1                         
+                                           |                                           
+Net: rseg_4_routing_0/rseg_4_v3_0/v52      |Net: V62                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  rseg_4_v3/63 = 1                         
+                                           |                                           
+Net: V63                                   |Net: V63                                   
+  rseg_4_v3/m1_24468_n18814# = 1           |  rseg_4_v3/64 = 1                         
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_66            |Net: dummy_110                             
+  rseg_4_v3/proxy1 = 1                     |  rseg_4_v3/proxyv1 = 1                    
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_67            |Net: dummy_111                             
+  rseg_4_v3/proxy2 = 1                     |  rseg_4_v3/proxyv3 = 1                    
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_68            |Net: dummy_112                             
+  rseg_4_v3/proxy3 = 1                     |  rseg_4_v3/proxyv5 = 1                    
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_69            |Net: dummy_113                             
+  rseg_4_v3/proxy4 = 1                     |  rseg_4_v3/proxyv7 = 1                    
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_70            |Net: dummy_114                             
+  rseg_4_v3/proxy5 = 1                     |  rseg_4_v3/proxyv10 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_71            |Net: dummy_115                             
+  rseg_4_v3/proxy6 = 1                     |  rseg_4_v3/proxyv12 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_72            |Net: dummy_116                             
+  rseg_4_v3/proxy7 = 1                     |  rseg_4_v3/proxyv14 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_73            |Net: dummy_117                             
+  rseg_4_v3/proxy8 = 1                     |  rseg_4_v3/proxyv16 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_74            |Net: dummy_118                             
+  rseg_4_v3/proxy9 = 1                     |  rseg_4_v3/proxyv17 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_75            |Net: dummy_119                             
+  rseg_4_v3/proxy10 = 1                    |  rseg_4_v3/proxyv18 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_76            |Net: dummy_120                             
+  rseg_4_v3/proxy11 = 1                    |  rseg_4_v3/proxyv19 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_77            |Net: dummy_121                             
+  rseg_4_v3/proxy12 = 1                    |  rseg_4_v3/proxyv20 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_78            |Net: dummy_122                             
+  rseg_4_v3/proxy13 = 1                    |  rseg_4_v3/proxyv21 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_79            |Net: dummy_123                             
+  rseg_4_v3/proxy14 = 1                    |  rseg_4_v3/proxyv22 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_80            |Net: dummy_124                             
+  rseg_4_v3/proxy15 = 1                    |  rseg_4_v3/proxyv23 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_81            |Net: dummy_125                             
+  rseg_4_v3/proxy16 = 1                    |  rseg_4_v3/proxyv24 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_82            |Net: dummy_126                             
+  rseg_4_v3/proxy17 = 1                    |  rseg_4_v3/proxyv25 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_83            |Net: dummy_127                             
+  rseg_4_v3/proxy18 = 1                    |  rseg_4_v3/proxyv26 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_84            |Net: dummy_128                             
+  rseg_4_v3/proxy19 = 1                    |  rseg_4_v3/proxyv27 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_85            |Net: dummy_129                             
+  rseg_4_v3/proxy20 = 1                    |  rseg_4_v3/proxyv28 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_86            |Net: dummy_130                             
+  rseg_4_v3/proxy21 = 1                    |  rseg_4_v3/proxyv29 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_87            |Net: dummy_131                             
+  rseg_4_v3/proxy22 = 1                    |  rseg_4_v3/proxyv30 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_88            |Net: dummy_132                             
+  rseg_4_v3/proxy23 = 1                    |  rseg_4_v3/proxyv31 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_89            |Net: dummy_133                             
+  rseg_4_v3/proxy24 = 1                    |  rseg_4_v3/proxyv32 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_90            |Net: dummy_134                             
+  rseg_4_v3/proxy25 = 1                    |  rseg_4_v3/proxyv33 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_91            |Net: dummy_135                             
+  rseg_4_v3/proxy26 = 1                    |  rseg_4_v3/proxyv34 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_92            |Net: dummy_136                             
+  rseg_4_v3/proxy27 = 1                    |  rseg_4_v3/proxyv35 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_93            |Net: dummy_137                             
+  rseg_4_v3/proxy28 = 1                    |  rseg_4_v3/proxyv36 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_94            |Net: dummy_138                             
+  rseg_4_v3/proxy29 = 1                    |  rseg_4_v3/proxyv37 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_95            |Net: dummy_139                             
+  rseg_4_v3/proxy30 = 1                    |  rseg_4_v3/proxyv38 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_96            |Net: dummy_140                             
+  rseg_4_v3/proxy31 = 1                    |  rseg_4_v3/proxyv39 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_97            |Net: dummy_141                             
+  rseg_4_v3/proxy32 = 1                    |  rseg_4_v3/proxyv40 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_98            |Net: dummy_142                             
+  rseg_4_v3/proxy33 = 1                    |  rseg_4_v3/proxyv41 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_99            |Net: dummy_143                             
+  rseg_4_v3/proxy34 = 1                    |  rseg_4_v3/proxyv42 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_100           |Net: dummy_144                             
+  rseg_4_v3/proxy35 = 1                    |  rseg_4_v3/proxyv43 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_101           |Net: dummy_145                             
+  rseg_4_v3/proxy36 = 1                    |  rseg_4_v3/proxyv44 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_102           |Net: dummy_146                             
+  rseg_4_v3/proxy37 = 1                    |  rseg_4_v3/proxyv45 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_103           |Net: dummy_147                             
+  rseg_4_v3/proxy38 = 1                    |  rseg_4_v3/proxyv46 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_104           |Net: dummy_148                             
+  rseg_4_v3/proxy39 = 1                    |  rseg_4_v3/proxyv47 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_105           |Net: dummy_149                             
+  rseg_4_v3/proxy40 = 1                    |  rseg_4_v3/proxyv48 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_106           |Net: dummy_150                             
+  rseg_4_v3/proxy41 = 1                    |  rseg_4_v3/proxyv49 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_107           |Net: dummy_151                             
+  rseg_4_v3/proxy42 = 1                    |  rseg_4_v3/proxyv50 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_108           |Net: dummy_152                             
+  rseg_4_v3/proxy43 = 1                    |  rseg_4_v3/proxyv51 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_109           |Net: dummy_153                             
+  rseg_4_v3/proxy44 = 1                    |  rseg_4_v3/proxyv54 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_110           |Net: dummy_154                             
+  rseg_4_v3/proxy45 = 1                    |  rseg_4_v3/proxyv55 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_111           |Net: dummy_155                             
+  rseg_4_v3/proxy46 = 1                    |  rseg_4_v3/proxyv56 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_112           |Net: dummy_156                             
+  rseg_4_v3/proxy47 = 1                    |  rseg_4_v3/proxyv57 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_113           |Net: dummy_157                             
+  rseg_4_v3/proxy48 = 1                    |  rseg_4_v3/proxyv58 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_114           |Net: dummy_158                             
+  rseg_4_v3/proxy49 = 1                    |  rseg_4_v3/proxyv59 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_115           |Net: dummy_159                             
+  rseg_4_v3/proxy50 = 1                    |  rseg_4_v3/proxyv60 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_116           |Net: dummy_160                             
+  rseg_4_v3/proxy51 = 1                    |  rseg_4_v3/proxyv61 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_117           |Net: dummy_162                             
+  rseg_4_v3/proxy52 = 1                    |  rseg_4_v3/proxyv62 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_118           |Net: dummy_163                             
+  rseg_4_v3/proxy53 = 1                    |  rseg_4_v3/proxym1_14122_n18814# = 1      
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_119           |Net: dummy_164                             
+  rseg_4_v3/proxy54 = 1                    |  rseg_4_v3/proxyv53 = 1                   
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_120           |Net: dummy_165                             
+  rseg_4_v3/proxy55 = 1                    |  rseg_4_v3/proxym1_24468_n18814# = 1      
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_121           |(no matching net)                          
+  rseg_4_v3/proxy56 = 1                    |                                           
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_122           |(no matching net)                          
+  rseg_4_v3/proxy57 = 1                    |                                           
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_123           |(no matching net)                          
+  rseg_4_v3/proxy58 = 1                    |                                           
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_124           |(no matching net)                          
+  rseg_4_v3/proxy59 = 1                    |                                           
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_125           |(no matching net)                          
+  rseg_4_v3/proxy60 = 1                    |                                           
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_126           |(no matching net)                          
+  rseg_4_v3/proxy61 = 1                    |                                           
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_127           |(no matching net)                          
+  rseg_4_v3/proxy62 = 1                    |                                           
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_128           |(no matching net)                          
+  rseg_4_v3/proxy63 = 1                    |                                           
+                                           |                                           
+Net: /rseg_4_routing_0/dummy_129           |(no matching net)                          
+  rseg_4_v3/proxy64 = 1                    |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+
+Subcircuit pins:
+Circuit 1: top_segment_4                   |Circuit 2: top_segment_4                   
+-------------------------------------------|-------------------------------------------
+V63                                        |(no pin, node is V12)                      
+V0                                         |(no pin, node is V53)                      
+bb0                                        |bb0                                        
+b0                                         |b0                                         
+GND                                        |(no pin, node is dummy_161)                
+VOUT                                       |VOUT                                       
+b1                                         |bb1 **Mismatch**                           
+bb1                                        |b1 **Mismatch**                            
+b2                                         |b2                                         
+bb2                                        |bb2                                        
+bb3                                        |b3 **Mismatch**                            
+b3                                         |bb3 **Mismatch**                           
+DEC0                                       |DEC0                                       
+DEC1                                       |DEC1                                       
+DEC2                                       |DEC2                                       
+DEC3                                       |DEC3                                       
+VPB                                        |VPB                                        
+(no pin, node is /rseg_4_routing_0/dummy_1 |V0                                         
+(no pin, node is /rseg_4_routing_0/dummy_1 |V63                                        
+(no pin, node is /rseg_4_routing_0/dummy_1 |GND                                        
+---------------------------------------------------------------------------------------
+Cell pin lists for top_segment_4 and top_segment_4 altered to match.
+Device classes top_segment_4 and top_segment_4 are equivalent.
+
+Final result: Top level cell failed pin matching.

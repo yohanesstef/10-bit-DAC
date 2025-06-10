@@ -1,0 +1,65 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 1591 -23430 2012 -23368
+rect 2521 -23692 2536 -23430
+rect 1576 -24078 1585 -23754
+rect 2527 -24016 2536 -23754
+rect 1576 -24340 1591 -24078
+rect 1550 -24726 1585 -24402
+rect 2521 -24664 2624 -24078
+rect 1550 -24988 1591 -24726
+rect 1509 -25636 1585 -25050
+rect 2521 -25312 2650 -24726
+rect 2527 -25636 2691 -25374
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_0
+timestamp 1749289931
+transform 1 0 -8630 0 1 -7957
+box 9957 -17679 10206 -15149
+use rseg_4_pin_right_odd  rseg_4_pin_right_odd_0
+timestamp 1749289931
+transform 1 0 -7408 0 1 -8276
+box 9944 -17360 10281 -14830
+use sky130_fd_pr__res_xhigh_po_1p41_HUJR2Q  sky130_fd_pr__res_xhigh_po_1p41_HUJR2Q_0
+timestamp 1749201400
+transform 0 -1 2056 -1 0 -25829
+box -141 -477 141 477
+use sky130_fd_pr__res_xhigh_po_1p41_LNB2JD  sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0
+timestamp 1749288380
+transform 0 -1 2056 1 0 -22913
+box -141 -471 141 471
+use sky130_fd_pr__res_xhigh_po_1p41_LNB4JD  sky130_fd_pr__res_xhigh_po_1p41_LNB4JD_0
+timestamp 1749147130
+transform 0 -1 2056 -1 0 -24857
+box -141 -471 141 471
+use sky130_fd_pr__res_xhigh_po_1p41_LNB4JD  XR1
+timestamp 1749147130
+transform 0 -1 2056 1 0 -23237
+box -141 -471 141 471
+use sky130_fd_pr__res_xhigh_po_1p41_LNB4JD  XR2
+timestamp 1749147130
+transform 0 -1 2056 1 0 -23561
+box -141 -471 141 471
+use sky130_fd_pr__res_xhigh_po_1p41_HUJT2Q  XR3
+timestamp 1748944356
+transform 0 -1 2056 -1 0 -23885
+box -141 -477 141 477
+use sky130_fd_pr__res_xhigh_po_1p41_LNB4JD  XR4
+timestamp 1749147130
+transform 0 -1 2056 -1 0 -24209
+box -141 -471 141 471
+use sky130_fd_pr__res_xhigh_po_1p41_HUJT2Q  XR5
+timestamp 1748944356
+transform 0 -1 2056 -1 0 -24533
+box -141 -477 141 477
+use sky130_fd_pr__res_xhigh_po_1p41_HUJT2Q  XR7
+timestamp 1748944356
+transform 0 -1 2056 -1 0 -25181
+box -141 -477 141 477
+use sky130_fd_pr__res_xhigh_po_1p41_HUJT2Q  XR8
+timestamp 1748944356
+transform 0 -1 2056 -1 0 -25505
+box -141 -477 141 477
+<< end >>

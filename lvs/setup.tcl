@@ -1,0 +1,1 @@
+/home/yohanes/pdk/sky130A/libs.tech/netgen/setup.tcl

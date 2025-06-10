@@ -1,0 +1,61 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749485587
+<< metal1 >>
+rect 15886 -15686 15946 -15362
+rect 15852 -15948 15946 -15686
+rect 15431 -16010 15842 -15948
+rect 15974 -16334 16034 -15362
+rect 15832 -16596 16034 -16334
+rect 15411 -16658 15832 -16596
+rect 16062 -16982 16122 -15362
+rect 15827 -17244 16122 -16982
+rect 15406 -17306 15822 -17244
+rect 16150 -17630 16210 -15362
+rect 15817 -17892 16210 -17630
+use rseg_4_pin_left  rseg_4_pin_left_0 ~/10-bit-DAC/mag
+timestamp 1749485587
+transform 1 0 -4712 0 1 5819
+box 18462 -23449 18865 -21180
+use sky130_fd_pr__res_xhigh_po_1p41_HDPDLR  sky130_fd_pr__res_xhigh_po_1p41_HDPDLR_0
+timestamp 1749031283
+transform 0 -1 14936 -1 0 -15169
+box -141 -928 141 928
+use sky130_fd_pr__res_xhigh_po_1p41_JJ76EH  sky130_fd_pr__res_xhigh_po_1p41_JJ76EH_0
+timestamp 1749031283
+transform 0 -1 14936 -1 0 -18085
+box -141 -887 141 887
+use sky130_fd_pr__res_xhigh_po_1p41_HDPFLR  XR17 ~/10-bit-DAC/mag
+timestamp 1749119180
+transform 0 -1 14936 -1 0 -15493
+box -141 -928 141 928
+use sky130_fd_pr__res_xhigh_po_1p41_FKP9BS  XR18 ~/10-bit-DAC/mag
+timestamp 1749007001
+transform 0 -1 14936 -1 0 -15817
+box -141 -922 141 922
+use sky130_fd_pr__res_xhigh_po_1p41_HMAF9V  XR19 ~/10-bit-DAC/mag
+timestamp 1749007001
+transform 0 -1 14936 -1 0 -16141
+box -141 -912 141 912
+use sky130_fd_pr__res_xhigh_po_1p41_KLD4QF  XR20 ~/10-bit-DAC/mag
+timestamp 1749119180
+transform 0 -1 14936 -1 0 -16465
+box -141 -902 141 902
+use sky130_fd_pr__res_xhigh_po_1p41_KLD4QF  XR21
+timestamp 1749119180
+transform 0 -1 14936 -1 0 -16789
+box -141 -902 141 902
+use sky130_fd_pr__res_xhigh_po_1p41_CSE6EU  XR22 ~/10-bit-DAC/mag
+timestamp 1749007001
+transform 0 -1 14936 -1 0 -17113
+box -141 -897 141 897
+use sky130_fd_pr__res_xhigh_po_1p41_Q9DQHD  XR23 ~/10-bit-DAC/mag
+timestamp 1749007001
+transform 0 -1 14936 -1 0 -17437
+box -141 -892 141 892
+use sky130_fd_pr__res_xhigh_po_1p41_JJ78EH  XR24 ~/10-bit-DAC/mag
+timestamp 1749007001
+transform 0 -1 14936 -1 0 -17761
+box -141 -887 141 887
+<< end >>

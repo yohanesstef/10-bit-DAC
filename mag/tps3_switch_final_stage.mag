@@ -1,0 +1,62 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749520983
+<< nwell >>
+rect -1308 -166 1876 442
+<< mvnsubdiff >>
+rect -1242 364 1810 376
+rect -1242 330 -1134 364
+rect 1703 330 1810 364
+rect -1242 318 1810 330
+rect -1242 268 -1184 318
+rect -1242 8 -1230 268
+rect -1196 8 -1184 268
+rect -1242 -42 -1184 8
+rect 1752 268 1810 318
+rect 1752 8 1764 268
+rect 1798 8 1810 268
+rect 1752 -42 1810 8
+rect -1242 -54 1810 -42
+rect -1242 -88 -1135 -54
+rect 1702 -88 1810 -54
+rect -1242 -100 1810 -88
+<< mvnsubdiffcont >>
+rect -1134 330 1703 364
+rect -1230 8 -1196 268
+rect 1764 8 1798 268
+rect -1135 -88 1702 -54
+<< locali >>
+rect -1230 330 -1134 364
+rect 1703 330 1798 364
+rect -1230 268 -1196 330
+rect -1230 -54 -1196 8
+rect 1764 268 1798 330
+rect 1764 -54 1798 8
+rect -1230 -88 -1135 -54
+rect 1702 -88 1798 -54
+use hpmos_1  hpmos_1_0 ~/10-bit-DAC/mag
+timestamp 1749230053
+transform 1 0 -462 0 1 3215
+box 1856 -3221 2204 -2971
+use hpmos_1  hpmos_1_1
+timestamp 1749230053
+transform 1 0 -1318 0 1 3215
+box 1856 -3221 2204 -2971
+use hpmos_2  hpmos_2_0 ~/10-bit-DAC/mag
+timestamp 1749384553
+transform 1 0 -2179 0 1 3184
+box 2165 -3190 2789 -2940
+use hpmos_2  hpmos_2_1
+timestamp 1749384553
+transform 1 0 -1323 0 1 3184
+box 2165 -3190 2789 -2940
+use hpmos_2  hpmos_2_2
+timestamp 1749384553
+transform 1 0 -2759 0 1 3184
+box 2165 -3190 2789 -2940
+use hpmos_2  hpmos_2_3
+timestamp 1749384553
+transform 1 0 -3339 0 1 3184
+box 2165 -3190 2789 -2940
+<< end >>

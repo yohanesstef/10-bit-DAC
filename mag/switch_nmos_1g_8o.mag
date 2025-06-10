@@ -1,0 +1,119 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1748954881
+<< error_s >>
+rect 278 -8269 325 -7752
+rect 332 -8323 379 -7806
+rect 769 -8334 816 -7817
+rect 823 -8388 870 -7871
+rect 1260 -8399 1307 -7882
+rect 1314 -8453 1361 -7936
+rect 1751 -8464 1798 -7947
+rect 1805 -8518 1852 -8001
+rect 2242 -8529 2289 -8012
+rect 2296 -8583 2343 -8066
+rect 2733 -8594 2780 -8077
+rect 2787 -8648 2834 -8131
+rect 3224 -8659 3271 -8142
+rect 3278 -8713 3325 -8196
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+rect 0 -2000 200 -1800
+rect 0 -2400 200 -2200
+rect 0 -2800 200 -2600
+rect 0 -3200 200 -3000
+rect 0 -3600 200 -3400
+rect 0 -4000 200 -3800
+rect 0 -4400 200 -4200
+rect 0 -4800 200 -4600
+rect 0 -5200 200 -5000
+rect 0 -5600 200 -5400
+rect 0 -6000 200 -5800
+rect 0 -6400 200 -6200
+rect 0 -6800 200 -6600
+rect 0 -7200 200 -7000
+use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM1
+timestamp 1748954881
+transform 1 0 83 0 1 -8005
+box -278 -300 278 300
+use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM2
+timestamp 1748954881
+transform 1 0 574 0 1 -8070
+box -278 -300 278 300
+use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM3
+timestamp 1748954881
+transform 1 0 1065 0 1 -8135
+box -278 -300 278 300
+use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM4
+timestamp 1748954881
+transform 1 0 1556 0 1 -8200
+box -278 -300 278 300
+use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM5
+timestamp 1748954881
+transform 1 0 2047 0 1 -8265
+box -278 -300 278 300
+use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM6
+timestamp 1748954881
+transform 1 0 2538 0 1 -8330
+box -278 -300 278 300
+use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM7
+timestamp 1748954881
+transform 1 0 3029 0 1 -8395
+box -278 -300 278 300
+use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM8
+timestamp 1748954881
+transform 1 0 3520 0 1 -8460
+box -278 -300 278 300
+<< labels >>
+flabel metal1 0 -3200 200 -3000 0 FreeSans 256 0 0 0 DIN
+port 8 nsew
+flabel metal1 0 -3600 200 -3400 0 FreeSans 256 0 0 0 {vout\[0\]}
+port 9 nsew
+flabel metal1 0 -4000 200 -3800 0 FreeSans 256 0 0 0 {vout\[1\]}
+port 10 nsew
+flabel metal1 0 -4400 200 -4200 0 FreeSans 256 0 0 0 {vout\[2\]}
+port 11 nsew
+flabel metal1 0 -4800 200 -4600 0 FreeSans 256 0 0 0 {vout\[3\]}
+port 12 nsew
+flabel metal1 0 -5200 200 -5000 0 FreeSans 256 0 0 0 {vout\[4\]}
+port 13 nsew
+flabel metal1 0 -5600 200 -5400 0 FreeSans 256 0 0 0 {}
+port 14 nsew
+flabel metal1 0 -6000 200 -5800 0 FreeSans 256 0 0 0 {vout\[5\]}
+port 15 nsew
+flabel metal1 0 -6400 200 -6200 0 FreeSans 256 0 0 0 {vout\[6\]}
+port 16 nsew
+flabel metal1 0 -6800 200 -6600 0 FreeSans 256 0 0 0 {vout\[7\]}
+port 17 nsew
+flabel metal1 0 -7200 200 -7000 0 FreeSans 256 0 0 0 VNB
+port 18 nsew
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 {vin\[0\]}
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 {vin\[1\]}
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 {vin\[2\]}
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 {vin\[3\]}
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 {vin\[4\]}
+port 4 nsew
+flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 {vin\[5\]}
+port 5 nsew
+flabel metal1 0 -2400 200 -2200 0 FreeSans 256 0 0 0 {vin\[6\]}
+port 6 nsew
+flabel metal1 0 -2800 200 -2600 0 FreeSans 256 0 0 0 {vin\[7\]}
+port 7 nsew
+flabel metal1 0 -3200 200 -3000 0 FreeSans 256 0 0 0 {vout\[0\]}
+flabel metal1 0 -3600 200 -3400 0 FreeSans 256 0 0 0 {vout\[1\]}
+flabel metal1 0 -4000 200 -3800 0 FreeSans 256 0 0 0 {vout\[2\]}
+flabel metal1 0 -4400 200 -4200 0 FreeSans 256 0 0 0 {vout\[3\]}
+flabel metal1 0 -4800 200 -4600 0 FreeSans 256 0 0 0 {vout\[4\]}
+flabel metal1 0 -5200 200 -5000 0 FreeSans 256 0 0 0 {vout\[5\]}
+flabel metal1 0 -5600 200 -5400 0 FreeSans 256 0 0 0 {vout\[6\]}
+flabel metal1 0 -6000 200 -5800 0 FreeSans 256 0 0 0 {vout\[7\]}
+<< end >>

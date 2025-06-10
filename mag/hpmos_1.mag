@@ -1,0 +1,24 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749230053
+<< error_s >>
+rect 1856 -3217 1886 -3005
+rect 1922 -3151 1952 -3071
+rect 2108 -3151 2138 -3071
+rect 1922 -3155 2138 -3151
+rect 2174 -3217 2204 -3005
+rect 1856 -3221 2204 -3217
+<< metal1 >>
+rect 1998 -3033 2004 -2981
+rect 2056 -3033 2062 -2981
+<< via1 >>
+rect 2004 -3033 2056 -2981
+<< metal2 >>
+rect 1892 -3033 2004 -2981
+rect 2056 -3033 2168 -2981
+use sky130_fd_pr__pfet_g5v0d10v5_WJ97JY  XM1 ~/10-bit-DAC/mag
+timestamp 1749220931
+transform 1 0 2030 0 1 -3077
+box -174 -144 174 106
+<< end >>

@@ -1,12 +1,12 @@
-Netgen 1.5.294 compiled on Fri May 16 18:44:52 WIB 2025
+Netgen 1.5.292 compiled on Thu Mar  6 15:36:50 +07 2025
 Warning: netgen command 'format' use fully-qualified name '::netgen::format'
 Warning: netgen command 'global' use fully-qualified name '::netgen::global'
-Reading netlist file /mnt/disk1/home/yohanes/10-bit-DAC/lvs/nand_hvl.ext.spc
+Reading netlist file /home/yohanes/10-bit-DAC/lvs/nand_hvl.ext.spc
 Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5
 Creating placeholder cell definition.
-Reading netlist file /mnt/disk1/home/yohanes/10-bit-DAC/lvs/nand_hvl.sch.spc
+Reading netlist file /home/yohanes/10-bit-DAC/lvs/nand_hvl.sch.spc
 Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5
@@ -22,7 +22,7 @@ Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__res_generic_pd__hv
 Creating placeholder cell definition.
 
-Reading setup file /mnt/disk1/home/yohanes/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+Reading setup file /home/yohanes/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
 
 Model sky130_fd_pr__res_generic_nd__hv pin 1 == 2
 No property value found for device sky130_fd_pr__res_generic_nd__hv
@@ -132,8 +132,8 @@ No property topography found for device sky130_fd_pr__pfet_g5v0d10v5
 No property value found for device sky130_fd_pr__diode_pw2nd_11v0
 No property mult found for device sky130_fd_pr__diode_pw2nd_11v0
 No property perim found for device sky130_fd_pr__diode_pw2nd_11v0
-Comparison output logged to file /mnt/disk1/home/yohanes/10-bit-DAC/lvs/nand_hvl.lvs.out
-Logging to file "/mnt/disk1/home/yohanes/10-bit-DAC/lvs/nand_hvl.lvs.out" enabled
+Comparison output logged to file /home/yohanes/10-bit-DAC/lvs/nand_hvl.lvs.out
+Logging to file "/home/yohanes/10-bit-DAC/lvs/nand_hvl.lvs.out" enabled
 Circuit sky130_fd_pr__nfet_g5v0d10v5 contains no devices.
 Circuit sky130_fd_pr__pfet_g5v0d10v5 contains no devices.
 
@@ -168,5 +168,5 @@ Circuit 1 contains 5 nets,    Circuit 2 contains 5 nets.
 Final result: 
 Circuits match uniquely.
 .
-Logging to file "/mnt/disk1/home/yohanes/10-bit-DAC/lvs/nand_hvl.lvs.out" disabled
+Logging to file "/home/yohanes/10-bit-DAC/lvs/nand_hvl.lvs.out" disabled
 LVS Done.

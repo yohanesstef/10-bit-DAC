@@ -1,0 +1,39 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1748954881
+<< error_s >>
+rect 278 -2689 325 -2172
+rect 332 -2743 379 -2226
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+rect 0 -2000 200 -1800
+rect 0 -2400 200 -2200
+use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM1
+timestamp 1748954881
+transform 1 0 574 0 1 -2490
+box -278 -300 278 300
+use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM2
+timestamp 1748954881
+transform 1 0 83 0 1 -2425
+box -278 -300 278 300
+<< labels >>
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 DIN
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 DINB
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 VH
+port 4 nsew
+flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 VL
+port 5 nsew
+flabel metal1 0 -2400 200 -2200 0 FreeSans 256 0 0 0 VNB
+port 6 nsew
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 {vin\[0\]}
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 {vin\[1\]}
+port 1 nsew
+<< end >>

@@ -1,1 +1,6 @@
 /simulations/top_large
+/mag/.magicrc
+/mag/libs.ref
+/pex/iic-pex.sh
+/lvs/iic-lvs.sh
+/mag/setup.tcl

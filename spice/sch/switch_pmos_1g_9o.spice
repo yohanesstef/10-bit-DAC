@@ -1,0 +1,16 @@
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_9o.sch
+.subckt switch_pmos_1g_9o vin[0] vin[1] vin[2] vin[3] vin[4] vin[5] vin[6] vin[7] vin[8] DIN vout[0] vout[1] vout[2] vout[3]
++ vout[4] vout[5] vout[6] vout[7] vout[8] VPB
+*.PININFO vin[0:8]:I vout[0:8]:O VPB:I DIN:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vout[0] DIN vin[0] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM2 vout[1] DIN vin[1] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM3 vout[2] DIN vin[2] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM4 vout[3] DIN vin[3] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM5 vout[4] DIN vin[4] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM6 vout[5] DIN vin[5] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM7 vout[6] DIN vin[6] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM8 vout[7] DIN vin[7] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM9 vout[8] DIN vin[8] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+.ends

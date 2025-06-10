@@ -1,4 +1,4 @@
-v {xschem version=3.4.7 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -1924,3 +1924,11 @@ device_model=".model dut d_cosim simulation=\\"ivlng\\" sim_args=[\\"adc\\"]"}
 C {devices/lab_pin.sym} 1250 940 0 0 {name=p203 sig_type=std_logic lab=in}
 C {devices/lab_pin.sym} 1390 1030 0 0 {name=p204 sig_type=std_logic lab=clk}
 C {devices/lab_pin.sym} 1500 940 0 1 {name=p205 sig_type=std_logic lab=d[0..9]}
+C {devices/lab_pin.sym} 3150 570 0 0 {name=p206 sig_type=std_logic lab=gnd}
+C {rstring.sym} 3360 570 0 0 {name=x27}
+C {devices/lab_pin.sym} 3510 570 0 1 {name=p207 sig_type=std_logic lab=V[0:191]}
+C {devices/ammeter.sym} 3180 570 1 0 {name=Vmeas savecurrent=true spice_ignore=0}
+C {devices/lab_pin.sym} 3150 490 0 0 {name=p208 sig_type=std_logic lab=gnd}
+C {devices/ammeter.sym} 3180 490 1 0 {name=Vmeas7 savecurrent=true spice_ignore=0}
+C {devices/lab_pin.sym} 3510 490 0 1 {name=p209 sig_type=std_logic lab=V[0..191]}
+C {rstring_v3.sym} 3360 490 0 0 {name=x28}

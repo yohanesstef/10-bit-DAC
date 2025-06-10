@@ -1,0 +1,30 @@
+timestamp 1749525104
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use hpmos_5 hpmos_5_1 -1 0 3060 0 1 161
+use hpmos_5 hpmos_5_0 1 0 122 0 1 161
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "hpmos_5_0/hpmos_1_1/XM1/a_n108_n78#" "hpmos_5_1/hpmos_1_1/XM1/a_n108_n78#" 22.3921
+cap "hpmos_5_0/hpmos_1_1/XM1/a_n108_n78#" "hpmos_5_1/hpmos_1_1/XM1/a_50_n78#" 0.0121048
+cap "hpmos_5_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "hpmos_5_1/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" 1.2605
+cap "hpmos_5_0/hpmos_1_1/XM1/a_n108_n78#" "hpmos_5_1/hpmos_1_1/XM1/a_n50_n104#" 0.498033
+cap "hpmos_5_0/hpmos_1_1/XM1/a_n108_n78#" "hpmos_5_0/w_n156_n170#" 5.19888
+cap "hpmos_5_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "hpmos_5_1/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" 1.2605
+cap "hpmos_5_1/hpmos_1_1/XM1/a_50_n78#" "hpmos_5_0/w_n156_n170#" 0.215791
+cap "hpmos_5_1/hpmos_1_1/XM1/a_n50_n104#" "hpmos_5_0/w_n156_n170#" 2.02741
+cap "hpmos_5_1/hpmos_1_1/XM1/a_50_n78#" "hpmos_5_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" 0.0232919
+cap "hpmos_5_1/hpmos_1_1/XM1/a_n50_n104#" "hpmos_5_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" 26.2368
+cap "hpmos_5_1/hpmos_1_1/XM1/a_n108_n78#" "hpmos_5_0/w_n156_n170#" 5.19888
+cap "hpmos_5_1/hpmos_1_1/XM1/a_n108_n78#" "hpmos_5_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" 0.498033
+cap "hpmos_5_0/hpmos_1_1/XM1/a_50_n78#" "hpmos_5_0/w_n156_n170#" 0.215791
+cap "hpmos_5_1/hpmos_1_1/XM1/a_n108_n78#" "hpmos_5_0/hpmos_1_1/XM1/a_n108_n78#" 22.3921
+cap "hpmos_5_1/hpmos_1_1/XM1/a_50_n78#" "hpmos_5_0/hpmos_1_1/XM1/a_50_n78#" 13.8897
+cap "hpmos_5_1/hpmos_1_1/XM1/a_n50_n104#" "hpmos_5_0/hpmos_1_1/XM1/a_50_n78#" 0.0232919
+cap "hpmos_5_1/hpmos_1_1/XM1/a_n108_n78#" "hpmos_5_0/hpmos_1_1/XM1/a_50_n78#" 0.0121048
+cap "hpmos_5_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "hpmos_5_0/w_n156_n170#" 2.02741
+merge "hpmos_5_0/VSUBS" "hpmos_5_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hpmos_5_1/VSUBS" "VSUBS"
+merge "hpmos_5_0/w_n156_n170#" "hpmos_5_1/w_n156_n170#" -525.317 0 0 0 0 -115520 -1596 0 0 0 0 0 0 -27608 -1068 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15368 -972 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,165 @@
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_1p41 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_1p41 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_1p41 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_1p41 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_1p41 |Circuit 2: sky130_fd_pr__res_xhigh_po_1p41 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_1p41 and sky130_fd_pr__res_xhigh_po_1p41 are equivalent.
+Flattening unmatched subcell rseg_2_5 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_CSE6EU in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_Q9DQHD in circuit rseg_2_v3 (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_GPECER in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_P2F3L4 in circuit rseg_2_v3 (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_9KPRBU in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_Q9DNHD in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_KLD4QF in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_9KPTBU in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell rseg_2_3 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_JJ76EH in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_KLD4QF in circuit rseg_2_v3 (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_CSE6EU in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_Q9DQHD in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_JJ78EH in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_HDPFLR in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_FKP9BS in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_HMAF9V in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_HDPDLR in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell rseg_2_1 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_KW74JE in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_HJFYX5 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_9XTXL3 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_KW72JE in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_UUAKCS in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_2ZPXA6 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_4TMZA6 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_BYJUXC in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_6C2YEW in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_6C2WEW in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell rseg_2_6 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_C8NZQ2 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_QX6GCE in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_JR3MJ3 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_NE74PQ in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_C8N3R2 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_ZT77H3 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_P766M4 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_G3FRP4 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_P7J8SY in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_NE72PQ in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell rseg_2_4 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_TEB92L in circuit rseg_2_v3 (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_JJ76EH in circuit rseg_2_v3 (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_JJ78EH in circuit rseg_2_v3 (0)(5 instances)
+Flattening unmatched subcell rseg_2_2 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_TFZ4PD in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_LLUWW2 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_P766M4 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_P7J8SY in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_ZT77H3 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_G3FRP4 in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_9KPTBU in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_NE74PQ in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_NE72PQ in circuit rseg_2_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_9KPRBU in circuit rseg_2_v3 (0)(1 instance)
+
+Class rseg_2_v3 (0):  Merged 10 parallel devices.
+Class rseg_2_v3 (1):  Merged 11 parallel devices.
+Subcircuit summary:
+Circuit 1: rseg_2_v3                       |Circuit 2: rseg_2_v3                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_xhigh_po_1p41 (60->50)   |sky130_fd_pr__res_xhigh_po_1p41 (60->49) * 
+Number of devices: 50 **Mismatch**         |Number of devices: 49 **Mismatch**         
+Number of nets: 51 **Mismatch**            |Number of nets: 50 **Mismatch**            
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: rseg_2_v3                       |Circuit 2: rseg_2_v3                       
+
+---------------------------------------------------------------------------------------
+Net: gnd                                   |Net: gnd                                   
+  sky130_fd_pr__res_xhigh_po_1p41/3 = 49   |  sky130_fd_pr__res_xhigh_po_1p41/3 = 49   
+  sky130_fd_pr__res_xhigh_po_1p41/(1|2) =  |  sky130_fd_pr__res_xhigh_po_1p41/(1|2) =  
+                                           |                                           
+Net: /rseg_2_5_0/sky130_fd_pr__res_xhigh_p |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_1p41/3 = 1    |                                           
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: rseg_2_v3                       |Circuit 2: rseg_2_v3                       
+
+---------------------------------------------------------------------------------------
+Instance: rseg_2_5_0//sky130_fd_pr__res_xh |Instance: sky130_fd_pr__res_xhigh_po_1p41: 
+  (1,2) = (53,53)                          |  (1,2) = (51,51)                          
+  3 = 1                                    |  3 = 51                                   
+                                           |                                           
+Instance: rseg_2_5_0//sky130_fd_pr__res_xh |(no matching instance)                     
+  (1,2) = (53,53)                          |                                           
+  3 = 53                                   |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+
+Subcircuit pins:
+Circuit 1: rseg_2_v3                       |Circuit 2: rseg_2_v3                       
+-------------------------------------------|-------------------------------------------
+gnd                                        |gnd                                        
+v48                                        |v48                                        
+v0                                         |v0                                         
+v2                                         |v2                                         
+v46                                        |v46                                        
+v4                                         |v4                                         
+v44                                        |v44                                        
+v6                                         |v6                                         
+v42                                        |v42                                        
+v40                                        |v8 **Mismatch**                            
+v8                                         |v40 **Mismatch**                           
+v38                                        |v10 **Mismatch**                           
+v10                                        |v38 **Mismatch**                           
+v36                                        |v12 **Mismatch**                           
+v12                                        |v36 **Mismatch**                           
+v18                                        |v18                                        
+v30                                        |v30                                        
+v20                                        |v20                                        
+v28                                        |v28                                        
+v24                                        |v24                                        
+v23                                        |v23                                        
+v25                                        |v25                                        
+v22                                        |v22                                        
+v26                                        |v26                                        
+v21                                        |v21                                        
+v27                                        |v27                                        
+v19                                        |v19                                        
+v29                                        |v29                                        
+v17                                        |v17                                        
+v31                                        |v31                                        
+v32                                        |v16 **Mismatch**                           
+v16                                        |v32 **Mismatch**                           
+v33                                        |v15 **Mismatch**                           
+v15                                        |v33 **Mismatch**                           
+v34                                        |v14 **Mismatch**                           
+v14                                        |v34 **Mismatch**                           
+v35                                        |v13 **Mismatch**                           
+v13                                        |v35 **Mismatch**                           
+v37                                        |v11 **Mismatch**                           
+v11                                        |v37 **Mismatch**                           
+v39                                        |v9 **Mismatch**                            
+v9                                         |v39 **Mismatch**                           
+v7                                         |v7                                         
+v41                                        |v41                                        
+v5                                         |v5                                         
+v43                                        |v43                                        
+v3                                         |v3                                         
+v45                                        |v45                                        
+v1                                         |v1                                         
+v47                                        |v47                                        
+---------------------------------------------------------------------------------------
+Cell pin lists for rseg_2_v3 and rseg_2_v3 altered to match.
+Device classes rseg_2_v3 and rseg_2_v3 are equivalent.
+
+Final result: Top level cell failed pin matching.

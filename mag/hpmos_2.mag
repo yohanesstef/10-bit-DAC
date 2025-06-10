@@ -1,0 +1,21 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749384553
+<< error_s >>
+rect 2165 -3186 2195 -2974
+rect 2231 -3120 2261 -3040
+rect 2693 -3120 2723 -3040
+rect 2231 -3124 2447 -3120
+rect 2507 -3124 2723 -3120
+rect 2759 -3186 2789 -2974
+rect 2165 -3190 2789 -3186
+use hpmos_1  hpmos_1_0
+timestamp 1749230053
+transform 1 0 309 0 1 31
+box 1856 -3221 2204 -2971
+use hpmos_1  hpmos_1_1
+timestamp 1749230053
+transform 1 0 585 0 1 31
+box 1856 -3221 2204 -2971
+<< end >>

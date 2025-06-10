@@ -1,0 +1,61 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 17949 -23720 18324 -23658
+rect 17881 -24630 17954 -24044
+rect 19003 -24306 19076 -23720
+rect 17824 -25278 17959 -24692
+rect 18998 -24954 19133 -24368
+rect 17782 -25926 17964 -25340
+rect 18988 -25602 19170 -25016
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_4
+timestamp 1749289931
+transform 1 0 7723 0 1 -8247
+box 9957 -17679 10206 -15149
+use rseg_4_pin_right_even_v2  rseg_4_pin_right_even_v2_1
+timestamp 1749289931
+transform 1 0 8991 0 1 -7918
+box 10032 -17684 10281 -15478
+use sky130_fd_pr__res_xhigh_po_1p41_8YBG5Q  sky130_fd_pr__res_xhigh_po_1p41_8YBG5Q_0
+timestamp 1748944356
+transform 0 -1 18476 1 0 -25147
+box -141 -523 141 523
+use sky130_fd_pr__res_xhigh_po_1p41_355JL6  sky130_fd_pr__res_xhigh_po_1p41_355JL6_0
+timestamp 1748944356
+transform 0 -1 18476 1 0 -25471
+box -141 -518 141 518
+use sky130_fd_pr__res_xhigh_po_1p41_355LL6  sky130_fd_pr__res_xhigh_po_1p41_355LL6_1
+timestamp 1749204500
+transform 0 -1 18476 1 0 -26119
+box -141 -518 141 518
+use sky130_fd_pr__res_xhigh_po_1p41_BT8AW8  sky130_fd_pr__res_xhigh_po_1p41_BT8AW8_0
+timestamp 1748944356
+transform 0 -1 18476 1 0 -23851
+box -141 -533 141 533
+use sky130_fd_pr__res_xhigh_po_1p41_EXVBAQ  sky130_fd_pr__res_xhigh_po_1p41_EXVBAQ_0
+timestamp 1748944356
+transform 0 -1 18476 1 0 -24499
+box -141 -528 141 528
+use sky130_fd_pr__res_xhigh_po_1p41_YS52KC  sky130_fd_pr__res_xhigh_po_1p41_YS52KC_0
+timestamp 1748944356
+transform 0 -1 18476 1 0 -23527
+box -141 -538 141 538
+use sky130_fd_pr__res_xhigh_po_1p41_YS54KC  sky130_fd_pr__res_xhigh_po_1p41_YS54KC_0
+timestamp 1749205352
+transform 0 -1 18476 1 0 -23203
+box -141 -538 141 538
+use sky130_fd_pr__res_xhigh_po_1p41_355JL6  XR41
+timestamp 1748944356
+transform 0 -1 18476 1 0 -25795
+box -141 -518 141 518
+use sky130_fd_pr__res_xhigh_po_1p41_EXVBAQ  XR44
+timestamp 1748944356
+transform 0 -1 18476 1 0 -24823
+box -141 -528 141 528
+use sky130_fd_pr__res_xhigh_po_1p41_BT8AW8  XR46
+timestamp 1748944356
+transform 0 -1 18476 1 0 -24175
+box -141 -533 141 533
+<< end >>

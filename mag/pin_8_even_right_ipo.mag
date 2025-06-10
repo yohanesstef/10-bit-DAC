@@ -1,0 +1,16 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749485422
+<< metal1 >>
+rect 16101 -2206 16946 -2146
+rect 16886 -2322 16946 -2206
+<< metal2 >>
+rect 16101 -1942 16788 -1882
+rect 16101 -2030 16788 -1970
+rect 16101 -2118 16788 -2058
+use pin_8_even_rigth  pin_8_even_rigth_0 ~/10-bit-DAC/mag
+timestamp 1749382774
+transform 1 0 14067 0 1 -5277
+box 2721 2955 3149 3401
+<< end >>

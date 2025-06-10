@@ -1,0 +1,589 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1748954881
+<< error_s >>
+rect -51 -51227 220 -51193
+rect -147 -51601 -110 -51289
+rect -99 -51561 -98 -51329
+rect 49 -51365 120 -51331
+rect -25 -51487 -24 -51403
+rect -13 -51475 24 -51415
+rect 33 -51475 35 -51404
+rect 134 -51415 136 -51404
+rect 145 -51475 182 -51415
+rect 193 -51487 194 -51403
+rect 49 -51559 120 -51525
+rect 267 -51561 268 -51329
+rect -51 -51697 220 -51663
+rect 278 -51709 328 -51192
+rect 332 -51763 382 -51246
+rect 440 -51292 711 -51258
+rect 392 -51626 393 -51394
+rect 540 -51430 611 -51396
+rect 466 -51552 467 -51468
+rect 478 -51540 515 -51480
+rect 524 -51540 526 -51469
+rect 625 -51480 627 -51469
+rect 636 -51540 673 -51480
+rect 684 -51552 685 -51468
+rect 540 -51624 611 -51590
+rect 758 -51626 759 -51394
+rect 440 -51762 711 -51728
+rect 769 -51774 819 -51257
+rect 823 -51828 873 -51311
+rect 931 -51357 1202 -51323
+rect 883 -51691 884 -51459
+rect 1031 -51495 1102 -51461
+rect 957 -51617 958 -51533
+rect 969 -51605 1006 -51545
+rect 1015 -51605 1017 -51534
+rect 1116 -51545 1118 -51534
+rect 1127 -51605 1164 -51545
+rect 1175 -51617 1176 -51533
+rect 1031 -51689 1102 -51655
+rect 1249 -51691 1250 -51459
+rect 931 -51827 1202 -51793
+rect 1260 -51839 1310 -51322
+rect 1314 -51893 1364 -51376
+rect 1422 -51422 1693 -51388
+rect 1374 -51756 1375 -51524
+rect 1522 -51560 1593 -51526
+rect 1448 -51682 1449 -51598
+rect 1460 -51670 1497 -51610
+rect 1506 -51670 1508 -51599
+rect 1607 -51610 1609 -51599
+rect 1618 -51670 1655 -51610
+rect 1666 -51682 1667 -51598
+rect 1522 -51754 1593 -51720
+rect 1740 -51756 1741 -51524
+rect 1422 -51892 1693 -51858
+rect 1751 -51904 1801 -51387
+rect 1805 -51958 1855 -51441
+rect 1913 -51487 2184 -51453
+rect 1865 -51821 1866 -51589
+rect 2013 -51625 2084 -51591
+rect 1939 -51747 1940 -51663
+rect 1951 -51735 1988 -51675
+rect 1997 -51735 1999 -51664
+rect 2098 -51675 2100 -51664
+rect 2109 -51735 2146 -51675
+rect 2157 -51747 2158 -51663
+rect 2013 -51819 2084 -51785
+rect 2231 -51821 2232 -51589
+rect 1913 -51957 2184 -51923
+rect 2242 -51969 2292 -51452
+rect 2296 -52023 2346 -51506
+rect 2404 -51552 2675 -51518
+rect 2356 -51886 2357 -51654
+rect 2504 -51690 2575 -51656
+rect 2430 -51812 2431 -51728
+rect 2442 -51800 2479 -51740
+rect 2488 -51800 2490 -51729
+rect 2589 -51740 2591 -51729
+rect 2600 -51800 2637 -51740
+rect 2648 -51812 2649 -51728
+rect 2504 -51884 2575 -51850
+rect 2722 -51886 2723 -51654
+rect 2404 -52022 2675 -51988
+rect 2733 -52034 2783 -51517
+rect 2787 -52088 2837 -51571
+rect 2895 -51617 3166 -51583
+rect 2847 -51951 2848 -51719
+rect 2995 -51755 3066 -51721
+rect 2921 -51877 2922 -51793
+rect 2933 -51865 2970 -51805
+rect 2979 -51865 2981 -51794
+rect 3080 -51805 3082 -51794
+rect 3091 -51865 3128 -51805
+rect 3139 -51877 3140 -51793
+rect 2995 -51949 3066 -51915
+rect 3213 -51951 3214 -51719
+rect 2895 -52087 3166 -52053
+rect 3224 -52099 3274 -51582
+rect 3278 -52153 3328 -51636
+rect 3386 -51682 3657 -51648
+rect 3338 -52016 3339 -51784
+rect 3486 -51820 3557 -51786
+rect 3412 -51942 3413 -51858
+rect 3424 -51930 3461 -51870
+rect 3470 -51930 3472 -51859
+rect 3571 -51870 3573 -51859
+rect 3582 -51930 3619 -51870
+rect 3630 -51942 3631 -51858
+rect 3486 -52014 3557 -51980
+rect 3704 -52016 3705 -51784
+rect 3386 -52152 3657 -52118
+rect 3715 -52164 3765 -51647
+rect 3769 -52218 3819 -51701
+rect 3877 -51747 4148 -51713
+rect 3829 -52081 3830 -51849
+rect 3977 -51885 4048 -51851
+rect 3903 -52007 3904 -51923
+rect 3915 -51995 3952 -51935
+rect 3961 -51995 3963 -51924
+rect 4062 -51935 4064 -51924
+rect 4073 -51995 4110 -51935
+rect 4121 -52007 4122 -51923
+rect 3977 -52079 4048 -52045
+rect 4195 -52081 4196 -51849
+rect 3877 -52217 4148 -52183
+rect 4206 -52229 4256 -51712
+rect 4260 -52283 4310 -51766
+rect 4368 -51812 4639 -51778
+rect 4320 -52146 4321 -51914
+rect 4468 -51950 4539 -51916
+rect 4394 -52072 4395 -51988
+rect 4406 -52060 4443 -52000
+rect 4452 -52060 4454 -51989
+rect 4553 -52000 4555 -51989
+rect 4564 -52060 4601 -52000
+rect 4612 -52072 4613 -51988
+rect 4468 -52144 4539 -52110
+rect 4686 -52146 4687 -51914
+rect 4368 -52282 4639 -52248
+rect 4697 -52294 4747 -51777
+rect 4751 -52348 4801 -51831
+rect 4859 -51877 5130 -51843
+rect 4811 -52211 4812 -51979
+rect 4959 -52015 5030 -51981
+rect 4885 -52137 4886 -52053
+rect 4897 -52125 4934 -52065
+rect 4943 -52125 4945 -52054
+rect 5044 -52065 5046 -52054
+rect 5055 -52125 5092 -52065
+rect 5103 -52137 5104 -52053
+rect 4959 -52209 5030 -52175
+rect 5177 -52211 5178 -51979
+rect 4859 -52347 5130 -52313
+rect 5188 -52359 5238 -51842
+rect 5242 -52413 5292 -51896
+rect 5350 -51942 5621 -51908
+rect 5302 -52276 5303 -52044
+rect 5450 -52080 5521 -52046
+rect 5376 -52202 5377 -52118
+rect 5388 -52190 5425 -52130
+rect 5434 -52190 5436 -52119
+rect 5535 -52130 5537 -52119
+rect 5546 -52190 5583 -52130
+rect 5594 -52202 5595 -52118
+rect 5450 -52274 5521 -52240
+rect 5668 -52276 5669 -52044
+rect 5350 -52412 5621 -52378
+rect 5679 -52424 5729 -51907
+rect 5733 -52478 5783 -51961
+rect 5841 -52007 6112 -51973
+rect 5793 -52341 5794 -52109
+rect 5941 -52145 6012 -52111
+rect 5867 -52267 5868 -52183
+rect 5879 -52255 5916 -52195
+rect 5925 -52255 5927 -52184
+rect 6026 -52195 6028 -52184
+rect 6037 -52255 6074 -52195
+rect 6085 -52267 6086 -52183
+rect 5941 -52339 6012 -52305
+rect 6159 -52341 6160 -52109
+rect 5841 -52477 6112 -52443
+rect 6170 -52489 6220 -51972
+rect 6224 -52543 6274 -52026
+rect 6332 -52072 6603 -52038
+rect 6284 -52406 6285 -52174
+rect 6432 -52210 6503 -52176
+rect 6358 -52332 6359 -52248
+rect 6370 -52320 6407 -52260
+rect 6416 -52320 6418 -52249
+rect 6517 -52260 6519 -52249
+rect 6528 -52320 6565 -52260
+rect 6576 -52332 6577 -52248
+rect 6432 -52404 6503 -52370
+rect 6650 -52406 6651 -52174
+rect 6332 -52542 6603 -52508
+rect 6661 -52554 6711 -52037
+rect 6715 -52608 6765 -52091
+rect 6823 -52137 7094 -52103
+rect 6775 -52471 6776 -52239
+rect 6923 -52275 6994 -52241
+rect 6849 -52397 6850 -52313
+rect 6861 -52385 6898 -52325
+rect 6907 -52385 6909 -52314
+rect 7008 -52325 7010 -52314
+rect 7019 -52385 7056 -52325
+rect 7067 -52397 7068 -52313
+rect 6923 -52469 6994 -52435
+rect 7141 -52471 7142 -52239
+rect 6823 -52607 7094 -52573
+rect 7152 -52619 7202 -52102
+rect 7206 -52673 7256 -52156
+rect 7314 -52202 7585 -52168
+rect 7266 -52536 7267 -52304
+rect 7414 -52340 7485 -52306
+rect 7340 -52462 7341 -52378
+rect 7352 -52450 7389 -52390
+rect 7398 -52450 7400 -52379
+rect 7499 -52390 7501 -52379
+rect 7510 -52450 7547 -52390
+rect 7558 -52462 7559 -52378
+rect 7414 -52534 7485 -52500
+rect 7632 -52536 7633 -52304
+rect 7644 -52576 7681 -52264
+rect 7314 -52672 7585 -52638
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+rect 0 -2000 200 -1800
+rect 0 -2400 200 -2200
+rect 0 -2800 200 -2600
+rect 0 -3200 200 -3000
+rect 0 -3600 200 -3400
+rect 0 -4000 200 -3800
+rect 0 -4400 200 -4200
+rect 0 -4800 200 -4600
+rect 0 -5200 200 -5000
+rect 0 -5600 200 -5400
+rect 0 -6000 200 -5800
+rect 0 -6400 200 -6200
+rect 0 -6800 200 -6600
+rect 0 -7200 200 -7000
+rect 0 -7600 200 -7400
+rect 0 -8000 200 -7800
+rect 0 -8400 200 -8200
+rect 0 -8800 200 -8600
+rect 0 -9200 200 -9000
+rect 0 -9600 200 -9400
+rect 0 -10000 200 -9800
+rect 0 -10400 200 -10200
+rect 0 -10800 200 -10600
+rect 0 -11200 200 -11000
+rect 0 -11600 200 -11400
+rect 0 -12000 200 -11800
+rect 0 -12400 200 -12200
+rect 0 -12800 200 -12600
+rect 0 -13200 200 -13000
+rect 0 -13600 200 -13400
+rect 0 -14000 200 -13800
+rect 0 -14400 200 -14200
+rect 0 -14800 200 -14600
+rect 0 -15200 200 -15000
+rect 0 -15600 200 -15400
+rect 0 -16000 200 -15800
+rect 0 -16400 200 -16200
+rect 0 -16800 200 -16600
+rect 0 -17200 200 -17000
+rect 0 -17600 200 -17400
+rect 0 -18000 200 -17800
+rect 0 -18400 200 -18200
+rect 0 -18800 200 -18600
+rect 0 -19200 200 -19000
+rect 0 -19600 200 -19400
+rect 0 -20000 200 -19800
+rect 0 -20400 200 -20200
+rect 0 -20800 200 -20600
+rect 0 -21200 200 -21000
+rect 0 -21600 200 -21400
+rect 0 -22000 200 -21800
+rect 0 -22400 200 -22200
+rect 0 -22800 200 -22600
+rect 0 -23200 200 -23000
+rect 0 -23600 200 -23400
+rect 0 -24000 200 -23800
+rect 0 -24400 200 -24200
+rect 0 -24800 200 -24600
+rect 0 -25200 200 -25000
+rect 0 -25600 200 -25400
+rect 0 -26000 200 -25800
+rect 0 -26400 200 -26200
+rect 0 -26800 200 -26600
+rect 0 -27200 200 -27000
+rect 0 -27600 200 -27400
+rect 0 -28000 200 -27800
+rect 0 -28400 200 -28200
+rect 0 -28800 200 -28600
+rect 0 -29200 200 -29000
+rect 0 -29600 200 -29400
+rect 0 -30000 200 -29800
+rect 0 -30400 200 -30200
+rect 0 -30800 200 -30600
+rect 0 -31200 200 -31000
+rect 0 -31600 200 -31400
+rect 0 -32000 200 -31800
+rect 0 -32400 200 -32200
+rect 0 -32800 200 -32600
+rect 0 -33200 200 -33000
+rect 0 -33600 200 -33400
+rect 0 -34000 200 -33800
+rect 0 -34400 200 -34200
+rect 0 -34800 200 -34600
+rect 0 -35200 200 -35000
+rect 0 -35600 200 -35400
+use vselector_16b_1v  x1
+timestamp 1748954881
+transform 1 0 0 0 1 -35600
+box -195 -17120 7726 200
+use vselector_16b_1v  x2
+timestamp 1748954881
+transform 1 0 1 0 1 -35600
+box -195 -17120 7726 200
+use vselector_16b_1v  x3
+timestamp 1748954881
+transform 1 0 2 0 1 -35600
+box -195 -17120 7726 200
+use vselector_16b_1v  x4
+timestamp 1748954881
+transform 1 0 3 0 1 -35600
+box -195 -17120 7726 200
+<< labels >>
+flabel metal1 0 -5200 200 -5000 0 FreeSans 256 0 0 0 {}
+port 13 nsew
+flabel metal1 0 -5600 200 -5400 0 FreeSans 256 0 0 0 {vin\[13\]}
+port 14 nsew
+flabel metal1 0 -6000 200 -5800 0 FreeSans 256 0 0 0 {vin\[14\]}
+port 15 nsew
+flabel metal1 0 -6400 200 -6200 0 FreeSans 256 0 0 0 {vin\[15\]}
+port 16 nsew
+flabel metal1 0 -6800 200 -6600 0 FreeSans 256 0 0 0 {vin\[16\]}
+port 17 nsew
+flabel metal1 0 -7200 200 -7000 0 FreeSans 256 0 0 0 {vin\[17\]}
+port 18 nsew
+flabel metal1 0 -7600 200 -7400 0 FreeSans 256 0 0 0 {vin\[18\]}
+port 19 nsew
+flabel metal1 0 -8000 200 -7800 0 FreeSans 256 0 0 0 {vin\[19\]}
+port 20 nsew
+flabel metal1 0 -8400 200 -8200 0 FreeSans 256 0 0 0 {vin\[20\]}
+port 21 nsew
+flabel metal1 0 -8800 200 -8600 0 FreeSans 256 0 0 0 {vin\[21\]}
+port 22 nsew
+flabel metal1 0 -9200 200 -9000 0 FreeSans 256 0 0 0 {vin\[22\]}
+port 23 nsew
+flabel metal1 0 -9600 200 -9400 0 FreeSans 256 0 0 0 {vin\[23\]}
+port 24 nsew
+flabel metal1 0 -10000 200 -9800 0 FreeSans 256 0 0 0 {vin\[24\]}
+port 25 nsew
+flabel metal1 0 -10400 200 -10200 0 FreeSans 256 0 0 0 {vin\[25\]}
+port 26 nsew
+flabel metal1 0 -10800 200 -10600 0 FreeSans 256 0 0 0 {vin\[26\]}
+port 27 nsew
+flabel metal1 0 -11200 200 -11000 0 FreeSans 256 0 0 0 {vin\[27\]}
+port 28 nsew
+flabel metal1 0 -11600 200 -11400 0 FreeSans 256 0 0 0 {vin\[28\]}
+port 29 nsew
+flabel metal1 0 -12000 200 -11800 0 FreeSans 256 0 0 0 {vin\[29\]}
+port 30 nsew
+flabel metal1 0 -12400 200 -12200 0 FreeSans 256 0 0 0 {}
+port 31 nsew
+flabel metal1 0 -12800 200 -12600 0 FreeSans 256 0 0 0 {vin\[30\]}
+port 32 nsew
+flabel metal1 0 -13200 200 -13000 0 FreeSans 256 0 0 0 {vin\[31\]}
+port 33 nsew
+flabel metal1 0 -13600 200 -13400 0 FreeSans 256 0 0 0 {vin\[32\]}
+port 34 nsew
+flabel metal1 0 -14000 200 -13800 0 FreeSans 256 0 0 0 {vin\[33\]}
+port 35 nsew
+flabel metal1 0 -14400 200 -14200 0 FreeSans 256 0 0 0 {vin\[34\]}
+port 36 nsew
+flabel metal1 0 -14800 200 -14600 0 FreeSans 256 0 0 0 {vin\[35\]}
+port 37 nsew
+flabel metal1 0 -15200 200 -15000 0 FreeSans 256 0 0 0 {vin\[36\]}
+port 38 nsew
+flabel metal1 0 -15600 200 -15400 0 FreeSans 256 0 0 0 {vin\[37\]}
+port 39 nsew
+flabel metal1 0 -16000 200 -15800 0 FreeSans 256 0 0 0 {vin\[38\]}
+port 40 nsew
+flabel metal1 0 -16400 200 -16200 0 FreeSans 256 0 0 0 {vin\[39\]}
+port 41 nsew
+flabel metal1 0 -16800 200 -16600 0 FreeSans 256 0 0 0 {vin\[40\]}
+port 42 nsew
+flabel metal1 0 -17200 200 -17000 0 FreeSans 256 0 0 0 {vin\[41\]}
+port 43 nsew
+flabel metal1 0 -17600 200 -17400 0 FreeSans 256 0 0 0 {vin\[42\]}
+port 44 nsew
+flabel metal1 0 -18000 200 -17800 0 FreeSans 256 0 0 0 {vin\[43\]}
+port 45 nsew
+flabel metal1 0 -18400 200 -18200 0 FreeSans 256 0 0 0 {vin\[44\]}
+port 46 nsew
+flabel metal1 0 -18800 200 -18600 0 FreeSans 256 0 0 0 {vin\[45\]}
+port 47 nsew
+flabel metal1 0 -19200 200 -19000 0 FreeSans 256 0 0 0 {vin\[46\]}
+port 48 nsew
+flabel metal1 0 -19600 200 -19400 0 FreeSans 256 0 0 0 {}
+port 49 nsew
+flabel metal1 0 -20000 200 -19800 0 FreeSans 256 0 0 0 {vin\[47\]}
+port 50 nsew
+flabel metal1 0 -20400 200 -20200 0 FreeSans 256 0 0 0 {vin\[48\]}
+port 51 nsew
+flabel metal1 0 -20800 200 -20600 0 FreeSans 256 0 0 0 {vin\[49\]}
+port 52 nsew
+flabel metal1 0 -21200 200 -21000 0 FreeSans 256 0 0 0 {vin\[50\]}
+port 53 nsew
+flabel metal1 0 -21600 200 -21400 0 FreeSans 256 0 0 0 {vin\[51\]}
+port 54 nsew
+flabel metal1 0 -22000 200 -21800 0 FreeSans 256 0 0 0 {vin\[52\]}
+port 55 nsew
+flabel metal1 0 -22400 200 -22200 0 FreeSans 256 0 0 0 {vin\[53\]}
+port 56 nsew
+flabel metal1 0 -22800 200 -22600 0 FreeSans 256 0 0 0 {vin\[54\]}
+port 57 nsew
+flabel metal1 0 -23200 200 -23000 0 FreeSans 256 0 0 0 {vin\[55\]}
+port 58 nsew
+flabel metal1 0 -23600 200 -23400 0 FreeSans 256 0 0 0 {vin\[56\]}
+port 59 nsew
+flabel metal1 0 -24000 200 -23800 0 FreeSans 256 0 0 0 {vin\[57\]}
+port 60 nsew
+flabel metal1 0 -24400 200 -24200 0 FreeSans 256 0 0 0 {vin\[58\]}
+port 61 nsew
+flabel metal1 0 -24800 200 -24600 0 FreeSans 256 0 0 0 {vin\[59\]}
+port 62 nsew
+flabel metal1 0 -25200 200 -25000 0 FreeSans 256 0 0 0 {vin\[60\]}
+port 63 nsew
+flabel metal1 0 -25600 200 -25400 0 FreeSans 256 0 0 0 {vin\[61\]}
+port 64 nsew
+flabel metal1 0 -26000 200 -25800 0 FreeSans 256 0 0 0 {vin\[62\]}
+port 65 nsew
+flabel metal1 0 -26400 200 -26200 0 FreeSans 256 0 0 0 {vin\[63\]}
+port 66 nsew
+flabel metal1 0 -26800 200 -26600 0 FreeSans 256 0 0 0 {}
+port 67 nsew
+flabel metal1 0 -27200 200 -27000 0 FreeSans 256 0 0 0 {dec\[0\]}
+port 68 nsew
+flabel metal1 0 -27600 200 -27400 0 FreeSans 256 0 0 0 {dec\[1\]}
+port 69 nsew
+flabel metal1 0 -28000 200 -27800 0 FreeSans 256 0 0 0 {dec\[2\]}
+port 70 nsew
+flabel metal1 0 -28400 200 -28200 0 FreeSans 256 0 0 0 {dec\[3\]}
+port 71 nsew
+flabel metal1 0 -28800 200 -28600 0 FreeSans 256 0 0 0 {vout\[0\]}
+port 72 nsew
+flabel metal1 0 -29200 200 -29000 0 FreeSans 256 0 0 0 {vout\[1\]}
+port 73 nsew
+flabel metal1 0 -29600 200 -29400 0 FreeSans 256 0 0 0 {vout\[2\]}
+port 74 nsew
+flabel metal1 0 -30000 200 -29800 0 FreeSans 256 0 0 0 {vout\[3\]}
+port 75 nsew
+flabel metal1 0 -30400 200 -30200 0 FreeSans 256 0 0 0 {vout\[4\]}
+port 76 nsew
+flabel metal1 0 -30800 200 -30600 0 FreeSans 256 0 0 0 {vout\[5\]}
+port 77 nsew
+flabel metal1 0 -31200 200 -31000 0 FreeSans 256 0 0 0 {vout\[6\]}
+port 78 nsew
+flabel metal1 0 -31600 200 -31400 0 FreeSans 256 0 0 0 {vout\[7\]}
+port 79 nsew
+flabel metal1 0 -32000 200 -31800 0 FreeSans 256 0 0 0 {vout\[8\]}
+port 80 nsew
+flabel metal1 0 -32400 200 -32200 0 FreeSans 256 0 0 0 {vout\[9\]}
+port 81 nsew
+flabel metal1 0 -32800 200 -32600 0 FreeSans 256 0 0 0 {vout\[10\]}
+port 82 nsew
+flabel metal1 0 -33200 200 -33000 0 FreeSans 256 0 0 0 {vout\[11\]}
+port 83 nsew
+flabel metal1 0 -33600 200 -33400 0 FreeSans 256 0 0 0 {vout\[12\]}
+port 84 nsew
+flabel metal1 0 -34000 200 -33800 0 FreeSans 256 0 0 0 {}
+port 85 nsew
+flabel metal1 0 -34400 200 -34200 0 FreeSans 256 0 0 0 {vout\[13\]}
+port 86 nsew
+flabel metal1 0 -34800 200 -34600 0 FreeSans 256 0 0 0 {vout\[14\]}
+port 87 nsew
+flabel metal1 0 -35200 200 -35000 0 FreeSans 256 0 0 0 {vout\[15\]}
+port 88 nsew
+flabel metal1 0 -35600 200 -35400 0 FreeSans 256 0 0 0 VNB
+port 89 nsew
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 {vin\[0\]}
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 {vin\[1\]}
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 {vin\[2\]}
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 {vin\[3\]}
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 {vin\[4\]}
+port 4 nsew
+flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 {vin\[5\]}
+port 5 nsew
+flabel metal1 0 -2400 200 -2200 0 FreeSans 256 0 0 0 {vin\[6\]}
+port 6 nsew
+flabel metal1 0 -2800 200 -2600 0 FreeSans 256 0 0 0 {vin\[7\]}
+port 7 nsew
+flabel metal1 0 -3200 200 -3000 0 FreeSans 256 0 0 0 {vin\[8\]}
+port 8 nsew
+flabel metal1 0 -3600 200 -3400 0 FreeSans 256 0 0 0 {vin\[9\]}
+port 9 nsew
+flabel metal1 0 -4000 200 -3800 0 FreeSans 256 0 0 0 {vin\[10\]}
+port 10 nsew
+flabel metal1 0 -4400 200 -4200 0 FreeSans 256 0 0 0 {vin\[11\]}
+port 11 nsew
+flabel metal1 0 -4800 200 -4600 0 FreeSans 256 0 0 0 {vin\[12\]}
+port 12 nsew
+flabel metal1 0 -5200 200 -5000 0 FreeSans 256 0 0 0 {vin\[13\]}
+flabel metal1 0 -5600 200 -5400 0 FreeSans 256 0 0 0 {vin\[14\]}
+flabel metal1 0 -6000 200 -5800 0 FreeSans 256 0 0 0 {vin\[15\]}
+flabel metal1 0 -6400 200 -6200 0 FreeSans 256 0 0 0 {vin\[16\]}
+flabel metal1 0 -6800 200 -6600 0 FreeSans 256 0 0 0 {vin\[17\]}
+flabel metal1 0 -7200 200 -7000 0 FreeSans 256 0 0 0 {vin\[18\]}
+flabel metal1 0 -7600 200 -7400 0 FreeSans 256 0 0 0 {vin\[19\]}
+flabel metal1 0 -8000 200 -7800 0 FreeSans 256 0 0 0 {vin\[20\]}
+flabel metal1 0 -8400 200 -8200 0 FreeSans 256 0 0 0 {vin\[21\]}
+flabel metal1 0 -8800 200 -8600 0 FreeSans 256 0 0 0 {vin\[22\]}
+flabel metal1 0 -9200 200 -9000 0 FreeSans 256 0 0 0 {vin\[23\]}
+flabel metal1 0 -9600 200 -9400 0 FreeSans 256 0 0 0 {vin\[24\]}
+flabel metal1 0 -10000 200 -9800 0 FreeSans 256 0 0 0 {vin\[25\]}
+flabel metal1 0 -10400 200 -10200 0 FreeSans 256 0 0 0 {vin\[26\]}
+flabel metal1 0 -10800 200 -10600 0 FreeSans 256 0 0 0 {vin\[27\]}
+flabel metal1 0 -11200 200 -11000 0 FreeSans 256 0 0 0 {vin\[28\]}
+flabel metal1 0 -11600 200 -11400 0 FreeSans 256 0 0 0 {vin\[29\]}
+flabel metal1 0 -12000 200 -11800 0 FreeSans 256 0 0 0 {vin\[30\]}
+flabel metal1 0 -12400 200 -12200 0 FreeSans 256 0 0 0 {vin\[31\]}
+flabel metal1 0 -12800 200 -12600 0 FreeSans 256 0 0 0 {vin\[32\]}
+flabel metal1 0 -13200 200 -13000 0 FreeSans 256 0 0 0 {vin\[33\]}
+flabel metal1 0 -13600 200 -13400 0 FreeSans 256 0 0 0 {vin\[34\]}
+flabel metal1 0 -14000 200 -13800 0 FreeSans 256 0 0 0 {vin\[35\]}
+flabel metal1 0 -14400 200 -14200 0 FreeSans 256 0 0 0 {vin\[36\]}
+flabel metal1 0 -14800 200 -14600 0 FreeSans 256 0 0 0 {vin\[37\]}
+flabel metal1 0 -15200 200 -15000 0 FreeSans 256 0 0 0 {vin\[38\]}
+flabel metal1 0 -15600 200 -15400 0 FreeSans 256 0 0 0 {vin\[39\]}
+flabel metal1 0 -16000 200 -15800 0 FreeSans 256 0 0 0 {vin\[40\]}
+flabel metal1 0 -16400 200 -16200 0 FreeSans 256 0 0 0 {vin\[41\]}
+flabel metal1 0 -16800 200 -16600 0 FreeSans 256 0 0 0 {vin\[42\]}
+flabel metal1 0 -17200 200 -17000 0 FreeSans 256 0 0 0 {vin\[43\]}
+flabel metal1 0 -17600 200 -17400 0 FreeSans 256 0 0 0 {vin\[44\]}
+flabel metal1 0 -18000 200 -17800 0 FreeSans 256 0 0 0 {vin\[45\]}
+flabel metal1 0 -18400 200 -18200 0 FreeSans 256 0 0 0 {vin\[46\]}
+flabel metal1 0 -18800 200 -18600 0 FreeSans 256 0 0 0 {vin\[47\]}
+flabel metal1 0 -19200 200 -19000 0 FreeSans 256 0 0 0 {vin\[48\]}
+flabel metal1 0 -19600 200 -19400 0 FreeSans 256 0 0 0 {vin\[49\]}
+flabel metal1 0 -20000 200 -19800 0 FreeSans 256 0 0 0 {vin\[50\]}
+flabel metal1 0 -20400 200 -20200 0 FreeSans 256 0 0 0 {vin\[51\]}
+flabel metal1 0 -20800 200 -20600 0 FreeSans 256 0 0 0 {vin\[52\]}
+flabel metal1 0 -21200 200 -21000 0 FreeSans 256 0 0 0 {vin\[53\]}
+flabel metal1 0 -21600 200 -21400 0 FreeSans 256 0 0 0 {vin\[54\]}
+flabel metal1 0 -22000 200 -21800 0 FreeSans 256 0 0 0 {vin\[55\]}
+flabel metal1 0 -22400 200 -22200 0 FreeSans 256 0 0 0 {vin\[56\]}
+flabel metal1 0 -22800 200 -22600 0 FreeSans 256 0 0 0 {vin\[57\]}
+flabel metal1 0 -23200 200 -23000 0 FreeSans 256 0 0 0 {vin\[58\]}
+flabel metal1 0 -23600 200 -23400 0 FreeSans 256 0 0 0 {vin\[59\]}
+flabel metal1 0 -24000 200 -23800 0 FreeSans 256 0 0 0 {vin\[60\]}
+flabel metal1 0 -24400 200 -24200 0 FreeSans 256 0 0 0 {vin\[61\]}
+flabel metal1 0 -24800 200 -24600 0 FreeSans 256 0 0 0 {vin\[62\]}
+flabel metal1 0 -25200 200 -25000 0 FreeSans 256 0 0 0 {vin\[63\]}
+flabel metal1 0 -25600 200 -25400 0 FreeSans 256 0 0 0 {dec\[0\]}
+flabel metal1 0 -26000 200 -25800 0 FreeSans 256 0 0 0 {dec\[1\]}
+flabel metal1 0 -26400 200 -26200 0 FreeSans 256 0 0 0 {dec\[2\]}
+flabel metal1 0 -26800 200 -26600 0 FreeSans 256 0 0 0 {dec\[3\]}
+flabel metal1 0 -27200 200 -27000 0 FreeSans 256 0 0 0 {vout\[0\]}
+flabel metal1 0 -27600 200 -27400 0 FreeSans 256 0 0 0 {vout\[1\]}
+flabel metal1 0 -28000 200 -27800 0 FreeSans 256 0 0 0 {vout\[2\]}
+flabel metal1 0 -28400 200 -28200 0 FreeSans 256 0 0 0 {vout\[3\]}
+flabel metal1 0 -28800 200 -28600 0 FreeSans 256 0 0 0 {vout\[4\]}
+flabel metal1 0 -29200 200 -29000 0 FreeSans 256 0 0 0 {vout\[5\]}
+flabel metal1 0 -29600 200 -29400 0 FreeSans 256 0 0 0 {vout\[6\]}
+flabel metal1 0 -30000 200 -29800 0 FreeSans 256 0 0 0 {vout\[7\]}
+flabel metal1 0 -30400 200 -30200 0 FreeSans 256 0 0 0 {vout\[8\]}
+flabel metal1 0 -30800 200 -30600 0 FreeSans 256 0 0 0 {vout\[9\]}
+flabel metal1 0 -31200 200 -31000 0 FreeSans 256 0 0 0 {vout\[10\]}
+flabel metal1 0 -31600 200 -31400 0 FreeSans 256 0 0 0 {vout\[11\]}
+flabel metal1 0 -32000 200 -31800 0 FreeSans 256 0 0 0 {vout\[12\]}
+flabel metal1 0 -32400 200 -32200 0 FreeSans 256 0 0 0 {vout\[13\]}
+flabel metal1 0 -32800 200 -32600 0 FreeSans 256 0 0 0 {vout\[14\]}
+flabel metal1 0 -33200 200 -33000 0 FreeSans 256 0 0 0 {vout\[15\]}
+<< end >>

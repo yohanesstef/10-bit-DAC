@@ -1,0 +1,67 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749538868
+<< metal1 >>
+rect 1540 -24708 1600 -22764
+rect 1628 -24060 1688 -22764
+rect 1716 -23412 1776 -22764
+rect 1878 -23088 2225 -23026
+rect 3624 -23088 3684 -22764
+rect 3534 -23350 3684 -23088
+rect 3113 -23412 3483 -23350
+rect 1716 -23674 1917 -23412
+rect 1953 -23736 2338 -23674
+rect 3712 -23736 3772 -22764
+rect 3447 -23998 3772 -23736
+rect 3026 -24060 3422 -23998
+rect 1628 -24322 1978 -24060
+rect 2004 -24384 2399 -24322
+rect 3800 -24384 3860 -22764
+rect 3396 -24646 3860 -24384
+rect 2975 -24708 3376 -24646
+rect 1540 -24970 2024 -24708
+rect 2040 -25032 2445 -24970
+rect 3888 -25032 3948 -22764
+rect 3360 -25294 3948 -25032
+use sky130_fd_pr__res_xhigh_po_1p41_GXM84A  sky130_fd_pr__res_xhigh_po_1p41_GXM84A_0
+timestamp 1749122642
+transform 0 -1 2700 -1 0 -25487
+box -141 -666 141 666
+use sky130_fd_pr__res_xhigh_po_1p41_VP2S3Z  sky130_fd_pr__res_xhigh_po_1p41_VP2S3Z_0
+timestamp 1749122642
+transform 0 1 2700 1 0 -22571
+box -141 -902 141 902
+use sky130_fd_pr__res_xhigh_po_1p41_VP2U3Z  XR1
+timestamp 1748936551
+transform 0 1 2700 1 0 -22895
+box -141 -902 141 902
+use sky130_fd_pr__res_xhigh_po_1p41_2NUKZQ  XR2
+timestamp 1748936551
+transform 0 -1 2700 -1 0 -23219
+box -141 -840 141 840
+use sky130_fd_pr__res_xhigh_po_1p41_95YJ9M  XR3
+timestamp 1748936551
+transform 0 -1 2700 -1 0 -23543
+box -141 -789 141 789
+use sky130_fd_pr__res_xhigh_po_1p41_GVNVJY  XR4
+timestamp 1749119180
+transform 0 -1 2700 -1 0 -23867
+box -141 -753 141 753
+use sky130_fd_pr__res_xhigh_po_1p41_EEL3HT  XR5
+timestamp 1748936551
+transform 0 -1 2700 -1 0 -24191
+box -141 -728 141 728
+use sky130_fd_pr__res_xhigh_po_1p41_S3DKJW  XR6
+timestamp 1748936551
+transform 0 -1 2700 -1 0 -24515
+box -141 -702 141 702
+use sky130_fd_pr__res_xhigh_po_1p41_FZ95UC  XR7
+timestamp 1748936551
+transform 0 -1 2700 -1 0 -24839
+box -141 -682 141 682
+use sky130_fd_pr__res_xhigh_po_1p41_GXMA4A  XR8
+timestamp 1748936551
+transform 0 -1 2700 -1 0 -25163
+box -141 -666 141 666
+<< end >>

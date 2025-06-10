@@ -1,0 +1,46 @@
+timestamp 1749421208
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use pswitch_4_stage_3_H pswitch_4_stage_3_H_0 1 0 38006 0 1 -4551
+use pswitch_4_stage_3 pswitch_4_stage_3_0 1 0 36874 0 1 -4551
+use hpmos_2 hpmos_2_1 1 0 34127 0 1 -1357
+use hpmos_2 hpmos_2_0 1 0 33547 0 1 -1357
+use hpmos_1 hpmos_1_1 1 0 33248 0 1 -1326
+use hpmos_1 hpmos_1_0 1 0 33552 0 1 -1326
+node "m1_36816_n4481#" 0 0 36816 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_36530_n4481#" 0 0 36530 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_36236_n4481#" 0 0 36236 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_35656_n4481#" 0 0 35656 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_35144_n4481#" 0 0 35144 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_35352_n4481#" 0 0 35352 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_35950_n4481#" 0 0 35950 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_4_stage_3_H_0/VSUBS" "pswitch_4_stage_3_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_4_stage_3_0/VSUBS" "hpmos_1_0/VSUBS"
+merge "hpmos_1_0/VSUBS" "hpmos_1_1/VSUBS"
+merge "hpmos_1_1/VSUBS" "hpmos_2_0/VSUBS"
+merge "hpmos_2_0/VSUBS" "hpmos_2_1/VSUBS"
+merge "hpmos_2_1/VSUBS" "VSUBS"
+merge "hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "hpmos_1_0/XM1/a_50_n78#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hpmos_1_0/XM1/a_50_n78#" "hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#"
+merge "hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" "m1_35656_n4481#"
+merge "pswitch_4_stage_3_H_0/m1_246_70#" "hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_4_stage_3_0/m1_246_70#"
+merge "pswitch_4_stage_3_0/m1_246_70#" "m1_36816_n4481#"
+merge "pswitch_4_stage_3_0/m1_1074_70#" "pswitch_4_stage_3_H_0/m1_1074_70#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_4_stage_3_H_0/m1_1074_70#" "hpmos_2_0/hpmos_1_0/XM1/a_50_n78#"
+merge "hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "m1_35950_n4481#"
+merge "pswitch_4_stage_3_H_0/m1_798_70#" "pswitch_4_stage_3_0/m1_798_70#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_4_stage_3_0/m1_798_70#" "hpmos_2_0/hpmos_1_1/XM1/a_50_n78#"
+merge "hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" "m1_36236_n4481#"
+merge "pswitch_4_stage_3_H_0/m1_522_70#" "hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" "pswitch_4_stage_3_0/m1_522_70#"
+merge "pswitch_4_stage_3_0/m1_522_70#" "m1_36530_n4481#"
+merge "hpmos_1_1/XM1/a_50_n78#" "hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" "hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#"
+merge "hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" "m1_35352_n4481#"
+merge "hpmos_1_0/XM1/a_n108_n78#" "hpmos_1_1/XM1/a_n108_n78#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hpmos_1_1/XM1/a_n108_n78#" "m1_35144_n4481#"

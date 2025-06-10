@@ -1,0 +1,67 @@
+timestamp 1749121152
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__res_xhigh_po_1p41_DZKNT5 sky130_fd_pr__res_xhigh_po_1p41_DZKNT5_0 0 -1 5564 -1 0 -4938
+use sky130_fd_pr__res_xhigh_po_1p41_GVNVJY XR4 0 -1 5564 1 0 -3318
+use sky130_fd_pr__res_xhigh_po_1p41_AFTT8S XR5 0 -1 5564 1 0 -3642
+use sky130_fd_pr__res_xhigh_po_1p41_J5YLPL XR6 0 -1 5564 -1 0 -3966
+use sky130_fd_pr__res_xhigh_po_1p41_47PAZ6 XR7 0 -1 5564 -1 0 -4290
+use sky130_fd_pr__res_xhigh_po_1p41_DZKLT5 XR8 0 -1 5564 -1 0 -4614
+use sky130_fd_pr__res_xhigh_po_1p41_SEMVNL sky130_fd_pr__res_xhigh_po_1p41_SEMVNL_0 0 -1 5564 1 0 -2022
+use sky130_fd_pr__res_xhigh_po_1p41_SEMXNL XR1 0 -1 5564 1 0 -2346
+use sky130_fd_pr__res_xhigh_po_1p41_GLTCMD XR2 0 -1 5564 1 0 -2670
+use sky130_fd_pr__res_xhigh_po_1p41_42QADH XR3 0 -1 5564 1 0 -2994
+use rseg_4_pin_left_v2 rseg_4_pin_left_v2_0 1 0 -5394 0 1 12934
+use rseg_4_pin_right_odd rseg_4_pin_right_odd_0 1 0 -3638 0 1 12615
+node "m1_6357_n4745#" 0 0 6357 -4745 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4745_n4745#" 0 0 4745 -4745 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_6332_n4421#" 0 0 6332 -4421 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4745_n4421#" 0 0 4745 -4421 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4786_n4097#" 0 0 4786 -4097 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_6311_n3773#" 0 0 6311 -3773 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4786_n3773#" 0 0 4786 -3773 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4812_n3449#" 0 0 4812 -3449 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4812_n3125#" 0 0 4812 -3125 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_6301_n2801#" 0 0 6301 -2801 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4827_n2539#" 0 0 4827 -2539 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_pin_left_v2_0/m1_9957_n17679#" "XR8/a_n141_367#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XR8/a_n141_367#" "m1_4745_n4745#"
+merge "m1_4745_n4745#" "XR7/a_n141_352#"
+merge "XR7/a_n141_352#" "m1_4745_n4421#"
+merge "sky130_fd_pr__res_xhigh_po_1p41_SEMVNL_0/VSUBS" "XR3/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XR3/VSUBS" "XR2/VSUBS"
+merge "XR2/VSUBS" "XR1/VSUBS"
+merge "XR1/VSUBS" "XR4/VSUBS"
+merge "XR4/VSUBS" "rseg_4_pin_right_odd_0/VSUBS"
+merge "rseg_4_pin_right_odd_0/VSUBS" "rseg_4_pin_left_v2_0/VSUBS"
+merge "rseg_4_pin_left_v2_0/VSUBS" "XR8/VSUBS"
+merge "XR8/VSUBS" "XR7/VSUBS"
+merge "XR7/VSUBS" "XR6/VSUBS"
+merge "XR6/VSUBS" "XR5/VSUBS"
+merge "XR5/VSUBS" "VSUBS"
+merge "rseg_4_pin_left_v2_0/rseg_1_pin_4_3/m1_1804_n22764#" "XR2/a_n141_311#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XR2/a_n141_311#" "XR1/a_n141_301#"
+merge "XR1/a_n141_301#" "m1_4827_n2539#"
+merge "XR4/a_n141_n753#" "rseg_4_pin_right_odd_0/m1_10032_n16388#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_pin_right_odd_0/m1_10032_n16388#" "XR5/a_n141_n769#"
+merge "XR5/a_n141_n769#" "m1_6311_n3773#"
+merge "rseg_4_pin_left_v2_0/m1_10045_n17031#" "XR6/a_n141_342#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XR6/a_n141_342#" "m1_4786_n4097#"
+merge "m1_4786_n4097#" "XR5/a_n141_337#"
+merge "XR5/a_n141_337#" "m1_4786_n3773#"
+merge "rseg_4_pin_left_v2_0/m1_10133_n16383#" "XR4/a_n141_321#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XR4/a_n141_321#" "m1_4812_n3449#"
+merge "m1_4812_n3449#" "XR3/a_n141_316#"
+merge "XR3/a_n141_316#" "m1_4812_n3125#"
+merge "rseg_4_pin_right_odd_0/m1_10058_n17036#" "XR7/a_n141_n784#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XR7/a_n141_n784#" "XR6/a_n141_n774#"
+merge "XR6/a_n141_n774#" "m1_6332_n4421#"
+merge "rseg_4_pin_right_odd_0/m1_9944_n15740#" "XR3/a_n141_n748#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XR3/a_n141_n748#" "XR2/a_n141_n743#"
+merge "XR2/a_n141_n743#" "m1_6301_n2801#"
+merge "rseg_4_pin_right_odd_0/m1_10099_n17360#" "XR8/a_n141_n799#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XR8/a_n141_n799#" "m1_6357_n4745#"

@@ -1,0 +1,20 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749552768
+<< metal1 >>
+rect 15007 -892 15067 -628
+rect 15007 -958 15067 -952
+<< via1 >>
+rect 15007 -952 15067 -892
+<< metal2 >>
+rect 15083 -864 15550 -804
+rect 15001 -952 15007 -892
+rect 15067 -952 15550 -892
+rect 15083 -1040 15552 -980
+rect 15083 -1216 15552 -1156
+use pin_8_odd  pin_8_odd_0 ~/10-bit-DAC/mag
+timestamp 1749375316
+transform 1 0 13862 0 1 -4287
+box 83 2955 1221 3659
+<< end >>

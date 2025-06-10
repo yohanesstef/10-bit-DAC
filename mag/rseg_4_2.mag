@@ -1,0 +1,65 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 4383 -23449 4805 -23387
+rect 4368 -24097 4383 -23773
+rect 5335 -24035 5350 -23449
+rect 4368 -24359 4388 -24097
+rect 4342 -24745 4383 -24421
+rect 5330 -24683 5376 -24097
+rect 4342 -25007 4388 -24745
+rect 5330 -25007 5417 -24745
+rect 4301 -25393 4383 -25069
+rect 5335 -25331 5417 -25007
+rect 4301 -25655 4388 -25393
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_1
+timestamp 1749289931
+transform 1 0 -5838 0 1 -7976
+box 9957 -17679 10206 -15149
+use rseg_4_pin_right_even_v2  rseg_4_pin_right_even_v2_0
+timestamp 1749289931
+transform 1 0 -4682 0 1 -7647
+box 10032 -17684 10281 -15478
+use sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V  sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0
+timestamp 1749202016
+transform 0 -1 4859 -1 0 -22932
+box -141 -482 141 482
+use sky130_fd_pr__res_xhigh_po_1p41_HUJR2Q  sky130_fd_pr__res_xhigh_po_1p41_HUJR2Q_1
+timestamp 1749201400
+transform 0 -1 4859 -1 0 -25848
+box -141 -477 141 477
+use sky130_fd_pr__res_xhigh_po_1p41_HUJT2Q  sky130_fd_pr__res_xhigh_po_1p41_HUJT2Q_0
+timestamp 1748944356
+transform 0 -1 4859 -1 0 -24228
+box -141 -477 141 477
+use sky130_fd_pr__res_xhigh_po_1p41_HUJT2Q  XR9
+timestamp 1748944356
+transform 0 -1 4859 -1 0 -25524
+box -141 -477 141 477
+use sky130_fd_pr__res_xhigh_po_1p41_C5Z94V  XR10
+timestamp 1748944356
+transform 0 -1 4859 -1 0 -25200
+box -141 -482 141 482
+use sky130_fd_pr__res_xhigh_po_1p41_HUJT2Q  XR11
+timestamp 1748944356
+transform 0 -1 4859 -1 0 -24876
+box -141 -477 141 477
+use sky130_fd_pr__res_xhigh_po_1p41_C5Z94V  XR12
+timestamp 1748944356
+transform 0 -1 4859 -1 0 -24552
+box -141 -482 141 482
+use sky130_fd_pr__res_xhigh_po_1p41_C5Z94V  XR14
+timestamp 1748944356
+transform 0 -1 4859 -1 0 -23904
+box -141 -482 141 482
+use sky130_fd_pr__res_xhigh_po_1p41_C5Z94V  XR15
+timestamp 1748944356
+transform 0 -1 4859 -1 0 -23580
+box -141 -482 141 482
+use sky130_fd_pr__res_xhigh_po_1p41_C5Z94V  XR16
+timestamp 1748944356
+transform 0 -1 4859 -1 0 -23256
+box -141 -482 141 482
+<< end >>

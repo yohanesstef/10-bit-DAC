@@ -1,0 +1,66 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 4827 -2477 4837 -2215
+rect 4827 -2539 5248 -2477
+rect 6301 -2801 6306 -2539
+rect 4812 -3125 4822 -2863
+rect 4812 -3449 4817 -3187
+rect 4786 -3773 4801 -3511
+rect 6311 -3773 6394 -3187
+rect 4786 -4097 4801 -3835
+rect 4745 -4421 4786 -4159
+rect 6332 -4421 6420 -3835
+rect 4745 -4745 4786 -4483
+rect 6357 -4745 6461 -4483
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_0
+timestamp 1749289931
+transform 1 0 -5394 0 1 12934
+box 9957 -17679 10206 -15149
+use rseg_4_pin_right_odd  rseg_4_pin_right_odd_0
+timestamp 1749289931
+transform 1 0 -3638 0 1 12615
+box 9944 -17360 10281 -14830
+use sky130_fd_pr__res_xhigh_po_1p41_DZKNT5  sky130_fd_pr__res_xhigh_po_1p41_DZKNT5_0
+timestamp 1749119244
+transform 0 -1 5564 -1 0 -4938
+box -141 -799 141 799
+use sky130_fd_pr__res_xhigh_po_1p41_SEMVNL  sky130_fd_pr__res_xhigh_po_1p41_SEMVNL_0
+timestamp 1749119244
+transform 0 -1 5564 1 0 -2022
+box -141 -733 141 733
+use sky130_fd_pr__res_xhigh_po_1p41_SEMXNL  XR1
+timestamp 1749119180
+transform 0 -1 5564 1 0 -2346
+box -141 -733 141 733
+use sky130_fd_pr__res_xhigh_po_1p41_GLTCMD  XR2
+timestamp 1749119180
+transform 0 -1 5564 1 0 -2670
+box -141 -743 141 743
+use sky130_fd_pr__res_xhigh_po_1p41_42QADH  XR3
+timestamp 1749119180
+transform 0 -1 5564 1 0 -2994
+box -141 -748 141 748
+use sky130_fd_pr__res_xhigh_po_1p41_GVNVJY  XR4
+timestamp 1749119180
+transform 0 -1 5564 1 0 -3318
+box -141 -753 141 753
+use sky130_fd_pr__res_xhigh_po_1p41_AFTT8S  XR5
+timestamp 1749119180
+transform 0 -1 5564 1 0 -3642
+box -141 -769 141 769
+use sky130_fd_pr__res_xhigh_po_1p41_J5YLPL  XR6
+timestamp 1749119180
+transform 0 -1 5564 -1 0 -3966
+box -141 -774 141 774
+use sky130_fd_pr__res_xhigh_po_1p41_47PAZ6  XR7
+timestamp 1749119180
+transform 0 -1 5564 -1 0 -4290
+box -141 -784 141 784
+use sky130_fd_pr__res_xhigh_po_1p41_DZKLT5  XR8
+timestamp 1749119180
+transform 0 -1 5564 -1 0 -4614
+box -141 -799 141 799
+<< end >>

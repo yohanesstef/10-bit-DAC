@@ -1,0 +1,26 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< error_s >>
+rect 15614 4461 15620 4467
+rect 15680 4461 15686 4467
+rect 15620 4455 15626 4461
+rect 15674 4455 15680 4461
+use rseg_1_v3  rseg_1_v3_1
+timestamp 1749211803
+transform 1 0 7528 0 -1 -11963
+box 10163 -19548 24372 -15692
+use rseg_2_v3  rseg_2_v3_0
+timestamp 1749369846
+transform -1 0 54796 0 1 11859
+box 22810 -13247 39241 -9391
+use rseg_3_v3  rseg_3_v3_0
+timestamp 1749369846
+transform -1 0 27923 0 1 3976
+box 12478 -5378 17402 -1522
+use rseg_4_v3  rseg_4_v3_0
+timestamp 1749369846
+transform 1 0 -8848 0 -1 -14091
+box 12802 -21608 26239 -18026
+<< end >>

@@ -1,0 +1,794 @@
+timestamp 1749465145
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use pin_8_odd_right pin_8_odd_right_2 1 0 0 0 1 0
+use pin_8_odd pin_8_odd_2 1 0 0 0 1 0
+use pin_8_even pin_8_even_0 1 0 0 0 1 0
+use pin_8_odd pin_8_odd_0 1 0 3082 0 1 0
+use pin_8_even_rigth pin_8_even_rigth_0 1 0 0 0 1 0
+use pin_8_odd_right pin_8_odd_right_0 1 0 3114 0 1 0
+use pin_8_even pin_8_even_1 1 0 3114 0 1 0
+use pin_8_even_rigth pin_8_even_rigth_1 1 0 3149 0 1 0
+use pin_8_odd pin_8_odd_1 1 0 6231 0 1 0
+use pin_8_odd_right pin_8_odd_right_1 1 0 6298 0 1 0
+use pin_8_even pin_8_even_2 1 0 6298 0 1 0
+use pin_8_odd pin_8_odd_3 1 0 9492 0 1 0
+use pin_8_even_rigth pin_8_even_rigth_2 1 0 6410 0 1 0
+use pin_8_odd_right pin_8_odd_right_3 1 0 9636 0 1 0
+use pin_8_even pin_8_even_3 1 0 9636 0 1 0
+use pin_8_even_rigth pin_8_even_rigth_3 1 0 9999 0 1 0
+use rseg_4_v3 rseg_4_v3_0 1 0 -12905 0 1 21507
+node "m2_12432_3159#" 1 86.2852 12432 3159 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17280 696 0 0 0 0 0 0 0 0
+node "m2_9094_3159#" 0 30.8306 9094 3159 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2220 194 0 0 0 0 0 0 0 0
+node "m2_12432_3247#" 1 33.6055 12432 3247 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17280 696 0 0 0 0 0 0 0 0
+node "m2_9094_3247#" 0 24.0627 9094 3247 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2220 194 0 0 0 0 0 0 0 0
+node "m2_12432_3335#" 1 86.2852 12432 3335 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17280 696 0 0 0 0 0 0 0 0
+node "m2_9094_3335#" 0 30.8306 9094 3335 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2220 194 0 0 0 0 0 0 0 0
+node "m1_12878_2631#" 1 131.676 12878 2631 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9072 704 0 0 0 0 0 0 0 0 0 0
+node "m1_11915_2585#" 1 171.781 11915 2585 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22200 860 0 0 0 0 0 0 0 0 0 0
+node "m1_11563_2955#" 1 27.0082 11563 2955 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 360 132 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m2_12432_3335#" "m2_12432_3247#" 163.636
+cap "m1_11915_2585#" "m1_12878_2631#" 14.9591
+cap "m2_9094_3247#" "m2_9094_3335#" 21.0227
+cap "m2_9094_3247#" "m2_9094_3159#" 21.0227
+cap "m2_12432_3247#" "m2_12432_3159#" 163.636
+cap "rseg_4_v3_0/v3" "rseg_4_v3_0/v7" 0.0126034
+cap "rseg_4_v3_0/v5" "rseg_4_v3_0/v3" 0.0188851
+cap "rseg_4_v3_0/v2" "rseg_4_v3_0/v4" 0.0228085
+cap "rseg_4_v3_0/v2" "rseg_4_v3_0/v6" 0.0141473
+cap "rseg_4_v3_0/v8" "rseg_4_v3_0/v13" 0.0303104
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v13" -0.0193046
+cap "rseg_4_v3_0/v11" "rseg_4_v3_0/v9" 0.00820731
+cap "rseg_4_v3_0/v11" "rseg_4_v3_0/v13" 0.0171264
+cap "rseg_4_v3_0/v2" "rseg_4_v3_0/v6" 0.0141473
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v13" 0.0838095
+cap "rseg_4_v3_0/v12" "rseg_4_v3_0/a_12838_n21572#" -0.0241308
+cap "rseg_4_v3_0/v2" "rseg_4_v3_0/v4" 0.0260965
+cap "rseg_4_v3_0/v11" "rseg_4_v3_0/v8" 0.00923728
+cap "rseg_4_v3_0/v9" "rseg_4_v3_0/v13" 0.0245983
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v12" 0.104762
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/a_12838_n21572#" -0.0295522
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/v4" 0.00888949
+cap "rseg_4_v3_0/v12" "rseg_4_v3_0/v10" 0.0114649
+cap "rseg_4_v3_0/v14" "rseg_4_v3_0/v10" 0.045617
+cap "rseg_4_v3_0/v14" "rseg_4_v3_0/v12" 0.0630626
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/v21" 0.147059
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v19" 0.0188851
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/v17" 0.0152372
+cap "rseg_4_v3_0/v23" "rseg_4_v3_0/v19" 0.0126034
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v17" 0.00632565
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" -0.016702
+cap "rseg_4_v3_0/v17" "rseg_4_v3_0/v23" 0.0041279
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/v20" 0.00814589
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/v20" 0.048905
+cap "rseg_4_v3_0/v27" "rseg_4_v3_0/v31" 0.00632565
+cap "rseg_4_v3_0/v27" "rseg_4_v3_0/v25" 0.00820731
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v25" 0.0245983
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v31" 0.00505261
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v25" 0.0108764
+cap "rseg_4_v3_0/v27" "rseg_4_v3_0/v24" 0.00923728
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v24" 0.0303104
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/v22" 0.0282946
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v24" 0.0152372
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v22" 0.00888949
+cap "rseg_4_v3_0/v27" "rseg_4_v3_0/v29" 0.0171264
+cap "rseg_4_v3_0/v35" "rseg_4_v3_0/v39" 0.0126034
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/v26" 0.0114649
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/v30" 0.0630626
+cap "rseg_4_v3_0/v30" "rseg_4_v3_0/v26" 0.045617
+cap "rseg_4_v3_0/v35" "rseg_4_v3_0/v33" 0.013711
+cap "rseg_4_v3_0/v37" "rseg_4_v3_0/v33" 0.00753413
+cap "rseg_4_v3_0/v35" "rseg_4_v3_0/v37" 0.0188851
+cap "rseg_4_v3_0/v39" "rseg_4_v3_0/v33" 0.00474951
+cap "rseg_4_v3_0/v34" "rseg_4_v3_0/v38" 0.0282946
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v41" 0.0245983
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v43" 0.0171264
+cap "rseg_4_v3_0/v41" "rseg_4_v3_0/v43" 0.00820731
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v40" 0.0303104
+cap "rseg_4_v3_0/v34" "rseg_4_v3_0/v36" 0.048905
+cap "rseg_4_v3_0/v40" "rseg_4_v3_0/v43" 0.00923728
+cap "rseg_4_v3_0/v36" "rseg_4_v3_0/v38" 0.00888949
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" -0.115192
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v45" -0.00241819
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v46" 0.273632
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" -0.00241819
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v46" 0.0630626
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v42" 0.0114649
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v46" -0.115192
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v45" 0.104762
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v47" 0.104762
+cap "rseg_4_v3_0/v42" "rseg_4_v3_0/v46" 0.045617
+cap "rseg_4_v3_0/v54" "rseg_4_v3_0/v52" 0.00888949
+cap "rseg_4_v3_0/v51" "rseg_4_v3_0/v53" 0.0188851
+cap "rseg_4_v3_0/v52" "rseg_4_v3_0/v50" 0.048905
+cap "rseg_4_v3_0/v55" "rseg_4_v3_0/v51" 0.0126034
+cap "rseg_4_v3_0/v54" "rseg_4_v3_0/v50" 0.0282946
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/v62" -1.01584
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/v57" 2.44256
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/v61" 0.0171264
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/v56" 2.83089
+cap "rseg_4_v3_0/v61" "rseg_4_v3_0/a_12838_n21572#" -0.0698971
+cap "rseg_4_v3_0/v60" "rseg_4_v3_0/v58" 0.011186
+cap "rseg_4_v3_0/v61" "rseg_4_v3_0/v57" 0.0245983
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/v57" 0.00820731
+cap "rseg_4_v3_0/v62" "rseg_4_v3_0/v60" 0.0768963
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/v61" 1.11249
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" 0.301811
+cap "rseg_4_v3_0/v62" "rseg_4_v3_0/v58" 0.0516359
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/a_12838_n21572#" -6.40909
+cap "rseg_4_v3_0/v61" "rseg_4_v3_0/v56" 0.0303104
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/v56" 0.00923728
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/v58" 2.05539
+cap "rseg_4_v3_0/v62" "rseg_4_v3_0/rseg_4_7_0/sky130_fd_pr__res_xhigh_po_1p41_JGC4EQ_0/a_n141_n543#" -4.24307
+cap "rseg_4_v3_0/v58" "rseg_4_v3_0/v62" 0.522966
+cap "rseg_4_v3_0/v60" "rseg_4_v3_0/v62" 0.700421
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/rseg_4_7_0/sky130_fd_pr__res_xhigh_po_1p41_JGC4EQ_0/a_n141_n543#" -0.234451
+cap "rseg_4_v3_0/v58" "rseg_4_v3_0/v60" 0.0114649
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/v62" -0.0448188
+cap "rseg_4_v3_0/v7" "rseg_4_v3_0/v9" 0.0560084
+cap "rseg_4_v3_0/v4" "rseg_4_v3_0/a_12838_n21572#" 118.697
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/m1_14122_n18814#" 0.0301277
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v1" 122.783
+cap "rseg_4_v3_0/v9" "rseg_4_v3_0/m1_14122_n18814#" 0.0778416
+cap "rseg_4_v3_0/v7" "pin_8_even_rigth_0/m1_2995_2955#" 0.0352611
+cap "rseg_4_v3_0/v7" "rseg_4_v3_0/v11" 0.0406699
+cap "rseg_4_v3_0/v3" "rseg_4_v3_0/v9" 1.58562
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v7" 0.030863
+cap "rseg_4_v3_0/v11" "rseg_4_v3_0/m1_14122_n18814#" 0.0675358
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/m1_14122_n18814#" 0.0591474
+cap "rseg_4_v3_0/v5" "rseg_4_v3_0/v11" 1.74825
+cap "rseg_4_v3_0/v7" "rseg_4_v3_0/m1_14122_n18814#" 30.1396
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/a_12838_n21572#" 46.8689
+cap "rseg_4_v3_0/v7" "rseg_4_v3_0/v8" 3.64099
+cap "rseg_4_v3_0/v8" "rseg_4_v3_0/m1_14122_n18814#" 0.0930991
+cap "rseg_4_v3_0/v5" "rseg_4_v3_0/m1_14122_n18814#" 34.0237
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v2" 192.662
+cap "rseg_4_v3_0/v7" "rseg_4_v3_0/v1" 0.357498
+cap "rseg_4_v3_0/v3" "rseg_4_v3_0/m1_14122_n18814#" 68.6496
+cap "rseg_4_v3_0/v3" "rseg_4_v3_0/v5" 1.7053e-13
+cap "rseg_4_v3_0/v4" "rseg_4_v3_0/m1_14122_n18814#" 3.52175
+cap "rseg_4_v3_0/v1" "rseg_4_v3_0/m1_14122_n18814#" 43.6238
+cap "rseg_4_v3_0/v5" "rseg_4_v3_0/v1" 0.720078
+cap "rseg_4_v3_0/v3" "rseg_4_v3_0/v4" 2.96155
+cap "rseg_4_v3_0/v3" "rseg_4_v3_0/v1" 15.1313
+cap "rseg_4_v3_0/v7" "pin_8_even_rigth_0/m1_2907_2955#" 0.0272386
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/m1_14122_n18814#" 5.85335
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/v5" 3.42246
+cap "rseg_4_v3_0/v3" "rseg_4_v3_0/v6" 0.102273
+cap "rseg_4_v3_0/v7" "pin_8_even_rigth_0/m1_3083_2955#" 0.0474239
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/v8" 0.339768
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v11" 0.359918
+cap "rseg_4_v3_0/v2" "rseg_4_v3_0/m1_14122_n18814#" 203.362
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/a_12838_n21572#" 0.162324
+cap "rseg_4_v3_0/v7" "rseg_4_v3_0/a_12838_n21572#" 95.4402
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/v4" -46.0763
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/m1_14122_n18814#" 86.5692
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v5" 117.434
+cap "rseg_4_v3_0/v7" "rseg_4_v3_0/v15" 0.0242167
+cap "rseg_4_v3_0/v4" "rseg_4_v3_0/v2" -46.0676
+cap "rseg_4_v3_0/v2" "rseg_4_v3_0/v1" 23.3739
+cap "rseg_4_v3_0/v3" "rseg_4_v3_0/a_12838_n21572#" 152.03
+cap "rseg_4_v3_0/v4" "rseg_4_v3_0/v10" 3.84615
+cap "rseg_4_v3_0/v9" "rseg_4_v3_0/v11" 0.02332
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v17" 0.045586
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v10" 0.038046
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/v9" 25.8877
+cap "rseg_4_v3_0/v2" "rseg_4_v3_0/v1" 3.21509
+cap "rseg_4_v3_0/v9" "rseg_4_v3_0/v3" 1.58562
+cap "rseg_4_v3_0/v9" "rseg_4_v3_0/v4" 1.1381
+cap "rseg_4_v3_0/v7" "rseg_4_v3_0/v8" 3.57895
+cap "rseg_4_v3_0/v13" "pin_8_odd_right_0/m1_1399_2955#" 0.0298919
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v10" 14.9356
+cap "rseg_4_v3_0/v9" "rseg_4_v3_0/v15" 13.9247
+cap "rseg_4_v3_0/v8" "rseg_4_v3_0/v23" 0.045586
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v23" 0.12288
+cap "rseg_4_v3_0/v13" "pin_8_odd_right_0/m1_1487_2955#" 0.94697
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v8" 0.0392068
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v21" 0.0264322
+cap "rseg_4_v3_0/v14" "rseg_4_v3_0/v8" 0.0778339
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v14" 51.0503
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v8" 167.848
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v12" 107.364
+cap "rseg_4_v3_0/v12" "rseg_4_v3_0/v8" 0.0640714
+cap "rseg_4_v3_0/v14" "rseg_4_v3_0/v12" 4.16833
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v8" 7.77667
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v13" 118.694
+cap "rseg_4_v3_0/v11" "rseg_4_v3_0/v8" 7.02612
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v11" 0.0918884
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/v8" 110.656
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v11" 84.0644
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/a_12838_n21572#" 43.6626
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/v13" 20.1452
+cap "rseg_4_v3_0/v2" "rseg_4_v3_0/v8" 11.9048
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v2" 15.9962
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v4" 17.5392
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v8" 1.00267
+cap "rseg_4_v3_0/v4" "rseg_4_v3_0/v8" 2.50582
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v4" 0.341776
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v16" 0.0536563
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v12" 11.3527
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v14" 0.02387
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v23" 7.32336
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/v11" 31.5887
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v16" -37.8649
+cap "rseg_4_v3_0/v11" "rseg_4_v3_0/v4" 0.548721
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/v4" 0.51462
+cap "rseg_4_v3_0/v13" "pin_8_odd_right_0/m1_1311_2955#" 0.0392068
+cap "rseg_4_v3_0/v5" "rseg_4_v3_0/v11" 1.74825
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v14" 38.3368
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v12" 2.75075
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v8" 30.0491
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v15" 2.67994
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/v5" 3.26205
+cap "rseg_4_v3_0/v3" "rseg_4_v3_0/v4" 2.84063
+cap "rseg_4_v3_0/v2" "rseg_4_v3_0/v4" 0.549429
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v15" 319.661
+cap "rseg_4_v3_0/v8" "rseg_4_v3_0/v10" 0.0536563
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v11" 1.11944
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v10" 0.798172
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v10" 111.406
+cap "rseg_4_v3_0/v2" "rseg_4_v3_0/m1_14122_n18814#" 2.14788
+cap "rseg_4_v3_0/v19" "rseg_4_v3_0/v8" 0.0340775
+cap "rseg_4_v3_0/v6" "rseg_4_v3_0/v10" 0.127288
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v19" 0.0340775
+cap "rseg_4_v3_0/v11" "rseg_4_v3_0/v10" 0.0250782
+cap "rseg_4_v3_0/v9" "rseg_4_v3_0/v13" 0.226373
+cap "rseg_4_v3_0/v9" "rseg_4_v3_0/v8" 6.72907
+cap "rseg_4_v3_0/v9" "rseg_4_v3_0/a_12838_n21572#" 121.747
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v16" 140.158
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v22" 0.94697
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v19" 68.6496
+cap "rseg_4_v3_0/v14" "rseg_4_v3_0/v12" 2.29189
+cap "rseg_4_v3_0/v17" "rseg_4_v3_0/v10" 0.23259
+cap "rseg_4_v3_0/v19" "rseg_4_v3_0/v22" 0.0940967
+cap "rseg_4_v3_0/v14" "rseg_4_v3_0/v21" 8.82353
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/v17" 23.2491
+cap "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" "rseg_4_v3_0/v14" 95.4835
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v31" 0.0233462
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v8" 1.0053
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v17" 0.720078
+cap "rseg_4_v3_0/v14" "rseg_4_v3_0/v16" 18.7396
+cap "rseg_4_v3_0/v14" "rseg_4_v3_0/v22" 0.0264322
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v16" 2.62722
+cap "rseg_4_v3_0/v23" "rseg_4_v3_0/v10" 209.663
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v22" 0.0298919
+cap "rseg_4_v3_0/v12" "rseg_4_v3_0/v23" 2.4341
+cap "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" "rseg_4_v3_0/v17" 122.493
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v17" 43.5738
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v25" 0.0738372
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/v10" 0.168269
+cap "rseg_4_v3_0/v23" "rseg_4_v3_0/v9" 0.0536563
+cap "rseg_4_v3_0/v17" "rseg_4_v3_0/v19" 15.1313
+cap "rseg_4_v3_0/v12" "rseg_4_v3_0/v10" -42.6136
+cap "rseg_4_v3_0/v19" "rseg_4_v3_0/v25" 1.53374
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v10" 3.84615
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v10" 2.33755
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v27" 1.68539
+cap "rseg_4_v3_0/v14" "rseg_4_v3_0/v15" 35.5754
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v18" 0.437811
+cap "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" "rseg_4_v3_0/v23" 50.0984
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/v21" 0.190484
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v23" 25.6023
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v12" 1.01081
+cap "rseg_4_v3_0/v13" "rseg_4_v3_0/v23" 0.12288
+cap "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" "rseg_4_v3_0/v10" 25.7848
+cap "rseg_4_v3_0/v27" "rseg_4_v3_0/v16" 0.0642904
+cap "rseg_4_v3_0/v11" "rseg_4_v3_0/v23" 0.0778339
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v10" 31.5064
+cap "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" "rseg_4_v3_0/v18" 145.979
+cap "rseg_4_v3_0/v19" "rseg_4_v3_0/v10" 1.1381
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/v16" 118.993
+cap "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" "rseg_4_v3_0/v12" 28.9728
+cap "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" "rseg_4_v3_0/v20" 58.7527
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v16" 1.99155
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v12" 71.1296
+cap "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" "rseg_4_v3_0/v21" 108.524
+cap "rseg_4_v3_0/v19" "rseg_4_v3_0/v12" 8.82353
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v22" 0.49162
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v16" 32.8401
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v24" 0.0877604
+cap "rseg_4_v3_0/v23" "rseg_4_v3_0/v8" 0.045586
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v22" 3.23915
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v19" 2.82329
+cap "rseg_4_v3_0/v14" "rseg_4_v3_0/v23" 16.5062
+cap "rseg_4_v3_0/v15" "rseg_4_v3_0/v23" 7.52751
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v29" 0.0564808
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v19" 1.7053e-13
+cap "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" "rseg_4_v3_0/v16" 107.872
+cap "rseg_4_v3_0/v14" "rseg_4_v3_0/v10" -42.1632
+cap "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" "rseg_4_v3_0/v22" 18.3959
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v22" 4.10529
+cap "rseg_4_v3_0/v17" "rseg_4_v3_0/v23" 0.357498
+cap "rseg_4_v3_0/rseg_4_1_0/sky130_fd_pr__res_xhigh_po_1p41_LNB2JD_0/a_n141_n471#" "rseg_4_v3_0/v19" 149.363
+cap "rseg_4_v3_0/v24" "rseg_4_v3_0/v39" 0.0428746
+cap "rseg_4_v3_0/v27" "rseg_4_v3_0/v25" 0.02332
+cap "rseg_4_v3_0/v30" "rseg_4_v3_0/v24" 0.0718744
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v26" 0.819923
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v20" 72.9066
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v27" 0.548721
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v26" 12.4501
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v32" 0.72295
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v31" 2.48891
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v25" 0.226373
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v26" 3.84615
+cap "rseg_4_v3_0/v30" "rseg_4_v3_0/v23" 0.0260775
+cap "rseg_4_v3_0/v37" "rseg_4_v3_0/v24" 0.0370365
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v20" 0.341776
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v25" 13.8669
+cap "rseg_4_v3_0/v17" "rseg_4_v3_0/v18" 3.0827
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/v24" 11.9048
+cap "rseg_4_v3_0/v22" "rseg_4_v3_0/v24" 110.976
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v16" 1.52184
+cap "rseg_4_v3_0/v23" "rseg_4_v3_0/v24" 6.9818
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v25" 1.1381
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v24" 165.708
+cap "rseg_4_v3_0/v27" "rseg_4_v3_0/v24" 7.02517
+cap "rseg_4_v3_0/v19" "rseg_4_v3_0/v25" 1.53374
+cap "rseg_4_v3_0/v35" "rseg_4_v3_0/v24" 0.0323135
+cap "rseg_4_v3_0/v18" "rseg_4_v3_0/v22" -3.19189e-16
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v19" 2.71318
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v18" 62.3418
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v22" 75.1078
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v24" 0.979752
+cap "rseg_4_v3_0/v24" "rseg_4_v3_0/v26" 0.0502081
+cap "rseg_4_v3_0/v27" "rseg_4_v3_0/v22" 31.5887
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v23" 9.04539
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v30" 0.943338
+cap "rseg_4_v3_0/v27" "rseg_4_v3_0/v23" 0.0385676
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v24" 7.77473
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/v24" 0.059594
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v27" 83.3633
+cap "rseg_4_v3_0/v22" "rseg_4_v3_0/v26" 0.127288
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v24" 29.471
+cap "rseg_4_v3_0/v25" "rseg_4_v3_0/v24" 6.72907
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v22" 3.09507
+cap "rseg_4_v3_0/v23" "rseg_4_v3_0/v26" 0.0447857
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v22" 20.1452
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v26" 92.2473
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v24" 2.50582
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v23" 0.0294656
+cap "rseg_4_v3_0/v21" "rseg_4_v3_0/v27" 1.68539
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/v23" 0.033559
+cap "rseg_4_v3_0/v27" "rseg_4_v3_0/v26" 0.0262149
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v18" 95.5965
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v22" 1.82871
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v29" 89.5585
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v27" 0.0918884
+cap "rseg_4_v3_0/v22" "rseg_4_v3_0/v25" 25.8877
+cap "rseg_4_v3_0/v16" "rseg_4_v3_0/v23" 4.49981
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v28" 39.1986
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v23" 0.0232415
+cap "rseg_4_v3_0/v23" "rseg_4_v3_0/v25" 0.0526358
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v16" -23.4386
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v25" 121.247
+cap "rseg_4_v3_0/rseg_4_2_0/sky130_fd_pr__res_xhigh_po_1p41_C5ZB4V_0/a_n141_n482#" "rseg_4_v3_0/v31" 14.842
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v27" 1.11065
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v18" -36.9014
+cap "rseg_4_v3_0/v20" "rseg_4_v3_0/v22" -37.0084
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v45" 0.0537654
+cap "rseg_4_v3_0/v33" "rseg_4_v3_0/v34" 16.9798
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v26" 31.7663
+cap "rseg_4_v3_0/v36" "rseg_4_v3_0/v26" 1.92308
+cap "rseg_4_v3_0/v26" "rseg_4_v3_0/v39" 209.658
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v30" 65.1205
+cap "rseg_4_v3_0/v37" "rseg_4_v3_0/v30" 8.82353
+cap "rseg_4_v3_0/v34" "rseg_4_v3_0/a_12838_n21572#" 79.3638
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/a_12838_n21572#" 87.8918
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v35" 68.6496
+cap "rseg_4_v3_0/v37" "rseg_4_v3_0/v33" 0.552988
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/v26" -22.7273
+cap "rseg_4_v3_0/v34" "rseg_4_v3_0/v26" 0.168269
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v35" 0.0323135
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/a_12838_n21572#" 292.965
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v41" 0.0698008
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v26" 3.02887
+cap "rseg_4_v3_0/v30" "rseg_4_v3_0/a_12838_n21572#" 152.041
+cap "rseg_4_v3_0/v37" "rseg_4_v3_0/a_12838_n21572#" 44.9182
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/v35" 8.82353
+cap "rseg_4_v3_0/v33" "rseg_4_v3_0/a_12838_n21572#" 125.982
+cap "rseg_4_v3_0/v37" "rseg_4_v3_0/v26" 2.33755
+cap "rseg_4_v3_0/v25" "rseg_4_v3_0/v39" 0.0502081
+cap "rseg_4_v3_0/v30" "rseg_4_v3_0/v26" -21.8747
+cap "rseg_4_v3_0/v33" "rseg_4_v3_0/v26" 0.23259
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v39" 25.5469
+cap "rseg_4_v3_0/v36" "rseg_4_v3_0/v32" 0.111557
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v29" 0.0502081
+cap "rseg_4_v3_0/v36" "rseg_4_v3_0/v29" 0.0284389
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v39" 0.222503
+cap "rseg_4_v3_0/v37" "rseg_4_v3_0/v35" 5.68434e-14
+cap "rseg_4_v3_0/v26" "rseg_4_v3_0/a_12838_n21572#" 45.2149
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v24" 0.982254
+cap "rseg_4_v3_0/v33" "rseg_4_v3_0/v35" 3.69625
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v34" 16.0146
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/v32" 82.8864
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/v39" 2.42593
+cap "rseg_4_v3_0/v24" "rseg_4_v3_0/v39" 0.0428746
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v43" 0.0610013
+cap "rseg_4_v3_0/v34" "rseg_4_v3_0/v29" 0.0370365
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v32" 121.196
+cap "rseg_4_v3_0/v35" "rseg_4_v3_0/a_12838_n21572#" 49.3951
+cap "rseg_4_v3_0/v31" "rseg_4_v3_0/v39" 13.916
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v40" 0.0813659
+cap "rseg_4_v3_0/v37" "rseg_4_v3_0/v32" 27.6287
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v30" 18.9027
+cap "rseg_4_v3_0/v35" "rseg_4_v3_0/v26" 1.1381
+cap "rseg_4_v3_0/v30" "rseg_4_v3_0/v39" 16.4889
+cap "rseg_4_v3_0/v37" "rseg_4_v3_0/v29" 0.0252212
+cap "rseg_4_v3_0/v37" "rseg_4_v3_0/v39" 5.68434e-14
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v33" 43.5187
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v38" 0.0942334
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v32" 0.0180876
+cap "rseg_4_v3_0/v33" "rseg_4_v3_0/v29" 0.0428746
+cap "rseg_4_v3_0/v33" "rseg_4_v3_0/v39" 0.274543
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/v31" 3.05843
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/v38" 0.926498
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/a_12838_n21572#" 98.9474
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/v30" 6.80453
+cap "rseg_4_v3_0/v28" "rseg_4_v3_0/v37" 1.01081
+cap "rseg_4_v3_0/v27" "rseg_4_v3_0/v39" 0.0718744
+cap "rseg_4_v3_0/v29" "rseg_4_v3_0/a_12838_n21572#" 19.1896
+cap "rseg_4_v3_0/v39" "rseg_4_v3_0/a_12838_n21572#" 46.9689
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v39" 0.00946923
+cap "rseg_4_v3_0/v38" "rseg_4_v3_0/v43" 31.5887
+cap "rseg_4_v3_0/v38" "rseg_4_v3_0/v45" 20.1452
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v38" 5.92862
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v39" 12.2396
+cap "rseg_4_v3_0/v40" "rseg_4_v3_0/v34" 11.9048
+cap "rseg_4_v3_0/v33" "rseg_4_v3_0/v37" 0.16709
+cap "rseg_4_v3_0/v33" "rseg_4_v3_0/v34" 9.25055
+cap "rseg_4_v3_0/v33" "rseg_4_v3_0/v35" 11.2593
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v39" 0.0318346
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v40" 10.0433
+cap "rseg_4_v3_0/v36" "rseg_4_v3_0/v35" 5.27239
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v40" 9.18089
+cap "rseg_4_v3_0/v40" "rseg_4_v3_0/v39" 3.39633
+cap "rseg_4_v3_0/v36" "rseg_4_v3_0/v34" -26.5544
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v33" -3.75435
+cap "rseg_4_v3_0/v38" "rseg_4_v3_0/v35" 0.0862253
+cap "rseg_4_v3_0/v33" "rseg_4_v3_0/v39" 0.0829553
+cap "rseg_4_v3_0/v38" "rseg_4_v3_0/v37" 5.99088
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v36" 131.97
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v38" 96.5349
+cap "rseg_4_v3_0/v40" "rseg_4_v3_0/v36" 2.50582
+cap "rseg_4_v3_0/v38" "rseg_4_v3_0/v30" 0.0252212
+cap "rseg_4_v3_0/v38" "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UW4Z_0/a_n141_65#" 0.0284389
+cap "rseg_4_v3_0/v38" "rseg_4_v3_0/v40" 110.636
+cap "rseg_4_v3_0/v41" "rseg_4_v3_0/v43" 5.68434e-14
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v43" -5.68434e-14
+cap "rseg_4_v3_0/v38" "rseg_4_v3_0/v36" -26.6194
+cap "rseg_4_v3_0/v42" "rseg_4_v3_0/v39" 0.0421443
+cap "rseg_4_v3_0/v41" "rseg_4_v3_0/v35" 2.9615
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v37" 1.96964
+cap "rseg_4_v3_0/v37" "rseg_4_v3_0/v43" 3.24324
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v34" 208.508
+cap "rseg_4_v3_0/v41" "rseg_4_v3_0/v39" 0.0492838
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v41" 0.831284
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v41" 14.7634
+cap "rseg_4_v3_0/v39" "rseg_4_v3_0/v45" 0.0280432
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v43" 0.28644
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v45" 2.27569
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v39" 4.55512
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v45" 88.2627
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v43" 27.9606
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v32" -48.6513
+cap "rseg_4_v3_0/v46" "rseg_4_v3_0/v39" 0.0248905
+cap "rseg_4_v3_0/v39" "rseg_4_v3_0/v43" 0.0364494
+cap "rseg_4_v3_0/v42" "rseg_4_v3_0/v36" 1.92308
+cap "rseg_4_v3_0/v34" "rseg_4_v3_0/v37" 0.0177503
+cap "rseg_4_v3_0/v41" "rseg_4_v3_0/v40" 6.72907
+cap "rseg_4_v3_0/v38" "pin_8_even_1/m1_1839_2955#" 0.926498
+cap "rseg_4_v3_0/v40" "rseg_4_v3_0/v43" 6.99088
+cap "rseg_4_v3_0/v40" "rseg_4_v3_0/v45" 7.56368
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v35" 98.1228
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v37" 52.4109
+cap "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UU4Z_0/a_n141_65#" "rseg_4_v3_0/v34" 129.754
+cap "rseg_4_v3_0/v41" "rseg_4_v3_0/v36" 1.1381
+cap "rseg_4_v3_0/v36" "rseg_4_v3_0/v45" 0.341776
+cap "rseg_4_v3_0/v32" "rseg_4_v3_0/v36" 3.39359
+cap "rseg_4_v3_0/v36" "rseg_4_v3_0/v43" 0.548721
+cap "rseg_4_v3_0/v36" "rseg_4_v3_0/v26" 1.92308
+cap "rseg_4_v3_0/v38" "rseg_4_v3_0/v41" 25.8877
+cap "rseg_4_v3_0/v42" "rseg_4_v3_0/v48" 31.2707
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v41" 13.0934
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v42" 3.55271e-14
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v45" 18.9976
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v46" 154.738
+cap "rseg_4_v3_0/v42" "rseg_4_v3_0/v53" 2.33755
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v55" 39.1064
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v42" 0.821645
+cap "rseg_4_v3_0/v46" "rseg_4_v3_0/v42" 1.45394
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v43" 54.9074
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v40" 0.0512552
+cap "rseg_4_v3_0/v40" "rseg_4_v3_0/v48" 0.932836
+cap "rseg_4_v3_0/v42" "rseg_4_v3_0/v55" 209.65
+cap "rseg_4_v3_0/v53" "rseg_4_v3_0/v40" 0.0328529
+cap "rseg_4_v3_0/v42" "rseg_4_v3_0/v43" 0.0266868
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v40" 0.211121
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v41" 106.993
+cap "rseg_4_v3_0/v46" "rseg_4_v3_0/v40" 0.0609493
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v47" 266.062
+cap "rseg_4_v3_0/v51" "rseg_4_v3_0/v44" 4.41176
+cap "rseg_4_v3_0/v40" "rseg_4_v3_0/v55" 0.0753975
+cap "rseg_4_v3_0/v51" "rseg_4_v3_0/v45" 0.028884
+cap "rseg_4_v3_0/v50" "rseg_4_v3_0/v45" 0.0328529
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v42" 15.9444
+cap "rseg_4_v3_0/v40" "pin_8_odd_1/m1_89_2955#" 3.34236
+cap "rseg_4_v3_0/v43" "rseg_4_v3_0/v40" 0.033324
+cap "rseg_4_v3_0/v52" "rseg_4_v3_0/v45" 0.0255927
+cap "rseg_4_v3_0/v42" "rseg_4_v3_0/v49" 0.23259
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v48" 83.1038
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v53" 1.01081
+cap "rseg_4_v3_0/v53" "rseg_4_v3_0/v48" 12.0904
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v40" 19.9162
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v42" 135.55
+cap "rseg_4_v3_0/v36" "rseg_4_v3_0/v42" 1.92308
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v48" 0.0437001
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v45" 0.0125659
+cap "rseg_4_v3_0/v46" "rseg_4_v3_0/v53" 8.82353
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v53" 0.0176583
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v55" 2.41123
+cap "rseg_4_v3_0/v46" "rseg_4_v3_0/v48" 18.722
+cap "rseg_4_v3_0/v55" "rseg_4_v3_0/v48" 25.5469
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v46" 7.54745
+cap "rseg_4_v3_0/v53" "rseg_4_v3_0/v55" 5.68434e-14
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v43" 0.0035146
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v55" 0.181648
+cap "rseg_4_v3_0/v46" "rseg_4_v3_0/v55" 16.4594
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v40" 157.664
+cap "rseg_4_v3_0/v42" "rseg_4_v3_0/v40" 0.0437001
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v43" 0.0918884
+cap "rseg_4_v3_0/v38" "rseg_4_v3_0/v42" 0.127288
+cap "rseg_4_v3_0/v43" "rseg_4_v3_0/v55" 0.0609493
+cap "rseg_4_v3_0/v44" "rseg_4_v3_0/v47" 3.76538
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v48" 73.9936
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v41" 0.226373
+cap "rseg_4_v3_0/v51" "rseg_4_v3_0/v42" 0.127288
+cap "rseg_4_v3_0/v50" "rseg_4_v3_0/v42" 0.168269
+cap "rseg_4_v3_0/v41" "rseg_4_v3_0/v55" 0.0437001
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v46" 54.401
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v45" 0.432683
+cap "rseg_4_v3_0/v52" "rseg_4_v3_0/v42" 1.92308
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v55" 12.2234
+cap "rseg_4_v3_0/v38" "rseg_4_v3_0/v40" 0.31913
+cap "rseg_4_v3_0/v43" "rseg_4_v3_0/v41" 0.02332
+cap "rseg_4_v3_0/v45" "rseg_4_v3_0/v49" 0.0376988
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v43" 0.844106
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v44" 112.038
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v48" -23.7641
+cap "rseg_4_v3_0/v51" "rseg_4_v3_0/v40" 0.028884
+cap "rseg_4_v3_0/rseg_4_5_0/sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_70#" "rseg_4_v3_0/v53" 5.75136
+cap "rseg_4_v3_0/v51" "rseg_4_v3_0/v54" 0.072035
+cap "rseg_4_v3_0/v50" "rseg_4_v3_0/v52" -4.75286
+cap "rseg_4_v3_0/v53" "rseg_4_v3_0/a_12838_n21572#" 82.8049
+cap "rseg_4_v3_0/v48" "rseg_4_v3_0/v57" 0.0620073
+cap "rseg_4_v3_0/v51" "rseg_4_v3_0/v44" 4.41176
+cap "rseg_4_v3_0/v56" "rseg_4_v3_0/v54" 0.298305
+cap "rseg_4_v3_0/v46" "rseg_4_v3_0/v48" 0.487052
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/v48" 0.00113992
+cap "rseg_4_v3_0/v50" "rseg_4_v3_0/v49" 25.5761
+cap "rseg_4_v3_0/v49" "rseg_4_v3_0/v55" 0.357498
+cap "rseg_4_v3_0/v51" "rseg_4_v3_0/a_12838_n21572#" 146.118
+cap "rseg_4_v3_0/v48" "rseg_4_v3_0/v61" 0.0484397
+cap "rseg_4_v3_0/v51" "rseg_4_v3_0/v42" 1.01081
+cap "rseg_4_v3_0/v52" "rseg_4_v3_0/v54" -5.2567
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/v48" 0.0545974
+cap "pin_8_even_3/m1_2543_3329#" "rseg_4_v3_0/v55" 0.0137314
+cap "rseg_4_v3_0/v50" "rseg_4_v3_0/v54" 0.0282094
+cap "rseg_4_v3_0/v51" "rseg_4_v3_0/v57" 1.37615
+cap "rseg_4_v3_0/v52" "rseg_4_v3_0/a_12838_n21572#" 128.672
+cap "rseg_4_v3_0/v52" "rseg_4_v3_0/v42" 1.92308
+cap "rseg_4_v3_0/v53" "rseg_4_v3_0/v59" 1.49701
+cap "rseg_4_v3_0/v53" "rseg_4_v3_0/v48" 16.2767
+cap "rseg_4_v3_0/v49" "rseg_4_v3_0/a_12838_n21572#" 121.846
+cap "pin_8_even_3/m1_2191_3241#" "rseg_4_v3_0/v55" 0.037096
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v48" 2.2715
+cap "rseg_4_v3_0/v55" "rseg_4_v3_0/a_12838_n21572#" 19.8181
+cap "rseg_4_v3_0/v50" "rseg_4_v3_0/a_12838_n21572#" 207.62
+cap "rseg_4_v3_0/v48" "rseg_4_v3_0/v51" 68.6496
+cap "rseg_4_v3_0/v48" "rseg_4_v3_0/v56" 0.071033
+cap "rseg_4_v3_0/v54" "rseg_4_v3_0/a_12838_n21572#" 59.3116
+cap "rseg_4_v3_0/v57" "rseg_4_v3_0/v55" 0.0429487
+cap "rseg_4_v3_0/v53" "rseg_4_v3_0/v51" 1.7053e-13
+cap "rseg_4_v3_0/v52" "rseg_4_v3_0/v48" 3.48976
+cap "rseg_4_v3_0/v61" "rseg_4_v3_0/v55" 0.0252546
+cap "rseg_4_v3_0/v46" "rseg_4_v3_0/v54" 0.0176583
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/v55" 0.032362
+cap "rseg_4_v3_0/v42" "rseg_4_v3_0/a_12838_n21572#" 0.329986
+cap "rseg_4_v3_0/v48" "rseg_4_v3_0/v49" 43.4622
+cap "rseg_4_v3_0/v50" "rseg_4_v3_0/v48" 246.377
+cap "rseg_4_v3_0/v48" "rseg_4_v3_0/v55" 4.49981
+cap "rseg_4_v3_0/v53" "rseg_4_v3_0/v49" 0.720078
+cap "rseg_4_v3_0/v52" "rseg_4_v3_0/v51" 4.77172
+cap "rseg_4_v3_0/v46" "rseg_4_v3_0/a_12838_n21572#" 0.300583
+cap "pin_8_even_3/m1_2367_3153#" "rseg_4_v3_0/v55" 0.028479
+cap "rseg_4_v3_0/v48" "rseg_4_v3_0/v54" 3.39099
+cap "rseg_4_v3_0/v48" "rseg_4_v3_0/v44" 0.671696
+cap "rseg_4_v3_0/v48" "pin_8_even_2/m1_1575_2955#" 0.934365
+cap "rseg_4_v3_0/v49" "rseg_4_v3_0/v51" 15.1313
+cap "rseg_4_v3_0/v61" "rseg_4_v3_0/a_12838_n21572#" 0.162324
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/a_12838_n21572#" 0.359918
+cap "rseg_4_v3_0/v53" "rseg_4_v3_0/v54" 2.72778
+cap "rseg_4_v3_0/v48" "rseg_4_v3_0/a_12838_n21572#" 87.3577
+cap "rseg_4_v3_0/v50" "rseg_4_v3_0/v56" 5.95238
+cap "rseg_4_v3_0/v48" "rseg_4_v3_0/v42" 0.983873
+cap "rseg_4_v3_0/v47" "rseg_4_v3_0/v54" 0.0255927
+cap "rseg_4_v3_0/v56" "rseg_4_v3_0/v55" 3.15287
+cap "rseg_4_v3_0/v53" "rseg_4_v3_0/v59" 1.49701
+cap "rseg_4_v3_0/v62" "rseg_4_v3_0/v56" 0.0385046
+cap "rseg_4_v3_0/v58" "rseg_4_v3_0/v56" 0.0294235
+cap "rseg_4_v3_0/v54" "rseg_4_v3_0/v57" 25.8877
+cap "rseg_4_v3_0/v53" "rseg_4_v3_0/v54" 2.62485
+cap "rseg_4_v3_0/v57" "rseg_4_v3_0/v51" 1.37615
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/a_12838_n21572#" 224.635
+cap "rseg_4_v3_0/v60" "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" 99.3321
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/v56" 6.87465
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/v61" 1.13687e-13
+cap "rseg_4_v3_0/v52" "rseg_4_v3_0/a_12838_n21572#" 1.24573
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/v62" 15.6316
+cap "rseg_4_v3_0/v60" "rseg_4_v3_0/a_12838_n21572#" 57.0803
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/v58" 32.7058
+cap "rseg_4_v3_0/v57" "rseg_4_v3_0/v56" 6.72907
+cap "rseg_4_v3_0/v61" "rseg_4_v3_0/v54" 20.1452
+cap "rseg_4_v3_0/v62" "rseg_4_v3_0/a_12838_n21572#" 32.6215
+cap "rseg_4_v3_0/v54" "rseg_4_v3_0/v56" 110.615
+cap "rseg_4_v3_0/v58" "rseg_4_v3_0/a_12838_n21572#" 100.46
+cap "rseg_4_v3_0/v58" "rseg_4_v3_0/v52" 3.84615
+cap "rseg_4_v3_0/v60" "rseg_4_v3_0/v58" 6.39488e-14
+cap "rseg_4_v3_0/v50" "rseg_4_v3_0/v56" 5.95238
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" 2.236
+cap "rseg_4_v3_0/v58" "rseg_4_v3_0/v62" 7.10543e-15
+cap "rseg_4_v3_0/v55" "rseg_4_v3_0/v56" 3.10637
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/a_12838_n21572#" 83.6749
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/v52" 0.548721
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/v57" 21.7006
+cap "rseg_4_v3_0/v61" "rseg_4_v3_0/v56" 6.81673
+cap "rseg_4_v3_0/v57" "rseg_4_v3_0/v52" 1.1381
+cap "rseg_4_v3_0/v57" "rseg_4_v3_0/a_12838_n21572#" 126.758
+cap "rseg_4_v3_0/v54" "rseg_4_v3_0/v52" 0.425121
+cap "rseg_4_v3_0/v54" "rseg_4_v3_0/a_12838_n21572#" 37.4641
+cap "pin_8_odd_3/m1_441_3065#" "rseg_4_v3_0/a_12838_n21572#" 0.0108251
+cap "rseg_4_v3_0/v50" "rseg_4_v3_0/a_12838_n21572#" 0.0710166
+cap "rseg_4_v3_0/v54" "rseg_4_v3_0/v58" 0.127288
+cap "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "rseg_4_v3_0/v56" 54.2062
+cap "rseg_4_v3_0/v61" "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" 4.00192
+cap "rseg_4_v3_0/v61" "rseg_4_v3_0/v52" 0.341776
+cap "rseg_4_v3_0/a_12838_n21572#" "rseg_4_v3_0/v56" 177.441
+cap "rseg_4_v3_0/v61" "rseg_4_v3_0/a_12838_n21572#" 119.065
+cap "rseg_4_v3_0/v52" "rseg_4_v3_0/v56" 2.50582
+cap "rseg_4_v3_0/v60" "rseg_4_v3_0/v56" 0.0335078
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/v57" 1.7053e-13
+cap "rseg_4_v3_0/v59" "rseg_4_v3_0/v54" 31.5887
+cap "rseg_4_v3_0/v49" "rseg_4_v3_0/a_12838_n21572#" 0.0107141
+cap "rseg_4_v3_0/v62" "rseg_4_v3_0/v60" 3.35001
+cap "rseg_4_v3_0/v62" "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" 21.5464
+cap "rseg_4_v3_0/rseg_4_7_0/sky130_fd_pr__res_xhigh_po_1p41_JGC4EQ_0/a_n141_n543#" "rseg_4_v3_0/v60" 72.2096
+cap "rseg_4_v3_0/v58" "rseg_4_v3_0/v62" 2.89201
+cap "rseg_4_v3_0/rseg_4_7_0/sky130_fd_pr__res_xhigh_po_1p41_JGC4EQ_0/a_n141_n543#" "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" -31.9552
+cap "rseg_4_v3_0/v60" "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" 122.248
+cap "rseg_4_v3_0/rseg_4_7_0/sky130_fd_pr__res_xhigh_po_1p41_JGC4EQ_0/a_n141_n543#" "rseg_4_v3_0/v58" 66.845
+cap "rseg_4_v3_0/v58" "rseg_4_v3_0/v60" -1.42109e-14
+cap "rseg_4_v3_0/v58" "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" 29.4071
+cap "rseg_4_v3_0/rseg_4_7_0/sky130_fd_pr__res_xhigh_po_1p41_JGC4EQ_0/a_n141_n543#" "rseg_4_v3_0/v62" 153.669
+merge "rseg_4_v3_0/v46" "pin_8_even_rigth_2/m1_2907_2955#" -195.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 -240 0 0 0 0 0 0 0 0
+merge "pin_8_even_rigth_2/m1_2907_2955#" "pin_8_even_2/m1_2543_3329#"
+merge "pin_8_even_2/m1_2543_3329#" "m2_9094_3335#"
+merge "pin_8_even_rigth_3/VSUBS" "pin_8_even_3/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pin_8_even_3/VSUBS" "pin_8_odd_right_3/VSUBS"
+merge "pin_8_odd_right_3/VSUBS" "pin_8_even_rigth_2/VSUBS"
+merge "pin_8_even_rigth_2/VSUBS" "pin_8_odd_3/VSUBS"
+merge "pin_8_odd_3/VSUBS" "pin_8_even_2/VSUBS"
+merge "pin_8_even_2/VSUBS" "pin_8_odd_right_1/VSUBS"
+merge "pin_8_odd_right_1/VSUBS" "pin_8_odd_1/VSUBS"
+merge "pin_8_odd_1/VSUBS" "pin_8_even_rigth_1/VSUBS"
+merge "pin_8_even_rigth_1/VSUBS" "pin_8_even_1/VSUBS"
+merge "pin_8_even_1/VSUBS" "pin_8_odd_right_0/VSUBS"
+merge "pin_8_odd_right_0/VSUBS" "pin_8_odd_0/VSUBS"
+merge "pin_8_odd_0/VSUBS" "pin_8_even_rigth_0/VSUBS"
+merge "pin_8_even_rigth_0/VSUBS" "pin_8_even_0/VSUBS"
+merge "pin_8_even_0/VSUBS" "pin_8_odd_2/VSUBS"
+merge "pin_8_odd_2/VSUBS" "pin_8_odd_right_2/VSUBS"
+merge "pin_8_odd_right_2/VSUBS" "rseg_4_v3_0/a_12838_n21572#"
+merge "rseg_4_v3_0/a_12838_n21572#" "VSUBS"
+merge "rseg_4_v3_0/v60" "pin_8_even_rigth_3/m1_2995_2955#" -299.647 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 -240 0 0 0 0 0 0 0 0
+merge "pin_8_even_rigth_3/m1_2995_2955#" "pin_8_even_3/m1_2367_3153#"
+merge "pin_8_even_3/m1_2367_3153#" "m2_12432_3159#"
+merge "rseg_4_v3_0/v10" "pin_8_even_rigth_0/m1_3083_2955#" -219.453 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -4500 -270 0 0 0 0 0 0 0 0
+merge "pin_8_even_rigth_0/m1_3083_2955#" "pin_8_even_0/m1_2191_3241#"
+merge "rseg_4_v3_0/v5" "pin_8_odd_2/m1_177_2955#" -92.5935 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/m1_14122_n18814#" "pin_8_odd_2/m1_441_3065#" -247.115 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v1" "pin_8_odd_2/m1_529_2955#" -89.2975 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v57" "pin_8_even_3/m1_1663_2955#" -111.442 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v54" "pin_8_odd_right_3/m1_1487_2955#" -208.597 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -1200 -160 0 0 0 0 0 0 0 0
+merge "pin_8_odd_right_3/m1_1487_2955#" "pin_8_odd_3/m1_969_3417#"
+merge "rseg_4_v3_0/rseg_4_6_0/rseg_4_pin_left_v2_4/m1_10045_n17031#" "rseg_4_v3_0/v43" -81.6311 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v43" "pin_8_even_2/m1_1751_2955#"
+merge "rseg_4_v3_0/v18" "pin_8_odd_right_0/m1_1311_2955#" -331.892 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -7920 -384 0 0 0 0 0 0 0 0
+merge "pin_8_odd_right_0/m1_1311_2955#" "pin_8_odd_0/m1_617_3065#"
+merge "rseg_4_v3_0/rseg_4_6_0/rseg_4_pin_right_even_v2_1/m1_10099_n17684#" "rseg_4_v3_0/v42" -240.494 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 -240 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v42" "pin_8_even_rigth_2/m1_3083_2955#"
+merge "pin_8_even_rigth_2/m1_3083_2955#" "pin_8_even_2/m1_2191_3241#"
+merge "pin_8_even_2/m1_2191_3241#" "m2_9094_3247#"
+merge "rseg_4_v3_0/v30" "pin_8_even_rigth_1/m1_2907_2955#" -182.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -2400 -200 0 0 0 0 0 0 0 0
+merge "pin_8_even_rigth_1/m1_2907_2955#" "pin_8_even_1/m1_2543_3329#"
+merge "rseg_4_v3_0/v52" "pin_8_odd_right_3/m1_1399_2955#" -145.805 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -1200 -160 0 0 0 0 0 0 0 0
+merge "pin_8_odd_right_3/m1_1399_2955#" "pin_8_odd_3/m1_793_3241#"
+merge "rseg_4_v3_0/v6" "pin_8_odd_2/m1_969_3417#" -246.649 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -9840 -448 0 0 0 0 0 0 0 0
+merge "pin_8_odd_2/m1_969_3417#" "pin_8_odd_right_2/m1_1487_2955#"
+merge "rseg_4_v3_0/v47" "pin_8_even_2/m1_2279_2955#" -241.877 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v44" "pin_8_even_rigth_2/m1_2995_2955#" -219.372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 -240 0 0 0 0 0 0 0 0
+merge "pin_8_even_rigth_2/m1_2995_2955#" "pin_8_even_2/m1_2367_3153#"
+merge "pin_8_even_2/m1_2367_3153#" "m2_9094_3159#"
+merge "rseg_4_v3_0/v12" "pin_8_even_rigth_0/m1_2995_2955#" -214.767 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -4500 -270 0 0 0 0 0 0 0 0
+merge "pin_8_even_rigth_0/m1_2995_2955#" "pin_8_even_0/m1_2367_3153#"
+merge "rseg_4_v3_0/v24" "pin_8_even_1/m1_1575_2955#" -180.862 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v28" "pin_8_even_rigth_1/m1_2995_2955#" -206.134 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -2400 -200 0 0 0 0 0 0 0 0
+merge "pin_8_even_rigth_1/m1_2995_2955#" "pin_8_even_1/m1_2367_3153#"
+merge "rseg_4_v3_0/v45" "pin_8_even_2/m1_1839_2955#" -76.1967 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v9" "pin_8_even_0/m1_1663_2955#" -101.142 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v20" "pin_8_odd_right_0/m1_1399_2955#" -153.66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -7920 -384 0 0 0 0 0 0 0 0
+merge "pin_8_odd_right_0/m1_1399_2955#" "pin_8_odd_0/m1_793_3241#"
+merge "rseg_4_v3_0/v53" "pin_8_odd_3/m1_177_2955#" -84.3991 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v48" "pin_8_odd_3/m1_441_3065#" -341.181 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v49" "pin_8_odd_3/m1_529_2955#" -87.0847 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v19" "pin_8_odd_0/m1_265_2955#" -156.331 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/rseg_4_5_0/XR33/a_n141_70#" "rseg_4_v3_0/v33" -88.1679 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v33" "pin_8_odd_1/m1_529_2955#"
+merge "rseg_4_v3_0/v2" "pin_8_odd_2/m1_617_3065#" -334.609 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -9840 -448 0 0 0 0 0 0 0 0
+merge "pin_8_odd_2/m1_617_3065#" "pin_8_odd_right_2/m1_1311_2955#"
+merge "rseg_4_v3_0/v62" "rseg_4_v3_0/rseg_4_8_0/m1_25323_n23753#" -309.496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1472 0 -240 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/rseg_4_8_0/m1_25323_n23753#" "m1_12878_2631#"
+merge "m1_12878_2631#" "pin_8_even_rigth_3/m1_2907_2955#"
+merge "pin_8_even_rigth_3/m1_2907_2955#" "pin_8_even_3/m1_2543_3329#"
+merge "pin_8_even_3/m1_2543_3329#" "m2_12432_3335#"
+merge "rseg_4_v3_0/v26" "pin_8_even_rigth_1/m1_3083_2955#" -219.042 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -2400 -200 0 0 0 0 0 0 0 0
+merge "pin_8_even_rigth_1/m1_3083_2955#" "pin_8_even_1/m1_2191_3241#"
+merge "rseg_4_v3_0/v55" "pin_8_odd_3/m1_89_2955#" -166.891 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v7" "pin_8_odd_2/m1_89_2955#" -74.9778 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v56" "pin_8_even_3/m1_1575_2955#" -192.345 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v41" "pin_8_even_2/m1_1663_2955#" -100.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v3" "pin_8_odd_2/m1_265_2955#" -148.986 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v27" "pin_8_even_1/m1_1751_2955#" -81.9382 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v39" "pin_8_odd_1/m1_89_2955#" -169.196 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v4" "pin_8_odd_2/m1_793_3241#" -151.762 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -9840 -448 0 0 0 0 0 0 0 0
+merge "pin_8_odd_2/m1_793_3241#" "pin_8_odd_right_2/m1_1399_2955#"
+merge "rseg_4_v3_0/v22" "pin_8_odd_right_0/m1_1487_2955#" -242.589 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -7920 -384 0 0 0 0 0 0 0 0
+merge "pin_8_odd_right_0/m1_1487_2955#" "pin_8_odd_0/m1_969_3417#"
+merge "rseg_4_v3_0/v14" "pin_8_even_rigth_0/m1_2907_2955#" -189.999 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -4500 -270 0 0 0 0 0 0 0 0
+merge "pin_8_even_rigth_0/m1_2907_2955#" "pin_8_even_0/m1_2543_3329#"
+merge "rseg_4_v3_0/v23" "pin_8_odd_0/m1_89_2955#" -170.259 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v35" "pin_8_odd_1/m1_265_2955#" -155.058 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v38" "pin_8_odd_right_1/m1_1487_2955#" -234.746 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -5820 -314 0 0 0 0 0 0 0 0
+merge "pin_8_odd_right_1/m1_1487_2955#" "pin_8_odd_1/m1_969_3417#"
+merge "rseg_4_v3_0/rseg_4_4_0/sky130_fd_pr__res_xhigh_po_1p41_53UW4Z_0/a_n141_65#" "rseg_4_v3_0/v31" -274.093 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v31" "pin_8_even_1/m1_2279_2955#"
+merge "pin_8_even_3/m1_2279_2955#" "m1_11563_2955#" -564.643 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2760 -452 0 0 0 0 0 0 0 0 0 0
+merge "m1_11563_2955#" "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#"
+merge "rseg_4_v3_0/rseg_4_8_0/XR63/a_n141_239#" "m1_11915_2585#"
+merge "rseg_4_v3_0/v61" "pin_8_even_3/m1_1839_2955#" -80.9045 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v50" "pin_8_odd_right_3/m1_1311_2955#" -323.957 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -1200 -160 0 0 0 0 0 0 0 0
+merge "pin_8_odd_right_3/m1_1311_2955#" "pin_8_odd_3/m1_617_3065#"
+merge "rseg_4_v3_0/v8" "pin_8_even_0/m1_1575_2955#" -182.538 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v29" "pin_8_even_1/m1_1839_2955#" -80.6512 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v51" "pin_8_odd_3/m1_265_2955#" -153.91 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v40" "pin_8_even_2/m1_1575_2955#" -180.525 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v34" "pin_8_odd_right_1/m1_1311_2955#" -330.105 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -5820 -314 0 0 0 0 0 0 0 0
+merge "pin_8_odd_right_1/m1_1311_2955#" "pin_8_odd_1/m1_617_3065#"
+merge "rseg_4_v3_0/v58" "pin_8_even_rigth_3/m1_3083_2955#" -190.244 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 -240 0 0 0 0 0 0 0 0
+merge "pin_8_even_rigth_3/m1_3083_2955#" "pin_8_even_3/m1_2191_3241#"
+merge "pin_8_even_3/m1_2191_3241#" "m2_12432_3247#"
+merge "rseg_4_v3_0/v32" "pin_8_odd_1/m1_441_3065#" -341.445 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v21" "pin_8_odd_0/m1_177_2955#" -97.5983 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v16" "pin_8_odd_0/m1_441_3065#" -343.538 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v17" "pin_8_odd_0/m1_529_2955#" -88.7365 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v11" "pin_8_even_0/m1_1751_2955#" -82.4565 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v59" "pin_8_even_3/m1_1751_2955#" -82.6597 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v13" "pin_8_even_0/m1_1839_2955#" -84.4369 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v25" "pin_8_even_1/m1_1663_2955#" -100.707 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v36" "pin_8_odd_right_1/m1_1399_2955#" -151.574 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -5820 -314 0 0 0 0 0 0 0 0
+merge "pin_8_odd_right_1/m1_1399_2955#" "pin_8_odd_1/m1_793_3241#"
+merge "rseg_4_v3_0/v15" "pin_8_even_0/m1_2279_2955#" -287.737 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_v3_0/v37" "pin_8_odd_1/m1_177_2955#" -88.9578 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0

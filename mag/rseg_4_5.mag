@@ -1,0 +1,64 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 14995 -23688 15421 -23626
+rect 14980 -24598 15000 -24012
+rect 15992 -24274 16065 -23688
+rect 15997 -24660 16095 -24336
+rect 14954 -25246 14995 -24660
+rect 15997 -24922 16141 -24660
+rect 14802 -25570 14990 -25308
+rect 16002 -25570 16137 -24984
+rect 14802 -25894 14984 -25570
+rect 16008 -25894 16190 -25632
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_3
+timestamp 1749289931
+transform 1 0 4774 0 1 -8215
+box 9957 -17679 10206 -15149
+use rseg_4_pin_right_odd  rseg_4_pin_right_odd_2
+timestamp 1749289931
+transform 1 0 6063 0 1 -8534
+box 9944 -17360 10281 -14830
+use sky130_fd_pr__res_xhigh_po_1p41_6E4SWG  sky130_fd_pr__res_xhigh_po_1p41_6E4SWG_0
+timestamp 1748944356
+transform 0 -1 15496 -1 0 -24143
+box -141 -502 141 502
+use sky130_fd_pr__res_xhigh_po_1p41_6E4UWG  sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0
+timestamp 1749204500
+transform 0 -1 15496 -1 0 -23171
+box -141 -502 141 502
+use sky130_fd_pr__res_xhigh_po_1p41_9JVM35  sky130_fd_pr__res_xhigh_po_1p41_9JVM35_0
+timestamp 1748944356
+transform 0 -1 15496 -1 0 -24791
+box -141 -507 141 507
+use sky130_fd_pr__res_xhigh_po_1p41_355LL6  sky130_fd_pr__res_xhigh_po_1p41_355LL6_0
+timestamp 1749204500
+transform 0 -1 15496 -1 0 -26087
+box -141 -518 141 518
+use sky130_fd_pr__res_xhigh_po_1p41_VXMCTQ  sky130_fd_pr__res_xhigh_po_1p41_VXMCTQ_0
+timestamp 1748944356
+transform 0 -1 15496 -1 0 -25439
+box -141 -512 141 512
+use sky130_fd_pr__res_xhigh_po_1p41_6E4SWG  XR33
+timestamp 1748944356
+transform 0 -1 15496 -1 0 -23495
+box -141 -502 141 502
+use sky130_fd_pr__res_xhigh_po_1p41_9JVM35  XR34
+timestamp 1748944356
+transform 0 -1 15496 -1 0 -23819
+box -141 -507 141 507
+use sky130_fd_pr__res_xhigh_po_1p41_VXMCTQ  XR36
+timestamp 1748944356
+transform 0 -1 15496 -1 0 -24467
+box -141 -512 141 512
+use sky130_fd_pr__res_xhigh_po_1p41_VXMCTQ  XR38
+timestamp 1748944356
+transform 0 -1 15496 -1 0 -25115
+box -141 -512 141 512
+use sky130_fd_pr__res_xhigh_po_1p41_355JL6  XR40
+timestamp 1748944356
+transform 0 -1 15496 -1 0 -25763
+box -141 -518 141 518
+<< end >>

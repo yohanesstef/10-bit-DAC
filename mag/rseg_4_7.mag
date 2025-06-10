@@ -1,0 +1,66 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 20972 -23755 21393 -23693
+rect 22046 -24017 22129 -23755
+rect 20889 -24665 20962 -24079
+rect 22056 -24341 22129 -24017
+rect 22056 -24665 22149 -24403
+rect 20816 -25313 20951 -24727
+rect 22067 -24989 22149 -24665
+rect 22067 -25313 22212 -25051
+rect 20754 -25637 20941 -25375
+rect 22077 -25637 22212 -25313
+rect 20754 -25961 20936 -25637
+rect 22082 -25961 22264 -25699
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_5
+timestamp 1749289931
+transform 1 0 10751 0 1 -8282
+box 9957 -17679 10206 -15149
+use rseg_4_pin_right_odd  rseg_4_pin_right_odd_3
+timestamp 1749289931
+transform 1 0 12117 0 1 -8601
+box 9944 -17360 10281 -14830
+use sky130_fd_pr__res_xhigh_po_1p41_2RWHPC  sky130_fd_pr__res_xhigh_po_1p41_2RWHPC_0
+timestamp 1748943310
+transform 0 -1 21509 -1 0 -25506
+box -141 -574 141 574
+use sky130_fd_pr__res_xhigh_po_1p41_4LVXVX  sky130_fd_pr__res_xhigh_po_1p41_4LVXVX_0
+timestamp 1748943310
+transform 0 -1 21509 -1 0 -25182
+box -141 -564 141 564
+use sky130_fd_pr__res_xhigh_po_1p41_C9MDUT  sky130_fd_pr__res_xhigh_po_1p41_C9MDUT_0
+timestamp 1749206153
+transform 0 -1 21509 -1 0 -26154
+box -141 -579 141 579
+use sky130_fd_pr__res_xhigh_po_1p41_JGC2EQ  sky130_fd_pr__res_xhigh_po_1p41_JGC2EQ_0
+timestamp 1749147327
+transform 0 -1 21509 -1 0 -23886
+box -141 -543 141 543
+use sky130_fd_pr__res_xhigh_po_1p41_JGC4EQ  sky130_fd_pr__res_xhigh_po_1p41_JGC4EQ_0
+timestamp 1749206153
+transform 0 -1 21509 -1 0 -23238
+box -141 -543 141 543
+use sky130_fd_pr__res_xhigh_po_1p41_M5C4B9  sky130_fd_pr__res_xhigh_po_1p41_M5C4B9_0
+timestamp 1748943310
+transform 0 -1 21509 -1 0 -24534
+box -141 -553 141 553
+use sky130_fd_pr__res_xhigh_po_1p41_JGC2EQ  XR49
+timestamp 1749147327
+transform 0 -1 21509 -1 0 -23562
+box -141 -543 141 543
+use sky130_fd_pr__res_xhigh_po_1p41_M5C4B9  XR51
+timestamp 1748943310
+transform 0 -1 21509 -1 0 -24210
+box -141 -553 141 553
+use sky130_fd_pr__res_xhigh_po_1p41_4LVXVX  XR53
+timestamp 1748943310
+transform 0 -1 21509 -1 0 -24858
+box -141 -564 141 564
+use sky130_fd_pr__res_xhigh_po_1p41_C9MFUT  XR56
+timestamp 1749147327
+transform 0 -1 21509 -1 0 -25830
+box -141 -579 141 579
+<< end >>

@@ -1,0 +1,17 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749548291
+<< metal1 >>
+rect 65 142 71 194
+rect 123 142 129 194
+<< via1 >>
+rect 71 142 123 194
+<< metal2 >>
+rect -41 142 71 194
+rect 123 142 235 194
+use sky130_fd_pr__nfet_g5v0d10v5_NQHLCX  sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0
+timestamp 1749548291
+transform 1 0 97 0 1 102
+box -108 -99 108 99
+<< end >>

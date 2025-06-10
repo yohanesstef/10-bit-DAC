@@ -1,4 +1,4 @@
-v {xschem version=3.4.7 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -107,7 +107,6 @@ node="vh
 vl"}
 N 1210 -190 1390 -190 {lab=gnd}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
-C {devices/lab_pin.sym} 1060 -340 0 1 {name=p3 sig_type=std_logic lab=v[0:48]}
 C {devices/launcher.sym} 290 -580 0 0 {name=h5
 descr="load tran" 
 tclcommand="xschem raw_read $netlist_dir/res_seg_2-tb.raw tran"
@@ -120,74 +119,12 @@ C {devices/launcher.sym} 655 -580 0 0 {name=h2
 descr="Show Raw file" 
 tclcommand="textwindow $netlist_dir/res_seg_1-tb.raw"
 }
-C {devices/lab_pin.sym} 760 -340 0 0 {name=p16 sig_type=std_logic lab=gnd}
-C {res_seg_2.sym} 910 -340 0 0 {name=x1}
-C {devices/lab_pin.sym} 1060 -290 0 1 {name=p1 sig_type=std_logic lab=VH}
-C {devices/lab_pin.sym} 760 -290 0 0 {name=p4 sig_type=std_logic lab=v[0:48]}
-C {devices/lab_pin.sym} 760 -270 0 0 {name=p5 sig_type=std_logic lab=d0[0:2]}
-C {devices/lab_pin.sym} 760 -250 0 0 {name=p6 sig_type=std_logic lab=d1[0:3]}
-C {devices/lab_pin.sym} 760 -230 0 0 {name=p7 sig_type=std_logic lab=d2[0:3]}
-C {devices/lab_pin.sym} 760 -210 0 0 {name=p8 sig_type=std_logic lab=gnd}
-C {devices/simulator_commands.sym} 10 -330 0 0 {name=COMMANDS
-simulator=ngspice
-only_toplevel=false 
-value="  
-  .option wnflag=1
-  .option safecurrents
-  .options reltol=1e-5
-  .option klu
-  ********************Static Voltage Sources***************************
-  Vddh vddh gnd dc 5.5
-  Vdd vdd gnd dc 1.8
-
-  .param vpb_val = 2.98 vnb_val=1.506
-  Vp vpbias gnd dc vpb_val
-  Vn vnbias gnd dc vnb_val
-
-  V52 v[48] gnd dc 4.0164
-  v0 v[0] gnd dc 1.0442
-  ********************Dynamic Voltage Sources***************************
-  *******Calculation**********
-  .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
-  .param b4_th=\{base_th\} b4_t=\{b4_th*2\}
-  .param b5_th=\{b4_th*2\} b5_t=\{b5_th*2\}
-  .param b6_th=\{b5_th*2\} b6_t=\{b6_th*2\}
-  .param b7_th=\{b6_th*2\} b7_t=\{b7_th*2\}
-  .param b8_th=\{b7_th*2\} b8_t=\{b8_th*2\}
-  .param b9_th=\{b8_th*2\} b9_t=\{b9_th*2\}
-
-  .param delay_6 = \{base_d+b5_t\}
-  .param delay_7 = \{delay_6\}
-  .param delay_8 = \{delay_7+b7_th\}
-  .param delay_9 = \{delay_8+b8_th\}
-  *******Signals**********
-  .param vhi=1.8
-  Vb4  b[4]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
-  Vb5  b[5]  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
-  Vb6  b[6]  gnd pulse(\{vhi\} 0 \{delay_6\} 1n 1n \{b6_th\} \{b6_t\})
-  Vb7  b[7]  gnd pulse(0 \{vhi\} \{delay_7\} 1n 1n \{b7_th\} \{b7_t\})
-  Vb8  b[8]  gnd pulse(0 \{vhi\} \{delay_8\} 1n 1n \{b8_th\} \{b8_t\})
-  Vb9  b[9]  gnd pulse(0 \{vhi\} \{delay_9\} 1n 1n \{b9_th\} \{b9_t\})
-
-  Vbb4  bb[4]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b4_th\} \{b4_t\})
-  Vbb5  bb[5]  gnd pulse(0 \{vhi\} \{base_d\} 1n 1n \{b5_th\} \{b5_t\})
-  Vbb6  bb[6]  gnd pulse(0 \{vhi\} \{delay_6\} 1n 1n \{b6_th\} \{b6_t\})
-  Vbb7  bb[7]  gnd pulse(\{vhi\} 0 \{delay_7\} 1n 1n \{b7_th\} \{b7_t\})
-  Vbb8  bb[8]  gnd pulse(\{vhi\} 0 \{delay_8\} 1n 1n \{b8_th\} \{b8_t\})
-  Vbb9  bb[9]  gnd pulse(\{vhi\} 0 \{delay_9\} 1n 1n \{b9_th\} \{b9_t\})
-  ********************Simulation Commands*****************************
-  .control
-     reset
-     set num_threads=50
-     save all
-     tran 10n 260u
-     write res_seg_2-tb.raw
-     set appendwrite
-*    quit 0
-  .endc
-"}
-C {vselector_6b_2v.sym} 910 -250 0 0 {name=x2}
-C {devices/lab_pin.sym} 1060 -270 0 1 {name=p2 sig_type=std_logic lab=VL}
+C {devices/lab_pin.sym} 760 -250 0 0 {name=p16 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 1060 -350 0 1 {name=p1 sig_type=std_logic lab=VH}
+C {devices/lab_pin.sym} 760 -310 0 0 {name=p5 sig_type=std_logic lab=d0[0:2]}
+C {devices/lab_pin.sym} 760 -290 0 0 {name=p6 sig_type=std_logic lab=d1[0:3]}
+C {devices/lab_pin.sym} 760 -270 0 0 {name=p7 sig_type=std_logic lab=d2[0:3]}
+C {devices/lab_pin.sym} 1060 -330 0 1 {name=p2 sig_type=std_logic lab=VL}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1210 -220 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=4 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1390 -220 0 0 {name=C2 model=cap_mim_m3_1 W=1 L=1 MF=4 spiceprefix=X}
 C {devices/lab_pin.sym} 1390 -250 2 0 {name=p15 sig_type=std_logic lab=VH}
@@ -231,3 +168,9 @@ C {devices/lab_pin.sym} 760 -420 0 0 {name=p36 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 760 -400 0 0 {name=p37 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 1060 -460 0 1 {name=p39 sig_type=std_logic lab=BS[8:9]}
 C {devices/lab_pin.sym} 270 -440 0 0 {name=p27 sig_type=std_logic lab=BS[8:9]}
+C {devices/lab_pin.sym} 760 -350 0 0 {name=p38 sig_type=std_logic lab=V0}
+C {devices/lab_pin.sym} 760 -330 0 0 {name=p40 sig_type=std_logic lab=V48}
+C {top_segment_2_posim.sym} 910 -300 0 0 {name=x1}
+C {devices/code_shown.sym} -240 -280 0 0 {name=s1 only_toplevel=false value="
+.include $THESIS_WS/spice/rseg_2_tb.sp
+"}

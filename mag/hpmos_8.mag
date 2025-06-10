@@ -1,0 +1,46 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749415301
+<< nwell >>
+rect 227 -172 2775 436
+<< mvnsubdiff >>
+rect 293 358 2709 370
+rect 293 324 401 358
+rect 2601 324 2709 358
+rect 293 312 2709 324
+rect 293 262 351 312
+rect 293 2 305 262
+rect 339 2 351 262
+rect 293 -48 351 2
+rect 2651 262 2709 312
+rect 2651 2 2663 262
+rect 2697 2 2709 262
+rect 2651 -48 2709 2
+rect 293 -60 2709 -48
+rect 293 -94 401 -60
+rect 2601 -94 2709 -60
+rect 293 -106 2709 -94
+<< mvnsubdiffcont >>
+rect 401 324 2601 358
+rect 305 2 339 262
+rect 2663 2 2697 262
+rect 401 -94 2601 -60
+<< locali >>
+rect 305 324 401 358
+rect 2601 324 2697 358
+rect 305 262 339 324
+rect 305 -60 339 2
+rect 2663 262 2697 324
+rect 2663 -60 2697 2
+rect 305 -94 401 -60
+rect 2601 -94 2697 -60
+use hpmos_4  hpmos_4_0
+timestamp 1749384553
+transform 1 0 -17 0 1 -43
+box 378 31 1554 281
+use hpmos_4  hpmos_4_1
+timestamp 1749384553
+transform 1 0 1087 0 1 -43
+box 378 31 1554 281
+<< end >>

@@ -1,0 +1,65 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 7763 -23572 8179 -23510
+rect 8715 -23834 8735 -23572
+rect 7743 -24220 7756 -23896
+rect 8718 -24158 8735 -23834
+rect 7743 -24482 7758 -24220
+rect 7717 -25130 7758 -24544
+rect 8720 -24806 8823 -24220
+rect 8720 -25130 8849 -24868
+rect 7676 -25778 7753 -25192
+rect 8725 -25454 8849 -25130
+rect 8725 -25778 8890 -25516
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_1
+timestamp 1749289931
+transform 1 0 -2463 0 1 -8099
+box 9957 -17679 10206 -15149
+use rseg_4_pin_right_odd  rseg_4_pin_right_odd_1
+timestamp 1749289931
+transform 1 0 -1209 0 1 -8418
+box 9944 -17360 10281 -14830
+use sky130_fd_pr__res_xhigh_po_1p41_238JSU  sky130_fd_pr__res_xhigh_po_1p41_238JSU_0
+timestamp 1749123380
+transform 0 -1 8239 -1 0 -23055
+box -141 -487 141 487
+use sky130_fd_pr__res_xhigh_po_1p41_238LSU  sky130_fd_pr__res_xhigh_po_1p41_238LSU_0
+timestamp 1748944356
+transform 0 -1 8239 -1 0 -24999
+box -141 -487 141 487
+use sky130_fd_pr__res_xhigh_po_1p41_B5ZH9J  sky130_fd_pr__res_xhigh_po_1p41_B5ZH9J_0
+timestamp 1749202939
+transform 0 -1 8239 -1 0 -25971
+box -141 -492 141 492
+use sky130_fd_pr__res_xhigh_po_1p41_C5Z94V  sky130_fd_pr__res_xhigh_po_1p41_C5Z94V_0
+timestamp 1748944356
+transform 0 -1 8239 -1 0 -23703
+box -141 -482 141 482
+use sky130_fd_pr__res_xhigh_po_1p41_238LSU  XR17
+timestamp 1748944356
+transform 0 -1 8239 -1 0 -23379
+box -141 -487 141 487
+use sky130_fd_pr__res_xhigh_po_1p41_238LSU  XR19
+timestamp 1748944356
+transform 0 -1 8237 -1 0 -24027
+box -141 -487 141 487
+use sky130_fd_pr__res_xhigh_po_1p41_238LSU  XR20
+timestamp 1748944356
+transform 0 -1 8239 -1 0 -24351
+box -141 -487 141 487
+use sky130_fd_pr__res_xhigh_po_1p41_238LSU  XR21
+timestamp 1748944356
+transform 0 -1 8239 -1 0 -24675
+box -141 -487 141 487
+use sky130_fd_pr__res_xhigh_po_1p41_B5ZK9J  XR23
+timestamp 1748944356
+transform 0 -1 8239 -1 0 -25323
+box -141 -492 141 492
+use sky130_fd_pr__res_xhigh_po_1p41_B5ZK9J  XR24
+timestamp 1748944356
+transform 0 -1 8239 -1 0 -25647
+box -141 -492 141 492
+<< end >>

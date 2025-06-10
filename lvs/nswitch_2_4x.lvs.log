@@ -1,0 +1,61 @@
+Netgen 1.5.292 compiled on Thu Mar  6 15:36:50 +07 2025
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/yohanes/10-bit-DAC/lvs/nswitch_2_4x.ext.spc
+Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5
+Creating placeholder cell definition.
+Reading netlist file /home/yohanes/10-bit-DAC/lvs/nswitch_2_4x.sch.spc
+Call to undefined subcircuit vselector_1b
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5
+Creating placeholder cell definition.
+
+Reading setup file /home/yohanes/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+Model sky130_fd_pr__nfet_g5v0d10v5 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sa found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sb found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nf found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrs found for device sky130_fd_pr__nfet_g5v0d10v5
+No property area found for device sky130_fd_pr__nfet_g5v0d10v5
+No property perim found for device sky130_fd_pr__nfet_g5v0d10v5
+No property topography found for device sky130_fd_pr__nfet_g5v0d10v5
+Model sky130_fd_pr__nfet_g5v0d10v5 pin 1 == 3
+No property as found for device sky130_fd_pr__nfet_g5v0d10v5
+No property ad found for device sky130_fd_pr__nfet_g5v0d10v5
+No property ps found for device sky130_fd_pr__nfet_g5v0d10v5
+No property pd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property mult found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sa found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sb found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrs found for device sky130_fd_pr__nfet_g5v0d10v5
+No property area found for device sky130_fd_pr__nfet_g5v0d10v5
+No property perim found for device sky130_fd_pr__nfet_g5v0d10v5
+No property topography found for device sky130_fd_pr__nfet_g5v0d10v5
+Comparison output logged to file /home/yohanes/10-bit-DAC/lvs/nswitch_2_4x.lvs.out
+Logging to file "/home/yohanes/10-bit-DAC/lvs/nswitch_2_4x.lvs.out" enabled
+Circuit sky130_fd_pr__nfet_g5v0d10v5 contains no devices.
+
+Contents of circuit 1:  Circuit: 'nswitch_2_4x'
+Circuit nswitch_2_4x contains 8 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   8
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'nswitch_2_4x'
+Circuit nswitch_2_4x contains 8 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   8
+Circuit contains 12 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 12 nets,    Circuit 2 contains 12 nets.
+
+
+Final result: 
+Circuits match uniquely.
+.
+Logging to file "/home/yohanes/10-bit-DAC/lvs/nswitch_2_4x.lvs.out" disabled
+LVS Done.

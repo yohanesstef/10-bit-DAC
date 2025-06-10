@@ -1,0 +1,46 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749548291
+<< pwell >>
+rect -137 -180 2351 358
+<< mvpsubdiff >>
+rect -101 310 2315 322
+rect -101 276 7 310
+rect 2207 276 2315 310
+rect -101 264 2315 276
+rect -101 214 -43 264
+rect -101 -36 -89 214
+rect -55 -36 -43 214
+rect -101 -86 -43 -36
+rect 2257 214 2315 264
+rect 2257 -36 2269 214
+rect 2303 -36 2315 214
+rect 2257 -86 2315 -36
+rect -101 -98 2315 -86
+rect -101 -132 7 -98
+rect 2207 -132 2315 -98
+rect -101 -144 2315 -132
+<< mvpsubdiffcont >>
+rect 7 276 2207 310
+rect -89 -36 -55 214
+rect 2269 -36 2303 214
+rect 7 -132 2207 -98
+<< locali >>
+rect -89 276 7 310
+rect 2207 276 2303 310
+rect -89 214 -55 276
+rect -89 -98 -55 -36
+rect 2269 214 2303 276
+rect 2269 -98 2303 -36
+rect -89 -132 7 -98
+rect 2207 -132 2303 -98
+use hnmos_4  hnmos_4_0
+timestamp 1749548291
+transform 1 0 11 0 1 -10
+box -8 0 1096 198
+use hnmos_4  hnmos_4_1
+timestamp 1749548291
+transform 1 0 1115 0 1 -10
+box -8 0 1096 198
+<< end >>

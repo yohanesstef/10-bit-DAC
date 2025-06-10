@@ -1,0 +1,100 @@
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_1p41 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_1p41 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_1p41 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_1p41 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_1p41 |Circuit 2: sky130_fd_pr__res_xhigh_po_1p41 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_1p41 and sky130_fd_pr__res_xhigh_po_1p41 are equivalent.
+Flattening unmatched subcell rseg_3_1 in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_SEMVNL in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_SEMXNL in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_GLTCMD in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_42QADH in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_AFTT8S in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_GVNVJY in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_DZKNT5 in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_J5YLPL in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_47PAZ6 in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_DZKLT5 in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell rseg_3_2 in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_QX57C3 in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_H2U5BC in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_E2U9YT in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_YY58WS in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_KLD4QF in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_4F76E7 in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_HDPFLR in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_5X53DF in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_YY56WS in circuit rseg_3_v3 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_1p41_5X5ZCF in circuit rseg_3_v3 (0)(1 instance)
+
+Class rseg_3_v3 (0):  Merged 2 parallel devices.
+Class rseg_3_v3 (1):  Merged 3 parallel devices.
+Subcircuit summary:
+Circuit 1: rseg_3_v3                       |Circuit 2: rseg_3_v3                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_xhigh_po_1p41 (20->18)   |sky130_fd_pr__res_xhigh_po_1p41 (20->17) * 
+Number of devices: 18 **Mismatch**         |Number of devices: 17 **Mismatch**         
+Number of nets: 19 **Mismatch**            |Number of nets: 18 **Mismatch**            
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: rseg_3_v3                       |Circuit 2: rseg_3_v3                       
+
+---------------------------------------------------------------------------------------
+Net: gnd                                   |Net: gnd                                   
+  sky130_fd_pr__res_xhigh_po_1p41/(1|2) =  |  sky130_fd_pr__res_xhigh_po_1p41/(1|2) =  
+  sky130_fd_pr__res_xhigh_po_1p41/3 = 17   |  sky130_fd_pr__res_xhigh_po_1p41/3 = 17   
+                                           |                                           
+Net: /rseg_3_1_0//sky130_fd_pr__res_xhigh_ |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_1p41/3 = 1    |                                           
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: rseg_3_v3                       |Circuit 2: rseg_3_v3                       
+
+---------------------------------------------------------------------------------------
+Instance: rseg_3_1_0//sky130_fd_pr__res_xh |Instance: sky130_fd_pr__res_xhigh_po_1p41: 
+  (1,2) = (21,21)                          |  (1,2) = (19,19)                          
+  3 = 21                                   |  3 = 19                                   
+                                           |                                           
+Instance: rseg_3_1_0//sky130_fd_pr__res_xh |(no matching instance)                     
+  (1,2) = (21,21)                          |                                           
+  3 = 1                                    |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+
+Subcircuit pins:
+Circuit 1: rseg_3_v3                       |Circuit 2: rseg_3_v3                       
+-------------------------------------------|-------------------------------------------
+gnd                                        |gnd                                        
+v16                                        |v16                                        
+v0                                         |v0                                         
+v2                                         |v2                                         
+v14                                        |v14                                        
+v4                                         |v4                                         
+v12                                        |v12                                        
+v6                                         |v6                                         
+v10                                        |v10                                        
+v8                                         |v8                                         
+v7                                         |v7                                         
+v9                                         |v9                                         
+v5                                         |v5                                         
+v11                                        |v11                                        
+v3                                         |v3                                         
+v13                                        |v13                                        
+v1                                         |v1                                         
+v15                                        |v15                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes rseg_3_v3 and rseg_3_v3 are equivalent.
+
+Final result: Netlists do not match.
+Port matching may fail to disambiguate symmetries.

@@ -1,0 +1,21 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749580325
+use top_segment_1  top_segment_1_0
+timestamp 1749550684
+transform 1 0 13959 0 -1 18816
+box -385 -24 14453 8429
+use top_segment_2  top_segment_2_0
+timestamp 1749580325
+transform -1 0 27516 0 1 1955
+box -870 14 15704 7051
+use top_segment_3  top_segment_3_0
+timestamp 1749552768
+transform -1 0 16433 0 1 1728
+box 5007 266 11251 6636
+use top_segment_4  top_segment_4_1
+timestamp 1749542751
+transform 1 0 -30220 0 -1 6509
+box 29493 -12226 43322 -3773
+<< end >>

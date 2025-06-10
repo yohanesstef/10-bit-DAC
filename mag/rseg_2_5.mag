@@ -1,0 +1,63 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 17928 -20501 18349 -20438
+rect 17912 -21411 17923 -20825
+rect 19700 -21087 19715 -20501
+rect 17887 -21735 17913 -21473
+rect 19710 -21735 19803 -21149
+rect 17887 -22059 17904 -21735
+rect 17846 -22707 17903 -22121
+rect 19725 -22383 19829 -21797
+rect 19741 -22707 19870 -22445
+use rseg_4_pin_right_odd  rseg_4_pin_left_v2_0
+timestamp 1749289931
+transform 1 0 9771 0 1 -5347
+box 9944 -17360 10281 -14830
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_2
+timestamp 1749289931
+transform 1 0 7707 0 1 -5028
+box 9957 -17679 10206 -15149
+use sky130_fd_pr__res_xhigh_po_1p41_9KPRBU  sky130_fd_pr__res_xhigh_po_1p41_9KPRBU_0
+timestamp 1749031149
+transform 0 -1 18814 -1 0 -22900
+box -141 -933 141 933
+use sky130_fd_pr__res_xhigh_po_1p41_9KPTBU  sky130_fd_pr__res_xhigh_po_1p41_9KPTBU_0
+timestamp 1749007001
+transform 0 -1 18814 -1 0 -22576
+box -141 -933 141 933
+use sky130_fd_pr__res_xhigh_po_1p41_CSE6EU  sky130_fd_pr__res_xhigh_po_1p41_CSE6EU_0
+timestamp 1749007001
+transform 0 -1 18814 -1 0 -20956
+box -141 -897 141 897
+use sky130_fd_pr__res_xhigh_po_1p41_KLD4QF  sky130_fd_pr__res_xhigh_po_1p41_KLD4QF_0
+timestamp 1749119180
+transform 0 -1 18814 -1 0 -21280
+box -141 -902 141 902
+use sky130_fd_pr__res_xhigh_po_1p41_P2F3L4  sky130_fd_pr__res_xhigh_po_1p41_P2F3L4_0
+timestamp 1749007001
+transform 0 -1 18814 -1 0 -22252
+box -141 -917 141 917
+use sky130_fd_pr__res_xhigh_po_1p41_Q9DNHD  sky130_fd_pr__res_xhigh_po_1p41_Q9DNHD_0
+timestamp 1749031508
+transform 0 -1 18814 -1 0 -19984
+box -141 -892 141 892
+use sky130_fd_pr__res_xhigh_po_1p41_Q9DQHD  sky130_fd_pr__res_xhigh_po_1p41_Q9DQHD_0
+timestamp 1749007001
+transform 0 -1 18814 -1 0 -20632
+box -141 -892 141 892
+use sky130_fd_pr__res_xhigh_po_1p41_Q9DQHD  XR33
+timestamp 1749007001
+transform 0 -1 18814 -1 0 -20308
+box -141 -892 141 892
+use sky130_fd_pr__res_xhigh_po_1p41_GPECER  XR37
+timestamp 1749007001
+transform 0 -1 18814 -1 0 -21604
+box -141 -907 141 907
+use sky130_fd_pr__res_xhigh_po_1p41_P2F3L4  XR38
+timestamp 1749007001
+transform 0 -1 18814 -1 0 -21928
+box -141 -917 141 917
+<< end >>

@@ -1,0 +1,37 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1748963166
+use sky130_fd_pr__res_xhigh_po_1p41_VBX4UW  sky130_fd_pr__res_xhigh_po_1p41_VBX4UW_0 ~/10-bit-DAC/mag
+timestamp 1748941537
+transform 0 -1 12048 1 0 -21312
+box -141 -584 141 584
+use sky130_fd_pr__res_xhigh_po_1p41_R48G75  XR9 ~/10-bit-DAC/mag
+timestamp 1748936551
+transform 0 1 12115 -1 0 -23580
+box -141 -651 141 651
+use sky130_fd_pr__res_xhigh_po_1p41_JN8H6Y  XR10 ~/10-bit-DAC/mag
+timestamp 1748940201
+transform 0 1 12099 -1 0 -23256
+box -141 -635 141 635
+use sky130_fd_pr__res_xhigh_po_1p41_L58EDQ  XR11 ~/10-bit-DAC/mag
+timestamp 1748940201
+transform 0 1 12089 -1 0 -22932
+box -141 -625 141 625
+use sky130_fd_pr__res_xhigh_po_1p41_2F3PR9  XR12 ~/10-bit-DAC/mag
+timestamp 1748941537
+transform 0 1 12079 -1 0 -22608
+box -141 -615 141 615
+use sky130_fd_pr__res_xhigh_po_1p41_K3YR7X  XR13 ~/10-bit-DAC/mag
+timestamp 1748941537
+transform 0 1 12069 -1 0 -22284
+box -141 -605 141 605
+use sky130_fd_pr__res_xhigh_po_1p41_LDQ3FW  XR14 ~/10-bit-DAC/mag
+timestamp 1748941537
+transform 0 -1 12064 1 0 -21960
+box -141 -600 141 600
+use sky130_fd_pr__res_xhigh_po_1p41_Y6ZPZ3  XR15 ~/10-bit-DAC/mag
+timestamp 1748941537
+transform 0 -1 12053 1 0 -21636
+box -141 -589 141 589
+<< end >>

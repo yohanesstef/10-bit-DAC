@@ -1,0 +1,65 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749538868
+<< metal1 >>
+rect 11268 -23125 11328 -21181
+rect 11356 -22472 11416 -21181
+rect 11444 -21829 11504 -21181
+rect 11537 -21505 11953 -21443
+rect 12721 -21505 12781 -21181
+rect 12698 -21767 12781 -21505
+rect 12288 -21829 12698 -21767
+rect 11444 -22091 11521 -21829
+rect 11521 -22153 11937 -22091
+rect 12809 -22153 12869 -21181
+rect 12714 -22415 12869 -22153
+rect 11356 -22739 11506 -22472
+rect 12303 -22477 12714 -22415
+rect 11506 -22801 11917 -22739
+rect 12897 -22801 12957 -21181
+rect 12734 -23063 12957 -22801
+rect 12323 -23125 12734 -23063
+rect 11268 -23387 11530 -23125
+rect 11486 -23449 11891 -23387
+use sky130_fd_pr__res_xhigh_po_1p41_R48E75  sky130_fd_pr__res_xhigh_po_1p41_R48E75_0
+timestamp 1749122794
+transform 0 1 12115 -1 0 -23904
+box -141 -651 141 651
+use sky130_fd_pr__res_xhigh_po_1p41_VBX4UW  sky130_fd_pr__res_xhigh_po_1p41_VBX4UW_0
+timestamp 1748941537
+transform 0 -1 12115 1 0 -21312
+box -141 -584 141 584
+use sky130_fd_pr__res_xhigh_po_1p41_VBX6UW  sky130_fd_pr__res_xhigh_po_1p41_VBX6UW_0
+timestamp 1749122794
+transform 0 -1 12115 1 0 -20988
+box -141 -584 141 584
+use sky130_fd_pr__res_xhigh_po_1p41_R48G75  XR9
+timestamp 1748936551
+transform 0 1 12115 -1 0 -23580
+box -141 -651 141 651
+use sky130_fd_pr__res_xhigh_po_1p41_JN8H6Y  XR10
+timestamp 1748940201
+transform 0 1 12115 -1 0 -23256
+box -141 -635 141 635
+use sky130_fd_pr__res_xhigh_po_1p41_L58EDQ  XR11
+timestamp 1748940201
+transform 0 1 12115 -1 0 -22932
+box -141 -625 141 625
+use sky130_fd_pr__res_xhigh_po_1p41_2F3PR9  XR12
+timestamp 1748941537
+transform 0 1 12115 -1 0 -22608
+box -141 -615 141 615
+use sky130_fd_pr__res_xhigh_po_1p41_K3YR7X  XR13
+timestamp 1748941537
+transform 0 1 12115 -1 0 -22284
+box -141 -605 141 605
+use sky130_fd_pr__res_xhigh_po_1p41_LDQ3FW  XR14
+timestamp 1748941537
+transform 0 -1 12115 1 0 -21960
+box -141 -600 141 600
+use sky130_fd_pr__res_xhigh_po_1p41_Y6ZPZ3  XR15
+timestamp 1748941537
+transform 0 -1 12115 1 0 -21636
+box -141 -589 141 589
+<< end >>

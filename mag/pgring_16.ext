@@ -1,0 +1,138 @@
+timestamp 1749421208
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use pswitch_16_final pswitch_16_final_0 1 0 2216 0 1 526
+node "w_37186_n4181#" 27948 10864.6 37186 -4181 nw 0 0 0 0 2641152 9904 0 0 0 0 0 0 530352 18288 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 310896 18288 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "pswitch_16_final_0/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_1_0/XM1/a_n50_n104#" -0.272751
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" -0.143856
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/hpmos_1_1/XM1/a_50_n78#" -0.545502
+cap "pswitch_16_final_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.106552
+cap "pswitch_16_final_0/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_1_1/XM1/a_n50_n104#" -0.485542
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" 51.2813
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.118835
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_0/XM1/a_50_n78#" 113.561
+cap "pswitch_16_final_0/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.0767304
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_n50_n104#" 1.66951
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_1/XM1/a_n108_n78#" 149.871
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_1_0/XM1/a_50_n78#" -0.136594
+cap "pswitch_16_final_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_1_1/XM1/a_50_n78#" -0.541357
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" 48.8317
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_1/XM1/a_50_n78#" 134.225
+cap "pswitch_16_final_0/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_1_1/XM1/a_50_n78#" -0.323955
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/hpmos_1_0/XM1/a_50_n78#" -0.971083
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_0/XM1/a_n50_n104#" 86.6733
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" 165.649
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_1_1/XM1/a_50_n78#" -0.0127884
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" 0.0164191
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_1/XM1/a_n50_n104#" 101.329
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.15871
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" -0.217403
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" -0.23767
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" 17.7981
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" -0.217403
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 157.557
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" -0.0341458
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.423973
+cap "pswitch_16_final_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_1_1/XM1/a_50_n78#" -0.106552
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_n50_n104#" -0.287713
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_n50_n104#" 165.55
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" -0.541357
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" -0.0330647
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" -0.301897
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.118835
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.392994
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" 69.3086
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" -0.23767
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_n50_n104#" -0.272751
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" 133.351
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" -1.45662
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" -0.118835
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" 60.0067
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.394151
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.15871
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" -0.431569
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" -0.301897
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" 245.468
+cap "pswitch_16_final_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" -0.118835
+cap "pswitch_16_final_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_n50_n104#" -0.485542
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" -0.217403
+cap "pswitch_16_final_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 53.5099
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_1_1/XM1/a_50_n78#" -0.118835
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.589491
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" -0.301897
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_1/XM1/a_50_n78#" 34.5547
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" -0.118835
+cap "pswitch_16_final_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.15871
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" 77.0684
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" -0.818253
+cap "pswitch_16_final_0/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.15871
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" -0.0317335
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" -0.118835
+cap "pswitch_16_final_0/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" -0.235161
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.15871
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 60.0049
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 38.511
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" -0.575425
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" -0.143856
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" -0.0278736
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" -0.118835
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" -0.118835
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.15871
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" -0.0207335
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" -0.485542
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" -0.225387
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" 78.1895
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" -0.485542
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" -0.118835
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 84.4216
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" -0.0300549
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" -0.301897
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" -0.118835
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" -0.0249269
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" -0.301897
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" -0.118835
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" -0.0143157
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.196497
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.17485
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.589491
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" -0.272751
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 80.5919
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" -0.195565
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 173.762
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" -0.545502
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 350.654
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.15871
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" -0.217403
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" 62.1928
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.15871
+cap "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" -0.15871
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" -0.217403
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" 58.4459
+cap "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 91.1874
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.15871
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" -0.15871
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" -0.217403
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 43.6535
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" -0.217403
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 60.0049
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" 0.085353
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" 0.0520891
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" 11.4625
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" 0.115911
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" 2.49138
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 0.43608
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" 0.029409
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" 0.268855
+cap "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 0.0181122
+cap "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" 0.0421699
+merge "pswitch_16_final_0/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" -3205.21 0 0 0 0 -968256 -10824 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#"
+merge "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/w_n144_n140#"
+merge "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_0/XM1/w_n144_n140#"
+merge "pswitch_16_final_0/hpmos_1_0/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_1/XM1/w_n144_n140#"
+merge "pswitch_16_final_0/hpmos_1_1/XM1/w_n144_n140#" "w_37186_n4181#"

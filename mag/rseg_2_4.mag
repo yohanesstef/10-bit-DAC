@@ -1,0 +1,65 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 13687 -20393 14108 -20331
+rect 15449 -20717 15464 -20393
+rect 13672 -21303 13693 -20717
+rect 15443 -20979 15464 -20717
+rect 15443 -21303 15490 -21041
+rect 13646 -21689 13687 -21365
+rect 15449 -21627 15490 -21303
+rect 13646 -21951 13693 -21689
+rect 15443 -21951 15531 -21689
+rect 13605 -22599 13687 -22013
+rect 15449 -22275 15531 -21951
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_1
+timestamp 1749289931
+transform 1 0 3466 0 1 -4920
+box 9957 -17679 10206 -15149
+use rseg_4_pin_right_even_v2  rseg_4_pin_right_even_v2_0
+timestamp 1749289931
+transform 1 0 5432 0 1 -4591
+box 10032 -17684 10281 -15478
+use sky130_fd_pr__res_xhigh_po_1p41_JJ76EH  sky130_fd_pr__res_xhigh_po_1p41_JJ76EH_0
+timestamp 1749031283
+transform 0 -1 14568 -1 0 -22792
+box -141 -887 141 887
+use sky130_fd_pr__res_xhigh_po_1p41_JJ76EH  sky130_fd_pr__res_xhigh_po_1p41_JJ76EH_1
+timestamp 1749031283
+transform 0 -1 14568 -1 0 -19876
+box -141 -887 141 887
+use sky130_fd_pr__res_xhigh_po_1p41_JJ78EH  sky130_fd_pr__res_xhigh_po_1p41_JJ78EH_0
+timestamp 1749007001
+transform 0 -1 14568 -1 0 -20200
+box -141 -887 141 887
+use sky130_fd_pr__res_xhigh_po_1p41_TEB92L  sky130_fd_pr__res_xhigh_po_1p41_TEB92L_0
+timestamp 1749007001
+transform 0 -1 14568 -1 0 -20848
+box -141 -881 141 881
+use sky130_fd_pr__res_xhigh_po_1p41_JJ78EH  XR25
+timestamp 1749007001
+transform 0 -1 14568 -1 0 -22468
+box -141 -887 141 887
+use sky130_fd_pr__res_xhigh_po_1p41_JJ78EH  XR26
+timestamp 1749007001
+transform 0 -1 14568 -1 0 -22144
+box -141 -887 141 887
+use sky130_fd_pr__res_xhigh_po_1p41_TEB92L  XR27
+timestamp 1749007001
+transform 0 -1 14568 -1 0 -21820
+box -141 -881 141 881
+use sky130_fd_pr__res_xhigh_po_1p41_JJ78EH  XR28
+timestamp 1749007001
+transform 0 -1 14568 -1 0 -21496
+box -141 -887 141 887
+use sky130_fd_pr__res_xhigh_po_1p41_TEB92L  XR29
+timestamp 1749007001
+transform 0 -1 14568 -1 0 -21172
+box -141 -881 141 881
+use sky130_fd_pr__res_xhigh_po_1p41_JJ78EH  XR31
+timestamp 1749007001
+transform 0 -1 14568 -1 0 -20524
+box -141 -887 141 887
+<< end >>

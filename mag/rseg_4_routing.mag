@@ -1,0 +1,84 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749465145
+<< metal1 >>
+rect 11563 2955 11623 2961
+rect 11915 2585 11975 2955
+rect 12878 2631 12906 2955
+<< metal2 >>
+rect 9094 3335 9131 3395
+rect 12432 3335 12720 3395
+rect 9094 3247 9131 3307
+rect 12432 3247 12720 3307
+rect 9094 3159 9131 3219
+rect 12432 3159 12720 3219
+use pin_8_even  pin_8_even_0
+timestamp 1749382758
+transform 1 0 0 0 1 0
+box 1569 2955 2796 3659
+use pin_8_even  pin_8_even_1
+timestamp 1749382758
+transform 1 0 3114 0 1 0
+box 1569 2955 2796 3659
+use pin_8_even  pin_8_even_2
+timestamp 1749382758
+transform 1 0 6298 0 1 0
+box 1569 2955 2796 3659
+use pin_8_even  pin_8_even_3
+timestamp 1749382758
+transform 1 0 9636 0 1 0
+box 1569 2955 2796 3659
+use pin_8_even_rigth  pin_8_even_rigth_0
+timestamp 1749382774
+transform 1 0 0 0 1 0
+box 2721 2955 3149 3401
+use pin_8_even_rigth  pin_8_even_rigth_1
+timestamp 1749382774
+transform 1 0 3149 0 1 0
+box 2721 2955 3149 3401
+use pin_8_even_rigth  pin_8_even_rigth_2
+timestamp 1749382774
+transform 1 0 6410 0 1 0
+box 2721 2955 3149 3401
+use pin_8_even_rigth  pin_8_even_rigth_3
+timestamp 1749382774
+transform 1 0 9999 0 1 0
+box 2721 2955 3149 3401
+use pin_8_odd  pin_8_odd_0
+timestamp 1749375316
+transform 1 0 3082 0 1 0
+box 83 2955 1221 3659
+use pin_8_odd  pin_8_odd_1
+timestamp 1749375316
+transform 1 0 6231 0 1 0
+box 83 2955 1221 3659
+use pin_8_odd  pin_8_odd_2
+timestamp 1749375316
+transform 1 0 0 0 1 0
+box 83 2955 1221 3659
+use pin_8_odd  pin_8_odd_3
+timestamp 1749375316
+transform 1 0 9492 0 1 0
+box 83 2955 1221 3659
+use pin_8_odd_right  pin_8_odd_right_0
+timestamp 1749376058
+transform 1 0 3114 0 1 0
+box 1057 2955 1553 3489
+use pin_8_odd_right  pin_8_odd_right_1
+timestamp 1749376058
+transform 1 0 6298 0 1 0
+box 1057 2955 1553 3489
+use pin_8_odd_right  pin_8_odd_right_2
+timestamp 1749376058
+transform 1 0 0 0 1 0
+box 1057 2955 1553 3489
+use pin_8_odd_right  pin_8_odd_right_3
+timestamp 1749376058
+transform 1 0 9636 0 1 0
+box 1057 2955 1553 3489
+use rseg_4_v3  rseg_4_v3_0
+timestamp 1749465145
+transform 1 0 -12905 0 1 21507
+box 12802 -21608 26239 -18026
+<< end >>

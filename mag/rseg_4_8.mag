@@ -1,0 +1,62 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749369846
+<< metal1 >>
+rect 24068 -23753 24128 -23429
+rect 25323 -23753 25383 -23429
+rect 24036 -24663 24109 -24077
+rect 25383 -24339 25398 -24077
+rect 23994 -25311 24129 -24725
+rect 25347 -24987 25482 -24401
+rect 23968 -25959 24150 -25373
+rect 25321 -25635 25503 -25049
+use rseg_4_pin_left_v2  rseg_4_pin_left_v2_6
+timestamp 1749289931
+transform 1 0 13847 0 1 -8280
+box 9957 -17679 10206 -15149
+use rseg_4_pin_right_even_v2  rseg_4_pin_right_even_v2_2
+timestamp 1749289931
+transform 1 0 15366 0 1 -7951
+box 10032 -17684 10281 -15478
+use sky130_fd_pr__res_xhigh_po_1p41_FBCYXR  sky130_fd_pr__res_xhigh_po_1p41_FBCYXR_0
+timestamp 1749206860
+transform 0 -1 24733 1 0 -23236
+box -141 -671 141 671
+use sky130_fd_pr__res_xhigh_po_1p41_FBCYXR  sky130_fd_pr__res_xhigh_po_1p41_FBCYXR_1
+timestamp 1749206860
+transform 0 -1 24733 1 0 -23560
+box -141 -671 141 671
+use sky130_fd_pr__res_xhigh_po_1p41_Y6ZMZ3  sky130_fd_pr__res_xhigh_po_1p41_Y6ZMZ3_0
+timestamp 1749206860
+transform 0 -1 24733 1 0 -26152
+box -141 -589 141 589
+use sky130_fd_pr__res_xhigh_po_1p41_Y6ZPZ3  sky130_fd_pr__res_xhigh_po_1p41_Y6ZPZ3_0
+timestamp 1748941537
+transform 0 -1 24733 1 0 -25828
+box -141 -589 141 589
+use sky130_fd_pr__res_xhigh_po_1p41_53HSMM  XR58
+timestamp 1749147327
+transform 0 -1 24733 1 0 -25504
+box -141 -594 141 594
+use sky130_fd_pr__res_xhigh_po_1p41_W6V89A  XR59
+timestamp 1749147327
+transform 0 -1 24733 1 0 -25180
+box -141 -610 141 610
+use sky130_fd_pr__res_xhigh_po_1p41_BRCF4E  XR60
+timestamp 1749147327
+transform 0 -1 24733 1 0 -24856
+box -141 -620 141 620
+use sky130_fd_pr__res_xhigh_po_1p41_HPYJ2N  XR61
+timestamp 1749147327
+transform 0 -1 24733 1 0 -24532
+box -141 -630 141 630
+use sky130_fd_pr__res_xhigh_po_1p41_CPSH5Z  XR62
+timestamp 1749147327
+transform 0 -1 24733 1 0 -24208
+box -141 -656 141 656
+use sky130_fd_pr__res_xhigh_po_1p41_FBCWXR  XR63
+timestamp 1749147327
+transform 0 -1 24733 1 0 -23884
+box -141 -671 141 671
+<< end >>

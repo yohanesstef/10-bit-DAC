@@ -1,0 +1,214 @@
+timestamp 1749548291
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use hnmos_1 hnmos_1_1 1 0 35181 0 1 -4510
+use hnmos_1 hnmos_1_0 1 0 35485 0 1 -4510
+use hnmos_2 hnmos_2_1 1 0 35752 0 1 -4508
+use hnmos_2 hnmos_2_0 1 0 36332 0 1 -4508
+use nswitch_4_stage_3_H nswitch_4_stage_3_H_0 1 0 38006 0 1 -4551
+use nswitch_4_stage_3 nswitch_4_stage_3_0 1 0 36874 0 1 -4551
+node "m1_36816_n4481#" 4 503.744 36816 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21360 832 90480 3136 0 0 0 0 0 0 0 0
+node "m1_36530_n4481#" 5 261.937 36530 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25530 1028 124200 4260 0 0 0 0 0 0 0 0
+node "m1_36236_n4481#" 7 283.182 36236 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31920 1184 158400 5400 0 0 0 0 0 0 0 0
+node "m1_35656_n4481#" 5 420.881 35656 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61860 2536 62040 2188 0 0 0 0 0 0 0 0
+node "m1_35144_n4481#" 3 350.868 35144 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42720 1664 22560 872 0 0 0 0 0 0 0 0
+node "m1_35352_n4481#" 6 448.869 35352 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 79920 3024 63120 2224 0 0 0 0 0 0 0 0
+node "m1_35950_n4481#" 8 934.188 35950 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36090 1380 192120 6524 0 0 0 0 0 0 0 0
+substrate "a_35036_n4641#" 0 0 35036 -4641 mvppd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 529192 18248 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 310216 18248 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_35352_n4481#" "m1_35144_n4481#" 410.463
+cap "m1_35352_n4481#" "m1_36236_n4481#" 365.445
+cap "m1_36530_n4481#" "m1_36236_n4481#" 1182.08
+cap "m1_35950_n4481#" "m1_35656_n4481#" 248.278
+cap "m1_36816_n4481#" "m1_35656_n4481#" 98.1361
+cap "m1_36816_n4481#" "m1_35950_n4481#" 0.726488
+cap "m1_35352_n4481#" "m1_35656_n4481#" 714.127
+cap "m1_35656_n4481#" "m1_36530_n4481#" 343.68
+cap "m1_35352_n4481#" "m1_35950_n4481#" 236.369
+cap "m1_35950_n4481#" "m1_36530_n4481#" 1.68004
+cap "m1_36816_n4481#" "m1_36530_n4481#" 862.763
+cap "m1_35656_n4481#" "m1_35144_n4481#" 94.4172
+cap "m1_35656_n4481#" "m1_36236_n4481#" 167.031
+cap "m1_35950_n4481#" "m1_36236_n4481#" 1534.93
+cap "m1_35352_n4481#" "m1_36530_n4481#" 118.732
+cap "m1_36816_n4481#" "m1_36236_n4481#" 1.68004
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_798_70#" -34.6432
+cap "a_35036_n4641#" "nswitch_4_stage_3_0/m1_1074_70#" 11.3564
+cap "hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 42.7733
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 18.1571
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 29.7613
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_1074_70#" -31.1066
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 11.4824
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/m1_798_70#" 0.353772
+cap "a_35036_n4641#" "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 1.25937
+cap "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 40.227
+cap "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 42.7733
+cap "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 146.068
+cap "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/m1_1074_70#" 67.8951
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 50.5404
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 221.735
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" -15.1542
+cap "a_35036_n4641#" "nswitch_4_stage_3_0/m1_798_70#" 11.8552
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 86.8969
+cap "hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "a_35036_n4641#" 46.1642
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_522_70#" -15.6025
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_798_70#" 18.5072
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_1074_70#" -32.885
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 32.8266
+cap "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 36.1594
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 67.978
+cap "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/m1_798_70#" 67.978
+cap "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 86.8969
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 19.4595
+cap "a_35036_n4641#" "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 77.7818
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" -30.165
+cap "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "a_35036_n4641#" 39.2526
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_0/m1_798_70#" 0.0485876
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 71.539
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_798_70#" 0.219822
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_522_70#" 0.344482
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_1074_70#" 0.0215945
+cap "a_35036_n4641#" "nswitch_4_stage_3_0/m1_798_70#" 38.1226
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" -0.0342704
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "a_35036_n4641#" 76.8411
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_246_70#" -31.1784
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_522_70#" -15.5758
+cap "a_35036_n4641#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 41.306
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_1074_70#" 0.152007
+cap "nswitch_4_stage_3_0/m1_1074_70#" "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.0269931
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_246_70#" 0.612698
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 9.38387
+cap "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.00109288
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_522_70#" 0.203573
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 36.4622
+cap "nswitch_4_stage_3_0/m1_522_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" -11.1202
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 1.78795
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_0/m1_522_70#" 1.75022
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/m1_798_70#" 2.69278
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.0895002
+cap "nswitch_4_stage_3_0/m1_798_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.224256
+cap "nswitch_4_stage_3_0/m1_522_70#" "nswitch_4_stage_3_0/m1_246_70#" 59.0153
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 1.23056
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 1.57131
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_246_70#" 0.363181
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_522_70#" 0.344751
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/m1_246_70#" 250.897
+cap "a_35036_n4641#" "nswitch_4_stage_3_0/m1_522_70#" 48.5978
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" -0.032909
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 145.807
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.031782
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_0/m1_246_70#" 0.823663
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_798_70#" 0.0315268
+cap "a_35036_n4641#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 20.4249
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_1074_70#" 0.152101
+cap "a_35036_n4641#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 118.541
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_246_70#" 0.613236
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_798_70#" 0.21967
+cap "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.0458133
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_798_70#" 0.0394085
+cap "a_35036_n4641#" "nswitch_4_stage_3_0/m1_246_70#" 31.8421
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 17.4376
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.00993513
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 36.463
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.113665
+cap "nswitch_4_stage_3_0/m1_798_70#" "nswitch_4_stage_3_0/m1_522_70#" 50.1759
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/m1_522_70#" 91.5556
+cap "nswitch_4_stage_3_0/m1_522_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.358486
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_798_70#" 0.129539
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" -0.0353738
+cap "nswitch_4_stage_3_0/m1_798_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" -10.4174
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 43.5295
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.154376
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_0/m1_798_70#" 5.99382
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_522_70#" -32.8564
+cap "nswitch_4_stage_3_0/m1_1074_70#" "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 0.820376
+cap "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.208016
+cap "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/m1_246_70#" 86.8969
+cap "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 6.61394
+cap "nswitch_4_stage_3_0/m1_798_70#" "nswitch_4_stage_3_0/m1_246_70#" 54.6664
+cap "nswitch_4_stage_3_0/m1_246_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 50.2314
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_1074_70#" 0.152007
+cap "a_35036_n4641#" "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 21.5513
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" -0.0147932
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 43.5295
+cap "a_35036_n4641#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 37.5157
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 66.5986
+cap "nswitch_4_stage_3_0/m1_246_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.249516
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 36.463
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" -0.0215321
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_0/m1_798_70#" 57.8613
+cap "nswitch_4_stage_3_0/m1_522_70#" "a_35036_n4641#" 34.8992
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/m1_522_70#" 41.37
+cap "nswitch_4_stage_3_0/m1_246_70#" "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.612698
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_522_70#" 0.344482
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/m1_798_70#" 0.558529
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_798_70#" 0.219822
+cap "nswitch_4_stage_3_0/m1_522_70#" "nswitch_4_stage_3_0/m1_798_70#" 7.01714
+cap "a_35036_n4641#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 16.4745
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 36.8994
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" -0.0289423
+cap "nswitch_4_stage_3_0/m1_246_70#" "a_35036_n4641#" 27.5156
+cap "nswitch_4_stage_3_0/m1_246_70#" "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 60.4847
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.152007
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" -10.7397
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_1074_70#" 0.152101
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_0/m1_522_70#" 54.613
+cap "nswitch_4_stage_3_0/m1_798_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.0901307
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_798_70#" 0.21967
+cap "nswitch_4_stage_3_0/m1_246_70#" "nswitch_4_stage_3_0/m1_798_70#" 1.9628
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "a_35036_n4641#" 162.949
+cap "nswitch_4_stage_3_0/m1_522_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 0.815752
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.062507
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" -0.0258954
+cap "nswitch_4_stage_3_0/m1_1074_70#" "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 49.7707
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 36.4622
+cap "nswitch_4_stage_3_0/m1_246_70#" "nswitch_4_stage_3_0/m1_1074_70#" 86.9781
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/m1_798_70#" 31.7394
+cap "a_35036_n4641#" "nswitch_4_stage_3_0/m1_798_70#" 35.5263
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" -0.0311874
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 1.24358
+cap "nswitch_4_stage_3_0/m1_246_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 58.8631
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_798_70#" 0.21967
+cap "nswitch_4_stage_3_0/m1_522_70#" "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.140909
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "nswitch_4_stage_3_0/m1_522_70#" 0.344482
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "nswitch_4_stage_3_0/m1_1074_70#" 46.9248
+cap "nswitch_4_stage_3_0/m1_246_70#" "nswitch_4_stage_3_0/m1_522_70#" 7.059
+cap "nswitch_4_stage_3_0/m1_1074_70#" "a_35036_n4641#" 93.5029
+cap "nswitch_4_stage_3_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 0.0181122
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 0.115911
+cap "nswitch_4_stage_3_0/m1_1074_70#" "a_35036_n4641#" 11.4625
+cap "nswitch_4_stage_3_0/m1_798_70#" "a_35036_n4641#" 0.268855
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 0.43608
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "a_35036_n4641#" 2.49138
+cap "a_35036_n4641#" "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 0.029409
+cap "a_35036_n4641#" "nswitch_4_stage_3_H_0/m1_246_70#" 0.0421699
+cap "nswitch_4_stage_3_H_0/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "a_35036_n4641#" 0.0520891
+cap "nswitch_4_stage_3_H_0/m1_522_70#" "a_35036_n4641#" 0.085353
+merge "nswitch_4_stage_3_H_0/VSUBS" "nswitch_4_stage_3_0/VSUBS" -1374.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -188268 -6492 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -110364 -6492 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nswitch_4_stage_3_0/VSUBS" "hnmos_2_0/VSUBS"
+merge "hnmos_2_0/VSUBS" "hnmos_2_1/VSUBS"
+merge "hnmos_2_1/VSUBS" "hnmos_1_0/VSUBS"
+merge "hnmos_1_0/VSUBS" "hnmos_1_1/VSUBS"
+merge "hnmos_1_1/VSUBS" "a_35036_n4641#"
+merge "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" -280.626 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8736 -712 0 0 0 0 0 0 0 0 0 0
+merge "hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#"
+merge "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#" "m1_35656_n4481#"
+merge "hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" -178.928 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4704 -448 0 0 0 0 0 0 0 0 0 0
+merge "hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "m1_35144_n4481#"
+merge "nswitch_4_stage_3_H_0/m1_522_70#" "nswitch_4_stage_3_0/m1_522_70#" -235.61 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3192 -244 -7200 -480 0 0 0 0 0 0 0 0
+merge "nswitch_4_stage_3_0/m1_522_70#" "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#"
+merge "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#" "m1_36530_n4481#"
+merge "nswitch_4_stage_3_H_0/m1_1074_70#" "nswitch_4_stage_3_0/m1_1074_70#" -296.95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3192 -244 -7200 -480 0 0 0 0 0 0 0 0
+merge "nswitch_4_stage_3_0/m1_1074_70#" "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#"
+merge "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#" "m1_35950_n4481#"
+merge "nswitch_4_stage_3_H_0/m1_798_70#" "nswitch_4_stage_3_0/m1_798_70#" -232.416 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2352 -224 -7200 -480 0 0 0 0 0 0 0 0
+merge "nswitch_4_stage_3_0/m1_798_70#" "hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#"
+merge "hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#" "m1_36236_n4481#"
+merge "hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" -206.951 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7056 -672 0 0 0 0 0 0 0 0 0 0
+merge "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#"
+merge "hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#" "m1_35352_n4481#"
+merge "nswitch_4_stage_3_H_0/m1_246_70#" "nswitch_4_stage_3_0/m1_246_70#" -517.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2352 -224 -7200 -480 0 0 0 0 0 0 0 0
+merge "nswitch_4_stage_3_0/m1_246_70#" "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#"
+merge "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#" "m1_36816_n4481#"

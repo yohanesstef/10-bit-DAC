@@ -1,4 +1,4 @@
-v {xschem version=3.4.7 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -61,7 +61,7 @@ C {devices/lab_pin.sym} 650 -1030 0 0 {name=p11 sig_type=std_logic lab=b[0:3]}
 C {devices/lab_pin.sym} 650 -1010 0 0 {name=p12 sig_type=std_logic lab=bb[0:3]}
 C {devices/lab_pin.sym} 650 -830 0 0 {name=p24 sig_type=std_logic lab=b[3:6]}
 C {devices/lab_pin.sym} 650 -810 0 0 {name=p25 sig_type=std_logic lab=bb[3:6]}
-C {devices/lab_pin.sym} 650 -1120 0 0 {name=p26 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} 650 -1120 0 0 {name=p26 sig_type=std_logic lab=GNDA}
 C {devices/lab_pin.sym} 950 -1120 0 1 {name=p27 sig_type=std_logic lab=V[0:191]}
 C {devices/lab_pin.sym} 650 -1070 0 0 {name=p28 sig_type=std_logic lab=V[0:63]}
 C {devices/lab_pin.sym} 650 -960 0 0 {name=p29 sig_type=std_logic lab=V[64:112]}

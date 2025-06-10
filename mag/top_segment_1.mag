@@ -1,0 +1,145 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749550684
+<< locali >>
+rect 6730 7022 6764 7661
+rect 10884 7022 10918 7661
+rect 7911 6988 10488 7022
+rect 5519 5696 5553 6614
+rect 7911 6580 10488 6614
+rect 7877 5696 7911 6580
+rect 10488 5696 10522 6580
+rect 12846 5696 12880 6580
+rect 4491 5662 5596 5696
+rect 7988 5662 8854 5696
+rect 11246 5662 12013 5696
+rect 4491 5254 5596 5288
+rect 7988 5254 8854 5288
+rect 11246 5254 12013 5288
+rect 2099 4322 2133 5254
+rect 2055 4288 3816 4322
+rect 4457 4293 4491 5254
+rect 5596 4293 5630 5254
+rect 7954 4322 7988 5254
+rect 6208 4293 7988 4322
+rect 8854 4293 8888 5254
+rect 6208 4288 7969 4293
+rect 9578 4288 10388 4322
+rect 11212 4293 11246 5254
+rect 12013 4293 12047 5254
+rect 13 3522 73 3902
+rect 2055 3884 3816 3914
+rect 2055 3880 3876 3884
+rect 6208 3880 7969 3914
+rect 9578 3880 10388 3914
+rect 3816 3504 3876 3880
+<< metal1 >>
+rect 829 5443 889 5449
+rect 829 4207 889 5383
+rect 829 4141 889 4147
+rect 5623 5383 5868 5435
+rect 5623 4141 5683 5383
+rect 9022 4141 9082 5435
+rect 12214 4141 12274 5435
+<< via1 >>
+rect 829 5383 889 5443
+rect 829 4147 889 4207
+<< metal2 >>
+rect 4304 6288 14290 6348
+rect 4028 6200 14014 6260
+rect 3752 6112 13738 6172
+rect 3476 6024 13462 6084
+rect 3042 5936 13028 5996
+rect 2766 5848 12752 5908
+rect 2490 5760 12476 5820
+rect 2214 5672 12200 5732
+rect 823 5383 829 5443
+rect 889 5383 2303 5443
+rect 1893 4934 12689 4994
+rect 1617 4846 12413 4906
+rect 1341 4758 12137 4818
+rect 1065 4670 11861 4730
+rect 581 4582 11377 4642
+rect 305 4494 11101 4554
+rect 29 4406 10825 4466
+rect -247 4318 10549 4378
+rect 829 4207 889 4213
+use nswitch_8_stage_1  nswitch_8_stage_1_0
+timestamp 1749550684
+transform 1 0 -29908 0 1 12202
+box 29523 -8466 32011 -7202
+use nswitch_8_stage_1  nswitch_8_stage_1_1
+timestamp 1749550684
+transform 1 0 -25755 0 1 12202
+box 29523 -8466 32011 -7202
+use nswitch_8_stage_1  nswitch_8_stage_1_2
+timestamp 1749550684
+transform 1 0 -22385 0 1 12202
+box 29523 -8466 32011 -7202
+use nswitch_8_stage_1  nswitch_8_stage_1_6
+timestamp 1749550684
+transform 1 0 -19184 0 1 12202
+box 29523 -8466 32011 -7202
+use nswitch_8_stage_1_up  nswitch_8_stage_1_up_4
+timestamp 1749550684
+transform 1 0 -27472 0 1 13548
+box 29523 -9812 32011 -7194
+use nswitch_8_stage_1_up  nswitch_8_stage_1_up_5
+timestamp 1749550684
+transform 1 0 -23975 0 1 13548
+box 29523 -9812 32011 -7194
+use nswitch_8_stage_1_up  nswitch_8_stage_1_up_6
+timestamp 1749550684
+transform 1 0 -20717 0 1 13548
+box 29523 -9812 32011 -7194
+use nswitch_8_stage_1_up  nswitch_8_stage_1_up_7
+timestamp 1749550684
+transform 1 0 -17558 0 1 13548
+box 29523 -9812 32011 -7194
+use nswitch_16_final  nswitch_16_final_1
+timestamp 1749548291
+transform 1 0 -28318 0 1 12290
+box 35000 -5278 39284 -3861
+use rseg_1_v3  rseg_1_v3_1
+timestamp 1749548075
+transform 1 0 -10186 0 1 19524
+box 10163 -19548 24372 -15788
+use tps1_sw_stage_final  tps1_sw_stage_final_0
+timestamp 1749550684
+transform 1 0 -28839 0 1 12202
+box 33681 -7890 41767 -4502
+<< labels >>
+flabel metal2 s -23 3032 -23 3032 4 FreeSans 320 0 0 0 V0
+port 0 se
+flabel metal2 s 14186 3032 14186 3032 6 FreeSans 320 0 0 0 V64
+port 1 sw
+flabel metal2 s 2211 5414 2211 5414 6 FreeSans 320 0 0 0 DEC[0]
+port 2 sw
+flabel metal2 s 5714 5414 5714 5414 6 FreeSans 320 0 0 0 DEC[1]
+port 3 sw
+flabel metal2 s 8963 5419 8963 5419 6 FreeSans 320 0 0 0 DEC[2]
+port 4 sw
+flabel metal2 s 12113 5414 12113 5414 6 FreeSans 320 0 0 0 DEC[3]
+port 5 sw
+flabel metal2 s 6872 7949 6872 7949 6 FreeSans 320 0 0 0 b[0]
+port 6 sw
+flabel metal2 s 7696 7955 7696 7955 6 FreeSans 320 0 0 0 b[1]
+port 7 sw
+flabel metal2 s 10294 7957 10294 7957 6 FreeSans 320 0 0 0 b[2]
+port 8 sw
+flabel metal2 s 10808 6873 10808 6873 6 FreeSans 320 0 0 0 b[3]
+port 9 sw
+flabel metal2 s 7239 7942 7239 7942 6 FreeSans 320 0 0 0 bb[0]
+port 10 sw
+flabel metal2 s 8221 7945 8221 7945 6 FreeSans 320 0 0 0 bb[1]
+port 11 sw
+flabel metal2 s 9095 7948 9095 7948 6 FreeSans 320 0 0 0 bb[2]
+port 12 sw
+flabel metal2 s 7078 6872 7078 6872 6 FreeSans 320 0 0 0 bb[3]
+port 13 sw
+flabel metal2 s 6950 8130 6950 8130 6 FreeSans 320 0 0 0 VOUT
+port 14 sw
+flabel locali s 8954 6600 8954 6600 6 FreeSans 320 0 0 0 GND
+port 15 sw
+<< end >>

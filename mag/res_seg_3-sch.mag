@@ -1,53 +1,80 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1743273876
-<< checkpaint >>
-rect -1313 2496 1609 2561
-rect -1313 2435 1958 2496
-rect -1313 2374 2307 2435
-rect -1313 2313 2656 2374
-rect -1313 2254 3005 2313
-rect -1313 2197 3354 2254
-rect -1313 2138 3703 2197
-rect -1313 -1313 4052 2138
-rect -964 -1366 4052 -1313
-rect -615 -1419 4052 -1366
-rect -266 -1472 4052 -1419
-rect 83 -1525 4052 -1472
-rect 432 -1578 4052 -1525
-rect 781 -1631 4052 -1578
-rect 1130 -1684 4052 -1631
+timestamp 1748938396
+<< error_s >>
+rect 278 1231 313 1254
+rect 279 1200 313 1231
+rect 298 -17 313 1200
+rect 332 1166 367 1200
+rect 627 1166 662 1193
+rect 332 -17 366 1166
+rect 628 1139 662 1166
+rect 332 -51 347 -17
+rect 647 -70 662 1139
+rect 681 1105 716 1139
+rect 976 1105 1011 1132
+rect 681 -70 715 1105
+rect 977 1078 1011 1105
+rect 681 -104 696 -70
+rect 996 -123 1011 1078
+rect 1030 1044 1065 1078
+rect 1325 1044 1360 1071
+rect 1030 -123 1064 1044
+rect 1326 1017 1360 1044
+rect 1030 -157 1045 -123
+rect 1345 -176 1360 1017
+rect 1379 983 1414 1017
+rect 1674 983 1709 1012
+rect 1379 -176 1413 983
+rect 1675 958 1709 983
+rect 1379 -210 1394 -176
+rect 1694 -229 1709 958
+rect 1728 924 1763 958
+rect 2023 924 2058 955
+rect 1728 -229 1762 924
+rect 2024 901 2058 924
+rect 1728 -263 1743 -229
+rect 2043 -282 2058 901
+rect 2077 867 2112 901
+rect 2372 867 2407 896
+rect 2077 -282 2111 867
+rect 2373 842 2407 867
+rect 2077 -316 2092 -282
+rect 2392 -335 2407 842
+rect 2426 808 2461 842
+rect 2426 -335 2460 808
+rect 2426 -369 2441 -335
 use sky130_fd_pr__res_xhigh_po_0p35_DC3STL  XR1
-timestamp 0
+timestamp 1743275510
 transform 1 0 148 0 1 624
 box -201 -677 201 677
 use sky130_fd_pr__res_xhigh_po_0p35_C6QFN9  XR2
-timestamp 0
+timestamp 1743275510
 transform 1 0 497 0 1 565
 box -201 -671 201 671
 use sky130_fd_pr__res_xhigh_po_0p35_QVBRHU  XR3
-timestamp 0
+timestamp 1743275510
 transform 1 0 846 0 1 508
 box -201 -667 201 667
 use sky130_fd_pr__res_xhigh_po_0p35_SH7SJB  XR4
-timestamp 0
+timestamp 1743275510
 transform 1 0 1195 0 1 451
 box -201 -663 201 663
 use sky130_fd_pr__res_xhigh_po_0p35_ATZZMR  XR5
-timestamp 0
+timestamp 1743275510
 transform 1 0 1544 0 1 394
 box -201 -659 201 659
 use sky130_fd_pr__res_xhigh_po_0p35_WGDRS6  XR6
-timestamp 0
+timestamp 1743275510
 transform 1 0 1893 0 1 338
 box -201 -656 201 656
 use sky130_fd_pr__res_xhigh_po_0p35_5MWDXP  XR7
-timestamp 0
+timestamp 1743275510
 transform 1 0 2242 0 1 283
 box -201 -654 201 654
 use sky130_fd_pr__res_xhigh_po_0p35_UHCT9Y  XR8
-timestamp 0
+timestamp 1743275510
 transform 1 0 2591 0 1 227
 box -201 -651 201 651
 << end >>

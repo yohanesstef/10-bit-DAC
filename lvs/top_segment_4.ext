@@ -1,0 +1,321 @@
+timestamp 1749468609
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use pswitch_8_stage_1 pswitch_8_stage_1_0 1 0 0 0 1 0
+use pswitch_8_stage_1 pswitch_8_stage_1_1 1 0 3082 0 1 0
+use pswitch_8_stage_1 pswitch_8_stage_1_2 1 0 6231 0 1 0
+use pswitch_8_stage_1 pswitch_8_stage_1_3 1 0 9492 0 1 0
+use pswitch_8_stage_1_up pswitch_8_stage_1_up_0 1 0 1574 0 1 1346
+use pswitch_8_stage_1_up pswitch_8_stage_1_up_1 1 0 4688 0 1 1346
+use pswitch_8_stage_1_up pswitch_8_stage_1_up_2 1 0 7872 0 1 1346
+use pswitch_8_stage_1_up pswitch_8_stage_1_up_3 1 0 11210 0 1 1346
+use rseg_4_routing rseg_4_routing_0 1 0 29988 0 1 -12125
+use pgring_16 pgring_16_0 1 0 -2162 0 1 -438
+use pswitch_8_stage_1 pswitch_8_stage_1_4 1 0 9492 0 1 2700
+use pswitch_8_stage_2 pswitch_8_stage_2_0 1 0 0 0 1 -88
+port "b1" 7 36431 -4250 36431 -4250 m2
+port "bb1" 11 36285 -4253 36285 -4253 m2
+port "b3" 9 36614 -5332 36614 -5332 m2
+port "bb3" 13 39171 -5319 39171 -5319 m2
+port "b2" 8 38003 -4244 38003 -4244 m2
+port "bb2" 12 38115 -4246 38115 -4246 m2
+port "VOUT" 14 35192 -4043 35192 -4043 m2
+port "bb0" 10 35194 -4219 35194 -4219 m2
+port "b0" 6 35498 -4219 35498 -4219 m2
+port "V63" 1 43322 -9170 43322 -9170 m2
+port "V0" 0 29885 -9170 29885 -9170 m2
+port "DEC2" 4 37634 -7117 37634 -7117 m1
+port "DEC3" 5 40229 -7069 40229 -7069 m1
+port "DEC1" 3 34475 -7126 34475 -7126 m1
+port "DEC0" 2 30737 -6762 30737 -6762 m1
+port "GND" 15 29921 -8680 29921 -8680 li
+port "VPB" 16 31161 -7270 31161 -7270 li
+node "b1" 0 0 36431 -4250 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb1" 0 0 36285 -4253 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b3" 0 0 36614 -5332 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb3" 0 0 39171 -5319 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b2" 0 0 38003 -4244 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb2" 0 0 38115 -4246 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VOUT" 0 0 35192 -4043 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb0" 0 0 35194 -4219 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b0" 0 0 35498 -4219 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "V63" 0 0 43322 -9170 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "V0" 0 0 29885 -9170 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_34656_n5184#" 0 0 34656 -5184 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_34932_n5096#" 0 0 34932 -5096 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_35208_n5008#" 0 0 35208 -5008 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_35474_n4920#" 0 0 35474 -4920 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_35562_n4832#" 0 0 35562 -4832 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_35828_n4744#" 0 0 35828 -4744 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_36104_n4656#" 0 0 36104 -4656 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_36380_n4568#" 0 0 36380 -4568 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DEC2" 0 0 37634 -7117 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DEC3" 0 0 40229 -7069 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_40537_n5920#" 0 0 40537 -5920 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_40449_n6008#" 0 0 40449 -6008 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_40361_n6096#" 0 0 40361 -6096 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_40273_n6184#" 0 0 40273 -6184 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_40185_n6272#" 0 0 40185 -6272 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_40097_n6360#" 0 0 40097 -6360 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_40009_n6448#" 0 0 40009 -6448 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_39921_n6536#" 0 0 39921 -6536 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DEC1" 0 0 34475 -7126 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_36817_n5738#" 0 0 36817 -5738 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_33951_n7626#" 0 0 33951 -7626 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_36817_n5650#" 0 0 36817 -5650 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_33863_n7714#" 0 0 33863 -7714 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_36817_n5562#" 0 0 36817 -5562 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_33775_n7802#" 0 0 33775 -7802 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DEC0" 0 0 30737 -6762 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_36817_n5474#" 0 0 36817 -5474 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_33687_n7890#" 0 0 33687 -7890 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "GND" 0 0 29921 -8680 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_38194_n8322#" 0 0 38194 -8322 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_35045_n8322#" 0 0 35045 -8322 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_31963_n8322#" 0 0 31963 -8322 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_38194_n7904#" 0 0 38194 -7904 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_35045_n7904#" 0 0 35045 -7904 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_31963_n7904#" 0 0 31963 -7904 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VPB" 0 0 31161 -7270 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_33441_n6958#" 0 0 33441 -6958 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_39801_n7879#" 0 0 39801 -7879 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_36555_n6958#" 0 0 36555 -6958 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_41421_n6540#" 0 0 41421 -6540 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_39740_n6540#" 0 0 39740 -6540 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_33441_n6540#" 0 0 33441 -6540 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_36555_n6540#" 0 0 36555 -6540 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_36750_n5204#" 0 0 36750 -5204 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_39256_n5170#" 0 0 39256 -5170 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_35102_n5170#" 0 0 35102 -5170 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/m1_31807_n8174#" "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_H_0/m1_891_n111#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_H_0/m1_891_n111#" "pswitch_8_stage_2_0/m1_36386_n5386#"
+merge "pswitch_8_stage_2_0/m1_36386_n5386#" "m2_36380_n4568#"
+merge "pswitch_8_stage_2_0/m1_35741_n5650#" "pswitch_8_stage_1_3/m1_30979_n8174#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_3/m1_30979_n8174#" "pswitch_8_stage_1_2/m1_30979_n8174#"
+merge "pswitch_8_stage_1_2/m1_30979_n8174#" "pswitch_8_stage_1_1/m1_30979_n8174#"
+merge "pswitch_8_stage_1_1/m1_30979_n8174#" "pswitch_8_stage_1_0/m1_30979_n8174#"
+merge "pswitch_8_stage_1_0/m1_30979_n8174#" "m1_36817_n5738#"
+merge "pgring_16_0/VSUBS" "pswitch_8_stage_1_4/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/VSUBS" "pswitch_8_stage_2_0/VSUBS"
+merge "pswitch_8_stage_2_0/VSUBS" "pswitch_8_stage_1_up_3/VSUBS"
+merge "pswitch_8_stage_1_up_3/VSUBS" "pswitch_8_stage_1_3/VSUBS"
+merge "pswitch_8_stage_1_3/VSUBS" "pswitch_8_stage_1_up_2/VSUBS"
+merge "pswitch_8_stage_1_up_2/VSUBS" "pswitch_8_stage_1_2/VSUBS"
+merge "pswitch_8_stage_1_2/VSUBS" "pswitch_8_stage_1_up_1/VSUBS"
+merge "pswitch_8_stage_1_up_1/VSUBS" "pswitch_8_stage_1_1/VSUBS"
+merge "pswitch_8_stage_1_1/VSUBS" "pswitch_8_stage_1_up_0/VSUBS"
+merge "pswitch_8_stage_1_up_0/VSUBS" "pswitch_8_stage_1_0/VSUBS"
+merge "pswitch_8_stage_1_0/VSUBS" "rseg_4_routing_0/VSUBS"
+merge "rseg_4_routing_0/VSUBS" "VSUBS"
+merge "pswitch_8_stage_1_4/m1_30219_n8174#" "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_0/m1_615_n551#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_0/m1_615_n551#" "pswitch_8_stage_2_0/m1_35214_n5386#"
+merge "pswitch_8_stage_2_0/m1_35214_n5386#" "m2_35208_n5008#"
+merge "pswitch_8_stage_2_0/m1_36293_n5474#" "pswitch_8_stage_1_3/m1_31531_n8174#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_3/m1_31531_n8174#" "pswitch_8_stage_1_2/m1_31531_n8174#"
+merge "pswitch_8_stage_1_2/m1_31531_n8174#" "pswitch_8_stage_1_1/m1_31531_n8174#"
+merge "pswitch_8_stage_1_1/m1_31531_n8174#" "pswitch_8_stage_1_0/m1_31531_n8174#"
+merge "pswitch_8_stage_1_0/m1_31531_n8174#" "m1_36817_n5562#"
+merge "pswitch_8_stage_1_up_0/hpmos_8_8/hpmos_4_0/hpmos_2_0/hpmos_1_0/m1_1998_n3033#" "pswitch_8_stage_1_0/hpmos_8_8/hpmos_4_1/hpmos_2_0/hpmos_1_0/m1_1998_n3033#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_0/hpmos_8_8/hpmos_4_1/hpmos_2_0/hpmos_1_0/m1_1998_n3033#" "DEC0"
+merge "pswitch_8_stage_1_up_3/m1_30954_n8000#" "pswitch_8_stage_1_4/m1_30781_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/m1_30781_n8466#" "pswitch_8_stage_1_up_2/m1_30954_n8000#"
+merge "pswitch_8_stage_1_up_2/m1_30954_n8000#" "pswitch_8_stage_1_up_1/m1_30954_n8000#"
+merge "pswitch_8_stage_1_up_1/m1_30954_n8000#" "pswitch_8_stage_1_up_0/m1_30954_n8000#"
+merge "pswitch_8_stage_1_up_0/m1_30954_n8000#" "m1_40273_n6184#"
+merge "rseg_4_routing_0/rseg_4_v3_0/v1" "pswitch_8_stage_1_0/m1_30133_n8350#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_2/m1_2367_3153#" "pswitch_8_stage_1_up_2/m1_30781_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_2/m1_1575_2955#" "pswitch_8_stage_1_up_2/m1_29875_n8438#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/m1_31531_n8174#" "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_H_0/m1_615_n199#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_H_0/m1_615_n199#" "pswitch_8_stage_2_0/m1_36110_n5386#"
+merge "pswitch_8_stage_2_0/m1_36110_n5386#" "m2_36104_n4656#"
+merge "rseg_4_routing_0/pin_8_even_3/m1_1839_2955#" "pswitch_8_stage_1_up_3/m1_30869_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_1/m1_1663_2955#" "pswitch_8_stage_1_up_1/m1_30151_n8350#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_1/m1_793_3241#" "pswitch_8_stage_1_2/m1_30781_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_0/m1_1751_2955#" "pswitch_8_stage_1_up_0/m1_30693_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_up_1/hpmos_8_8/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_8_stage_1_1/hpmos_8_8/hpmos_4_1/hpmos_2_1/hpmos_1_0/XM1/a_n50_n104#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_1/hpmos_8_8/hpmos_4_1/hpmos_2_1/hpmos_1_0/XM1/a_n50_n104#" "DEC1"
+merge "pswitch_8_stage_1_up_3/m1_31230_n8000#" "pswitch_8_stage_1_4/m1_30869_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/m1_30869_n8466#" "pswitch_8_stage_1_up_2/m1_31230_n8000#"
+merge "pswitch_8_stage_1_up_2/m1_31230_n8000#" "pswitch_8_stage_1_up_1/m1_31230_n8000#"
+merge "pswitch_8_stage_1_up_1/m1_31230_n8000#" "pswitch_8_stage_1_up_0/m1_31230_n8000#"
+merge "pswitch_8_stage_1_up_0/m1_31230_n8000#" "m1_40361_n6096#"
+merge "pswitch_8_stage_1_4/hpmos_8_8/w_227_n172#" "li_39256_n5170#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "li_39256_n5170#" "li_36750_n5204#"
+merge "li_36750_n5204#" "pgring_16_0/w_37186_n4181#"
+merge "pgring_16_0/w_37186_n4181#" "li_35102_n5170#"
+merge "li_35102_n5170#" "li_41421_n6540#"
+merge "li_41421_n6540#" "li_39740_n6540#"
+merge "li_39740_n6540#" "pswitch_8_stage_2_0/hpmos_8_8/w_227_n172#"
+merge "pswitch_8_stage_2_0/hpmos_8_8/w_227_n172#" "li_36555_n6540#"
+merge "li_36555_n6540#" "pswitch_8_stage_1_up_3/hpmos_8_8/w_227_n172#"
+merge "pswitch_8_stage_1_up_3/hpmos_8_8/w_227_n172#" "li_33441_n6540#"
+merge "li_33441_n6540#" "pswitch_8_stage_1_up_2/hpmos_8_8/w_227_n172#"
+merge "pswitch_8_stage_1_up_2/hpmos_8_8/w_227_n172#" "li_39801_n7879#"
+merge "li_39801_n7879#" "li_38194_n7904#"
+merge "li_38194_n7904#" "pswitch_8_stage_1_up_1/hpmos_8_8/w_227_n172#"
+merge "pswitch_8_stage_1_up_1/hpmos_8_8/w_227_n172#" "li_36555_n6958#"
+merge "li_36555_n6958#" "pswitch_8_stage_1_up_0/hpmos_8_8/w_227_n172#"
+merge "pswitch_8_stage_1_up_0/hpmos_8_8/w_227_n172#" "li_35045_n7904#"
+merge "li_35045_n7904#" "li_33441_n6958#"
+merge "li_33441_n6958#" "pswitch_8_stage_1_3/hpmos_8_8/w_227_n172#"
+merge "pswitch_8_stage_1_3/hpmos_8_8/w_227_n172#" "li_31963_n7904#"
+merge "li_31963_n7904#" "VPB"
+merge "VPB" "pswitch_8_stage_1_2/hpmos_8_8/w_227_n172#"
+merge "pswitch_8_stage_1_2/hpmos_8_8/w_227_n172#" "li_38194_n8322#"
+merge "li_38194_n8322#" "pswitch_8_stage_1_1/hpmos_8_8/w_227_n172#"
+merge "pswitch_8_stage_1_1/hpmos_8_8/w_227_n172#" "li_35045_n8322#"
+merge "li_35045_n8322#" "pswitch_8_stage_1_0/hpmos_8_8/w_227_n172#"
+merge "pswitch_8_stage_1_0/hpmos_8_8/w_227_n172#" "li_31963_n8322#"
+merge "rseg_4_routing_0/pin_8_odd_2/m1_617_3065#" "pswitch_8_stage_1_0/m1_30409_n8262#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_2_0/m1_34291_n5474#" "pswitch_8_stage_1_3/m1_29943_n8174#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_3/m1_29943_n8174#" "pswitch_8_stage_1_2/m1_29943_n8174#"
+merge "pswitch_8_stage_1_2/m1_29943_n8174#" "pswitch_8_stage_1_1/m1_29943_n8174#"
+merge "pswitch_8_stage_1_1/m1_29943_n8174#" "pswitch_8_stage_1_0/m1_29943_n8174#"
+merge "pswitch_8_stage_1_0/m1_29943_n8174#" "m1_33775_n7802#"
+merge "pswitch_8_stage_2_0/m1_34291_n5650#" "pswitch_8_stage_1_3/m1_30495_n8174#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_3/m1_30495_n8174#" "pswitch_8_stage_1_2/m1_30495_n8174#"
+merge "pswitch_8_stage_1_2/m1_30495_n8174#" "pswitch_8_stage_1_1/m1_30495_n8174#"
+merge "pswitch_8_stage_1_1/m1_30495_n8174#" "pswitch_8_stage_1_0/m1_30495_n8174#"
+merge "pswitch_8_stage_1_0/m1_30495_n8174#" "m1_33951_n7626#"
+merge "pswitch_8_stage_1_4/m1_30979_n8174#" "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_H_0/m1_63_n375#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_H_0/m1_63_n375#" "pswitch_8_stage_2_0/m1_35568_n5386#"
+merge "pswitch_8_stage_2_0/m1_35568_n5386#" "m2_35562_n4832#"
+merge "pswitch_8_stage_1_up_3/m1_30244_n8000#" "pswitch_8_stage_1_4/m1_30409_n8262#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/m1_30409_n8262#" "pswitch_8_stage_1_up_2/m1_30244_n8000#"
+merge "pswitch_8_stage_1_up_2/m1_30244_n8000#" "pswitch_8_stage_1_up_1/m1_30244_n8000#"
+merge "pswitch_8_stage_1_up_1/m1_30244_n8000#" "pswitch_8_stage_1_up_0/m1_30244_n8000#"
+merge "pswitch_8_stage_1_up_0/m1_30244_n8000#" "m1_40097_n6360#"
+merge "pswitch_8_stage_1_up_3/m1_29968_n8000#" "pswitch_8_stage_1_4/m1_30133_n8350#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/m1_30133_n8350#" "pswitch_8_stage_1_up_2/m1_29968_n8000#"
+merge "pswitch_8_stage_1_up_2/m1_29968_n8000#" "pswitch_8_stage_1_up_1/m1_29968_n8000#"
+merge "pswitch_8_stage_1_up_1/m1_29968_n8000#" "pswitch_8_stage_1_up_0/m1_29968_n8000#"
+merge "pswitch_8_stage_1_up_0/m1_29968_n8000#" "m1_40009_n6448#"
+merge "pswitch_8_stage_1_up_3/m1_31782_n8000#" "pswitch_8_stage_1_4/m1_31045_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/m1_31045_n8466#" "pswitch_8_stage_1_up_2/m1_31782_n8000#"
+merge "pswitch_8_stage_1_up_2/m1_31782_n8000#" "pswitch_8_stage_1_up_1/m1_31782_n8000#"
+merge "pswitch_8_stage_1_up_1/m1_31782_n8000#" "pswitch_8_stage_1_up_0/m1_31782_n8000#"
+merge "pswitch_8_stage_1_up_0/m1_31782_n8000#" "m1_40537_n5920#"
+merge "rseg_4_routing_0/pin_8_odd_3/m1_793_3241#" "pswitch_8_stage_1_3/m1_30781_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/rseg_4_v3_0/v3" "pswitch_8_stage_1_0/m1_30693_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_up_2/hpmos_8_8/hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "pswitch_8_stage_1_2/hpmos_8_8/hpmos_4_1/hpmos_2_1/hpmos_1_0/XM1/a_n50_n104#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_2/hpmos_8_8/hpmos_4_1/hpmos_2_1/hpmos_1_0/XM1/a_n50_n104#" "DEC2"
+merge "pswitch_8_stage_1_4/m1_29667_n8174#" "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_0/m1_63_n727#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_0/m1_63_n727#" "pswitch_8_stage_2_0/m1_34662_n5386#"
+merge "pswitch_8_stage_2_0/m1_34662_n5386#" "m2_34656_n5184#"
+merge "pswitch_8_stage_1_up_3/m1_30520_n8000#" "pswitch_8_stage_1_4/m1_30693_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/m1_30693_n8466#" "pswitch_8_stage_1_up_2/m1_30520_n8000#"
+merge "pswitch_8_stage_1_up_2/m1_30520_n8000#" "pswitch_8_stage_1_up_1/m1_30520_n8000#"
+merge "pswitch_8_stage_1_up_1/m1_30520_n8000#" "pswitch_8_stage_1_up_0/m1_30520_n8000#"
+merge "pswitch_8_stage_1_up_0/m1_30520_n8000#" "m1_40185_n6272#"
+merge "pswitch_8_stage_2_0/m1_34291_n5562#" "pswitch_8_stage_1_3/m1_30219_n8174#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_3/m1_30219_n8174#" "pswitch_8_stage_1_2/m1_30219_n8174#"
+merge "pswitch_8_stage_1_2/m1_30219_n8174#" "pswitch_8_stage_1_1/m1_30219_n8174#"
+merge "pswitch_8_stage_1_1/m1_30219_n8174#" "pswitch_8_stage_1_0/m1_30219_n8174#"
+merge "pswitch_8_stage_1_0/m1_30219_n8174#" "m1_33863_n7714#"
+merge "rseg_4_routing_0/pin_8_odd_3/m1_441_3065#" "pswitch_8_stage_1_3/m1_29857_n8438#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/rseg_4_v3_0/a_12838_n21572#" "GND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_2/m1_89_2955#" "pswitch_8_stage_1_0/m1_31045_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_0/m1_265_2955#" "pswitch_8_stage_1_1/m1_30693_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_3/m1_2279_2955#" "pswitch_8_stage_1_up_3/m1_31045_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_up_3/hpmos_8_8/hpmos_4_0/hpmos_2_0/hpmos_1_0/m1_1998_n3033#" "pswitch_8_stage_1_3/hpmos_8_8/hpmos_4_1/hpmos_2_0/hpmos_1_0/m1_1998_n3033#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_3/hpmos_8_8/hpmos_4_1/hpmos_2_0/hpmos_1_0/m1_1998_n3033#" "DEC3"
+merge "rseg_4_routing_0/pin_8_even_0/m1_2279_2955#" "pswitch_8_stage_1_up_0/m1_31045_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_1/m1_177_2955#" "pswitch_8_stage_1_2/m1_30869_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/m1_30495_n8174#" "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_0/m1_891_n463#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_0/m1_891_n463#" "pswitch_8_stage_2_0/m1_35480_n5386#"
+merge "pswitch_8_stage_2_0/m1_35480_n5386#" "m2_35474_n4920#"
+merge "pswitch_8_stage_2_0/m1_36017_n5562#" "pswitch_8_stage_1_3/m1_31255_n8174#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_3/m1_31255_n8174#" "pswitch_8_stage_1_2/m1_31255_n8174#"
+merge "pswitch_8_stage_1_2/m1_31255_n8174#" "pswitch_8_stage_1_1/m1_31255_n8174#"
+merge "pswitch_8_stage_1_1/m1_31255_n8174#" "pswitch_8_stage_1_0/m1_31255_n8174#"
+merge "pswitch_8_stage_1_0/m1_31255_n8174#" "m1_36817_n5650#"
+merge "rseg_4_routing_0/pin_8_odd_1/m1_441_3065#" "pswitch_8_stage_1_2/m1_29857_n8438#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/rseg_4_v3_0/m1_24468_n18814#" "V63" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_1/m1_969_3417#" "pswitch_8_stage_1_2/m1_30957_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_1/m1_529_2955#" "pswitch_8_stage_1_2/m1_30133_n8350#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_0/m1_1998_n3033#" "bb2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_2/m1_177_2955#" "rseg_4_routing_0/rseg_4_v3_0/v5" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/rseg_4_v3_0/v5" "pswitch_8_stage_1_0/m1_30869_n8466#"
+merge "rseg_4_routing_0/pin_8_odd_2/m1_969_3417#" "pswitch_8_stage_1_0/m1_30957_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_1/m1_2367_3153#" "pswitch_8_stage_1_up_1/m1_30781_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_2_0/m1_36622_n5386#" "pswitch_8_stage_1_3/m1_31807_n8174#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_3/m1_31807_n8174#" "pswitch_8_stage_1_2/m1_31807_n8174#"
+merge "pswitch_8_stage_1_2/m1_31807_n8174#" "pswitch_8_stage_1_1/m1_31807_n8174#"
+merge "pswitch_8_stage_1_1/m1_31807_n8174#" "pswitch_8_stage_1_0/m1_31807_n8174#"
+merge "pswitch_8_stage_1_0/m1_31807_n8174#" "m1_36817_n5474#"
+merge "rseg_4_routing_0/pin_8_even_0/m1_1839_2955#" "pswitch_8_stage_1_up_0/m1_30869_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_3/m1_89_2955#" "pswitch_8_stage_1_3/m1_31045_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_3/m1_265_2955#" "pswitch_8_stage_1_3/m1_30693_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_2_0/m1_34291_n5386#" "pswitch_8_stage_1_3/m1_29667_n8174#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_3/m1_29667_n8174#" "pswitch_8_stage_1_2/m1_29667_n8174#"
+merge "pswitch_8_stage_1_2/m1_29667_n8174#" "pswitch_8_stage_1_1/m1_29667_n8174#"
+merge "pswitch_8_stage_1_1/m1_29667_n8174#" "pswitch_8_stage_1_0/m1_29667_n8174#"
+merge "pswitch_8_stage_1_0/m1_29667_n8174#" "m1_33687_n7890#"
+merge "rseg_4_routing_0/pin_8_even_0/m1_2543_3329#" "pswitch_8_stage_1_up_0/m1_30957_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_1/m1_2191_3241#" "pswitch_8_stage_1_up_1/m1_30427_n8262#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/m1_35144_n4481#" "VOUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_up_3/m1_31506_n8000#" "pswitch_8_stage_1_4/m1_30957_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/m1_30957_n8466#" "pswitch_8_stage_1_up_2/m1_31506_n8000#"
+merge "pswitch_8_stage_1_up_2/m1_31506_n8000#" "pswitch_8_stage_1_up_1/m1_31506_n8000#"
+merge "pswitch_8_stage_1_up_1/m1_31506_n8000#" "pswitch_8_stage_1_up_0/m1_31506_n8000#"
+merge "pswitch_8_stage_1_up_0/m1_31506_n8000#" "m1_40449_n6008#"
+merge "rseg_4_routing_0/pin_8_odd_1/m1_89_2955#" "pswitch_8_stage_1_2/m1_31045_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_0/m1_1575_2955#" "pswitch_8_stage_1_up_0/m1_29875_n8438#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/m1_1998_n3033#" "b2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_2/m1_2191_3241#" "pswitch_8_stage_1_up_2/m1_30427_n8262#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_0/m1_89_2955#" "pswitch_8_stage_1_1/m1_31045_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_2/m1_793_3241#" "pswitch_8_stage_1_0/m1_30781_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_up_3/m1_29692_n8000#" "pswitch_8_stage_1_4/m1_29857_n8438#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/m1_29857_n8438#" "pswitch_8_stage_1_up_2/m1_29692_n8000#"
+merge "pswitch_8_stage_1_up_2/m1_29692_n8000#" "pswitch_8_stage_1_up_1/m1_29692_n8000#"
+merge "pswitch_8_stage_1_up_1/m1_29692_n8000#" "pswitch_8_stage_1_up_0/m1_29692_n8000#"
+merge "pswitch_8_stage_1_up_0/m1_29692_n8000#" "m1_39921_n6536#"
+merge "rseg_4_routing_0/pin_8_odd_3/m1_617_3065#" "pswitch_8_stage_1_3/m1_30409_n8262#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/hpmos_1_1/m1_1998_n3033#" "bb0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_1/m1_265_2955#" "pswitch_8_stage_1_2/m1_30693_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_3/m1_1663_2955#" "pswitch_8_stage_1_up_3/m1_30151_n8350#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_2/m1_1751_2955#" "pswitch_8_stage_1_up_2/m1_30693_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/hpmos_2_0/hpmos_1_1/m1_1998_n3033#" "bb1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_3/m1_969_3417#" "pswitch_8_stage_1_3/m1_30957_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_2/m1_441_3065#" "V0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "V0" "pswitch_8_stage_1_0/m1_29857_n8438#"
+merge "pswitch_8_stage_1_4/m1_31255_n8174#" "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_H_0/m1_339_n287#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_H_0/m1_339_n287#" "pswitch_8_stage_2_0/m1_35834_n5386#"
+merge "pswitch_8_stage_2_0/m1_35834_n5386#" "m2_35828_n4744#"
+merge "pswitch_8_stage_1_4/m1_29943_n8174#" "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_0/m1_339_n639#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_0/m1_339_n639#" "pswitch_8_stage_2_0/m1_34938_n5386#"
+merge "pswitch_8_stage_2_0/m1_34938_n5386#" "m2_34932_n5096#"
+merge "rseg_4_routing_0/pin_8_odd_0/m1_177_2955#" "pswitch_8_stage_1_1/m1_30869_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_1_4/hpmos_8_8/hpmos_4_0/hpmos_2_0/hpmos_1_0/m1_1998_n3033#" "bb3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_2/m1_2279_2955#" "pswitch_8_stage_1_up_2/m1_31045_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_2/m1_1663_2955#" "pswitch_8_stage_1_up_2/m1_30151_n8350#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_1/m1_2543_3329#" "pswitch_8_stage_1_up_1/m1_30957_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_1/m1_1575_2955#" "pswitch_8_stage_1_up_1/m1_29875_n8438#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_0/m1_1663_2955#" "pswitch_8_stage_1_up_0/m1_30151_n8350#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/hpmos_2_1/hpmos_1_0/m1_1998_n3033#" "b1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_2/m1_1839_2955#" "pswitch_8_stage_1_up_2/m1_30869_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_2/m1_2543_3329#" "pswitch_8_stage_1_up_2/m1_30957_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/rseg_4_v3_0/v62" "pswitch_8_stage_1_up_3/m1_30957_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_0/m1_529_2955#" "pswitch_8_stage_1_1/m1_30133_n8350#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_0/m1_617_3065#" "pswitch_8_stage_1_1/m1_30409_n8262#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_3/m1_2367_3153#" "pswitch_8_stage_1_up_3/m1_30781_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_3/m1_177_2955#" "pswitch_8_stage_1_3/m1_30869_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_3/m1_529_2955#" "pswitch_8_stage_1_3/m1_30133_n8350#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_1/m1_1751_2955#" "pswitch_8_stage_1_up_1/m1_30693_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_3/m1_2191_3241#" "pswitch_8_stage_1_up_3/m1_30427_n8262#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pgring_16_0/pswitch_16_final_0/hpmos_1_0/m1_1998_n3033#" "b0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_3/m1_1575_2955#" "pswitch_8_stage_1_up_3/m1_29875_n8438#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_1/m1_617_3065#" "pswitch_8_stage_1_2/m1_30409_n8262#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_0/m1_793_3241#" "pswitch_8_stage_1_1/m1_30781_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pswitch_8_stage_2_0/hpmos_8_8/hpmos_4_1/hpmos_2_1/hpmos_1_1/m1_1998_n3033#" "b3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_0/m1_441_3065#" "pswitch_8_stage_1_1/m1_29857_n8438#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_1/m1_2279_2955#" "pswitch_8_stage_1_up_1/m1_31045_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_odd_0/m1_969_3417#" "pswitch_8_stage_1_1/m1_30957_n8466#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_0/m1_2367_3153#" "pswitch_8_stage_1_up_0/m1_30781_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_1/m1_1839_2955#" "pswitch_8_stage_1_up_1/m1_30869_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_3/m1_1751_2955#" "pswitch_8_stage_1_up_3/m1_30693_n9812#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rseg_4_routing_0/pin_8_even_0/m1_2191_3241#" "pswitch_8_stage_1_up_0/m1_30427_n8262#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
