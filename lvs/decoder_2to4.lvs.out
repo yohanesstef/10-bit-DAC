@@ -1,0 +1,142 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_hvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_hvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_hvt     |Circuit 2: sky130_fd_pr__pfet_01v8_hvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_hvt and sky130_fd_pr__pfet_01v8_hvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__nand2_1        |Circuit 2: sky130_fd_sc_hd__nand2_1        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (2)            |sky130_fd_pr__pfet_01v8_hvt (2)            
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__nand2_1        |Circuit 2: sky130_fd_sc_hd__nand2_1        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+Y                                          |Y                                          
+A                                          |A                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+B                                          |B                                          
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__nand2_1 and sky130_fd_sc_hd__nand2_1 are equivalent.
+Flattening unmatched subcell dec_pcell in circuit decoder_2to4 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4VG7B4 in circuit decoder_2to4 (0)(4 instances)
+Flattening unmatched subcell dec_ncell_l_1 in circuit decoder_2to4 (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_TC9PLT in circuit decoder_2to4 (0)(4 instances)
+Flattening unmatched subcell dec_logic in circuit decoder_2to4 (0)(1 instance)
+Flattening unmatched subcell dec_ncell_h in circuit decoder_2to4 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_EY6AGD in circuit decoder_2to4 (0)(4 instances)
+Flattening unmatched subcell pull_up_down_network in circuit decoder_2to4 (1)(4 instances)
+
+Subcircuit summary:
+Circuit 1: decoder_2to4                    |Circuit 2: decoder_2to4                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (16)          |sky130_fd_pr__pfet_g5v0d10v5 (16)          
+sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
+sky130_fd_sc_hd__nand2_1 (4)               |sky130_fd_sc_hd__nand2_1 (4)               
+sky130_fd_pr__nfet_g5v0d10v5 (4)           |sky130_fd_pr__nfet_g5v0d10v5 (4)           
+Number of devices: 28                      |Number of devices: 28                      
+Number of nets: 33                         |Number of nets: 33                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+dec_pcell_0//sky130_fd_pr__pfet_g5v0d10v5_4VG7B4_2/sky130_fd_pr__pfet_g5v0d10v5:1 vs. pull_up_down_network:3/sky130_fd_pr__pfet_g5v0d10v5:M1:
+ l circuit1: "1"   circuit2: "l"   (exact match req'd)
+ w circuit1: "0.84"   circuit2: "wp"   (exact match req'd)
+dec_pcell_0//sky130_fd_pr__pfet_g5v0d10v5_4VG7B4_1/sky130_fd_pr__pfet_g5v0d10v5:1 vs. pull_up_down_network:4/sky130_fd_pr__pfet_g5v0d10v5:M1:
+ l circuit1: "1"   circuit2: "l"   (exact match req'd)
+ w circuit1: "0.84"   circuit2: "wp"   (exact match req'd)
+dec_pcell_0//sky130_fd_pr__pfet_g5v0d10v5_4VG7B4_0/sky130_fd_pr__pfet_g5v0d10v5:1 vs. pull_up_down_network:2/sky130_fd_pr__pfet_g5v0d10v5:M1:
+ l circuit1: "1"   circuit2: "l"   (exact match req'd)
+ w circuit1: "0.84"   circuit2: "wp"   (exact match req'd)
+dec_pcell_0/sky130_fd_pr__pfet_g5v0d10v5_4VG7B4:XM1/sky130_fd_pr__pfet_g5v0d10v5:1 vs. pull_up_down_network:1/sky130_fd_pr__pfet_g5v0d10v5:M1:
+ l circuit1: "1"   circuit2: "l"   (exact match req'd)
+ w circuit1: "0.84"   circuit2: "wp"   (exact match req'd)
+
+Subcircuit pins:
+Circuit 1: decoder_2to4                    |Circuit 2: decoder_2to4                    
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+bb[0]                                      |bb[0]                                      
+b[0]                                       |b[0]                                       
+b[1]                                       |b[1]                                       
+bb[1]                                      |bb[1]                                      
+VDDH                                       |VDDH                                       
+GND                                        |GND                                        
+VPBIAS                                     |VPBIAS                                     
+VNBIAS                                     |VNBIAS                                     
+VOUT[2]                                    |VOUT[2]                                    
+VOUT[3]                                    |VOUT[3]                                    
+VOUT[0]                                    |VOUT[0]                                    
+VOUT[1]                                    |VOUT[1]                                    
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes decoder_2to4 and decoder_2to4 are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ decoder_2to4

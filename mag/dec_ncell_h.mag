@@ -1,0 +1,33 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749656061
+<< mvpsubdiff >>
+rect 689 -244 2113 -231
+rect 689 -278 749 -244
+rect 2053 -278 2113 -244
+rect 689 -291 2113 -278
+<< mvpsubdiffcont >>
+rect 749 -278 2053 -244
+<< locali >>
+rect 689 -278 749 -244
+rect 2053 -278 2113 -244
+<< metal1 >>
+rect 689 -29 2113 31
+use sky130_fd_pr__nfet_g5v0d10v5_EY6AGD  sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0 ~/10-bit-DAC/mag
+timestamp 1749642965
+transform 0 -1 867 1 0 1
+box -158 -157 158 157
+use sky130_fd_pr__nfet_g5v0d10v5_EY6AGD  sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_1
+timestamp 1749642965
+transform 0 -1 1223 1 0 1
+box -158 -157 158 157
+use sky130_fd_pr__nfet_g5v0d10v5_EY6AGD  sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_2
+timestamp 1749642965
+transform 0 -1 1579 1 0 1
+box -158 -157 158 157
+use sky130_fd_pr__nfet_g5v0d10v5_EY6AGD  sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_3
+timestamp 1749642965
+transform 0 -1 1935 1 0 1
+box -158 -157 158 157
+<< end >>

@@ -1,19 +1,19 @@
-v {xschem version=3.4.7 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
-B 2 190 -1300 990 -900 {flags=graph
-y1=4.5e-07
-y2=7.7e-07
+B 2 390 -60 1190 340 {flags=graph
+y1=3.9925387e-07
+y2=4.0022102e-07
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000
-x2=1000000
+x1=1755638.7
+x2=1761535.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -32,8 +32,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000
-x2=1000000
+x1=1755638.7
+x2=1761535.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -56,8 +56,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000
-x2=1000000
+x1=1755638.7
+x2=1761535.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -79,8 +79,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000
-x2=1000000
+x1=1755638.7
+x2=1761535.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -100,8 +100,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000
-x2=1000000
+x1=1755638.7
+x2=1761535.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -123,8 +123,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000
-x2=1000000
+x1=1755638.7
+x2=1761535.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -144,8 +144,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000
-x2=1000000
+x1=1755638.7
+x2=1761535.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -165,8 +165,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000
-x2=1000000
+x1=1755638.7
+x2=1761535.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -186,8 +186,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000
-x2=1000000
+x1=1755638.7
+x2=1761535.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -207,8 +207,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000
-x2=1000000
+x1=1755638.7
+x2=1761535.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -362,14 +362,14 @@ value="
      reset
      save all
      *tran 1n 10u
-     dc R1 1k 1meg 1k
+     dc R1 500k 2meg 1k
      write biasing-tb.raw
      set appendwrite
 *    quit 0
   .endc
 "}
 C {devices/param.sym} 0 -690 0 0 {name=s1 value="
-+lref=4
++lref=1
 +lr=20
 +lsum=1
 +l=1
@@ -387,10 +387,10 @@ C {devices/param.sym} 0 -690 0 0 {name=s1 value="
 +wp_bsum=4.8
 +wn_bsum=1.6
 +
-+mref=25
++mref=20
 +m1=2
 +m_sum=2
-+m_refsum=5
++m_refsum=8
 +m_fcm=2
 +mdiff0=2
 +m=1"}
@@ -412,7 +412,7 @@ C {devices/lab_pin.sym} 270 -830 0 0 {name=p1 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 370 -680 0 1 {name=p2 sig_type=std_logic lab=n1}
 C {devices/lab_pin.sym} 370 -600 0 1 {name=p3 sig_type=std_logic lab=n2}
 C {devices/res.sym} 270 -120 0 0 {name=R1
-value=210.81k
+value=1.7588MEG
 footprint=1206
 device=resistor
 m=1}

@@ -1,0 +1,127 @@
+Netgen 1.5.292 compiled on Thu Mar  6 15:36:50 +07 2025
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/yohanes/10-bit-DAC/lvs/top_segment_1.ext.spc
+Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__res_xhigh_po_1p41
+Creating placeholder cell definition.
+Reading netlist file /home/yohanes/10-bit-DAC/lvs/top_segment_1.sch.spc
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_sc_hd__nand2_2
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_sc_hd__nor2_2
+Creating placeholder cell definition.
+Call to undefined subcircuit vselector_6b_1v_stage_1
+Creating placeholder cell definition.
+Call to undefined subcircuit switch_nmos_1g_8o
+Creating placeholder cell definition.
+Call to undefined subcircuit switch_nmos_1g_4o
+Creating placeholder cell definition.
+Call to undefined subcircuit switch_nmos_1g_2o
+Creating placeholder cell definition.
+Call to undefined subcircuit switch_nmos_2g_2o
+Creating placeholder cell definition.
+Call to undefined subcircuit rseg_1_v3
+Creating placeholder cell definition.
+Call to undefined subcircuit vselector_16b_1v
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5
+Creating placeholder cell definition.
+
+Reading setup file /home/yohanes/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+Model sky130_fd_pr__res_xhigh_po_1p41 pin 1 == 2
+No property w found for device sky130_fd_pr__res_xhigh_po_1p41
+No property w found for device sky130_fd_pr__res_xhigh_po_1p41
+No property value found for device sky130_fd_pr__res_xhigh_po_1p41
+No property w found for device sky130_fd_pr__res_xhigh_po_1p41
+No property mult found for device sky130_fd_pr__res_xhigh_po_1p41
+Model sky130_fd_pr__res_generic_po pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_po
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property as found for device sky130_fd_pr__nfet_01v8
+No property ad found for device sky130_fd_pr__nfet_01v8
+No property ps found for device sky130_fd_pr__nfet_01v8
+No property pd found for device sky130_fd_pr__nfet_01v8
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_g5v0d10v5 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sa found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sb found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nf found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrs found for device sky130_fd_pr__nfet_g5v0d10v5
+No property area found for device sky130_fd_pr__nfet_g5v0d10v5
+No property perim found for device sky130_fd_pr__nfet_g5v0d10v5
+No property topography found for device sky130_fd_pr__nfet_g5v0d10v5
+Model sky130_fd_pr__nfet_g5v0d10v5 pin 1 == 3
+No property as found for device sky130_fd_pr__nfet_g5v0d10v5
+No property ad found for device sky130_fd_pr__nfet_g5v0d10v5
+No property ps found for device sky130_fd_pr__nfet_g5v0d10v5
+No property pd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property mult found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sa found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sb found for device sky130_fd_pr__nfet_g5v0d10v5
+No property sd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrd found for device sky130_fd_pr__nfet_g5v0d10v5
+No property nrs found for device sky130_fd_pr__nfet_g5v0d10v5
+No property area found for device sky130_fd_pr__nfet_g5v0d10v5
+No property perim found for device sky130_fd_pr__nfet_g5v0d10v5
+No property topography found for device sky130_fd_pr__nfet_g5v0d10v5
+Model sky130_fd_pr__pfet_01v8_hvt pin 1 == 3
+No property as found for device sky130_fd_pr__pfet_01v8_hvt
+No property ad found for device sky130_fd_pr__pfet_01v8_hvt
+No property ps found for device sky130_fd_pr__pfet_01v8_hvt
+No property pd found for device sky130_fd_pr__pfet_01v8_hvt
+No property mult found for device sky130_fd_pr__pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__pfet_01v8_hvt
+No property area found for device sky130_fd_pr__pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__pfet_01v8_hvt
+No property value found for device sky130_fd_pr__diode_pw2nd_05v5
+No property mult found for device sky130_fd_pr__diode_pw2nd_05v5
+No property perim found for device sky130_fd_pr__diode_pw2nd_05v5
+Comparison output logged to file /home/yohanes/10-bit-DAC/lvs/top_segment_1.lvs.out
+Logging to file "/home/yohanes/10-bit-DAC/lvs/top_segment_1.lvs.out" enabled
+Circuit sky130_fd_pr__nfet_g5v0d10v5 contains no devices.
+Circuit rseg_1_v3 contains no devices.
+
+Contents of circuit 1:  Circuit: 'top_segment_1'
+Circuit top_segment_1 contains 95 device instances.
+  Class: rseg_1_v3             instances:   1
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:  94
+Circuit contains 175 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'top_segment_1'
+Circuit top_segment_1 contains 95 device instances.
+  Class: rseg_1_v3             instances:   1
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:  94
+Circuit contains 175 nets.
+
+Circuit 1 contains 95 devices, Circuit 2 contains 95 devices.
+Circuit 1 contains 175 nets,    Circuit 2 contains 175 nets.
+
+
+Final result: 
+Top level cell failed pin matching.
+
+Logging to file "/home/yohanes/10-bit-DAC/lvs/top_segment_1.lvs.out" disabled
+LVS Done.

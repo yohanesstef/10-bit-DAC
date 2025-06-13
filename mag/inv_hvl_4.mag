@@ -1,0 +1,16 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749807257
+<< metal1 >>
+rect -22 761 554 789
+rect -22 21 554 49
+use sky130_fd_sc_hvl__inv_1  sky130_fd_sc_hvl__inv_1_0 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/mag
+timestamp 1704896540
+transform 1 0 -22 0 1 -2
+box -66 -43 354 897
+use sky130_fd_sc_hvl__inv_1  sky130_fd_sc_hvl__inv_1_1
+timestamp 1704896540
+transform 1 0 266 0 1 -2
+box -66 -43 354 897
+<< end >>

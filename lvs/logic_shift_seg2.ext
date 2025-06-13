@@ -1,0 +1,157 @@
+timestamp 1749750640
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_sc_hd__tapvpwrvgnd_1 sky130_fd_sc_hd__tapvpwrvgnd_1_3 1 0 4714 0 -1 -2646
+use sky130_fd_sc_hd__tapvpwrvgnd_1 sky130_fd_sc_hd__tapvpwrvgnd_1_4 1 0 4622 0 -1 -2646
+use sky130_fd_sc_hd__tapvpwrvgnd_1 sky130_fd_sc_hd__tapvpwrvgnd_1_5 1 0 4622 0 1 -3734
+use sky130_fd_sc_hd__tapvpwrvgnd_1 sky130_fd_sc_hd__tapvpwrvgnd_1_6 1 0 4714 0 1 -3734
+use sky130_fd_sc_hd__nand2_1 x1 1 0 4806 0 -1 -2646
+use sky130_fd_sc_hd__nand2_1 x6 1 0 4806 0 1 -3734
+use sky130_fd_sc_hd__tapvpwrvgnd_1 sky130_fd_sc_hd__tapvpwrvgnd_1_0 1 0 5358 0 -1 -2646
+use sky130_fd_sc_hd__tapvpwrvgnd_1 sky130_fd_sc_hd__tapvpwrvgnd_1_2 1 0 5358 0 1 -3734
+use sky130_fd_sc_hd__nand2_1 x2 1 0 5082 0 -1 -2646
+use sky130_fd_sc_hd__nand2_1 x3 1 0 5450 0 -1 -2646
+use sky130_fd_sc_hd__nand3_1 x5 1 0 5450 0 1 -3734
+use sky130_fd_sc_hd__nand2_1 x7 1 0 5082 0 1 -3734
+use sky130_fd_sc_hd__nand3_1 x4 1 0 5726 0 -1 -2646
+use sky130_fd_sc_hd__inv_1 x10 1 0 5818 0 1 -3734
+use sky130_fd_sc_hd__tapvpwrvgnd_1 sky130_fd_sc_hd__tapvpwrvgnd_1_1 1 0 6094 0 -1 -2646
+use sky130_fd_sc_hd__nand3_1 x8 1 0 6094 0 1 -3734
+use sky130_fd_sc_hd__inv_1 x9 1 0 6186 0 -1 -2646
+use sky130_ef_sc_hd__fill_4 sky130_ef_sc_hd__fill_4_0 1 0 6462 0 -1 -2646
+use sky130_ef_sc_hd__fill_4 sky130_ef_sc_hd__fill_4_1 -1 0 6830 0 1 -3734
+port "BSB[8]" 10 5995 -3483 5995 -3483 li
+port "BSB[9]" 9 6364 -2887 6364 -2887 li
+port "GND" 12 4085 -2614 4085 -2614 m2
+port "VDD" 11 3900 -2614 3900 -2614 m2
+port "bb[6]" 4 6833 -2707 6833 -2707 m2
+port "bb[7]" 5 6925 -2707 6925 -2707 m2
+port "bb[8]" 6 7017 -2707 7017 -2707 m2
+port "BS[8]" 8 5898 -3448 5898 -3448 m1
+port "b[7]" 1 4359 -2704 4359 -2704 m2
+port "b[6]" 0 4267 -2704 4267 -2704 m2
+port "b[9]" 3 4543 -2704 4543 -2704 m2
+port "b[8]" 2 4451 -2704 4451 -2704 m2
+port "BS[9]" 7 6095 -2770 6095 -2770 m1
+node "BSB[8]" 0 0 5995 -3483 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BSB[9]" 0 0 6364 -2887 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_7109_n3782#" 0 0 7109 -3782 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_6830_n3782#" 0 0 6830 -3782 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "GND" 0 0 4085 -2614 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_6830_n3238#" 0 0 6830 -3238 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 3900 -2614 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5019_n3645#" 0 0 5019 -3645 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[6]" 0 0 6833 -2707 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[7]" 0 0 6925 -2707 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[8]" 0 0 7017 -2707 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5761_n3518#" 0 0 5761 -3518 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5202_n3560#" 0 0 5202 -3560 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BS[8]" 0 0 5898 -3448 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_4929_n3102#" 0 0 4929 -3102 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5205_n3046#" 0 0 5205 -3046 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5573_n2990#" 0 0 5573 -2990 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[7]" 0 0 4359 -2704 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[6]" 0 0 4267 -2704 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[9]" 0 0 4543 -2704 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[8]" 0 0 4451 -2704 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BS[9]" 0 0 6095 -2770 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x4/C" "x3/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x3/Y" "li_5573_n2990#"
+merge "sky130_ef_sc_hd__fill_4_1/VNB" "m1_6830_n3782#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "m1_6830_n3782#" "sky130_ef_sc_hd__fill_4_1/VGND"
+merge "sky130_ef_sc_hd__fill_4_1/VGND" "sky130_ef_sc_hd__fill_4_0/VNB"
+merge "sky130_ef_sc_hd__fill_4_0/VNB" "sky130_ef_sc_hd__fill_4_0/VGND"
+merge "sky130_ef_sc_hd__fill_4_0/VGND" "x9/VNB"
+merge "x9/VNB" "x9/VGND"
+merge "x9/VGND" "x8/VNB"
+merge "x8/VNB" "x8/VGND"
+merge "x8/VGND" "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VGND"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VGND" "x10/VNB"
+merge "x10/VNB" "x10/VGND"
+merge "x10/VGND" "x4/VNB"
+merge "x4/VNB" "x4/VGND"
+merge "x4/VGND" "x5/VNB"
+merge "x5/VNB" "x5/VGND"
+merge "x5/VGND" "x3/VNB"
+merge "x3/VNB" "x3/VGND"
+merge "x3/VGND" "sky130_fd_sc_hd__tapvpwrvgnd_1_2/VGND"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_2/VGND" "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "x7/VNB"
+merge "x7/VNB" "x7/VGND"
+merge "x7/VGND" "x2/VNB"
+merge "x2/VNB" "x2/VGND"
+merge "x2/VGND" "x6/VNB"
+merge "x6/VNB" "x6/VGND"
+merge "x6/VGND" "x1/VNB"
+merge "x1/VNB" "x1/VGND"
+merge "x1/VGND" "sky130_fd_sc_hd__tapvpwrvgnd_1_6/VGND"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_6/VGND" "sky130_fd_sc_hd__tapvpwrvgnd_1_5/VGND"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_5/VGND" "GND"
+merge "GND" "sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "VSUBS"
+merge "sky130_ef_sc_hd__fill_4_1/VPWR" "m1_6830_n3238#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "m1_6830_n3238#" "sky130_ef_sc_hd__fill_4_1/VPB"
+merge "sky130_ef_sc_hd__fill_4_1/VPB" "sky130_ef_sc_hd__fill_4_0/VPWR"
+merge "sky130_ef_sc_hd__fill_4_0/VPWR" "sky130_ef_sc_hd__fill_4_0/VPB"
+merge "sky130_ef_sc_hd__fill_4_0/VPB" "x9/VPWR"
+merge "x9/VPWR" "x9/VPB"
+merge "x9/VPB" "x8/VPWR"
+merge "x8/VPWR" "x8/VPB"
+merge "x8/VPB" "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VPWR"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VPWR" "x10/VPWR"
+merge "x10/VPWR" "x10/VPB"
+merge "x10/VPB" "x4/VPWR"
+merge "x4/VPWR" "x4/VPB"
+merge "x4/VPB" "x5/VPWR"
+merge "x5/VPWR" "x5/VPB"
+merge "x5/VPB" "x3/VPWR"
+merge "x3/VPWR" "x3/VPB"
+merge "x3/VPB" "x7/VPWR"
+merge "x7/VPWR" "sky130_fd_sc_hd__tapvpwrvgnd_1_2/VPWR"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_2/VPWR" "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "x7/VPB"
+merge "x7/VPB" "x2/VPWR"
+merge "x2/VPWR" "x2/VPB"
+merge "x2/VPB" "x6/VPWR"
+merge "x6/VPWR" "x6/VPB"
+merge "x6/VPB" "x1/VPWR"
+merge "x1/VPWR" "x1/VPB"
+merge "x1/VPB" "sky130_fd_sc_hd__tapvpwrvgnd_1_6/VPWR"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_6/VPWR" "sky130_fd_sc_hd__tapvpwrvgnd_1_5/VPWR"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_5/VPWR" "sky130_fd_sc_hd__tapvpwrvgnd_1_4/VPWR"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_4/VPWR" "VDD"
+merge "VDD" "sky130_fd_sc_hd__tapvpwrvgnd_1_3/VPWR"
+merge "x7/A" "x2/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x2/A" "b[6]"
+merge "x9/Y" "BSB[9]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x3/B" "x2/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x2/B" "x1/A"
+merge "x1/A" "b[9]"
+merge "x5/C" "x7/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x7/Y" "li_5202_n3560#"
+merge "x10/A" "x5/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x5/Y" "BS[8]"
+merge "x10/Y" "BSB[8]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x9/A" "x4/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x4/Y" "BS[9]"
+merge "x4/A" "x1/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x1/Y" "li_4929_n3102#"
+merge "x7/B" "x6/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x6/A" "x1/B"
+merge "x1/B" "b[8]"
+merge "x8/Y" "x5/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x5/A" "li_5761_n3518#"
+merge "x5/B" "x6/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x6/Y" "li_5019_n3645#"
+merge "x3/A" "x6/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x6/B" "b[7]"
+merge "x4/B" "x2/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x2/Y" "li_5205_n3046#"
+merge "x8/C" "bb[8]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x8/B" "bb[7]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x8/A" "bb[6]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

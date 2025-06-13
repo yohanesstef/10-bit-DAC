@@ -1,4 +1,4 @@
-v {xschem version=3.4.7 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -251,15 +251,15 @@ spiceprefix=X
 C {devices/param.sym} 60 -580 0 0 {name=s2 value="
 +wp_iref=1.8
 +wn_iref=0.6
-+miref=25
-+miref2=10
++miref=20
++miref2=8
 +
 +wp_bias=4.8
 +wn_bias=1.6
 +mbias=2
 +
 +l=1
-+lref=4
++lref=1
 +lr=20"}
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 810 -630 0 0 {name=M13
 L=lref

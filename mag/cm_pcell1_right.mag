@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749846282
+use cm_pcell1_cell  cm_pcell1_cell_0
+timestamp 1749845344
+transform 1 0 4905 0 1 1555
+box -35 -10 4625 1308
+use grid_ys_0p14_yr_0p3  grid_ys_0p14_yr_0p3_1 ~/10-bit-DAC/mag
+timestamp 1749834095
+transform 1 0 1170 0 1 -872
+box 1801 3053 3589 4841
+<< end >>

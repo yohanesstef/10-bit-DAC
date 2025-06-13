@@ -1932,3 +1932,8 @@ C {devices/lab_pin.sym} 3150 490 0 0 {name=p208 sig_type=std_logic lab=gnd}
 C {devices/ammeter.sym} 3180 490 1 0 {name=Vmeas7 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 3510 490 0 1 {name=p209 sig_type=std_logic lab=V[0..191]}
 C {rstring_v3.sym} 3360 490 0 0 {name=x28}
+C {devices/res.sym} 1130 1100 0 1 {name=R2
+value=767.08k
+footprint=1206
+device=resistor
+m=1}

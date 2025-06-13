@@ -1,0 +1,70 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749752891
+<< pwell >>
+rect 0 -12779 644 -12597
+<< viali >>
+rect 35 -12576 69 -12542
+rect 129 -12577 163 -12543
+rect 300 -12579 334 -12545
+rect 397 -12579 431 -12545
+<< metal1 >>
+rect 21 -12530 81 -12524
+rect 286 -12530 346 -12524
+rect 121 -12543 286 -12530
+rect 121 -12577 129 -12543
+rect 163 -12577 286 -12543
+rect 121 -12590 286 -12577
+rect 21 -12596 81 -12590
+rect 286 -12596 346 -12590
+rect 374 -12530 434 -12524
+rect 434 -12590 437 -12530
+rect 374 -12596 437 -12590
+<< via1 >>
+rect 21 -12542 81 -12530
+rect 21 -12576 35 -12542
+rect 35 -12576 69 -12542
+rect 69 -12576 81 -12542
+rect 21 -12590 81 -12576
+rect 286 -12545 346 -12530
+rect 286 -12579 300 -12545
+rect 300 -12579 334 -12545
+rect 334 -12579 346 -12545
+rect 286 -12590 346 -12579
+rect 374 -12545 434 -12530
+rect 374 -12579 397 -12545
+rect 397 -12579 431 -12545
+rect 431 -12579 434 -12545
+rect 374 -12590 434 -12579
+<< metal2 >>
+rect 21 -12530 81 -12524
+rect 21 -12848 81 -12590
+rect 286 -12530 346 -12208
+rect 286 -12596 346 -12590
+rect 374 -12530 434 -12208
+rect 374 -12596 434 -12590
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1704896540
+transform 1 0 552 0 1 -12800
+box -38 -48 130 592
+use sky130_fd_sc_hd__inv_2  x1 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1704896540
+transform 1 0 0 0 1 -12800
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  x2
+timestamp 1704896540
+transform 1 0 276 0 1 -12800
+box -38 -48 314 592
+<< labels >>
+flabel metal1 s 21 -12530 21 -12530 4 FreeSans 240 0 0 0 IN
+port 0 se
+flabel metal2 s 434 -12208 434 -12208 4 FreeSans 240 270 0 0 OUT
+port 1 se
+flabel metal2 s 346 -12208 346 -12208 4 FreeSans 240 270 0 0 OUTB
+port 2 se
+flabel metal1 s 0 -12208 0 -12208 4 FreeSans 240 0 0 0 VDD
+port 3 se
+flabel metal1 s 0 -12752 0 -12752 4 FreeSans 240 0 0 0 GND
+port 4 se
+<< end >>

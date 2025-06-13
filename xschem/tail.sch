@@ -1,4 +1,4 @@
-v {xschem version=3.4.7 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -19,7 +19,7 @@ C {devices/lab_pin.sym} 390 -300 2 1 {name=p3 sig_type=std_logic lab=VB1}
 C {devices/lab_pin.sym} 390 -390 2 1 {name=p6 sig_type=std_logic lab=VB2}
 C {devices/ipin.sym} 70 -340 0 0 {name=p4 lab=VNB}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 410 -390 0 0 {name=M1
-L=4
+L=1
 W=0.6
 body=VNB
 nf=1
@@ -34,7 +34,7 @@ model=nfet_g5v0d10v5
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 410 -300 0 0 {name=M2
-L=4
+L=1
 W=0.6
 body=VNB
 nf=1

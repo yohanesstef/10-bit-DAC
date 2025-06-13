@@ -1,4 +1,49 @@
 
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_hvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_hvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_hvt     |Circuit 2: sky130_fd_pr__pfet_01v8_hvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_hvt and sky130_fd_pr__pfet_01v8_hvt are equivalent.
+
 Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
 Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
 Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
@@ -14,586 +59,265 @@ Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d1
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
 
-Circuit 1 cell rseg_2_v3 is a black box; will not flatten Circuit 2
-Warning: Equate pins:  cell rseg_2_v3 is a placeholder, treated as a black box.
+Circuit 1 cell sky130_fd_sc_hd__nand2_1 is a black box; will not flatten Circuit 2
+Warning: Equate pins:  cell sky130_fd_sc_hd__nand2_1 is a placeholder, treated as a black box.
 
 Subcircuit pins:
-Circuit 1: rseg_2_v3                       |Circuit 2: rseg_2_v3                       
+Circuit 1: sky130_fd_sc_hd__nand2_1        |Circuit 2: sky130_fd_sc_hd__nand2_1        
 -------------------------------------------|-------------------------------------------
-(no matching pin)                          |v0                                         
-(no matching pin)                          |v1                                         
-(no matching pin)                          |v2                                         
-(no matching pin)                          |v3                                         
-(no matching pin)                          |v4                                         
-(no matching pin)                          |v5                                         
-(no matching pin)                          |v6                                         
-(no matching pin)                          |v7                                         
-(no matching pin)                          |v8                                         
-(no matching pin)                          |v9                                         
-(no matching pin)                          |v10                                        
-(no matching pin)                          |v11                                        
-(no matching pin)                          |v12                                        
-(no matching pin)                          |v13                                        
-(no matching pin)                          |v14                                        
-(no matching pin)                          |v15                                        
-(no matching pin)                          |v17                                        
-(no matching pin)                          |v18                                        
-(no matching pin)                          |v19                                        
-(no matching pin)                          |v20                                        
-(no matching pin)                          |v21                                        
-(no matching pin)                          |v22                                        
-(no matching pin)                          |v23                                        
-(no matching pin)                          |v24                                        
-(no matching pin)                          |v25                                        
-(no matching pin)                          |v26                                        
-(no matching pin)                          |v27                                        
-(no matching pin)                          |v28                                        
-(no matching pin)                          |v29                                        
-(no matching pin)                          |v30                                        
-(no matching pin)                          |v31                                        
-(no matching pin)                          |v33                                        
-(no matching pin)                          |v34                                        
-(no matching pin)                          |v35                                        
-(no matching pin)                          |v36                                        
-(no matching pin)                          |v37                                        
-(no matching pin)                          |v38                                        
-(no matching pin)                          |v39                                        
-(no matching pin)                          |v40                                        
-(no matching pin)                          |v42                                        
-(no matching pin)                          |v43                                        
-(no matching pin)                          |v44                                        
-(no matching pin)                          |v45                                        
-(no matching pin)                          |v46                                        
-(no matching pin)                          |v47                                        
-(no matching pin)                          |v48                                        
-(no matching pin)                          |gnd                                        
-(no matching pin)                          |v41                                        
-(no matching pin)                          |v32                                        
-(no matching pin)                          |v16                                        
+(no matching pin)                          |A                                          
+(no matching pin)                          |B                                          
+(no matching pin)                          |VGND                                       
+(no matching pin)                          |VNB                                        
+(no matching pin)                          |VPB                                        
+(no matching pin)                          |VPWR                                       
+(no matching pin)                          |Y                                          
 ---------------------------------------------------------------------------------------
-Cell pin lists for rseg_2_v3 and rseg_2_v3 altered to match.
-Device classes rseg_2_v3 and rseg_2_v3 are equivalent.
-Flattening unmatched subcell vselector_6b_2v_stage_1 in circuit top_segment_2 (0)(1 instance)
-Flattening unmatched subcell vselector_16b in circuit top_segment_2 (0)(3 instances)
-Flattening unmatched subcell vselector_6b_2v_stage_2 in circuit top_segment_2 (0)(1 instance)
-Flattening unmatched subcell vselector_4b in circuit top_segment_2 (0)(4 instances)
-Flattening unmatched subcell vselector_6b_2v_stage_3 in circuit top_segment_2 (0)(1 instance)
-Flattening unmatched subcell vselector_1b in circuit top_segment_2 (0)(4 instances)
-Flattening unmatched subcell tps2_sw_stage_3 in circuit top_segment_2 (1)(1 instance)
-Flattening unmatched subcell hnmos_2 in circuit top_segment_2 (1)(4 instances)
-Flattening unmatched subcell hnmos_1 in circuit top_segment_2 (1)(8 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_NQHLCX in circuit top_segment_2 (1)(8 instances)
-Flattening unmatched subcell tps2_sw_stage_1 in circuit top_segment_2 (1)(3 instances)
-Flattening unmatched subcell hnmos_4 in circuit top_segment_2 (1)(12 instances)
-Flattening unmatched subcell hnmos_2 in circuit top_segment_2 (1)(24 instances)
-Flattening unmatched subcell hnmos_1 in circuit top_segment_2 (1)(51 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_NQHLCX in circuit top_segment_2 (1)(51 instances)
-Flattening unmatched subcell tps2_sw_stage_2 in circuit top_segment_2 (1)(1 instance)
-Flattening unmatched subcell hnmos_4 in circuit top_segment_2 (1)(4 instances)
-Flattening unmatched subcell hnmos_2 in circuit top_segment_2 (1)(8 instances)
-Flattening unmatched subcell hnmos_1 in circuit top_segment_2 (1)(20 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_NQHLCX in circuit top_segment_2 (1)(20 instances)
+Cell pin lists for sky130_fd_sc_hd__nand2_1 and sky130_fd_sc_hd__nand2_1 altered to match.
+Device classes sky130_fd_sc_hd__nand2_1 and sky130_fd_sc_hd__nand2_1 are equivalent.
+Flattening unmatched subcell pull_up_down_network in circuit decoder_2to4 (0)(4 instances)
+Flattening unmatched subcell dec_pcell in circuit decoder_2to4 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4VG7B4 in circuit decoder_2to4 (1)(4 instances)
+Flattening unmatched subcell dec_ncell_l_1 in circuit decoder_2to4 (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_TC9PLT in circuit decoder_2to4 (1)(4 instances)
+Flattening unmatched subcell dec_logic in circuit decoder_2to4 (1)(1 instance)
+Flattening unmatched subcell dec_ncell_h in circuit decoder_2to4 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_EY6AGD in circuit decoder_2to4 (1)(4 instances)
 
 Subcircuit summary:
-Circuit 1: top_segment_2                   |Circuit 2: top_segment_2                   
+Circuit 1: decoder_2to4                    |Circuit 2: decoder_2to4                    
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_g5v0d10v5 (79)          |sky130_fd_pr__nfet_g5v0d10v5 (79)          
-rseg_2_v3 (1)                              |rseg_2_v3 (1)                              
-Number of devices: 80                      |Number of devices: 80                      
-Number of nets: 135                        |Number of nets: 135                        
+sky130_fd_pr__pfet_g5v0d10v5 (16)          |sky130_fd_pr__pfet_g5v0d10v5 (16)          
+sky130_fd_pr__nfet_g5v0d10v5 (4)           |sky130_fd_pr__nfet_g5v0d10v5 (4)           
+sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
+sky130_fd_sc_hd__nand2_1 (4)               |sky130_fd_sc_hd__nand2_1 (4)               
+Number of devices: 28                      |Number of devices: 28                      
+Number of nets: 61                         |Number of nets: 61                         
 ---------------------------------------------------------------------------------------
 NET mismatches: Class fragments follow (with fanout counts):
-Circuit 1: top_segment_2                   |Circuit 2: top_segment_2                   
+Circuit 1: decoder_2to4                    |Circuit 2: decoder_2to4                    
 
 ---------------------------------------------------------------------------------------
-Net: dummy_135                             |Net: dummy_135                             
-  rseg_2_v3/proxyv16 = 1                   |  rseg_2_v3/proxy50 = 1                    
+Net: dummy_45                              |Net: /dec_logic_0/dummy_44                 
+  sky130_fd_sc_hd__nand2_1/proxyY = 1      |  sky130_fd_sc_hd__nand2_1/proxy7 = 1      
                                            |                                           
-Net: dummy_134                             |Net: dummy_134                             
-  rseg_2_v3/proxyv32 = 1                   |  rseg_2_v3/proxy49 = 1                    
+Net: dummy_38                              |Net: /dec_logic_0/dummy_37                 
+  sky130_fd_sc_hd__nand2_1/proxyY = 1      |  sky130_fd_sc_hd__nand2_1/proxy7 = 1      
                                            |                                           
-Net: dummy_133                             |Net: dummy_133                             
-  rseg_2_v3/proxyv41 = 1                   |  rseg_2_v3/proxy48 = 1                    
+Net: dummy_31                              |Net: /dec_logic_0/dummy_30                 
+  sky130_fd_sc_hd__nand2_1/proxyY = 1      |  sky130_fd_sc_hd__nand2_1/proxy7 = 1      
                                            |                                           
-Net: dummy_132                             |Net: dummy_132                             
-  rseg_2_v3/proxygnd = 1                   |  rseg_2_v3/proxy47 = 1                    
+Net: dummy_24                              |Net: /dec_logic_0/dummy_23                 
+  sky130_fd_sc_hd__nand2_1/proxyY = 1      |  sky130_fd_sc_hd__nand2_1/proxy7 = 1      
                                            |                                           
-Net: dummy_131                             |Net: dummy_131                             
-  rseg_2_v3/proxyv48 = 1                   |  rseg_2_v3/proxy46 = 1                    
+Net: dummy_44                              |Net: /dec_logic_0/dummy_43                 
+  sky130_fd_sc_hd__nand2_1/proxyVPWR = 1   |  sky130_fd_sc_hd__nand2_1/proxy6 = 1      
                                            |                                           
-Net: dummy_130                             |Net: dummy_130                             
-  rseg_2_v3/proxyv47 = 1                   |  rseg_2_v3/proxy45 = 1                    
+Net: dummy_37                              |Net: /dec_logic_0/dummy_36                 
+  sky130_fd_sc_hd__nand2_1/proxyVPWR = 1   |  sky130_fd_sc_hd__nand2_1/proxy6 = 1      
                                            |                                           
-Net: dummy_129                             |Net: dummy_129                             
-  rseg_2_v3/proxyv46 = 1                   |  rseg_2_v3/proxy44 = 1                    
+Net: dummy_30                              |Net: /dec_logic_0/dummy_29                 
+  sky130_fd_sc_hd__nand2_1/proxyVPWR = 1   |  sky130_fd_sc_hd__nand2_1/proxy6 = 1      
                                            |                                           
-Net: dummy_128                             |Net: dummy_128                             
-  rseg_2_v3/proxyv45 = 1                   |  rseg_2_v3/proxy43 = 1                    
+Net: dummy_23                              |Net: /dec_logic_0/dummy_22                 
+  sky130_fd_sc_hd__nand2_1/proxyVPWR = 1   |  sky130_fd_sc_hd__nand2_1/proxy6 = 1      
                                            |                                           
-Net: dummy_127                             |Net: dummy_127                             
-  rseg_2_v3/proxyv44 = 1                   |  rseg_2_v3/proxy42 = 1                    
+Net: dummy_43                              |Net: /dec_logic_0/dummy_42                 
+  sky130_fd_sc_hd__nand2_1/proxyVPB = 1    |  sky130_fd_sc_hd__nand2_1/proxy5 = 1      
                                            |                                           
-Net: dummy_126                             |Net: dummy_126                             
-  rseg_2_v3/proxyv43 = 1                   |  rseg_2_v3/proxy41 = 1                    
+Net: dummy_36                              |Net: /dec_logic_0/dummy_35                 
+  sky130_fd_sc_hd__nand2_1/proxyVPB = 1    |  sky130_fd_sc_hd__nand2_1/proxy5 = 1      
                                            |                                           
-Net: dummy_125                             |Net: dummy_125                             
-  rseg_2_v3/proxyv42 = 1                   |  rseg_2_v3/proxy40 = 1                    
+Net: dummy_29                              |Net: /dec_logic_0/dummy_28                 
+  sky130_fd_sc_hd__nand2_1/proxyVPB = 1    |  sky130_fd_sc_hd__nand2_1/proxy5 = 1      
                                            |                                           
-Net: dummy_124                             |Net: dummy_124                             
-  rseg_2_v3/proxyv40 = 1                   |  rseg_2_v3/proxy39 = 1                    
+Net: dummy_22                              |Net: /dec_logic_0/dummy_21                 
+  sky130_fd_sc_hd__nand2_1/proxyVPB = 1    |  sky130_fd_sc_hd__nand2_1/proxy5 = 1      
                                            |                                           
-Net: dummy_123                             |Net: dummy_123                             
-  rseg_2_v3/proxyv39 = 1                   |  rseg_2_v3/proxy38 = 1                    
+Net: dummy_42                              |Net: /dec_logic_0/dummy_41                 
+  sky130_fd_sc_hd__nand2_1/proxyVNB = 1    |  sky130_fd_sc_hd__nand2_1/proxy4 = 1      
                                            |                                           
-Net: dummy_122                             |Net: dummy_122                             
-  rseg_2_v3/proxyv38 = 1                   |  rseg_2_v3/proxy37 = 1                    
+Net: dummy_35                              |Net: /dec_logic_0/dummy_34                 
+  sky130_fd_sc_hd__nand2_1/proxyVNB = 1    |  sky130_fd_sc_hd__nand2_1/proxy4 = 1      
                                            |                                           
-Net: dummy_121                             |Net: dummy_121                             
-  rseg_2_v3/proxyv37 = 1                   |  rseg_2_v3/proxy36 = 1                    
+Net: dummy_28                              |Net: /dec_logic_0/dummy_27                 
+  sky130_fd_sc_hd__nand2_1/proxyVNB = 1    |  sky130_fd_sc_hd__nand2_1/proxy4 = 1      
                                            |                                           
-Net: dummy_120                             |Net: dummy_120                             
-  rseg_2_v3/proxyv36 = 1                   |  rseg_2_v3/proxy35 = 1                    
+Net: dummy_21                              |Net: /dec_logic_0/dummy_20                 
+  sky130_fd_sc_hd__nand2_1/proxyVNB = 1    |  sky130_fd_sc_hd__nand2_1/proxy4 = 1      
                                            |                                           
-Net: dummy_119                             |Net: dummy_119                             
-  rseg_2_v3/proxyv35 = 1                   |  rseg_2_v3/proxy34 = 1                    
+Net: dummy_41                              |Net: /dec_logic_0/dummy_40                 
+  sky130_fd_sc_hd__nand2_1/proxyVGND = 1   |  sky130_fd_sc_hd__nand2_1/proxy3 = 1      
                                            |                                           
-Net: dummy_118                             |Net: dummy_118                             
-  rseg_2_v3/proxyv34 = 1                   |  rseg_2_v3/proxy33 = 1                    
+Net: dummy_34                              |Net: /dec_logic_0/dummy_33                 
+  sky130_fd_sc_hd__nand2_1/proxyVGND = 1   |  sky130_fd_sc_hd__nand2_1/proxy3 = 1      
                                            |                                           
-Net: dummy_117                             |Net: dummy_117                             
-  rseg_2_v3/proxyv33 = 1                   |  rseg_2_v3/proxy32 = 1                    
+Net: dummy_27                              |Net: /dec_logic_0/dummy_26                 
+  sky130_fd_sc_hd__nand2_1/proxyVGND = 1   |  sky130_fd_sc_hd__nand2_1/proxy3 = 1      
                                            |                                           
-Net: dummy_116                             |Net: dummy_116                             
-  rseg_2_v3/proxyv31 = 1                   |  rseg_2_v3/proxy31 = 1                    
+Net: dummy_20                              |Net: /dec_logic_0/dummy_19                 
+  sky130_fd_sc_hd__nand2_1/proxyVGND = 1   |  sky130_fd_sc_hd__nand2_1/proxy3 = 1      
                                            |                                           
-Net: dummy_115                             |Net: dummy_115                             
-  rseg_2_v3/proxyv30 = 1                   |  rseg_2_v3/proxy30 = 1                    
+Net: dummy_40                              |Net: /dec_logic_0/dummy_39                 
+  sky130_fd_sc_hd__nand2_1/proxyB = 1      |  sky130_fd_sc_hd__nand2_1/proxy2 = 1      
                                            |                                           
-Net: dummy_114                             |Net: dummy_114                             
-  rseg_2_v3/proxyv29 = 1                   |  rseg_2_v3/proxy29 = 1                    
+Net: dummy_33                              |Net: /dec_logic_0/dummy_32                 
+  sky130_fd_sc_hd__nand2_1/proxyB = 1      |  sky130_fd_sc_hd__nand2_1/proxy2 = 1      
                                            |                                           
-Net: dummy_113                             |Net: dummy_113                             
-  rseg_2_v3/proxyv28 = 1                   |  rseg_2_v3/proxy28 = 1                    
+Net: dummy_26                              |Net: /dec_logic_0/dummy_25                 
+  sky130_fd_sc_hd__nand2_1/proxyB = 1      |  sky130_fd_sc_hd__nand2_1/proxy2 = 1      
                                            |                                           
-Net: dummy_112                             |Net: dummy_112                             
-  rseg_2_v3/proxyv27 = 1                   |  rseg_2_v3/proxy27 = 1                    
+Net: dummy_19                              |Net: /dec_logic_0/dummy_18                 
+  sky130_fd_sc_hd__nand2_1/proxyB = 1      |  sky130_fd_sc_hd__nand2_1/proxy2 = 1      
                                            |                                           
-Net: dummy_111                             |Net: dummy_111                             
-  rseg_2_v3/proxyv26 = 1                   |  rseg_2_v3/proxy26 = 1                    
+Net: dummy_39                              |Net: /dec_logic_0/dummy_38                 
+  sky130_fd_sc_hd__nand2_1/proxyA = 1      |  sky130_fd_sc_hd__nand2_1/proxy1 = 1      
                                            |                                           
-Net: dummy_110                             |Net: dummy_110                             
-  rseg_2_v3/proxyv25 = 1                   |  rseg_2_v3/proxy25 = 1                    
+Net: dummy_32                              |Net: /dec_logic_0/dummy_31                 
+  sky130_fd_sc_hd__nand2_1/proxyA = 1      |  sky130_fd_sc_hd__nand2_1/proxy1 = 1      
                                            |                                           
-Net: dummy_109                             |Net: dummy_109                             
-  rseg_2_v3/proxyv24 = 1                   |  rseg_2_v3/proxy24 = 1                    
+Net: dummy_25                              |Net: /dec_logic_0/dummy_24                 
+  sky130_fd_sc_hd__nand2_1/proxyA = 1      |  sky130_fd_sc_hd__nand2_1/proxy1 = 1      
                                            |                                           
-Net: dummy_108                             |Net: dummy_108                             
-  rseg_2_v3/proxyv23 = 1                   |  rseg_2_v3/proxy23 = 1                    
-                                           |                                           
-Net: dummy_107                             |Net: dummy_107                             
-  rseg_2_v3/proxyv22 = 1                   |  rseg_2_v3/proxy22 = 1                    
-                                           |                                           
-Net: dummy_106                             |Net: dummy_106                             
-  rseg_2_v3/proxyv21 = 1                   |  rseg_2_v3/proxy21 = 1                    
-                                           |                                           
-Net: dummy_105                             |Net: dummy_105                             
-  rseg_2_v3/proxyv20 = 1                   |  rseg_2_v3/proxy20 = 1                    
-                                           |                                           
-Net: dummy_104                             |Net: dummy_104                             
-  rseg_2_v3/proxyv19 = 1                   |  rseg_2_v3/proxy19 = 1                    
-                                           |                                           
-Net: dummy_103                             |Net: dummy_103                             
-  rseg_2_v3/proxyv18 = 1                   |  rseg_2_v3/proxy18 = 1                    
-                                           |                                           
-Net: dummy_102                             |Net: dummy_102                             
-  rseg_2_v3/proxyv17 = 1                   |  rseg_2_v3/proxy17 = 1                    
-                                           |                                           
-Net: dummy_101                             |Net: dummy_101                             
-  rseg_2_v3/proxyv15 = 1                   |  rseg_2_v3/proxy16 = 1                    
-                                           |                                           
-Net: dummy_100                             |Net: dummy_100                             
-  rseg_2_v3/proxyv14 = 1                   |  rseg_2_v3/proxy15 = 1                    
-                                           |                                           
-Net: dummy_99                              |Net: dummy_99                              
-  rseg_2_v3/proxyv13 = 1                   |  rseg_2_v3/proxy14 = 1                    
-                                           |                                           
-Net: dummy_98                              |Net: dummy_98                              
-  rseg_2_v3/proxyv12 = 1                   |  rseg_2_v3/proxy13 = 1                    
-                                           |                                           
-Net: dummy_97                              |Net: dummy_97                              
-  rseg_2_v3/proxyv11 = 1                   |  rseg_2_v3/proxy12 = 1                    
-                                           |                                           
-Net: dummy_96                              |Net: dummy_96                              
-  rseg_2_v3/proxyv10 = 1                   |  rseg_2_v3/proxy11 = 1                    
-                                           |                                           
-Net: dummy_95                              |Net: dummy_95                              
-  rseg_2_v3/proxyv9 = 1                    |  rseg_2_v3/proxy10 = 1                    
-                                           |                                           
-Net: dummy_94                              |Net: dummy_94                              
-  rseg_2_v3/proxyv8 = 1                    |  rseg_2_v3/proxy9 = 1                     
-                                           |                                           
-Net: dummy_93                              |Net: dummy_93                              
-  rseg_2_v3/proxyv7 = 1                    |  rseg_2_v3/proxy8 = 1                     
-                                           |                                           
-Net: dummy_92                              |Net: dummy_92                              
-  rseg_2_v3/proxyv6 = 1                    |  rseg_2_v3/proxy7 = 1                     
-                                           |                                           
-Net: dummy_91                              |Net: dummy_91                              
-  rseg_2_v3/proxyv5 = 1                    |  rseg_2_v3/proxy6 = 1                     
-                                           |                                           
-Net: dummy_90                              |Net: dummy_90                              
-  rseg_2_v3/proxyv4 = 1                    |  rseg_2_v3/proxy5 = 1                     
-                                           |                                           
-Net: dummy_89                              |Net: dummy_89                              
-  rseg_2_v3/proxyv3 = 1                    |  rseg_2_v3/proxy4 = 1                     
-                                           |                                           
-Net: dummy_88                              |Net: dummy_88                              
-  rseg_2_v3/proxyv2 = 1                    |  rseg_2_v3/proxy3 = 1                     
-                                           |                                           
-Net: dummy_87                              |Net: dummy_87                              
-  rseg_2_v3/proxyv1 = 1                    |  rseg_2_v3/proxy2 = 1                     
-                                           |                                           
-Net: dummy_86                              |Net: dummy_86                              
-  rseg_2_v3/proxyv0 = 1                    |  rseg_2_v3/proxy1 = 1                     
+Net: dummy_18                              |Net: /dec_logic_0/dummy_17                 
+  sky130_fd_sc_hd__nand2_1/proxyA = 1      |  sky130_fd_sc_hd__nand2_1/proxy1 = 1      
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: VDD                                   |Net: VDD                                   
+  sky130_fd_sc_hd__nand2_1/5 = 4           |  sky130_fd_sc_hd__nand2_1/VPB = 4         
+  sky130_fd_sc_hd__nand2_1/6 = 4           |  sky130_fd_sc_hd__nand2_1/VPWR = 4        
 ---------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------
 Net: GND                                   |Net: GND                                   
-  sky130_fd_pr__nfet_g5v0d10v5/4 = 79      |  sky130_fd_pr__nfet_g5v0d10v5/4 = 79      
-  rseg_2_v3/50 = 1                         |  rseg_2_v3/gnd = 1                        
+  sky130_fd_pr__nfet_g5v0d10v5/4 = 4       |  sky130_fd_pr__nfet_g5v0d10v5/4 = 4       
+  sky130_fd_pr__nfet_01v8/(1|3) = 4        |  sky130_fd_pr__nfet_01v8/(1|3) = 4        
+  sky130_fd_pr__nfet_01v8/4 = 4            |  sky130_fd_pr__nfet_01v8/4 = 4            
+  sky130_fd_sc_hd__nand2_1/3 = 4           |  sky130_fd_sc_hd__nand2_1/VNB = 4         
+  sky130_fd_sc_hd__nand2_1/4 = 4           |  sky130_fd_sc_hd__nand2_1/VGND = 4        
 ---------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------
-Net: V32                                   |Net: rseg_2_v3_0/v32                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 2   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 2   
-  rseg_2_v3/33 = 1                         |  rseg_2_v3/v32 = 1                        
+Net: bb[0]                                 |Net: bb[0]                                 
+  sky130_fd_sc_hd__nand2_1/2 = 2           |  sky130_fd_sc_hd__nand2_1/B = 2           
                                            |                                           
-Net: V16                                   |Net: rseg_2_v3_0/v16                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 2   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 2   
-  rseg_2_v3/17 = 1                         |  rseg_2_v3/v16 = 1                        
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: V41                                   |Net: rseg_2_v3_0/v45                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/42 = 1                         |  rseg_2_v3/v45 = 1                        
+Net: b[1]                                  |Net: b[1]                                  
+  sky130_fd_sc_hd__nand2_1/1 = 1           |  sky130_fd_sc_hd__nand2_1/A = 1           
+  sky130_fd_sc_hd__nand2_1/2 = 1           |  sky130_fd_sc_hd__nand2_1/B = 1           
                                            |                                           
-Net: V47                                   |Net: rseg_2_v3_0/v39                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/48 = 1                         |  rseg_2_v3/v39 = 1                        
+Net: bb[1]                                 |Net: bb[1]                                 
+  sky130_fd_sc_hd__nand2_1/1 = 1           |  sky130_fd_sc_hd__nand2_1/A = 1           
+  sky130_fd_sc_hd__nand2_1/2 = 1           |  sky130_fd_sc_hd__nand2_1/B = 1           
                                            |                                           
-Net: V46                                   |Net: rseg_2_v3_0/v35                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/47 = 1                         |  rseg_2_v3/v35 = 1                        
+Net: b[0]                                  |Net: b[0]                                  
+  sky130_fd_sc_hd__nand2_1/1 = 2           |  sky130_fd_sc_hd__nand2_1/A = 2           
                                            |                                           
-Net: V45                                   |Net: rseg_2_v3_0/v40                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/46 = 1                         |  rseg_2_v3/v40 = 1                        
+Net: DIN[3]                                |Net: dec_logic_0/sky130_fd_sc_hd__nand2_1_ 
+  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
+  sky130_fd_sc_hd__nand2_1/7 = 1           |  sky130_fd_sc_hd__nand2_1/Y = 1           
                                            |                                           
-Net: V44                                   |Net: rseg_2_v3_0/v34                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/45 = 1                         |  rseg_2_v3/v34 = 1                        
+Net: DIN[2]                                |Net: dec_logic_0/sky130_fd_sc_hd__nand2_1_ 
+  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
+  sky130_fd_sc_hd__nand2_1/7 = 1           |  sky130_fd_sc_hd__nand2_1/Y = 1           
                                            |                                           
-Net: V43                                   |Net: rseg_2_v3_0/v43                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/44 = 1                         |  rseg_2_v3/v43 = 1                        
+Net: DIN[1]                                |Net: dec_logic_0/sky130_fd_sc_hd__nand2_1_ 
+  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
+  sky130_fd_sc_hd__nand2_1/7 = 1           |  sky130_fd_sc_hd__nand2_1/Y = 1           
                                            |                                           
-Net: V42                                   |Net: rseg_2_v3_0/v38                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/43 = 1                         |  rseg_2_v3/v38 = 1                        
-                                           |                                           
-Net: V48                                   |Net: V48                                   
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/49 = 1                         |  rseg_2_v3/v48 = 1                        
-                                           |                                           
-Net: V40                                   |Net: rseg_2_v3_0/v44                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/41 = 1                         |  rseg_2_v3/v44 = 1                        
-                                           |                                           
-Net: V39                                   |Net: rseg_2_v3_0/v42                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/40 = 1                         |  rseg_2_v3/v42 = 1                        
-                                           |                                           
-Net: V38                                   |Net: rseg_2_v3_0/v37                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/39 = 1                         |  rseg_2_v3/v37 = 1                        
-                                           |                                           
-Net: V37                                   |Net: rseg_2_v3_0/v36                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/38 = 1                         |  rseg_2_v3/v36 = 1                        
-                                           |                                           
-Net: V36                                   |Net: rseg_2_v3_0/v33                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/37 = 1                         |  rseg_2_v3/v33 = 1                        
-                                           |                                           
-Net: V35                                   |Net: rseg_2_v3_0/v47                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/36 = 1                         |  rseg_2_v3/v47 = 1                        
-                                           |                                           
-Net: V34                                   |Net: rseg_2_v3_0/v41                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/35 = 1                         |  rseg_2_v3/v41 = 1                        
-                                           |                                           
-Net: V33                                   |Net: rseg_2_v3_0/v46                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/34 = 1                         |  rseg_2_v3/v46 = 1                        
-                                           |                                           
-Net: V31                                   |Net: rseg_2_v3_0/v29                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/32 = 1                         |  rseg_2_v3/v29 = 1                        
-                                           |                                           
-Net: V30                                   |Net: rseg_2_v3_0/v23                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/31 = 1                         |  rseg_2_v3/v23 = 1                        
-                                           |                                           
-Net: V29                                   |Net: rseg_2_v3_0/v19                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/30 = 1                         |  rseg_2_v3/v19 = 1                        
-                                           |                                           
-Net: V28                                   |Net: rseg_2_v3_0/v24                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/29 = 1                         |  rseg_2_v3/v24 = 1                        
-                                           |                                           
-Net: V27                                   |Net: rseg_2_v3_0/v18                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/28 = 1                         |  rseg_2_v3/v18 = 1                        
-                                           |                                           
-Net: V26                                   |Net: rseg_2_v3_0/v27                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/27 = 1                         |  rseg_2_v3/v27 = 1                        
-                                           |                                           
-Net: V25                                   |Net: rseg_2_v3_0/v22                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/26 = 1                         |  rseg_2_v3/v22 = 1                        
-                                           |                                           
-Net: V24                                   |Net: rseg_2_v3_0/v28                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/25 = 1                         |  rseg_2_v3/v28 = 1                        
-                                           |                                           
-Net: V23                                   |Net: rseg_2_v3_0/v26                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/24 = 1                         |  rseg_2_v3/v26 = 1                        
-                                           |                                           
-Net: V22                                   |Net: rseg_2_v3_0/v21                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/23 = 1                         |  rseg_2_v3/v21 = 1                        
-                                           |                                           
-Net: V21                                   |Net: rseg_2_v3_0/v20                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/22 = 1                         |  rseg_2_v3/v20 = 1                        
-                                           |                                           
-Net: V20                                   |Net: rseg_2_v3_0/v17                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/21 = 1                         |  rseg_2_v3/v17 = 1                        
-                                           |                                           
-Net: V19                                   |Net: rseg_2_v3_0/v31                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/20 = 1                         |  rseg_2_v3/v31 = 1                        
-                                           |                                           
-Net: V18                                   |Net: rseg_2_v3_0/v25                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/19 = 1                         |  rseg_2_v3/v25 = 1                        
-                                           |                                           
-Net: V17                                   |Net: rseg_2_v3_0/v30                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/18 = 1                         |  rseg_2_v3/v30 = 1                        
-                                           |                                           
-Net: V15                                   |Net: rseg_2_v3_0/v13                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/16 = 1                         |  rseg_2_v3/v13 = 1                        
-                                           |                                           
-Net: V14                                   |Net: rseg_2_v3_0/v7                        
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/15 = 1                         |  rseg_2_v3/v7 = 1                         
-                                           |                                           
-Net: V13                                   |Net: rseg_2_v3_0/v3                        
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/14 = 1                         |  rseg_2_v3/v3 = 1                         
-                                           |                                           
-Net: V12                                   |Net: rseg_2_v3_0/v8                        
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/13 = 1                         |  rseg_2_v3/v8 = 1                         
-                                           |                                           
-Net: V11                                   |Net: rseg_2_v3_0/v2                        
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/12 = 1                         |  rseg_2_v3/v2 = 1                         
-                                           |                                           
-Net: V10                                   |Net: rseg_2_v3_0/v11                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/11 = 1                         |  rseg_2_v3/v11 = 1                        
-                                           |                                           
-Net: V9                                    |Net: rseg_2_v3_0/v6                        
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/10 = 1                         |  rseg_2_v3/v6 = 1                         
-                                           |                                           
-Net: V8                                    |Net: rseg_2_v3_0/v12                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/9 = 1                          |  rseg_2_v3/v12 = 1                        
-                                           |                                           
-Net: V7                                    |Net: rseg_2_v3_0/v10                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/8 = 1                          |  rseg_2_v3/v10 = 1                        
-                                           |                                           
-Net: V0                                    |Net: V0                                    
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/1 = 1                          |  rseg_2_v3/v0 = 1                         
-                                           |                                           
-Net: V5                                    |Net: rseg_2_v3_0/v5                        
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/6 = 1                          |  rseg_2_v3/v5 = 1                         
-                                           |                                           
-Net: V4                                    |Net: rseg_2_v3_0/v4                        
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/5 = 1                          |  rseg_2_v3/v4 = 1                         
-                                           |                                           
-Net: V3                                    |Net: rseg_2_v3_0/v1                        
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/4 = 1                          |  rseg_2_v3/v1 = 1                         
-                                           |                                           
-Net: V2                                    |Net: rseg_2_v3_0/v15                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/3 = 1                          |  rseg_2_v3/v15 = 1                        
-                                           |                                           
-Net: V1                                    |Net: rseg_2_v3_0/v9                        
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/2 = 1                          |  rseg_2_v3/v9 = 1                         
-                                           |                                           
-Net: V6                                    |Net: rseg_2_v3_0/v14                       
-  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
-  rseg_2_v3/7 = 1                          |  rseg_2_v3/v14 = 1                        
+Net: DIN[0]                                |Net: dec_logic_0/sky130_fd_sc_hd__nand2_1_ 
+  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
+  sky130_fd_sc_hd__nand2_1/7 = 1           |  sky130_fd_sc_hd__nand2_1/Y = 1           
 ---------------------------------------------------------------------------------------
 DEVICE mismatches: Class fragments follow (with node fanout counts):
-Circuit 1: top_segment_2                   |Circuit 2: top_segment_2                   
+Circuit 1: decoder_2to4                    |Circuit 2: decoder_2to4                    
 
 ---------------------------------------------------------------------------------------
-Instance: rseg_2_v3:4                      |Instance: rseg_2_v3_0                      
+Instance: sky130_fd_sc_hd__nand2_1:9       |Instance: dec_logic_0//sky130_fd_sc_hd__na 
   1 = 2                                    |  proxy1 = 1                               
   2 = 2                                    |  proxy2 = 1                               
-  3 = 2                                    |  proxy3 = 1                               
-  4 = 2                                    |  proxy4 = 1                               
-  5 = 2                                    |  proxy5 = 1                               
-  6 = 2                                    |  proxy6 = 1                               
+  3 = 20                                   |  proxy3 = 1                               
+  4 = 20                                   |  proxy4 = 1                               
+  5 = 8                                    |  proxy5 = 1                               
+  6 = 8                                    |  proxy6 = 1                               
   7 = 2                                    |  proxy7 = 1                               
-  8 = 2                                    |  proxy8 = 1                               
-  9 = 2                                    |  proxy9 = 1                               
-  10 = 2                                   |  proxy10 = 1                              
-  11 = 2                                   |  proxy11 = 1                              
-  12 = 2                                   |  proxy12 = 1                              
-  13 = 2                                   |  proxy13 = 1                              
-  14 = 2                                   |  proxy14 = 1                              
-  15 = 2                                   |  proxy15 = 1                              
-  16 = 2                                   |  proxy16 = 1                              
-  17 = 3                                   |  proxy17 = 1                              
-  18 = 2                                   |  proxy18 = 1                              
-  19 = 2                                   |  proxy19 = 1                              
-  20 = 2                                   |  proxy20 = 1                              
-  21 = 2                                   |  proxy21 = 1                              
-  22 = 2                                   |  proxy22 = 1                              
-  23 = 2                                   |  proxy23 = 1                              
-  24 = 2                                   |  proxy24 = 1                              
-  25 = 2                                   |  proxy25 = 1                              
-  26 = 2                                   |  proxy26 = 1                              
-  27 = 2                                   |  proxy27 = 1                              
-  28 = 2                                   |  proxy28 = 1                              
-  29 = 2                                   |  proxy29 = 1                              
-  30 = 2                                   |  proxy30 = 1                              
-  31 = 2                                   |  proxy31 = 1                              
-  32 = 2                                   |  proxy32 = 1                              
-  33 = 3                                   |  proxy33 = 1                              
-  34 = 2                                   |  proxy34 = 1                              
-  35 = 2                                   |  proxy35 = 1                              
-  36 = 2                                   |  proxy36 = 1                              
-  37 = 2                                   |  proxy37 = 1                              
-  38 = 2                                   |  proxy38 = 1                              
-  39 = 2                                   |  proxy39 = 1                              
-  40 = 2                                   |  proxy40 = 1                              
-  41 = 2                                   |  proxy41 = 1                              
-  42 = 2                                   |  proxy42 = 1                              
-  43 = 2                                   |  proxy43 = 1                              
-  44 = 2                                   |  proxy44 = 1                              
-  45 = 2                                   |  proxy45 = 1                              
-  46 = 2                                   |  proxy46 = 1                              
-  47 = 2                                   |  proxy47 = 1                              
-  48 = 2                                   |  proxy48 = 1                              
-  49 = 2                                   |  proxy49 = 1                              
-  50 = 80                                  |  proxy50 = 1                              
-  proxyv0 = 1                              |  v0 = 2                                   
-  proxyv1 = 1                              |  v1 = 2                                   
-  proxyv2 = 1                              |  v2 = 2                                   
-  proxyv3 = 1                              |  v3 = 2                                   
-  proxyv4 = 1                              |  v4 = 2                                   
-  proxyv5 = 1                              |  v5 = 2                                   
-  proxyv6 = 1                              |  v6 = 2                                   
-  proxyv7 = 1                              |  v7 = 2                                   
-  proxyv8 = 1                              |  v8 = 2                                   
-  proxyv9 = 1                              |  v9 = 2                                   
-  proxyv10 = 1                             |  v10 = 2                                  
-  proxyv11 = 1                             |  v11 = 2                                  
-  proxyv12 = 1                             |  v12 = 2                                  
-  proxyv13 = 1                             |  v13 = 2                                  
-  proxyv14 = 1                             |  v14 = 2                                  
-  proxyv15 = 1                             |  v15 = 2                                  
-  proxyv17 = 1                             |  v17 = 2                                  
-  proxyv18 = 1                             |  v18 = 2                                  
-  proxyv19 = 1                             |  v19 = 2                                  
-  proxyv20 = 1                             |  v20 = 2                                  
-  proxyv21 = 1                             |  v21 = 2                                  
-  proxyv22 = 1                             |  v22 = 2                                  
-  proxyv23 = 1                             |  v23 = 2                                  
-  proxyv24 = 1                             |  v24 = 2                                  
-  proxyv25 = 1                             |  v25 = 2                                  
-  proxyv26 = 1                             |  v26 = 2                                  
-  proxyv27 = 1                             |  v27 = 2                                  
-  proxyv28 = 1                             |  v28 = 2                                  
-  proxyv29 = 1                             |  v29 = 2                                  
-  proxyv30 = 1                             |  v30 = 2                                  
-  proxyv31 = 1                             |  v31 = 2                                  
-  proxyv33 = 1                             |  v33 = 2                                  
-  proxyv34 = 1                             |  v34 = 2                                  
-  proxyv35 = 1                             |  v35 = 2                                  
-  proxyv36 = 1                             |  v36 = 2                                  
-  proxyv37 = 1                             |  v37 = 2                                  
-  proxyv38 = 1                             |  v38 = 2                                  
-  proxyv39 = 1                             |  v39 = 2                                  
-  proxyv40 = 1                             |  v40 = 2                                  
-  proxyv42 = 1                             |  v42 = 2                                  
-  proxyv43 = 1                             |  v43 = 2                                  
-  proxyv44 = 1                             |  v44 = 2                                  
-  proxyv45 = 1                             |  v45 = 2                                  
-  proxyv46 = 1                             |  v46 = 2                                  
-  proxyv47 = 1                             |  v47 = 2                                  
-  proxyv48 = 1                             |  v48 = 2                                  
-  proxygnd = 1                             |  gnd = 80                                 
-  proxyv41 = 1                             |  v41 = 2                                  
-  proxyv32 = 1                             |  v32 = 3                                  
-  proxyv16 = 1                             |  v16 = 3                                  
+  proxyA = 1                               |  A = 2                                    
+  proxyB = 1                               |  B = 2                                    
+  proxyVGND = 1                            |  VGND = 20                                
+  proxyVNB = 1                             |  VNB = 20                                 
+  proxyVPB = 1                             |  VPB = 8                                  
+  proxyVPWR = 1                            |  VPWR = 8                                 
+  proxyY = 1                               |  Y = 2                                    
+                                           |                                           
+Instance: sky130_fd_sc_hd__nand2_1:8       |Instance: dec_logic_0//sky130_fd_sc_hd__na 
+  1 = 2                                    |  proxy1 = 1                               
+  2 = 2                                    |  proxy2 = 1                               
+  3 = 20                                   |  proxy3 = 1                               
+  4 = 20                                   |  proxy4 = 1                               
+  5 = 8                                    |  proxy5 = 1                               
+  6 = 8                                    |  proxy6 = 1                               
+  7 = 2                                    |  proxy7 = 1                               
+  proxyA = 1                               |  A = 2                                    
+  proxyB = 1                               |  B = 2                                    
+  proxyVGND = 1                            |  VGND = 20                                
+  proxyVNB = 1                             |  VNB = 20                                 
+  proxyVPB = 1                             |  VPB = 8                                  
+  proxyVPWR = 1                            |  VPWR = 8                                 
+  proxyY = 1                               |  Y = 2                                    
+                                           |                                           
+Instance: sky130_fd_sc_hd__nand2_1:7       |Instance: dec_logic_0//sky130_fd_sc_hd__na 
+  1 = 2                                    |  proxy1 = 1                               
+  2 = 2                                    |  proxy2 = 1                               
+  3 = 20                                   |  proxy3 = 1                               
+  4 = 20                                   |  proxy4 = 1                               
+  5 = 8                                    |  proxy5 = 1                               
+  6 = 8                                    |  proxy6 = 1                               
+  7 = 2                                    |  proxy7 = 1                               
+  proxyA = 1                               |  A = 2                                    
+  proxyB = 1                               |  B = 2                                    
+  proxyVGND = 1                            |  VGND = 20                                
+  proxyVNB = 1                             |  VNB = 20                                 
+  proxyVPB = 1                             |  VPB = 8                                  
+  proxyVPWR = 1                            |  VPWR = 8                                 
+  proxyY = 1                               |  Y = 2                                    
+                                           |                                           
+Instance: sky130_fd_sc_hd__nand2_1:6       |Instance: dec_logic_0//sky130_fd_sc_hd__na 
+  1 = 2                                    |  proxy1 = 1                               
+  2 = 2                                    |  proxy2 = 1                               
+  3 = 20                                   |  proxy3 = 1                               
+  4 = 20                                   |  proxy4 = 1                               
+  5 = 8                                    |  proxy5 = 1                               
+  6 = 8                                    |  proxy6 = 1                               
+  7 = 2                                    |  proxy7 = 1                               
+  proxyA = 1                               |  A = 2                                    
+  proxyB = 1                               |  B = 2                                    
+  proxyVGND = 1                            |  VGND = 20                                
+  proxyVNB = 1                             |  VNB = 20                                 
+  proxyVPB = 1                             |  VPB = 8                                  
+  proxyVPWR = 1                            |  VPWR = 8                                 
+  proxyY = 1                               |  Y = 2                                    
 ---------------------------------------------------------------------------------------
 Netlists do not match.
 Port matching may fail to disambiguate symmetries.
 
 Subcircuit pins:
-Circuit 1: top_segment_2                   |Circuit 2: top_segment_2                   
+Circuit 1: decoder_2to4                    |Circuit 2: decoder_2to4                    
 -------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
 GND                                        |GND                                        
-dec1[0]                                    |DEC1[0]                                    
-dec1[1]                                    |DEC1[1]                                    
-dec1[3]                                    |DEC1[3]                                    
-dec1[2]                                    |DEC1[2]                                    
-VL                                         |VL                                         
-VH                                         |VH                                         
-dec0[1]                                    |DEC0[1]                                    
-dec0[2]                                    |DEC0[2]                                    
-dec0[0]                                    |DEC0[0]                                    
-V48                                        |(no pin, node is rseg_2_v3_0/v45)          
-V0                                         |(no pin, node is rseg_2_v3_0/v14)          
-dec2[2]                                    |DEC2[2]                                    
-dec2[1]                                    |DEC2[1]                                    
-dec2[3]                                    |DEC2[0] **Mismatch**                       
-dec2[0]                                    |DEC2[3] **Mismatch**                       
-(no pin, node is V0)                       |V0                                         
-(no pin, node is V0)                       |V48                                        
+VDDH                                       |VDDH                                       
+VOUT[2]                                    |VOUT[2]                                    
+VOUT[3]                                    |VOUT[3]                                    
+VOUT[0]                                    |VOUT[0]                                    
+VOUT[1]                                    |VOUT[1]                                    
+b[1]                                       |bb[0] **Mismatch**                         
+bb[1]                                      |b[1] **Mismatch**                          
+b[0]                                       |bb[1] **Mismatch**                         
+bb[0]                                      |b[0] **Mismatch**                          
+VPBIAS                                     |VPBIAS                                     
+VNBIAS                                     |VNBIAS                                     
 ---------------------------------------------------------------------------------------
-Cell pin lists for top_segment_2 and top_segment_2 altered to match.
-Device classes top_segment_2 and top_segment_2 are equivalent.
+Cell pin lists for decoder_2to4 and decoder_2to4 altered to match.
+Device classes decoder_2to4 and decoder_2to4 are equivalent.
 
 Final result: Top level cell failed pin matching.

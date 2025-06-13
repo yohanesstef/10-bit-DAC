@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749550684
+timestamp 1749633251
 << locali >>
 rect 6730 7022 6764 7661
 rect 10884 7022 10918 7661
@@ -102,7 +102,7 @@ timestamp 1749548291
 transform 1 0 -28318 0 1 12290
 box 35000 -5278 39284 -3861
 use rseg_1_v3  rseg_1_v3_1
-timestamp 1749548075
+timestamp 1749630286
 transform 1 0 -10186 0 1 19524
 box 10163 -19548 24372 -15788
 use tps1_sw_stage_final  tps1_sw_stage_final_0

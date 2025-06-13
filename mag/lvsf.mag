@@ -1,0 +1,74 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749801796
+<< pwell >>
+rect 2601 -989 3663 -405
+<< viali >>
+rect 2683 -797 2803 -763
+rect 3461 -797 3581 -763
+<< metal1 >>
+rect 2666 -236 2726 79
+rect 2666 -631 2726 -296
+rect 2775 -324 2835 -166
+rect 3429 -236 3489 -191
+rect 3429 -302 3489 -296
+rect 2775 -390 2835 -384
+rect 3538 -324 3598 79
+rect 2637 -763 2809 -750
+rect 2637 -797 2683 -763
+rect 2803 -797 2809 -763
+rect 2637 -810 2809 -797
+rect 2924 -941 2984 -431
+rect 3280 -941 3340 -431
+rect 3538 -631 3598 -384
+rect 3455 -763 3627 -750
+rect 3455 -797 3461 -763
+rect 3581 -797 3627 -763
+rect 3455 -810 3627 -797
+rect 2924 -1015 3027 -941
+rect 2924 -1541 3021 -1015
+rect 3237 -1541 3340 -941
+rect 2637 -1765 3627 -1669
+<< via1 >>
+rect 2666 -296 2726 -236
+rect 3429 -296 3489 -236
+rect 2775 -384 2835 -324
+rect 3538 -384 3598 -324
+<< metal2 >>
+rect 2660 -296 2666 -236
+rect 2726 -296 3429 -236
+rect 3489 -296 3495 -236
+rect 2769 -384 2775 -324
+rect 2835 -384 3538 -324
+rect 3598 -384 3604 -324
+rect 3010 -1765 3070 -1569
+rect 3194 -1765 3254 -1569
+use lvsf_ncell_h  lvsf_ncell_h_1
+timestamp 1749632609
+transform 1 0 2173 0 1 -1326
+box 464 516 1454 921
+use lvsf_ncell_l  lvsf_ncell_l_0
+timestamp 1749801796
+transform 1 0 2238 0 1 -1299
+box 363 -466 1425 384
+use lvsf_pcell  lvsf_pcell_0
+timestamp 1749753750
+transform 1 0 2715 0 1 -188
+box -144 -33 978 514
+<< labels >>
+flabel metal2 s 2637 143 2637 143 3 FreeSans 480 0 0 0 VPBIAS
+port 0 e
+flabel metal2 s 2637 -686 2637 -686 3 FreeSans 480 0 0 0 VNBIAS
+port 1 e
+flabel metal2 s 3495 -266 3495 -266 7 FreeSans 480 0 0 0 OUTP
+port 4 w
+flabel metal1 s 2637 229 2637 229 3 FreeSans 480 0 0 0 VDDH
+port 5 e
+flabel metal1 s 2637 -1699 2637 -1699 3 FreeSans 480 0 0 0 GND
+port 6 e
+flabel metal2 s 3010 -1658 3010 -1658 5 FreeSans 480 90 0 0 INB
+port 3 e
+flabel metal2 s 3194 -1624 3194 -1624 5 FreeSans 480 90 0 0 IN
+port 2 e
+<< end >>

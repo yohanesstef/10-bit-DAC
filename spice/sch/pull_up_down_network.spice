@@ -1,0 +1,12 @@
+** sch_path: /home/yohanes/10-bit-DAC/xschem/pull_up_down_network.sch
+*.subckt pull_up_down_network VPBIAS VNBIAS DIN V[0] V[1] V[2] VOUT VDDH GND VPB VNB
+*.PININFO VPBIAS:I VNBIAS:I DIN:I V[0:2]:I VOUT:O VDDH:I GND:I VPB:I VNB:I
+XM1 net2 VPBIAS VDDH VPB sky130_fd_pr__pfet_g5v0d10v5 L=1 W=0.84 nf=1 m=1
+.param wp=0.84 wn=1 l=1
+
+XM2 net3 V[0] net2 VPB sky130_fd_pr__pfet_g5v0d10v5 L=1 W=0.84 nf=1 m=1
+XM3 net4 V[1] net3 VPB sky130_fd_pr__pfet_g5v0d10v5 L=1 W=0.84 nf=1 m=1
+XM4 VOUT V[2] net4 VPB sky130_fd_pr__pfet_g5v0d10v5 L=1 W=0.84 nf=1 m=1
+XM5 VOUT VNBIAS net1 VNB sky130_fd_pr__nfet_g5v0d10v5 L=1 W=1 nf=1 m=1
+XM6 net1 DIN GND VNB sky130_fd_pr__nfet_01v8 L=0.15 W=2 nf=1 m=1
+*.ends

@@ -1,0 +1,33 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749801796
+use lvsf_buff  lvsf_buff_0
+timestamp 1749801796
+transform 1 0 -28 0 1 -146
+box -21 -14 1101 2939
+use lvsf_buff  lvsf_buff_1
+timestamp 1749801796
+transform 1 0 962 0 1 -146
+box -21 -14 1101 2939
+use lvsf_buff  lvsf_buff_2
+timestamp 1749801796
+transform 1 0 2942 0 1 -146
+box -21 -14 1101 2939
+use lvsf_buff  lvsf_buff_3
+timestamp 1749801796
+transform 1 0 1952 0 1 -146
+box -21 -14 1101 2939
+use lvsf_buff  lvsf_buff_4
+timestamp 1749801796
+transform 1 0 4922 0 1 -146
+box -21 -14 1101 2939
+use lvsf_buff  lvsf_buff_5
+timestamp 1749801796
+transform 1 0 3932 0 1 -146
+box -21 -14 1101 2939
+use lvsf_buff  lvsf_buff_7
+timestamp 1749801796
+transform 1 0 5912 0 1 -146
+box -21 -14 1101 2939
+<< end >>

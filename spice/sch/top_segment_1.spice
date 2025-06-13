@@ -1,4 +1,6 @@
 ** sch_path: /home/yohanes/10-bit-DAC/xschem/top_segment_1.sch
+*.include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+*.include ~/pdk/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__res_xhigh_po_1p41.model.spice
 .subckt top_segment_1 V0 V64 DEC[0] DEC[1] DEC[2] DEC[3] b[0] b[1] b[2] b[3] bb[0] bb[1] bb[2] bb[3] VOUT GND
 *.PININFO V64:I VOUT:O GND:I DEC[0:3]:I b[0:3]:I bb[0:3]:I V0:I
 x1 V0 V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17 V18 V19 V20 V21 V22 V23 V24 V25 V26 V27 V28 V29 V30 V31 V32 V33

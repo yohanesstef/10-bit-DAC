@@ -1,4 +1,4 @@
-v {xschem version=3.4.7 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,8 +12,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9
+x1=-5.8261406
+x2=3.1738594
 divx=5
 subdivx=8
 xlabmag=1.0
@@ -33,8 +33,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9
+x1=-5.8261406
+x2=3.1738594
 divx=5
 subdivx=8
 xlabmag=1.0
@@ -185,11 +185,6 @@ C {op_amp.sym} 580 -370 0 0 {name=x1}
 C {devices/lab_pin.sym} 430 -410 0 0 {name=p30 sig_type=std_logic lab=NON_INV}
 C {devices/lab_pin.sym} 650 -270 0 1 {name=p49 sig_type=std_logic lab=INVERTING}
 C {devices/ammeter.sym} 710 -370 3 1 {name=Vmeas1 savecurrent=true spice_ignore=0}
-C {devices/res.sym} 230 -360 0 0 {name=R2
-value=767.08k
-footprint=1206
-device=resistor
-m=1}
 C {devices/lab_pin.sym} 230 -250 0 0 {name=p119 sig_type=std_logic lab=gnd}
 C {devices/ammeter.sym} 230 -300 0 0 {name=Vmeas30 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 510 -490 0 0 {name=p1 sig_type=std_logic lab=GND}
@@ -210,3 +205,8 @@ C {devices/gnd.sym} 960 -210 0 0 {name=l5 lab=GND}
 C {devices/gnd.sym} 1140 -210 0 0 {name=l6 lab=GND}
 C {devices/gnd.sym} 1140 -340 0 0 {name=l7 lab=GND}
 C {devices/lab_pin.sym} 670 -370 1 1 {name=p7 sig_type=std_logic lab=out}
+C {devices/res.sym} 230 -360 0 0 {name=R3
+value=1.7588MEG
+footprint=1206
+device=resistor
+m=1}

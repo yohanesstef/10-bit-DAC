@@ -1,10 +1,10 @@
-v {xschem version=3.4.7 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
-B 2 890 -1190 1690 -790 {flags=graph
+B 2 70 -800 870 -400 {flags=graph
 y1=0.0021
 y2=0.5
 ypos1=0.18
@@ -27,7 +27,7 @@ rainbow=1
 legend=1
 color=4
 node=T}
-B 2 890 -790 1690 -390 {flags=graph
+B 2 870 -800 1670 -400 {flags=graph
 y1=0.0021
 y2=0.5
 ypos1=0.0021
@@ -109,11 +109,6 @@ C {devices/lab_pin.sym} 1070 -240 0 1 {name=p99 sig_type=std_logic lab=LOAD}
 C {devices/lab_pin.sym} 990 -240 3 1 {name=p8 sig_type=std_logic lab=VOUT}
 C {devices/lab_pin.sym} 720 -190 0 0 {name=p11 sig_type=std_logic lab=0}
 C {devices/lab_pin.sym} 720 -310 0 0 {name=p13 sig_type=std_logic lab=da[0..9]}
-C {devices/res.sym} 810 -110 0 1 {name=R2
-value=767.08k
-footprint=1206
-device=resistor
-m=1}
 C {devices/lab_pin.sym} 810 -80 0 0 {name=p119 sig_type=std_logic lab=0}
 C {devices/res.sym} 860 -110 0 0 {name=R3
 value=192.15k
@@ -152,3 +147,8 @@ C {devices/launcher.sym} 370 -350 0 0 {name=h1
 descr="Clear" 
 tclcommand="xschem raw_read $netlist_dir/spectral_tb.raw dc"
 }
+C {devices/res.sym} 810 -110 0 1 {name=R4
+value=1.7588MEG
+footprint=1206
+device=resistor
+m=1}

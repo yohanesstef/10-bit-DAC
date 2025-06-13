@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749542751
+timestamp 1749664768
 << error_s >>
 rect 41113 -4070 41119 -4064
 rect 41167 -4070 41173 -4064
@@ -101,7 +101,7 @@ rect 41418 -4069 41452 -4007
 rect 37264 -4103 37360 -4069
 rect 41356 -4103 41452 -4069
 use pswitch_16_final  pswitch_16_final_0
-timestamp 1749421208
+timestamp 1749664768
 transform 1 0 2216 0 1 526
-box 35104 -5278 39180 -3861
+box 34970 -5278 39314 -3861
 << end >>

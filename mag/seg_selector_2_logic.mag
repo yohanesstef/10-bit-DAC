@@ -1,0 +1,29 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749736748
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1704896540
+transform 1 0 1365 0 1 -3445
+box -38 -48 130 592
+use sky130_fd_sc_hd__nand2_1  x1 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1704896540
+transform 1 0 537 0 1 -3445
+box -38 -48 314 592
+use sky130_fd_sc_hd__nand2_1  x2
+timestamp 1704896540
+transform 1 0 813 0 1 -3445
+box -38 -48 314 592
+use sky130_fd_sc_hd__nand2_1  x3
+timestamp 1704896540
+transform 1 0 1089 0 1 -3445
+box -38 -48 314 592
+use sky130_fd_sc_hd__nand4_1  x4 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1749714889
+transform 1 0 1825 0 1 -3445
+box -38 -48 498 592
+use sky130_fd_sc_hd__nand3_1  x5 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1749714889
+transform 1 0 1457 0 1 -3445
+box -38 -48 406 592
+<< end >>

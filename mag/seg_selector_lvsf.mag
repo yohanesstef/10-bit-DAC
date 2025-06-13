@@ -1,0 +1,21 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749801796
+use lvsf_inv  lvsf_inv_0
+timestamp 1749801796
+transform 1 0 -56 0 1 -17
+box 11 3 1133 2956
+use lvsf_inv  lvsf_inv_1
+timestamp 1749801796
+transform 1 0 934 0 1 -17
+box 11 3 1133 2956
+use lvsf_inv  lvsf_inv_2
+timestamp 1749801796
+transform 1 0 1924 0 1 -17
+box 11 3 1133 2956
+use lvsf_inv  lvsf_inv_3
+timestamp 1749801796
+transform 1 0 2914 0 1 -17
+box 11 3 1133 2956
+<< end >>

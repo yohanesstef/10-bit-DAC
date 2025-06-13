@@ -1,0 +1,32 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749801796
+<< metal1 >>
+rect 45 2771 1035 2919
+rect 45 1998 1035 2207
+<< metal2 >>
+rect 355 2125 411 2135
+rect 355 2059 411 2069
+rect 345 1457 355 1513
+rect 411 1457 421 1513
+<< via2 >>
+rect 355 2069 411 2125
+rect 355 1457 411 1513
+<< metal3 >>
+rect 350 2125 416 2130
+rect 350 2069 355 2125
+rect 411 2069 416 2125
+rect 350 1513 416 2069
+rect 350 1457 355 1513
+rect 411 1457 416 1513
+rect 350 1452 416 1457
+use buff_hvl  buff_hvl_0
+timestamp 1749799496
+transform 1 0 281 0 -1 2889
+box -96 -50 612 890
+use lvsf  lvsf_0
+timestamp 1749801796
+transform 1 0 -2592 0 1 1751
+box 2571 -1765 3693 326
+<< end >>

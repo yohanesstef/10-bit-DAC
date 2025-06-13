@@ -1,12 +1,12 @@
-v {xschem version=3.4.7 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
 B 2 2520 -1430 3320 -1030 {flags=graph
-y1=1.1296
-y2=7.0926
+y1=-0.063
+y2=5.9
 ypos1=0
 ypos2=2
 divy=5
@@ -73,8 +73,8 @@ logy=0
 color=4
 node=i(vmeas24)}
 B 2 290 -50 1090 350 {flags=graph
-y1=1.8e-07
-y2=2.1e-07
+y1=2.1e-07
+y2=2e-06
 ypos1=0
 ypos2=2
 divy=5
@@ -115,8 +115,8 @@ color="4 5"
 node="i(vmeas36)
 i(vmeas39)"}
 B 2 1090 -50 1890 350 {flags=graph
-y1=1.5e-06
-y2=5.9e-06
+y1=-0.00023
+y2=0.00034
 ypos1=0
 ypos2=2
 divy=5
@@ -136,8 +136,8 @@ color="4 5"
 node="i(vmeas20)
 i(vmeas31)"}
 B 2 2520 -1830 3320 -1430 {flags=graph
-y1=-0.00017
-y2=0.00013
+y1=-5e-05
+y2=0.00025
 ypos1=0
 ypos2=2
 divy=5
@@ -261,8 +261,8 @@ logy=0
 color=4
 node=difference}
 B 2 20 -2150 820 -1750 {flags=graph
-y1=-28
-y2=74
+y1=-83
+y2=71
 ypos1=0
 ypos2=2
 divy=5
@@ -282,8 +282,8 @@ color="4 5"
 node="\\"out db20()\\"
 \\"load db20()\\""}
 B 2 2520 -1030 3320 -630 {flags=graph
-ypos1=0.076404317
-ypos2=1.0493157
+ypos1=-0.02088682
+ypos2=0.95202453
 subdivy=1
 unity=1
 x1=1
@@ -326,7 +326,7 @@ T {Rail-to-Rail Differential Pairs} 30 -1690 0 0 0.4 0.4 {}
 T {Diff Pair Currents} 820 -1690 0 0 0.4 0.4 {}
 T {tcleval(Aol: [to_eng [xschem raw value Aol 0]]
 UGF: [to_eng [xschem raw value ugf 0]]
-PM: [to_eng [xschem raw value pm 0]])} -287.5 -1870 0 0 0.6 0.6 {floater=1}
+PM: [to_eng [xschem raw value pm 0]])} -287.5 -1880 0 0 0.6 0.6 {floater=1}
 N 300 -900 510 -900 {lab=i_ndiff0}
 N 300 -930 510 -930 {lab=gnd}
 N 160 -980 160 -960 {lab=i_pdiff0}
@@ -795,6 +795,7 @@ only_toplevel=false
 value="  
   .option wnflag=1
   .option safecurrents
+  .option solver=klu
   ********************Static Voltage Sources***************************
   Vddh vddh gnd dc 5.5
 
@@ -831,15 +832,16 @@ value="
   .control
      reset
      save all
+     set num_threads=8
      *save inc ind out load
-     *tran 1n 100u
+     *tran 10n 100u
      *dc vin0 -1 6.5 0.01
      *dc R2 100k 500k 1k
 
      ac dec 100 1 1e9
      let difference=v(inc)-v(ind)
-     let vout_mag =abs(v(load))
-     let vout_phase_margin = phase(v(load))*180/pi + 180
+     let vout_mag =abs(v(out))
+     let vout_phase_margin = phase(v(out))*180/pi + 180
      meas ac Aol find vout_mag at = 10
      meas ac UGF when vout_mag=1 fall=1
      meas ac PM find vout_phase_margin when vout_mag=1
@@ -1187,11 +1189,6 @@ spiceprefix=X
 C {devices/lab_pin.sym} 295 -845 0 0 {name=p116 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 240 -690 0 1 {name=p117 sig_type=std_logic lab=n1}
 C {devices/lab_pin.sym} 240 -610 0 1 {name=p118 sig_type=std_logic lab=n2}
-C {devices/res.sym} 140 -140 0 0 {name=R2
-value=767.08k
-footprint=1206
-device=resistor
-m=1}
 C {devices/lab_pin.sym} 140 -30 0 0 {name=p119 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 140 -650 0 1 {name=p120 sig_type=std_logic lab=n3}
 C {devices/lab_pin.sym} 200 -420 0 1 {name=p121 sig_type=std_logic lab=n4}
@@ -1448,18 +1445,18 @@ C {devices/lab_pin.sym} 400 -1160 0 0 {name=p35 sig_type=std_logic lab=i_pdiff1}
 C {devices/lab_pin.sym} 400 -1330 0 0 {name=p38 sig_type=std_logic lab=i_pdiff2}
 C {devices/lab_pin.sym} 400 -1490 0 0 {name=p46 sig_type=std_logic lab=i_pdiff3}
 C {devices/lab_pin.sym} 400 -1650 0 0 {name=p49 sig_type=std_logic lab=i_pdiff4}
-C {devices/param.sym} -200 -870 0 0 {name=s2 value="
+C {devices/param.sym} -280 -830 0 0 {name=s2 value="
 +wp_iref=1.8
 +wn_iref=0.6
-+miref=25
-+miref2=10
++miref=20
++miref2=8
 +
 +wp_bias=4.8
 +wn_bias=1.6
 +mbias=2
 +
 +l=1
-+lref=4
++lref=1
 +lr=20
 +
 +midiff0=2
@@ -2107,3 +2104,8 @@ C {devices/vsource.sym} -270 -1060 0 0 {name=Vcm value=2.75 savecurrent=false}
 C {devices/gnd.sym} -450 -1010 0 0 {name=l5 lab=GND}
 C {devices/gnd.sym} -270 -1010 0 0 {name=l6 lab=GND}
 C {devices/gnd.sym} -270 -1140 0 0 {name=l7 lab=GND}
+C {devices/res.sym} 140 -140 0 0 {name=R2
+value=1.7588MEG
+footprint=1206
+device=resistor
+m=1}

@@ -1,0 +1,37 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749801796
+use lvsf  lvsf_0
+timestamp 1749801796
+transform 1 0 -3424 0 1 3650
+box 2571 -1765 3693 326
+use lvsf  lvsf_1
+timestamp 1749801796
+transform 1 0 -2434 0 1 3650
+box 2571 -1765 3693 326
+use lvsf  lvsf_2
+timestamp 1749801796
+transform 1 0 -454 0 1 3650
+box 2571 -1765 3693 326
+use lvsf  lvsf_3
+timestamp 1749801796
+transform 1 0 -1444 0 1 3650
+box 2571 -1765 3693 326
+use sky130_fd_sc_hvl__inv_1  sky130_fd_sc_hvl__inv_1_0 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/mag
+timestamp 1704896540
+transform 1 0 3423 0 1 2025
+box -66 -43 354 897
+use sky130_fd_sc_hvl__inv_1  sky130_fd_sc_hvl__inv_1_1
+timestamp 1704896540
+transform 1 0 3711 0 1 2025
+box -66 -43 354 897
+use sky130_fd_sc_hvl__inv_1  sky130_fd_sc_hvl__inv_1_2
+timestamp 1704896540
+transform 1 0 3999 0 1 2025
+box -66 -43 354 897
+use sky130_fd_sc_hvl__inv_1  sky130_fd_sc_hvl__inv_1_3
+timestamp 1704896540
+transform 1 0 4287 0 1 2025
+box -66 -43 354 897
+<< end >>

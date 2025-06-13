@@ -1,0 +1,41 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749636135
+<< error_s >>
+rect -455 1835 -155 1865
+rect -407 1832 -159 1835
+rect -119 1832 181 1862
+rect -389 1769 -221 1799
+rect -225 739 -221 1769
+rect -389 709 -221 739
+rect -159 673 -155 1832
+rect -153 1796 95 1832
+rect -153 1766 115 1796
+rect -153 736 95 1766
+rect 111 736 115 1766
+rect -153 706 115 736
+rect -153 673 95 706
+rect -455 643 -155 673
+rect 177 670 181 1832
+rect -119 640 181 670
+rect -577 -103 -519 -97
+rect -577 -137 -565 -103
+rect -577 -143 -519 -137
+use sky130_fd_pr__nfet_g5v0d10v5_4NR3UE  sky130_fd_pr__nfet_g5v0d10v5_4NR3UE_0
+timestamp 1749636135
+transform 0 -1 -325 1 0 166
+box -158 -157 158 157
+use sky130_fd_pr__pfet_g5v0d10v5_XZSNJ3  sky130_fd_pr__pfet_g5v0d10v5_XZSNJ3_0
+timestamp 1749636135
+transform 0 -1 -5 1 0 1251
+box -611 -186 611 148
+use sky130_fd_pr__pfet_g5v0d10v5_XZSNJ3  XM1
+timestamp 1749636135
+transform 0 -1 -341 1 0 1254
+box -611 -186 611 148
+use sky130_fd_pr__nfet_01v8_J2X3AG  XM6
+timestamp 1749636135
+transform 1 0 -548 0 1 -344
+box -73 -257 73 257
+<< end >>

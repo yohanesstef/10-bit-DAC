@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749542751
+timestamp 1749664768
 << locali >>
 rect 35102 -5170 35136 -4445
 rect 39256 -5170 39290 -4445
@@ -158,7 +158,7 @@ rect 40289 -8000 40295 -7992
 rect 29885 -9174 29906 -9170
 rect 43301 -9174 43322 -9170
 use pgring_16  pgring_16_0
-timestamp 1749542751
+timestamp 1749664768
 transform 1 0 -2162 0 1 -438
 box 37186 -4752 41530 -3335
 use pswitch_8_stage_1  pswitch_8_stage_1_0
