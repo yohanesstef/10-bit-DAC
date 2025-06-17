@@ -1,0 +1,64 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750150351
+<< locali >>
+rect 695 -15 730 65
+rect 1554 -15 1589 65
+rect 695 -2737 729 -2656
+rect 1555 -2771 1589 -2657
+<< metal1 >>
+rect 1272 234 1332 312
+rect 226 -2812 286 234
+rect 314 -2812 374 234
+rect 859 206 1332 234
+rect 496 146 1332 206
+rect 496 -803 556 146
+rect 1360 118 1420 312
+rect 496 -2812 556 -863
+rect 584 58 1420 118
+rect 584 -2214 644 58
+rect 584 -2724 644 -2274
+rect 584 -2784 1420 -2724
+rect 1360 -2812 1420 -2784
+rect 496 -2872 1332 -2812
+<< via1 >>
+rect 496 -863 556 -803
+rect 584 -2274 644 -2214
+<< metal2 >>
+rect 490 -863 496 -803
+rect 556 -863 682 -803
+rect 578 -2274 584 -2214
+rect 644 -2274 672 -2214
+use monticelli_nmos  monticelli_nmos_0
+timestamp 1750150351
+transform 1 0 54 0 1 -3515
+box -46 -835 1584 827
+use monticelli_pmos  monticelli_pmos_0
+timestamp 1750150351
+transform 1 0 -3031 0 1 221
+box 3009 -235 4699 2767
+use opa_output_stage  opa_output_stage_0
+timestamp 1750070618
+transform 1 0 651 0 1 -2702
+box -35 -3 1147 2766
+<< labels >>
+flabel metal1 s 138 1400 198 1460 0 FreeSans 320 0 0 0 VB1
+port 0 nsew
+flabel metal1 s 138 -3601 198 -3541 0 FreeSans 320 0 0 0 VB2
+port 1 nsew
+flabel metal1 s 496 -1229 556 -1169 0 FreeSans 320 0 0 0 A
+port 2 nsew
+flabel metal1 s 584 -1229 644 -1169 0 FreeSans 320 0 0 0 B
+port 3 nsew
+flabel metal1 s 314 -1229 374 -1169 0 FreeSans 320 0 0 0 Ax
+port 4 nsew
+flabel metal1 s 226 -1229 286 -1169 0 FreeSans 320 0 0 0 Bx
+port 5 nsew
+flabel metal1 s 682 -62 742 -2 0 FreeSans 320 0 0 0 VDDA
+port 7 nsew
+flabel metal1 s 682 -2670 742 -2610 0 FreeSans 320 0 0 0 GNDA
+port 8 nsew
+flabel metal1 s 1699 -1473 1759 -1413 0 FreeSans 320 0 0 0 OUT
+port 6 nsew
+<< end >>

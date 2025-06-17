@@ -1,0 +1,32 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749897485
+<< mvnsubdiffcont >>
+rect 342 67 9430 101
+<< metal2 >>
+rect 1145 -44 7875 16
+rect 1897 -132 8627 -72
+rect 1466 -308 7554 -248
+rect 2218 -396 8306 -336
+rect 5086 -484 5158 -424
+rect 4620 -572 4692 -512
+rect 4909 -660 4981 -600
+rect 4791 -748 4863 -688
+rect 5285 -836 5991 -776
+rect 2277 -924 8247 -864
+rect 5602 -1012 5674 -952
+rect 2594 -1100 7930 -1040
+rect 4098 -1188 6426 -1128
+rect 1149 -1276 8623 -1216
+rect 1411 -1452 8361 -1392
+rect 3777 -1540 6747 -1480
+use cm_pcell2_left  cm_pcell2_left_1 ~/10-bit-DAC/mag
+timestamp 1749896124
+transform 1 0 239 0 1 -1695
+box -35 -9 4713 1875
+use cm_pcell2_right  cm_pcell2_right_1 ~/10-bit-DAC/mag
+timestamp 1749896124
+transform 1 0 4855 0 1 -1695
+box -35 -9 4713 1875
+<< end >>

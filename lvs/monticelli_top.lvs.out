@@ -1,0 +1,80 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+Flattening unmatched subcell monticelli_nmos in circuit monticelli_top (0)(1 instance)
+Flattening unmatched subcell monticelli_nmos_2 in circuit monticelli_top (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG in circuit monticelli_top (0)(4 instances)
+Flattening unmatched subcell monticelli_pmos in circuit monticelli_top (0)(1 instance)
+Flattening unmatched subcell monticelli_pmos_2 in circuit monticelli_top (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_X66K38 in circuit monticelli_top (0)(4 instances)
+Flattening unmatched subcell opa_output_stage in circuit monticelli_top (0)(1 instance)
+Flattening unmatched subcell out_pcell in circuit monticelli_top (0)(1 instance)
+Flattening unmatched subcell out_pcell_2 in circuit monticelli_top (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_VQXVZH in circuit monticelli_top (0)(2 instances)
+Flattening unmatched subcell out_ncell in circuit monticelli_top (0)(1 instance)
+Flattening unmatched subcell out_ncell_2 in circuit monticelli_top (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_7VNVKF in circuit monticelli_top (0)(2 instances)
+
+Class monticelli_top (0):  Merged 10 parallel devices.
+Subcircuit summary:
+Circuit 1: monticelli_top                  |Circuit 2: monticelli_top                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (8->3)        |sky130_fd_pr__nfet_g5v0d10v5 (6->3)        
+sky130_fd_pr__pfet_g5v0d10v5 (8->3)        |sky130_fd_pr__pfet_g5v0d10v5 (6->3)        
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with property errors.
+opa_output_stage_0//out_ncell_0//out_ncell_2_0//sky130_fd_pr__nfet_g5v0d10v5_7VNVKF_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. sky130_fd_pr__nfet_g5v0d10v5:M6:
+ w circuit1: 4   circuit2: 6   (delta=40%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: monticelli_top                  |Circuit 2: monticelli_top                  
+-------------------------------------------|-------------------------------------------
+GNDA                                       |GNDA                                       
+VDDA                                       |VDDA                                       
+VB2                                        |VB2                                        
+VB1                                        |VB1                                        
+Ax                                         |Ax                                         
+Bx                                         |Bx                                         
+OUT                                        |OUT                                        
+A                                          |A                                          
+B                                          |B                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes monticelli_top and monticelli_top are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ monticelli_top

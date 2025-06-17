@@ -1,0 +1,47 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750065844
+<< nwell >>
+rect 155 -1155 1207 1391
+<< mvnsubdiffcont >>
+rect 294 1278 1068 1312
+rect 234 -1016 268 1252
+rect 1094 -1016 1128 1252
+rect 294 -1076 1068 -1042
+<< viali >>
+rect 234 1278 294 1312
+rect 294 1278 1068 1312
+rect 1068 1278 1128 1312
+rect 234 1252 268 1278
+rect 234 -1016 268 1252
+rect 234 -1042 268 -1016
+rect 1094 1252 1128 1278
+rect 1094 -1016 1128 1252
+rect 1094 -1042 1128 -1016
+rect 234 -1076 294 -1042
+rect 294 -1076 1068 -1042
+rect 1068 -1076 1128 -1042
+<< metal1 >>
+rect 645 176 651 236
+rect 711 176 717 236
+rect 645 0 651 60
+rect 711 0 717 60
+<< via1 >>
+rect 651 176 711 236
+rect 651 0 711 60
+<< metal2 >>
+rect 651 236 711 242
+rect 651 60 711 176
+rect 651 -6 711 0
+use fcm_bias_pcell_2  fcm_bias_pcell_2_0
+timestamp 1750064919
+transform 1 0 409 0 1 117
+box -254 -95 798 1274
+use fcm_bias_pcell_2  fcm_bias_pcell_2_1
+timestamp 1750064919
+transform -1 0 953 0 -1 119
+box -254 -95 798 1274
+<< labels >>
+flabel metal1 s 400 -987 446 -941 0 FreeSans 320 0 0 0 VB1
+<< end >>

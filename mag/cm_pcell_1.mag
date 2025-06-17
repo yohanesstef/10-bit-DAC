@@ -1,24 +1,24 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749830327
+timestamp 1749889584
 << error_s >>
-rect -60 -12 -30 476
-rect 6 54 36 410
-rect 292 54 322 410
-rect 6 50 322 54
-rect 358 -12 388 476
-rect -60 -16 388 -12
+rect -60 -20 -30 468
+rect 6 46 36 402
+rect 292 46 322 402
+rect 6 42 322 46
+rect 358 -20 388 468
+rect -60 -24 388 -20
 << metal1 >>
-rect 98 437 104 497
-rect 224 437 230 497
+rect 98 429 104 489
+rect 224 429 230 489
 << via1 >>
-rect 104 437 224 497
+rect 104 429 224 489
 << metal2 >>
-rect 98 437 104 497
-rect 224 437 230 497
+rect 98 429 104 489
+rect 224 429 230 489
 use sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5  sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0
-timestamp 1749826289
-transform 1 0 164 0 1 266
+timestamp 1749889488
+transform 1 0 164 0 1 258
 box -224 -282 224 244
 << end >>

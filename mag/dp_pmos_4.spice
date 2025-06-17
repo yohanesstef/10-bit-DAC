@@ -1,0 +1,15 @@
+* NGSPICE file created from dp_pmos_4.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_V8EYZH a_n229_n362# a_287_n362# w_n581_n398#
++ a_n487_n362# a_29_n362#
+X0 a_229_n336# a_29_n362# a_n29_n336# w_n581_n398# sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X1 a_n29_n336# a_n229_n362# a_n287_n336# w_n581_n398# sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X2 a_n287_n336# a_n487_n362# a_n545_n336# w_n581_n398# sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X3 a_487_n336# a_287_n362# a_229_n336# w_n581_n398# sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+.ends
+
+.subckt dp_pmos_4
+Xsky130_fd_pr__pfet_g5v0d10v5_V8EYZH_0 m1_n303_79# m1_n391_79# w_n2054_n983# m1_n391_79#
++ m1_n303_79# sky130_fd_pr__pfet_g5v0d10v5_V8EYZH
+.ends
+

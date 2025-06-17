@@ -1,0 +1,21 @@
+timestamp 1750067976
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use out_ncell_2 out_ncell_2_1 1 0 157 0 -1 10
+use out_ncell_2 out_ncell_2_0 1 0 157 0 1 -14
+node "m1_393_n32#" 0 0 393 -32 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_270_n327#" 0 0 270 -327 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "a_n18_n355#" 0 0 -18 -355 mvpsc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "out_ncell_2_0/sky130_fd_pr__nfet_g5v0d10v5_7VNVKF_0/a_n29_n131#" "out_ncell_2_1/sky130_fd_pr__nfet_g5v0d10v5_7VNVKF_0/a_n29_n131#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "out_ncell_2_1/sky130_fd_pr__nfet_g5v0d10v5_7VNVKF_0/a_n29_n131#" "m1_393_n32#"
+merge "out_ncell_2_0/m1_n198_12#" "out_ncell_2_0/li_n175_12#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "out_ncell_2_0/li_n175_12#" "out_ncell_2_0/a_n188_12#"
+merge "out_ncell_2_0/a_n188_12#" "out_ncell_2_1/m1_n198_12#"
+merge "out_ncell_2_1/m1_n198_12#" "out_ncell_2_1/li_n175_12#"
+merge "out_ncell_2_1/li_n175_12#" "out_ncell_2_1/a_n188_12#"
+merge "out_ncell_2_1/a_n188_12#" "a_n18_n355#"
+merge "out_ncell_2_0/sky130_fd_pr__nfet_g5v0d10v5_7VNVKF_0/a_n229_n157#" "out_ncell_2_1/sky130_fd_pr__nfet_g5v0d10v5_7VNVKF_0/a_n229_n157#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "out_ncell_2_1/sky130_fd_pr__nfet_g5v0d10v5_7VNVKF_0/a_n229_n157#" "m1_270_n327#"

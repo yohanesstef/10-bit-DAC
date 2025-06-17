@@ -1,0 +1,62 @@
+timestamp 1750150351
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use monticelli_top monticelli_top_0 1 0 11 0 1 -2804
+use fc_pcell fc_pcell_0 1 0 -7 0 1 2813
+use fc_ncell fc_ncell_0 1 0 -1088 0 1 -10314
+port "I_OPB" 5 237 -7837 297 -7777 m1
+port "I_OPA" 4 325 -7837 385 -7777 m1
+port "I_ONB" 7 237 1386 297 1446 m1
+port "I_ONA" 6 325 1386 385 1446 m1
+port "VOUT" 8 1711 -4481 1771 -4421 m1
+port "VB2" 3 149 -6320 209 -6260 m1
+port "VB1" 2 149 -1324 209 -1264 m1
+port "VBS2" 1 149 -7973 209 -7913 m1
+port "VBS1" 0 149 1435 209 1495 m1
+port "GNDA" 10 1711 -8596 1771 -8536 m1
+port "VDDA" 9 1686 5345 1746 5405 m1
+node "I_OPB" 0 0 237 -7837 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "I_OPA" 0 0 325 -7837 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "I_ONB" 0 0 237 1386 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "I_ONA" 0 0 325 1386 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VOUT" 0 0 1711 -4481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VB2" 0 0 149 -6320 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VB1" 0 0 149 -1324 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VBS2" 0 0 149 -7973 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VBS1" 0 0 149 1435 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_1371_n7146#" 0 0 1371 -7146 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_929_n7024#" 0 0 929 -7024 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "GNDA" 0 0 1711 -8596 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_1343_n36#" 0 0 1343 -36 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_325_n58#" 0 0 325 -58 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDDA" 0 0 1686 5345 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_top_0/VB2" "VB2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fc_pcell_0/VSUBS" "monticelli_top_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_top_0/VSUBS" "fc_ncell_0/a_1143_1631#"
+merge "fc_ncell_0/a_1143_1631#" "VSUBS"
+merge "fc_ncell_0/fc_ncell2_0/fc_ncell2_2_0/a_n440_n82#" "monticelli_top_0/monticelli_nmos_0/monticelli_nmos_2_1/a_n374_578#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_top_0/opa_output_stage_0/out_ncell_0/out_ncell_2_1/m1_n198_12#" "fc_ncell_0/fc_ncell1_0/a_143_n639#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fc_ncell_0/fc_ncell1_0/a_143_n639#" "GNDA"
+merge "fc_pcell_0/fc_pmos2_0/fc_pmos2_2_1/m1_n192_n62#" "I_ONB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fc_pcell_0/m1_42_55#" "monticelli_top_0/opa_output_stage_0/out_pcell_0/out_pcell_2_0/m1_n198_12#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_top_0/opa_output_stage_0/out_pcell_0/out_pcell_2_0/m1_n198_12#" "VDDA"
+merge "monticelli_top_0/opa_output_stage_0/m1_1021_422#" "VOUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fc_ncell_0/fc_ncell2_0/fc_ncell2_2_1/m1_n346_n82#" "VBS2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fc_pcell_0/fc_pmos2_0/m1_3227_431#" "monticelli_top_0/monticelli_pmos_0/m1_3759_2547#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_top_0/monticelli_pmos_0/m1_3759_2547#" "m1_1343_n36#"
+merge "fc_ncell_0/fc_ncell2_0/m1_915_n105#" "monticelli_top_0/monticelli_nmos_0/m1_172_n705#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_top_0/monticelli_nmos_0/m1_172_n705#" "m1_929_n7024#"
+merge "fc_ncell_0/fc_ncell2_0/m1_915_15#" "monticelli_top_0/monticelli_nmos_0/monticelli_nmos_2_1/m1_942_578#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_top_0/monticelli_nmos_0/monticelli_nmos_2_1/m1_942_578#" "m1_1371_n7146#"
+merge "fc_pcell_0/fc_pmos2_0/m1_3227_311#" "monticelli_top_0/monticelli_pmos_0/m1_3345_13#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_top_0/monticelli_pmos_0/m1_3345_13#" "m1_325_n58#"
+merge "fc_ncell_0/fc_ncell2_0/fc_ncell2_2_1/m1_n258_n82#" "I_OPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fc_pcell_0/fc_pmos2_0/fc_pmos2_2_1/m1_n280_n62#" "VBS1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fc_ncell_0/fc_ncell2_0/fc_ncell2_2_1/m1_n170_n82#" "I_OPA" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fc_pcell_0/fc_pmos2_0/fc_pmos2_2_1/m1_n104_n62#" "I_ONA" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fc_pcell_0/fc_pmos2_0/w_2267_n1100#" "monticelli_top_0/monticelli_pmos_0/w_3009_n235#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_top_0/monticelli_pmos_0/m1_3169_95#" "VB1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

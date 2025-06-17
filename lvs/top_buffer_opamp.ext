@@ -1,0 +1,103 @@
+timestamp 1750151689
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use opa_input_and_self_bias opa_input_and_self_bias_0 1 0 -12418 0 1 -3832
+use opa_folded_cascode opa_folded_cascode_0 1 0 -2404 0 1 7738
+use opa_cap opa_cap_0 1 0 -7388 0 1 -15196
+use fcm_bias_pcell fcm_bias_pcell_0 1 0 -5274 0 1 -1612
+use fcm_bias_ncell fcm_bias_ncell_0 1 0 -5053 0 1 400
+port "ROUT" 7 -12283 13306 -12223 13366 m3
+port "VOUT" 6 -691 3347 -631 3407 m1
+port "N_IN" 5 -3668 2688 -3608 2748 m1
+port "P_IN[4]" 4 -12298 2532 -12238 2592 m2
+port "P_IN[3]" 3 -12298 2620 -12238 2680 m2
+port "P_IN[2]" 2 -12298 2708 -12238 2768 m2
+port "P_IN[1]" 1 -12298 2796 -12238 2856 m2
+port "P_IN[0]" 0 -12298 2884 -12238 2944 m2
+port "GNDA" 9 -3361 -3012 -3301 -2952 m1
+port "VDDA" 8 -2761 13050 -2701 13110 m1
+node "ROUT" 0 0 -12283 13306 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VOUT" 0 0 -691 3347 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "N_IN" 0 0 -3668 2688 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "P_IN[4]" 0 0 -12298 2532 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "P_IN[3]" 0 0 -12298 2620 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "P_IN[2]" 0 0 -12298 2708 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "P_IN[1]" 0 0 -12298 2796 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "P_IN[0]" 0 0 -12298 2884 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_n4020_8066#" 0 0 -4020 8066 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n3278_n4683#" 0 0 -3278 -4683 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "GNDA" 0 0 -3361 -3012 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n4868_n1524#" 0 0 -4868 -1524 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n2255_148#" 0 0 -2255 148 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n721_3147#" 0 0 -721 3147 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n2529_n606#" 0 0 -2529 -606 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n2506_431#" 0 0 -2506 431 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n2594_1820#" 0 0 -2594 1820 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n4369_n596#" 0 0 -4369 -596 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n4371_828#" 0 0 -4371 828 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n5386_n145#" 0 0 -5386 -145 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n4194_n404#" 0 0 -4194 -404 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n2682_n601#" 0 0 -2682 -601 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n3154_10640#" 0 0 -3154 10640 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDDA" 0 0 -2761 13050 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n3098_5083#" 0 0 -3098 5083 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_folded_cascode_0/fc_pcell_0/fc_pmos2_0/m1_2515_n852#" "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5/I_ONB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5/I_ONB" "m1_n2594_1820#"
+merge "opa_folded_cascode_0/fc_pcell_0/fc_pmos2_0/m1_2603_n940#" "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5/I_ONA" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5/I_ONA" "opa_cap_0/m3_2268_9110#"
+merge "opa_cap_0/m3_2268_9110#" "m1_n2682_n601#"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5/I_OPA" "opa_folded_cascode_0/fc_ncell_0/fc_ncell2_0/m1_261_625#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_folded_cascode_0/fc_ncell_0/fc_ncell2_0/m1_261_625#" "opa_cap_0/m3_n3804_8390#"
+merge "opa_cap_0/m3_n3804_8390#" "m1_n2529_n606#"
+merge "fcm_bias_ncell_0/a_13_n462#" "opa_folded_cascode_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_folded_cascode_0/VSUBS" "fcm_bias_pcell_0/VSUBS"
+merge "fcm_bias_pcell_0/VSUBS" "opa_input_and_self_bias_0/VSUBS"
+merge "opa_input_and_self_bias_0/VSUBS" "opa_cap_0/VSUBS"
+merge "opa_cap_0/VSUBS" "VSUBS"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5/I_OPB" "opa_folded_cascode_0/I_OPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_folded_cascode_0/I_OPB" "m1_n2506_431#"
+merge "opa_folded_cascode_0/fc_ncell_0/fc_ncell1_0/fc_ncell1_half_1/fc_ncell1_4_0/m1_19_458#" "opa_folded_cascode_0/fc_ncell_0/fc_ncell1_0/fc_ncell1_half_0/fc_ncell1_4_0/m1_19_458#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_folded_cascode_0/fc_ncell_0/fc_ncell1_0/fc_ncell1_half_0/fc_ncell1_4_0/m1_19_458#" "opa_input_and_self_bias_0/cm_ncell3_0/cm_ncell3_2_0/m1_n502_n60#"
+merge "opa_input_and_self_bias_0/cm_ncell3_0/cm_ncell3_2_0/m1_n502_n60#" "GNDA"
+merge "opa_folded_cascode_0/VOUT" "VOUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "VOUT" "opa_cap_0/opa_cap_cell_0/m3_3319_n2356#"
+merge "opa_cap_0/opa_cap_cell_0/m3_3319_n2356#" "m1_n721_3147#"
+merge "opa_folded_cascode_0/fc_pcell_0/m1_42_55#" "VDDA" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "VDDA" "opa_input_and_self_bias_0/cm_pcell3_0/VDDA"
+merge "opa_input_and_self_bias_0/cm_pcell3_0/VDDA" "m1_n3154_10640#"
+merge "m1_n3154_10640#" "opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell2_0/cm_pcell2_half_0/cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/w_n31_n941#"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell2_0/cm_pcell2_half_0/cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/w_n31_n941#" "opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell2_0/cm_pcell2_half_1/cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/w_n31_n941#"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell2_0/cm_pcell2_half_1/cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/w_n31_n941#" "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5/w_35082_4#"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5/w_35082_4#" "w_n3098_5083#"
+merge "w_n3098_5083#" "fcm_bias_pcell_0/w_155_n1155#"
+merge "fcm_bias_pcell_0/w_155_n1155#" "m1_n4194_n404#"
+merge "opa_folded_cascode_0/VB1" "opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell2_0/cm_ncell2_half_0/m2_1144_718#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell2_0/cm_ncell2_half_0/m2_1144_718#" "fcm_bias_pcell_0/fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_229_n516#"
+merge "fcm_bias_pcell_0/fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_229_n516#" "m1_n4369_n596#"
+merge "m1_n4369_n596#" "opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell2_0/cm_ncell2_half_1/m2_1144_718#"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell2_0/cm_ncell2_half_1/m2_1144_718#" "m1_n4868_n1524#"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/m1_5285_789#" "P_IN[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/m1_7013_789#" "P_IN[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_folded_cascode_0/VBS2" "opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell2_0/cm_ncell2_half_0/cm_ncell2_right_0/cm_ncell2_cell_0/cm_ncell2_5_2_0/m2_n16_n454#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell2_0/cm_ncell2_half_0/cm_ncell2_right_0/cm_ncell2_cell_0/cm_ncell2_5_2_0/m2_n16_n454#" "m1_n2255_148#"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell2_0/cm_pcell2_half_0/m2_2594_n1100#" "opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell2_0/cm_pcell2_half_1/m2_2594_n1100#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell2_0/cm_pcell2_half_1/m2_2594_n1100#" "opa_folded_cascode_0/monticelli_top_0/VB2"
+merge "opa_folded_cascode_0/monticelli_top_0/VB2" "opa_folded_cascode_0/VB2"
+merge "opa_folded_cascode_0/VB2" "fcm_bias_ncell_0/VB2"
+merge "fcm_bias_ncell_0/VB2" "m1_n4371_828#"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/m1_1829_789#" "P_IN[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell2_0/cm_ncell2_half_0/cm_ncell2_right_0/cm_ncell2_cell_0/cm_ncell2_5_2_0/m1_n16_n914#" "fcm_bias_ncell_0/fcm_bias_ncell_2_0/m1_n198_n29#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fcm_bias_ncell_0/fcm_bias_ncell_2_0/m1_n198_n29#" "opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell2_0/cm_ncell2_half_1/cm_ncell2_left_0/cm_ncell2_cell_0/cm_ncell2_5_2_0/m1_n16_n914#"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell2_0/cm_ncell2_half_1/cm_ncell2_left_0/cm_ncell2_cell_0/cm_ncell2_5_2_0/m1_n16_n914#" "m1_n5386_n145#"
+merge "opa_cap_0/opa_cap_cell_0/sky130_fd_pr__cap_mim_m3_1_UWHR8Z_0/m3_n386_1560#" "opa_input_and_self_bias_0/cm_ncell3_0/GNDA" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_input_and_self_bias_0/cm_ncell3_0/GNDA" "m1_n3278_n4683#"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/m1_101_789#" "P_IN[4]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_folded_cascode_0/fc_pcell_0/fc_pmos2_0/fc_pmos2_2_1/m1_n280_n62#" "opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell2_0/cm_pcell2_half_0/cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell2_0/cm_pcell2_half_0/cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "m2_n4020_8066#"
+merge "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/m1_8731_n191#" "N_IN" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/m1_3557_789#" "P_IN[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_input_and_self_bias_0/m2_102_17006#" "ROUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

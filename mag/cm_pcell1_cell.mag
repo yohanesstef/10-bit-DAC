@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749845344
+timestamp 1749890363
 << metal1 >>
 rect -35 1014 129 1171
 rect 717 1014 881 1171
@@ -15,16 +15,16 @@ rect 1093 127 1257 284
 rect 1845 127 2009 284
 rect 2597 127 2761 284
 rect 3349 127 3513 284
-use cm_pcell1_2_2  cm_pcell1_2_2_0 ~/10-bit-DAC/mag
-timestamp 1749844718
+use cm_pcell1_2_2  cm_pcell1_2_2_0
+timestamp 1749890363
 transform 1 0 3024 0 1 952
-box -35 -962 1601 356
-use cm_pcell1_4_2  cm_pcell1_4_2_0 ~/10-bit-DAC/mag
-timestamp 1749844197
+box -35 -962 1705 356
+use cm_pcell1_4_2  cm_pcell1_4_2_0
+timestamp 1749890363
 transform 1 0 16 0 1 952
 box -35 -961 1611 355
 use cm_pcell1_4_2  cm_pcell1_4_2_1
-timestamp 1749844197
+timestamp 1749890363
 transform 1 0 1520 0 1 952
 box -35 -961 1611 355
 << end >>

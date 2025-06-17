@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,8 +12,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000000
-x2=2000000
+x1=537607.89
+x2=1537607.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -33,8 +33,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1000000
-x2=2000000
+x1=537607.89
+x2=1537607.9
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -71,19 +71,19 @@ N 300 -560 320 -560 {lab=n4}
 N 260 -120 260 -100 {lab=gnd}
 N 260 -190 260 -180 {lab=n6}
 N 260 -530 260 -490 {lab=n4}
-N 300 -460 320 -460 {lab=n8}
-N 320 -460 320 -450 {lab=n8}
+N 300 -460 320 -460 {lab=n5}
+N 320 -460 320 -450 {lab=n5}
 N 250 -460 260 -460 {lab=vddh}
 N 250 -560 250 -460 {lab=vddh}
 N 260 -430 260 -410 {lab=n7}
 N 250 -380 260 -380 {lab=vddh}
 N 250 -460 250 -380 {lab=vddh}
-N 300 -380 320 -380 {lab=n8}
-N 320 -380 320 -340 {lab=n8}
-N 260 -340 320 -340 {lab=n8}
+N 300 -380 320 -380 {lab=n5}
+N 320 -380 320 -340 {lab=n5}
+N 260 -340 320 -340 {lab=n5}
 N 250 -810 260 -810 {lab=vddh}
-N 320 -450 320 -380 {lab=n8}
-N 260 -350 260 -330 {lab=n8}
+N 320 -450 320 -380 {lab=n5}
+N 260 -350 260 -330 {lab=n5}
 N 500 -860 500 -840 {lab=vddh}
 N 500 -730 510 -730 {lab=vddh}
 N 510 -840 510 -730 {lab=vddh}
@@ -115,6 +115,7 @@ N 540 -630 540 -540 {lab=nn3}
 N 580 -590 580 -450 {lab=nn2}
 N 500 -590 580 -590 {lab=nn2}
 N 540 -450 580 -450 {lab=nn2}
+N 260 -330 260 -270 {lab=n5}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
 C {devices/launcher.sym} 240 -950 0 0 {name=h5
 descr="load tran" 
@@ -188,11 +189,6 @@ C {devices/param.sym} 0 -1220 0 0 {name=s1 value="
 +mdiff0=2"}
 C {devices/ammeter.sym} 260 -150 0 0 {name=Vmeas savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 260 -870 0 0 {name=p1 sig_type=std_logic lab=vddh}
-C {devices/res.sym} 260 -300 0 0 {name=R1
-value=200
-footprint=1206
-device=resistor
-m=1}
 C {devices/res.sym} 260 -220 0 0 {name=R2
 value=200
 footprint=1206

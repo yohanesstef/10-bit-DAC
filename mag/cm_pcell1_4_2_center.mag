@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749844197
+timestamp 1749848130
 << metal2 >>
 rect 31 -25 1536 35
 rect 31 -113 1536 -53
@@ -12,11 +12,11 @@ rect 31 -465 1536 -405
 rect 31 -553 1536 -493
 rect 31 -641 1536 -581
 use cm_pcell1_4_center  cm_pcell1_4_center_0
-timestamp 1749844197
+timestamp 1749848130
 transform 1 0 19 0 1 8
 box -54 -11 1592 666
 use cm_pcell1_4_center  cm_pcell1_4_center_1
-timestamp 1749844197
+timestamp 1749848130
 transform 1 0 19 0 -1 -614
 box -54 -11 1592 666
 << end >>

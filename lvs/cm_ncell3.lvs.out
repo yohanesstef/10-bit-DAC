@@ -1,0 +1,42 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+Flattening unmatched subcell cm_ncell3_2 in circuit cm_ncell3 (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_UKZDTQ in circuit cm_ncell3 (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y in circuit cm_ncell3 (0)(4 instances)
+
+Class cm_ncell3 (0):  Merged 5 parallel devices.
+Subcircuit summary:
+Circuit 1: cm_ncell3                       |Circuit 2: cm_ncell3                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (8->3)        |sky130_fd_pr__nfet_g5v0d10v5 (8->3)        
+Number of devices: 3                       |Number of devices: 3                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: cm_ncell3                       |Circuit 2: cm_ncell3                       
+-------------------------------------------|-------------------------------------------
+VTAIL2                                     |VTAIL2                                     
+GNDA                                       |GNDA                                       
+VTAIL1                                     |VTAIL1                                     
+DRAIN                                      |DRAIN                                      
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes cm_ncell3 and cm_ncell3 are equivalent.
+
+Final result: Circuits match uniquely.
+.

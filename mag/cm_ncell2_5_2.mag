@@ -1,0 +1,60 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750060524
+<< mvpsubdiff >>
+rect 1488 612 1980 672
+rect 1920 -844 1980 612
+rect -16 -904 1980 -844
+<< locali >>
+rect 1488 625 1967 659
+rect 1933 -857 1967 625
+rect -16 -891 1967 -857
+<< metal1 >>
+rect 1488 602 1990 682
+rect 1594 222 1758 602
+rect 1524 176 1828 222
+rect 278 24 442 144
+rect 1030 24 1194 144
+rect 1524 24 1570 176
+rect 1782 144 1828 176
+rect -98 -376 66 -256
+rect 654 -376 818 -256
+rect 1148 -408 1194 -256
+rect 1406 -408 1570 -256
+rect 1782 -408 1822 -376
+rect 1148 -454 1822 -408
+rect 1406 -834 1570 -454
+rect 1910 -834 1990 602
+rect -16 -914 1990 -834
+<< metal2 >>
+rect -16 -454 1488 -394
+use cm_ncell2_4  cm_ncell2_4_0
+timestamp 1750060524
+transform 1 0 5 0 1 8
+box -21 -10 1483 674
+use cm_ncell_1  cm_ncell_1_0
+timestamp 1750060524
+transform -1 0 307 0 -1 -237
+box -23 -7 293 227
+use cm_ncell_1  cm_ncell_1_1
+timestamp 1750060524
+transform -1 0 683 0 -1 -237
+box -23 -7 293 227
+use cm_ncell_1  cm_ncell_1_2
+timestamp 1750060524
+transform -1 0 1059 0 -1 -237
+box -23 -7 293 227
+use sky130_fd_pr__nfet_g5v0d10v5_QKV39N  sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0
+timestamp 1750058993
+transform 1 0 1676 0 1 115
+box -158 -117 158 117
+use sky130_fd_pr__nfet_g5v0d10v5_QKV39N  sky130_fd_pr__nfet_g5v0d10v5_QKV39N_1
+timestamp 1750058993
+transform -1 0 1300 0 -1 -347
+box -158 -117 158 117
+use sky130_fd_pr__nfet_g5v0d10v5_QKV39N  sky130_fd_pr__nfet_g5v0d10v5_QKV39N_3
+timestamp 1750058993
+transform -1 0 1676 0 -1 -347
+box -158 -117 158 117
+<< end >>

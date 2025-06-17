@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749844475
+timestamp 1749889584
 << error_s >>
 rect 1268 -7 1298 481
 rect 1334 59 1364 415
@@ -17,11 +17,11 @@ rect 1598 373 1762 456
 rect 1974 373 2020 456
 rect 1644 97 1716 373
 use sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5  sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0 ~/10-bit-DAC/mag
-timestamp 1749826289
+timestamp 1749889488
 transform 1 0 1492 0 1 271
 box -224 -282 224 244
 use sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5  sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1
-timestamp 1749826289
+timestamp 1749889488
 transform 1 0 1868 0 1 271
 box -224 -282 224 244
 << end >>

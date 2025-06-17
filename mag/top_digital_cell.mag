@@ -1,11 +1,9 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749834095
-<< error_s >>
-rect 14983 1807 15079 2337
+timestamp 1750151992
 use buffer_bus  buffer_bus_0
-timestamp 1749834095
+timestamp 1749888358
 transform 1 0 -1283 0 1 7878
 box 1252 -8709 7768 -6307
 use dcell_lv  dcell_lv_0
@@ -14,7 +12,7 @@ transform 1 0 -9 0 1 1087
 box -9 -1096 3633 1720
 use decoder_3  decoder_3_0
 timestamp 1749807468
-transform 1 0 15004 0 1 -23
+transform 1 0 15196 0 1 -28
 box -21 -2 4383 4142
 use lvsf_7bit  lvsf_7bit_0
 timestamp 1749801796

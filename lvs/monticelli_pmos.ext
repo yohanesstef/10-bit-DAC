@@ -1,0 +1,41 @@
+timestamp 1750150351
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use monticelli_pmos_2 monticelli_pmos_2_1 1 0 3449 0 -1 1204
+use monticelli_pmos_2 monticelli_pmos_2_0 1 0 3449 0 1 1328
+use cross_pair cross_pair_0 1 0 -32404 0 1 -679
+node "m1_3941_1176#" 0 0 3941 1176 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_3999_1296#" 0 0 3999 1296 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_3514_1296#" 0 0 3514 1296 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_3257_13#" 0 0 3257 13 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_3169_95#" 0 0 3169 95 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_3345_13#" 0 0 3345 13 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_3759_2547#" 0 0 3759 2547 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_3009_n235#" 0 0 3009 -235 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cross_pair_0/VSUBS" "monticelli_pmos_2_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_pmos_2_0/VSUBS" "monticelli_pmos_2_1/VSUBS"
+merge "monticelli_pmos_2_1/VSUBS" "VSUBS"
+merge "monticelli_pmos_2_0/li_n361_n62#" "monticelli_pmos_2_0/a_n374_n62#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_pmos_2_0/a_n374_n62#" "monticelli_pmos_2_0/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/w_n194_n578#"
+merge "monticelli_pmos_2_0/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/w_n194_n578#" "monticelli_pmos_2_1/li_n361_n62#"
+merge "monticelli_pmos_2_1/li_n361_n62#" "monticelli_pmos_2_1/a_n374_n62#"
+merge "monticelli_pmos_2_1/a_n374_n62#" "monticelli_pmos_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/w_n194_n578#"
+merge "monticelli_pmos_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/w_n194_n578#" "w_3009_n235#"
+merge "cross_pair_0/m1_36114_1855#" "monticelli_pmos_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_0/a_n158_n516#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_pmos_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_0/a_n158_n516#" "m1_3257_13#"
+merge "m1_3257_13#" "monticelli_pmos_2_0/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/a_100_n516#"
+merge "monticelli_pmos_2_0/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/a_100_n516#" "m1_3999_1296#"
+merge "monticelli_pmos_2_0/m1_323_1016#" "monticelli_pmos_2_1/m1_441_1016#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_pmos_2_1/m1_441_1016#" "m1_3759_2547#"
+merge "cross_pair_0/m1_36114_1975#" "monticelli_pmos_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/a_100_n516#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_pmos_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/a_100_n516#" "m1_3941_1176#"
+merge "m1_3941_1176#" "monticelli_pmos_2_0/sky130_fd_pr__pfet_g5v0d10v5_X66K38_0/a_n158_n516#"
+merge "monticelli_pmos_2_0/sky130_fd_pr__pfet_g5v0d10v5_X66K38_0/a_n158_n516#" "m1_3514_1296#"
+merge "monticelli_pmos_2_0/m1_441_1016#" "monticelli_pmos_2_1/m1_323_1016#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_pmos_2_1/m1_323_1016#" "m1_3345_13#"
+merge "monticelli_pmos_2_0/m1_n280_1043#" "monticelli_pmos_2_1/m1_n280_1043#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_pmos_2_1/m1_n280_1043#" "m1_3169_95#"

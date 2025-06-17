@@ -1,0 +1,42 @@
+timestamp 1750150351
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use monticelli_nmos_2 monticelli_nmos_2_1 1 0 364 0 -1 574
+use monticelli_nmos_2 monticelli_nmos_2_0 1 0 364 0 1 -582
+use cross_pair cross_pair_0 1 0 -35489 0 1 -1949
+node "m1_172_n705#" 0 0 172 -705 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_674_n617#" 0 0 674 -617 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_914_n94#" 0 0 914 -94 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_429_n122#" 0 0 429 -122 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_914_26#" 0 0 914 26 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_792_549#" 0 0 792 549 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_260_26#" 0 0 260 26 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_172_549#" 0 0 172 549 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "a_3_n726#" 0 0 3 -726 mvpsc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cross_pair_0/m1_36114_1855#" "monticelli_nmos_2_1/sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG_0/a_n158_n191#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_nmos_2_1/sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG_0/a_n158_n191#" "m1_429_n122#"
+merge "m1_429_n122#" "monticelli_nmos_2_0/sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG_1/a_100_n191#"
+merge "monticelli_nmos_2_0/sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG_1/a_100_n191#" "m1_914_26#"
+merge "monticelli_nmos_2_0/m1_323_1016#" "monticelli_nmos_2_0/m1_n192_578#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_nmos_2_0/m1_n192_578#" "m1_172_549#"
+merge "m1_172_549#" "monticelli_nmos_2_1/m1_441_1016#"
+merge "monticelli_nmos_2_1/m1_441_1016#" "monticelli_nmos_2_1/m1_n192_578#"
+merge "monticelli_nmos_2_1/m1_n192_578#" "m1_172_n705#"
+merge "cross_pair_0/m1_36114_1975#" "monticelli_nmos_2_1/sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG_1/a_100_n191#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_nmos_2_1/sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG_1/a_100_n191#" "m1_914_n94#"
+merge "m1_914_n94#" "monticelli_nmos_2_0/sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG_0/a_n158_n191#"
+merge "monticelli_nmos_2_0/sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG_0/a_n158_n191#" "m1_260_26#"
+merge "cross_pair_0/VSUBS" "monticelli_nmos_2_0/li_n361_578#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_nmos_2_0/li_n361_578#" "monticelli_nmos_2_0/a_n374_578#"
+merge "monticelli_nmos_2_0/a_n374_578#" "monticelli_nmos_2_1/li_n361_578#"
+merge "monticelli_nmos_2_1/li_n361_578#" "monticelli_nmos_2_1/a_n374_578#"
+merge "monticelli_nmos_2_1/a_n374_578#" "a_3_n726#"
+merge "monticelli_nmos_2_0/m1_n280_578#" "monticelli_nmos_2_1/m1_n280_578#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_nmos_2_0/m1_942_578#" "monticelli_nmos_2_0/m1_441_1016#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_nmos_2_0/m1_441_1016#" "m1_792_549#"
+merge "m1_792_549#" "monticelli_nmos_2_1/m1_942_578#"
+merge "monticelli_nmos_2_1/m1_942_578#" "monticelli_nmos_2_1/m1_323_1016#"
+merge "monticelli_nmos_2_1/m1_323_1016#" "m1_674_n617#"

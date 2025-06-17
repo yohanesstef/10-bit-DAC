@@ -1,0 +1,45 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750017694
+<< mvpsubdiff >>
+rect -440 653 1118 713
+rect -440 -82 -380 653
+rect 1058 -82 1118 653
+<< poly >>
+rect -82 10 -22 444
+rect 700 10 760 444
+<< locali >>
+rect -427 666 1105 700
+rect -427 -82 -393 666
+rect 1071 -82 1105 666
+<< metal1 >>
+rect -346 434 -286 440
+rect -346 -82 -286 374
+rect -258 -82 -198 625
+rect -170 -82 -110 625
+rect 214 374 220 434
+rect 88 368 220 374
+rect 257 356 303 474
+rect 375 356 421 474
+rect 458 434 590 440
+rect 458 374 464 434
+rect 590 374 596 434
+<< via1 >>
+rect -346 374 -286 434
+rect 88 374 214 434
+rect 464 374 590 434
+<< metal2 >>
+rect -352 374 -346 434
+rect -286 374 88 434
+rect 214 374 464 434
+rect 590 374 596 434
+use sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG  sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG_0
+timestamp 1750017183
+transform 1 0 151 0 1 227
+box -158 -217 158 217
+use sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG  sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG_1
+timestamp 1750017183
+transform 1 0 527 0 1 227
+box -158 -217 158 217
+<< end >>

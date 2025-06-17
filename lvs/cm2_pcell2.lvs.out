@@ -1,0 +1,54 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+Flattening unmatched subcell cm2_pcell2_5 in circuit cm2_pcell2 (0)(2 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit cm2_pcell2 (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit cm2_pcell2 (0)(6 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit cm2_pcell2 (0)(4 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit cm2_pcell2 (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit cm2_pcell2 (0)(8 instances)
+
+Class cm2_pcell2 (0):  Merged 8 parallel devices.
+Subcircuit summary:
+Circuit 1: cm2_pcell2                      |Circuit 2: cm2_pcell2                      
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (14->6)       |sky130_fd_pr__pfet_g5v0d10v5 (14->6)       
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: cm2_pcell2                      |Circuit 2: cm2_pcell2                      
+-------------------------------------------|-------------------------------------------
+VDDA                                       |VDDA                                       
+S0                                         |S0                                         
+D1                                         |D1                                         
+D3                                         |D3                                         
+S1                                         |S1                                         
+D2                                         |D2                                         
+S3                                         |S3                                         
+S2                                         |S2                                         
+D4                                         |D4                                         
+S4                                         |S4                                         
+D0                                         |D0                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes cm2_pcell2 and cm2_pcell2 are equivalent.
+
+Final result: Circuits match uniquely.
+.

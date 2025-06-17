@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749844197
+timestamp 1749890363
 << nwell >>
 rect -21 1 1615 678
 << mvnsubdiff >>
@@ -16,12 +16,12 @@ rect 1092 109 1249 385
 rect 1473 109 1625 385
 << metal2 >>
 rect 45 454 1549 514
-use cm_pcell1_2  cm_pcell1_2_0
-timestamp 1749830679
-transform 1 0 11 0 1 11
-box -2 -10 822 516
+use cm_pcell1_2  cm_pcell1_2_0 ~/10-bit-DAC/mag
+timestamp 1749889584
+transform 1 0 11 0 1 19
+box -2 -18 822 508
 use cm_pcell1_2  cm_pcell1_2_1
-timestamp 1749830679
-transform 1 0 763 0 1 11
-box -2 -10 822 516
+timestamp 1749889584
+transform 1 0 763 0 1 19
+box -2 -18 822 508
 << end >>

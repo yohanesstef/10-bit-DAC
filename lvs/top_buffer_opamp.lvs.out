@@ -1,0 +1,333 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+Flattening unmatched subcell opa_cap in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell opa_cap_cell in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_UWHR8Z in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell fcm_bias_pcell in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell fcm_bias_pcell_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_XEEY48 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell opa_input_and_self_bias in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell cm_ncell3 in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell cm_ncell3_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_UKZDTQ in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell opa_input_stage in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell opa_diffpairs in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell dp_pmos_top in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell dp_pmos in circuit top_buffer_opamp (0)(5 instances)
+Flattening unmatched subcell dp_pmos_4 in circuit top_buffer_opamp (0)(10 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_V8EYZH in circuit top_buffer_opamp (0)(10 instances)
+Flattening unmatched subcell dp_nmos_top in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell dp_nmos in circuit top_buffer_opamp (0)(5 instances)
+Flattening unmatched subcell dp_nmos_4 in circuit top_buffer_opamp (0)(10 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_DJNVTV in circuit top_buffer_opamp (0)(10 instances)
+Flattening unmatched subcell cm_tail in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell cm_ncell1 in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell cm_ncell1_half in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell1_left in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell1_cell in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell1_4_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell1_4 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_4 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_2 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_ncell_1 in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell cm_ncell1_6_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell1_4 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell_4 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_1 in circuit top_buffer_opamp (0)(14 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_buffer_opamp (0)(20 instances)
+Flattening unmatched subcell cm_ncell1_right in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell1_cell in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell1_4_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell1_4 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_4 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_2 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_ncell_1 in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell cm_ncell1_6_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell1_4 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell_4 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_1 in circuit top_buffer_opamp (0)(14 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_buffer_opamp (0)(20 instances)
+Flattening unmatched subcell cm_ncell2 in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell cm_ncell2_half in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell2_right in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell2_cell in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell2_5_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_buffer_opamp (0)(6 instances)
+Flattening unmatched subcell cm_ncell2_4 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell_4 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_1 in circuit top_buffer_opamp (0)(14 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_buffer_opamp (0)(14 instances)
+Flattening unmatched subcell cm_ncell2_4_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell2_4 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_4 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_2 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_ncell_1 in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell cm_ncell2_left in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell2_cell in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell2_5_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_buffer_opamp (0)(6 instances)
+Flattening unmatched subcell cm_ncell2_4 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell_4 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_1 in circuit top_buffer_opamp (0)(14 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_buffer_opamp (0)(14 instances)
+Flattening unmatched subcell cm_ncell2_4_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_ncell2_4 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_4 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_ncell_2 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_ncell_1 in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell cm_head in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell cm_pcell2 in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell cm_pcell2_half in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell2_left in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell2_cell in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell2_4_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_pcell2_4 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell_4 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_buffer_opamp (0)(32 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(32 instances)
+Flattening unmatched subcell cm_pcell2_2_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell2_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_dummy_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell2_right in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell2_cell in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell2_4_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_pcell2_4 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell_4 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_buffer_opamp (0)(32 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(32 instances)
+Flattening unmatched subcell cm_pcell2_2_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell2_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_dummy_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell1 in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell cm_pcell1_left in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_cell in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_4_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_pcell1_4 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_buffer_opamp (0)(32 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(32 instances)
+Flattening unmatched subcell cm_pcell1_2_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_dummy_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_right in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_cell in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_4_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_pcell1_4 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit top_buffer_opamp (0)(16 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_buffer_opamp (0)(32 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(32 instances)
+Flattening unmatched subcell cm_pcell1_2_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_dummy_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell cm_pcell3 in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell cm_pcell3_cell in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell cm_pcell3_2 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_Y56K3G in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_NWEK38 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD in circuit top_buffer_opamp (0)(8 instances)
+Flattening unmatched subcell fcm_bias_ncell in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell fcm_bias_ncell_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_SKZWVA in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell opa_folded_cascode in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell fc_pcell in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell fc_pmos1 in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell fc_pmos1_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_X66K38 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell fc_pmos2 in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell fc_pmos2_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_X66K38 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell fc_ncell in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell fc_ncell2 in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell fc_ncell2_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell fc_ncell1 in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell fc_ncell1_half in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell fc_ncell1_4 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_VZ2S5U in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell monticelli_top in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell monticelli_nmos in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell monticelli_nmos_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell monticelli_pmos in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell monticelli_pmos_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_X66K38 in circuit top_buffer_opamp (0)(4 instances)
+Flattening unmatched subcell opa_output_stage in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell out_pcell in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell out_pcell_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_VQXVZH in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell out_ncell in circuit top_buffer_opamp (0)(1 instance)
+Flattening unmatched subcell out_ncell_2 in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_7VNVKF in circuit top_buffer_opamp (0)(2 instances)
+Flattening unmatched subcell head in circuit top_buffer_opamp (1)(5 instances)
+Flattening unmatched subcell tail in circuit top_buffer_opamp (1)(5 instances)
+Flattening unmatched subcell folded_cascode in circuit top_buffer_opamp (1)(1 instance)
+Flattening unmatched subcell diff_pair in circuit top_buffer_opamp (1)(5 instances)
+Flattening unmatched subcell bias_opamp in circuit top_buffer_opamp (1)(1 instance)
+
+Class top_buffer_opamp (0):  Merged 497 parallel devices.
+Class top_buffer_opamp (1):  Merged 5 parallel devices.
+Subcircuit summary:
+Circuit 1: top_buffer_opamp                |Circuit 2: top_buffer_opamp                
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (84->3)         |sky130_fd_pr__cap_mim_m3_1 (78->3)         
+sky130_fd_pr__pfet_g5v0d10v5 (268->40)     |sky130_fd_pr__pfet_g5v0d10v5 (1737736714-> 
+sky130_fd_pr__nfet_g5v0d10v5 (224->36)     |sky130_fd_pr__nfet_g5v0d10v5 (1695500402-> 
+Number of devices: 79                      |Number of devices: 79                      
+Number of nets: 54                         |Number of nets: 54                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with property errors.
+opa_input_and_self_bias_0//opa_input_stage_0//cm_tail_0//cm_ncell2_0//cm_ncell2_half_0//cm_ncell2_left_0//cm_ncell2_cell_0//cm_ncell2_4_2_0//cm_ncell2_4_1//cm_ncell_4_0//cm_ncell_2_0//cm_ncell_1_0//sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. tail:12/sky130_fd_pr__nfet_g5v0d10v5:M1:
+ w circuit1: 1.2   circuit2: 0.6   (delta=66.7%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_tail_0//cm_ncell2_0//cm_ncell2_half_0//cm_ncell2_right_0//cm_ncell2_cell_0//cm_ncell2_4_2_0//cm_ncell2_4_1//cm_ncell_4_0//cm_ncell_2_0//cm_ncell_1_0//sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. tail:13/sky130_fd_pr__nfet_g5v0d10v5:M1:
+ w circuit1: 1.2   circuit2: 0.6   (delta=66.7%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_tail_0//cm_ncell2_0//cm_ncell2_half_0//cm_ncell2_left_0//cm_ncell2_cell_0//cm_ncell2_4_2_0//cm_ncell2_4_1//cm_ncell_4_0//cm_ncell_2_0//cm_ncell_1_1//sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. tail:14/sky130_fd_pr__nfet_g5v0d10v5:M1:
+ w circuit1: 2.4   circuit2: 0.6   (delta=120%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_tail_0//cm_ncell2_0//cm_ncell2_half_0//cm_ncell2_right_0//cm_ncell2_cell_0//cm_ncell2_4_2_0//cm_ncell2_4_1//cm_ncell_4_0//cm_ncell_2_0//cm_ncell_1_1//sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. tail:15/sky130_fd_pr__nfet_g5v0d10v5:M1:
+ w circuit1: 4.8   circuit2: 0.6   (delta=156%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_tail_0//cm_ncell2_0//cm_ncell2_half_0//cm_ncell2_right_0//cm_ncell2_cell_0//cm_ncell2_5_2_0//cm_ncell2_4_0//cm_ncell_4_0//cm_ncell_2_0//cm_ncell_1_0//sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. tail:16/sky130_fd_pr__nfet_g5v0d10v5:M1:
+ w circuit1: 9.6   circuit2: 0.6   (delta=176%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//cm_ncell3_0//cm_ncell3_2_0//sky130_fd_pr__nfet_g5v0d10v5_UKZDTQ_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. folded_cascode:6/sky130_fd_pr__nfet_g5v0d10v5:M13:
+ w circuit1: 16.8   circuit2: 9.6   (delta=54.5%, cutoff=1%)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_tail_0//cm_ncell1_0//cm_ncell1_half_0//cm_ncell1_right_0//cm_ncell1_cell_0//cm_ncell1_4_2_0//cm_ncell1_4_1//cm_ncell_4_0//cm_ncell_2_0//cm_ncell_1_0//sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. tail:13/sky130_fd_pr__nfet_g5v0d10v5:M2:
+ w circuit1: 1.2   circuit2: 0.6   (delta=66.7%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_tail_0//cm_ncell1_0//cm_ncell1_half_0//cm_ncell1_left_0//cm_ncell1_cell_0//cm_ncell1_4_2_0//cm_ncell1_4_1//cm_ncell_4_0//cm_ncell_2_1//cm_ncell_1_1//sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. tail:15/sky130_fd_pr__nfet_g5v0d10v5:M2:
+ w circuit1: 4.8   circuit2: 0.6   (delta=156%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_tail_0//cm_ncell1_0//cm_ncell1_half_0//cm_ncell1_left_0//cm_ncell1_cell_0//cm_ncell1_4_2_0//cm_ncell1_4_1//cm_ncell_4_0//cm_ncell_2_0//cm_ncell_1_1//sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. tail:14/sky130_fd_pr__nfet_g5v0d10v5:M2:
+ w circuit1: 2.4   circuit2: 0.6   (delta=120%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_tail_0//cm_ncell1_0//cm_ncell1_half_0//cm_ncell1_left_0//cm_ncell1_cell_0//cm_ncell1_4_2_0//cm_ncell1_4_1//cm_ncell_4_0//cm_ncell_2_0//cm_ncell_1_0//sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. tail:12/sky130_fd_pr__nfet_g5v0d10v5:M2:
+ w circuit1: 1.2   circuit2: 0.6   (delta=66.7%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_tail_0//cm_ncell1_0//cm_ncell1_half_0//cm_ncell1_left_0//cm_ncell1_cell_0//cm_ncell1_4_2_0//cm_ncell1_4_0//cm_ncell_4_0//cm_ncell_2_1//cm_ncell_1_0//sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/sky130_fd_pr__nfet_g5v0d10v5:0 vs. tail:16/sky130_fd_pr__nfet_g5v0d10v5:M2:
+ w circuit1: 9.6   circuit2: 0.6   (delta=176%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_head_0//cm_pcell2_0//cm_pcell2_half_0//cm_pcell2_left_1//cm_pcell2_cell_0//cm_pcell2_4_2_0//cm_pcell2_4_1//cm_pcell_4_0//cm_pcell1_2_0//cm_pcell_1_0//sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/sky130_fd_pr__pfet_g5v0d10v5:0 vs. head:7/sky130_fd_pr__pfet_g5v0d10v5:M1:
+ w circuit1: 3.6   circuit2: 1.8   (delta=66.7%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_head_0//cm_pcell2_0//cm_pcell2_half_0//cm_pcell2_right_1//cm_pcell2_cell_0//cm_pcell2_4_2_0//cm_pcell2_4_1//cm_pcell_4_0//cm_pcell1_2_0//cm_pcell_1_0//sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/sky130_fd_pr__pfet_g5v0d10v5:0 vs. head:8/sky130_fd_pr__pfet_g5v0d10v5:M1:
+ w circuit1: 3.6   circuit2: 1.8   (delta=66.7%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_head_0//cm_pcell2_0//cm_pcell2_half_0//cm_pcell2_right_1//cm_pcell2_cell_0//cm_pcell2_4_2_0//cm_pcell2_4_1//cm_pcell_4_0//cm_pcell1_2_0//cm_pcell_1_1//sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/sky130_fd_pr__pfet_g5v0d10v5:0 vs. head:9/sky130_fd_pr__pfet_g5v0d10v5:M1:
+ w circuit1: 7.2   circuit2: 1.8   (delta=120%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_head_0//cm_pcell2_0//cm_pcell2_half_0//cm_pcell2_left_1//cm_pcell2_cell_0//cm_pcell2_4_2_0//cm_pcell2_4_1//cm_pcell_4_0//cm_pcell1_2_0//cm_pcell_1_1//sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/sky130_fd_pr__pfet_g5v0d10v5:0 vs. head:10/sky130_fd_pr__pfet_g5v0d10v5:M1:
+ w circuit1: 14.4   circuit2: 1.8   (delta=156%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_head_0//cm_pcell2_0//cm_pcell2_half_0//cm_pcell2_left_1//cm_pcell2_cell_0//cm_pcell2_4_2_0//cm_pcell2_4_1//cm_pcell_4_0//cm_pcell1_2_1//cm_pcell_1_1//sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/sky130_fd_pr__pfet_g5v0d10v5:0 vs. head:11/sky130_fd_pr__pfet_g5v0d10v5:M1:
+ w circuit1: 28.8   circuit2: 1.8   (delta=176%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_head_0//cm_pcell1_0//cm_pcell1_right_0//cm_pcell1_cell_0//cm_pcell1_4_2_0//cm_pcell1_4_1//cm_pcell1_2_0//cm_pcell_1_1//sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/sky130_fd_pr__pfet_g5v0d10v5:0 vs. head:9/sky130_fd_pr__pfet_g5v0d10v5:M5:
+ w circuit1: 7.2   circuit2: 1.8   (delta=120%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_head_0//cm_pcell1_0//cm_pcell1_right_0//cm_pcell1_cell_0//cm_pcell1_4_2_0//cm_pcell1_4_1//cm_pcell1_2_0//cm_pcell_1_0//sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/sky130_fd_pr__pfet_g5v0d10v5:0 vs. head:8/sky130_fd_pr__pfet_g5v0d10v5:M5:
+ w circuit1: 3.6   circuit2: 1.8   (delta=66.7%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_head_0//cm_pcell1_0//cm_pcell1_left_0//cm_pcell1_cell_0//cm_pcell1_4_2_0//cm_pcell1_4_1//cm_pcell1_2_1//cm_pcell_1_1//sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/sky130_fd_pr__pfet_g5v0d10v5:0 vs. head:11/sky130_fd_pr__pfet_g5v0d10v5:M5:
+ w circuit1: 28.8   circuit2: 1.8   (delta=176%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_head_0//cm_pcell1_0//cm_pcell1_left_0//cm_pcell1_cell_0//cm_pcell1_4_2_0//cm_pcell1_4_1//cm_pcell1_2_0//cm_pcell_1_1//sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/sky130_fd_pr__pfet_g5v0d10v5:0 vs. head:10/sky130_fd_pr__pfet_g5v0d10v5:M5:
+ w circuit1: 14.4   circuit2: 1.8   (delta=156%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_input_and_self_bias_0//opa_input_stage_0//cm_head_0//cm_pcell1_0//cm_pcell1_left_0//cm_pcell1_cell_0//cm_pcell1_4_2_0//cm_pcell1_4_1//cm_pcell1_2_0//cm_pcell_1_0//sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/sky130_fd_pr__pfet_g5v0d10v5:0 vs. head:7/sky130_fd_pr__pfet_g5v0d10v5:M5:
+ w circuit1: 3.6   circuit2: 1.8   (delta=66.7%, cutoff=1%)
+ M circuit1: 1   "mv"  (property type mismatch)
+opa_cap_0//opa_cap_cell_0//sky130_fd_pr__cap_mim_m3_1_UWHR8Z_0/sky130_fd_pr__cap_mim_m3_1:0 vs. sky130_fd_pr__cap_mim_m3_1:C3:
+ M circuit1: 44   circuit2: 38   (delta=6, cutoff=0)
+
+Subcircuit pins:
+Circuit 1: top_buffer_opamp                |Circuit 2: top_buffer_opamp                
+-------------------------------------------|-------------------------------------------
+ROUT                                       |ROUT                                       
+P_IN[1]                                    |P_IN[1]                                    
+P_IN[0]                                    |P_IN[0]                                    
+P_IN[3]                                    |P_IN[3]                                    
+P_IN[2]                                    |P_IN[2]                                    
+P_IN[4]                                    |P_IN[4]                                    
+N_IN                                       |N_IN                                       
+VDDA                                       |VDDA                                       
+GNDA                                       |GNDA                                       
+VOUT                                       |VOUT                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes top_buffer_opamp and top_buffer_opamp are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ top_buffer_opamp

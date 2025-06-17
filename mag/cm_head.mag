@@ -1,0 +1,27 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750075212
+<< viali >>
+rect -386 2202 8822 2236
+rect -386 1112 -352 2202
+rect 8788 1112 8822 2202
+rect -386 1078 8822 1112
+rect -386 -12 -352 1078
+rect 8788 -12 8822 1078
+rect -386 -46 8822 -12
+rect -386 -1704 -352 -46
+rect 8788 -1704 8822 -46
+rect -386 -1738 8822 -1704
+rect -386 -3396 -352 -1738
+rect 8788 -3396 8822 -1738
+rect -386 -3430 8822 -3396
+use cm_pcell1  cm_pcell1_0
+timestamp 1750052349
+transform 1 0 -236 0 1 1600
+box -228 -1726 9136 716
+use cm_pcell2  cm_pcell2_0
+timestamp 1750052349
+transform 1 0 -13118 0 1 -3233
+box 12654 -276 22018 3300
+<< end >>

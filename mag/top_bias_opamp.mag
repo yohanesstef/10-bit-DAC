@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750075212
+use cm_pcell1  cm_pcell1_0
+timestamp 1750052349
+transform 1 0 215 0 1 1719
+box -228 -1726 9136 716
+<< end >>

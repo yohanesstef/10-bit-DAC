@@ -1,0 +1,47 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750066031
+<< pwell >>
+rect -36 -571 956 635
+<< mvpsubdiffcont >>
+rect 73 552 847 586
+rect 13 -462 47 526
+rect 873 -462 907 526
+rect 73 -522 847 -488
+<< viali >>
+rect 13 552 73 586
+rect 73 552 847 586
+rect 847 552 907 586
+rect 13 526 47 552
+rect 13 -462 47 526
+rect 13 -488 47 -462
+rect 873 526 907 552
+rect 873 -462 907 526
+rect 873 -488 907 -462
+rect 13 -522 73 -488
+rect 73 -522 847 -488
+rect 847 -522 907 -488
+<< metal1 >>
+rect 424 90 430 150
+rect 490 90 496 150
+rect 424 -86 430 -26
+rect 490 -86 496 -26
+<< via1 >>
+rect 430 90 490 150
+rect 430 -86 490 -26
+<< metal2 >>
+rect 430 150 490 156
+rect 430 -26 490 90
+rect 430 -92 490 -86
+use fcm_bias_ncell_2  fcm_bias_ncell_2_0 ~/10-bit-DAC/mag
+timestamp 1750066031
+transform 1 0 188 0 1 31
+box -198 -29 742 578
+use fcm_bias_ncell_2  fcm_bias_ncell_2_1
+timestamp 1750066031
+transform -1 0 732 0 -1 33
+box -198 -29 742 578
+<< labels >>
+flabel metal1 s 695 442 741 488 0 FreeSans 320 0 0 0 VB2
+<< end >>

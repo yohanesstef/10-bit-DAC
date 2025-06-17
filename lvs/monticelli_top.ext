@@ -1,0 +1,57 @@
+timestamp 1750150351
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use opa_output_stage opa_output_stage_0 1 0 651 0 1 -2702
+use monticelli_pmos monticelli_pmos_0 1 0 -3031 0 1 221
+use monticelli_nmos monticelli_nmos_0 1 0 54 0 1 -3515
+port "OUT" 6 1699 -1473 1759 -1413 m1
+port "GNDA" 8 682 -2670 742 -2610 m1
+port "VDDA" 7 682 -62 742 -2 m1
+port "VB2" 1 138 -3601 198 -3541 m1
+port "VB1" 0 138 1400 198 1460 m1
+port "B" 3 584 -1229 644 -1169 m1
+port "Ax" 4 314 -1229 374 -1169 m1
+port "Bx" 5 226 -1229 286 -1169 m1
+port "A" 2 496 -1229 556 -1169 m1
+node "OUT" 0 0 1699 -1473 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "GNDA" 0 0 682 -2670 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDDA" 0 0 682 -62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VB2" 0 0 138 -3601 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VB1" 0 0 138 1400 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "B" 0 0 584 -1229 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Ax" 0 0 314 -1229 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Bx" 0 0 226 -1229 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "A" 0 0 496 -1229 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1555_n2771#" 0 0 1555 -2771 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_695_n2737#" 0 0 695 -2737 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1554_n15#" 0 0 1554 -15 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_695_n15#" 0 0 695 -15 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_pmos_0/m1_3169_95#" "VB1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_pmos_0/VSUBS" "opa_output_stage_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_output_stage_0/VSUBS" "monticelli_nmos_0/a_3_n726#"
+merge "monticelli_nmos_0/a_3_n726#" "VSUBS"
+merge "opa_output_stage_0/m1_1021_422#" "OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_pmos_0/w_3009_n235#" "li_1554_n15#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "li_1554_n15#" "opa_output_stage_0/out_pcell_0/w_553_n332#"
+merge "opa_output_stage_0/out_pcell_0/w_553_n332#" "VDDA"
+merge "VDDA" "li_695_n15#"
+merge "monticelli_pmos_0/m1_3941_1176#" "monticelli_nmos_0/monticelli_nmos_2_0/m1_942_578#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_nmos_0/monticelli_nmos_2_0/m1_942_578#" "opa_output_stage_0/out_ncell_0/m1_270_n327#"
+merge "opa_output_stage_0/out_ncell_0/m1_270_n327#" "B"
+merge "monticelli_pmos_0/m1_3345_13#" "monticelli_nmos_0/m1_260_26#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_nmos_0/m1_260_26#" "Ax"
+merge "monticelli_pmos_0/m1_3759_2547#" "opa_output_stage_0/out_pcell_0/m1_920_n168#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "opa_output_stage_0/out_pcell_0/m1_920_n168#" "monticelli_nmos_0/m1_914_26#"
+merge "monticelli_nmos_0/m1_914_26#" "A"
+merge "monticelli_pmos_0/m1_3257_13#" "monticelli_nmos_0/monticelli_nmos_2_0/m1_n192_578#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_nmos_0/monticelli_nmos_2_0/m1_n192_578#" "Bx"
+merge "monticelli_nmos_0/monticelli_nmos_2_0/li_n361_578#" "monticelli_nmos_0/a_63_744#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "monticelli_nmos_0/a_63_744#" "li_1555_n2771#"
+merge "li_1555_n2771#" "opa_output_stage_0/out_ncell_0/a_n18_n355#"
+merge "opa_output_stage_0/out_ncell_0/a_n18_n355#" "li_695_n2737#"
+merge "li_695_n2737#" "GNDA"
+merge "monticelli_nmos_0/monticelli_nmos_2_1/m1_n280_578#" "VB2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

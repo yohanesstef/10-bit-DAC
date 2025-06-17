@@ -1,0 +1,69 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750150351
+<< pwell >>
+rect -46 -835 1584 827
+<< mvpsubdiffcont >>
+rect 63 744 1475 778
+rect 3 -726 37 718
+rect 1501 -726 1535 718
+rect 63 -786 1475 -752
+<< metal1 >>
+rect 260 86 320 703
+rect 674 549 680 609
+rect 740 549 746 609
+rect 792 549 798 609
+rect 858 549 864 609
+rect 687 539 733 549
+rect 805 537 851 549
+rect 429 86 475 114
+rect 1063 86 1109 114
+rect 1218 86 1278 703
+rect 260 26 625 86
+rect 914 26 1278 86
+rect 429 -94 625 -34
+rect 914 -94 1109 -34
+rect 429 -122 475 -94
+rect 1063 -122 1109 -94
+rect 687 -557 733 -501
+rect 674 -617 680 -557
+rect 740 -617 746 -557
+rect 805 -645 851 -498
+rect 792 -705 798 -645
+rect 858 -705 864 -645
+<< via1 >>
+rect 172 549 232 609
+rect 680 549 740 609
+rect 798 549 858 609
+rect 1306 549 1366 609
+rect 680 -617 740 -557
+rect 1306 -617 1366 -557
+rect 172 -705 232 -645
+rect 798 -705 858 -645
+<< metal2 >>
+rect 166 549 172 609
+rect 232 549 680 609
+rect 740 549 746 609
+rect 792 549 798 609
+rect 858 549 1306 609
+rect 1366 549 1372 609
+rect 674 -617 680 -557
+rect 740 -617 1306 -557
+rect 1366 -617 1372 -557
+rect 166 -705 172 -645
+rect 232 -705 798 -645
+rect 858 -705 864 -645
+use cross_pair  cross_pair_0
+timestamp 1750150351
+transform 1 0 -35489 0 1 -1949
+box 36114 1855 36403 2035
+use monticelli_nmos_2  monticelli_nmos_2_0
+timestamp 1750017183
+transform 1 0 364 0 1 -582
+box -374 578 1184 1373
+use monticelli_nmos_2  monticelli_nmos_2_1
+timestamp 1750017183
+transform 1 0 364 0 -1 574
+box -374 578 1184 1373
+<< end >>

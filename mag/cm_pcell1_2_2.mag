@@ -1,49 +1,47 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749844718
+timestamp 1749890363
 << nwell >>
-rect -35 -961 1601 356
-rect 783 -962 1601 -961
+rect -35 355 1601 356
+rect -35 -961 1705 355
+rect 783 -962 1705 -961
 << mvnsubdiff >>
-rect 31 229 1535 289
-rect 31 -895 1535 -835
+rect 31 229 1639 289
+rect 1581 -835 1639 229
+rect 31 -895 1639 -835
 << locali >>
-rect 31 242 1535 276
-rect 31 -882 1535 -848
+rect 31 242 1627 276
+rect 1593 -848 1627 242
+rect 31 -882 1627 -848
 << metal1 >>
-rect 31 219 1535 299
+rect 31 219 1649 299
 rect 819 191 1499 219
 rect 325 -214 489 62
+rect 67 -392 113 -317
+rect 325 -668 489 -317
+rect 701 -392 747 -317
 rect 1077 -392 1241 -214
-rect 325 -668 489 -392
 rect 819 -825 1499 -797
-rect 31 -905 1535 -825
+rect 1571 -825 1649 219
+rect 31 -905 1649 -825
 << metal2 >>
 rect 31 131 783 191
-rect 31 -25 783 35
-rect 31 -113 783 -53
-rect 31 -201 783 -141
-rect 31 -289 783 -229
-rect 31 -377 783 -317
-rect 31 -465 783 -405
-rect 31 -553 783 -493
-rect 31 -641 783 -581
 rect 31 -797 783 -737
-use cm_pcell1_2  cm_pcell1_2_0
-timestamp 1749830679
-transform 1 0 -3 0 1 -312
-box -2 -10 822 516
+use cm_pcell1_2  cm_pcell1_2_0 ~/10-bit-DAC/mag
+timestamp 1749889584
+transform 1 0 -3 0 1 -304
+box -2 -18 822 508
 use cm_pcell1_2  cm_pcell1_2_1
-timestamp 1749830679
-transform 1 0 -3 0 -1 -294
-box -2 -10 822 516
+timestamp 1749889584
+transform 1 0 -3 0 -1 -302
+box -2 -18 822 508
 use cm_pcell1_dummy_2  cm_pcell1_dummy_2_0
-timestamp 1749844475
+timestamp 1749889584
 transform 1 0 -521 0 1 -311
 box 1268 -11 2092 515
 use cm_pcell1_dummy_2  cm_pcell1_dummy_2_1
-timestamp 1749844475
+timestamp 1749889584
 transform 1 0 -521 0 -1 -295
 box 1268 -11 2092 515
 << end >>

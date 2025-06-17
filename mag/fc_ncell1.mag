@@ -1,0 +1,73 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750150351
+<< pwell >>
+rect 94 -748 2848 564
+<< mvpsubdiffcont >>
+rect 203 481 2739 515
+rect 143 -639 177 455
+rect 2765 -639 2799 455
+rect 203 -699 2739 -665
+<< viali >>
+rect 143 481 203 515
+rect 203 481 2739 515
+rect 2739 481 2799 515
+rect 143 455 177 481
+rect 143 -639 177 455
+rect 143 -665 177 -639
+rect 2765 455 2799 481
+rect 2765 -639 2799 455
+rect 2765 -665 2799 -639
+rect 143 -699 203 -665
+rect 203 -699 2739 -665
+rect 2739 -699 2799 -665
+<< metal1 >>
+rect 234 -2 294 346
+rect 234 -188 294 -62
+rect 322 -122 382 346
+rect 932 -2 978 26
+rect 1448 -2 1494 26
+rect 1964 -2 2010 26
+rect 462 -62 468 -2
+rect 528 -62 1067 -2
+rect 1356 -62 1583 -2
+rect 1872 -62 2010 -2
+rect 462 -182 468 -122
+rect 528 -182 1067 -122
+rect 1356 -182 1583 -122
+rect 1872 -182 2010 -122
+rect 322 -188 382 -182
+rect 932 -210 978 -182
+rect 1448 -210 1494 -182
+rect 1964 -210 2010 -182
+<< via1 >>
+rect 234 -62 294 -2
+rect 468 -62 528 -2
+rect 322 -182 382 -122
+rect 468 -182 528 -122
+<< metal2 >>
+rect 228 -62 234 -2
+rect 294 -62 468 -2
+rect 528 -62 534 -2
+rect 228 -182 322 -122
+rect 382 -182 468 -122
+rect 528 -182 534 -122
+rect 1441 -608 1501 538
+use cross_pair  cross_pair_0
+timestamp 1750150351
+transform -1 0 37986 0 -1 1853
+box 36114 1855 36403 2035
+use cross_pair  cross_pair_1
+timestamp 1750150351
+transform -1 0 37470 0 -1 1853
+box 36114 1855 36403 2035
+use fc_ncell1_half  fc_ncell1_half_0
+timestamp 1750017183
+transform -1 0 1491 0 -1 -184
+box -1331 -92 1371 538
+use fc_ncell1_half  fc_ncell1_half_1
+timestamp 1750017183
+transform -1 0 1491 0 1 0
+box -1331 -92 1371 538
+<< end >>

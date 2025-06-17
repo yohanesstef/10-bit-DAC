@@ -1,0 +1,12 @@
+magic
+tech sky130A
+timestamp 1750060524
+use cm_ncell1_4_2  cm_ncell1_4_2_0
+timestamp 1750060524
+transform 1 0 43 0 1 279
+box -49 -281 785 253
+use cm_ncell1_6_2  cm_ncell1_4_2_1
+timestamp 1750060524
+transform 1 0 795 0 1 279
+box -49 -281 995 253
+<< end >>

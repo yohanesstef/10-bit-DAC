@@ -1,0 +1,26 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750150351
+<< metal1 >>
+rect 42 2545 1640 2625
+rect 42 55 142 2545
+rect 1560 55 1640 2545
+<< via1 >>
+rect 1290 171 1350 231
+rect 1290 -39 1350 21
+<< metal2 >>
+rect 1290 231 1350 237
+rect 244 -67 304 55
+rect 332 21 392 143
+rect 1290 21 1350 171
+rect 1290 -45 1350 -39
+use fc_pmos1  fc_pmos1_0
+timestamp 1750150351
+transform 1 0 -5 0 1 1279
+box 1 -1290 1691 1392
+use fc_pmos2  fc_pmos2_0
+timestamp 1750150351
+transform 1 0 -2271 0 1 -1721
+box 2267 -1100 3957 1902
+<< end >>

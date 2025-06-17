@@ -1,0 +1,49 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750163329
+<< error_s >>
+rect -1254 188 -1224 676
+rect -1188 254 -1158 610
+rect 1354 254 1384 610
+rect -1188 250 -872 254
+rect -812 250 -496 254
+rect -436 250 -120 254
+rect -60 250 256 254
+rect 316 250 632 254
+rect 692 250 1008 254
+rect 1068 250 1384 254
+rect 1420 188 1450 676
+rect -1254 184 1450 188
+<< metal1 >>
+rect -1182 651 -878 725
+rect -1182 568 -1136 651
+rect -924 568 -878 651
+rect 1074 697 1378 725
+rect 1074 651 1151 697
+rect 1301 651 1378 697
+rect 1074 292 1120 651
+rect 1332 568 1378 651
+<< metal2 >>
+rect -720 637 950 697
+use cm_pcell1_2  cm_pcell1_2_0 ~/10-bit-DAC/mag
+timestamp 1749889584
+transform 1 0 -876 0 1 202
+box -2 -18 822 508
+use cm_pcell1_2  cm_pcell1_2_1
+timestamp 1749889584
+transform 1 0 -124 0 1 202
+box -2 -18 822 508
+use cm_pcell_1  cm_pcell_1_1 ~/10-bit-DAC/mag
+timestamp 1749889584
+transform 1 0 686 0 1 208
+box -60 -24 388 502
+use sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5  sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0 ~/10-bit-DAC/mag
+timestamp 1749889488
+transform 1 0 1226 0 1 466
+box -224 -282 224 244
+use sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5  sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1
+timestamp 1749889488
+transform 1 0 -1030 0 1 466
+box -224 -282 224 244
+<< end >>

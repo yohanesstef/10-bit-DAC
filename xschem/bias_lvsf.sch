@@ -1,4 +1,4 @@
-v {xschem version=3.4.7 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
@@ -13,14 +13,14 @@ N 300 -730 350 -730 {lab=n1}
 N 340 -690 350 -690 {lab=n2}
 N 350 -690 350 -660 {lab=n2}
 N 300 -660 350 -660 {lab=n2}
-N 340 -610 370 -610 {lab=#net1}
+N 340 -610 370 -610 {lab=ROUT}
 N 300 -660 300 -640 {lab=n2}
-N 300 -500 300 -480 {lab=#net1}
-N 300 -580 300 -560 {lab=#net2}
-N 370 -610 370 -490 {lab=#net1}
-N 300 -490 370 -490 {lab=#net1}
-N 340 -530 370 -530 {lab=#net1}
-N 520 -730 520 -720 {lab=#net3}
+N 300 -500 300 -480 {lab=ROUT}
+N 300 -580 300 -560 {lab=#net1}
+N 370 -610 370 -490 {lab=ROUT}
+N 300 -490 370 -490 {lab=ROUT}
+N 340 -530 370 -530 {lab=ROUT}
+N 520 -730 520 -720 {lab=#net2}
 N 300 -790 520 -790 {lab=VDDA}
 N 520 -660 520 -480 {lab=n3}
 N 350 -690 480 -690 {lab=n2}
@@ -32,8 +32,8 @@ N 520 -500 580 -500 {lab=n3}
 N 560 -370 580 -370 {lab=n4}
 N 580 -410 580 -370 {lab=n4}
 N 520 -410 580 -410 {lab=n4}
-N 730 -730 730 -720 {lab=#net4}
-N 920 -730 920 -720 {lab=#net5}
+N 730 -730 730 -720 {lab=#net3}
+N 920 -730 920 -720 {lab=#net4}
 N 480 -690 880 -690 {lab=n2}
 N 480 -760 880 -760 {lab=n1}
 N 520 -790 920 -790 {lab=VDDA}
@@ -50,7 +50,7 @@ N 980 -490 980 -370 {lab=VBNDEC}
 N 920 -490 980 -490 {lab=VBNDEC}
 N 960 -450 980 -450 {lab=VBNDEC}
 N 1170 -730 1170 -720 {lab=n10}
-N 1170 -420 1170 -400 {lab=#net6}
+N 1170 -420 1170 -400 {lab=#net5}
 N 1170 -660 1170 -480 {lab=VBPLV}
 N 920 -790 1160 -790 {lab=VDDA}
 N 1210 -760 1230 -760 {lab=VBPLV}
@@ -58,7 +58,7 @@ N 1230 -760 1230 -650 {lab=VBPLV}
 N 1170 -650 1230 -650 {lab=VBPLV}
 N 1210 -690 1230 -690 {lab=VBPLV}
 N 1170 -730 1170 -720 {lab=n10}
-N 1390 -730 1390 -720 {lab=#net7}
+N 1390 -730 1390 -720 {lab=#net6}
 N 1390 -420 1390 -400 {lab=n14}
 N 1390 -660 1390 -480 {lab=VBPDEC}
 N 1430 -370 1450 -370 {lab=n14}
@@ -75,6 +75,7 @@ N 1170 -340 1170 -280 {lab=GNDA}
 N 920 -340 920 -280 {lab=GNDA}
 N 730 -340 730 -280 {lab=GNDA}
 N 520 -340 520 -280 {lab=GNDA}
+N 300 -480 300 -420 {lab=ROUT}
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 320 -760 0 1 {name=M1
 L=lref
 W=wp_iref
@@ -90,12 +91,12 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/param.sym} 0 -790 0 0 {name=s2 value="
+C {devices/param.sym} 10 -840 0 0 {name=s2 value="
 +wp_iref=1.8
 +wn_iref=0.6
 +miref=2
 +
-+lref=4
++lref=1
 +lr=20"}
 C {devices/title.sym} 160 -30 0 0 {name=l1 author="Yohanes Stefanus"}
 C {devices/lab_pin.sym} 300 -820 0 0 {name=p1 sig_type=std_logic lab=VDDA}
@@ -114,12 +115,6 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {sky130_fd_pr/res_xhigh_po_5p73.sym} 300 -450 0 0 {name=R1
-L=0.573
-model=res_xhigh_po_5p73
-spiceprefix=X
-mult=1}
-C {devices/lab_pin.sym} 280 -450 0 0 {name=p2 sig_type=std_logic lab=GNDA}
 C {devices/lab_pin.sym} 350 -760 0 1 {name=p4 sig_type=std_logic lab=n1}
 C {devices/lab_pin.sym} 350 -690 0 1 {name=p5 sig_type=std_logic lab=n2}
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 320 -610 0 1 {name=M3

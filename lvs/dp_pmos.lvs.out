@@ -1,0 +1,45 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+Flattening unmatched subcell dp_pmos_4 in circuit dp_pmos (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_V8EYZH in circuit dp_pmos (0)(2 instances)
+
+Class dp_pmos (0):  Merged 6 parallel devices.
+Subcircuit summary:
+Circuit 1: dp_pmos                         |Circuit 2: dp_pmos                         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (8->2)        |sky130_fd_pr__pfet_g5v0d10v5 (8->2)        
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: dp_pmos                         |Circuit 2: dp_pmos                         
+-------------------------------------------|-------------------------------------------
+I_OPB                                      |I_OPB                                      
+I_OPA                                      |I_OPA                                      
+N_IN                                       |N_IN                                       
+P_IN                                       |P_IN                                       
+I_HEAD                                     |I_HEAD                                     
+VPB                                        |VPB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes dp_pmos and dp_pmos are equivalent.
+
+Final result: Circuits match uniquely.
+.

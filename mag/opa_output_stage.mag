@@ -1,0 +1,25 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750070618
+<< metal1 >>
+rect 1021 1899 1141 1905
+rect 1021 488 1141 1839
+rect 1021 422 1141 428
+<< via1 >>
+rect 1021 1839 1141 1899
+rect 1021 428 1141 488
+<< metal2 >>
+rect 961 1839 1021 1899
+rect 1141 1839 1147 1899
+rect 961 428 1021 488
+rect 1141 428 1147 488
+use out_ncell  out_ncell_0
+timestamp 1750067976
+transform 1 0 62 0 1 460
+box -66 -463 924 459
+use out_pcell  out_pcell_0
+timestamp 1750067337
+transform 1 0 -588 0 1 1302
+box 553 -332 1605 1464
+<< end >>

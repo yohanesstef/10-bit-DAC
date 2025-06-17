@@ -110,11 +110,6 @@ C {devices/lab_pin.sym} 990 -240 3 1 {name=p8 sig_type=std_logic lab=VOUT}
 C {devices/lab_pin.sym} 720 -190 0 0 {name=p11 sig_type=std_logic lab=0}
 C {devices/lab_pin.sym} 720 -310 0 0 {name=p13 sig_type=std_logic lab=da[0..9]}
 C {devices/lab_pin.sym} 810 -80 0 0 {name=p119 sig_type=std_logic lab=0}
-C {devices/res.sym} 860 -110 0 0 {name=R3
-value=192.15k
-footprint=1206
-device=resistor
-m=1}
 C {10b_DAC_top.sym} 840 -240 0 0 {name=x1}
 C {devices/lab_pin.sym} 720 -210 2 1 {name=p1 sig_type=std_logic lab=VDDA}
 C {devices/lab_pin.sym} 720 -250 2 1 {name=p14 sig_type=std_logic lab=VDD}
@@ -147,8 +142,13 @@ C {devices/launcher.sym} 370 -350 0 0 {name=h1
 descr="Clear" 
 tclcommand="xschem raw_read $netlist_dir/spectral_tb.raw dc"
 }
-C {devices/res.sym} 810 -110 0 1 {name=R4
-value=1.7588MEG
+C {devices/res.sym} 810 -110 0 1 {name=R2
+value=1.759MEG
+footprint=1206
+device=resistor
+m=1}
+C {devices/res.sym} 860 -110 0 0 {name=R3
+value=671.63k
 footprint=1206
 device=resistor
 m=1}

@@ -1,0 +1,29 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1749896124
+<< nwell >>
+rect -31 -923 1709 943
+rect -31 -941 1708 -923
+<< mvnsubdiff >>
+rect 1535 817 1643 877
+rect 1585 -815 1643 817
+rect 1539 -875 1643 -815
+<< locali >>
+rect 1539 830 1631 864
+rect 1597 -828 1631 830
+rect 1539 -862 1631 -828
+<< metal1 >>
+rect 1539 807 1653 887
+rect 329 198 493 474
+rect 1575 -805 1653 807
+rect 1538 -885 1653 -805
+use cm_pcell2_2  cm_pcell2_2_0
+timestamp 1749896124
+transform 1 0 18 0 1 88
+box -49 2 1587 855
+use cm_pcell2_2  cm_pcell2_2_1
+timestamp 1749896124
+transform 1 0 18 0 -1 -86
+box -49 2 1587 855
+<< end >>

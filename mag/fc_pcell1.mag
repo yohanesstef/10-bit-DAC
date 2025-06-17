@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750006883
+use monticelli_pmos  monticelli_pmos_0
+timestamp 1750003173
+transform 1 0 -3196 0 1 95
+box 3009 -235 4699 2767
+<< end >>

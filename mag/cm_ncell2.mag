@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750079478
+use cm_ncell2_half  cm_ncell2_half_0
+timestamp 1750079478
+transform 1 0 21 0 1 -7
+box -15 -6 7005 1590
+use cm_ncell2_half  cm_ncell2_half_1
+timestamp 1750079478
+transform -1 0 7011 0 -1 61
+box -15 -6 7005 1590
+<< end >>

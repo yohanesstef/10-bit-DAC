@@ -1,0 +1,15 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750060524
+<< mvpsubdiff >>
+rect -21 604 1483 664
+<< locali >>
+rect -21 617 1483 651
+<< metal1 >>
+rect -21 594 1483 674
+use cm_ncell_4  cm_ncell_4_0
+timestamp 1750060524
+transform 1 0 9 0 1 6
+box -30 -16 1474 218
+<< end >>

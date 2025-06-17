@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750166649
+use cm2_pcell1  cm2_pcell1_0
+timestamp 1750166649
+transform 1 0 -1957 0 1 -1663
+box 1957 1661 4889 2977
+use cm2_pcell2  cm2_pcell2_0 ~/10-bit-DAC/mag
+timestamp 1750166469
+transform 1 0 -1957 0 1 -3145
+box 1803 1303 5043 3335
+<< end >>

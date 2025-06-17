@@ -1,0 +1,54 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750060026
+<< mvpsubdiff >>
+rect -502 297 8775 357
+rect -502 -60 -442 297
+rect 8715 -60 8775 297
+<< locali >>
+rect -489 310 8762 344
+rect -489 -60 -455 310
+rect 8728 -60 8762 310
+<< metal1 >>
+rect -502 297 8775 357
+rect -502 -60 -442 297
+rect -238 256 -112 297
+rect 8384 256 8510 297
+rect -321 210 -17 256
+rect 3607 210 4665 256
+rect -321 178 -275 210
+rect -63 178 -17 210
+rect 7247 190 7253 250
+rect 7653 190 7659 250
+rect 8289 210 8593 256
+rect 8289 178 8335 210
+rect 8547 178 8593 210
+rect -321 169 -281 178
+rect -63 169 -23 178
+rect 8295 169 8335 178
+rect 8553 169 8593 178
+rect 4078 58 4194 118
+rect 8715 -60 8775 297
+<< via1 >>
+rect 7253 190 7653 250
+<< metal2 >>
+rect 7247 190 7253 250
+rect 7653 190 8684 250
+use sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y  sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y_0
+timestamp 1750060026
+transform 1 0 6165 0 1 149
+box -2058 -117 2058 117
+use sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y  sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y_1
+timestamp 1750060026
+transform 1 0 2107 0 1 149
+box -2058 -117 2058 117
+use sky130_fd_pr__nfet_g5v0d10v5_UKZDTQ  sky130_fd_pr__nfet_g5v0d10v5_UKZDTQ_0
+timestamp 1750060026
+transform 1 0 8441 0 1 149
+box -158 -117 158 117
+use sky130_fd_pr__nfet_g5v0d10v5_UKZDTQ  sky130_fd_pr__nfet_g5v0d10v5_UKZDTQ_1
+timestamp 1750060026
+transform 1 0 -169 0 1 149
+box -158 -117 158 117
+<< end >>

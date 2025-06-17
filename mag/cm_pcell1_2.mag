@@ -1,20 +1,21 @@
 magic
 tech sky130A
-timestamp 1749830679
+timestamp 1749889584
 << error_s >>
-rect -1 0 14 241
-rect 32 30 47 208
-rect 363 30 378 208
-rect 32 28 190 30
-rect 220 28 378 30
-rect 396 0 411 241
-rect 0 -5 411 -3
+rect -1 0 14 237
+rect 32 26 47 204
+rect 363 26 378 204
+rect 32 24 190 26
+rect 220 24 378 26
+rect 0 -7 14 0
+rect 396 -7 411 237
+rect 0 -9 411 -7
 use cm_pcell_1  cm_pcell_1_0
-timestamp 1749830327
+timestamp 1749889584
 transform 1 0 29 0 1 3
-box -30 -8 194 255
+box -30 -12 194 251
 use cm_pcell_1  cm_pcell_1_1
-timestamp 1749830327
+timestamp 1749889584
 transform 1 0 217 0 1 3
-box -30 -8 194 255
+box -30 -12 194 251
 << end >>

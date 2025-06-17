@@ -1,0 +1,106 @@
+timestamp 1749897485
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use cm_pcell2_right cm_pcell2_right_1 1 0 4855 0 1 -1695
+use cm_pcell2_left cm_pcell2_left_1 1 0 239 0 1 -1695
+node "m2_3777_n1540#" 0 0 3777 -1540 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_1411_n1452#" 0 0 1411 -1452 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_1149_n1276#" 0 0 1149 -1276 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_4098_n1188#" 0 0 4098 -1188 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_2594_n1100#" 0 0 2594 -1100 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_5602_n1012#" 0 0 5602 -1012 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_2277_n924#" 0 0 2277 -924 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_5285_n836#" 0 0 5285 -836 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_4791_n748#" 0 0 4791 -748 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_4909_n660#" 0 0 4909 -660 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_4620_n572#" 0 0 4620 -572 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_5086_n484#" 0 0 5086 -484 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_2218_n396#" 0 0 2218 -396 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_1466_n308#" 0 0 1466 -308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_1897_n132#" 0 0 1897 -132 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_1145_n44#" 0 0 1145 -44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_342_67#" 0 0 342 67 mvnsc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_2948_1651#" "cm_pcell2_right_1/m1_2306_1651#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_2306_1651#" "cm_pcell2_right_1/m1_1444_1651#"
+merge "cm_pcell2_right_1/m1_1444_1651#" "cm_pcell2_left_1/m1_4556_1651#"
+merge "cm_pcell2_left_1/m1_4556_1651#" "cm_pcell2_right_1/m1_802_1651#"
+merge "cm_pcell2_right_1/m1_802_1651#" "cm_pcell2_left_1/m1_3914_1651#"
+merge "cm_pcell2_left_1/m1_3914_1651#" "cm_pcell2_left_1/m1_3052_1651#"
+merge "cm_pcell2_left_1/m1_3052_1651#" "cm_pcell2_left_1/m1_2410_1651#"
+merge "cm_pcell2_left_1/m1_2410_1651#" "cm_pcell2_left_1/m1_1548_1651#"
+merge "cm_pcell2_left_1/m1_1548_1651#" "cm_pcell2_left_1/m1_906_1651#"
+merge "cm_pcell2_left_1/m1_906_1651#" "m2_1145_n44#"
+merge "cm_pcell2_right_1/VSUBS" "cm_pcell2_left_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_left_1/VSUBS" "VSUBS"
+merge "cm_pcell2_right_1/m1_1505_507#" "cm_pcell2_left_1/m1_3865_507#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_left_1/m1_3865_507#" "m2_4098_n1188#"
+merge "cm_pcell2_right_1/m1_1064_859#" "cm_pcell2_right_1/m1_430_859#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_430_859#" "m2_5285_n836#"
+merge "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/w_n31_n941#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_1/cm_pcell2_4_0/li_17_742#"
+merge "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_1/cm_pcell2_4_0/li_17_742#" "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_1/w_n31_n941#"
+merge "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_1/w_n31_n941#" "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_0/li_17_742#"
+merge "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_0/li_17_742#" "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_0/li_17_742#"
+merge "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_0/li_17_742#" "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/w_n31_n941#"
+merge "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/w_n31_n941#" "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/w_n31_n941#"
+merge "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/w_n31_n941#" "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_1/cm_pcell2_4_0/li_17_742#"
+merge "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_1/cm_pcell2_4_0/li_17_742#" "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_1/w_n31_n941#"
+merge "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_1/w_n31_n941#" "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/li_1539_n862#"
+merge "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/w_n31_n941#"
+merge "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_2_2_0/w_n31_n941#" "a_342_67#"
+merge "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_1/m1_17_719#" "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_1/m1_17_719#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/m2_47_457#" "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/m2_47_457#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_left_1/m1_4552_947#" "m2_4791_n748#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_237_676#" "m2_5086_n484#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_1/li_17_742#" "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_1/li_17_742#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_1820_155#" "cm_pcell2_right_1/m1_1178_155#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_1178_155#" "cm_pcell2_left_1/m1_4180_155#"
+merge "cm_pcell2_left_1/m1_4180_155#" "cm_pcell2_left_1/m1_3538_155#"
+merge "cm_pcell2_left_1/m1_3538_155#" "m2_3777_n1540#"
+merge "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_0/m1_17_719#" "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_0/m1_17_719#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_3696_419#" "cm_pcell2_right_1/m1_2205_419#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_2205_419#" "cm_pcell2_left_1/m1_3113_419#"
+merge "cm_pcell2_left_1/m1_3113_419#" "cm_pcell2_left_1/m1_1609_419#"
+merge "cm_pcell2_left_1/m1_1609_419#" "cm_pcell2_left_1/m1_910_419#"
+merge "cm_pcell2_left_1/m1_910_419#" "m2_1149_n1276#"
+merge "cm_pcell2_right_1/m1_3434_243#" "cm_pcell2_right_1/m1_2572_243#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_2572_243#" "cm_pcell2_right_1/m1_1930_243#"
+merge "cm_pcell2_right_1/m1_1930_243#" "cm_pcell2_left_1/m1_3428_243#"
+merge "cm_pcell2_left_1/m1_3428_243#" "cm_pcell2_left_1/m1_2786_243#"
+merge "cm_pcell2_left_1/m1_2786_243#" "cm_pcell2_left_1/m1_1924_243#"
+merge "cm_pcell2_left_1/m1_1924_243#" "cm_pcell2_left_1/m1_1172_243#"
+merge "cm_pcell2_left_1/m1_1172_243#" "m2_1411_n1452#"
+merge "cm_pcell2_right_1/m1_2633_1387#" "cm_pcell2_right_1/m1_1129_1387#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_1129_1387#" "cm_pcell2_left_1/m1_4241_1387#"
+merge "cm_pcell2_left_1/m1_4241_1387#" "cm_pcell2_left_1/m1_2737_1387#"
+merge "cm_pcell2_left_1/m1_2737_1387#" "cm_pcell2_left_1/m1_1181_1387#"
+merge "cm_pcell2_left_1/m1_1181_1387#" "m2_1466_n308#"
+merge "cm_pcell2_right_1/m1_3385_1299#" "cm_pcell2_right_1/m1_1881_1299#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_1881_1299#" "cm_pcell2_right_1/m1_377_1299#"
+merge "cm_pcell2_right_1/m1_377_1299#" "cm_pcell2_left_1/m1_3489_1299#"
+merge "cm_pcell2_left_1/m1_3489_1299#" "cm_pcell2_left_1/m1_1985_1299#"
+merge "cm_pcell2_left_1/m1_1985_1299#" "m2_2218_n396#"
+merge "cm_pcell2_right_1/m1_3700_1563#" "cm_pcell2_right_1/m1_3058_1563#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_3058_1563#" "cm_pcell2_right_1/m1_2196_1563#"
+merge "cm_pcell2_right_1/m1_2196_1563#" "cm_pcell2_right_1/m1_1554_1563#"
+merge "cm_pcell2_right_1/m1_1554_1563#" "cm_pcell2_right_1/m1_692_1563#"
+merge "cm_pcell2_right_1/m1_692_1563#" "cm_pcell2_right_1/m1_50_1563#"
+merge "cm_pcell2_right_1/m1_50_1563#" "cm_pcell2_left_1/m1_3804_1563#"
+merge "cm_pcell2_left_1/m1_3804_1563#" "cm_pcell2_left_1/m1_3162_1563#"
+merge "cm_pcell2_left_1/m1_3162_1563#" "cm_pcell2_left_1/m1_2300_1563#"
+merge "cm_pcell2_left_1/m1_2300_1563#" "cm_pcell2_left_1/m1_1658_1563#"
+merge "cm_pcell2_left_1/m1_1658_1563#" "m2_1897_n132#"
+merge "cm_pcell2_left_1/m1_4353_676#" "m2_4620_n572#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_left_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_1/cm_pcell_4_0/m2_47_457#" "cm_pcell2_right_1/cm_pcell2_cell_0/cm_pcell2_4_2_0/cm_pcell2_4_1/cm_pcell_4_0/m2_47_457#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_3009_595#" "cm_pcell2_left_1/m1_2361_595#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_left_1/m1_2361_595#" "m2_2594_n1100#"
+merge "cm_pcell2_right_1/m1_3320_771#" "cm_pcell2_right_1/m1_2686_771#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_2686_771#" "cm_pcell2_left_1/m1_2672_772#"
+merge "cm_pcell2_left_1/m1_2672_772#" "cm_pcell2_left_1/m1_2038_771#"
+merge "cm_pcell2_left_1/m1_2038_771#" "m2_2277_n924#"
+merge "cm_pcell2_right_1/m1_54_1035#" "m2_4909_n660#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_right_1/m1_701_730#" "m2_5602_n1012#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

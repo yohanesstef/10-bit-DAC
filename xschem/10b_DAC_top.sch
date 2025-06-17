@@ -143,9 +143,7 @@ C {op_amp.sym} 1360 -790 0 0 {name=x17}
 C {devices/lab_pin.sym} 1490 -390 0 1 {name=p99 sig_type=std_logic lab=P_IN[0:4]}
 C {devices/lab_pin.sym} 1210 -830 0 0 {name=p100 sig_type=std_logic lab=P_IN[0:4]}
 C {devices/lab_pin.sym} 1430 -790 0 1 {name=p101 sig_type=std_logic lab=VOUT}
-C {devices/lab_pin.sym} 1290 -950 0 0 {name=p102 sig_type=std_logic lab=ROUT1}
-C {devices/lab_pin.sym} 1290 -930 0 0 {name=p103 sig_type=std_logic lab=VDDA}
-C {devices/lab_pin.sym} 1290 -910 0 0 {name=p104 sig_type=std_logic lab=GNDA}
+C {devices/lab_pin.sym} 1290 -910 0 0 {name=p102 sig_type=std_logic lab=ROUT1}
 C {devices/lab_pin.sym} 1290 -890 0 0 {name=p105 sig_type=std_logic lab=VDDA}
 C {devices/lab_pin.sym} 1290 -870 0 0 {name=p106 sig_type=std_logic lab=GNDA}
 C {devices/lab_pin.sym} 1490 -610 0 1 {name=p107 sig_type=std_logic lab=VS2[0:3]}
@@ -217,7 +215,7 @@ C {logic_shift_seg2.sym} 800 -1210 0 0 {name=x23}
 C {devices/lab_pin.sym} 650 -1220 0 0 {name=p137 sig_type=std_logic lab=db[6:8]}
 C {devices/lab_pin.sym} 650 -1240 0 0 {name=p138 sig_type=std_logic lab=d[6:9]}
 C {devices/lab_pin.sym} 650 -1200 0 0 {name=p139 sig_type=std_logic lab=VDD}
-C {devices/lab_pin.sym} 650 -1180 0 0 {name=p140 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 650 -1180 0 0 {name=p140 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 950 -1240 0 1 {name=p141 sig_type=std_logic lab=DS[8:9]}
 C {rstring_v3.sym} 800 -1140 0 0 {name=x5}
 C {devices/ipin.sym} 1660 -910 0 0 {name=p142 lab=V[0]}

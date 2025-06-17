@@ -1,0 +1,77 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750150351
+<< pwell >>
+rect -35 -713 1825 535
+<< mvpsubdiffcont >>
+rect 74 452 1716 486
+rect 14 -604 48 426
+rect 1742 -604 1776 426
+rect 74 -664 1716 -630
+<< metal1 >>
+rect 356 1 402 29
+rect 872 1 918 29
+rect 1388 1 1434 29
+rect 356 -59 362 1
+rect 422 -59 493 1
+rect 710 -59 1106 1
+rect 1298 -59 1368 1
+rect 1428 -59 1434 1
+rect 356 -179 362 -119
+rect 422 -179 493 -119
+rect 685 -179 1081 -119
+rect 1298 -179 1368 -119
+rect 1428 -179 1434 -119
+rect 356 -207 402 -179
+rect 872 -207 918 -179
+rect 1388 -207 1434 -179
+<< via1 >>
+rect 99 335 159 395
+rect 187 247 247 307
+rect 362 -59 422 1
+rect 1368 -59 1428 1
+rect 362 -179 422 -119
+rect 1368 -179 1428 -119
+rect 99 -485 159 -425
+rect 187 -573 247 -513
+<< metal2 >>
+rect 356 -59 362 1
+rect 422 -59 428 1
+rect 356 -179 362 -119
+rect 422 -179 428 -119
+rect 865 -317 925 139
+rect 1362 -59 1368 1
+rect 1428 -59 1789 1
+rect 1362 -179 1368 -119
+rect 1428 -179 1789 -119
+use cross_pair  cross_pair_0
+timestamp 1750150351
+transform 1 0 -35621 0 1 -2034
+box 36114 1855 36403 2035
+use cross_pair  cross_pair_1
+timestamp 1750150351
+transform 1 0 -35105 0 1 -2034
+box 36114 1855 36403 2035
+use dp_nmos_4  dp_nmos_4_0
+timestamp 1749921807
+transform 1 0 490 0 1 -458
+box -489 369 1299 957
+use dp_nmos_4  dp_nmos_4_1
+timestamp 1749921807
+transform 1 0 490 0 -1 280
+box -489 369 1299 957
+<< labels >>
+flabel space 99 -94 99 -94 4 FreeSans 320 90 0 0 P_IN
+port 0 se
+flabel space 187 -94 187 -94 4 FreeSans 320 90 0 0 N_IN
+port 1 se
+flabel via1 1377 -31 1377 -31 3 FreeSans 320 0 0 0 I_ONA
+port 2 e
+flabel via1 1377 -155 1377 -155 3 FreeSans 320 0 0 0 I_ONB
+port 3 e
+flabel space 812 108 812 108 3 FreeSans 320 0 0 0 I_TAIL
+port 4 e
+flabel space 14 486 14 486 4 FreeSans 320 0 0 0 VNB
+port 5 se
+<< end >>

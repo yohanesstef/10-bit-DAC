@@ -1,0 +1,82 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750150351
+<< pwell >>
+rect -60 -455 9289 451
+<< mvpsubdiffcont >>
+rect 49 368 9180 402
+rect -11 -346 23 342
+rect 9206 -346 9240 342
+rect 49 -406 9180 -372
+<< viali >>
+rect -11 368 49 402
+rect 49 368 9180 402
+rect 9180 368 9240 402
+rect -11 342 23 368
+rect -11 -346 23 342
+rect -11 -372 23 -346
+rect 9206 342 9240 368
+rect 9206 -346 9240 342
+rect 9206 -372 9240 -346
+rect -11 -406 49 -372
+rect 49 -406 9180 -372
+rect 9180 -406 9240 -372
+<< metal1 >>
+rect 64 308 124 314
+rect 64 -32 124 248
+rect 4316 116 4322 176
+rect 4382 116 4847 176
+rect 4907 116 4913 176
+rect 534 88 580 116
+rect 8650 88 8696 116
+rect 534 28 4470 88
+rect 4759 28 8696 88
+rect 64 -92 4470 -32
+rect 4759 -92 9165 -32
+rect 64 -252 124 -92
+rect 534 -120 580 -92
+rect 8650 -120 8696 -92
+rect 4315 -180 4322 -120
+rect 4382 -180 4847 -120
+rect 4907 -180 4913 -120
+rect 64 -318 124 -312
+rect 9105 -318 9165 -92
+<< via1 >>
+rect 64 248 124 308
+rect 4322 116 4382 176
+rect 4847 116 4907 176
+rect 4322 -180 4382 -120
+rect 4847 -180 4907 -120
+rect 64 -312 124 -252
+<< metal2 >>
+rect 58 248 64 308
+rect 4322 176 4382 182
+rect 4322 -120 4382 116
+rect 4322 -186 4382 -180
+rect 4847 176 4907 182
+rect 4847 -120 4907 116
+rect 4847 -186 4907 -180
+rect 58 -312 64 -252
+use cm_ncell3_2  cm_ncell3_2_0
+timestamp 1750060026
+transform -1 0 8751 0 -1 -62
+box -502 -60 8775 357
+use cm_ncell3_2  cm_ncell3_2_1
+timestamp 1750060026
+transform -1 0 8751 0 1 58
+box -502 -60 8775 357
+use cross_pair  cross_pair_0
+timestamp 1750150351
+transform -1 0 40873 0 -1 1943
+box 36114 1855 36403 2035
+<< labels >>
+flabel metal1 s 9105 -318 9165 -258 0 FreeSans 320 0 0 0 VTAIL1
+port 0 nsew
+flabel metal1 s 4585 116 4645 176 0 FreeSans 320 0 0 0 VTAIL2
+port 1 nsew
+flabel metal1 s 64 248 124 308 0 FreeSans 320 0 0 0 DRAIN
+port 2 nsew
+flabel locali s -11 368 23 402 0 FreeSans 320 0 0 0 GNDA
+port 3 nsew
+<< end >>

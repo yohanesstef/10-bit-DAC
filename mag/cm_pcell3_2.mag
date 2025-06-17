@@ -1,0 +1,71 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750156376
+<< error_s >>
+rect -568 597 8841 663
+rect -568 -60 -502 597
+rect -442 518 8715 537
+rect -442 0 -363 518
+rect -327 62 -297 418
+rect 8569 62 8599 418
+rect -327 58 -11 62
+rect 49 58 8223 62
+rect 8283 58 8599 62
+rect 8635 0 8715 518
+rect -442 -4 -376 0
+rect 8649 -4 8715 0
+rect -442 -8 8715 -4
+rect -442 -60 -376 -8
+rect -568 -126 -376 -60
+rect 8649 -60 8715 -8
+rect 8775 -60 8841 597
+rect 8649 -126 8841 -60
+<< mvnsubdiff >>
+rect -502 537 8775 597
+rect -502 -60 -442 537
+rect 8715 -60 8775 537
+<< locali >>
+rect -489 550 8762 584
+rect -489 -60 -455 550
+rect 8728 -60 8762 550
+<< metal1 >>
+rect -502 537 8775 597
+rect -502 -60 -442 537
+rect -232 505 -106 537
+rect 8378 505 8504 537
+rect -321 459 -244 505
+rect -94 459 -17 505
+rect 3607 459 4665 505
+rect -321 418 -275 459
+rect -63 418 -17 459
+rect 7247 439 7253 499
+rect 7653 439 7659 499
+rect 8289 459 8369 505
+rect 8516 459 8593 505
+rect 8289 418 8335 459
+rect 8547 418 8593 459
+rect 4078 58 4194 118
+rect 8715 -60 8775 537
+<< via1 >>
+rect 7253 439 7653 499
+<< metal2 >>
+rect 7247 439 7253 499
+rect 7653 439 8684 499
+use sky130_fd_pr__pfet_g5v0d10v5_NWEK38  sky130_fd_pr__pfet_g5v0d10v5_NWEK38_0
+timestamp 1750055843
+transform 1 0 -169 0 1 274
+box -224 -282 224 244
+use sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD  sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_0
+timestamp 1750057315
+transform 1 0 6165 0 1 274
+box -2124 -282 2124 244
+use sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD  sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1
+timestamp 1750057315
+transform 1 0 2107 0 1 274
+box -2124 -282 2124 244
+use sky130_fd_pr__pfet_g5v0d10v5_Y56K3G  sky130_fd_pr__pfet_g5v0d10v5_Y56K3G_0
+timestamp 1750156376
+transform 1 0 8441 0 1 274
+box -224 -282 224 244
+<< end >>

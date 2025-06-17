@@ -1,0 +1,73 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+Flattening unmatched subcell cm_pcell1_left in circuit cm_pcell1 (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_cell in circuit cm_pcell1 (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_4_2 in circuit cm_pcell1 (0)(4 instances)
+Flattening unmatched subcell cm_pcell1_4 in circuit cm_pcell1 (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit cm_pcell1 (0)(16 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit cm_pcell1 (0)(32 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit cm_pcell1 (0)(32 instances)
+Flattening unmatched subcell cm_pcell1_2_2 in circuit cm_pcell1 (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit cm_pcell1 (0)(4 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit cm_pcell1 (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit cm_pcell1 (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_dummy_2 in circuit cm_pcell1 (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit cm_pcell1 (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_right in circuit cm_pcell1 (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_cell in circuit cm_pcell1 (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_4_2 in circuit cm_pcell1 (0)(4 instances)
+Flattening unmatched subcell cm_pcell1_4 in circuit cm_pcell1 (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit cm_pcell1 (0)(16 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit cm_pcell1 (0)(32 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit cm_pcell1 (0)(32 instances)
+Flattening unmatched subcell cm_pcell1_2_2 in circuit cm_pcell1 (0)(2 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit cm_pcell1 (0)(4 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit cm_pcell1 (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit cm_pcell1 (0)(8 instances)
+Flattening unmatched subcell cm_pcell1_dummy_2 in circuit cm_pcell1 (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit cm_pcell1 (0)(8 instances)
+
+Class cm_pcell1 (0):  Merged 87 parallel devices.
+Subcircuit summary:
+Circuit 1: cm_pcell1                       |Circuit 2: cm_pcell1                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (96->9)       |sky130_fd_pr__pfet_g5v0d10v5 (96->9)       
+Number of devices: 9                       |Number of devices: 9                       
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: cm_pcell1                       |Circuit 2: cm_pcell1                       
+-------------------------------------------|-------------------------------------------
+G1                                         |G1                                         
+VDDA                                       |VDDA                                       
+io0                                        |io0                                        
+io1                                        |io1                                        
+ho2                                        |ho2                                        
+io2                                        |io2                                        
+ho3                                        |ho3                                        
+ho4                                        |ho4                                        
+ho0                                        |ho0                                        
+ho1                                        |ho1                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes cm_pcell1 and cm_pcell1 are equivalent.
+
+Final result: Circuits match uniquely.
+.

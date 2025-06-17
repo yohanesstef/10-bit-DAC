@@ -1,0 +1,15 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750060524
+<< mvpsubdiff >>
+rect -11 493 1493 553
+<< locali >>
+rect -11 506 1493 540
+<< metal1 >>
+rect -11 483 1493 563
+use cm_ncell_4  cm_ncell_4_0 ~/10-bit-DAC/mag
+timestamp 1750060524
+transform 1 0 19 0 1 71
+box -30 -16 1474 218
+<< end >>

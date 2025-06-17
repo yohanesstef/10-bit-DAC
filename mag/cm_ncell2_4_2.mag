@@ -1,0 +1,17 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750079478
+<< metal1 >>
+rect 280 26 444 146
+rect 1032 26 1196 146
+rect 656 -374 820 -254
+use cm_ncell2_4  cm_ncell2_4_0
+timestamp 1750060524
+transform 1 0 7 0 1 10
+box -21 -10 1483 674
+use cm_ncell2_4  cm_ncell2_4_1
+timestamp 1750060524
+transform 1 0 7 0 -1 -238
+box -21 -10 1483 674
+<< end >>

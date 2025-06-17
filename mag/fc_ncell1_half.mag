@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750017183
+use fc_ncell1_4  fc_ncell1_4_0
+timestamp 1750017183
+transform 1 0 1 0 1 0
+box -10 -92 1370 538
+use fc_ncell1_4  fc_ncell1_4_1
+timestamp 1750017183
+transform -1 0 39 0 1 0
+box -10 -92 1370 538
+<< end >>

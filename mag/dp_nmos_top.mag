@@ -1,0 +1,44 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750150351
+<< metal2 >>
+rect 1402 956 1841 1016
+rect 3130 956 3569 1016
+rect 4858 956 5297 1016
+rect 6586 956 7025 1016
+rect 8314 956 8721 1016
+rect 1809 650 2104 710
+rect 3537 650 3832 710
+rect 5265 650 5560 710
+rect 6993 650 7288 710
+rect 1809 530 2104 590
+rect 3537 530 3832 590
+rect 5265 530 5560 590
+rect 6993 530 7288 590
+rect 1402 136 1841 196
+rect 3130 136 3569 196
+rect 4858 136 5297 196
+rect 6586 136 7025 196
+rect 8314 136 8721 196
+use dp_nmos  dp_nmos_0
+timestamp 1750150351
+transform 1 0 20 0 1 709
+box -35 -713 1825 535
+use dp_nmos  dp_nmos_1
+timestamp 1750150351
+transform 1 0 1748 0 1 709
+box -35 -713 1825 535
+use dp_nmos  dp_nmos_2
+timestamp 1750150351
+transform 1 0 5204 0 1 709
+box -35 -713 1825 535
+use dp_nmos  dp_nmos_3
+timestamp 1750150351
+transform 1 0 3476 0 1 709
+box -35 -713 1825 535
+use dp_nmos  dp_nmos_5
+timestamp 1750150351
+transform 1 0 6932 0 1 709
+box -35 -713 1825 535
+<< end >>

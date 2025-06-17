@@ -1,0 +1,91 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+Flattening unmatched subcell fc_pcell in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell fc_pmos1 in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell fc_pmos1_2 in circuit opa_folded_cascode (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_X66K38 in circuit opa_folded_cascode (0)(4 instances)
+Flattening unmatched subcell fc_pmos2 in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell fc_pmos2_2 in circuit opa_folded_cascode (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_X66K38 in circuit opa_folded_cascode (0)(4 instances)
+Flattening unmatched subcell fc_ncell in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell fc_ncell2 in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell fc_ncell2_2 in circuit opa_folded_cascode (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG in circuit opa_folded_cascode (0)(4 instances)
+Flattening unmatched subcell fc_ncell1 in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell fc_ncell1_half in circuit opa_folded_cascode (0)(2 instances)
+Flattening unmatched subcell fc_ncell1_4 in circuit opa_folded_cascode (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_VZ2S5U in circuit opa_folded_cascode (0)(4 instances)
+Flattening unmatched subcell monticelli_top in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell monticelli_nmos in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell monticelli_nmos_2 in circuit opa_folded_cascode (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_YZ2SRG in circuit opa_folded_cascode (0)(4 instances)
+Flattening unmatched subcell monticelli_pmos in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell monticelli_pmos_2 in circuit opa_folded_cascode (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_X66K38 in circuit opa_folded_cascode (0)(4 instances)
+Flattening unmatched subcell opa_output_stage in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell out_pcell in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell out_pcell_2 in circuit opa_folded_cascode (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_VQXVZH in circuit opa_folded_cascode (0)(2 instances)
+Flattening unmatched subcell out_ncell in circuit opa_folded_cascode (0)(1 instance)
+Flattening unmatched subcell out_ncell_2 in circuit opa_folded_cascode (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_7VNVKF in circuit opa_folded_cascode (0)(2 instances)
+
+Class opa_folded_cascode (0):  Merged 29 parallel devices.
+Subcircuit summary:
+Circuit 1: opa_folded_cascode              |Circuit 2: opa_folded_cascode              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (16->7)       |sky130_fd_pr__pfet_g5v0d10v5 (14->7)       
+sky130_fd_pr__nfet_g5v0d10v5 (28->8)       |sky130_fd_pr__nfet_g5v0d10v5 (26->8)       
+Number of devices: 15                      |Number of devices: 15                      
+Number of nets: 15                         |Number of nets: 15                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: opa_folded_cascode              |Circuit 2: opa_folded_cascode              
+-------------------------------------------|-------------------------------------------
+GNDA                                       |GNDA                                       
+VDDA                                       |VDDA                                       
+I_ONB                                      |I_ONB                                      
+VB2                                        |VB2                                        
+I_ONA                                      |I_ONA                                      
+VBS1                                       |VBS1                                       
+VB1                                        |VB1                                        
+VBS2                                       |VBS2                                       
+I_OPB                                      |I_OPB                                      
+I_OPA                                      |I_OPA                                      
+VOUT                                       |VOUT                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes opa_folded_cascode and opa_folded_cascode are equivalent.
+
+Final result: Circuits match uniquely.
+.

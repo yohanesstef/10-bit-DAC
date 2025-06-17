@@ -1,0 +1,38 @@
+timestamp 1750150351
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use cross_pair cross_pair_0 -1 0 40873 0 -1 1943
+use cm_ncell3_2 cm_ncell3_2_1 -1 0 8751 0 1 58
+use cm_ncell3_2 cm_ncell3_2_0 -1 0 8751 0 -1 -62
+port "VTAIL1" 0 9105 -318 9165 -258 m1
+port "VTAIL2" 1 4585 116 4645 176 m1
+port "DRAIN" 2 64 248 124 308 m1
+port "GNDA" 3 -11 368 23 402 li
+node "VTAIL1" 0 0 9105 -318 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4759_28#" 0 0 4759 28 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_534_28#" 0 0 534 28 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VTAIL2" 0 0 4585 116 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DRAIN" 0 0 64 248 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "GNDA" 0 0 -11 368 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_ncell3_2_1/sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y_1/a_n2058_n91#" "cross_pair_0/m1_36114_1855#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cross_pair_0/m1_36114_1855#" "m1_4759_28#"
+merge "m1_4759_28#" "cm_ncell3_2_0/m1_7247_190#"
+merge "cm_ncell3_2_0/m1_7247_190#" "cm_ncell3_2_0/sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y_0/a_2000_n91#"
+merge "cm_ncell3_2_0/sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y_0/a_2000_n91#" "cm_ncell3_2_1/m1_7247_190#"
+merge "cm_ncell3_2_1/m1_7247_190#" "DRAIN"
+merge "cross_pair_0/VSUBS" "cm_ncell3_2_0/m1_n502_n60#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_ncell3_2_0/m1_n502_n60#" "cm_ncell3_2_0/li_n489_n60#"
+merge "cm_ncell3_2_0/li_n489_n60#" "cm_ncell3_2_0/a_n502_n60#"
+merge "cm_ncell3_2_0/a_n502_n60#" "cm_ncell3_2_1/m1_n502_n60#"
+merge "cm_ncell3_2_1/m1_n502_n60#" "cm_ncell3_2_1/li_n489_n60#"
+merge "cm_ncell3_2_1/li_n489_n60#" "cm_ncell3_2_1/a_n502_n60#"
+merge "cm_ncell3_2_1/a_n502_n60#" "GNDA"
+merge "cm_ncell3_2_0/sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y_1/a_2000_n91#" "cm_ncell3_2_1/sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y_1/a_2000_n91#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_ncell3_2_1/sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y_1/a_2000_n91#" "VTAIL2"
+merge "cm_ncell3_2_0/sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y_1/a_n2058_n91#" "cross_pair_0/m1_36114_1975#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cross_pair_0/m1_36114_1975#" "VTAIL1"
+merge "VTAIL1" "cm_ncell3_2_1/sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y_0/a_2000_n91#"
+merge "cm_ncell3_2_1/sky130_fd_pr__nfet_g5v0d10v5_QBWG6Y_0/a_2000_n91#" "m1_534_28#"

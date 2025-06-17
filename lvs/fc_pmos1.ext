@@ -1,0 +1,35 @@
+timestamp 1750150351
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use fc_pmos1_2 fc_pmos1_2_1 -1 0 1251 0 -1 -11
+use fc_pmos1_2 fc_pmos1_2_0 -1 0 1251 0 1 113
+use cross_pair cross_pair_0 -1 0 37104 0 -1 1996
+node "m1_990_n39#" 0 0 990 -39 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_337_n1027#" 0 0 337 -1027 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_989_81#" 0 0 989 81 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_249_n1027#" 0 0 249 -1027 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_1_n1290#" 0 0 1 -1290 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cross_pair_0/VSUBS" "fc_pmos1_2_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fc_pmos1_2_0/VSUBS" "fc_pmos1_2_1/VSUBS"
+merge "fc_pmos1_2_1/VSUBS" "VSUBS"
+merge "fc_pmos1_2_0/sky130_fd_pr__pfet_g5v0d10v5_X66K38_0/a_n158_n516#" "cross_pair_0/m1_36114_1855#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cross_pair_0/m1_36114_1855#" "m1_989_81#"
+merge "m1_989_81#" "fc_pmos1_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/a_100_n516#"
+merge "fc_pmos1_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/a_100_n516#" "m1_337_n1027#"
+merge "fc_pmos1_2_0/m1_n374_n62#" "fc_pmos1_2_0/li_n361_n62#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fc_pmos1_2_0/li_n361_n62#" "fc_pmos1_2_0/a_n374_n62#"
+merge "fc_pmos1_2_0/a_n374_n62#" "fc_pmos1_2_0/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/w_n194_n578#"
+merge "fc_pmos1_2_0/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/w_n194_n578#" "fc_pmos1_2_1/m1_n374_n62#"
+merge "fc_pmos1_2_1/m1_n374_n62#" "fc_pmos1_2_1/li_n361_n62#"
+merge "fc_pmos1_2_1/li_n361_n62#" "fc_pmos1_2_1/a_n374_n62#"
+merge "fc_pmos1_2_1/a_n374_n62#" "fc_pmos1_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/w_n194_n578#"
+merge "fc_pmos1_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/w_n194_n578#" "w_1_n1290#"
+merge "fc_pmos1_2_0/sky130_fd_pr__pfet_g5v0d10v5_X66K38_1/a_100_n516#" "cross_pair_0/m1_36114_1975#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cross_pair_0/m1_36114_1975#" "m1_249_n1027#"
+merge "m1_249_n1027#" "fc_pmos1_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_0/a_n158_n516#"
+merge "fc_pmos1_2_1/sky130_fd_pr__pfet_g5v0d10v5_X66K38_0/a_n158_n516#" "m1_990_n39#"
+merge "fc_pmos1_2_0/m1_n104_n62#" "fc_pmos1_2_1/m1_n104_n62#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
