@@ -1,0 +1,1049 @@
+timestamp 1750857537
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use buffer_bus buffer_bus_0 1 0 11354 0 1 4262
+port "DIN9" 9 12665 -4447 12725 -4387 m2
+port "DIN0" 0 18461 -4447 18521 -4387 m2
+port "DIN1" 1 17817 -4447 17877 -4387 m2
+port "DIN2" 2 17173 -4447 17233 -4387 m2
+port "DIN3" 3 16529 -4447 16589 -4387 m2
+port "DIN4" 4 15885 -4447 15945 -4387 m2
+port "DIN5" 5 15241 -4447 15301 -4387 m2
+port "DIN6" 6 14597 -4447 14657 -4387 m2
+port "DIN7" 7 13953 -4447 14013 -4387 m2
+port "DIN8" 8 13309 -4447 13369 -4387 m2
+port "GND" 31 12573 -4411 12633 -4351 m1
+port "VDD" 30 12584 -3903 12644 -3843 m1
+port "D[0]" 10 18814 -3807 18874 -3747 m2
+port "DB[0]" 20 18726 -3807 18786 -3747 m2
+port "D[1]" 11 18170 -3807 18230 -3747 m2
+port "DB[1]" 21 18082 -3807 18142 -3747 m2
+port "D[2]" 12 17526 -3807 17586 -3747 m2
+port "DB[2]" 22 17438 -3807 17498 -3747 m2
+port "D[3]" 13 16882 -3807 16942 -3747 m2
+port "DB[3]" 23 16794 -3807 16854 -3747 m2
+port "D[4]" 14 16238 -3807 16298 -3747 m2
+port "DB[4]" 24 16150 -3807 16210 -3747 m2
+port "D[5]" 15 15594 -3807 15654 -3747 m2
+port "DB[5]" 25 15506 -3807 15566 -3747 m2
+port "D[6]" 16 14950 -3807 15010 -3747 m2
+port "DB[6]" 26 14862 -3807 14922 -3747 m2
+port "D[7]" 17 14306 -3807 14366 -3747 m2
+port "DB[7]" 27 14218 -3807 14278 -3747 m2
+port "D[8]" 18 13662 -3807 13722 -3747 m2
+port "DB[8]" 28 13574 -3807 13634 -3747 m2
+port "D[9]" 19 13018 -3807 13078 -3747 m2
+port "DB[9]" 29 12930 -3807 12990 -3747 m2
+node "DIN9" 0 0 12665 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN0" 0 20.6134 18461 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN1" 0 18.1394 17817 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN2" 0 15.9516 17173 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN3" 0 18.1394 16529 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN4" 0 18.1394 15885 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN5" 0 18.0424 15241 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN6" 0 18.1394 14597 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN7" 0 18.1394 13953 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN8" 0 20.6134 13309 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "GND" 24 11843.3 12573 -4411 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3962600 40026 1755776 26348 0 0 0 0 0 0 0 0
+node "VDD" 23 6759.86 12584 -3903 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2993760 37742 982800 16608 0 0 0 0 0 0 0 0
+node "D[0]" 34 1104.78 18814 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 115200 4080 0 0 0 0 0 0 0 0
+node "DB[0]" 34 988.869 18726 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 115200 4080 0 0 0 0 0 0 0 0
+node "D[1]" 34 967.16 18170 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 115200 4080 0 0 0 0 0 0 0 0
+node "DB[1]" 34 978.557 18082 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 115200 4080 0 0 0 0 0 0 0 0
+node "D[2]" 34 1000.81 17526 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 115200 4080 0 0 0 0 0 0 0 0
+node "DB[2]" 34 999.812 17438 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 115200 4080 0 0 0 0 0 0 0 0
+node "D[3]" 34 996.003 16882 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 115200 4080 0 0 0 0 0 0 0 0
+node "DB[3]" 34 970.232 16794 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 115200 4080 0 0 0 0 0 0 0 0
+node "D[4]" 37 1061.48 16238 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 177240 6268 0 0 0 0 0 0 0 0
+node "DB[4]" 37 1018.86 16150 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 171960 6092 0 0 0 0 0 0 0 0
+node "D[5]" 36 1051.81 15594 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 166680 5916 0 0 0 0 0 0 0 0
+node "DB[5]" 36 998.114 15506 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865080 28956 161400 5740 0 0 0 0 0 0 0 0
+node "D[6]" 45 1804.47 14950 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1073760 35912 199768 7056 0 0 0 0 0 0 0 0
+node "DB[6]" 44 1308.46 14862 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1073400 35900 188856 6704 0 0 0 0 0 0 0 0
+node "D[7]" 43 1216.33 14306 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1073400 35900 147584 5220 0 0 0 0 0 0 0 0
+node "DB[7]" 43 1164.22 14218 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1073400 35900 141952 5044 0 0 0 0 0 0 0 0
+node "D[8]" 41 1172.13 13662 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1073400 35900 116520 4088 0 0 0 0 0 0 0 0
+node "DB[8]" 42 1171.22 13574 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1073400 35900 116168 4088 0 0 0 0 0 0 0 0
+node "D[9]" 42 1188.58 13018 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1073400 35900 115816 4088 0 0 0 0 0 0 0 0
+node "DB[9]" 42 4756.74 12930 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1073760 35912 115104 4076 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "DIN7" "D[4]" 0.0280041
+cap "DIN6" "DB[3]" 0.0317873
+cap "DB[2]" "D[3]" 8294.52
+cap "DB[9]" "D[8]" 70.4009
+cap "DB[7]" "D[0]" 113.368
+cap "DIN3" "DIN2" 4.65839
+cap "D[0]" "DIN5" 0.107935
+cap "DIN2" "DB[1]" 0.0582834
+cap "DIN3" "DB[4]" 0.0248577
+cap "D[4]" "D[3]" 89.5158
+cap "DIN6" "VDD" 0.482183
+cap "DB[4]" "DB[1]" 88.8516
+cap "DB[8]" "D[1]" 91.6454
+cap "DB[9]" "DB[2]" 94.1497
+cap "DB[3]" "GND" 166.107
+cap "DB[2]" "D[8]" 95.1364
+cap "DIN7" "D[1]" 0.070142
+cap "DB[9]" "D[4]" 135.844
+cap "D[4]" "D[8]" 140.167
+cap "VDD" "GND" 4836.01
+cap "DB[6]" "DB[1]" 102.729
+cap "DIN2" "D[2]" 0.0491928
+cap "DB[4]" "D[2]" 112.131
+cap "DB[8]" "D[7]" 113.836
+cap "D[9]" "D[5]" 144.901
+cap "D[1]" "D[3]" 84.7716
+cap "D[4]" "DB[2]" 87.6738
+cap "DB[0]" "DIN3" 0.0860151
+cap "DIN8" "D[5]" 0.0090847
+cap "DB[0]" "DB[1]" 94.7288
+cap "DB[1]" "D[6]" 270.555
+cap "DIN6" "DIN5" 4.65839
+cap "DIN0" "D[5]" 0.0090847
+cap "DB[5]" "DB[4]" 567.359
+cap "DB[6]" "D[2]" 95.7245
+cap "DB[9]" "D[1]" 89.6597
+cap "D[1]" "D[8]" 90.6244
+cap "D[7]" "D[3]" 78.5037
+cap "DB[7]" "GND" 235.344
+cap "DIN1" "D[3]" 0.0363915
+cap "GND" "DIN5" 66.9059
+cap "DIN4" "D[3]" 0.0363915
+cap "DB[0]" "D[2]" 92.0753
+cap "DB[2]" "D[1]" 143.192
+cap "D[2]" "D[6]" 93.5246
+cap "DB[6]" "DB[5]" 135.087
+cap "DIN3" "D[0]" 0.107935
+cap "DB[9]" "D[7]" 106.949
+cap "DB[1]" "D[0]" 131.604
+cap "D[7]" "D[8]" 303.055
+cap "D[4]" "D[1]" 84.372
+cap "DB[0]" "DB[5]" 90.2938
+cap "DB[5]" "D[6]" 8307.69
+cap "DB[2]" "D[7]" 90.8802
+cap "DIN1" "DB[2]" 0.0420723
+cap "DB[2]" "DIN4" 0.0420723
+cap "D[2]" "D[0]" 93.4472
+cap "D[9]" "DB[3]" 83.4773
+cap "D[4]" "D[7]" 136.115
+cap "DIN1" "D[4]" 0.0280041
+cap "D[4]" "DIN4" 0.0280041
+cap "DB[3]" "DIN8" 0.0317873
+cap "DB[3]" "D[5]" 85.4215
+cap "DB[8]" "DB[4]" 130.759
+cap "DIN0" "DB[3]" 0.0317873
+cap "D[9]" "VDD" 186.803
+cap "DB[5]" "D[0]" 92.5469
+cap "DIN6" "DB[1]" 0.0582834
+cap "DIN7" "DB[4]" 0.0248577
+cap "DIN8" "VDD" 0.482183
+cap "VDD" "D[5]" 227.149
+cap "DIN0" "VDD" 0.482183
+cap "D[7]" "D[1]" 86.2938
+cap "DB[6]" "DB[8]" 177.489
+cap "DIN3" "GND" 66.9059
+cap "DIN2" "D[3]" 0.0363915
+cap "GND" "DB[1]" 166.254
+cap "DIN1" "D[1]" 0.070142
+cap "D[1]" "DIN4" 0.070142
+cap "DIN6" "D[2]" 0.0491928
+cap "DB[4]" "D[3]" 133.721
+cap "D[9]" "DB[7]" 109.605
+cap "DB[0]" "DB[8]" 104.944
+cap "DB[8]" "D[6]" 165.604
+cap "DB[0]" "DIN7" 0.0860151
+cap "DB[7]" "D[5]" 140.045
+cap "DB[9]" "DB[4]" 125.428
+cap "DB[6]" "D[3]" 83.1437
+cap "DB[4]" "D[8]" 129.778
+cap "GND" "D[2]" 166.23
+cap "D[5]" "DIN5" 0.00878188
+cap "DIN2" "DB[2]" 0.0420723
+cap "DB[4]" "DB[2]" 206.742
+cap "DB[0]" "D[3]" 90.7372
+cap "D[6]" "D[3]" 81.0536
+cap "DB[6]" "DB[9]" 168.031
+cap "DB[5]" "GND" 161.854
+cap "DB[6]" "D[8]" 177.421
+cap "DIN2" "D[4]" 0.00466735
+cap "DB[4]" "D[4]" 9088.17
+cap "DB[8]" "D[0]" 98.6685
+cap "DIN7" "D[0]" 0.107935
+cap "DB[6]" "DB[2]" 95.4525
+cap "DB[3]" "VDD" 126.097
+cap "DB[0]" "D[8]" 277.065
+cap "D[8]" "D[6]" 165.009
+cap "DB[0]" "DB[9]" 98.6509
+cap "DB[9]" "D[6]" 157.903
+cap "DB[6]" "D[4]" 141.065
+cap "DB[0]" "DB[2]" 91.1511
+cap "DB[2]" "D[6]" 93.2924
+cap "D[0]" "D[3]" 92.8149
+cap "DIN2" "D[1]" 0.070142
+cap "DB[4]" "D[1]" 87.4974
+cap "DB[0]" "D[4]" 90.5584
+cap "D[4]" "D[6]" 139.403
+cap "DB[3]" "DB[7]" 78.2539
+cap "DB[9]" "D[0]" 96.6582
+cap "D[8]" "D[0]" 98.6721
+cap "D[9]" "DB[1]" 91.9227
+cap "DB[3]" "DIN5" 0.0307277
+cap "DIN7" "DIN6" 4.65839
+cap "DB[6]" "D[1]" 90.7631
+cap "DIN3" "D[5]" 0.0090847
+cap "DIN8" "DB[1]" 0.0582834
+cap "DB[1]" "D[5]" 88.6586
+cap "DB[4]" "D[7]" 125.903
+cap "DIN1" "DIN2" 4.65839
+cap "DB[2]" "D[0]" 93.0333
+cap "DB[7]" "VDD" 222.099
+cap "DIN0" "DB[1]" 0.0582834
+cap "DIN1" "DB[4]" 0.0248577
+cap "DB[4]" "DIN4" 0.0248577
+cap "DB[8]" "GND" 235.344
+cap "VDD" "DIN5" 0.482183
+cap "DIN7" "GND" 66.9059
+cap "DB[0]" "D[1]" 8262.87
+cap "D[1]" "D[6]" 101.643
+cap "D[9]" "D[2]" 96.4883
+cap "DIN6" "D[3]" 0.0363915
+cap "D[4]" "D[0]" 92.7316
+cap "DB[6]" "D[7]" 10320
+cap "DIN8" "D[2]" 0.0491928
+cap "D[2]" "D[5]" 97.146
+cap "DIN0" "D[2]" 0.0491928
+cap "DB[5]" "D[9]" 129.265
+cap "GND" "D[3]" 166.19
+cap "DB[0]" "D[7]" 84.7345
+cap "D[7]" "D[6]" 534.991
+cap "DIN1" "DB[0]" 0.0860151
+cap "DB[5]" "D[5]" 9106.45
+cap "DB[0]" "DIN4" 0.0860151
+cap "DIN6" "DB[2]" 0.0420723
+cap "D[1]" "D[0]" 97.0248
+cap "GND" "D[8]" 235.344
+cap "DB[9]" "GND" 211.964
+cap "DIN6" "D[4]" 0.0280041
+cap "DIN3" "DB[3]" 0.0317873
+cap "DB[2]" "GND" 166.208
+cap "DB[3]" "DB[1]" 89.2513
+cap "D[7]" "D[0]" 458.923
+cap "DIN1" "D[0]" 0.107935
+cap "D[0]" "DIN4" 0.107935
+cap "DIN2" "DB[4]" 0.00414296
+cap "D[4]" "GND" 173.339
+cap "DIN3" "VDD" 0.482183
+cap "VDD" "DB[1]" 126.829
+cap "DIN6" "D[1]" 0.070142
+cap "DB[3]" "D[2]" 205.357
+cap "D[9]" "DB[8]" 10337.4
+cap "DB[6]" "DB[4]" 131.256
+cap "VDD" "D[2]" 126.491
+cap "DB[8]" "D[5]" 144.942
+cap "GND" "D[1]" 166.295
+cap "DB[5]" "DB[3]" 77.2725
+cap "DIN7" "D[5]" 0.0090847
+cap "DIN7" "DIN8" 4.65839
+cap "DB[7]" "DB[1]" 86.5856
+cap "DB[0]" "DIN2" 0.0860151
+cap "DB[0]" "DB[4]" 90.3443
+cap "DB[4]" "D[6]" 130.359
+cap "DB[1]" "DIN5" 0.15496
+cap "D[9]" "D[3]" 83.7163
+cap "DB[5]" "VDD" 124.224
+cap "D[5]" "D[3]" 84.285
+cap "D[7]" "GND" 235.344
+cap "DIN8" "D[3]" 0.0363915
+cap "DIN1" "GND" 66.9059
+cap "DB[0]" "DB[6]" 89.1959
+cap "DB[6]" "D[6]" 11200.5
+cap "DB[7]" "D[2]" 91.1675
+cap "D[9]" "DB[9]" 11194.3
+cap "DIN0" "D[3]" 0.0363915
+cap "GND" "DIN4" 66.9059
+cap "D[9]" "D[8]" 162.846
+cap "D[2]" "DIN5" 0.047553
+cap "DIN2" "D[0]" 0.107935
+cap "DB[9]" "D[5]" 139.59
+cap "DB[4]" "D[0]" 92.5771
+cap "D[8]" "D[5]" 143.984
+cap "DB[0]" "D[6]" 90.2508
+cap "DB[5]" "DB[7]" 124.782
+cap "D[9]" "DB[2]" 96.1398
+cap "DB[2]" "D[5]" 162.266
+cap "DB[2]" "DIN8" 0.0420723
+cap "D[9]" "D[4]" 141.142
+cap "DIN0" "DB[2]" 0.0420723
+cap "DB[6]" "D[0]" 251.467
+cap "DB[8]" "DB[3]" 83.4916
+cap "D[4]" "DIN8" 0.0280041
+cap "D[4]" "D[5]" 287.244
+cap "DIN7" "DB[3]" 0.0317873
+cap "DIN0" "D[4]" 0.0280041
+cap "DB[0]" "D[0]" 8383.61
+cap "D[0]" "D[6]" 92.5145
+cap "DB[8]" "VDD" 235.716
+cap "DIN3" "DB[1]" 0.0582834
+cap "DIN6" "DB[4]" 0.0248577
+cap "DIN7" "VDD" 0.482183
+cap "D[9]" "D[1]" 91.6442
+cap "DB[3]" "D[3]" 9274.37
+cap "D[1]" "D[5]" 83.9648
+cap "DIN8" "D[1]" 0.070142
+cap "DIN2" "GND" 66.9059
+cap "DIN0" "D[1]" 0.070142
+cap "DIN3" "D[2]" 0.0491928
+cap "DB[4]" "GND" 356.633
+cap "D[2]" "DB[1]" 8276.79
+cap "VDD" "D[3]" 126.178
+cap "DB[3]" "D[8]" 82.4886
+cap "DB[9]" "DB[3]" 81.483
+cap "DB[8]" "DB[7]" 249.847
+cap "D[9]" "D[7]" 112.881
+cap "D[7]" "D[5]" 140.459
+cap "DB[0]" "DIN6" 0.0860151
+cap "DB[2]" "DB[3]" 93.7062
+cap "DB[6]" "GND" 235.344
+cap "DB[9]" "VDD" 203.508
+cap "DB[5]" "DB[1]" 80.7505
+cap "VDD" "D[8]" 189.659
+cap "DIN1" "D[5]" 0.0090847
+cap "D[5]" "DIN4" 0.0090847
+cap "DIN1" "DIN0" 4.65839
+cap "D[4]" "DB[3]" 8275.73
+cap "DB[7]" "D[3]" 78.4484
+cap "DB[0]" "GND" 166.345
+cap "DB[2]" "VDD" 126.298
+cap "GND" "D[6]" 713.385
+cap "DIN5" "D[3]" 0.0351785
+cap "DB[5]" "D[2]" 89.1679
+cap "D[4]" "VDD" 137.56
+cap "DIN6" "D[0]" 0.107935
+cap "DB[7]" "D[8]" 10243.1
+cap "DB[9]" "DB[7]" 103.146
+cap "DB[3]" "D[1]" 84.3578
+cap "DB[2]" "DB[7]" 90.841
+cap "GND" "D[0]" 177.739
+cap "DB[2]" "DIN5" 0.0406698
+cap "VDD" "D[1]" 127.503
+cap "D[4]" "DB[7]" 135.986
+cap "D[4]" "DIN5" 0.0270706
+cap "DB[3]" "D[7]" 78.3359
+cap "DB[8]" "DB[1]" 91.928
+cap "D[9]" "DB[4]" 130.732
+cap "DIN1" "DB[3]" 0.0317873
+cap "DB[3]" "DIN4" 0.0317873
+cap "DIN7" "DB[1]" 0.0582834
+cap "DIN2" "D[5]" 0.00151412
+cap "DB[4]" "DIN8" 0.0248577
+cap "DB[4]" "D[5]" 8346.69
+cap "D[7]" "VDD" 249.994
+cap "DIN0" "DB[4]" 0.0248577
+cap "DIN1" "VDD" 0.482183
+cap "VDD" "DIN4" 0.482183
+cap "DB[7]" "D[1]" 86.2831
+cap "DB[6]" "D[9]" 177.061
+cap "DIN6" "GND" 66.9059
+cap "DB[8]" "D[2]" 96.4948
+cap "DIN3" "D[3]" 0.0363915
+cap "DB[1]" "D[3]" 90.1755
+cap "D[1]" "DIN5" 0.070142
+cap "DIN7" "D[2]" 0.0491928
+cap "DB[6]" "D[5]" 183.633
+cap "DB[0]" "D[9]" 101.165
+cap "D[9]" "D[6]" 165.378
+cap "DB[5]" "DB[8]" 129.329
+cap "DB[7]" "D[7]" 11039.9
+cap "DB[1]" "D[8]" 90.912
+cap "DB[9]" "DB[1]" 89.9349
+cap "DB[0]" "DIN8" 0.0860151
+cap "DB[0]" "D[5]" 90.3525
+cap "D[5]" "D[6]" 153.177
+cap "D[2]" "D[3]" 94.7288
+cap "DIN0" "DB[0]" 0.0860151
+cap "DIN3" "DB[2]" 0.0420723
+cap "DIN5" "DIN4" 4.65839
+cap "DB[2]" "DB[1]" 92.8289
+cap "D[2]" "D[8]" 95.4806
+cap "DB[9]" "D[2]" 94.4995
+cap "DIN3" "D[4]" 0.0280041
+cap "DB[5]" "D[3]" 76.9016
+cap "D[9]" "D[0]" 98.6656
+cap "D[4]" "DB[1]" 89.1792
+cap "DIN2" "DB[3]" 1.83546
+cap "DIN8" "D[0]" 0.107935
+cap "DB[2]" "D[2]" 8641.31
+cap "DB[4]" "DB[3]" 85.012
+cap "D[0]" "D[5]" 92.5899
+cap "DB[5]" "DB[9]" 123.94
+cap "DIN0" "D[0]" 0.107935
+cap "DB[5]" "D[8]" 128.416
+cap "DIN2" "VDD" 0.482183
+cap "D[4]" "D[2]" 208.296
+cap "DB[4]" "VDD" 125.44
+cap "DB[6]" "DB[3]" 83.0868
+cap "DIN3" "D[1]" 0.070142
+cap "D[1]" "DB[1]" 8836.16
+cap "DB[5]" "DB[2]" 97.8266
+cap "DB[5]" "D[4]" 378.52
+cap "DB[0]" "DB[3]" 90.5188
+cap "DB[3]" "D[6]" 81.1313
+cap "DB[6]" "VDD" 298.312
+cap "DIN6" "D[5]" 0.0090847
+cap "D[2]" "D[1]" 88.3493
+cap "D[7]" "DB[1]" 86.6072
+cap "DB[4]" "DB[7]" 125.685
+cap "DIN1" "DB[1]" 0.0582834
+cap "DIN3" "DIN4" 4.65839
+cap "DB[0]" "VDD" 129.145
+cap "DB[1]" "DIN4" 0.0582834
+cap "DB[4]" "DIN5" 0.0240292
+cap "VDD" "D[6]" 374.433
+cap "DB[8]" "D[3]" 83.7271
+cap "D[9]" "GND" 235.344
+cap "DIN7" "D[3]" 0.0363915
+cap "DIN8" "GND" 67.9377
+cap "GND" "D[5]" 167.608
+cap "DB[5]" "D[1]" 386.908
+cap "DB[6]" "DB[7]" 653.111
+cap "DIN0" "GND" 67.9377
+cap "D[7]" "D[2]" 91.1961
+cap "DB[3]" "D[0]" 92.6862
+cap "DB[8]" "D[8]" 11096.5
+cap "DB[8]" "DB[9]" 110.643
+cap "DIN1" "D[2]" 0.0491928
+cap "D[2]" "DIN4" 0.0491928
+cap "DB[0]" "DB[7]" 455.176
+cap "DB[7]" "D[6]" 268.141
+cap "VDD" "D[0]" 6359.54
+cap "DB[8]" "DB[2]" 96.1481
+cap "DB[0]" "DIN5" 0.0860151
+cap "DB[5]" "D[7]" 125.706
+cap "DIN7" "DB[2]" 0.0420723
+cap "DB[8]" "D[4]" 141.162
+cap "DB[9]" "D[3]" 81.7245
+cap "D[8]" "D[3]" 82.7189
+cap "buffer_bus_0/buffer_cell_0/VDD" "DB[1]" 2.05834
+cap "buffer_bus_0/buffer_cell_1/IN" "buffer_bus_0/buffer_cell_0/VDD" 1.24792
+cap "buffer_bus_0/buffer_cell_1/OUTB" "buffer_bus_0/buffer_cell_0/GND" 2.74176
+cap "buffer_bus_0/buffer_cell_1/IN" "buffer_bus_0/buffer_cell_2/OUTB" 0.0383836
+cap "DIN9" "DB[1]" 0.39809
+cap "buffer_bus_0/buffer_cell_0/VDD" "DB[2]" 1.0693
+cap "DIN9" "DB[2]" 0.251304
+cap "buffer_bus_0/buffer_cell_0/OUTB" "D[3]" 0.148168
+cap "buffer_bus_0/buffer_cell_1/IN" "DB[3]" 0.140784
+cap "buffer_bus_0/buffer_cell_1/OUTB" "D[4]" 0.104303
+cap "buffer_bus_0/buffer_cell_0/OUTB" "buffer_bus_0/buffer_cell_2/OUT" 0.0596183
+cap "buffer_bus_0/buffer_cell_1/IN" "buffer_bus_0/buffer_cell_3/OUT" 0.0199183
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_0/VDD" 0.236517
+cap "buffer_bus_0/buffer_cell_1/IN" "D[0]" 0.898094
+cap "buffer_bus_0/buffer_cell_1/OUTB" "DB[0]" 0.525311
+cap "DIN9" "buffer_bus_0/buffer_cell_0/VDD" 3.22741
+cap "buffer_bus_0/buffer_cell_0/OUTB" "buffer_bus_0/buffer_cell_0/GND" 2.74176
+cap "DIN9" "buffer_bus_0/buffer_cell_2/OUTB" 0.0383836
+cap "buffer_bus_0/buffer_cell_1/IN" "buffer_bus_0/buffer_cell_3/OUTB" 0.0177451
+cap "buffer_bus_0/buffer_cell_0/VDD" "DB[3]" 0.651845
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_3/OUT" 0.207993
+cap "DIN9" "DB[3]" 0.172571
+cap "buffer_bus_0/buffer_cell_0/OUTB" "D[4]" 0.104303
+cap "buffer_bus_0/buffer_cell_1/IN" "DB[4]" 0.100855
+cap "buffer_bus_0/buffer_cell_1/OUTB" "D[5]" 0.0773432
+cap "buffer_bus_0/buffer_cell_0/VDD" "D[0]" 10.8076
+cap "DIN9" "buffer_bus_0/buffer_cell_3/OUT" 0.0199183
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_0/VDD" 0.18433
+cap "buffer_bus_0/buffer_cell_1/OUTB" "buffer_bus_0/buffer_cell_0/OUT" -7.10543e-15
+cap "buffer_bus_0/buffer_cell_1/IN" "buffer_bus_0/buffer_cell_1/OUT" 0.00191614
+cap "DIN9" "D[0]" 1.00603
+cap "buffer_bus_0/buffer_cell_0/OUTB" "DB[0]" 0.525311
+cap "buffer_bus_0/buffer_cell_1/IN" "D[1]" 0.452911
+cap "buffer_bus_0/buffer_cell_1/OUTB" "DB[1]" 0.290155
+cap "DIN9" "buffer_bus_0/buffer_cell_3/OUTB" 0.0177451
+cap "buffer_bus_0/buffer_cell_0/VDD" "DB[4]" 0.438105
+cap "buffer_bus_0/buffer_cell_1/IN" "D[2]" 0.263144
+cap "buffer_bus_0/buffer_cell_1/OUTB" "DB[2]" 0.181162
+cap "DIN9" "DB[4]" 0.125713
+cap "buffer_bus_0/buffer_cell_0/OUTB" "D[5]" 0.0773432
+cap "buffer_bus_0/buffer_cell_1/IN" "DB[5]" 0.0956234
+cap "buffer_bus_0/buffer_cell_1/OUT" "buffer_bus_0/buffer_cell_0/VDD" -10.7643
+cap "buffer_bus_0/buffer_cell_0/VDD" "D[1]" 3.1521
+cap "buffer_bus_0/buffer_cell_1/OUTB" "buffer_bus_0/buffer_cell_0/VDD" -9.64569
+cap "DIN9" "buffer_bus_0/buffer_cell_1/OUT" 0.00191614
+cap "buffer_bus_0/buffer_cell_0/OUTB" "buffer_bus_0/buffer_cell_0/OUT" 0.525364
+cap "buffer_bus_0/buffer_cell_1/OUTB" "buffer_bus_0/buffer_cell_2/OUTB" 0.0292989
+cap "DIN9" "D[1]" 0.523053
+cap "buffer_bus_0/buffer_cell_0/OUTB" "DB[1]" 0.290155
+cap "buffer_bus_0/buffer_cell_0/VDD" "D[2]" 1.44548
+cap "DIN9" "D[2]" 0.312337
+cap "buffer_bus_0/buffer_cell_0/OUTB" "DB[2]" 0.181162
+cap "buffer_bus_0/buffer_cell_1/IN" "D[3]" 0.170059
+cap "buffer_bus_0/buffer_cell_1/OUTB" "DB[3]" 0.123378
+cap "buffer_bus_0/buffer_cell_0/VDD" "DB[5]" 0.314413
+cap "buffer_bus_0/buffer_cell_0/OUT" "buffer_bus_0/buffer_cell_0/GND" 0.575642
+cap "DIN9" "DB[5]" 0.0956234
+cap "buffer_bus_0/buffer_cell_1/IN" "buffer_bus_0/buffer_cell_2/OUT" 0.0844761
+cap "buffer_bus_0/buffer_cell_1/OUTB" "buffer_bus_0/buffer_cell_3/OUT" 0.0199183
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_1/OUT" 1.77636e-15
+cap "buffer_bus_0/buffer_cell_1/OUTB" "D[0]" 0.74293
+cap "buffer_bus_0/buffer_cell_0/OUTB" "buffer_bus_0/buffer_cell_0/VDD" -5.90184
+cap "buffer_bus_0/buffer_cell_1/IN" "buffer_bus_0/buffer_cell_0/GND" -53.6337
+cap "buffer_bus_0/buffer_cell_0/OUTB" "buffer_bus_0/buffer_cell_2/OUTB" 0.0292989
+cap "buffer_bus_0/buffer_cell_1/OUTB" "buffer_bus_0/buffer_cell_3/OUTB" 0.0177451
+cap "buffer_bus_0/buffer_cell_0/VDD" "D[3]" 0.822398
+cap "DIN9" "D[3]" 0.206451
+cap "buffer_bus_0/buffer_cell_0/OUTB" "DB[3]" 0.123378
+cap "buffer_bus_0/buffer_cell_1/IN" "D[4]" 0.118372
+cap "buffer_bus_0/buffer_cell_1/OUTB" "DB[4]" 0.089321
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_2/OUT" 0.271327
+cap "buffer_bus_0/buffer_cell_0/GND" "buffer_bus_0/buffer_cell_0/VDD" -97.3904
+cap "DIN9" "buffer_bus_0/buffer_cell_2/OUT" 0.0844761
+cap "buffer_bus_0/buffer_cell_0/OUTB" "buffer_bus_0/buffer_cell_3/OUT" 0.0199183
+cap "buffer_bus_0/buffer_cell_1/OUTB" "buffer_bus_0/buffer_cell_1/OUT" 0.52728
+cap "buffer_bus_0/buffer_cell_0/OUTB" "D[0]" 0.74293
+cap "buffer_bus_0/buffer_cell_1/IN" "DB[0]" 0.626133
+cap "buffer_bus_0/buffer_cell_1/OUTB" "D[1]" 0.383652
+cap "buffer_bus_0/buffer_cell_1/IN" "buffer_bus_0/buffer_cell_3/IN" -2.32919
+cap "buffer_bus_0/buffer_cell_0/OUTB" "buffer_bus_0/buffer_cell_3/OUTB" 0.0177451
+cap "DIN9" "buffer_bus_0/buffer_cell_0/GND" 41.4138
+cap "buffer_bus_0/buffer_cell_0/VDD" "D[4]" 0.529201
+cap "buffer_bus_0/buffer_cell_1/OUTB" "D[2]" 0.226322
+cap "DIN9" "D[4]" 0.146376
+cap "buffer_bus_0/buffer_cell_0/OUTB" "DB[4]" 0.089321
+cap "buffer_bus_0/buffer_cell_1/IN" "D[5]" 0.100046
+cap "buffer_bus_0/buffer_cell_1/OUTB" "DB[5]" 0.0676193
+cap "buffer_bus_0/buffer_cell_0/VDD" "DB[0]" 5.37312
+cap "buffer_bus_0/buffer_cell_0/OUTB" "buffer_bus_0/buffer_cell_1/OUT" 0.00191614
+cap "DIN9" "DB[0]" 0.712148
+cap "buffer_bus_0/buffer_cell_0/OUTB" "D[1]" 0.383652
+cap "buffer_bus_0/buffer_cell_1/IN" "DB[1]" 0.339807
+cap "buffer_bus_0/buffer_cell_0/OUTB" "D[2]" 0.226322
+cap "buffer_bus_0/buffer_cell_1/IN" "DB[2]" 0.209232
+cap "buffer_bus_0/buffer_cell_1/OUTB" "D[3]" 0.148168
+cap "buffer_bus_0/buffer_cell_0/VDD" "D[5]" 0.368615
+cap "buffer_bus_0/buffer_cell_1/OUT" "buffer_bus_0/buffer_cell_0/GND" 0.575642
+cap "DIN9" "D[5]" 0.109131
+cap "buffer_bus_0/buffer_cell_0/OUTB" "DB[5]" 0.0676193
+cap "buffer_bus_0/buffer_cell_1/OUTB" "buffer_bus_0/buffer_cell_2/OUT" 0.0596183
+cap "buffer_bus_0/buffer_cell_0/OUT" "buffer_bus_0/buffer_cell_0/VDD" -10.8888
+cap "buffer_bus_0/buffer_cell_0/VDD" "DB[1]" 2.53978
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_7/OUT" 0.104303
+cap "buffer_bus_0/buffer_cell_2/IN" "buffer_bus_0/buffer_cell_6/OUT" 0.100046
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_2/OUT" 0.570469
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_3/OUTB" -9.42254
+cap "buffer_bus_0/buffer_cell_0/GND" "buffer_bus_0/buffer_cell_2/IN" -52.602
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_7/OUTB" 0.089321
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_6/OUTB" 0.0676193
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_6/OUT" 0.454832
+cap "buffer_bus_0/buffer_cell_0/GND" "buffer_bus_0/buffer_cell_0/VDD" -123.695
+cap "buffer_bus_0/buffer_cell_3/IN" "DB[1]" 0.339807
+cap "buffer_bus_0/buffer_cell_3/OUTB" "D[2]" 0.226322
+cap "buffer_bus_0/buffer_cell_2/IN" "DB[2]" 0.209232
+cap "buffer_bus_0/buffer_cell_2/OUTB" "D[3]" 0.148168
+cap "buffer_bus_0/buffer_cell_3/IN" "buffer_bus_0/buffer_cell_3/OUTB" 0.0177451
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_2/OUT" 0.0596183
+cap "buffer_bus_0/buffer_cell_2/IN" "buffer_bus_0/buffer_cell_3/OUT" 0.0199183
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_1/OUT" 0.00191614
+cap "D[0]" "buffer_bus_0/buffer_cell_2/IN" 0.898094
+cap "DB[0]" "buffer_bus_0/buffer_cell_2/OUTB" 0.525311
+cap "buffer_bus_0/buffer_cell_3/IN" "buffer_bus_0/buffer_cell_6/OUT" 0.100046
+cap "buffer_bus_0/buffer_cell_0/VDD" "DB[2]" 1.3194
+cap "buffer_bus_0/buffer_cell_2/IN" "buffer_bus_0/buffer_cell_6/IN" -2.32919
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_6/OUTB" 0.0676193
+cap "buffer_bus_0/buffer_cell_0/GND" "buffer_bus_0/buffer_cell_3/IN" -52.602
+cap "buffer_bus_0/buffer_cell_0/GND" "buffer_bus_0/buffer_cell_2/OUT" 0.575642
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_3/OUT" -10.6425
+cap "buffer_bus_0/buffer_cell_0/VDD" "D[0]" 16.8413
+cap "buffer_bus_0/buffer_cell_3/OUTB" "D[3]" 0.148168
+cap "buffer_bus_0/buffer_cell_2/IN" "DB[3]" 0.140784
+cap "buffer_bus_0/buffer_cell_3/IN" "DB[2]" 0.209232
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_1/OUT" 0.00191614
+cap "DB[0]" "buffer_bus_0/buffer_cell_3/OUTB" 3.6767
+cap "D[1]" "buffer_bus_0/buffer_cell_2/IN" 0.452911
+cap "DB[1]" "buffer_bus_0/buffer_cell_2/OUTB" 0.290155
+cap "buffer_bus_0/buffer_cell_3/IN" "buffer_bus_0/buffer_cell_3/OUT" 0.0199183
+cap "buffer_bus_0/buffer_cell_0/VDD" "DB[3]" 0.804307
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_2/OUTB" 0.0470439
+cap "buffer_bus_0/buffer_cell_3/IN" "D[0]" 0.898094
+cap "buffer_bus_0/buffer_cell_0/VDD" "D[1]" 3.88935
+cap "buffer_bus_0/buffer_cell_2/IN" "buffer_bus_0/buffer_cell_7/OUT" 0.118372
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_6/OUT" 0.0773432
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_2/IN" 1.24792
+cap "buffer_bus_0/buffer_cell_0/GND" "buffer_bus_0/buffer_cell_2/OUTB" 2.74176
+cap "buffer_bus_0/buffer_cell_3/IN" "DB[3]" 0.140784
+cap "buffer_bus_0/buffer_cell_2/IN" "buffer_bus_0/buffer_cell_7/OUTB" 0.100855
+cap "DB[1]" "buffer_bus_0/buffer_cell_3/OUTB" 0.290155
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_7/OUT" 0.652978
+cap "buffer_bus_0/buffer_cell_3/IN" "D[1]" 0.452911
+cap "buffer_bus_0/buffer_cell_2/IN" "D[2]" 0.263144
+cap "buffer_bus_0/buffer_cell_2/OUTB" "DB[2]" 0.181162
+cap "buffer_bus_0/buffer_cell_3/IN" "buffer_bus_0/buffer_cell_2/IN" -4.65839
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_7/OUTB" 0.540575
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_6/OUT" 0.0773432
+cap "buffer_bus_0/buffer_cell_2/IN" "buffer_bus_0/buffer_cell_2/OUT" 0.0844761
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_3/OUT" 0.0199183
+cap "buffer_bus_0/buffer_cell_0/GND" "buffer_bus_0/buffer_cell_3/OUTB" 2.74176
+cap "D[0]" "buffer_bus_0/buffer_cell_2/OUTB" 0.74293
+cap "buffer_bus_0/buffer_cell_3/IN" "buffer_bus_0/buffer_cell_7/OUT" 0.118372
+cap "buffer_bus_0/buffer_cell_0/VDD" "D[2]" 1.78357
+cap "buffer_bus_0/buffer_cell_2/IN" "buffer_bus_0/buffer_cell_6/OUTB" 0.0956234
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_3/IN" 1.24792
+cap "buffer_bus_0/buffer_cell_3/IN" "buffer_bus_0/buffer_cell_7/OUTB" 0.100855
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_2/OUT" -10.5788
+cap "buffer_bus_0/buffer_cell_3/OUTB" "DB[2]" 0.181162
+cap "buffer_bus_0/buffer_cell_2/IN" "D[3]" 0.170059
+cap "buffer_bus_0/buffer_cell_2/OUTB" "DB[3]" 0.123378
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_6/OUTB" 0.387952
+cap "buffer_bus_0/buffer_cell_3/IN" "D[2]" 0.263144
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_3/OUT" 0.541566
+cap "buffer_bus_0/buffer_cell_2/IN" "buffer_bus_0/buffer_cell_1/OUT" 0.00191614
+cap "D[0]" "buffer_bus_0/buffer_cell_3/OUTB" 0.74293
+cap "DB[0]" "buffer_bus_0/buffer_cell_2/IN" 0.626133
+cap "D[1]" "buffer_bus_0/buffer_cell_2/OUTB" 0.383652
+cap "buffer_bus_0/buffer_cell_3/IN" "buffer_bus_0/buffer_cell_2/OUT" 0.0844761
+cap "buffer_bus_0/buffer_cell_0/VDD" "D[3]" 1.01475
+cap "buffer_bus_0/buffer_cell_2/IN" "buffer_bus_0/buffer_cell_2/OUTB" 0.0383836
+cap "buffer_bus_0/buffer_cell_3/IN" "buffer_bus_0/buffer_cell_6/OUTB" 0.0956234
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_1/OUT" 0.153639
+cap "buffer_bus_0/buffer_cell_0/GND" "buffer_bus_0/buffer_cell_3/OUT" 0.575642
+cap "buffer_bus_0/buffer_cell_0/GND" "D[0]" 0.455324
+cap "buffer_bus_0/buffer_cell_0/VDD" "DB[0]" 7.04496
+cap "buffer_bus_0/buffer_cell_6/OUTB" "buffer_bus_0/buffer_cell_2/OUT" -3.55271e-15
+cap "buffer_bus_0/buffer_cell_3/OUTB" "DB[3]" 0.123378
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_7/OUT" 0.104303
+cap "buffer_bus_0/buffer_cell_0/VDD" "buffer_bus_0/buffer_cell_2/OUTB" -9.37091
+cap "buffer_bus_0/buffer_cell_3/IN" "D[3]" 0.170059
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_7/OUTB" 0.089321
+cap "buffer_bus_0/buffer_cell_1/IN" "buffer_bus_0/buffer_cell_3/IN" -2.32919
+cap "D[1]" "buffer_bus_0/buffer_cell_3/OUTB" 0.383652
+cap "DB[1]" "buffer_bus_0/buffer_cell_2/IN" 0.339807
+cap "buffer_bus_0/buffer_cell_3/IN" "buffer_bus_0/buffer_cell_1/OUT" 0.00191614
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_2/IN" 0.0177451
+cap "buffer_bus_0/buffer_cell_3/IN" "DB[0]" 1.01107
+cap "buffer_bus_0/buffer_cell_2/OUTB" "D[2]" 0.226322
+cap "buffer_bus_0/buffer_cell_3/IN" "buffer_bus_0/buffer_cell_2/OUTB" 0.0383836
+cap "buffer_bus_0/buffer_cell_4/OUTB" "buffer_bus_0/buffer_cell_1/x2/VPB" 1.46818
+cap "buffer_bus_0/buffer_cell_6/IN" "buffer_bus_0/buffer_cell_7/OUTB" 0.10047
+cap "buffer_bus_0/buffer_cell_6/OUTB" "buffer_bus_0/buffer_cell_7/IN" 0.0956234
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_5/IN" 0.00780481
+cap "D[0]" "buffer_bus_0/buffer_cell_6/OUTB" 0.74293
+cap "DB[0]" "buffer_bus_0/buffer_cell_7/IN" 0.626133
+cap "D[1]" "buffer_bus_0/buffer_cell_7/OUTB" 0.383652
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.0587799
+cap "buffer_bus_0/buffer_cell_1/x2/VPB" "buffer_bus_0/buffer_cell_7/IN" 1.24792
+cap "buffer_bus_0/buffer_cell_1/x2/VNB" "buffer_bus_0/buffer_cell_7/OUTB" 2.74176
+cap "D[0]" "buffer_bus_0/buffer_cell_1/x2/VPB" 13.169
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_6/IN" 0.0992891
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_6/OUTB" 0.0596183
+cap "buffer_bus_0/buffer_cell_3/OUT" "buffer_bus_0/buffer_cell_7/IN" 0.0199183
+cap "buffer_bus_0/buffer_cell_1/OUT" "buffer_bus_0/buffer_cell_7/OUTB" 0.00191614
+cap "buffer_bus_0/buffer_cell_10/OUTB" "buffer_bus_0/buffer_cell_5/IN" 0.0750637
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_1/x2/VNB" 0.575642
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_6/OUTB" 0.123378
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_1/x2/VPB" 0.330608
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_1/x2/VPB" 0.794265
+cap "buffer_bus_0/buffer_cell_6/IN" "buffer_bus_0/buffer_cell_6/OUTB" 0.0946899
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_7/IN" 0.0383836
+cap "DB[0]" "buffer_bus_0/buffer_cell_6/IN" 0.626133
+cap "D[1]" "buffer_bus_0/buffer_cell_6/OUTB" 1.45478
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_7/IN" 0.263144
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_7/OUTB" 0.148168
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.0270255
+cap "buffer_bus_0/buffer_cell_1/x2/VPB" "buffer_bus_0/buffer_cell_6/IN" 1.24792
+cap "buffer_bus_0/buffer_cell_1/x2/VNB" "buffer_bus_0/buffer_cell_6/OUTB" 2.74176
+cap "D[1]" "buffer_bus_0/buffer_cell_1/x2/VPB" 4.7691
+cap "buffer_bus_0/buffer_cell_3/OUT" "buffer_bus_0/buffer_cell_6/IN" 0.0199183
+cap "buffer_bus_0/buffer_cell_1/OUT" "buffer_bus_0/buffer_cell_6/OUTB" 0.00191614
+cap "buffer_bus_0/buffer_cell_10/OUTB" "buffer_bus_0/buffer_cell_7/IN" 0.339807
+cap "buffer_bus_0/buffer_cell_4/OUTB" "buffer_bus_0/buffer_cell_5/IN" 0.0471317
+cap "buffer_bus_0/buffer_cell_1/x2/VNB" "buffer_bus_0/buffer_cell_1/x2/VPB" -123.695
+cap "buffer_bus_0/buffer_cell_1/OUT" "buffer_bus_0/buffer_cell_1/x2/VPB" 0.151721
+cap "buffer_bus_0/buffer_cell_7/IN" "buffer_bus_0/buffer_cell_5/IN" -4.65839
+cap "D[0]" "buffer_bus_0/buffer_cell_5/IN" 0.192145
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_6/IN" 0.0380807
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_7/IN" 0.0177451
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_6/IN" 0.261917
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_6/OUTB" 0.148168
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_7/IN" 0.118372
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_7/OUTB" 0.0773432
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.026356
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_1/x2/VNB" 0.202347
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_1/x2/VPB" 1.00208
+cap "buffer_bus_0/buffer_cell_10/OUTB" "buffer_bus_0/buffer_cell_6/IN" 0.378971
+cap "buffer_bus_0/buffer_cell_4/OUTB" "buffer_bus_0/buffer_cell_7/IN" 0.386376
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_5/IN" 0.0320466
+cap "buffer_bus_0/buffer_cell_10/OUTB" "buffer_bus_0/buffer_cell_1/x2/VNB" 0.113348
+cap "buffer_bus_0/buffer_cell_6/OUTB" "buffer_bus_0/buffer_cell_7/OUTB" 0.15694
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_7/OUT" 1.42109e-14
+cap "D[0]" "buffer_bus_0/buffer_cell_7/IN" 0.898094
+cap "DB[0]" "buffer_bus_0/buffer_cell_7/OUTB" 0.525311
+cap "D[1]" "buffer_bus_0/buffer_cell_5/IN" 0.0986797
+cap "buffer_bus_0/buffer_cell_1/x2/VPB" "buffer_bus_0/buffer_cell_7/OUTB" -9.16736
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_6/IN" 0.0177451
+cap "buffer_bus_0/buffer_cell_1/x2/VNB" "buffer_bus_0/buffer_cell_5/IN" -29.1294
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_6/IN" 0.117903
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_6/OUTB" 0.564927
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_7/IN" 0.0844761
+cap "buffer_bus_0/buffer_cell_3/OUT" "buffer_bus_0/buffer_cell_7/OUTB" 0.0199183
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_1/x2/VNB" 0.575642
+cap "buffer_bus_0/buffer_cell_4/OUTB" "buffer_bus_0/buffer_cell_6/IN" 0.208296
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_7/IN" 0.140784
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_1/x2/VPB" -10.4833
+cap "buffer_bus_0/buffer_cell_6/IN" "buffer_bus_0/buffer_cell_7/IN" -4.65839
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_7/OUTB" 0.0292989
+cap "D[0]" "buffer_bus_0/buffer_cell_6/IN" 0.898094
+cap "DB[0]" "buffer_bus_0/buffer_cell_6/OUTB" 0.525311
+cap "D[1]" "buffer_bus_0/buffer_cell_7/IN" 0.452911
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_7/OUTB" 0.226322
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.0385429
+cap "buffer_bus_0/buffer_cell_1/x2/VPB" "buffer_bus_0/buffer_cell_6/OUTB" -9.2961
+cap "buffer_bus_0/buffer_cell_1/x2/VNB" "buffer_bus_0/buffer_cell_7/IN" -52.602
+cap "DB[0]" "buffer_bus_0/buffer_cell_1/x2/VPB" 6.54708
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_6/IN" 0.0836475
+cap "buffer_bus_0/buffer_cell_3/OUT" "buffer_bus_0/buffer_cell_6/OUTB" 0.0199183
+cap "buffer_bus_0/buffer_cell_1/OUT" "buffer_bus_0/buffer_cell_7/IN" 0.00191614
+cap "buffer_bus_0/buffer_cell_10/OUTB" "buffer_bus_0/buffer_cell_7/OUTB" 0.290155
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_6/IN" 0.140204
+cap "buffer_bus_0/buffer_cell_3/OUT" "buffer_bus_0/buffer_cell_1/x2/VPB" 0.253437
+cap "buffer_bus_0/buffer_cell_7/OUTB" "buffer_bus_0/buffer_cell_5/IN" 0.0230715
+cap "buffer_bus_0/buffer_cell_2/OUTB" "buffer_bus_0/buffer_cell_6/OUTB" 0.0292989
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_7/OUTB" 0.0177451
+cap "D[1]" "buffer_bus_0/buffer_cell_6/IN" 1.7263
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_6/OUTB" 0.226322
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_7/IN" 0.170059
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_7/OUTB" 0.562038
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.0280029
+cap "buffer_bus_0/buffer_cell_1/x2/VNB" "buffer_bus_0/buffer_cell_6/IN" -52.602
+cap "buffer_bus_0/buffer_cell_1/x2/VPB" "buffer_bus_0/buffer_cell_2/OUTB" 0.288192
+cap "D[1]" "buffer_bus_0/buffer_cell_1/x2/VNB" 0.111875
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_1/x2/VPB" 3.1248
+cap "buffer_bus_0/buffer_cell_1/OUT" "buffer_bus_0/buffer_cell_6/IN" 0.00191614
+cap "buffer_bus_0/buffer_cell_10/OUTB" "buffer_bus_0/buffer_cell_6/OUTB" 0.290155
+cap "buffer_bus_0/buffer_cell_4/OUTB" "buffer_bus_0/buffer_cell_7/OUTB" 1.39679
+cap "buffer_bus_0/buffer_cell_10/OUTB" "buffer_bus_0/buffer_cell_1/x2/VPB" 4.39177
+cap "buffer_bus_0/buffer_cell_7/IN" "buffer_bus_0/buffer_cell_7/OUTB" 0.100855
+cap "buffer_bus_0/buffer_cell_6/OUTB" "buffer_bus_0/buffer_cell_5/IN" 0.0296522
+cap "D[0]" "buffer_bus_0/buffer_cell_7/OUTB" 0.74293
+cap "DB[0]" "buffer_bus_0/buffer_cell_5/IN" 0.134521
+cap "buffer_bus_0/buffer_cell_2/IN" "buffer_bus_0/buffer_cell_6/IN" -2.32919
+cap "buffer_bus_0/buffer_cell_1/x2/VPB" "buffer_bus_0/buffer_cell_5/IN" 0.160635
+cap "buffer_bus_0/buffer_cell_3/OUTB" "buffer_bus_0/buffer_cell_6/OUTB" 0.0177451
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_6/IN" 0.16933
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_6/OUTB" 0.104303
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_7/IN" 0.100046
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_7/OUTB" 0.0596183
+cap "buffer_bus_0/buffer_cell_1/x2/VPB" "buffer_bus_0/buffer_cell_3/OUTB" 0.224604
+cap "buffer_bus_0/buffer_cell_4/OUTB" "buffer_bus_0/buffer_cell_6/OUTB" 0.181162
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_7/OUTB" 0.123378
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_1/x2/VPB" -10.3135
+cap "buffer_bus_0/buffer_cell_5/IN" "buffer_bus_0/buffer_cell_4/OUTB" 0.1621
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_4/IN" 0.411826
+cap "buffer_bus_0/buffer_cell_7/OUTB" "buffer_bus_0/buffer_cell_10/IN" 0.0841257
+cap "DB[6]" "buffer_bus_0/buffer_cell_5/OUTB" 0.0292989
+cap "D[7]" "buffer_bus_0/buffer_cell_4/IN" 0.0199183
+cap "DB[7]" "buffer_bus_0/buffer_cell_4/OUTB" 0.0177451
+cap "D[8]" "buffer_bus_0/buffer_cell_10/IN" 0.00111775
+cap "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_4/IN" 1.24792
+cap "buffer_bus_0/buffer_cell_2/x2/VGND" "buffer_bus_0/buffer_cell_4/OUTB" 2.74176
+cap "DB[6]" "buffer_bus_0/buffer_cell_2/x2/VPWR" 0.293161
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.204364
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_5/OUTB" 0.566387
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_4/IN" 0.106648
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_4/OUTB" 0.0773432
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_10/IN" 0.0737915
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_2/x2/VGND" 0.575642
+cap "buffer_bus_0/buffer_cell_4/OUTB" "buffer_bus_0/buffer_cell_10/OUTB" 0.290155
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_2/x2/VPWR" -9.84138
+cap "buffer_bus_0/buffer_cell_5/IN" "buffer_bus_0/buffer_cell_5/OUTB" 0.108737
+cap "buffer_bus_0/buffer_cell_7/OUTB" "buffer_bus_0/buffer_cell_4/IN" 0.0912433
+cap "buffer_bus_0/buffer_cell_6/OUTB" "buffer_bus_0/buffer_cell_10/IN" 0.0833458
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_10/OUTB" -2.27374e-13
+cap "D[7]" "buffer_bus_0/buffer_cell_5/IN" 0.0199183
+cap "DB[7]" "buffer_bus_0/buffer_cell_5/OUTB" 0.0177451
+cap "D[8]" "buffer_bus_0/buffer_cell_4/IN" 0.00191614
+cap "buffer_bus_0/buffer_cell_11/OUT" "buffer_bus_0/buffer_cell_4/OUTB" 0.74293
+cap "buffer_bus_0/buffer_cell_10/OUT" "buffer_bus_0/buffer_cell_10/IN" 0.364909
+cap "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_5/IN" 1.08728
+cap "buffer_bus_0/buffer_cell_2/x2/VGND" "buffer_bus_0/buffer_cell_5/OUTB" 2.74176
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_10/IN" -2.32919
+cap "DB[7]" "buffer_bus_0/buffer_cell_2/x2/VPWR" 0.228476
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.0913461
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_5/OUTB" 0.0773432
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_4/IN" 0.0637613
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_4/OUTB" 0.525311
+cap "buffer_bus_0/buffer_cell_2/x2/VGND" "buffer_bus_0/buffer_cell_2/x2/VPWR" -123.695
+cap "buffer_bus_0/buffer_cell_4/IN" "buffer_bus_0/buffer_cell_10/IN" -4.65839
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_10/OUTB" 0.290155
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_2/x2/VPWR" 0.456897
+cap "DB[6]" "buffer_bus_0/buffer_cell_10/IN" 0.0290033
+cap "buffer_bus_0/buffer_cell_7/OUTB" "buffer_bus_0/buffer_cell_5/IN" 0.0777832
+cap "buffer_bus_0/buffer_cell_6/OUTB" "buffer_bus_0/buffer_cell_4/IN" 0.0722866
+cap "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_10/OUTB" 2.55131
+cap "D[8]" "buffer_bus_0/buffer_cell_5/IN" 0.00191614
+cap "buffer_bus_0/buffer_cell_11/OUT" "buffer_bus_0/buffer_cell_5/OUTB" 0.74293
+cap "buffer_bus_0/buffer_cell_10/OUT" "buffer_bus_0/buffer_cell_4/IN" 0.452911
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_4/OUTB" 0.590223
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_10/IN" 0.140473
+cap "buffer_bus_0/buffer_cell_11/OUT" "buffer_bus_0/buffer_cell_2/x2/VPWR" 13.396
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.05812
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_5/OUTB" 0.525311
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_4/OUTB" 0.304541
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_2/x2/VPWR" 6.65997
+cap "DB[6]" "buffer_bus_0/buffer_cell_4/IN" 0.030813
+cap "D[7]" "buffer_bus_0/buffer_cell_4/OUTB" 0.0199183
+cap "DB[7]" "buffer_bus_0/buffer_cell_10/IN" 0.0103513
+cap "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_4/OUTB" -8.45216
+cap "buffer_bus_0/buffer_cell_6/OUTB" "buffer_bus_0/buffer_cell_5/IN" 0.0659711
+cap "buffer_bus_0/buffer_cell_2/x2/VGND" "buffer_bus_0/buffer_cell_10/IN" -53.0795
+cap "buffer_bus_0/buffer_cell_10/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.354231
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_5/OUTB" 0.226322
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_4/IN" 0.489729
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_4/OUTB" 0.104303
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_10/IN" 0.0857962
+cap "buffer_bus_0/buffer_cell_10/IN" "buffer_bus_0/buffer_cell_10/OUTB" 0.275967
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_2/x2/VPWR" -9.26102
+cap "buffer_bus_0/buffer_cell_5/IN" "buffer_bus_0/buffer_cell_4/IN" -4.65839
+cap "buffer_bus_0/buffer_cell_7/OUTB" "buffer_bus_0/buffer_cell_4/OUTB" 0.089321
+cap "DB[6]" "buffer_bus_0/buffer_cell_5/IN" 0.0305787
+cap "D[7]" "buffer_bus_0/buffer_cell_5/OUTB" 0.0199183
+cap "DB[7]" "buffer_bus_0/buffer_cell_4/IN" 0.0177451
+cap "D[8]" "buffer_bus_0/buffer_cell_4/OUTB" 0.00191614
+cap "buffer_bus_0/buffer_cell_11/OUT" "buffer_bus_0/buffer_cell_10/IN" 0.712374
+cap "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_5/OUTB" -8.82948
+cap "buffer_bus_0/buffer_cell_2/x2/VGND" "buffer_bus_0/buffer_cell_4/IN" -52.602
+cap "D[7]" "buffer_bus_0/buffer_cell_2/x2/VPWR" 0.257806
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.131517
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_5/OUTB" 0.104303
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_4/IN" 0.081127
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_4/OUTB" 0.0596183
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_10/IN" 0.500131
+cap "buffer_bus_0/buffer_cell_4/IN" "buffer_bus_0/buffer_cell_10/OUTB" 0.339807
+cap "buffer_bus_0/buffer_cell_4/OUTB" "buffer_bus_0/buffer_cell_10/IN" 0.172033
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_2/x2/VGND" 0.575642
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_2/x2/VPWR" 0.655943
+cap "buffer_bus_0/buffer_cell_7/OUTB" "buffer_bus_0/buffer_cell_5/OUTB" 0.089321
+cap "buffer_bus_0/buffer_cell_6/OUTB" "buffer_bus_0/buffer_cell_4/OUTB" 0.0676193
+cap "DB[7]" "buffer_bus_0/buffer_cell_5/IN" 0.0177451
+cap "D[8]" "buffer_bus_0/buffer_cell_5/OUTB" 0.00191614
+cap "buffer_bus_0/buffer_cell_11/OUT" "buffer_bus_0/buffer_cell_4/IN" 0.898094
+cap "buffer_bus_0/buffer_cell_10/OUT" "buffer_bus_0/buffer_cell_4/OUTB" 0.383652
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_10/IN" 0.215153
+cap "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_7/OUTB" 0.54303
+cap "buffer_bus_0/buffer_cell_2/x2/VGND" "buffer_bus_0/buffer_cell_5/IN" -23.4726
+cap "buffer_bus_0/buffer_cell_6/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.072043
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_5/OUTB" 0.0596183
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_4/IN" 0.626133
+cap "D[8]" "buffer_bus_0/buffer_cell_2/x2/VPWR" 0.154337
+cap "buffer_bus_0/buffer_cell_5/IN" "buffer_bus_0/buffer_cell_10/OUTB" 0.264743
+cap "buffer_bus_0/buffer_cell_4/IN" "buffer_bus_0/buffer_cell_4/OUTB" 0.209232
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_10/IN" 0.116738
+cap "buffer_bus_0/buffer_cell_2/OUT" "buffer_bus_0/buffer_cell_2/x2/VPWR" 0.336308
+cap "DB[6]" "buffer_bus_0/buffer_cell_4/OUTB" 0.0292989
+cap "D[7]" "buffer_bus_0/buffer_cell_10/IN" 0.011619
+cap "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_10/IN" 0.932377
+cap "buffer_bus_0/buffer_cell_6/OUTB" "buffer_bus_0/buffer_cell_5/OUTB" 0.0676193
+cap "buffer_bus_0/buffer_cell_11/OUT" "buffer_bus_0/buffer_cell_5/IN" 0.70595
+cap "buffer_bus_0/buffer_cell_10/OUT" "buffer_bus_0/buffer_cell_5/OUTB" 0.383652
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_4/IN" 0.263144
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_4/OUTB" 1.03601
+cap "buffer_bus_0/buffer_cell_7/OUT" "buffer_bus_0/buffer_cell_10/IN" 0.0984694
+cap "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_6/OUTB" 0.389713
+cap "buffer_bus_0/buffer_cell_10/OUT" "buffer_bus_0/buffer_cell_2/x2/VPWR" 3.90701
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_5/IN" 0.491612
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_10/IN" 0.0295868
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_10/OUTB" 0.815466
+cap "DB[7]" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0.183297
+cap "DB[4]" "buffer_bus_0/buffer_cell_10/IN" 0.0167291
+cap "D[5]" "buffer_bus_0/buffer_cell_10/OUTB" 0.0773432
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_10/OUT" 0.452911
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_4/OUT" 0.226322
+cap "buffer_bus_0/buffer_cell_11/OUTB" "D[4]" 0.104303
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 1.24792
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 3.80913
+cap "DB[5]" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0.312651
+cap "DB[7]" "buffer_bus_0/buffer_cell_10/IN" 0.00739378
+cap "D[8]" "buffer_bus_0/buffer_cell_10/OUTB" 0.00191614
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_10/OUTB" 0.123378
+cap "buffer_bus_0/buffer_cell_11/IN" "DB[6]" 0.0383836
+cap "buffer_bus_0/buffer_cell_11/OUTB" "D[7]" 0.0199183
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_10/IN" -2.32919
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_4/OUTB" 0.181162
+cap "buffer_bus_0/buffer_cell_11/OUT" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 4.87104
+cap "DB[5]" "buffer_bus_0/buffer_cell_10/IN" 0.0122775
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_5/OUT" 0.170059
+cap "buffer_bus_0/buffer_cell_11/IN" "DB[4]" 0.100855
+cap "buffer_bus_0/buffer_cell_11/OUTB" "D[5]" 0.0773432
+cap "buffer_bus_0/buffer_cell_11/OUT" "buffer_bus_0/buffer_cell_10/IN" 0.185721
+cap "buffer_bus_0/buffer_cell_10/OUT" "buffer_bus_0/buffer_cell_10/OUTB" 0.669637
+cap "D[6]" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0.269807
+cap "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_10/OUTB" -7.80429
+cap "buffer_bus_0/buffer_cell_11/IN" "DB[7]" 0.0177451
+cap "buffer_bus_0/buffer_cell_11/OUTB" "D[8]" 0.00191614
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_5/OUTB" 0.123378
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 1.43738
+cap "buffer_bus_0/buffer_cell_10/OUT" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0.575642
+cap "D[4]" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0.643597
+cap "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" -97.037
+cap "buffer_bus_0/buffer_cell_11/IN" "DB[5]" 0.0956234
+cap "D[6]" "buffer_bus_0/buffer_cell_10/IN" 0.0106846
+cap "DB[6]" "buffer_bus_0/buffer_cell_10/OUTB" 0.0292989
+cap "buffer_bus_0/buffer_cell_10/IN" "buffer_bus_0/buffer_cell_10/OUTB" 0.0638401
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_10/IN" 0.0479909
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_10/OUTB" 0.148168
+cap "D[7]" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0.206828
+cap "D[4]" "buffer_bus_0/buffer_cell_10/IN" 0.0199022
+cap "DB[4]" "buffer_bus_0/buffer_cell_10/OUTB" 0.162244
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_11/OUT" 0.898094
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_10/OUT" 0.383652
+cap "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_10/IN" 0.477557
+cap "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_4/OUTB" 1.06331
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" -3.57182
+cap "D[5]" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0.36655
+cap "D[7]" "buffer_bus_0/buffer_cell_10/IN" 0.00829927
+cap "DB[7]" "buffer_bus_0/buffer_cell_10/OUTB" 0.0177451
+cap "buffer_bus_0/buffer_cell_4/OUTB" "buffer_bus_0/buffer_cell_10/IN" 0.0371992
+cap "buffer_bus_0/buffer_cell_11/IN" "D[6]" 0.0844761
+cap "buffer_bus_0/buffer_cell_11/OUTB" "DB[6]" 0.0292989
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_10/IN" 0.126001
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_10/OUTB" 0.339807
+cap "D[8]" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0.123818
+cap "D[5]" "buffer_bus_0/buffer_cell_10/IN" 0.0142496
+cap "DB[5]" "buffer_bus_0/buffer_cell_10/OUTB" 0.0676193
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_4/OUT" 0.263144
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_5/OUT" 0.148168
+cap "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_5/OUTB" 0.648193
+cap "buffer_bus_0/buffer_cell_11/IN" "D[4]" 0.118372
+cap "buffer_bus_0/buffer_cell_11/OUTB" "DB[4]" 0.089321
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" -51.8868
+cap "D[8]" "buffer_bus_0/buffer_cell_10/IN" 0.000798392
+cap "buffer_bus_0/buffer_cell_11/OUT" "buffer_bus_0/buffer_cell_10/OUTB" 0.74293
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_10/IN" 0.0240461
+cap "buffer_bus_0/buffer_cell_11/IN" "D[7]" 0.0199183
+cap "buffer_bus_0/buffer_cell_11/OUTB" "DB[7]" 0.0177451
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_4/OUTB" 0.209232
+cap "buffer_bus_0/buffer_cell_10/OUT" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" -8.01517
+cap "buffer_bus_0/buffer_cell_11/OUT" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0.575642
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_11/OUTB" 0.626133
+cap "buffer_bus_0/buffer_cell_11/IN" "D[5]" 0.100046
+cap "buffer_bus_0/buffer_cell_11/OUTB" "DB[5]" 0.0676193
+cap "D[6]" "buffer_bus_0/buffer_cell_10/OUTB" 0.0596183
+cap "buffer_bus_0/buffer_cell_10/OUT" "buffer_bus_0/buffer_cell_10/IN" 0.088001
+cap "buffer_bus_0/buffer_cell_4/OUT" "buffer_bus_0/buffer_cell_10/OUTB" 0.226322
+cap "DB[6]" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0.235192
+cap "D[4]" "buffer_bus_0/buffer_cell_10/OUTB" 0.104303
+cap "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_10/IN" 0.315542
+cap "buffer_bus_0/buffer_cell_11/IN" "D[8]" 0.00191614
+cap "buffer_bus_0/buffer_cell_11/OUTB" "buffer_bus_0/buffer_cell_11/OUT" 0.912911
+cap "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_10/OUTB" 2.74176
+cap "buffer_bus_0/buffer_cell_11/IN" "buffer_bus_0/buffer_cell_5/OUTB" 0.140784
+cap "buffer_bus_0/buffer_cell_5/OUT" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0.81779
+cap "DB[4]" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0.529809
+cap "DB[6]" "buffer_bus_0/buffer_cell_10/IN" 0.00938023
+cap "D[7]" "buffer_bus_0/buffer_cell_10/OUTB" 0.0199183
+cap "buffer_bus_0/buffer_cell_4/OUTB" "buffer_bus_0/buffer_cell_10/OUTB" 0.181162
+cap "buffer_bus_0/buffer_cell_11/OUTB" "D[6]" 0.0596183
+cap "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_5/OUTB" 0.628233
+cap "buffer_bus_0/buffer_cell_5/OUTB" "buffer_bus_0/buffer_cell_4/IN" 0.219221
+cap "buffer_bus_0/buffer_cell_2/x2/VGND" "buffer_bus_0/buffer_cell_5/OUTB" -0.0172445
+cap "D[4]" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0.0866704
+cap "DB[4]" "buffer_bus_0/buffer_cell_10/OUTB" 0.250212
+cap "D[4]" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0.608447
+cap "D[5]" "buffer_bus_0/buffer_cell_10/GND" 1.73472e-18
+merge "buffer_bus_0/buffer_cell_1/IN" "DIN8" -25.4279 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_0/OUTB" "DB[9]" -29.6375 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_4/IN" "DIN2" -23.1205 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/GND" "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" -2460.09 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -618240 -13072 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_11/x2/VGND"
+merge "buffer_bus_0/buffer_cell_11/x2/VGND" "buffer_bus_0/buffer_cell_11/x1/VGND"
+merge "buffer_bus_0/buffer_cell_11/x1/VGND" "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_5/x2/VGND"
+merge "buffer_bus_0/buffer_cell_5/x2/VGND" "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_4/x2/VGND"
+merge "buffer_bus_0/buffer_cell_4/x2/VGND" "buffer_bus_0/buffer_cell_4/x1/VGND"
+merge "buffer_bus_0/buffer_cell_4/x1/VGND" "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_10/x2/VGND"
+merge "buffer_bus_0/buffer_cell_10/x2/VGND" "buffer_bus_0/buffer_cell_10/x1/VGND"
+merge "buffer_bus_0/buffer_cell_10/x1/VGND" "buffer_bus_0/buffer_cell_1/x2/VNB"
+merge "buffer_bus_0/buffer_cell_1/x2/VNB" "buffer_bus_0/buffer_cell_6/x2/VGND"
+merge "buffer_bus_0/buffer_cell_6/x2/VGND" "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_7/x2/VGND"
+merge "buffer_bus_0/buffer_cell_7/x2/VGND" "buffer_bus_0/buffer_cell_7/x1/VGND"
+merge "buffer_bus_0/buffer_cell_7/x1/VGND" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_5/x1/VGND"
+merge "buffer_bus_0/buffer_cell_5/x1/VGND" "buffer_bus_0/buffer_cell_3/x2/VGND"
+merge "buffer_bus_0/buffer_cell_3/x2/VGND" "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_2/x2/VGND"
+merge "buffer_bus_0/buffer_cell_2/x2/VGND" "buffer_bus_0/buffer_cell_2/x1/VGND"
+merge "buffer_bus_0/buffer_cell_2/x1/VGND" "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_6/x1/VGND"
+merge "buffer_bus_0/buffer_cell_6/x1/VGND" "buffer_bus_0/buffer_cell_0/x2/VGND"
+merge "buffer_bus_0/buffer_cell_0/x2/VGND" "buffer_bus_0/buffer_cell_0/x1/VGND"
+merge "buffer_bus_0/buffer_cell_0/x1/VGND" "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_1/x2/VGND"
+merge "buffer_bus_0/buffer_cell_1/x2/VGND" "buffer_bus_0/buffer_cell_1/x1/VGND"
+merge "buffer_bus_0/buffer_cell_1/x1/VGND" "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_3/x1/VGND"
+merge "buffer_bus_0/buffer_cell_3/x1/VGND" "buffer_bus_0/buffer_cell_0/GND"
+merge "buffer_bus_0/buffer_cell_0/GND" "GND"
+merge "buffer_bus_0/buffer_cell_1/OUTB" "DB[8]" -21.3604 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_7/IN" "DIN4" -22.9539 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_6/OUTB" "DB[5]" -414.811 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -331080 -11156 -31380 -1286 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/IN" "DIN1" -22.9539 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/VDD" "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" -2464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -618240 -13072 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_11/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_11/x2/VPWR" "buffer_bus_0/buffer_cell_11/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_11/x1/VPWR" "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_5/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_5/x2/VPWR" "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_4/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_4/x2/VPWR" "buffer_bus_0/buffer_cell_4/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_4/x1/VPWR" "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_10/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_10/x2/VPWR" "buffer_bus_0/buffer_cell_10/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_10/x1/VPWR" "buffer_bus_0/buffer_cell_1/x2/VPB"
+merge "buffer_bus_0/buffer_cell_1/x2/VPB" "buffer_bus_0/buffer_cell_6/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_6/x2/VPWR" "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_7/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_7/x2/VPWR" "buffer_bus_0/buffer_cell_7/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_7/x1/VPWR" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_5/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_5/x1/VPWR" "buffer_bus_0/buffer_cell_3/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_3/x2/VPWR" "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_2/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_2/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_2/x1/VPWR" "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_6/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_6/x1/VPWR" "buffer_bus_0/buffer_cell_0/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_0/x2/VPWR" "buffer_bus_0/buffer_cell_0/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_0/x1/VPWR" "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_1/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_1/x2/VPWR" "buffer_bus_0/buffer_cell_1/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_1/x1/VPWR" "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_3/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_3/x1/VPWR" "buffer_bus_0/buffer_cell_0/VDD"
+merge "buffer_bus_0/buffer_cell_0/VDD" "VDD"
+merge "buffer_bus_0/buffer_cell_3/OUTB" "DB[7]" -361.777 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -331080 -11156 0 -120 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_2/OUTB" "DB[6]" -405.483 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -331080 -11156 -20820 -934 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_1/OUT" "D[8]" -1076.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -249420 -8374 0 -120 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_7/OUTB" "DB[4]" -422.976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -331080 -11156 -41940 -1638 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/OUT" "D[1]" -64.3808 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56700 -2070 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_5/OUTB" "DB[3]" -363.021 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -331080 -11156 0 -120 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_4/OUTB" "DB[2]" -113 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -81420 -2774 0 -120 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_4/OUT" "D[2]" -112.782 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -81420 -2774 0 -120 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/OUTB" "DB[1]" -22.9932 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_11/OUTB" "DB[0]" -67.8134 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56700 -2070 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_7/OUT" "D[4]" -449.511 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -331080 -11156 -47220 -1814 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_2/IN" "DIN6" -22.9539 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_5/IN" "DIN3" -22.9539 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_11/IN" "DIN0" -30.6179 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_0/OUT" "D[9]" -21.3604 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_3/OUT" "D[7]" -361.777 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -331080 -11156 0 -120 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_6/OUT" "D[5]" -440.302 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -331080 -11156 -36660 -1462 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_2/OUT" "D[6]" -383.401 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -247080 -8356 -26100 -1110 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_0/IN" "DIN9" -18.557 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_6/IN" "DIN5" -22.9652 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_3/IN" "DIN7" -22.9539 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_5/OUT" "D[3]" -289.954 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -281148 -6983 0 -120 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_11/OUT" "D[0]" -81.4525 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56700 -2070 0 0 0 0 0 0 0 0

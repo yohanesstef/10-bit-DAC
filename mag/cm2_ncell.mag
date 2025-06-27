@@ -1,0 +1,23 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750771847
+<< metal1 >>
+rect 797 -75 895 -69
+rect 835 -141 895 -135
+<< via1 >>
+rect 835 -135 895 -75
+<< metal2 >>
+rect 807 236 895 296
+rect 473 -57 533 205
+rect 835 -75 895 236
+rect 835 -141 895 -135
+use cm2_ncell1  cm2_ncell1_0
+timestamp 1750176568
+transform 1 0 -2739 0 1 -2237
+box 2714 1591 3770 2377
+use cm2_ncell2  cm2_ncell2_0
+timestamp 1750771847
+transform 1 0 31 0 1 646
+box -56 -638 1418 626
+<< end >>

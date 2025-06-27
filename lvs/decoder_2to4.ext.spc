@@ -8,7 +8,7 @@ X2 a_229_n120# a_29_n146# a_n29_n120# w_n581_n182# sky130_fd_pr__pfet_g5v0d10v5 
 X3 a_n29_n120# a_n229_n146# a_n287_n120# w_n581_n182# sky130_fd_pr__pfet_g5v0d10v5 ad=0.1218 pd=1.13 as=0.1218 ps=1.13 w=0.84 l=1
 .ends
 
-.subckt dec_pcell m1_n483_1015# m1_n535_1581# m1_n483_1273# m1_n483_757# w_n601_499#
+.subckt dec_pcell m1_n483_1015# m1_n535_1581# m1_n483_757# m1_n483_1273# w_n601_499#
 + m1_n257_685#
 XXM1 m1_n535_1581# w_n601_499# m1_n483_757# w_n601_499# m1_n483_1273# m1_n257_685#
 + m1_n483_1015# sky130_fd_pr__pfet_g5v0d10v5_4VG7B4
@@ -84,7 +84,7 @@ Xsky130_fd_pr__nfet_g5v0d10v5_EY6AGD_3 sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_3/a_1
 
 .subckt decoder_2to4 VPBIAS VNBIAS b[0] b[1] bb[0] bb[1] VOUT[0] VOUT[1] VOUT[2] VOUT[3]
 + VDD VDDH GND
-Xdec_pcell_0 VOUT[2] VPBIAS VOUT[1] VOUT[3] VDDH VOUT[0] dec_pcell
+Xdec_pcell_0 VOUT[2] VPBIAS VOUT[3] VOUT[1] VDDH VOUT[0] dec_pcell
 Xdec_ncell_l_0 m1_1166_n952# dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y m1_821_n952#
 + GND dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y GND dec_ncell_l_1
 Xdec_ncell_l_1_0 m1_1872_n952# dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y m1_1533_n952#

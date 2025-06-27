@@ -1,0 +1,29 @@
+timestamp 1750842002
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use decoder_2to4 decoder_2to4_2 1 0 3649 0 1 1810
+use decoder_2to4 decoder_2to4_1 1 0 2225 0 1 1810
+use dec_2 dec_2_0 1 0 1425 0 1 20
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_2to4_2/VSUBS" "decoder_2to4_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_2to4_1/VSUBS" "dec_2_0/VSUBS"
+merge "dec_2_0/VSUBS" "VSUBS"
+merge "dec_2_0/sky130_fd_sc_hvl__inv_1_1/VPB" "decoder_2to4_1/VDDH" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dec_2_0/decoder_2to4_0/dec_pcell_0/w_n601_499#" "decoder_2to4_2/VDDH" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_2to4_2/VDDH" "decoder_2to4_2/dec_pcell_0/w_n601_499#"
+merge "decoder_2to4_2/dec_pcell_0/w_n601_499#" "decoder_2to4_1/dec_pcell_0/w_n601_499#"
+merge "dec_2_0/decoder_2to4_0/dec_ncell_h_0/a_689_n291#" "decoder_2to4_2/GND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_2to4_2/GND" "decoder_2to4_2/dec_ncell_h_0/a_689_n291#"
+merge "decoder_2to4_2/dec_ncell_h_0/a_689_n291#" "decoder_2to4_1/GND"
+merge "decoder_2to4_1/GND" "decoder_2to4_1/dec_ncell_h_0/a_689_n291#"
+merge "decoder_2to4_1/dec_pcell_0/m1_n535_1581#" "decoder_2to4_2/VPBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_2to4_1/sky130_fd_sc_hd__tap_1_1/VPB" "decoder_2to4_2/VDD" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_2to4_2/VDD" "decoder_2to4_2/sky130_fd_sc_hd__tap_1_0/VPB"
+merge "dec_2_0/decoder_2to4_0/dec_pcell_0/m1_n535_1581#" "decoder_2to4_1/VPBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dec_2_0/decoder_2to4_0/dec_ncell_h_0/m1_689_n29#" "decoder_2to4_1/VNBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dec_2_0/decoder_2to4_0/sky130_fd_sc_hd__tap_1_1/VPB" "decoder_2to4_1/VDD" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_2to4_1/VDD" "decoder_2to4_1/sky130_fd_sc_hd__tap_1_0/VPB"
+merge "decoder_2to4_1/dec_ncell_h_0/m1_689_n29#" "decoder_2to4_2/VNBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

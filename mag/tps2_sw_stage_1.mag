@@ -1,10 +1,16 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749567216
+timestamp 1750900893
 << error_p >>
-rect 3213 1590 3215 1596
-rect 3213 1536 3215 1542
+rect 3219 1596 3225 1602
+rect 3273 1596 3279 1602
+rect 3213 1590 3219 1596
+rect 3279 1590 3285 1596
+rect 3213 1536 3219 1542
+rect 3279 1536 3285 1542
+rect 3219 1530 3225 1536
+rect 3273 1530 3279 1536
 << error_s >>
 rect 4317 1448 4323 1454
 rect 4383 1448 4389 1454
@@ -193,23 +199,23 @@ rect 4047 1624 4107 1684
 rect 4323 1448 4383 1508
 rect 4599 1272 4659 1332
 use hnmos_1  hnmos_1_1
-timestamp 1749548291
+timestamp 1750900893
 transform 1 0 4428 0 1 -6
 box -41 3 235 201
 use hnmos_4  hnmos_4_0
-timestamp 1749548291
+timestamp 1750900893
 transform 1 0 -21 0 1 -3
 box -8 0 1096 198
 use hnmos_4  hnmos_4_1
-timestamp 1749548291
+timestamp 1750900893
 transform 1 0 1083 0 1 -3
 box -8 0 1096 198
 use hnmos_4  hnmos_4_2
-timestamp 1749548291
+timestamp 1750900893
 transform 1 0 2187 0 1 -3
 box -8 0 1096 198
 use hnmos_4  hnmos_4_3
-timestamp 1749548291
+timestamp 1750900893
 transform 1 0 3291 0 1 -3
 box -8 0 1096 198
 << end >>

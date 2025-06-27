@@ -1,0 +1,11 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750845438
+<< metal1 >>
+rect 198 260 226 1260
+use sky130_fd_pr__pfet_g5v0d10v5_YG382U  sky130_fd_pr__pfet_g5v0d10v5_YG382U_0
+timestamp 1750845438
+transform 1 0 212 0 1 693
+box -308 -802 308 802
+<< end >>

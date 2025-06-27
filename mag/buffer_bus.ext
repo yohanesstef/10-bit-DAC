@@ -1,0 +1,185 @@
+timestamp 1750828667
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use buffer_cell buffer_cell_0 1 0 1290 0 1 4139
+use buffer_cell buffer_cell_1 1 0 1934 0 1 4139
+use buffer_cell buffer_cell_3 1 0 2578 0 1 4139
+use buffer_cell buffer_cell_2 1 0 3222 0 1 4139
+use buffer_cell buffer_cell_6 1 0 3866 0 1 4139
+use buffer_cell buffer_cell_7 1 0 4510 0 1 4139
+use buffer_cell buffer_cell_5 1 0 5154 0 1 4139
+use buffer_cell buffer_cell_4 1 0 5798 0 1 4139
+use buffer_cell buffer_cell_10 1 0 6442 0 1 4139
+use buffer_cell buffer_cell_11 1 0 7086 0 1 4139
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "buffer_cell_3/OUTB" "buffer_cell_1/OUT" 19.4169
+cap "buffer_cell_3/IN" "buffer_cell_0/GND" 32.6437
+cap "buffer_cell_0/GND" "buffer_cell_0/OUTB" 0.31548
+cap "buffer_cell_1/OUTB" "buffer_cell_0/GND" 0.31548
+cap "buffer_cell_1/IN" "buffer_cell_0/VDD" 5.2931
+cap "buffer_cell_3/IN" "buffer_cell_1/OUT" 34.8991
+cap "buffer_cell_0/GND" "buffer_cell_0/VDD" -8.52651e-14
+cap "buffer_cell_3/OUTB" "buffer_cell_0/VDD" 0.400422
+cap "buffer_cell_1/OUTB" "buffer_cell_0/OUTB" 0.983338
+cap "buffer_cell_1/IN" "buffer_cell_0/OUT" 34.8991
+cap "buffer_cell_0/VDD" "buffer_cell_1/OUT" 9.11109
+cap "buffer_cell_1/OUTB" "buffer_cell_3/IN" 12.4789
+cap "buffer_cell_1/IN" "buffer_cell_0/IN" 20.5023
+cap "buffer_cell_3/IN" "buffer_cell_0/VDD" 1.11081
+cap "buffer_cell_1/OUTB" "buffer_cell_0/VDD" 9.57532
+cap "buffer_cell_0/VDD" "buffer_cell_0/OUTB" 0.927508
+cap "buffer_cell_1/IN" "buffer_cell_0/GND" 33.682
+cap "buffer_cell_0/GND" "buffer_cell_0/IN" 0.096126
+cap "buffer_cell_1/OUTB" "buffer_cell_0/OUT" 36.3061
+cap "buffer_cell_0/VDD" "buffer_cell_0/OUT" 9.11109
+cap "buffer_cell_1/IN" "buffer_cell_3/IN" 20.5023
+cap "buffer_cell_1/IN" "buffer_cell_0/OUTB" 15.8175
+cap "buffer_cell_3/OUTB" "buffer_cell_2/IN" 15.8175
+cap "buffer_cell_2/OUTB" "buffer_cell_6/OUTB" 0.252897
+cap "buffer_cell_0/GND" "buffer_cell_6/IN" 33.682
+cap "buffer_cell_0/VDD" "buffer_cell_2/OUTB" 9.57532
+cap "buffer_cell_3/OUT" "buffer_cell_2/OUTB" 36.3061
+cap "buffer_cell_2/IN" "buffer_cell_6/IN" 20.5023
+cap "buffer_cell_0/GND" "buffer_cell_2/IN" 33.682
+cap "buffer_cell_0/VDD" "buffer_cell_3/OUTB" 9.17489
+cap "buffer_cell_2/OUT" "buffer_cell_0/VDD" 9.11109
+cap "buffer_cell_2/OUT" "buffer_cell_6/OUTB" 21.7385
+cap "buffer_cell_3/OUTB" "buffer_cell_2/OUTB" 0.983338
+cap "buffer_cell_0/GND" "buffer_cell_3/IN" 1.03827
+cap "buffer_cell_0/GND" "buffer_cell_0/VDD" 1.42109e-14
+cap "buffer_cell_0/VDD" "buffer_cell_6/IN" 5.2931
+cap "buffer_cell_1/OUTB" "buffer_cell_3/IN" 3.33858
+cap "buffer_cell_3/IN" "buffer_cell_2/IN" 20.5023
+cap "buffer_cell_0/GND" "buffer_cell_2/OUTB" 0.31548
+cap "buffer_cell_0/VDD" "buffer_cell_2/IN" 5.2931
+cap "buffer_cell_2/OUTB" "buffer_cell_6/IN" 15.8175
+cap "buffer_cell_3/OUT" "buffer_cell_2/IN" 34.8991
+cap "buffer_cell_0/GND" "buffer_cell_3/OUTB" 0.31548
+cap "buffer_cell_1/OUT" "buffer_cell_3/OUTB" 16.8892
+cap "buffer_cell_0/VDD" "buffer_cell_3/IN" 4.18229
+cap "buffer_cell_1/OUTB" "buffer_cell_3/OUTB" 0.983338
+cap "buffer_cell_6/IN" "buffer_cell_7/IN" 9.78261
+cap "buffer_cell_0/VDD" "buffer_cell_6/OUTB" 1.87211
+cap "buffer_cell_2/OUT" "buffer_cell_6/IN" 34.8991
+cap "buffer_cell_3/OUT" "buffer_cell_0/VDD" 9.11109
+cap "buffer_cell_6/OUTB" "buffer_cell_2/OUTB" 0.73044
+cap "buffer_cell_7/OUT" "buffer_cell_5/OUTB" 36.3061
+cap "buffer_cell_7/OUTB" "buffer_cell_5/OUTB" 0.983338
+cap "buffer_cell_2/OUT" "buffer_cell_6/OUTB" 14.5677
+cap "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" -5.68434e-14
+cap "buffer_cell_7/OUT" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 9.11109
+cap "buffer_cell_6/OUTB" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 7.70321
+cap "buffer_cell_5/IN" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 33.682
+cap "buffer_cell_7/OUTB" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 9.57532
+cap "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_7/IN" 5.2931
+cap "buffer_cell_7/OUT" "buffer_cell_5/IN" 34.8991
+cap "buffer_cell_5/IN" "buffer_cell_7/IN" 20.5023
+cap "buffer_cell_7/OUTB" "buffer_cell_5/IN" 15.8175
+cap "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_5/OUTB" 8.64781
+cap "buffer_cell_6/OUT" "buffer_cell_7/IN" 34.8991
+cap "buffer_cell_6/OUT" "buffer_cell_7/OUTB" 36.3061
+cap "buffer_cell_6/IN" "buffer_cell_7/IN" 10.7197
+cap "buffer_cell_5/IN" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 5.2931
+cap "buffer_cell_5/IN" "buffer_cell_4/IN" 9.78261
+cap "buffer_cell_6/OUT" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 9.11109
+cap "buffer_cell_6/OUTB" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0.31548
+cap "buffer_cell_7/OUTB" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0.31548
+cap "buffer_cell_7/OUTB" "buffer_cell_6/OUTB" 0.983338
+cap "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_7/IN" 33.682
+cap "buffer_cell_6/OUTB" "buffer_cell_7/IN" 15.8175
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_5/OUTB" 0.31548
+cap "buffer_cell_4/OUT" "buffer_cell_10/IN" 34.8991
+cap "buffer_cell_4/OUTB" "buffer_cell_10/IN" 15.8175
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_10/OUTB" 8.64781
+cap "buffer_cell_5/OUT" "buffer_cell_4/OUTB" 36.3061
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_4/OUT" 9.11109
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_10/IN" 33.682
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_4/OUTB" 9.57532
+cap "buffer_cell_10/IN" "buffer_cell_11/IN" 9.78261
+cap "buffer_cell_5/OUTB" "buffer_cell_4/IN" 15.8175
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_4/IN" 33.682
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_5/OUTB" 0.927508
+cap "buffer_cell_4/OUT" "buffer_cell_10/OUTB" 36.3061
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" -1.27898e-13
+cap "buffer_cell_4/OUTB" "buffer_cell_10/OUTB" 0.983338
+cap "buffer_cell_4/IN" "buffer_cell_10/IN" 20.5023
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_10/IN" 5.2931
+cap "buffer_cell_5/OUT" "buffer_cell_4/IN" 34.8991
+cap "buffer_cell_5/OUTB" "buffer_cell_4/OUTB" 0.983338
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_5/OUT" 9.11109
+cap "buffer_cell_4/IN" "buffer_cell_5/IN" 10.7197
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_4/OUTB" 0.31548
+cap "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_4/IN" 5.2931
+cap "buffer_cell_11/IN" "buffer_cell_5/x2/VNB" 33.5859
+cap "buffer_cell_10/OUTB" "buffer_cell_5/x2/VPB" 0.927508
+cap "buffer_cell_10/OUTB" "buffer_cell_11/OUTB" 0.983338
+cap "buffer_cell_10/IN" "buffer_cell_11/IN" 10.7197
+cap "buffer_cell_11/IN" "buffer_cell_10/OUT" 34.8991
+cap "buffer_cell_5/x2/VNB" "buffer_cell_5/x2/VPB" -1.42109e-14
+cap "buffer_cell_11/IN" "buffer_cell_5/x2/VPB" 5.2931
+cap "buffer_cell_10/OUTB" "buffer_cell_5/x2/VNB" 0.31548
+cap "buffer_cell_10/OUTB" "buffer_cell_11/IN" 15.8175
+cap "buffer_cell_10/OUT" "buffer_cell_5/x2/VPB" 9.11109
+cap "buffer_cell_11/OUTB" "buffer_cell_10/OUT" 36.3061
+cap "buffer_cell_11/OUTB" "buffer_cell_5/x2/VPB" 8.64781
+merge "buffer_cell_11/VDD" "buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" -1833.03 0 0 0 0 -219564 -7146 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -612 0 -1728 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_11/x1/VPB"
+merge "buffer_cell_11/x1/VPB" "buffer_cell_10/x1/VPB"
+merge "buffer_cell_10/x1/VPB" "buffer_cell_10/VDD"
+merge "buffer_cell_10/VDD" "buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_4/x1/VPB"
+merge "buffer_cell_4/x1/VPB" "buffer_cell_4/VDD"
+merge "buffer_cell_4/VDD" "buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_5/x1/VPB"
+merge "buffer_cell_5/x1/VPB" "buffer_cell_5/VDD"
+merge "buffer_cell_5/VDD" "buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_5/x2/VPB"
+merge "buffer_cell_5/x2/VPB" "buffer_cell_7/x1/VPB"
+merge "buffer_cell_7/x1/VPB" "buffer_cell_7/VDD"
+merge "buffer_cell_7/VDD" "buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_6/x1/VPB"
+merge "buffer_cell_6/x1/VPB" "buffer_cell_6/VDD"
+merge "buffer_cell_6/VDD" "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_6/x2/VPB"
+merge "buffer_cell_6/x2/VPB" "buffer_cell_2/x1/VPB"
+merge "buffer_cell_2/x1/VPB" "buffer_cell_2/VDD"
+merge "buffer_cell_2/VDD" "buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_3/x1/VPB"
+merge "buffer_cell_3/x1/VPB" "buffer_cell_3/VDD"
+merge "buffer_cell_3/VDD" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_1/x1/VPB"
+merge "buffer_cell_1/x1/VPB" "buffer_cell_1/VDD"
+merge "buffer_cell_1/VDD" "buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_0/VDD"
+merge "buffer_cell_11/VSUBS" "buffer_cell_10/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_10/VSUBS" "buffer_cell_4/VSUBS"
+merge "buffer_cell_4/VSUBS" "buffer_cell_5/VSUBS"
+merge "buffer_cell_5/VSUBS" "buffer_cell_7/VSUBS"
+merge "buffer_cell_7/VSUBS" "buffer_cell_6/VSUBS"
+merge "buffer_cell_6/VSUBS" "buffer_cell_2/VSUBS"
+merge "buffer_cell_2/VSUBS" "buffer_cell_3/VSUBS"
+merge "buffer_cell_3/VSUBS" "buffer_cell_1/VSUBS"
+merge "buffer_cell_1/VSUBS" "buffer_cell_0/VSUBS"
+merge "buffer_cell_0/VSUBS" "VSUBS"
+merge "buffer_cell_11/GND" "buffer_cell_5/x2/VGND" -891.294 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -544 0 -1536 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_5/x2/VGND" "buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_10/GND"
+merge "buffer_cell_10/GND" "buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_4/GND"
+merge "buffer_cell_4/GND" "buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_5/GND"
+merge "buffer_cell_5/GND" "buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_7/GND"
+merge "buffer_cell_7/GND" "buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_6/GND"
+merge "buffer_cell_6/GND" "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_2/GND"
+merge "buffer_cell_2/GND" "buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_3/GND"
+merge "buffer_cell_3/GND" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_1/GND"
+merge "buffer_cell_1/GND" "buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_0/GND"

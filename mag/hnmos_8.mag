@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749548291
+timestamp 1750900893
 << pwell >>
 rect -137 -180 2351 358
 << mvpsubdiff >>
@@ -36,11 +36,11 @@ rect 2269 -98 2303 -36
 rect -89 -132 7 -98
 rect 2207 -132 2303 -98
 use hnmos_4  hnmos_4_0
-timestamp 1749548291
+timestamp 1750900893
 transform 1 0 11 0 1 -10
 box -8 0 1096 198
 use hnmos_4  hnmos_4_1
-timestamp 1749548291
+timestamp 1750900893
 transform 1 0 1115 0 1 -10
 box -8 0 1096 198
 << end >>

@@ -1,0 +1,11 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750845353
+<< metal1 >>
+rect 185 253 213 1244
+use sky130_fd_pr__nfet_g5v0d10v5_ZUVY8G  sky130_fd_pr__nfet_g5v0d10v5_ZUVY8G_0
+timestamp 1750845293
+transform 1 0 199 0 1 675
+box -278 -749 278 749
+<< end >>

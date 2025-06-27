@@ -8,6 +8,6 @@ use sky130_fd_pr__nfet_g5v0d10v5_NQHLCX sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0 1 
 node "m1_65_142#" 1 177.882 65 142 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 14352 656 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 cap "sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#" 10.1028
-cap "sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 10.1028
+cap "sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 10.1028
 merge "sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "m1_65_142#" -48.685 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2944 -220 0 0 0 0 0 0 0 0 0 0

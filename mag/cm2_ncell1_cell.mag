@@ -1,0 +1,42 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750169738
+<< mvpsubdiff >>
+rect 1765 1083 2749 1143
+rect 1765 797 1825 1083
+rect 2689 797 2749 1083
+<< poly >>
+rect 1836 818 1896 1052
+rect 2618 818 2678 1052
+<< locali >>
+rect 1778 1096 2736 1130
+rect 1778 797 1812 1096
+rect 2702 797 2736 1096
+<< metal1 >>
+rect 1755 1073 2759 1153
+rect 1755 797 1835 1073
+rect 1917 1018 2000 1042
+rect 1917 982 2006 1018
+rect 2132 982 2138 1018
+rect 1917 964 1963 982
+rect 2175 844 2339 1073
+rect 2508 982 2520 1012
+rect 2382 976 2520 982
+rect 2679 797 2759 1073
+<< via1 >>
+rect 2006 982 2132 1042
+rect 2382 982 2508 1042
+<< metal2 >>
+rect 2000 982 2006 1042
+rect 2132 982 2382 1042
+rect 2508 982 2514 1042
+use sky130_fd_pr__nfet_g5v0d10v5_QKV39N  sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0 ~/10-bit-DAC/mag
+timestamp 1750058993
+transform 1 0 2069 0 1 935
+box -158 -117 158 117
+use sky130_fd_pr__nfet_g5v0d10v5_QKV39N  sky130_fd_pr__nfet_g5v0d10v5_QKV39N_1
+timestamp 1750058993
+transform 1 0 2445 0 1 935
+box -158 -117 158 117
+<< end >>

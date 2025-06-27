@@ -1,13 +1,13 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749548291
+timestamp 1750900893
 use hnmos_2  hnmos_2_0
-timestamp 1749548291
+timestamp 1750900893
 transform 1 0 -4 0 1 -1
 box -4 1 548 199
 use hnmos_2  hnmos_2_1
-timestamp 1749548291
+timestamp 1750900893
 transform 1 0 548 0 1 -1
 box -4 1 548 199
 << end >>

@@ -10,16 +10,16 @@ node "m1_1529_n1847#" 1 220.85 1529 -1847 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_1588_n1904#" 117 165.971 1588 -1904 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6606 342 0 0 2244 200 2668 208 0 0 0 0 0 0 0 0 0 0
 node "a_1434_n1904#" 117 165.971 1434 -1904 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6606 342 0 0 2244 200 2668 208 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_1529_n1847#" "a_1434_n1904#" 1.06991
 cap "a_1588_n1904#" "m1_1529_n1847#" 1.06991
-cap "a_1434_n1904#" "m1_1529_n1847#" 1.06991
-cap "a_1434_n1904#" "a_1588_n1904#" 41.5064
+cap "a_1588_n1904#" "a_1434_n1904#" 41.5064
+cap "sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_15_n200#" 15.0968
+cap "sky130_fd_pr__nfet_01v8_TC9PLT_3/a_n15_n226#" "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_n15_n226#" 14.3448
+cap "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_n15_n226#" "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_15_n200#" 1.02768
 cap "sky130_fd_pr__nfet_01v8_TC9PLT_3/a_n15_n226#" "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_15_n200#" 1.02768
 cap "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_n15_n226#" "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_n73_n200#" 41.7864
-cap "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_15_n200#" "sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 15.0968
 cap "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_n73_n200#" "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_15_n200#" 15.0968
 cap "sky130_fd_pr__nfet_01v8_TC9PLT_3/a_n15_n226#" "sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 41.7864
-cap "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_n15_n226#" "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_15_n200#" 1.02768
-cap "sky130_fd_pr__nfet_01v8_TC9PLT_2/a_n15_n226#" "sky130_fd_pr__nfet_01v8_TC9PLT_3/a_n15_n226#" 14.3448
 merge "sky130_fd_pr__nfet_01v8_TC9PLT_2/VSUBS" "sky130_fd_pr__nfet_01v8_TC9PLT_3/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__nfet_01v8_TC9PLT_3/VSUBS" "VSUBS"
 merge "sky130_fd_pr__nfet_01v8_TC9PLT_3/a_n15_n226#" "a_1588_n1904#" -43.8869 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

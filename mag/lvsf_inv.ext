@@ -1,0 +1,58 @@
+timestamp 1750828667
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_sc_hvl__inv_1 sky130_fd_sc_hvl__inv_1_1 1 0 428 0 -1 2913
+use lvsf lvsf_0 1 0 -2560 0 1 1768
+node "m1_77_1968#" 0 587.112 77 1968 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 253440 2492 0 0 0 0 0 0 0 0 0 0
+node "m1_77_2788#" 1 471.08 77 2788 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 146520 2276 0 0 0 0 0 0 0 0 0 0
+node "li_647_2548#" 14 193.805 647 2548 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 4320 264 24480 936 0 0 0 0 0 0 0 0
+node "li_503_2548#" 15 554.853 503 2548 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 4320 264 34516 1390 44748 1488 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "li_503_2548#" "li_647_2548#" 54.9244
+cap "li_503_2548#" "m1_77_2788#" 13.9697
+cap "m1_77_1968#" "li_647_2548#" 8.84503
+cap "m1_77_2788#" "m1_77_1968#" 62.3453
+cap "m1_77_2788#" "li_647_2548#" 140.561
+cap "li_503_2548#" "m1_77_1968#" 225.574
+cap "lvsf_0/INB" "sky130_fd_sc_hvl__inv_1_1/A" 0.08358
+cap "lvsf_0/lvsf_ncell_l_0/sky130_fd_pr__nfet_01v8_AT5T57_1/a_15_n300#" "sky130_fd_sc_hvl__inv_1_1/A" -2.22045e-16
+cap "lvsf_0/VNBIAS" "sky130_fd_sc_hvl__inv_1_1/A" -1.42109e-14
+cap "lvsf_0/IN" "sky130_fd_sc_hvl__inv_1_1/A" 1.38778e-17
+cap "sky130_fd_sc_hvl__inv_1_1/VGND" "lvsf_0/VNBIAS" 0.0612565
+cap "sky130_fd_sc_hvl__inv_1_1/VPWR" "lvsf_0/VNBIAS" 0.348901
+cap "lvsf_0/lvsf_ncell_h_1/sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0/a_n158_n69#" "sky130_fd_sc_hvl__inv_1_1/A" 0.209069
+cap "sky130_fd_sc_hvl__inv_1_1/VGND" "sky130_fd_sc_hvl__inv_1_1/A" 0.105056
+cap "lvsf_0/lvsf_pcell_0/sky130_fd_pr__pfet_g5v0d10v5_LZK9AY_0/a_n247_n136#" "sky130_fd_sc_hvl__inv_1_1/A" 7.89146
+cap "sky130_fd_sc_hvl__inv_1_1/Y" "sky130_fd_sc_hvl__inv_1_1/VPWR" 9.18253
+cap "lvsf_0/lvsf_pcell_0/sky130_fd_pr__pfet_g5v0d10v5_6763AW_0/a_n80_n161#" "sky130_fd_sc_hvl__inv_1_1/VPWR" 3.37793
+cap "sky130_fd_sc_hvl__inv_1_1/A" "sky130_fd_sc_hvl__inv_1_1/VPWR" 95.4445
+cap "sky130_fd_sc_hvl__inv_1_1/VGND" "lvsf_0/VPBIAS" 2.96052
+cap "lvsf_0/lvsf_ncell_h_1/sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0/a_n158_n69#" "sky130_fd_sc_hvl__inv_1_1/A" 0.942431
+cap "lvsf_0/INB" "sky130_fd_sc_hvl__inv_1_1/A" 2.77432
+cap "sky130_fd_sc_hvl__inv_1_1/VGND" "sky130_fd_sc_hvl__inv_1_1/Y" 6.05592
+cap "sky130_fd_sc_hvl__inv_1_1/VGND" "lvsf_0/lvsf_pcell_0/sky130_fd_pr__pfet_g5v0d10v5_6763AW_0/a_n80_n161#" 0.274478
+cap "lvsf_0/VNBIAS" "sky130_fd_sc_hvl__inv_1_1/A" 0.667928
+cap "sky130_fd_sc_hvl__inv_1_1/VGND" "sky130_fd_sc_hvl__inv_1_1/A" 12.2034
+cap "sky130_fd_sc_hvl__inv_1_1/Y" "lvsf_0/VPBIAS" 8.04534
+cap "sky130_fd_sc_hvl__inv_1_1/VGND" "sky130_fd_sc_hvl__inv_1_1/VPWR" -15.9982
+cap "lvsf_0/lvsf_pcell_0/sky130_fd_pr__pfet_g5v0d10v5_LZK9AY_0/a_189_n136#" "sky130_fd_sc_hvl__inv_1_1/A" 3.80098
+cap "sky130_fd_sc_hvl__inv_1_1/A" "lvsf_0/VPBIAS" 115.736
+cap "lvsf_0/VPBIAS" "sky130_fd_sc_hvl__inv_1_1/VPWR" 105.584
+cap "sky130_fd_sc_hvl__inv_1_1/Y" "sky130_fd_sc_hvl__inv_1_1/A" 11.2519
+cap "lvsf_0/lvsf_pcell_0/sky130_fd_pr__pfet_g5v0d10v5_6763AW_0/a_n80_n161#" "sky130_fd_sc_hvl__inv_1_1/A" 28.0675
+cap "sky130_fd_sc_hvl__inv_1_1/Y" "sky130_fd_sc_hvl__inv_1_1/VGND" 2.92196
+cap "sky130_fd_sc_hvl__inv_1_1/VPWR" "sky130_fd_sc_hvl__inv_1_1/VGND" 0.0286971
+cap "sky130_fd_sc_hvl__inv_1_1/A" "sky130_fd_sc_hvl__inv_1_1/VGND" 2.59539
+merge "lvsf_0/VSUBS" "sky130_fd_sc_hvl__inv_1_1/VGND" -169.425 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -34560 -1392 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hvl__inv_1_1/VGND" "VSUBS"
+merge "VSUBS" "sky130_fd_sc_hvl__inv_1_1/VNB"
+merge "sky130_fd_sc_hvl__inv_1_1/VNB" "m1_77_2788#"
+merge "lvsf_0/OUTP" "sky130_fd_sc_hvl__inv_1_1/A" -219.698 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 -3136 -224 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hvl__inv_1_1/A" "li_503_2548#"
+merge "lvsf_0/VDDH" "sky130_fd_sc_hvl__inv_1_1/VPB" -896.759 0 0 0 0 -32760 -996 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -93960 -3492 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hvl__inv_1_1/VPB" "sky130_fd_sc_hvl__inv_1_1/VPWR"
+merge "sky130_fd_sc_hvl__inv_1_1/VPWR" "m1_77_1968#"
+merge "sky130_fd_sc_hvl__inv_1_1/Y" "li_647_2548#" -63.9621 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0

@@ -261,8 +261,8 @@ logy=0
 color=4
 node=difference}
 B 2 20 -2150 820 -1750 {flags=graph
-y1=-76
-y2=69
+y1=-110
+y2=130
 ypos1=0
 ypos2=2
 divy=5
@@ -332,56 +332,56 @@ N 300 -930 510 -930 {lab=gnd}
 N 160 -980 160 -960 {lab=i_pdiff0}
 N 160 -980 650 -980 {lab=i_pdiff0}
 N 650 -980 650 -960 {lab=i_pdiff0}
-N 120 -940 120 -930 {lab=IN[0]}
-N 120 -940 260 -940 {lab=IN[0]}
-N 260 -940 260 -930 {lab=IN[0]}
-N 550 -940 550 -930 {lab=OUT}
-N 550 -940 690 -940 {lab=OUT}
-N 690 -940 690 -930 {lab=OUT}
+N 120 -940 120 -930 {lab=NON_INV}
+N 120 -940 260 -940 {lab=NON_INV}
+N 260 -940 260 -930 {lab=NON_INV}
+N 550 -940 550 -930 {lab=INVERTING}
+N 550 -940 690 -940 {lab=INVERTING}
+N 690 -940 690 -930 {lab=INVERTING}
 N 300 -1060 510 -1060 {lab=i_ndiff1}
 N 300 -1090 510 -1090 {lab=gnd}
 N 160 -1140 160 -1120 {lab=i_pdiff1}
 N 160 -1140 650 -1140 {lab=i_pdiff1}
 N 650 -1140 650 -1120 {lab=i_pdiff1}
-N 120 -1100 120 -1090 {lab=IN[1]}
-N 120 -1100 260 -1100 {lab=IN[1]}
-N 260 -1100 260 -1090 {lab=IN[1]}
-N 550 -1100 550 -1090 {lab=OUT}
-N 550 -1100 690 -1100 {lab=OUT}
-N 690 -1100 690 -1090 {lab=OUT}
+N 120 -1100 120 -1090 {lab=NON_INV}
+N 120 -1100 260 -1100 {lab=NON_INV}
+N 260 -1100 260 -1090 {lab=NON_INV}
+N 550 -1100 550 -1090 {lab=INVERTING}
+N 550 -1100 690 -1100 {lab=INVERTING}
+N 690 -1100 690 -1090 {lab=INVERTING}
 N 300 -1230 510 -1230 {lab=i_ndiff2}
 N 300 -1260 510 -1260 {lab=gnd}
 N 160 -1310 160 -1290 {lab=i_pdiff2}
 N 160 -1310 650 -1310 {lab=i_pdiff2}
 N 650 -1310 650 -1290 {lab=i_pdiff2}
-N 120 -1270 120 -1260 {lab=IN[2]}
-N 120 -1270 260 -1270 {lab=IN[2]}
-N 260 -1270 260 -1260 {lab=IN[2]}
-N 550 -1270 550 -1260 {lab=OUT}
-N 550 -1270 690 -1270 {lab=OUT}
-N 690 -1270 690 -1260 {lab=OUT}
+N 120 -1270 120 -1260 {lab=NON_INV}
+N 120 -1270 260 -1270 {lab=NON_INV}
+N 260 -1270 260 -1260 {lab=NON_INV}
+N 550 -1270 550 -1260 {lab=INVERTING}
+N 550 -1270 690 -1270 {lab=INVERTING}
+N 690 -1270 690 -1260 {lab=INVERTING}
 N 300 -1390 510 -1390 {lab=i_ndiff3}
 N 300 -1420 510 -1420 {lab=gnd}
 N 160 -1470 160 -1450 {lab=i_pdiff3}
 N 160 -1470 650 -1470 {lab=i_pdiff3}
 N 650 -1470 650 -1450 {lab=i_pdiff3}
-N 120 -1430 120 -1420 {lab=IN[3]}
-N 120 -1430 260 -1430 {lab=IN[3]}
-N 260 -1430 260 -1420 {lab=IN[3]}
-N 550 -1430 550 -1420 {lab=OUT}
-N 550 -1430 690 -1430 {lab=OUT}
-N 690 -1430 690 -1420 {lab=OUT}
+N 120 -1430 120 -1420 {lab=NON_INV}
+N 120 -1430 260 -1430 {lab=NON_INV}
+N 260 -1430 260 -1420 {lab=NON_INV}
+N 550 -1430 550 -1420 {lab=INVERTING}
+N 550 -1430 690 -1430 {lab=INVERTING}
+N 690 -1430 690 -1420 {lab=INVERTING}
 N 300 -1550 510 -1550 {lab=i_ndiff4}
 N 300 -1580 510 -1580 {lab=gnd}
 N 160 -1630 160 -1610 {lab=i_pdiff4}
 N 160 -1630 650 -1630 {lab=i_pdiff4}
 N 650 -1630 650 -1610 {lab=i_pdiff4}
-N 120 -1590 120 -1580 {lab=IN[4]}
-N 120 -1590 260 -1590 {lab=IN[4]}
-N 260 -1590 260 -1580 {lab=IN[4]}
-N 550 -1590 550 -1580 {lab=OUT}
-N 550 -1590 690 -1590 {lab=OUT}
-N 690 -1590 690 -1580 {lab=OUT}
+N 120 -1590 120 -1580 {lab=NON_INV}
+N 120 -1590 260 -1590 {lab=NON_INV}
+N 260 -1590 260 -1580 {lab=NON_INV}
+N 550 -1590 550 -1580 {lab=INVERTING}
+N 550 -1590 690 -1590 {lab=INVERTING}
+N 690 -1590 690 -1580 {lab=INVERTING}
 N 860 -1010 1100 -1010 {lab=#net1}
 N 860 -1160 1100 -1160 {lab=#net2}
 N 860 -1330 1100 -1330 {lab=#net3}
@@ -401,7 +401,6 @@ N 2210 -1320 2220 -1320 {lab=#net6}
 N 2360 -1420 2420 -1420 {lab=load}
 N 2420 -1420 2420 -1400 {lab=load}
 N 2210 -1420 2300 -1420 {lab=out}
-N 2100 -1420 2210 -1420 {lab=out}
 N 140 -740 140 -720 {lab=vddh2}
 N 130 -690 140 -690 {lab=vddh2}
 N 130 -720 130 -690 {lab=vddh2}
@@ -612,11 +611,11 @@ N 400 -1160 400 -1140 {lab=i_pdiff1}
 N 400 -1330 400 -1310 {lab=i_pdiff2}
 N 400 -1490 400 -1470 {lab=i_pdiff3}
 N 400 -1650 400 -1630 {lab=i_pdiff4}
-N 690 -930 740 -930 {lab=OUT}
-N 690 -1090 740 -1090 {lab=OUT}
-N 690 -1260 740 -1260 {lab=OUT}
-N 690 -1420 740 -1420 {lab=OUT}
-N 690 -1580 740 -1580 {lab=OUT}
+N 690 -930 740 -930 {lab=INVERTING}
+N 690 -1090 740 -1090 {lab=INVERTING}
+N 690 -1260 740 -1260 {lab=INVERTING}
+N 690 -1420 740 -1420 {lab=INVERTING}
+N 690 -1580 740 -1580 {lab=INVERTING}
 N 130 -340 140 -340 {lab=vddh2}
 N 130 -350 130 -340 {lab=vddh2}
 N 130 -420 130 -350 {lab=vddh2}
@@ -684,11 +683,14 @@ N -310 -1160 -270 -1160 {
 lab=GND}
 N -310 -1200 -270 -1200 {
 lab=#net33}
-N 70 -930 120 -930 {lab=IN[0]}
-N 70 -1090 120 -1090 {lab=IN[1]}
-N 70 -1260 120 -1260 {lab=IN[2]}
-N 70 -1420 120 -1420 {lab=IN[3]}
-N 70 -1580 120 -1580 {lab=IN[4]}
+N 70 -930 120 -930 {lab=NON_INV}
+N 70 -1090 120 -1090 {lab=NON_INV}
+N 70 -1260 120 -1260 {lab=NON_INV}
+N 70 -1420 120 -1420 {lab=NON_INV}
+N 70 -1580 120 -1580 {lab=NON_INV}
+N 2100 -1360 2100 -1340 {lab=OUTPA}
+N 2100 -1490 2100 -1480 {lab=OUTNA}
+N 2100 -1420 2210 -1420 {lab=out}
 C {devices/lab_pin.sym} 300 -960 0 1 {name=p3 sig_type=std_logic lab=OUTN0A}
 C {devices/lab_pin.sym} 400 -930 0 0 {name=p4 sig_type=std_logic lab=gnd}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 280 -930 0 0 {name=M1
@@ -834,11 +836,11 @@ value="
      save all
      set num_threads=8
      *save inc ind out load
-     tran 10n 100u
+     *tran 10n 100u
      *dc vin0 -1 6.5 0.01
      *dc R2 100k 500k 1k
 
-     *ac dec 100 1 1e9
+     ac dec 100 1 1e9
      let difference=v(inc)-v(ind)
      let vout_mag =abs(v(out))
      let vout_phase_margin = phase(v(out))*180/pi + 180
@@ -1030,8 +1032,8 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 2100 -1480 2 1 {name=p114 sig_type=std_logic lab=OUTNA}
-C {devices/lab_pin.sym} 2100 -1360 2 1 {name=p115 sig_type=std_logic lab=OUTPA}
+C {devices/lab_pin.sym} 2100 -1490 2 1 {name=p114 sig_type=std_logic lab=OUTNA}
+C {devices/lab_pin.sym} 2100 -1340 2 1 {name=p115 sig_type=std_logic lab=OUTPA}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} 160 -690 0 1 {name=M39
 L=lref
 W=wp_iref
@@ -1403,11 +1405,11 @@ C {devices/launcher.sym} 450 -1730 0 0 {name=h3
 descr="load ac" 
 tclcommand="xschem raw_read $netlist_dir/op_amp_v3-tb.raw ac"
 }
-C {devices/lab_pin.sym} 740 -930 0 1 {name=p31 sig_type=std_logic lab=OUT}
-C {devices/lab_pin.sym} 740 -1090 0 1 {name=p41 sig_type=std_logic lab=OUT}
-C {devices/lab_pin.sym} 740 -1260 0 1 {name=p42 sig_type=std_logic lab=OUT}
-C {devices/lab_pin.sym} 740 -1420 0 1 {name=p52 sig_type=std_logic lab=OUT}
-C {devices/lab_pin.sym} 740 -1580 0 1 {name=p55 sig_type=std_logic lab=OUT}
+C {devices/lab_pin.sym} 740 -930 0 1 {name=p31 sig_type=std_logic lab=INVERTING}
+C {devices/lab_pin.sym} 740 -1090 0 1 {name=p41 sig_type=std_logic lab=INVERTING}
+C {devices/lab_pin.sym} 740 -1260 0 1 {name=p42 sig_type=std_logic lab=INVERTING}
+C {devices/lab_pin.sym} 740 -1420 0 1 {name=p52 sig_type=std_logic lab=INVERTING}
+C {devices/lab_pin.sym} 740 -1580 0 1 {name=p55 sig_type=std_logic lab=INVERTING}
 C {devices/ammeter.sym} 140 -810 0 0 {name=Vmeas20 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 295 -785 0 0 {name=p80 sig_type=std_logic lab=vddho}
 C {devices/lab_pin.sym} 140 -840 0 0 {name=p81 sig_type=std_logic lab=vddho}
@@ -2109,8 +2111,8 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 70 -930 0 0 {name=p83 sig_type=std_logic lab=IN[0]}
-C {devices/lab_pin.sym} 70 -1090 0 0 {name=p86 sig_type=std_logic lab=IN[1]}
-C {devices/lab_pin.sym} 70 -1260 0 0 {name=p87 sig_type=std_logic lab=IN[2]}
-C {devices/lab_pin.sym} 70 -1420 0 0 {name=p88 sig_type=std_logic lab=IN[3]}
-C {devices/lab_pin.sym} 70 -1580 0 0 {name=p89 sig_type=std_logic lab=IN[4]}
+C {devices/lab_pin.sym} 70 -930 0 0 {name=p83 sig_type=std_logic lab=NON_INV}
+C {devices/lab_pin.sym} 70 -1090 0 0 {name=p86 sig_type=std_logic lab=NON_INV}
+C {devices/lab_pin.sym} 70 -1260 0 0 {name=p87 sig_type=std_logic lab=NON_INV}
+C {devices/lab_pin.sym} 70 -1420 0 0 {name=p88 sig_type=std_logic lab=NON_INV}
+C {devices/lab_pin.sym} 70 -1580 0 0 {name=p89 sig_type=std_logic lab=NON_INV}

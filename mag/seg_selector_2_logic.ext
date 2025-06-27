@@ -1,0 +1,101 @@
+timestamp 1749736748
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_sc_hd__nand3_1 x5 1 0 1457 0 1 -3445
+use sky130_fd_sc_hd__nand4_1 x4 1 0 1825 0 1 -3445
+use sky130_fd_sc_hd__nand2_1 x3 1 0 1089 0 1 -3445
+use sky130_fd_sc_hd__nand2_1 x2 1 0 813 0 1 -3445
+use sky130_fd_sc_hd__nand2_1 x1 1 0 537 0 1 -3445
+use sky130_fd_sc_hd__tapvpwrvgnd_1 sky130_fd_sc_hd__tapvpwrvgnd_1_0 1 0 1365 0 1 -3445
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "x5/VNB" "x5/a_193_47#" 0.11592
+cap "x5/VNB" "x1/B" 0.320965
+cap "x2/A" "x3/Y" 0.93413
+cap "x5/VNB" "x1/Y" 51.9631
+cap "x5/VNB" "x3/A" 1.60746
+cap "x5/B" "x4/a_109_47#" 0.0349683
+cap "x2/Y" "x3/Y" 6.44762
+cap "x3/A" "x5/Y" 0.161175
+cap "x5/C" "x3/Y" 6.19321
+cap "x1/A" "x2/Y" 0.93413
+cap "x5/VNB" "x1/a_113_47#" 0.0983738
+cap "x5/VNB" "x2/B" 0.696441
+cap "x5/VPB" "x4/D" -0.0818517
+cap "x5/VNB" "x3/a_113_47#" 0.0983738
+cap "x4/C" "x5/Y" 0.101165
+cap "x1/Y" "x2/Y" 6.44762
+cap "x3/A" "x5/C" 23.3715
+cap "x5/VNB" "x5/Y" 50.7212
+cap "x5/VPB" "x3/Y" 2.4458
+cap "x5/VNB" "x5/A" 1.2578
+cap "x5/VPB" "x5/B" 1.06581e-14
+cap "x5/VPB" "x1/A" 2.01147
+cap "x5/B" "x4/D" 0.314149
+cap "x5/VNB" "x2/A" 1.28593
+cap "x5/VPB" "x1/B" 1.42109e-14
+cap "x5/VNB" "x2/Y" 51.9631
+cap "x5/VPB" "x1/Y" 0.574832
+cap "x5/VNB" "x5/C" 6.75557
+cap "x5/VNB" "x3/B" 0.696441
+cap "x5/VPB" "x3/A" 4.748
+cap "x5/VPB" "x2/B" 1.80476
+cap "x5/VNB" "x5/a_109_47#" 0.0580545
+cap "x2/A" "x3/B" 54.7748
+cap "x4/B" "x5/Y" 0.0709027
+cap "x3/B" "x2/Y" 1.52188
+cap "x5/VNB" "x5/VPB" -4.9738e-14
+cap "x5/VPB" "x5/Y" 78.6026
+cap "x5/VPB" "x5/A" 2.58115
+cap "x5/Y" "x4/Y" 0.769298
+cap "x5/VNB" "x2/a_113_47#" 0.0983738
+cap "x2/B" "x1/A" 54.7748
+cap "x5/B" "x4/C" 1.6236
+cap "x4/D" "x5/Y" 0.154906
+cap "x5/A" "x4/D" 50.3402
+cap "x5/VPB" "x2/A" 2.01147
+cap "x5/VNB" "x3/Y" 45.9113
+cap "x5/VPB" "x2/Y" 1.1634
+cap "x5/VNB" "x5/B" 0.544789
+cap "x5/VNB" "x1/A" 1.28593
+cap "x5/VPB" "x5/C" 4.72999
+cap "x5/VPB" "x3/B" 1.80476
+cap "x3/Y" "x5/Y" 2.14348
+cap "x2/B" "x1/Y" 1.52188
+cap "x4/D" "x5/VNB" 0.381
+cap "x4/A" "x5/VPB" 2.13163e-14
+cap "x4/Y" "x5/VPB" 0.546563
+cap "x5/B" "x4/C" 1.6236
+cap "x5/A" "x4/D" 5.36709
+cap "x4/B" "x5/VPB" 2.13163e-14
+cap "x5/Y" "x4/C" 0.256111
+cap "x4/D" "x5/VPB" 1.81206
+cap "x4/C" "x5/a_193_47#" 0.0385693
+cap "x4/Y" "x5/B" 0.0647071
+cap "x5/Y" "x4/Y" 0.76373
+cap "x5/A" "x4/C" 0.316521
+cap "x5/VNB" "x5/VPB" 7.10543e-15
+cap "x4/Y" "x5/A" 0.0957923
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "x4/VGND" -431.948 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -340 0 -960 0 0 0 0 0 0 0 0 0 0
+merge "x4/VGND" "x5/VGND"
+merge "x5/VGND" "x1/VGND"
+merge "x1/VGND" "x2/VGND"
+merge "x2/VGND" "x3/VGND"
+merge "x3/VGND" "x1/VNB"
+merge "x1/VNB" "x2/VNB"
+merge "x2/VNB" "x3/VNB"
+merge "x3/VNB" "x4/VNB"
+merge "x4/VNB" "x5/VNB"
+merge "x5/VNB" "VSUBS"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "x4/VPWR" -1152.77 0 0 0 0 -121980 -3970 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -340 0 -960 0 0 0 0 0 0 0 0 0 0
+merge "x4/VPWR" "x5/VPWR"
+merge "x5/VPWR" "x1/VPWR"
+merge "x1/VPWR" "x2/VPWR"
+merge "x2/VPWR" "x3/VPWR"
+merge "x3/VPWR" "x4/VPB"
+merge "x4/VPB" "x5/VPB"
+merge "x5/VPB" "x1/VPB"
+merge "x1/VPB" "x2/VPB"
+merge "x2/VPB" "x3/VPB"

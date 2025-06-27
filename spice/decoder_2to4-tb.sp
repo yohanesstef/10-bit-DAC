@@ -1,4 +1,5 @@
 .include $THESIS_WS/pex/decoder_2to4.pex.spice
+.include $THESIS_WS/pex/top_bias_lvsf_dec.pex.spice
 .option wnflag=1
 .option safecurrents
 .option solver=klu
@@ -36,7 +37,7 @@ Vinb2 bb[1] gnd pulse({vhi} 0 {0} 1p 1p {20u} {40u})
     save all
     set num_threads=8
     tran 10n 100u
-    write dec-tb.raw
+    write dec-tb2.raw
     set appendwrite
 *    quit 0
 .endc

@@ -1,33 +1,41 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749801796
+timestamp 1750828667
+<< metal1 >>
+rect -13 -111 47 842
+rect 977 -111 1037 842
+rect 1967 -111 2027 842
+rect 2957 -111 3017 842
+rect 3947 -111 4007 842
+rect 4937 -111 4997 842
+rect 5927 -111 5987 842
 use lvsf_buff  lvsf_buff_0
-timestamp 1749801796
+timestamp 1750828667
 transform 1 0 -28 0 1 -146
 box -21 -14 1101 2939
 use lvsf_buff  lvsf_buff_1
-timestamp 1749801796
+timestamp 1750828667
 transform 1 0 962 0 1 -146
 box -21 -14 1101 2939
 use lvsf_buff  lvsf_buff_2
-timestamp 1749801796
+timestamp 1750828667
 transform 1 0 2942 0 1 -146
 box -21 -14 1101 2939
 use lvsf_buff  lvsf_buff_3
-timestamp 1749801796
+timestamp 1750828667
 transform 1 0 1952 0 1 -146
 box -21 -14 1101 2939
 use lvsf_buff  lvsf_buff_4
-timestamp 1749801796
+timestamp 1750828667
 transform 1 0 4922 0 1 -146
 box -21 -14 1101 2939
 use lvsf_buff  lvsf_buff_5
-timestamp 1749801796
+timestamp 1750828667
 transform 1 0 3932 0 1 -146
 box -21 -14 1101 2939
 use lvsf_buff  lvsf_buff_7
-timestamp 1749801796
+timestamp 1750828667
 transform 1 0 5912 0 1 -146
 box -21 -14 1101 2939
 << end >>

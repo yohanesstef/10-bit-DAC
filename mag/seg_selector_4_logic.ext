@@ -1,0 +1,56 @@
+timestamp 1749664768
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_sc_hd__nor2_1 x3 1 0 840 0 1 -2214
+use sky130_fd_sc_hd__nand2_1 x2 1 0 564 0 1 -2214
+use sky130_fd_sc_hd__nand2_1 x1 1 0 288 0 1 -2214
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "x3/VGND" "x3/VPB" -4.44089e-15
+cap "x1/B" "x3/VGND" 0.320965
+cap "x3/VPB" "x2/B" 1.2455
+cap "x3/a_109_297#" "x3/VPWR" 0.13816
+cap "x3/VPB" "x1/Y" 0.529245
+cap "x2/A" "x3/B" 54.7749
+cap "x1/A" "x3/VPWR" 0.602699
+cap "x2/Y" "x3/a_109_297#" 0.00762458
+cap "x3/Y" "x3/VPB" -1.32459
+cap "x2/Y" "x1/A" 0.93413
+cap "x3/VGND" "x1/a_113_47#" 0.0983738
+cap "x2/Y" "x3/VPWR" 0.0455868
+cap "x3/VGND" "x2/A" 1.27566
+cap "x3/B" "x3/VPWR" 1.31503
+cap "x3/Y" "x2/A" 1.04527
+cap "x2/Y" "x3/B" 1.03447
+cap "x3/VGND" "x1/A" 1.28593
+cap "x1/A" "x2/B" 54.7748
+cap "x3/VPB" "x2/A" 1.29967
+cap "x3/VGND" "x3/VPWR" -1.42109e-14
+cap "x2/B" "x3/VPWR" 0.559253
+cap "x2/Y" "x3/VGND" 49.1185
+cap "x3/VPB" "x1/A" 1.40877
+cap "x3/VPWR" "x1/Y" 0.0455868
+cap "x3/VPB" "x3/VPWR" -12.023
+cap "x3/VGND" "x2/a_113_47#" 0.0962615
+cap "x2/Y" "x1/Y" 6.44762
+cap "x3/Y" "x3/VPWR" 76.3897
+cap "x3/VGND" "x3/B" 0.381
+cap "x2/Y" "x3/Y" 6.6475
+cap "x2/Y" "x3/VPB" 1.0736
+cap "x3/A" "x3/VPWR" 0.388899
+cap "x3/VPB" "x3/B" 1.30168
+cap "x3/VGND" "x2/B" 0.686482
+cap "x2/B" "x1/Y" 1.52188
+cap "x3/VGND" "x1/Y" 51.9631
+cap "x2/A" "x3/VPWR" 0.381
+merge "x1/VNB" "x2/VNB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x2/VNB" "x3/VNB"
+merge "x3/VNB" "VSUBS"
+merge "x1/VPWR" "x2/VPWR" -224.342 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -136 0 -384 0 0 0 0 0 0 0 0 0 0
+merge "x2/VPWR" "x3/VPWR"
+merge "x1/VPB" "x2/VPB" -146.376 0 0 0 0 -48792 -1588 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "x2/VPB" "x3/VPB"
+merge "x1/VGND" "x2/VGND" -170.284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -136 0 -384 0 0 0 0 0 0 0 0 0 0
+merge "x2/VGND" "x3/VGND"

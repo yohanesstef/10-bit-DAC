@@ -1,0 +1,62 @@
+timestamp 1750863581
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use buffer_cell buffer_cell_0 1 0 1290 0 1 4139
+use buffer_cell buffer_cell_1 1 0 1934 0 1 4139
+use buffer_cell buffer_cell_3 1 0 2578 0 1 4139
+use buffer_cell buffer_cell_2 1 0 3222 0 1 4139
+use buffer_cell buffer_cell_6 1 0 3866 0 1 4139
+use buffer_cell buffer_cell_7 1 0 4510 0 1 4139
+use buffer_cell buffer_cell_5 1 0 5154 0 1 4139
+use buffer_cell buffer_cell_4 1 0 5798 0 1 4139
+use buffer_cell buffer_cell_10 1 0 6442 0 1 4139
+use buffer_cell buffer_cell_11 1 0 7086 0 1 4139
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_11/VSUBS" "buffer_cell_10/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_10/VSUBS" "buffer_cell_4/VSUBS"
+merge "buffer_cell_4/VSUBS" "buffer_cell_5/VSUBS"
+merge "buffer_cell_5/VSUBS" "buffer_cell_7/VSUBS"
+merge "buffer_cell_7/VSUBS" "buffer_cell_6/VSUBS"
+merge "buffer_cell_6/VSUBS" "buffer_cell_2/VSUBS"
+merge "buffer_cell_2/VSUBS" "buffer_cell_3/VSUBS"
+merge "buffer_cell_3/VSUBS" "buffer_cell_1/VSUBS"
+merge "buffer_cell_1/VSUBS" "buffer_cell_0/VSUBS"
+merge "buffer_cell_0/VSUBS" "VSUBS"
+merge "buffer_cell_10/GND" "buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_4/GND"
+merge "buffer_cell_4/GND" "buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_6/VDD" "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_6/x1/VPB"
+merge "buffer_cell_6/x1/VPB" "buffer_cell_2/x1/VPB"
+merge "buffer_cell_2/x1/VPB" "buffer_cell_2/VDD"
+merge "buffer_cell_2/VDD" "buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_6/GND" "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_2/GND"
+merge "buffer_cell_2/GND" "buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_3/VDD" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_3/x1/VPB"
+merge "buffer_cell_3/x1/VPB" "buffer_cell_1/x1/VPB"
+merge "buffer_cell_1/x1/VPB" "buffer_cell_1/VDD"
+merge "buffer_cell_1/VDD" "buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_11/GND" "buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_5/VDD" "buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_5/x1/VPB"
+merge "buffer_cell_5/x1/VPB" "buffer_cell_7/x1/VPB"
+merge "buffer_cell_7/x1/VPB" "buffer_cell_7/VDD"
+merge "buffer_cell_7/VDD" "buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_3/GND" "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_1/GND"
+merge "buffer_cell_1/GND" "buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_cell_11/VDD" "buffer_cell_11/x1/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_11/x1/VPB" "buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_10/VDD" "buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_cell_10/x1/VPB"
+merge "buffer_cell_10/x1/VPB" "buffer_cell_4/x1/VPB"
+merge "buffer_cell_4/x1/VPB" "buffer_cell_4/VDD"
+merge "buffer_cell_4/VDD" "buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_cell_5/GND" "buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_cell_7/GND"
+merge "buffer_cell_7/GND" "buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"

@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750906255
+use top_rseg_n_dcell  top_rseg_n_dcell_0
+timestamp 1750901708
+transform 1 0 1109 0 1 -1177
+box -1141 1186 46831 23447
+<< end >>

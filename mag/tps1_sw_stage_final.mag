@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749550684
+timestamp 1750900893
 << error_p >>
 rect 37364 -7208 37370 -7202
 rect 37418 -7208 37424 -7202
@@ -200,11 +200,11 @@ rect 35208 -5008 40041 -4948
 rect 34932 -5096 39765 -5036
 rect 34656 -5184 39489 -5124
 use nswitch_8_stage_1  nswitch_8_stage_1_0
-timestamp 1749550684
+timestamp 1750900893
 transform 1 0 9756 0 1 2700
 box 29523 -8466 32011 -7202
 use nswitch_8_stage_2  nswitch_8_stage_2_0
-timestamp 1749550684
+timestamp 1750900893
 transform 1 0 0 0 1 -88
 box 34291 -5650 36817 -4414
 << end >>

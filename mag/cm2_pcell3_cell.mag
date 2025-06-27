@@ -1,0 +1,24 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750201071
+<< error_p >>
+rect -505 7443 1121 7447
+rect -505 7377 1121 7381
+<< error_s >>
+rect -1816 7381 -1786 7869
+rect -1750 7447 -1720 7803
+rect 2336 7447 2366 7803
+rect -1750 7443 -505 7447
+rect 1121 7443 2366 7447
+rect 2402 7381 2432 7869
+rect -1816 7377 -505 7381
+rect 1121 7377 2432 7381
+<< poly >>
+rect -1825 7417 -1765 7900
+rect 2381 7417 2441 7900
+use sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD  sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1 ~/10-bit-DAC/mag
+timestamp 1750057315
+transform 1 0 308 0 1 7659
+box -2124 -282 2124 244
+<< end >>

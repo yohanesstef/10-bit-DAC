@@ -17,7 +17,7 @@ C {devices/lab_pin.sym} 350 -350 0 0 {name=p10 sig_type=std_logic lab=IN[0]}
 C {devices/lab_pin.sym} 350 -290 0 0 {name=p13 sig_type=std_logic lab=IN[1]}
 C {devices/lab_pin.sym} 350 -230 0 0 {name=p16 sig_type=std_logic lab=IN[2]}
 C {devices/lab_pin.sym} 350 -170 0 0 {name=p19 sig_type=std_logic lab=IN[3]}
-C {sky130_stdcells/inv_1.sym} 390 -350 0 0 {name=x1 VGND=GND VNB=GND VPB=VDDH VPWR=VDDH prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/inv_1.sym} 390 -290 0 0 {name=x2 VGND=GND VNB=GND VPB=VDDH VPWR=VDDH prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/inv_1.sym} 390 -230 0 0 {name=x3 VGND=GND VNB=GND VPB=VDDH VPWR=VDDH prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/inv_1.sym} 390 -170 0 0 {name=x4 VGND=GND VNB=GND VPB=VDDH VPWR=VDDH prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_1.sym} 390 -350 0 0 {name=x1 VGND=GND VNB=GND VPB=VDDH VPWR=VDDH prefix=sky130_fd_sc_hvl__ }
+C {sky130_stdcells/inv_1.sym} 390 -290 0 0 {name=x2 VGND=GND VNB=GND VPB=VDDH VPWR=VDDH prefix=sky130_fd_sc_hvl__ }
+C {sky130_stdcells/inv_1.sym} 390 -230 0 0 {name=x3 VGND=GND VNB=GND VPB=VDDH VPWR=VDDH prefix=sky130_fd_sc_hvl__ }
+C {sky130_stdcells/inv_1.sym} 390 -170 0 0 {name=x4 VGND=GND VNB=GND VPB=VDDH VPWR=VDDH prefix=sky130_fd_sc_hvl__ }

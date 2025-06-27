@@ -1,0 +1,797 @@
+timestamp 1750860659
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use dcell_buffer_bus dcell_buffer_bus_0 1 0 0 0 1 0
+use dcell_lv dcell_lv_0 1 0 5395 0 1 -747
+port "GND" 23 11774 -4445 11774 -4445 m1
+port "VDD" 22 12375 -3868 12375 -3868 m1
+port "DIN0" 0 18461 -4447 18521 -4387 m2
+port "DIN1" 1 17817 -4447 17877 -4387 m2
+port "DIN2" 2 17173 -4447 17233 -4387 m2
+port "DIN3" 3 16529 -4447 16589 -4387 m2
+port "DIN4" 4 15885 -4447 15945 -4387 m2
+port "DIN5" 5 15241 -4447 15301 -4387 m2
+port "DIN6" 6 14597 -4447 14657 -4387 m2
+port "DIN7" 7 13953 -4447 14013 -4387 m2
+port "DIN8" 8 13309 -4447 13369 -4387 m2
+port "DIN9" 9 12665 -4447 12725 -4387 m2
+port "DS[8]" 18 9062 -1751 9122 -1691 m2
+port "DSB[8]" 20 9062 -1658 9122 -1598 m2
+port "DS[9]" 19 9062 -1175 9122 -1115 m2
+port "DSB[9]" 21 9062 -1087 9122 -1027 m2
+port "S[2]" 11 9420 -1443 9480 -1383 m2
+port "SB[2]" 15 9332 -1355 9392 -1295 m2
+port "SB[1]" 14 9156 -1531 9216 -1471 m2
+port "SB[3]" 16 9508 -1267 9568 -1207 m2
+port "S[1]" 10 9244 -1619 9304 -1559 m2
+port "S[3]" 12 9596 -1179 9656 -1119 m2
+port "SB[4]" 17 9684 -1091 9744 -1031 m2
+port "S[4]" 13 9772 -1003 9832 -943 m2
+node "GND" 0 0 11774 -4445 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 12375 -3868 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN0" 0 41.3013 18461 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN1" 0 35.7156 17817 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN2" 0 35.7156 17173 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN3" 0 35.7156 16529 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN4" 0 35.7156 15885 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN5" 0 35.7156 15241 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN6" 0 35.7156 14597 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN7" 0 35.7156 13953 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN8" 0 35.7156 13309 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DIN9" 0 41.3013 12665 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "m2_8872_n1959#" 0 83.4729 8872 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18096 544 0 0 0 0 0 0 0 0
+node "m2_8688_n1959#" 0 105.055 8688 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35568 768 0 0 0 0 0 0 0 0
+node "m2_8596_n1959#" 0 28.7796 8596 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7424 360 0 0 0 0 0 0 0 0
+node "m2_8504_n1959#" 0 28.7796 8504 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7424 360 0 0 0 0 0 0 0 0
+node "m2_8412_n1959#" 0 28.7796 8412 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7424 360 0 0 0 0 0 0 0 0
+node "m2_8320_n1959#" 0 49.9978 8320 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7424 360 0 0 0 0 0 0 0 0
+node "m2_6030_n1959#" 0 49.9978 6030 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7424 360 0 0 0 0 0 0 0 0
+node "m2_5938_n1959#" 0 28.7796 5938 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7424 360 0 0 0 0 0 0 0 0
+node "m2_5846_n1959#" 0 28.7796 5846 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7424 360 0 0 0 0 0 0 0 0
+node "m2_5754_n1959#" 0 28.7796 5754 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7424 360 0 0 0 0 0 0 0 0
+node "m2_5570_n1959#" 0 68.1878 5570 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18096 544 0 0 0 0 0 0 0 0
+node "m2_5386_n1959#" 0 89.406 5386 -1959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18096 544 0 0 0 0 0 0 0 0
+node "m1_8865_n1875#" 2 438.307 8865 -1875 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 85600 2216 0 0 0 0 0 0 0 0 0 0
+node "DS[8]" 1 265.7 9062 -1751 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5132 322 9272 422 45276 1626 0 0 0 0 0 0
+node "DSB[8]" 1 126.804 9062 -1658 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6500 330 7312 368 45216 1624 0 0 0 0 0 0
+node "DS[9]" 1 120.784 9062 -1175 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5132 322 16144 672 41796 1510 0 0 0 0 0 0
+node "DSB[9]" 1 182.293 9062 -1087 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5104 320 10256 474 46432 1632 0 0 0 0 0 0
+node "S[2]" 4 203.083 9420 -1443 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45600 1760 51660 1962 0 0 0 0 0 0 0 0
+node "SB[2]" 4 188.273 9332 -1355 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50880 1936 51660 1962 0 0 0 0 0 0 0 0
+node "SB[1]" 5 415.929 9156 -1531 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 94720 3288 41700 1510 0 0 0 0 0 0 0 0
+node "SB[3]" 5 356.133 9508 -1267 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 82840 3012 51660 1962 0 0 0 0 0 0 0 0
+node "S[1]" 5 375.823 9244 -1619 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 115840 3992 36420 1334 0 0 0 0 0 0 0 0
+node "S[3]" 7 674.143 9596 -1179 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 139360 5672 15300 630 0 0 0 0 0 0 0 0
+node "SB[4]" 7 459.617 9684 -1091 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 145452 5650 10020 454 0 0 0 0 0 0 0 0
+node "S[4]" 7 780.575 9772 -1003 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 147408 5808 4740 278 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "SB[2]" "S[4]" 1.07793
+cap "DIN3" "DIN4" 4.65839
+cap "SB[3]" "SB[4]" 6.53544
+cap "SB[1]" "S[3]" 0.736151
+cap "S[3]" "m1_8865_n1875#" 4.44454
+cap "DS[9]" "SB[4]" 0.0906434
+cap "S[1]" "S[2]" 77.6657
+cap "m2_8872_n1959#" "m1_8865_n1875#" 47.6421
+cap "DIN3" "DIN2" 4.65839
+cap "DS[8]" "m1_8865_n1875#" 135.412
+cap "DS[8]" "SB[1]" 1.01649
+cap "SB[3]" "DSB[8]" 0.318613
+cap "DS[9]" "DSB[8]" 147.211
+cap "DIN7" "DIN8" 4.65839
+cap "S[1]" "SB[2]" 496.002
+cap "SB[3]" "DS[9]" 66.8541
+cap "m2_8596_n1959#" "m1_8865_n1875#" 0.38566
+cap "DSB[9]" "SB[4]" 40.4074
+cap "S[1]" "S[4]" 0.353528
+cap "S[3]" "SB[4]" 872.315
+cap "DSB[9]" "DSB[8]" 0.289996
+cap "S[2]" "m1_8865_n1875#" 8.92855
+cap "SB[1]" "S[2]" 339.482
+cap "DS[8]" "SB[4]" 0.16169
+cap "S[3]" "DSB[8]" 0.222703
+cap "DSB[9]" "SB[3]" 26.9661
+cap "DSB[9]" "DS[9]" 495.37
+cap "DIN9" "DIN8" 4.65839
+cap "DIN0" "DIN1" 4.65839
+cap "S[3]" "SB[3]" 888.603
+cap "m2_5570_n1959#" "m2_5386_n1959#" 65.9091
+cap "DS[8]" "DSB[8]" 511.084
+cap "SB[2]" "m1_8865_n1875#" 7.01869
+cap "SB[1]" "SB[2]" 119.271
+cap "S[3]" "DS[9]" 16.6528
+cap "m2_5846_n1959#" "m2_5938_n1959#" 65.9091
+cap "m2_8872_n1959#" "DS[9]" 0.000948794
+cap "DS[8]" "SB[3]" 0.264947
+cap "DS[8]" "DS[9]" 0.0921572
+cap "SB[1]" "S[4]" 0.335436
+cap "m1_8865_n1875#" "S[4]" 3.34521
+cap "S[2]" "SB[4]" 2.416
+cap "m2_8688_n1959#" "m1_8865_n1875#" 10.6618
+cap "DSB[9]" "S[3]" 63.2854
+cap "S[2]" "DSB[8]" 15.4131
+cap "DSB[9]" "DS[8]" 0.00339303
+cap "SB[2]" "SB[4]" 1.82393
+cap "S[1]" "m1_8865_n1875#" 41.5457
+cap "SB[1]" "S[1]" 1251.48
+cap "SB[3]" "S[2]" 311.439
+cap "m2_5570_n1959#" "m2_5754_n1959#" 65.9091
+cap "S[2]" "DS[9]" 31.741
+cap "m2_8504_n1959#" "m1_8865_n1875#" 0.207928
+cap "m2_8320_n1959#" "m1_8865_n1875#" 0.0876468
+cap "DS[8]" "S[3]" 0.204681
+cap "SB[2]" "DSB[8]" 9.88475
+cap "DIN6" "DIN7" 4.65839
+cap "S[4]" "SB[4]" 1509.22
+cap "DS[8]" "m2_8872_n1959#" 0.0182298
+cap "SB[3]" "SB[2]" 280.887
+cap "DS[9]" "SB[2]" 71.0145
+cap "DSB[8]" "S[4]" 0.134422
+cap "DSB[9]" "S[2]" 70.6803
+cap "S[1]" "SB[4]" 0.508942
+cap "SB[3]" "S[4]" 2.90257
+cap "DS[9]" "S[4]" 0.0678474
+cap "S[3]" "S[2]" 8.24052
+cap "SB[1]" "m1_8865_n1875#" 14.3603
+cap "DSB[9]" "SB[2]" 24.6274
+cap "S[1]" "DSB[8]" 123.384
+cap "DS[8]" "S[2]" 0.474537
+cap "S[3]" "SB[2]" 7.17239
+cap "S[1]" "SB[3]" 253.533
+cap "S[1]" "DS[9]" 32.2057
+cap "DSB[9]" "S[4]" 14.5305
+cap "DS[8]" "SB[2]" 0.352038
+cap "S[3]" "S[4]" 4.0176
+cap "SB[1]" "SB[4]" 0.261146
+cap "m1_8865_n1875#" "SB[4]" 3.75559
+cap "m2_8872_n1959#" "m2_8688_n1959#" 65.9091
+cap "m2_8412_n1959#" "m2_8504_n1959#" 65.9091
+cap "m2_8320_n1959#" "m2_8412_n1959#" 65.9091
+cap "DS[8]" "S[4]" 0.0724443
+cap "DSB[9]" "S[1]" 30.2969
+cap "DS[8]" "m2_8688_n1959#" 12.2007
+cap "m2_6030_n1959#" "m2_5938_n1959#" 65.9091
+cap "m1_8865_n1875#" "DSB[8]" 8.49971
+cap "SB[1]" "DSB[8]" 62.3513
+cap "S[3]" "S[1]" 155.242
+cap "SB[3]" "m1_8865_n1875#" 5.41797
+cap "S[2]" "SB[2]" 814.892
+cap "SB[1]" "SB[3]" 70.4647
+cap "m2_8596_n1959#" "m2_8688_n1959#" 65.9091
+cap "DS[9]" "m1_8865_n1875#" 0.617981
+cap "SB[1]" "DS[9]" 117.173
+cap "DIN5" "DIN4" 4.65839
+cap "DS[8]" "S[1]" 18.1771
+cap "m2_5846_n1959#" "m2_5754_n1959#" 65.9091
+cap "S[2]" "S[4]" 1.34308
+cap "m2_8412_n1959#" "m1_8865_n1875#" 0.129058
+cap "DIN2" "DIN1" 4.65839
+cap "DSB[8]" "SB[4]" 0.171076
+cap "DSB[9]" "m1_8865_n1875#" 0.671099
+cap "DSB[9]" "SB[1]" 74.6121
+cap "m2_8596_n1959#" "m2_8504_n1959#" 65.9091
+cap "DIN6" "DIN5" 4.65839
+cap "dcell_buffer_bus_0/DIN8" "dcell_buffer_bus_0/DIN7" -2.32919
+cap "dcell_buffer_bus_0/DIN9" "dcell_buffer_bus_0/DIN8" -4.65839
+cap "dcell_buffer_bus_0/DIN6" "dcell_buffer_bus_0/DIN5" -2.32919
+cap "dcell_buffer_bus_0/DIN7" "dcell_buffer_bus_0/DIN6" -4.65839
+cap "dcell_buffer_bus_0/DIN8" "dcell_buffer_bus_0/DIN7" -2.32919
+cap "dcell_buffer_bus_0/DIN5" "dcell_buffer_bus_0/DIN4" -4.65839
+cap "dcell_buffer_bus_0/DIN6" "dcell_buffer_bus_0/DIN5" -2.32919
+cap "dcell_buffer_bus_0/DIN4" "dcell_buffer_bus_0/DIN3" -4.65839
+cap "dcell_buffer_bus_0/DIN2" "dcell_buffer_bus_0/DIN1" -4.65839
+cap "dcell_buffer_bus_0/DIN2" "dcell_buffer_bus_0/DIN3" -4.65839
+cap "dcell_buffer_bus_0/DIN1" "dcell_buffer_bus_0/DIN0" -2.32919
+cap "dcell_buffer_bus_0/DIN1" "dcell_buffer_bus_0/DIN0" -2.32919
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/B" "dcell_lv_0/seg_selector_logic_0/x2/x3/A" 0.151201
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 8.52651e-14
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x5/C" 11.0115
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/B" "dcell_buffer_bus_0/DB[9]" 9.80358
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_buffer_bus_0/DB[7]" 0.848257
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/C" "dcell_buffer_bus_0/DB[8]" 0.211202
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x3/A" 10.1861
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/B" "dcell_lv_0/seg_selector_logic_0/x2/x2/B" 0.151201
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/A" "dcell_buffer_bus_0/DB[8]" 0.105601
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_buffer_bus_0/DB[9]" 276.174
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/C" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.0710083
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x2/B" 10.4311
+cap "dcell_lv_0/seg_selector_logic_0/x2/x2/B" "dcell_buffer_bus_0/DB[8]" 0.105601
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/A" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.0355042
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x1/B" 12.9567
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/C" "dcell_buffer_bus_0/DB[7]" 0.115178
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/A" "dcell_lv_0/seg_selector_logic_0/x2/x5/C" 0.134319
+cap "dcell_lv_0/seg_selector_logic_0/x2/x2/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.0355042
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/A" "dcell_buffer_bus_0/DB[7]" 0.0575891
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/C" "dcell_buffer_bus_0/DB[9]" 10.2493
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_buffer_bus_0/DB[8]" 1.84976
+cap "dcell_lv_0/seg_selector_logic_0/x2/x2/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/C" 0.165886
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/A" "dcell_buffer_bus_0/DB[9]" 10.0264
+cap "dcell_lv_0/seg_selector_logic_0/x2/x2/B" "dcell_buffer_bus_0/DB[7]" 0.0575891
+cap "dcell_lv_0/seg_selector_logic_0/x2/x2/B" "dcell_lv_0/seg_selector_logic_0/x2/x3/A" 0.0734944
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.482611
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/C" 0.302403
+cap "dcell_lv_0/seg_selector_logic_0/x2/x2/B" "dcell_buffer_bus_0/DB[9]" 10.0264
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.222865
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 0.0575891
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.0355042
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x3/B" 384.495
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x5/C" 2.55419
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/C" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.0766081
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/B" "dcell_lv_0/seg_selector_logic_0/x2/x1/A" 0.151201
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/x2/x1/B" 0.151201
+cap "dcell_lv_0/seg_selector_logic_0/x2/x2/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 0.0446391
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/A" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.141105
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/x2/x2/B" 0.0446391
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/x2/x5/C" 0.0766081
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/x2/x3/B" 0.222865
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 0.0575891
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.0355042
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/A" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.0288554
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x1/A" 3.91143
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/A" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" 0.808872
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 0.151201
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/A" "dcell_lv_0/seg_selector_logic_0/x2/x5/C" 0.0766081
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/A" "dcell_lv_0/seg_selector_logic_0/x2/x3/B" 0.222865
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/x2/x1/B" 0.151201
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/x2/x3/A" 0.0288554
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/x2/x1/A" 0.105601
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/x2/x2/B" 0.0446391
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/x2/x5/C" 0.0766081
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/x2/x3/B" 0.222865
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.0930933
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.108461
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 1.79369
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/A" "dcell_lv_0/seg_selector_logic_0/x2/x1/A" 0.0288554
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" 0.0442588
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/x2/x1/B" 0.151201
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/x2/x3/A" 0.0288554
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/x2/x1/A" 0.105601
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/x2/x3/B" 0.222865
+cap "dcell_lv_0/seg_selector_logic_0/x2/x2/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.0446391
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/C" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 0.0766081
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 0.222865
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/x2/x5/C" 0.0766081
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 0.0575891
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.0355042
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x2/B" 1.32689
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/x2/x1/A" 0.105601
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/x2/x2/B" 0.0446391
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/x2/x3/B" 0.222865
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x1/B" 6.66749
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 0.151201
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/A" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 0.0288554
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/A" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 0.16319
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/x2/x3/A" 0.0288554
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/x2/x5/C" 0.0766081
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 0.0575891
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/A" "dcell_lv_0/seg_selector_logic_0/x2/x2/B" 0.0446391
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/x2/x1/B" 0.151201
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/x2/x1/A" 0.105601
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/x2/x2/B" 0.0446391
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 1.02051
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/x2/x3/A" 0.0288554
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/seg_selector_logic_0/x2/x3/B" 23.8962
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/logic_shift_seg2_0/BS[8]" -6.13009
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/A" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" -2.84217e-14
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_lv_0/logic_shift_seg2_0/bb[8]" 10.1877
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_buffer_bus_0/D[6]" 0.0794265
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/DB[3]" 0.614932
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/D[9]" 9.0284
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_lv_0/logic_shift_seg2_0/BS[9]" -0.000948794
+cap "dcell_lv_0/logic_shift_seg2_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" -5.68434e-14
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 9.80358
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 2.50582
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_buffer_bus_0/D[8]" 0.250806
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/DB[4]" 0.816222
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/B" "dcell_lv_0/logic_shift_seg2_0/bb[8]" 9.80358
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/D[2]" 0.42726
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/D[6]" 1.96067
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/logic_shift_seg2_0/bb[8]" 6.79287
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 9.97971
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/D[3]" 0.540756
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/D[8]" 4.94134
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x3/B" 446.77
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_buffer_bus_0/D[7]" 0.130293
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 25.7723
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/D[4]" 0.705139
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/B" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 9.80358
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 18.265
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" 3.93569
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/DB[1]" 0.104946
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_buffer_bus_0/D[9]" 0.654708
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/DB[5]" 1.1309
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/D[5]" 0.954938
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/B" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 12.813
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" 9.90379
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/DB[2]" 0.479073
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/D[7]" 2.98231
+cap "dcell_buffer_bus_0/DB[1]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.0861175
+cap "GND" "dcell_lv_0/logic_shift_seg2_0/BS[8]" -3.55271e-15
+cap "dcell_buffer_bus_0/DB[4]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.669782
+cap "dcell_lv_0/logic_shift_seg2_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 2.14308
+cap "dcell_lv_0/logic_shift_seg2_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 3.6877
+cap "GND" "VDD" -0.0483195
+cap "dcell_buffer_bus_0/DB[2]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.393122
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/D[9]" 4.97518
+cap "dcell_buffer_bus_0/DB[5]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.928001
+cap "dcell_buffer_bus_0/DB[3]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.504606
+cap "dcell_buffer_bus_0/D[7]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 1.68958
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 6.70228
+cap "dcell_buffer_bus_0/D[2]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.350604
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_buffer_bus_0/D[8]" 2.77996
+cap "dcell_buffer_bus_0/D[5]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.783611
+cap "dcell_lv_0/logic_shift_seg2_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 1.35973
+cap "dcell_buffer_bus_0/D[3]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.443738
+cap "GND" "dcell_lv_0/seg_selector_logic_0/bb[9]" 91.6119
+cap "dcell_buffer_bus_0/D[6]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 1.11439
+cap "dcell_buffer_bus_0/D[4]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.578629
+cap "dcell_buffer_bus_0/DB[9]" "dcell_lv_0/seg_selector_logic_0/x2/x4/A" 0.161438
+cap "dcell_lv_0/seg_selector_logic_0/b[6]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0799963
+cap "dcell_lv_0/seg_selector_logic_0/b[8]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.215176
+cap "dcell_buffer_bus_0/DB[8]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.127835
+cap "dcell_buffer_bus_0/DB[7]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.141317
+cap "dcell_lv_0/seg_selector_logic_0/b[9]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.327088
+cap "dcell_buffer_bus_0/DB[8]" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.00954216
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0951385
+cap "dcell_buffer_bus_0/DB[9]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.44606
+cap "dcell_buffer_bus_0/DB[8]" "dcell_lv_0/seg_selector_logic_0/x2/x4/A" 0.126862
+cap "dcell_lv_0/seg_selector_logic_0/x2/x1/A" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.0142781
+cap "dcell_buffer_bus_0/DB[9]" "dcell_lv_0/seg_selector_logic_0/x2/x1/A" 0.0182802
+cap "dcell_lv_0/seg_selector_logic_0/b[6]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0413314
+cap "dcell_buffer_bus_0/DB[7]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0730138
+cap "dcell_lv_0/seg_selector_logic_0/b[9]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.171397
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0491549
+cap "dcell_buffer_bus_0/DB[9]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.232588
+cap "dcell_buffer_bus_0/DB[8]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.228953
+cap "dcell_lv_0/seg_selector_logic_0/x2/x3/B" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.014166
+cap "dcell_buffer_bus_0/DB[9]" "dcell_lv_0/seg_selector_logic_0/x2/x3/B" 0.0158616
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/A" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.142593
+cap "dcell_buffer_bus_0/DB[9]" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.0318853
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[8]" "dcell_lv_0/seg_selector_logic_0/b[9]" 2.28457
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0828715
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.0159993
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0469193
+cap "dcell_lv_0/seg_selector_logic_0/GND" "dcell_lv_0/seg_selector_logic_0/bb[8]" -3.55271e-15
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/x1/Y" 0.0663158
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.127365
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.0226449
+cap "dcell_lv_0/seg_selector_logic_0/b[8]" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.0943521
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.0871897
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/bb[8]" 0.0566828
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.217702
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.00852088
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/S[3]" 0.043624
+cap "dcell_lv_0/logic_shift_seg2_0/BS[9]" "dcell_lv_0/seg_selector_logic_0/VDD" 0.0474061
+cap "dcell_lv_0/logic_shift_seg2_0/x3/Y" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0199234
+cap "dcell_lv_0/logic_shift_seg2_0/x1/Y" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.0552901
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.106845
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/x5/A" 0.171156
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.999293
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" 0.1321
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/bb[7]" 0.0767322
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/VDD" 0.0206799
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.0612795
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.158201
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0249532
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0355164
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0545796
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.124271
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/bb[8]" 0.00954216
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/A" "dcell_lv_0/seg_selector_logic_0/bb[9]" 0.363004
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/seg_selector_logic_0/bb[7]" 1.11022e-16
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/x1/Y" 0.0347537
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.016694
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/x3/Y" 0.0453026
+cap "dcell_lv_0/seg_selector_logic_0/b[9]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0235258
+cap "dcell_lv_0/logic_shift_seg2_0/BS[9]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" 0.580872
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/logic_shift_seg2_0/x5/A" 0.0702383
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/bb[6]" 0.0718461
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/seg_selector_logic_0/GND" 0.00674583
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/B" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.000284029
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/VDD" 0.00128871
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/A" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.320647
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.0506105
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" 0.150472
+cap "dcell_lv_0/logic_shift_seg2_0/x3/Y" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.0373665
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/x5/C" 0.1991
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/x5/A" 0.0577045
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.0536852
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/x6/Y" 0.0457907
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.406762
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[8]" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.499339
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/SB[4]" 0.0100408
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0843513
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.0786488
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.0250454
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0370366
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.14456
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/bb[6]" 0.00609217
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/C" "dcell_lv_0/seg_selector_logic_0/bb[9]" 0.00126893
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/B" "dcell_lv_0/seg_selector_logic_0/bb[8]" 0.000318072
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/x3/Y" 0.0229173
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/logic_shift_seg2_0/x5/A" 0.148235
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" 0.194998
+cap "dcell_lv_0/logic_shift_seg2_0/x1/Y" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.0110024
+cap "dcell_lv_0/logic_shift_seg2_0/BS[9]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0142555
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.011249
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.122605
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/bb[9]" 0.0889072
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/Y" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.00852088
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/C" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.00113328
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/x5/C" 0.0671256
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/x6/Y" 0.0190277
+cap "dcell_lv_0/seg_selector_logic_0/SB[3]" "dcell_lv_0/seg_selector_logic_0/S[2]" 0.0489957
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[8]" "dcell_lv_0/seg_selector_logic_0/b[8]" 1.20212
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0536221
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.0326652
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0725125
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/VDD" -5.68434e-14
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.0679875
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.0330461
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/logic_shift_seg2_0/x5/A" 0.0613871
+cap "dcell_lv_0/seg_selector_logic_0/b[7]" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.0555371
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/Y" "dcell_lv_0/seg_selector_logic_0/bb[8]" 0.00954216
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.031053
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/seg_selector_logic_0/S[3]" 0.0354814
+cap "dcell_lv_0/logic_shift_seg2_0/x1/Y" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0401053
+cap "dcell_lv_0/logic_shift_seg2_0/BS[9]" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.0271246
+cap "dcell_lv_0/logic_shift_seg2_0/x3/Y" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.0110024
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 1.6159
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.195607
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/bb[8]" 0.13868
+cap "dcell_lv_0/seg_selector_logic_0/GND" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.00884818
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.217347
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.0567918
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0725125
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.0379983
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0229809
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.142024
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/bb[9]" 0.0299819
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.0164469
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/x1/Y" 0.0467908
+cap "dcell_lv_0/seg_selector_logic_0/b[8]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0159953
+cap "dcell_lv_0/seg_selector_logic_0/b[9]" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.161586
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/bb[7]" 0.0629632
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/A" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.00227223
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.0266229
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/seg_selector_logic_0/VDD" 0.0168755
+cap "dcell_lv_0/logic_shift_seg2_0/x3/Y" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0266356
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/x6/Y" 0.0838314
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.065948
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.633696
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/x5/A" 0.0934893
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/GND" 0.00998903
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 3.02693
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.0726469
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/seg_selector_logic_0/SB[4]" 0.03159
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0097898
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0729403
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.0843025
+cap "dcell_lv_0/seg_selector_logic_0/GND" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.00949079
+cap "dcell_lv_0/logic_shift_seg2_0/x6/Y" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.0608673
+cap "dcell_lv_0/logic_shift_seg2_0/x5/C" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0843513
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/B" "dcell_lv_0/seg_selector_logic_0/bb[9]" 0.00040723
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/A" "dcell_lv_0/seg_selector_logic_0/bb[8]" 0.282998
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/seg_selector_logic_0/bb[6]" 0.00872592
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/x1/Y" 0.0268224
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/x3/Y" 0.0313292
+cap "dcell_lv_0/logic_shift_seg2_0/x8/a_109_47#" "dcell_lv_0/logic_shift_seg2_0/x5/A" -1.77636e-15
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" 0.116895
+cap "dcell_lv_0/seg_selector_logic_0/b[9]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.00415151
+cap "dcell_lv_0/logic_shift_seg2_0/BS[9]" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.00916867
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.164202
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/bb[9]" 0.209341
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.00199335
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/B" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.000358565
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/x5/A" 0.0388482
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/x6/Y" 0.0282634
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/x5/C" 0.108753
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/S[2]" 0.750301
+cap "dcell_lv_0/seg_selector_logic_0/SB[3]" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.0401377
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[8]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.73882
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/b[6]" 0.0373316
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0355164
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.148125
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0580157
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/logic_shift_seg2_0/x5/A" 0.0508243
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/Y" "dcell_lv_0/seg_selector_logic_0/bb[9]" 0.0176098
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/x3/Y" 0.017478
+cap "dcell_lv_0/logic_shift_seg2_0/x1/Y" "dcell_lv_0/seg_selector_logic_0/b[7]" 0.0304044
+cap "dcell_lv_0/logic_shift_seg2_0/BS[9]" "dcell_lv_0/seg_selector_logic_0/b[8]" 0.0191796
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 3.46651
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/bb[9]" 0.172425
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/bb[8]" 0.112916
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/Y" "dcell_lv_0/seg_selector_logic_0/b[9]" 0.0155734
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/seg_selector_logic_0/VDD" 0.0182798
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/x5/C" 0.0451908
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/S[1]" 1.85219
+cap "dcell_buffer_bus_0/D[5]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.189214
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.349215
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_305#" 1.34562
+cap "dcell_lv_0/logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_39#" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.301185
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.0869565
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 3.07698
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/bb[8]" 9.12785
+cap "dcell_buffer_bus_0/DB[5]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.00847228
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.0853423
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/S[2]" 0.124974
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" -0.0777385
+cap "dcell_buffer_bus_0/DB[2]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.0474616
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.272301
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.387784
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" -0.0160584
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/x2/x4/a_277_47#" 0.00697029
+cap "dcell_buffer_bus_0/D[6]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.00106114
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.512451
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/seg_selector_logic_0/x2/x4/a_277_47#" 0.0128346
+cap "dcell_buffer_bus_0/D[6]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.262439
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[8]" "dcell_lv_0/logic_shift_seg2_0/x8/a_109_47#" 0.0220078
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/logic_shift_seg2_0/x8/a_193_47#" 0.0135807
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.771269
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" 0.844775
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[8]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 2.35833
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.206426
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 0.231392
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.280947
+cap "dcell_buffer_bus_0/D[3]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.00212515
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" 0.764322
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 95.2674
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/bb[6]" 3.87819
+cap "dcell_buffer_bus_0/D[7]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.025947
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/x2/x4/C" 0.00966303
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.046918
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/S[2]" 0.0619006
+cap "dcell_buffer_bus_0/DB[3]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.125786
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.132777
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/x2/x4/a_109_47#" 0.00725308
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/C" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.0156494
+cap "dcell_buffer_bus_0/D[8]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.0026667
+cap "dcell_lv_0/seg_selector_logic_0/SB[3]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 0.123919
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 94.9772
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[9]" "dcell_lv_0/logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" 2.17802
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/seg_selector_logic_0/x2/x4/a_109_47#" 0.00741619
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[9]" "dcell_lv_0/logic_shift_seg2_0/x4/A" 0.0244108
+cap "dcell_buffer_bus_0/D[8]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.630444
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "dcell_lv_0/seg_selector_logic_0/SB[2]" 48.9688
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/seg_selector_logic_0/S[2]" 0.695177
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" 0.465559
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/x2/x4/A" 0.014101
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 45.6462
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 1.37668
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 1.11972
+cap "dcell_buffer_bus_0/D[4]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.00563221
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[9]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 5.68455
+cap "dcell_lv_0/seg_selector_logic_0/S[4]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 0.0159002
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[9]" "dcell_lv_0/seg_selector_logic_0/S[2]" 4.14621
+cap "dcell_buffer_bus_0/D[9]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.0694985
+cap "dcell_buffer_bus_0/DB[4]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.163588
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.483422
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/bb[9]" 0.00500106
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/bb[9]" 6.58374
+cap "dcell_buffer_bus_0/D[5]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.00732482
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.124974
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.307393
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.370017
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.878514
+cap "dcell_buffer_bus_0/DB[5]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.221361
+cap "dcell_lv_0/logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.380205
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[8]" "dcell_lv_0/logic_shift_seg2_0/x8/a_193_47#" 0.0710877
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.263938
+cap "dcell_lv_0/logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_39#" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.871837
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.0224008
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" 0.48218
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 5.32152
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/bb[7]" 3.98699
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 0.0196212
+cap "dcell_buffer_bus_0/D[6]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.0181714
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/S[2]" 0.0853423
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.0619006
+cap "dcell_buffer_bus_0/D[3]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.111618
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.168461
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.299894
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/x2/x4/a_193_47#" 0.0080847
+cap "dcell_buffer_bus_0/D[7]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.00159666
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/S[1]" 2.49404
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 22.1275
+cap "dcell_lv_0/seg_selector_logic_0/SB[2]" "dcell_lv_0/seg_selector_logic_0/x2/x4/a_193_47#" 0.00696107
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[9]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" 2.73435
+cap "dcell_buffer_bus_0/D[7]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.387978
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.697844
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" 0.613625
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/logic_shift_seg2_0/x8/a_109_47#" 0.00990256
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/S[2]" 0.75329
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[8]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 50.893
+cap "dcell_lv_0/logic_shift_seg2_0/BS[8]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" -3.23488
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/logic_shift_seg2_0/x5/A" 0.150007
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/SB[2]" -0.817575
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 0.0203838
+cap "dcell_buffer_bus_0/D[9]" "dcell_lv_0/seg_selector_logic_0/bb[9]" 0.0221044
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 0.0179339
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 18.3782
+cap "dcell_buffer_bus_0/DB[3]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.0049978
+cap "dcell_lv_0/logic_shift_seg2_0/x5/A" "dcell_lv_0/logic_shift_seg2_0/BS[8]" 0.273696
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" 5.67002
+cap "dcell_lv_0/logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "dcell_lv_0/seg_selector_logic_0/S[2]" 0.412242
+cap "dcell_buffer_bus_0/D[8]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.0400121
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/x2/x5/Y" 0.00868531
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/S[2]" 0.046918
+cap "dcell_buffer_bus_0/D[4]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.142831
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" -0.308892
+cap "dcell_lv_0/seg_selector_logic_0/x2/x5/Y" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.00903051
+cap "dcell_buffer_bus_0/D[9]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.00530629
+cap "dcell_lv_0/seg_selector_logic_0/SB[3]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 1.87047
+cap "dcell_buffer_bus_0/D[9]" "dcell_lv_0/seg_selector_logic_0/S[1]" 1.19534
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "dcell_lv_0/seg_selector_logic_0/S[2]" 46.1193
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" 0.365135
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/x2/x4/B" 0.0108238
+cap "dcell_lv_0/seg_selector_logic_0/x2/x4/B" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.0148605
+cap "dcell_buffer_bus_0/DB[4]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.00639543
+cap "dcell_lv_0/logic_shift_seg2_0/BSB[9]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 52.3514
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/logic_shift_seg2_0/BSB[8]" 0.495582
+cap "dcell_lv_0/seg_selector_logic_0/S[4]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 2.55006
+cap "dcell_buffer_bus_0/D[3]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.116199
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_buffer_bus_0/DB[4]" 0.170302
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/seg_selector_logic_0/bb[6]" 0.329056
+cap "dcell_buffer_bus_0/D[7]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.403902
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.881367
+cap "dcell_buffer_bus_0/DB[2]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.0494096
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_buffer_bus_0/D[4]" 0.148694
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 0.105634
+cap "dcell_buffer_bus_0/D[6]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.27321
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/S[1]" 1.88448
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_buffer_bus_0/D[5]" 0.196981
+cap "dcell_buffer_bus_0/D[8]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.65632
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.507426
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "dcell_lv_0/seg_selector_logic_0/S[4]" 1.8797
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_buffer_bus_0/DB[3]" 0.130949
+cap "dcell_buffer_bus_0/DB[5]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.230447
+cap "dcell_buffer_bus_0/D[9]" "dcell_lv_0/seg_selector_logic_0/S[1]" 1.2444
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.903965
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.0150298
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/S[3]" 0.00776866
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.0129371
+cap "dcell_lv_0/seg_selector_logic_0/x1/x3/A" "dcell_lv_0/seg_selector_logic_0/SB[4]" 0.0255844
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/SB[4]" 0.03159
+cap "dcell_lv_0/seg_selector_logic_0/SB[3]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.00872526
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.882716
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/SB[3]" 0.00872526
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.275576
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.0862387
+cap "dcell_lv_0/seg_selector_logic_0/S[2]" "dcell_lv_0/seg_selector_logic_0/SB[4]" 0.00178808
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/seg_selector_logic_0/S[4]" 0.181201
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/seg_selector_logic_0/SB[1]" 15.949
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/S[3]" 0.054163
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/x2/x5/Y" 0.0213042
+cap "dcell_lv_0/seg_selector_logic_0/x1/x3/A" "dcell_lv_0/seg_selector_logic_0/SB[4]" 0.0329125
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/seg_selector_logic_0/S[3]" 0.739195
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/SB[2]" 0.462615
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.0343786
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "dcell_lv_0/seg_selector_logic_0/SB[3]" 40.0037
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/SB[4]" 1.31099
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/x2/x4/A" 0.0378348
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/logic_shift_seg2_0/BS[9]" -0.0160584
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/SB[4]" 2.23847
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.443624
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" -0.21611
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/seg_selector_logic_0/SB[4]" 2.57744
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "dcell_lv_0/seg_selector_logic_0/S[1]" 23.0545
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/S[3]" 0.0746745
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/logic_shift_seg2_0/BSB[9]" -0.308892
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/x2/x4/C" 0.0238943
+cap "dcell_lv_0/seg_selector_logic_0/S[4]" "dcell_lv_0/seg_selector_logic_0/SB[4]" -2.84217e-14
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/seg_selector_logic_0/SB[3]" 7.75662
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/S[3]" 0.534902
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.592419
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "dcell_lv_0/seg_selector_logic_0/S[4]" 1.95511
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "dcell_lv_0/seg_selector_logic_0/SB[1]" 32.2484
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/seg_selector_logic_0/SB[3]" 0.887739
+cap "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/S[3]" 0.0410532
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "dcell_lv_0/seg_selector_logic_0/S[3]" 19.9164
+cap "dcell_lv_0/seg_selector_logic_0/S[4]" "dcell_lv_0/seg_selector_logic_0/x1/x3/A" 0.0167217
+cap "dcell_lv_0/seg_selector_logic_0/SB[3]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 4.58022
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/S[2]" 0.119402
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/seg_selector_logic_0/SB[3]" 7.10543e-15
+cap "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/SB[4]" 2.46021
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.456057
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.474979
+cap "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/S[3]" 0.109352
+cap "dcell_lv_0/seg_selector_logic_0/SB[1]" "dcell_lv_0/seg_selector_logic_0/x2/x4/B" 0.0329635
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 3.14663
+cap "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 4.01292
+cap "dcell_lv_0/seg_selector_logic_0/S[1]" "dcell_lv_0/seg_selector_logic_0/S[3]" 2.22921
+cap "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "dcell_lv_0/seg_selector_logic_0/SB[4]" 5.46476
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.890392
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 0.111408
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/bb[7]" 2.39636
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/x1/x3/a_109_297#" 0.0082189
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/S[3]" 0.586667
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 5.39987
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/bb[6]" 0.137216
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/x1/x3/A" 0.0588755
+cap "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/seg_selector_logic_0/S[1]" 0.810526
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/bb[8]" 2.7153
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/SB[1]" 0.0137716
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 3.84648
+cap "dcell_lv_0/seg_selector_logic_0/SB[4]" "dcell_lv_0/seg_selector_logic_0/bb[9]" 1.64895
+cap "dcell_lv_0/seg_selector_logic_0/S[4]" "dcell_lv_0/seg_selector_logic_0/SB[4]" -2.84217e-14
+merge "dcell_buffer_bus_0/DIN8" "DIN8" -35.7156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/VSUBS" "dcell_buffer_bus_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_buffer_bus_0/VSUBS" "VSUBS"
+merge "dcell_lv_0/seg_selector_logic_0/SB[3]" "SB[3]" -33.4947 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/bb[8]" "dcell_lv_0/seg_selector_logic_0/x2/x1/A" -62.911 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -256 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/x2/x1/A" "dcell_lv_0/logic_shift_seg2_0/bb[8]"
+merge "dcell_lv_0/logic_shift_seg2_0/bb[8]" "dcell_buffer_bus_0/DB[8]"
+merge "dcell_buffer_bus_0/DB[8]" "m2_8504_n1959#"
+merge "dcell_lv_0/seg_selector_logic_0/bb[9]" "dcell_lv_0/seg_selector_logic_0/x2/x3/B" -575.681 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -256 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/x2/x3/B" "dcell_lv_0/logic_shift_seg2_0/m2_7109_n3782#"
+merge "dcell_lv_0/logic_shift_seg2_0/m2_7109_n3782#" "dcell_buffer_bus_0/DB[9]"
+merge "dcell_buffer_bus_0/DB[9]" "m2_8596_n1959#"
+merge "dcell_buffer_bus_0/DIN9" "DIN9" -41.3013 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/SB[2]" "SB[2]" -34.8367 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -112 -64 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "dcell_lv_0/seg_selector_logic_0/GND" -1246.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -454 0 -1248 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/GND" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND"
+merge "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND"
+merge "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "dcell_lv_0/logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/VGND"
+merge "dcell_lv_0/logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/VGND" "dcell_lv_0/logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_2/VGND"
+merge "dcell_lv_0/logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_2/VGND" "GND"
+merge "GND" "dcell_lv_0/logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_5/VGND"
+merge "dcell_lv_0/logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_5/VGND" "m1_8865_n1875#"
+merge "m1_8865_n1875#" "m2_8872_n1959#"
+merge "m2_8872_n1959#" "dcell_buffer_bus_0/GND"
+merge "dcell_buffer_bus_0/GND" "m2_5570_n1959#"
+merge "dcell_lv_0/seg_selector_logic_0/b[9]" "dcell_lv_0/seg_selector_logic_0/x2/x1/B" -48.3328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -256 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/x2/x1/B" "dcell_lv_0/logic_shift_seg2_0/b[9]"
+merge "dcell_lv_0/logic_shift_seg2_0/b[9]" "dcell_buffer_bus_0/D[9]"
+merge "dcell_buffer_bus_0/D[9]" "m2_6030_n1959#"
+merge "dcell_lv_0/seg_selector_logic_0/SB[1]" "SB[1]" -118.148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/bb[7]" "dcell_lv_0/seg_selector_logic_0/x2/x5/B" -61.3799 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -256 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/x2/x5/B" "dcell_lv_0/logic_shift_seg2_0/bb[7]"
+merge "dcell_lv_0/logic_shift_seg2_0/bb[7]" "dcell_buffer_bus_0/DB[7]"
+merge "dcell_buffer_bus_0/DB[7]" "m2_8412_n1959#"
+merge "dcell_lv_0/seg_selector_logic_0/VDD" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" -440.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -81276 -2446 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR"
+merge "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "dcell_lv_0/logic_shift_seg2_0/m1_6830_n3238#"
+merge "dcell_lv_0/logic_shift_seg2_0/m1_6830_n3238#" "VDD"
+merge "VDD" "dcell_lv_0/logic_shift_seg2_0/VDD"
+merge "dcell_lv_0/logic_shift_seg2_0/VDD" "m2_8688_n1959#"
+merge "m2_8688_n1959#" "dcell_buffer_bus_0/VDD"
+merge "dcell_buffer_bus_0/VDD" "m2_5386_n1959#"
+merge "dcell_lv_0/seg_selector_logic_0/bb[6]" "dcell_lv_0/seg_selector_logic_0/x2/x5/A" -55.0648 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -256 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/x2/x5/A" "dcell_lv_0/logic_shift_seg2_0/bb[6]"
+merge "dcell_lv_0/logic_shift_seg2_0/bb[6]" "dcell_lv_0/logic_shift_seg2_0/x8/A"
+merge "dcell_lv_0/logic_shift_seg2_0/x8/A" "dcell_buffer_bus_0/DB[6]"
+merge "dcell_buffer_bus_0/DB[6]" "m2_8320_n1959#"
+merge "dcell_lv_0/seg_selector_logic_0/b[6]" "dcell_lv_0/seg_selector_logic_0/x2/x3/A" -48.3328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -256 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/x2/x3/A" "dcell_lv_0/logic_shift_seg2_0/b[6]"
+merge "dcell_lv_0/logic_shift_seg2_0/b[6]" "dcell_buffer_bus_0/D[6]"
+merge "dcell_buffer_bus_0/D[6]" "m2_5754_n1959#"
+merge "dcell_lv_0/seg_selector_logic_0/b[8]" "dcell_lv_0/seg_selector_logic_0/x2/x5/C" -48.4887 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -256 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/x2/x5/C" "dcell_lv_0/logic_shift_seg2_0/b[8]"
+merge "dcell_lv_0/logic_shift_seg2_0/b[8]" "dcell_buffer_bus_0/D[8]"
+merge "dcell_buffer_bus_0/D[8]" "m2_5938_n1959#"
+merge "dcell_lv_0/seg_selector_logic_0/S[4]" "S[4]" -16.1113 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/b[7]" "dcell_lv_0/seg_selector_logic_0/x2/x2/B" -48.3328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -256 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/x2/x2/B" "dcell_lv_0/logic_shift_seg2_0/x6/B"
+merge "dcell_lv_0/logic_shift_seg2_0/x6/B" "dcell_buffer_bus_0/D[7]"
+merge "dcell_buffer_bus_0/D[7]" "m2_5846_n1959#"
+merge "dcell_lv_0/seg_selector_logic_0/S[3]" "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__inv_1_0/A" -371.716 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -23520 -1736 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/sky130_fd_sc_hd__inv_1_0/A" "S[3]"
+merge "dcell_buffer_bus_0/DIN7" "dcell_buffer_bus_0/buffer_bus_0/buffer_cell_3/IN" -35.7156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "dcell_buffer_bus_0/buffer_bus_0/buffer_cell_3/IN" "DIN7"
+merge "dcell_lv_0/logic_shift_seg2_0/BSB[9]" "DSB[9]" -48.7362 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/S[2]" "S[2]" -37.8462 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -112 -64 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/logic_shift_seg2_0/BSB[8]" "DSB[8]" -69.6758 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/S[1]" "S[1]" -68.3424 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 0 0 0 0 0 0 0 0 0 0
+merge "dcell_buffer_bus_0/DIN0" "DIN0" -41.3013 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/SB[4]" "SB[4]" -42.0046 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -58 0 0 0 0 0 0 0 0 0 0
+merge "dcell_buffer_bus_0/DIN1" "DIN1" -35.7156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "dcell_buffer_bus_0/DIN2" "DIN2" -35.7156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "dcell_buffer_bus_0/DIN3" "DIN3" -35.7156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "dcell_buffer_bus_0/DIN4" "DIN4" -35.7156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "dcell_buffer_bus_0/DIN5" "DIN5" -35.7156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "dcell_buffer_bus_0/DIN6" "DIN6" -35.7156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -240 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/logic_shift_seg2_0/BS[9]" "DS[9]" -60.229 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -58 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/logic_shift_seg2_0/BS[8]" "DS[8]" -89.614 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -58 0 0 0 0 0 0 0 0 0 0

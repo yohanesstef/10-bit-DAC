@@ -1,0 +1,21 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750845959
+use seg_sel_1  seg_sel_1_0
+timestamp 1750845293
+transform 1 0 2115 0 1 510
+box -67 -68 489 1430
+use seg_sel_2  seg_sel_2_0
+timestamp 1750845353
+transform 1 0 2127 0 1 1884
+box -79 -74 477 1424
+use seg_sel_3  seg_sel_3_0
+timestamp 1750845438
+transform 1 0 2114 0 1 3467
+box -96 -109 520 1495
+use seg_sel_4  seg_sel_4_0
+timestamp 1750845534
+transform 1 0 2114 0 1 -1107
+box -96 -105 520 1499
+<< end >>

@@ -1,0 +1,390 @@
+timestamp 1750863581
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use seg_selector_lvsf seg_selector_lvsf_0 1 0 9839 0 1 -1829
+use lvsf_7bit lvsf_7bit_0 1 0 13803 0 1 -1683
+use decoder_3 decoder_3_0 1 0 19667 0 1 -1841
+use dcell_lv dcell_lv_0 1 0 5395 0 1 -747
+use buffer_bus buffer_bus_0 1 0 11354 0 1 4262
+port "DIN3" 3 16547 -4428 16572 -4409 m2
+port "VBPLV" 10 20690 34 20750 94 m2
+port "DIN9" 9 12665 -4447 12725 -4387 m2
+port "DIN8" 8 13309 -4447 13369 -4387 m2
+port "DIN7" 7 13953 -4447 14013 -4387 m2
+port "DIN6" 6 14597 -4447 14657 -4387 m2
+port "DIN5" 5 15241 -4447 15301 -4387 m2
+port "DIN4" 4 15885 -4447 15945 -4387 m2
+port "DIN2" 2 17173 -4447 17233 -4387 m2
+port "DIN1" 1 17817 -4447 17877 -4387 m2
+port "DIN0" 0 18461 -4447 18521 -4387 m2
+port "VBNLV" 11 20690 -794 20750 -734 m2
+port "b[6]" 20 20460 1030 20520 1090 m2
+port "bb[6]" 27 20372 1030 20432 1090 m2
+port "dec0[3]" 31 25256 1379 25316 1439 m2
+port "dec0[2]" 30 24914 1379 24974 1439 m2
+port "dec0[1]" 29 24572 1379 24632 1439 m2
+port "dec0[0]" 28 24230 1379 24290 1439 m2
+port "dec1[3]" 35 23832 1379 23892 1439 m2
+port "dec1[2]" 34 23490 1379 23550 1439 m2
+port "dec1[1]" 33 23148 1379 23208 1439 m2
+port "dec1[0]" 32 22806 1379 22866 1439 m2
+port "b[5]" 19 19470 1030 19530 1090 m2
+port "bb[5]" 26 19382 1030 19442 1090 m2
+port "b[4]" 18 18480 1030 18540 1090 m2
+port "bb[4]" 25 18392 1030 18452 1090 m2
+port "b[3]" 17 17490 1030 17550 1090 m2
+port "bb[3]" 24 17402 1030 17462 1090 m2
+port "b[2]" 16 16500 1030 16560 1090 m2
+port "bb[2]" 23 16412 1030 16472 1090 m2
+port "b[1]" 15 15510 1030 15570 1090 m2
+port "bb[1]" 22 15422 1030 15482 1090 m2
+port "b[0]" 14 14520 1030 14580 1090 m2
+port "bb[0]" 21 14432 1030 14492 1090 m2
+port "SH[4]" 47 13387 1030 13447 1090 m2
+port "SH[3]" 46 12397 1030 12457 1090 m2
+port "SH[2]" 45 11407 1030 11467 1090 m2
+port "SH[1]" 44 10417 1030 10477 1090 m2
+port "dec2[3]" 39 22468 2221 22528 2281 m2
+port "dec2b[3]" 43 22380 2221 22440 2281 m2
+port "dec2[2]" 38 22126 2221 22186 2281 m2
+port "dec2b[2]" 42 22038 2221 22098 2281 m2
+port "dec2[1]" 37 21784 2221 21844 2281 m2
+port "dec2b[1]" 41 21696 2221 21756 2281 m2
+port "dec2[0]" 36 21442 2221 21502 2281 m2
+port "dec2b[0]" 40 21354 2221 21414 2281 m2
+port "VDD" 48 5851 -3903 6076 -3743 m1
+port "VBNDEC" 13 25348 -267 25408 -207 m1
+port "VBPDEC" 12 25348 1072 25408 1132 m1
+port "VDDH" 49 10938 1313 11243 1513 m1
+port "GND" 50 6512 -4551 6817 -4351 m1
+node "DIN3" 0 0 16547 -4428 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VBPLV" 0 0 20690 34 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN9" 0 0 12665 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN8" 0 0 13309 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN7" 0 0 13953 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN6" 0 0 14597 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN5" 0 0 15241 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN4" 0 0 15885 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN2" 0 0 17173 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN1" 0 0 17817 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN0" 0 0 18461 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VBNLV" 0 0 20690 -794 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[6]" 0 0 20460 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[6]" 0 0 20372 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec0[3]" 0 0 25256 1379 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec0[2]" 0 0 24914 1379 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec0[1]" 0 0 24572 1379 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec0[0]" 0 0 24230 1379 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec1[3]" 0 0 23832 1379 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec1[2]" 0 0 23490 1379 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec1[1]" 0 0 23148 1379 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec1[0]" 0 0 22806 1379 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[5]" 0 0 19470 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[5]" 0 0 19382 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[4]" 0 0 18480 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[4]" 0 0 18392 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[3]" 0 0 17490 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[3]" 0 0 17402 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[2]" 0 0 16500 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[2]" 0 0 16412 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[1]" 0 0 15510 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[1]" 0 0 15422 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[0]" 0 0 14520 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[0]" 0 0 14432 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[4]" 0 0 13387 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[3]" 0 0 12397 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[2]" 0 0 11407 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[1]" 0 0 10417 1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec2[3]" 0 0 22468 2221 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec2b[3]" 0 0 22380 2221 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec2[2]" 0 0 22126 2221 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec2b[2]" 0 0 22038 2221 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec2[1]" 0 0 21784 2221 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec2b[1]" 0 0 21696 2221 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec2[0]" 0 0 21442 2221 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dec2b[0]" 0 0 21354 2221 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n3691#" 0 0 9226 -3691 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n3603#" 0 0 9226 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n3515#" 0 0 9226 -3515 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n3427#" 0 0 9226 -3427 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n3339#" 0 0 9226 -3339 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n3251#" 0 0 9226 -3251 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n3163#" 0 0 9226 -3163 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n3075#" 0 0 9226 -3075 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n2987#" 0 0 9226 -2987 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n2899#" 0 0 9226 -2899 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n2811#" 0 0 9226 -2811 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9226_n2723#" 0 0 9226 -2723 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_5748_n2635#" 0 0 5748 -2635 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_5754_n2547#" 0 0 5754 -2547 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_5754_n2459#" 0 0 5754 -2459 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_5754_n2371#" 0 0 5754 -2371 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_5754_n2283#" 0 0 5754 -2283 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_5754_n2195#" 0 0 5754 -2195 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_5754_n2107#" 0 0 5754 -2107 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_5748_n2019#" 0 0 5748 -2019 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 5851 -3903 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_8865_n1875#" 0 0 8865 -1875 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9027_n1719#" 0 0 9027 -1719 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9028_n1663#" 0 0 9028 -1663 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VBNDEC" 0 0 25348 -267 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VBPDEC" 0 0 25348 1072 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9027_n1175#" 0 0 9027 -1175 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9028_n1087#" 0 0 9028 -1087 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9056_n827#" 0 0 9056 -827 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9056_n651#" 0 0 9056 -651 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9046_n91#" 0 0 9046 -91 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9046_n3#" 0 0 9046 -3 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9046_85#" 0 0 9046 85 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_8206_173#" 0 0 8206 173 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9045_1001#" 0 0 9045 1001 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_9046_1081#" 0 0 9046 1081 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDDH" 0 0 10938 1313 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "GND" 0 0 6512 -4551 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/VPWR" "lvsf_7bit_0/lvsf_buff_7/lvsf_0/VDDH" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_7/lvsf_0/VDDH" "lvsf_7bit_0/lvsf_buff_5/buff_hvl_0/sky130_fd_sc_hvl__inv_1_1/VPWR"
+merge "lvsf_7bit_0/lvsf_buff_5/buff_hvl_0/sky130_fd_sc_hvl__inv_1_1/VPWR" "lvsf_7bit_0/lvsf_buff_2/buff_hvl_0/VDDH"
+merge "lvsf_7bit_0/lvsf_buff_2/buff_hvl_0/VDDH" "lvsf_7bit_0/lvsf_buff_3/buff_hvl_0/VDDH"
+merge "lvsf_7bit_0/lvsf_buff_3/buff_hvl_0/VDDH" "lvsf_7bit_0/lvsf_buff_1/lvsf_0/VDDH"
+merge "lvsf_7bit_0/lvsf_buff_1/lvsf_0/VDDH" "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/lvsf_pcell_0/w_n144_n33#"
+merge "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/lvsf_pcell_0/w_n144_n33#" "seg_selector_lvsf_0/lvsf_inv_3/m1_77_1968#"
+merge "seg_selector_lvsf_0/lvsf_inv_3/m1_77_1968#" "lvsf_7bit_0/lvsf_buff_0/lvsf_0/lvsf_pcell_0/w_n144_n33#"
+merge "lvsf_7bit_0/lvsf_buff_0/lvsf_0/lvsf_pcell_0/w_n144_n33#" "seg_selector_lvsf_0/lvsf_inv_3/sky130_fd_sc_hvl__inv_1_1/VPWR"
+merge "seg_selector_lvsf_0/lvsf_inv_3/sky130_fd_sc_hvl__inv_1_1/VPWR" "seg_selector_lvsf_0/lvsf_inv_1/sky130_fd_sc_hvl__inv_1_1/VPWR"
+merge "seg_selector_lvsf_0/lvsf_inv_1/sky130_fd_sc_hvl__inv_1_1/VPWR" "seg_selector_lvsf_0/lvsf_inv_1/lvsf_0/VDDH"
+merge "seg_selector_lvsf_0/lvsf_inv_1/lvsf_0/VDDH" "VDDH"
+merge "lvsf_7bit_0/lvsf_buff_0/buff_hvl_0/OUT" "b[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/SB[1]" "seg_selector_lvsf_0/lvsf_inv_0/lvsf_0/IN" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_0/lvsf_0/IN" "m1_9046_n91#"
+merge "buffer_bus_0/buffer_cell_1/IN" "DIN8" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/VSUBS" "lvsf_7bit_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/VSUBS" "seg_selector_lvsf_0/VSUBS"
+merge "seg_selector_lvsf_0/VSUBS" "dcell_lv_0/VSUBS"
+merge "dcell_lv_0/VSUBS" "buffer_bus_0/VSUBS"
+merge "buffer_bus_0/VSUBS" "VSUBS"
+merge "seg_selector_lvsf_0/lvsf_inv_3/li_647_2548#" "seg_selector_lvsf_0/lvsf_inv_3/sky130_fd_sc_hvl__inv_1_1/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_3/sky130_fd_sc_hvl__inv_1_1/Y" "SH[4]"
+merge "lvsf_7bit_0/lvsf_buff_1/lvsf_0/VNBIAS" "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/lvsf_ncell_h_1/m1_586_604#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_1/VNB" "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_1/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_1/VGND" "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/VNB"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/VNB" "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_2/VGND"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_2/VGND" "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_2/VNB"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_2/VNB" "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_0/VGND"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_0/VGND" "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_0/VNB"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_0/VNB" "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/VGND"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/VGND" "lvsf_7bit_0/lvsf_buff_7/buff_hvl_0/sky130_fd_sc_hvl__inv_1_1/VNB"
+merge "lvsf_7bit_0/lvsf_buff_7/buff_hvl_0/sky130_fd_sc_hvl__inv_1_1/VNB" "lvsf_7bit_0/lvsf_buff_7/buff_hvl_0/GND"
+merge "lvsf_7bit_0/lvsf_buff_7/buff_hvl_0/GND" "decoder_3_0/decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/VGND"
+merge "decoder_3_0/decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/VGND" "decoder_3_0/decoder_2to4_2/sky130_fd_sc_hd__tap_1_1/VGND"
+merge "decoder_3_0/decoder_2to4_2/sky130_fd_sc_hd__tap_1_1/VGND" "decoder_3_0/dec_2_0/decoder_2to4_0/sky130_fd_sc_hd__tap_1_0/VGND"
+merge "decoder_3_0/dec_2_0/decoder_2to4_0/sky130_fd_sc_hd__tap_1_0/VGND" "decoder_3_0/dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/VGND"
+merge "decoder_3_0/dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/VGND" "decoder_3_0/dec_2_0/decoder_2to4_0/GND"
+merge "decoder_3_0/dec_2_0/decoder_2to4_0/GND" "lvsf_7bit_0/lvsf_buff_7/lvsf_0/li_3461_n797#"
+merge "lvsf_7bit_0/lvsf_buff_7/lvsf_0/li_3461_n797#" "seg_selector_lvsf_0/lvsf_inv_1/lvsf_0/GND"
+merge "seg_selector_lvsf_0/lvsf_inv_1/lvsf_0/GND" "dcell_lv_0/logic_shift_seg2_0/m1_6830_n3782#"
+merge "dcell_lv_0/logic_shift_seg2_0/m1_6830_n3782#" "m1_8865_n1875#"
+merge "m1_8865_n1875#" "dcell_lv_0/logic_shift_seg2_0/GND"
+merge "dcell_lv_0/logic_shift_seg2_0/GND" "buffer_bus_0/buffer_cell_10/x2/VGND"
+merge "buffer_bus_0/buffer_cell_10/x2/VGND" "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_11/x2/VGND"
+merge "buffer_bus_0/buffer_cell_11/x2/VGND" "buffer_bus_0/buffer_cell_11/x1/VGND"
+merge "buffer_bus_0/buffer_cell_11/x1/VGND" "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_10/x2/VNB"
+merge "buffer_bus_0/buffer_cell_10/x2/VNB" "buffer_bus_0/buffer_cell_5/x2/VGND"
+merge "buffer_bus_0/buffer_cell_5/x2/VGND" "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_4/x2/VGND"
+merge "buffer_bus_0/buffer_cell_4/x2/VGND" "buffer_bus_0/buffer_cell_4/x1/VGND"
+merge "buffer_bus_0/buffer_cell_4/x1/VGND" "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_10/x1/VGND"
+merge "buffer_bus_0/buffer_cell_10/x1/VGND" "buffer_bus_0/buffer_cell_5/x2/VNB"
+merge "buffer_bus_0/buffer_cell_5/x2/VNB" "buffer_bus_0/buffer_cell_6/x2/VGND"
+merge "buffer_bus_0/buffer_cell_6/x2/VGND" "buffer_bus_0/buffer_cell_6/x1/VGND"
+merge "buffer_bus_0/buffer_cell_6/x1/VGND" "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_7/x2/VGND"
+merge "buffer_bus_0/buffer_cell_7/x2/VGND" "buffer_bus_0/buffer_cell_7/x1/VGND"
+merge "buffer_bus_0/buffer_cell_7/x1/VGND" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_5/x1/VGND"
+merge "buffer_bus_0/buffer_cell_5/x1/VGND" "buffer_bus_0/buffer_cell_3/x2/VGND"
+merge "buffer_bus_0/buffer_cell_3/x2/VGND" "buffer_bus_0/buffer_cell_3/x1/VGND"
+merge "buffer_bus_0/buffer_cell_3/x1/VGND" "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_2/x2/VGND"
+merge "buffer_bus_0/buffer_cell_2/x2/VGND" "buffer_bus_0/buffer_cell_2/x1/VGND"
+merge "buffer_bus_0/buffer_cell_2/x1/VGND" "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_0/x2/VGND"
+merge "buffer_bus_0/buffer_cell_0/x2/VGND" "buffer_bus_0/buffer_cell_0/x1/VGND"
+merge "buffer_bus_0/buffer_cell_0/x1/VGND" "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_1/x2/VGND"
+merge "buffer_bus_0/buffer_cell_1/x2/VGND" "buffer_bus_0/buffer_cell_1/x1/VGND"
+merge "buffer_bus_0/buffer_cell_1/x1/VGND" "buffer_bus_0/buffer_cell_0/GND"
+merge "buffer_bus_0/buffer_cell_0/GND" "GND"
+merge "decoder_3_0/decoder_2to4_1/bb[0]" "lvsf_7bit_0/lvsf_buff_7/lvsf_0/INB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_7/lvsf_0/INB" "dcell_lv_0/logic_shift_seg2_0/bb[6]"
+merge "dcell_lv_0/logic_shift_seg2_0/bb[6]" "buffer_bus_0/buffer_cell_2/OUTB"
+merge "buffer_bus_0/buffer_cell_2/OUTB" "m1_5754_n2547#"
+merge "buffer_bus_0/buffer_cell_4/IN" "DIN2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_7/lvsf_0/VNBIAS" "VBNLV" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/SB[4]" "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/INB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/INB" "m1_9045_1001#"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" "dec2[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_7/IN" "DIN4" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/dec_2_0/decoder_2to4_0/bb[1]" "lvsf_7bit_0/lvsf_buff_4/lvsf_0/INB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_4/lvsf_0/INB" "buffer_bus_0/buffer_cell_6/OUTB"
+merge "buffer_bus_0/buffer_cell_6/OUTB" "m1_9226_n2723#"
+merge "buffer_bus_0/buffer_cell_10/IN" "DIN1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/S[3]" "seg_selector_lvsf_0/lvsf_inv_2/lvsf_0/IN" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_2/lvsf_0/IN" "m1_8206_173#"
+merge "dcell_lv_0/VDD" "decoder_3_0/decoder_2to4_2/VDD" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/decoder_2to4_2/VDD" "decoder_3_0/decoder_2to4_1/VDD"
+merge "decoder_3_0/decoder_2to4_1/VDD" "dcell_lv_0/logic_shift_seg2_0/m1_6830_n3238#"
+merge "dcell_lv_0/logic_shift_seg2_0/m1_6830_n3238#" "dcell_lv_0/logic_shift_seg2_0/VDD"
+merge "dcell_lv_0/logic_shift_seg2_0/VDD" "buffer_bus_0/buffer_cell_10/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_10/x2/VPWR" "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_11/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_11/x2/VPWR" "buffer_bus_0/buffer_cell_11/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_11/x1/VPWR" "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_10/x2/VPB"
+merge "buffer_bus_0/buffer_cell_10/x2/VPB" "buffer_bus_0/buffer_cell_5/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_5/x2/VPWR" "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_4/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_4/x2/VPWR" "buffer_bus_0/buffer_cell_4/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_4/x1/VPWR" "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_10/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_10/x1/VPWR" "buffer_bus_0/buffer_cell_5/x2/VPB"
+merge "buffer_bus_0/buffer_cell_5/x2/VPB" "buffer_bus_0/buffer_cell_6/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_6/x2/VPWR" "buffer_bus_0/buffer_cell_6/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_6/x1/VPWR" "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_7/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_7/x2/VPWR" "buffer_bus_0/buffer_cell_7/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_7/x1/VPWR" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_5/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_5/x1/VPWR" "buffer_bus_0/buffer_cell_3/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_3/x2/VPWR" "buffer_bus_0/buffer_cell_3/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_3/x1/VPWR" "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_2/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_2/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_2/x1/VPWR" "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_0/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_0/x2/VPWR" "buffer_bus_0/buffer_cell_0/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_0/x1/VPWR" "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_1/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_1/x2/VPWR" "buffer_bus_0/buffer_cell_1/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_1/x1/VPWR" "buffer_bus_0/buffer_cell_0/VDD"
+merge "buffer_bus_0/buffer_cell_0/VDD" "VDD"
+merge "decoder_3_0/decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/B" "dcell_lv_0/DS[9]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/DS[9]" "m1_9027_n1175#"
+merge "seg_selector_lvsf_0/lvsf_inv_1/lvsf_0/INB" "dcell_lv_0/S[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/S[2]" "m1_9056_n827#"
+merge "decoder_3_0/decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/A" "dcell_lv_0/DS[8]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/DS[8]" "decoder_3_0/decoder_2to4_2/b[0]"
+merge "decoder_3_0/decoder_2to4_2/b[0]" "m1_9027_n1719#"
+merge "lvsf_7bit_0/lvsf_buff_4/buff_hvl_0/OUT" "b[5]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/seg_selector_logic_0/S[4]" "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/IN" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/IN" "m1_9046_1081#"
+merge "dcell_lv_0/logic_shift_seg2_0/b[9]" "buffer_bus_0/buffer_cell_0/OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_0/OUT" "m1_5754_n2107#"
+merge "dcell_lv_0/S[1]" "seg_selector_lvsf_0/lvsf_inv_0/lvsf_0/INB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_0/lvsf_0/INB" "m1_9046_85#"
+merge "dcell_lv_0/SB[3]" "seg_selector_lvsf_0/lvsf_inv_2/lvsf_0/INB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_2/lvsf_0/INB" "m1_9046_n3#"
+merge "decoder_3_0/dec_2_0/decoder_2to4_0/b[0]" "lvsf_7bit_0/lvsf_buff_5/lvsf_0/IN" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_5/lvsf_0/IN" "buffer_bus_0/buffer_cell_7/OUT"
+merge "buffer_bus_0/buffer_cell_7/OUT" "m1_9226_n2987#"
+merge "lvsf_7bit_0/lvsf_buff_4/buff_hvl_0/OUTB" "bb[5]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/logic_shift_seg2_0/b[8]" "buffer_bus_0/buffer_cell_1/OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_1/OUT" "m1_5754_n2283#"
+merge "seg_selector_lvsf_0/lvsf_inv_2/li_647_2548#" "seg_selector_lvsf_0/lvsf_inv_2/sky130_fd_sc_hvl__inv_1_1/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_2/sky130_fd_sc_hvl__inv_1_1/Y" "SH[3]"
+merge "dcell_lv_0/logic_shift_seg2_0/bb[8]" "buffer_bus_0/buffer_cell_1/OUTB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_1/OUTB" "m1_5754_n2195#"
+merge "dcell_lv_0/logic_shift_seg2_0/m2_7109_n3782#" "buffer_bus_0/buffer_cell_0/OUTB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_0/OUTB" "m1_5748_n2019#"
+merge "lvsf_7bit_0/lvsf_buff_1/lvsf_0/IN" "buffer_bus_0/buffer_cell_10/OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/OUT" "m1_9226_n3515#"
+merge "decoder_3_0/decoder_2to4_1/bb[1]" "dcell_lv_0/logic_shift_seg2_0/bb[7]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/logic_shift_seg2_0/bb[7]" "buffer_bus_0/buffer_cell_3/OUTB"
+merge "buffer_bus_0/buffer_cell_3/OUTB" "m1_5754_n2371#"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_2/Y" "dec2b[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_1/lvsf_0/VPBIAS" "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/lvsf_pcell_0/m1_272_300#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/decoder_2to4_1/VOUT[3]" "dec1[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_1/lvsf_0/lvsf_ncell_h_1/a_464_516#" "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/GND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/GND" "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/lvsf_ncell_h_1/a_464_516#"
+merge "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/lvsf_ncell_h_1/a_464_516#" "lvsf_7bit_0/lvsf_buff_1/lvsf_0/GND"
+merge "lvsf_7bit_0/lvsf_buff_1/lvsf_0/GND" "seg_selector_lvsf_0/lvsf_inv_3/lvsf_0/lvsf_ncell_l_0/a_399_n430#"
+merge "decoder_3_0/dec_2_0/decoder_2to4_0/bb[0]" "lvsf_7bit_0/lvsf_buff_5/lvsf_0/INB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_5/lvsf_0/INB" "buffer_bus_0/buffer_cell_7/OUTB"
+merge "buffer_bus_0/buffer_cell_7/OUTB" "m1_9226_n2899#"
+merge "decoder_3_0/decoder_2to4_1/VOUT[2]" "dec1[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/decoder_2to4_1/b[0]" "lvsf_7bit_0/lvsf_buff_7/lvsf_0/IN" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_7/lvsf_0/IN" "dcell_lv_0/logic_shift_seg2_0/b[6]"
+merge "dcell_lv_0/logic_shift_seg2_0/b[6]" "buffer_bus_0/buffer_cell_2/OUT"
+merge "buffer_bus_0/buffer_cell_2/OUT" "m1_5748_n2635#"
+merge "lvsf_7bit_0/lvsf_buff_3/lvsf_0/IN" "buffer_bus_0/buffer_cell_4/OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_4/OUT" "m1_9226_n3339#"
+merge "decoder_3_0/decoder_2to4_1/VOUT[1]" "dec1[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_3/lvsf_0/INB" "buffer_bus_0/buffer_cell_4/OUTB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_4/OUTB" "m1_9226_n3251#"
+merge "seg_selector_lvsf_0/lvsf_inv_1/lvsf_0/IN" "dcell_lv_0/SB[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/SB[2]" "m1_9056_n651#"
+merge "decoder_3_0/decoder_2to4_1/VOUT[0]" "dec1[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_0/Y" "dec2b[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_0/lvsf_0/INB" "buffer_bus_0/buffer_cell_11/OUTB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_11/OUTB" "m1_9226_n3603#"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_1/Y" "dec2b[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/B" "dcell_lv_0/DSB[9]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/DSB[9]" "m1_9028_n1087#"
+merge "lvsf_7bit_0/lvsf_buff_0/buff_hvl_0/sky130_fd_sc_hvl__inv_1_1/VNB" "lvsf_7bit_0/lvsf_buff_0/buff_hvl_0/GND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_0/buff_hvl_0/GND" "seg_selector_lvsf_0/lvsf_inv_3/m1_77_2788#"
+merge "lvsf_7bit_0/lvsf_buff_2/lvsf_0/IN" "buffer_bus_0/buffer_cell_5/OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_5/OUT" "m1_9226_n3163#"
+merge "decoder_3_0/decoder_2to4_2/dec_pcell_0/m1_n535_1581#" "VBPDEC" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_7/buff_hvl_0/OUT" "b[6]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/decoder_2to4_2/VOUT[3]" "dec0[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_5/buff_hvl_0/OUTB" "bb[4]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/Y" "dec2b[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_2/IN" "DIN6" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/decoder_2to4_1/b[1]" "dcell_lv_0/logic_shift_seg2_0/b[7]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/logic_shift_seg2_0/b[7]" "buffer_bus_0/buffer_cell_3/OUT"
+merge "buffer_bus_0/buffer_cell_3/OUT" "m1_5754_n2459#"
+merge "decoder_3_0/decoder_2to4_2/VOUT[2]" "dec0[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/decoder_2to4_2/dec_ncell_h_0/m1_689_n29#" "VBNDEC" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_2/lvsf_0/INB" "buffer_bus_0/buffer_cell_5/OUTB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_5/OUTB" "m1_9226_n3075#"
+merge "lvsf_7bit_0/lvsf_buff_3/buff_hvl_0/OUT" "b[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_0/buff_hvl_0/OUTB" "bb[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/decoder_2to4_2/VOUT[1]" "dec0[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_1/lvsf_0/INB" "buffer_bus_0/buffer_cell_10/OUTB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/OUTB" "m1_9226_n3427#"
+merge "buffer_bus_0/buffer_cell_11/IN" "DIN0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_0/li_647_2548#" "seg_selector_lvsf_0/lvsf_inv_0/sky130_fd_sc_hvl__inv_1_1/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_0/sky130_fd_sc_hvl__inv_1_1/Y" "SH[1]"
+merge "lvsf_7bit_0/lvsf_buff_0/lvsf_0/IN" "buffer_bus_0/buffer_cell_11/OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_11/OUT" "m1_9226_n3691#"
+merge "decoder_3_0/decoder_2to4_2/VOUT[0]" "dec0[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_7/lvsf_0/VPBIAS" "VBPLV" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/dec_2_0/decoder_2to4_0/b[1]" "lvsf_7bit_0/lvsf_buff_4/lvsf_0/IN" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_4/lvsf_0/IN" "buffer_bus_0/buffer_cell_6/OUT"
+merge "buffer_bus_0/buffer_cell_6/OUT" "m1_9226_n2811#"
+merge "seg_selector_lvsf_0/lvsf_inv_1/li_647_2548#" "seg_selector_lvsf_0/lvsf_inv_1/sky130_fd_sc_hvl__inv_1_1/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_lvsf_0/lvsf_inv_1/sky130_fd_sc_hvl__inv_1_1/Y" "SH[2]"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" "dec2[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/dec_2_0/li_1045_3711#" "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" "dec2[2]"
+merge "lvsf_7bit_0/lvsf_buff_1/buff_hvl_0/OUTB" "bb[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_2/B" "dcell_lv_0/DSB[8]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dcell_lv_0/DSB[8]" "m1_9028_n1663#"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" "dec2[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_2/buff_hvl_0/OUT" "b[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_0/IN" "DIN9" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_6/IN" "DIN5" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_3/IN" "DIN7" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_7/buff_hvl_0/OUTB" "bb[6]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_2/buff_hvl_0/OUTB" "bb[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_5/buff_hvl_0/OUT" "b[4]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_3/buff_hvl_0/OUTB" "bb[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_7bit_0/lvsf_buff_1/buff_hvl_0/OUT" "b[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

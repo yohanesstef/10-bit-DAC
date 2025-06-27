@@ -1,0 +1,78 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750851005
+<< pwell >>
+rect -151 -134 689 1279
+<< mvpsubdiff >>
+rect -115 1185 653 1243
+rect -115 -40 -57 1185
+rect 595 -40 653 1185
+rect -115 -98 653 -40
+<< locali >>
+rect -103 1197 641 1231
+rect -103 -52 -69 1197
+rect 607 -52 641 1197
+rect -103 -86 641 -52
+<< metal1 >>
+rect 299 1001 351 1011
+rect 299 939 351 949
+rect 23 856 75 866
+rect 23 794 75 804
+rect 23 616 75 626
+rect 23 554 75 564
+rect 23 376 75 386
+rect 23 314 75 324
+rect 205 146 233 866
+rect 299 761 351 771
+rect 299 699 351 709
+rect 299 521 351 531
+rect 299 459 351 469
+rect 481 297 509 1017
+rect 299 281 351 291
+rect 299 219 351 229
+rect 23 136 75 146
+rect 23 74 75 84
+<< via1 >>
+rect 299 949 351 1001
+rect 23 804 75 856
+rect 23 564 75 616
+rect 23 324 75 376
+rect 299 709 351 761
+rect 299 469 351 521
+rect 299 229 351 281
+rect 23 84 75 136
+<< metal2 >>
+rect 299 1001 351 1011
+rect 47 961 299 989
+rect 47 866 75 961
+rect 299 939 351 949
+rect 23 856 75 866
+rect 23 794 75 804
+rect 299 761 351 771
+rect 47 721 299 749
+rect 47 626 75 721
+rect 299 699 351 709
+rect 23 616 75 626
+rect 23 554 75 564
+rect 299 521 351 531
+rect 47 481 299 509
+rect 47 386 75 481
+rect 299 459 351 469
+rect 23 376 75 386
+rect 23 314 75 324
+rect 299 281 351 291
+rect 47 241 299 269
+rect 47 146 75 241
+rect 299 219 351 229
+rect 23 136 75 146
+rect 23 74 75 84
+use sky130_fd_pr__nfet_g5v0d10v5_MU5DNH  sky130_fd_pr__nfet_g5v0d10v5_MU5DNH_0
+timestamp 1750848845
+transform 1 0 131 0 1 495
+box -108 -459 108 459
+use sky130_fd_pr__nfet_g5v0d10v5_MU5DNH  sky130_fd_pr__nfet_g5v0d10v5_MU5DNH_1
+timestamp 1750848845
+transform 1 0 407 0 1 646
+box -108 -459 108 459
+<< end >>

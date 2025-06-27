@@ -7,9 +7,9 @@ resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 
 use hnmos_2 hnmos_2_1 1 0 548 0 1 -1
 use hnmos_2 hnmos_2_0 1 0 -4 0 1 -1
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#" "hnmos_2_0/hnmos_1_1/m1_65_142#" 0.0706211
 cap "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_0/hnmos_1_1/m1_65_142#" 0.0706211
-cap "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#" 52.2566
-cap "hnmos_2_0/hnmos_1_1/m1_65_142#" "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#" 0.0706211
+cap "hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#" "hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#" 52.2566
 merge "hnmos_2_0/VSUBS" "hnmos_2_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "hnmos_2_1/VSUBS" "VSUBS"
 merge "hnmos_2_0/hnmos_1_1/m1_65_142#" "hnmos_2_1/hnmos_1_0/m1_65_142#" -63.3976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -104 0 0 0 0 0 0 0 0

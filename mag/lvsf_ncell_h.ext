@@ -1,0 +1,24 @@
+timestamp 1749632609
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__nfet_g5v0d10v5_4L29ME sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0 -1 0 652 0 1 764
+use sky130_fd_pr__nfet_g5v0d10v5_4L2TME sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0 -1 0 1266 0 1 764
+node "m1_586_604#" 3 597.395 586 604 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19008 816 59400 2100 0 0 0 0 0 0 0 0
+substrate "a_464_516#" 0 0 464 516 mvppd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59400 2100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31620 1928 0 0 0 0 0 0 0 0 0 0 0 0
+cap "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/a_n100_n157#" "a_464_516#" 124.031
+cap "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/a_n100_n157#" "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/a_100_n69#" 14.0459
+cap "sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0/a_n158_n69#" "a_464_516#" 6.99128
+cap "sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0/a_n158_n69#" "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/a_100_n69#" 40.2709
+cap "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/a_n158_n69#" "a_464_516#" 7.95509
+cap "sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0/a_100_n69#" "a_464_516#" 7.95509
+cap "sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0/a_n158_n69#" "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/a_n100_n157#" 14.0459
+cap "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/a_n158_n69#" "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/a_n100_n157#" 14.0314
+cap "sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0/a_100_n69#" "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/a_n100_n157#" 14.0314
+cap "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/a_100_n69#" "a_464_516#" 6.99128
+merge "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/VSUBS" "sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0/VSUBS" -91.3146 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0/VSUBS" "a_464_516#"
+merge "sky130_fd_pr__nfet_g5v0d10v5_4L2TME_0/a_n100_n157#" "sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0/a_n100_n157#" -247.134 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10672 -648 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__nfet_g5v0d10v5_4L29ME_0/a_n100_n157#" "m1_586_604#"

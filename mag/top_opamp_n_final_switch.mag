@@ -1,0 +1,12 @@
+magic
+tech sky130A
+timestamp 1751021419
+use top_buffer_opamp  top_buffer_opamp_0
+timestamp 1751021419
+transform -1 0 -1078 0 1 4837
+box -6231 -4399 260 6699
+use top_seg_sel_interpolating  top_seg_sel_interpolating_0
+timestamp 1750851032
+transform 1 0 5409 0 -1 8045
+box -209 1468 1538 2270
+<< end >>

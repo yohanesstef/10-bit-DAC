@@ -12,8 +12,8 @@ ypos2=13.733389
 divy=5
 subdivy=1
 unity=1
-x1=-3.5e-05
-x2=0.000315
+x1=0.00013219925
+x2=0.00017376078
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -24,7 +24,7 @@ logx=0
 logy=0
 digital=1
 rainbow=1
-color="4 5 6 7 8 9 10 11 12 13 14 15"
+color="4 5 6 7 8 9 10 11 12 13 14 15 4 4"
 node="d0[0]
 d0[1]
 d0[2]
@@ -36,7 +36,9 @@ d1[3]
 d2[0]
 d2[1]
 d2[2]
-d2[3]"}
+d2[3]
+b0
+b1"}
 B 2 910 -1010 2240 -610 {flags=graph
 y1=-2.1234028
 y2=-0.79340278
@@ -45,8 +47,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-3.5e-05
-x2=0.000315
+x1=0.00013219925
+x2=0.00017376078
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -88,8 +90,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-3.5e-05
-x2=0.000315
+x1=0.00013219925
+x2=0.00017376078
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -110,8 +112,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-3.5e-05
-x2=0.000315
+x1=0.00013219925
+x2=0.00017376078
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -154,14 +156,14 @@ tclcommand="textwindow $netlist_dir/res_seg_1-tb.raw"
 }
 C {devices/lab_pin.sym} 1250 -420 0 0 {name=p2 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 1250 -480 0 0 {name=p9 sig_type=std_logic lab=vout}
-C {decoder_2to4.sym} 390 -420 0 0 {name=x3}
+C {decoder_2to4.sym} 390 -430 0 0 {name=x3}
 C {devices/lab_pin.sym} 240 -410 0 0 {name=p11 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 240 -390 0 0 {name=p12 sig_type=std_logic lab=vddh}
 C {devices/lab_pin.sym} 240 -370 0 0 {name=p13 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 240 -470 0 0 {name=p14 sig_type=std_logic lab=VPBIAS}
-C {devices/lab_pin.sym} 240 -450 0 0 {name=p15 sig_type=std_logic lab=VNBIAS}
-C {devices/lab_pin.sym} 540 -470 0 1 {name=p17 sig_type=std_logic lab=d0[0:3]}
-C {devices/lab_pin.sym} 240 -430 0 0 {name=p25 sig_type=std_logic lab=b[4..5]}
+C {devices/lab_pin.sym} 240 -490 0 0 {name=p14 sig_type=std_logic lab=VPBIAS}
+C {devices/lab_pin.sym} 240 -470 0 0 {name=p15 sig_type=std_logic lab=VNBIAS}
+C {devices/lab_pin.sym} 540 -490 0 1 {name=p17 sig_type=std_logic lab=d0[0:3]}
+C {devices/lab_pin.sym} 240 -450 0 0 {name=p25 sig_type=std_logic lab=b[4..5]}
 C {devices/code.sym} 0 -180 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
@@ -222,3 +224,4 @@ C {devices/code_shown.sym} -260 -320 0 0 {name=s1 only_toplevel=false value="
 .include $THESIS_WS/spice/rseg_1_tb.sp
 .save vout b0 b1 b2 b3 b4 b5"}
 C {top_segment_1_posim.sym} 880 -420 0 0 {name=x1}
+C {devices/lab_pin.sym} 240 -430 0 0 {name=p1 sig_type=std_logic lab=bb[4:5]}

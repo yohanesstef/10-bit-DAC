@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749807468
+timestamp 1750825354
 << viali >>
 rect 184 3714 218 3748
 rect 364 3713 398 3747
@@ -89,7 +89,7 @@ rect 1288 3694 1348 3700
 rect 1376 3760 1436 4102
 rect 1376 3260 1436 3700
 use decoder_2to4  decoder_2to4_0
-timestamp 1749738669
+timestamp 1750825354
 transform 1 0 -624 0 1 1790
 box 602 -1812 2158 1470
 use sky130_fd_sc_hvl__inv_1  sky130_fd_sc_hvl__inv_1_0 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/mag

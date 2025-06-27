@@ -1,17 +1,17 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749807468
+timestamp 1750842002
 use dec_2  dec_2_0
-timestamp 1749807468
-transform 1 0 1 0 1 20
+timestamp 1750825354
+transform 1 0 1425 0 1 20
 box -22 -22 1534 4122
 use decoder_2to4  decoder_2to4_1
-timestamp 1749738669
-transform 1 0 801 0 1 1810
+timestamp 1750825354
+transform 1 0 2225 0 1 1810
 box 602 -1812 2158 1470
 use decoder_2to4  decoder_2to4_2
-timestamp 1749738669
-transform 1 0 2225 0 1 1810
+timestamp 1750825354
+transform 1 0 3649 0 1 1810
 box 602 -1812 2158 1470
 << end >>

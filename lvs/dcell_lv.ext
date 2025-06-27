@@ -1,0 +1,111 @@
+timestamp 1750863578
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use seg_selector_logic seg_selector_logic_0 1 0 138 0 1 5744
+use logic_shift_seg2 logic_shift_seg2_0 1 0 -3908 0 1 2686
+port "GND" 21 3538 -813 3566 -785 m2
+port "VDD" 20 3349 -818 3377 -790 m2
+port "bb[9]" 7 3201 1594 3261 1654 m2
+port "bb[8]" 6 3109 1594 3169 1654 m2
+port "bb[7]" 5 3017 1594 3077 1654 m2
+port "bb[6]" 4 2925 1594 2985 1654 m2
+port "b[9]" 3 635 1560 695 1620 m2
+port "b[8]" 2 543 1560 603 1620 m2
+port "b[7]" 1 451 1560 511 1620 m2
+port "b[6]" 0 359 1560 419 1620 m2
+port "DS[8]" 16 3449 -972 3477 -944 m1
+port "DSB[8]" 18 3449 -916 3477 -888 m1
+port "DS[9]" 17 3449 -428 3477 -400 m1
+port "DSB[9]" 19 3449 -372 3477 -344 m1
+port "S[2]" 9 3449 -64 3477 -36 m1
+port "SB[2]" 13 3449 116 3477 144 m1
+port "SB[1]" 12 3449 688 3477 716 m1
+port "SB[3]" 14 3449 744 3477 772 m1
+port "S[1]" 8 3449 864 3477 892 m1
+port "S[3]" 10 3449 920 3477 948 m1
+port "SB[4]" 15 3453 1748 3481 1776 m1
+port "S[4]" 11 3461 1828 3489 1856 m1
+node "GND" 0 0 3538 -813 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 3349 -818 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[9]" 0 0 3201 1594 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[8]" 0 0 3109 1594 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[7]" 0 0 3017 1594 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[6]" 0 0 2925 1594 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[9]" 0 0 635 1560 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[8]" 0 0 543 1560 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[7]" 0 0 451 1560 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[6]" 0 0 359 1560 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_3225_1872#" 0 0 3225 1872 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_3133_1872#" 0 0 3133 1872 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_3041_1872#" 0 0 3041 1872 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_2949_1872#" 0 0 2949 1872 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DS[8]" 0 0 3449 -972 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DSB[8]" 0 0 3449 -916 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DS[9]" 0 0 3449 -428 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DSB[9]" 0 0 3449 -372 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "S[2]" 0 0 3449 -64 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SB[2]" 0 0 3449 116 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SB[1]" 0 0 3449 688 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SB[3]" 0 0 3449 744 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "S[1]" 0 0 3449 864 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "S[3]" 0 0 3449 920 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SB[4]" 0 0 3453 1748 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "S[4]" 0 0 3461 1828 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "logic_shift_seg2_0/bb[8]" "bb[8]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "bb[8]" "seg_selector_logic_0/bb[8]"
+merge "logic_shift_seg2_0/b[9]" "b[9]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "b[9]" "seg_selector_logic_0/b[9]"
+merge "logic_shift_seg2_0/VSUBS" "seg_selector_logic_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/VSUBS" "VSUBS"
+merge "logic_shift_seg2_0/bb[7]" "bb[7]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "bb[7]" "seg_selector_logic_0/bb[7]"
+merge "logic_shift_seg2_0/bb[6]" "bb[6]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "bb[6]" "seg_selector_logic_0/bb[6]"
+merge "logic_shift_seg2_0/BS[8]" "DS[8]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "logic_shift_seg2_0/BS[9]" "DS[9]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "logic_shift_seg2_0/m1_6830_n3782#" "GND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "GND" "logic_shift_seg2_0/x3/VGND"
+merge "logic_shift_seg2_0/x3/VGND" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND"
+merge "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "logic_shift_seg2_0/x4/VGND"
+merge "logic_shift_seg2_0/x4/VGND" "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_1/VGND"
+merge "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_1/VGND" "logic_shift_seg2_0/x9/VGND"
+merge "logic_shift_seg2_0/x9/VGND" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/VGND"
+merge "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/VGND" "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "seg_selector_logic_0/x2/x4/VGND"
+merge "seg_selector_logic_0/x2/x4/VGND" "seg_selector_logic_0/x2/x5/VGND"
+merge "seg_selector_logic_0/x2/x5/VGND" "seg_selector_logic_0/x2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "seg_selector_logic_0/x2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "seg_selector_logic_0/sky130_fd_sc_hd__inv_1_3/VGND"
+merge "seg_selector_logic_0/sky130_fd_sc_hd__inv_1_3/VGND" "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND"
+merge "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "logic_shift_seg2_0/x1/VGND"
+merge "logic_shift_seg2_0/x1/VGND" "logic_shift_seg2_0/x2/VGND"
+merge "logic_shift_seg2_0/x2/VGND" "logic_shift_seg2_0/GND"
+merge "logic_shift_seg2_0/GND" "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND"
+merge "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "seg_selector_logic_0/x2/x3/VGND"
+merge "seg_selector_logic_0/x2/x3/VGND" "seg_selector_logic_0/x2/x2/VGND"
+merge "seg_selector_logic_0/x2/x2/VGND" "seg_selector_logic_0/x2/x1/VGND"
+merge "seg_selector_logic_0/x2/x1/VGND" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND"
+merge "logic_shift_seg2_0/b[8]" "b[8]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "b[8]" "seg_selector_logic_0/b[8]"
+merge "logic_shift_seg2_0/b[7]" "b[7]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "b[7]" "seg_selector_logic_0/b[7]"
+merge "logic_shift_seg2_0/b[6]" "b[6]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "b[6]" "seg_selector_logic_0/b[6]"
+merge "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/VPWR" "VDD" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "VDD" "seg_selector_logic_0/m1_2692_n5208#"
+merge "logic_shift_seg2_0/VDD" "seg_selector_logic_0/VDD" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "logic_shift_seg2_0/BSB[8]" "DSB[8]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "logic_shift_seg2_0/BSB[9]" "DSB[9]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/S[4]" "S[4]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/S[3]" "S[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/SB[4]" "SB[4]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/S[2]" "S[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/SB[3]" "SB[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/S[1]" "S[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "logic_shift_seg2_0/m2_7109_n3782#" "bb[9]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "bb[9]" "seg_selector_logic_0/bb[9]"
+merge "seg_selector_logic_0/SB[2]" "SB[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/SB[1]" "SB[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

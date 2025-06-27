@@ -1,0 +1,18 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1750855645
+<< checkpaint >>
+rect -6656 3296 -4135 5817
+rect -1270 4133 21354 8171
+rect -1298 1337 21754 4133
+use dcell_buffer_bus  top_digital_cell_0
+timestamp 1750855645
+transform 1 0 -5396 0 1 4556
+box 5366 -4551 25377 -1953
+<< labels >>
+flabel metal1 s 1415 663 1509 735 0 FreeSans 320 0 0 0 VDD
+port 0 nsew
+flabel metal1 s 1497 61 1591 133 0 FreeSans 320 0 0 0 GND
+port 1 nsew
+<< end >>

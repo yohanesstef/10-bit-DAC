@@ -1,0 +1,169 @@
+timestamp 1750857537
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use buffer_bus buffer_bus_0 1 0 11354 0 1 4262
+port "DIN9" 9 12665 -4447 12725 -4387 m2
+port "DIN0" 0 18461 -4447 18521 -4387 m2
+port "DIN1" 1 17817 -4447 17877 -4387 m2
+port "DIN2" 2 17173 -4447 17233 -4387 m2
+port "DIN3" 3 16529 -4447 16589 -4387 m2
+port "DIN4" 4 15885 -4447 15945 -4387 m2
+port "DIN5" 5 15241 -4447 15301 -4387 m2
+port "DIN6" 6 14597 -4447 14657 -4387 m2
+port "DIN7" 7 13953 -4447 14013 -4387 m2
+port "DIN8" 8 13309 -4447 13369 -4387 m2
+port "GND" 31 12573 -4411 12633 -4351 m1
+port "VDD" 30 12584 -3903 12644 -3843 m1
+port "D[0]" 10 18814 -3807 18874 -3747 m2
+port "DB[0]" 20 18726 -3807 18786 -3747 m2
+port "D[1]" 11 18170 -3807 18230 -3747 m2
+port "DB[1]" 21 18082 -3807 18142 -3747 m2
+port "D[2]" 12 17526 -3807 17586 -3747 m2
+port "DB[2]" 22 17438 -3807 17498 -3747 m2
+port "D[3]" 13 16882 -3807 16942 -3747 m2
+port "DB[3]" 23 16794 -3807 16854 -3747 m2
+port "D[4]" 14 16238 -3807 16298 -3747 m2
+port "DB[4]" 24 16150 -3807 16210 -3747 m2
+port "D[5]" 15 15594 -3807 15654 -3747 m2
+port "DB[5]" 25 15506 -3807 15566 -3747 m2
+port "D[6]" 16 14950 -3807 15010 -3747 m2
+port "DB[6]" 26 14862 -3807 14922 -3747 m2
+port "D[7]" 17 14306 -3807 14366 -3747 m2
+port "DB[7]" 27 14218 -3807 14278 -3747 m2
+port "D[8]" 18 13662 -3807 13722 -3747 m2
+port "DB[8]" 28 13574 -3807 13634 -3747 m2
+port "D[9]" 19 13018 -3807 13078 -3747 m2
+port "DB[9]" 29 12930 -3807 12990 -3747 m2
+node "DIN9" 0 0 12665 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN0" 0 0 18461 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN1" 0 0 17817 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN2" 0 0 17173 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN3" 0 0 16529 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN4" 0 0 15885 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN5" 0 0 15241 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN6" 0 0 14597 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN7" 0 0 13953 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN8" 0 0 13309 -4447 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "GND" 0 0 12573 -4411 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 12584 -3903 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D[0]" 0 0 18814 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DB[0]" 0 0 18726 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D[1]" 0 0 18170 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DB[1]" 0 0 18082 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D[2]" 0 0 17526 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DB[2]" 0 0 17438 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D[3]" 0 0 16882 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DB[3]" 0 0 16794 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D[4]" 0 0 16238 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DB[4]" 0 0 16150 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D[5]" 0 0 15594 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DB[5]" 0 0 15506 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D[6]" 0 0 14950 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DB[6]" 0 0 14862 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D[7]" 0 0 14306 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DB[7]" 0 0 14218 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D[8]" 0 0 13662 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DB[8]" 0 0 13574 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D[9]" 0 0 13018 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DB[9]" 0 0 12930 -3807 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_1/IN" "DIN8" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_0/OUTB" "DB[9]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/x2/VGND" "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_11/x2/VGND"
+merge "buffer_bus_0/buffer_cell_11/x2/VGND" "buffer_bus_0/buffer_cell_11/x1/VGND"
+merge "buffer_bus_0/buffer_cell_11/x1/VGND" "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_10/x2/VNB"
+merge "buffer_bus_0/buffer_cell_10/x2/VNB" "buffer_bus_0/buffer_cell_5/x2/VGND"
+merge "buffer_bus_0/buffer_cell_5/x2/VGND" "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_4/x2/VGND"
+merge "buffer_bus_0/buffer_cell_4/x2/VGND" "buffer_bus_0/buffer_cell_4/x1/VGND"
+merge "buffer_bus_0/buffer_cell_4/x1/VGND" "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_10/x1/VGND"
+merge "buffer_bus_0/buffer_cell_10/x1/VGND" "buffer_bus_0/buffer_cell_5/x2/VNB"
+merge "buffer_bus_0/buffer_cell_5/x2/VNB" "buffer_bus_0/buffer_cell_6/x2/VGND"
+merge "buffer_bus_0/buffer_cell_6/x2/VGND" "buffer_bus_0/buffer_cell_6/x1/VGND"
+merge "buffer_bus_0/buffer_cell_6/x1/VGND" "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_7/x2/VGND"
+merge "buffer_bus_0/buffer_cell_7/x2/VGND" "buffer_bus_0/buffer_cell_7/x1/VGND"
+merge "buffer_bus_0/buffer_cell_7/x1/VGND" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_5/x1/VGND"
+merge "buffer_bus_0/buffer_cell_5/x1/VGND" "buffer_bus_0/buffer_cell_3/x2/VGND"
+merge "buffer_bus_0/buffer_cell_3/x2/VGND" "buffer_bus_0/buffer_cell_3/x1/VGND"
+merge "buffer_bus_0/buffer_cell_3/x1/VGND" "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_2/x2/VGND"
+merge "buffer_bus_0/buffer_cell_2/x2/VGND" "buffer_bus_0/buffer_cell_2/x1/VGND"
+merge "buffer_bus_0/buffer_cell_2/x1/VGND" "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_0/x2/VGND"
+merge "buffer_bus_0/buffer_cell_0/x2/VGND" "buffer_bus_0/buffer_cell_0/x1/VGND"
+merge "buffer_bus_0/buffer_cell_0/x1/VGND" "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "buffer_bus_0/buffer_cell_1/x2/VGND"
+merge "buffer_bus_0/buffer_cell_1/x2/VGND" "buffer_bus_0/buffer_cell_1/x1/VGND"
+merge "buffer_bus_0/buffer_cell_1/x1/VGND" "buffer_bus_0/buffer_cell_0/GND"
+merge "buffer_bus_0/buffer_cell_0/GND" "GND"
+merge "buffer_bus_0/buffer_cell_4/IN" "DIN2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_1/OUTB" "DB[8]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_7/IN" "DIN4" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_6/OUTB" "DB[5]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/IN" "DIN1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/x2/VPWR" "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_11/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_11/x2/VPWR" "buffer_bus_0/buffer_cell_11/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_11/x1/VPWR" "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_11/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_10/x2/VPB"
+merge "buffer_bus_0/buffer_cell_10/x2/VPB" "buffer_bus_0/buffer_cell_5/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_5/x2/VPWR" "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_5/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_4/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_4/x2/VPWR" "buffer_bus_0/buffer_cell_4/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_4/x1/VPWR" "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_4/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_10/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_10/x1/VPWR" "buffer_bus_0/buffer_cell_5/x2/VPB"
+merge "buffer_bus_0/buffer_cell_5/x2/VPB" "buffer_bus_0/buffer_cell_6/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_6/x2/VPWR" "buffer_bus_0/buffer_cell_6/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_6/x1/VPWR" "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_6/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_7/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_7/x2/VPWR" "buffer_bus_0/buffer_cell_7/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_7/x1/VPWR" "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_7/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_5/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_5/x1/VPWR" "buffer_bus_0/buffer_cell_3/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_3/x2/VPWR" "buffer_bus_0/buffer_cell_3/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_3/x1/VPWR" "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_3/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_2/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_2/x2/VPWR" "buffer_bus_0/buffer_cell_2/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_2/x1/VPWR" "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_0/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_0/x2/VPWR" "buffer_bus_0/buffer_cell_0/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_0/x1/VPWR" "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "buffer_bus_0/buffer_cell_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "buffer_bus_0/buffer_cell_1/x2/VPWR"
+merge "buffer_bus_0/buffer_cell_1/x2/VPWR" "buffer_bus_0/buffer_cell_1/x1/VPWR"
+merge "buffer_bus_0/buffer_cell_1/x1/VPWR" "buffer_bus_0/buffer_cell_0/VDD"
+merge "buffer_bus_0/buffer_cell_0/VDD" "VDD"
+merge "buffer_bus_0/buffer_cell_3/OUTB" "DB[7]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_2/OUTB" "DB[6]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_1/OUT" "D[8]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_7/OUTB" "DB[4]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/OUT" "D[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_5/OUTB" "DB[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_4/OUTB" "DB[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_4/OUT" "D[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_10/OUTB" "DB[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_11/OUTB" "DB[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_7/OUT" "D[4]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_2/IN" "DIN6" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_5/IN" "DIN3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_11/IN" "DIN0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_0/OUT" "D[9]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_3/OUT" "D[7]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_6/OUT" "D[5]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_2/OUT" "D[6]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_0/IN" "DIN9" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_6/IN" "DIN5" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_3/IN" "DIN7" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_5/OUT" "D[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "buffer_bus_0/buffer_cell_11/OUT" "D[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

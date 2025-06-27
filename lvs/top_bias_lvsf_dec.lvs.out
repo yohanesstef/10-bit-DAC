@@ -1,0 +1,104 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+Flattening unmatched subcell cm2_pcell3 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_pcell3_cell in circuit top_bias_lvsf_dec (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD in circuit top_bias_lvsf_dec (0)(4 instances)
+Flattening unmatched subcell cm2_ncell4 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_ncell4_1 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_SZ2N2S in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_ncell4_2 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_TNA5KF in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_ncell4_3 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_MLSP8N in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_pcell4_1 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_NWEVUG in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_pcell in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_pcell1 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_pcell1_5 in circuit top_bias_lvsf_dec (0)(2 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_bias_lvsf_dec (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_bias_lvsf_dec (0)(6 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit top_bias_lvsf_dec (0)(4 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_bias_lvsf_dec (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_bias_lvsf_dec (0)(8 instances)
+Flattening unmatched subcell cm2_pcell2 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_pcell2_5 in circuit top_bias_lvsf_dec (0)(2 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_bias_lvsf_dec (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_bias_lvsf_dec (0)(6 instances)
+Flattening unmatched subcell cm_pcell1_2 in circuit top_bias_lvsf_dec (0)(4 instances)
+Flattening unmatched subcell cm_pcell_1 in circuit top_bias_lvsf_dec (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 in circuit top_bias_lvsf_dec (0)(8 instances)
+Flattening unmatched subcell cm2_ncell in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_ncell2 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_ncell2_ncell in circuit top_bias_lvsf_dec (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_bias_lvsf_dec (0)(4 instances)
+Flattening unmatched subcell cm2_ncell1 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell cm2_ncell1_cell in circuit top_bias_lvsf_dec (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_bias_lvsf_dec (0)(4 instances)
+Flattening unmatched subcell cm2_ncell3 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QKV39N in circuit top_bias_lvsf_dec (0)(6 instances)
+Flattening unmatched subcell cm2_pcell4_2 in circuit top_bias_lvsf_dec (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_YDEY4G in circuit top_bias_lvsf_dec (0)(1 instance)
+
+Class top_bias_lvsf_dec (0):  Merged 27 parallel devices.
+Class top_bias_lvsf_dec (1):  Merged 1 parallel devices.
+Subcircuit summary:
+Circuit 1: top_bias_lvsf_dec               |Circuit 2: top_bias_lvsf_dec               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (35->15)      |sky130_fd_pr__pfet_g5v0d10v5 (31->15)      
+sky130_fd_pr__nfet_g5v0d10v5 (17->10)      |sky130_fd_pr__nfet_g5v0d10v5 (17->10)      
+Number of devices: 25                      |Number of devices: 25                      
+Number of nets: 21                         |Number of nets: 21                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Netlists match uniquely with property errors.
+cm2_pcell_0//cm2_pcell1_0//cm2_pcell1_5_0//sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/sky130_fd_pr__pfet_g5v0d10v5:0 vs. sky130_fd_pr__pfet_g5v0d10v5:M28:
+ l circuit1: 1   circuit2: 20   (delta=181%, cutoff=1%)
+ w circuit1: 14.4   circuit2: 7.2   (delta=66.7%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: top_bias_lvsf_dec               |Circuit 2: top_bias_lvsf_dec               
+-------------------------------------------|-------------------------------------------
+GNDA                                       |GNDA                                       
+VBNLV                                      |VBNLV                                      
+VBNDEC                                     |VBNDEC                                     
+VBPLV                                      |VBPLV                                      
+ROUT                                       |ROUT                                       
+VBPDEC                                     |VBPDEC                                     
+VDDA                                       |VDDA                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes top_bias_lvsf_dec and top_bias_lvsf_dec are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ top_bias_lvsf_dec

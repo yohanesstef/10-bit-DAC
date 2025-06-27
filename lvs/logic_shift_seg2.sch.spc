@@ -10,8 +10,6 @@ x4 n1 n3 n2 GND GND VDD VDD BS[9] sky130_fd_sc_hd__nand3_1
 x6 b[6] b[8] GND GND VDD VDD n4 sky130_fd_sc_hd__nand2_1
 x7 b[8] b[7] GND GND VDD VDD n5 sky130_fd_sc_hd__nand2_1
 x8 n6 n5 n4 GND GND VDD VDD BS[8] sky130_fd_sc_hd__nand3_1
-
-
 x9 BS[9] GND GND VDD VDD BSB[9] sky130_fd_sc_hd__inv_1
 x10 BS[8] GND GND VDD VDD BSB[8] sky130_fd_sc_hd__inv_1
 .ends

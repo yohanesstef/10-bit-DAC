@@ -1,0 +1,90 @@
+** sch_path: /home/yohanes/10-bit-DAC/xschem/dcell_lv.sch
+.include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+.include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.subckt dcell_lv b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] bb[9] S[1] S[2] S[3] S[4] SB[1] SB[2] SB[3] SB[4] DS[8] DS[9] DSB[8] DSB[9]
++ VDD GND
+*.PININFO GND:I VDD:I b[6:9]:I DS[8:9]:O DSB[8:9]:O S[1:4]:O SB[1:4]:O bb[6:9]:I
+x5 b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] bb[9] S[1] S[2] S[3] S[4] SB[1] SB[2] SB[3] SB[4] VDD GND seg_selector_logic
+x23 b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] DS[8] DS[9] DSB[8] DSB[9] VDD gnd logic_shift_seg2
+.ends
+
+* expanding   symbol:  seg_selector_logic.sym # of pins=6
+** sym_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_logic.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_logic.sch
+.subckt seg_selector_logic b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] bb[9] S[1] S[2] S[3] S[4] SB[1] SB[2] SB[3] SB[4] VDD GND
+*.PININFO b[6:9]:I S[1:4]:O GND:I VDD:I bb[6:9]:I SB[1:4]:O
+x1 bb[6] bb[7] bb[8] bb[9] S[1] VDD GND seg_selector_1_logic
+x2 b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] bb[9] S[2] VDD GND seg_selector_2_logic
+x3 b[6] b[7] b[8] b[9] bb[6] bb[7] S[3] VDD GND seg_selector_3_logic
+x4 b[6] b[7] b[8] b[9] S[4] VDD GND seg_selector_4_logic
+x10 S[1] GND GND VDD VDD SB[1] sky130_fd_sc_hd__inv_1
+x11 S[2] GND GND VDD VDD SB[2] sky130_fd_sc_hd__inv_1
+x12 S[3] GND GND VDD VDD SB[3] sky130_fd_sc_hd__inv_1
+x13 S[4] GND GND VDD VDD SB[4] sky130_fd_sc_hd__inv_1
+.ends
+
+
+* expanding   symbol:  logic_shift_seg2.sym # of pins=6
+** sym_path: /home/yohanes/10-bit-DAC/xschem/logic_shift_seg2.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/logic_shift_seg2.sch
+.subckt logic_shift_seg2 b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] BS[8] BS[9] BSB[8] BSB[9] VDD GND
+*.PININFO b[6:9]:I BS[8:9]:O GND:I VDD:I bb[6:8]:I BSB[8:9]:O
+x1 b[9] b[8] GND GND VDD VDD n1 sky130_fd_sc_hd__nand2_1
+x2 b[7] b[9] GND GND VDD VDD n2 sky130_fd_sc_hd__nand2_1
+x3 b[6] b[9] GND GND VDD VDD n3 sky130_fd_sc_hd__nand2_1
+x5 bb[6] bb[7] bb[8] GND GND VDD VDD n6 sky130_fd_sc_hd__nand3_1
+x4 n1 n3 n2 GND GND VDD VDD BS[9] sky130_fd_sc_hd__nand3_1
+x6 b[6] b[8] GND GND VDD VDD n4 sky130_fd_sc_hd__nand2_1
+x7 b[8] b[7] GND GND VDD VDD n5 sky130_fd_sc_hd__nand2_1
+x8 n6 n5 n4 GND GND VDD VDD BS[8] sky130_fd_sc_hd__nand3_1
+x9 BS[9] GND GND VDD VDD BSB[9] sky130_fd_sc_hd__inv_1
+x10 BS[8] GND GND VDD VDD BSB[8] sky130_fd_sc_hd__inv_1
+.ends
+
+
+* expanding   symbol:  seg_selector_1_logic.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_1_logic.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_1_logic.sch
+.subckt seg_selector_1_logic bb[6] bb[7] bb[8] bb[9] S VDD GND
+*.PININFO S:O GND:I VDD:I bb[6:9]:I
+x1 bb[7] bb[6] GND GND VDD VDD net2 sky130_fd_sc_hd__nand2_1
+x3 net2 net1 GND GND VDD VDD S sky130_fd_sc_hd__nor2_1
+x2 bb[9] bb[8] GND GND VDD VDD net1 sky130_fd_sc_hd__nand2_1
+.ends
+
+
+* expanding   symbol:  seg_selector_2_logic.sym # of pins=5
+** sym_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_2_logic.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_2_logic.sch
+.subckt seg_selector_2_logic b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] bb[9] S VDD GND
+*.PININFO b[6:9]:I S:O GND:I VDD:I bb[6:9]:I
+x1 b[6] bb[9] GND GND VDD VDD n1 sky130_fd_sc_hd__nand2_1
+x2 bb[9] b[7] GND GND VDD VDD n2 sky130_fd_sc_hd__nand2_1
+x3 bb[8] b[9] GND GND VDD VDD n3 sky130_fd_sc_hd__nand2_1
+x5 bb[6] bb[7] b[8] GND GND VDD VDD n4 sky130_fd_sc_hd__nand3_1
+x4 n3 n2 n1 n4 GND GND VDD VDD S sky130_fd_sc_hd__nand4_1
+.ends
+
+
+* expanding   symbol:  seg_selector_3_logic.sym # of pins=5
+** sym_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_3_logic.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_3_logic.sch
+.subckt seg_selector_3_logic b[6] b[7] b[8] b[9] bb[6] bb[7] S VDD GND
+*.PININFO S:O GND:I VDD:I b[6:9]:I bb[6:7]:I
+x2 b[9] b[8] bb[6] b[7] GND GND VDD VDD net1 sky130_fd_sc_hd__nand4_1
+x1 bb[7] b[6] b[8] b[9] GND GND VDD VDD net2 sky130_fd_sc_hd__nand4_1
+x3 net1 net2 GND GND VDD VDD S sky130_fd_sc_hd__nand2_1
+.ends
+
+
+* expanding   symbol:  seg_selector_4_logic.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_4_logic.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_4_logic.sch
+.subckt seg_selector_4_logic b[6] b[7] b[8] b[9] S VDD GND
+*.PININFO S:O GND:I VDD:I b[6:9]:I
+x1 b[8] b[9] GND GND VDD VDD net1 sky130_fd_sc_hd__nand2_1
+x2 b[6] b[7] GND GND VDD VDD net2 sky130_fd_sc_hd__nand2_1
+x3 net1 net2 GND GND VDD VDD S sky130_fd_sc_hd__nor2_1
+.ends
+

@@ -1,0 +1,33 @@
+timestamp 1750771847
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use cross_pair cross_pair_0 1 0 -35577 0 1 -1951
+use cm2_ncell2_ncell cm2_ncell2_ncell_1 -1 0 2424 0 -1 169
+use cm2_ncell2_ncell cm2_ncell2_ncell_0 1 0 -1062 0 1 -181
+node "m1_826_n96#" 0 0 826 -96 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_341_n124#" 0 0 341 -124 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_826_24#" 0 0 826 24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_341_24#" 0 0 341 24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_172_n504#" 0 0 172 -504 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_84_n504#" 0 0 84 -504 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm2_ncell2_ncell_0/li_1055_175#" "cm2_ncell2_ncell_1/li_1055_175#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm2_ncell2_ncell_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" "cm2_ncell2_ncell_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm2_ncell2_ncell_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" "m1_84_n504#"
+merge "cm2_ncell2_ncell_0/a_1042_175#" "cm2_ncell2_ncell_1/a_1042_175#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm2_ncell2_ncell_1/a_1042_175#" "cross_pair_0/VSUBS"
+merge "cross_pair_0/VSUBS" "VSUBS"
+merge "cm2_ncell2_ncell_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_1/a_100_n91#" "cm2_ncell2_ncell_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_1/a_100_n91#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm2_ncell2_ncell_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_1/a_100_n91#" "cross_pair_0/m1_36114_1855#"
+merge "cross_pair_0/m1_36114_1855#" "m1_341_n124#"
+merge "m1_341_n124#" "m1_826_24#"
+merge "cm2_ncell2_ncell_0/m1_1032_175#" "cm2_ncell2_ncell_1/m1_1032_175#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm2_ncell2_ncell_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "cm2_ncell2_ncell_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm2_ncell2_ncell_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "cross_pair_0/m1_36114_1975#"
+merge "cross_pair_0/m1_36114_1975#" "m1_826_n96#"
+merge "m1_826_n96#" "m1_341_24#"
+merge "cm2_ncell2_ncell_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_1/a_n158_n91#" "cm2_ncell2_ncell_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_1/a_n158_n91#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm2_ncell2_ncell_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_1/a_n158_n91#" "m1_172_n504#"

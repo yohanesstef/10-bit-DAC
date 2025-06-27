@@ -1,0 +1,72 @@
+timestamp 1750828667
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use lvsf_buff lvsf_buff_7 1 0 5912 0 1 -146
+use lvsf_buff lvsf_buff_5 1 0 3932 0 1 -146
+use lvsf_buff lvsf_buff_4 1 0 4922 0 1 -146
+use lvsf_buff lvsf_buff_3 1 0 1952 0 1 -146
+use lvsf_buff lvsf_buff_2 1 0 2942 0 1 -146
+use lvsf_buff lvsf_buff_1 1 0 962 0 1 -146
+use lvsf_buff lvsf_buff_0 1 0 -28 0 1 -146
+node "m1_5927_n111#" 0 0 5927 -111 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4937_n111#" 0 0 4937 -111 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_3947_n111#" 0 0 3947 -111 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_2957_n111#" 0 0 2957 -111 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_1967_n111#" 0 0 1967 -111 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_977_n111#" 0 0 977 -111 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_n13_n111#" 0 0 -13 -111 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_4/lvsf_0/lvsf_pcell_0/m1_272_300#" "lvsf_buff_7/lvsf_0/VPBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_4/lvsf_0/lvsf_pcell_0/w_n144_n33#" "lvsf_buff_7/lvsf_0/lvsf_pcell_0/w_n144_n33#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_7/lvsf_0/lvsf_pcell_0/w_n144_n33#" "lvsf_buff_2/lvsf_0/VDDH"
+merge "lvsf_buff_2/lvsf_0/VDDH" "lvsf_buff_5/lvsf_0/VDDH"
+merge "lvsf_buff_5/lvsf_0/VDDH" "lvsf_buff_3/m1_45_1998#"
+merge "lvsf_buff_3/m1_45_1998#" "lvsf_buff_5/lvsf_0/lvsf_pcell_0/w_n144_n33#"
+merge "lvsf_buff_5/lvsf_0/lvsf_pcell_0/w_n144_n33#" "lvsf_buff_0/lvsf_0/lvsf_pcell_0/w_n144_n33#"
+merge "lvsf_buff_0/lvsf_0/lvsf_pcell_0/w_n144_n33#" "lvsf_buff_3/lvsf_0/lvsf_pcell_0/w_n144_n33#"
+merge "lvsf_buff_3/lvsf_0/lvsf_pcell_0/w_n144_n33#" "lvsf_buff_1/lvsf_0/lvsf_pcell_0/w_n144_n33#"
+merge "lvsf_buff_4/lvsf_0/lvsf_ncell_h_1/m1_586_604#" "lvsf_buff_7/lvsf_0/VNBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_7/VSUBS" "lvsf_buff_4/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_4/VSUBS" "lvsf_buff_2/VSUBS"
+merge "lvsf_buff_2/VSUBS" "lvsf_buff_5/VSUBS"
+merge "lvsf_buff_5/VSUBS" "lvsf_buff_3/VSUBS"
+merge "lvsf_buff_3/VSUBS" "lvsf_buff_0/VSUBS"
+merge "lvsf_buff_0/VSUBS" "lvsf_buff_1/VSUBS"
+merge "lvsf_buff_1/VSUBS" "VSUBS"
+merge "lvsf_buff_2/lvsf_0/GND" "lvsf_buff_3/lvsf_0/lvsf_ncell_h_1/a_464_516#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_3/lvsf_0/lvsf_ncell_h_1/a_464_516#" "lvsf_buff_5/lvsf_0/GND"
+merge "lvsf_buff_5/lvsf_0/GND" "m1_3947_n111#"
+merge "lvsf_buff_1/m1_45_1998#" "lvsf_buff_3/lvsf_0/VDDH" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_4/lvsf_0/lvsf_ncell_h_1/a_464_516#" "lvsf_buff_7/lvsf_0/GND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_7/lvsf_0/GND" "m1_5927_n111#"
+merge "lvsf_buff_1/lvsf_0/lvsf_ncell_h_1/m1_586_604#" "lvsf_buff_3/lvsf_0/VNBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_1/lvsf_0/lvsf_ncell_h_1/a_464_516#" "lvsf_buff_3/lvsf_0/GND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_3/lvsf_0/GND" "m1_1967_n111#"
+merge "lvsf_buff_0/lvsf_0/GND" "m1_n13_n111#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "m1_n13_n111#" "lvsf_buff_1/lvsf_0/GND"
+merge "lvsf_buff_1/lvsf_0/GND" "m1_977_n111#"
+merge "lvsf_buff_0/m1_45_1998#" "lvsf_buff_1/lvsf_0/VDDH" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_4/lvsf_0/VNBIAS" "lvsf_buff_5/lvsf_0/lvsf_ncell_h_1/m1_586_604#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_2/lvsf_0/VPBIAS" "lvsf_buff_5/lvsf_0/VPBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_5/lvsf_0/VPBIAS" "lvsf_buff_3/lvsf_0/lvsf_pcell_0/m1_272_300#"
+merge "lvsf_buff_5/lvsf_0/li_3461_n797#" "m1_4937_n111#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_3/lvsf_0/li_3461_n797#" "m1_2957_n111#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_2/buff_hvl_0/GND" "lvsf_buff_4/m1_45_2771#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_4/m1_45_2771#" "lvsf_buff_7/m1_45_2771#"
+merge "lvsf_buff_7/m1_45_2771#" "lvsf_buff_2/buff_hvl_0/sky130_fd_sc_hvl__inv_1_0/VGND"
+merge "lvsf_buff_2/buff_hvl_0/sky130_fd_sc_hvl__inv_1_0/VGND" "lvsf_buff_5/m1_45_2771#"
+merge "lvsf_buff_5/m1_45_2771#" "lvsf_buff_0/m1_45_2771#"
+merge "lvsf_buff_0/m1_45_2771#" "lvsf_buff_3/m1_45_2771#"
+merge "lvsf_buff_3/m1_45_2771#" "lvsf_buff_1/m1_45_2771#"
+merge "lvsf_buff_0/lvsf_0/VNBIAS" "lvsf_buff_1/lvsf_0/VNBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_2/lvsf_0/VNBIAS" "lvsf_buff_5/lvsf_0/VNBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_5/lvsf_0/VNBIAS" "lvsf_buff_3/lvsf_0/lvsf_ncell_h_1/m1_586_604#"
+merge "lvsf_buff_4/m1_45_1998#" "lvsf_buff_7/lvsf_0/VDDH" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_4/lvsf_0/VPBIAS" "lvsf_buff_5/lvsf_0/lvsf_pcell_0/m1_272_300#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_4/lvsf_0/VDDH" "lvsf_buff_5/m1_45_1998#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_4/lvsf_0/GND" "lvsf_buff_5/lvsf_0/lvsf_ncell_h_1/a_464_516#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_0/lvsf_0/lvsf_pcell_0/m1_272_300#" "lvsf_buff_1/lvsf_0/VPBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lvsf_buff_1/lvsf_0/lvsf_pcell_0/m1_272_300#" "lvsf_buff_3/lvsf_0/VPBIAS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749550684
+timestamp 1750900893
 << error_s >>
 rect 31807 -7208 31813 -7202
 rect 31861 -7208 31867 -7202
@@ -115,7 +115,7 @@ rect 30219 -7708 30279 -7648
 rect 29943 -7796 30003 -7736
 rect 29667 -7884 29727 -7824
 use hnmos_8  hnmos_8_8
-timestamp 1749548291
+timestamp 1750900893
 transform 1 0 29660 0 1 -8190
 box -137 -180 2351 358
 << end >>

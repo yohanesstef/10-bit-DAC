@@ -1,0 +1,35 @@
+timestamp 1750863581
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use top_digital_cell top_digital_cell_0 0 -1 5865 1 0 -22720
+use top_bias_lvsf_dec top_bias_lvsf_dec_0 1 0 -5052 0 1 3009
+node "m2_6599_n1970#" 0 0 6599 -1970 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_420_1687#" 0 0 420 1687 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_1964_n1850#" 0 0 1964 -1850 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4736_1000#" 0 0 4736 1000 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_6074_1278#" 0 0 6074 1278 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4188_2787#" 0 0 4188 2787 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_4244_2153#" 0 0 4244 2153 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_digital_cell_0/decoder_3_0/decoder_2to4_2/VPBIAS" "top_bias_lvsf_dec_0/VBPDEC" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_bias_lvsf_dec_0/VBPDEC" "m1_4736_1000#"
+merge "top_bias_lvsf_dec_0/a_4159_n3193#" "top_digital_cell_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_digital_cell_0/VSUBS" "VSUBS"
+merge "top_digital_cell_0/decoder_3_0/decoder_2to4_2/VNBIAS" "top_bias_lvsf_dec_0/cm2_ncell3_0/m1_2093_710#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_bias_lvsf_dec_0/cm2_ncell3_0/m1_2093_710#" "m1_6074_1278#"
+merge "top_bias_lvsf_dec_0/cm2_pcell3_0/w_n5785_3966#" "top_digital_cell_0/decoder_3_0/decoder_2to4_2/dec_pcell_0/w_n601_499#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_digital_cell_0/decoder_3_0/decoder_2to4_2/dec_pcell_0/w_n601_499#" "top_bias_lvsf_dec_0/cm2_pcell4_1_0/m1_n283_n485#"
+merge "top_bias_lvsf_dec_0/cm2_pcell4_1_0/m1_n283_n485#" "m1_4188_2787#"
+merge "m1_4188_2787#" "top_bias_lvsf_dec_0/cm2_pcell4_1_0/w_n339_n541#"
+merge "top_bias_lvsf_dec_0/cm2_pcell4_1_0/w_n339_n541#" "top_digital_cell_0/decoder_3_0/decoder_2to4_2/VDDH"
+merge "top_digital_cell_0/decoder_3_0/decoder_2to4_2/VDDH" "w_4244_2153#"
+merge "top_digital_cell_0/decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/VGND" "top_bias_lvsf_dec_0/cm2_ncell4_0/cm2_ncell4_3_0/m1_1795_1542#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_bias_lvsf_dec_0/cm2_ncell4_0/cm2_ncell4_3_0/m1_1795_1542#" "m1_1964_n1850#"
+merge "top_bias_lvsf_dec_0/VBPLV" "top_digital_cell_0/lvsf_7bit_0/lvsf_buff_7/lvsf_0/lvsf_pcell_0/m1_272_300#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_digital_cell_0/lvsf_7bit_0/lvsf_buff_7/lvsf_0/lvsf_pcell_0/m1_272_300#" "top_digital_cell_0/VBPLV"
+merge "top_digital_cell_0/VBPLV" "m2_420_1687#"
+merge "top_bias_lvsf_dec_0/VBNLV" "top_digital_cell_0/VBNLV" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_digital_cell_0/VBNLV" "m2_6599_n1970#"

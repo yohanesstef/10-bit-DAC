@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749580325
+timestamp 1750900893
 << locali >>
 rect 5620 4517 5654 6150
 rect 10462 4517 10496 6150
@@ -190,28 +190,28 @@ rect 1628 4856 11384 4916
 rect 2456 4768 12212 4828
 rect 1904 4680 11660 4740
 rect 2180 4592 11936 4652
-use rseg_2_v3  rseg_2_v3_0 ~/10-bit-DAC/mag
+use rseg_2_v3  rseg_2_v3_0
 timestamp 1749563245
 transform 1 0 -23537 0 1 13286
 box 22810 -13247 39241 -9665
 use tps2_sw_stage_1  tps2_sw_stage_1_0
-timestamp 1749567216
+timestamp 1750900893
 transform 1 0 899 0 1 4200
 box -169 -173 4803 1866
 use tps2_sw_stage_1  tps2_sw_stage_1_1
-timestamp 1749567216
+timestamp 1750900893
 transform 1 0 5741 0 1 4200
 box -169 -173 4803 1866
 use tps2_sw_stage_1  tps2_sw_stage_1_2
-timestamp 1749567216
+timestamp 1750900893
 transform 1 0 10583 0 1 4200
 box -169 -173 4803 1866
 use tps2_sw_stage_2  tps2_sw_stage_2_0
-timestamp 1749574724
+timestamp 1750900893
 transform 1 0 5734 0 1 6234
 box -162 -1648 5722 817
 use tps2_sw_stage_3  tps2_sw_stage_3_0
-timestamp 1749577397
+timestamp 1750900893
 transform 1 0 11482 0 1 6257
 box -156 -189 2416 794
 << labels >>

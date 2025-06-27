@@ -1,13 +1,82 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749751639
+timestamp 1750867770
+<< metal1 >>
+rect 3461 1828 3489 1856
+rect 3453 1748 3481 1776
+rect 3449 920 3477 948
+rect 3449 864 3477 892
+rect 3449 744 3477 772
+rect 3449 688 3477 716
+rect 3449 116 3477 144
+rect 3449 -64 3477 -36
+rect 3449 -372 3477 -344
+rect 3449 -428 3477 -400
+rect 3449 -916 3477 -888
+rect 3449 -972 3477 -944
+<< metal2 >>
+rect 359 1560 419 1620
+rect 451 1560 511 1620
+rect 543 1560 603 1620
+rect 635 1560 695 1620
+rect 2925 1594 2985 1654
+rect 3017 1594 3077 1654
+rect 3109 1594 3169 1654
+rect 3201 1594 3261 1654
+rect 3349 -818 3377 -790
+rect 3538 -813 3566 -785
 use logic_shift_seg2  logic_shift_seg2_0
-timestamp 1749751270
+timestamp 1750840520
 transform 1 0 -3908 0 1 2686
 box 3899 -3782 7541 -2598
 use seg_selector_logic  seg_selector_logic_0
-timestamp 1749736748
+timestamp 1750813856
 transform 1 0 138 0 1 5744
-box -147 -5752 3495 -4024
+box -147 -5832 3527 -3858
+<< labels >>
+flabel metal2 s 2925 1594 2985 1654 0 FreeSans 160 0 0 0 bb[6]
+port 4 nsew
+flabel metal2 s 3017 1594 3077 1654 0 FreeSans 160 0 0 0 bb[7]
+port 5 nsew
+flabel metal2 s 3109 1594 3169 1654 0 FreeSans 160 0 0 0 bb[8]
+port 6 nsew
+flabel metal2 s 3201 1594 3261 1654 0 FreeSans 160 0 0 0 bb[9]
+port 7 nsew
+flabel metal2 s 635 1560 695 1620 0 FreeSans 160 0 0 0 b[9]
+port 3 nsew
+flabel metal2 s 543 1560 603 1620 0 FreeSans 160 0 0 0 b[8]
+port 2 nsew
+flabel metal2 s 451 1560 511 1620 0 FreeSans 160 0 0 0 b[7]
+port 1 nsew
+flabel metal2 s 359 1560 419 1620 0 FreeSans 160 0 0 0 b[6]
+port 0 nsew
+flabel metal1 s 3449 864 3477 892 0 FreeSans 160 0 0 0 S[1]
+port 8 nsew
+flabel metal1 s 3449 -64 3477 -36 0 FreeSans 160 0 0 0 S[2]
+port 9 nsew
+flabel metal1 s 3449 920 3477 948 0 FreeSans 160 0 0 0 S[3]
+port 10 nsew
+flabel metal1 s 3461 1828 3489 1856 0 FreeSans 160 0 0 0 S[4]
+port 11 nsew
+flabel metal1 s 3449 688 3477 716 0 FreeSans 160 0 0 0 SB[1]
+port 12 nsew
+flabel metal1 s 3449 116 3477 144 0 FreeSans 160 0 0 0 SB[2]
+port 13 nsew
+flabel metal1 s 3449 744 3477 772 0 FreeSans 160 0 0 0 SB[3]
+port 14 nsew
+flabel metal1 s 3453 1748 3481 1776 0 FreeSans 160 0 0 0 SB[4]
+port 15 nsew
+flabel metal1 s 3449 -972 3477 -944 0 FreeSans 160 0 0 0 DS[8]
+port 16 nsew
+flabel metal1 s 3449 -916 3477 -888 0 FreeSans 160 0 0 0 DSB[8]
+port 18 nsew
+flabel metal1 s 3449 -428 3477 -400 0 FreeSans 160 0 0 0 DS[9]
+port 17 nsew
+flabel metal1 s 3449 -372 3477 -344 0 FreeSans 160 0 0 0 DSB[9]
+port 19 nsew
+flabel metal2 s 3349 -818 3377 -790 0 FreeSans 160 0 0 0 VDD
+port 20 nsew
+flabel metal2 s 3538 -813 3566 -785 0 FreeSans 160 0 0 0 GND
+port 21 nsew
 << end >>

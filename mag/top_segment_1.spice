@@ -40,11 +40,12 @@ Xhnmos_2_1 hnmos_2_1/hnmos_1_1/m1_65_142# hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet
 + hnmos_4_1/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#
 + hnmos_4_0/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73# hnmos_4_1/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#
 + hnmos_4_1/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#
-+ hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73# hnmos_4_1/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#
++ hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142# hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#
++ hnmos_4_1/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#
 + hnmos_4_1/hnmos_2_1/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73# hnmos_4_1/VSUBS
 + hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#
 + hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73# hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#
-+ hnmos_4_1/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73# hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142#
++ hnmos_4_1/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#
 Xhnmos_4_0 hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73#
 + hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_50_n73# hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#
 + hnmos_4_0/hnmos_2_0/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n108_n73#
@@ -69,9 +70,9 @@ Xhnmos_4_1 hnmos_4_1/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a
 + m1_30781_n9812# hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142# m1_30954_n8000#
 + VSUBS
 Xhnmos_8_8 m1_30427_n8262# m1_31230_n8000# m1_30957_n9812# m1_30520_n8000# m1_29968_n8000#
-+ m1_30781_n9812# m1_30693_n9812# m1_31506_n8000# m1_31045_n9812# m1_29875_n8438#
-+ m1_30869_n9812# m1_31782_n8000# VSUBS m1_30244_n8000# m1_30151_n8350# m1_29692_n8000#
-+ m1_30954_n8000# hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142# hnmos_8
++ m1_30781_n9812# m1_30693_n9812# m1_31506_n8000# m1_31045_n9812# hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142#
++ m1_29875_n8438# m1_30869_n9812# m1_31782_n8000# VSUBS m1_30244_n8000# m1_30151_n8350#
++ m1_29692_n8000# m1_30954_n8000# hnmos_8
 .ends
 
 .subckt nswitch_8_stage_2 m1_34662_n5386# m1_34938_n5386# m1_36110_n5386# hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142#
@@ -79,20 +80,20 @@ Xhnmos_8_8 m1_30427_n8262# m1_31230_n8000# m1_30957_n9812# m1_30520_n8000# m1_29
 + m1_36017_n5562# m1_35834_n5386# m1_34291_n5386# m1_34291_n5474# m1_34291_n5562#
 + m1_35568_n5386# m1_34291_n5650# m1_36293_n5474# VSUBS
 Xhnmos_8_8 m1_35214_n5386# m1_36017_n5562# m1_36110_n5386# m1_34291_n5650# m1_34291_n5474#
-+ m1_35568_n5386# m1_35480_n5386# m1_36293_n5474# m1_36386_n5386# m1_34662_n5386#
-+ m1_35834_n5386# m1_36622_n5386# VSUBS m1_34291_n5562# m1_34938_n5386# m1_34291_n5386#
-+ m1_35741_n5650# hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142# hnmos_8
++ m1_35568_n5386# m1_35480_n5386# m1_36293_n5474# m1_36386_n5386# hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142#
++ m1_34662_n5386# m1_35834_n5386# m1_36622_n5386# VSUBS m1_34291_n5562# m1_34938_n5386#
++ m1_34291_n5386# m1_35741_n5650# hnmos_8
 .ends
 
 .subckt nswitch_8_stage_1 m1_30693_n8466# m1_29667_n8174# m1_30957_n8466# m1_30219_n8174#
 + m1_31255_n8174# m1_29943_n8174# m1_31531_n8174# m1_31807_n8174# m1_29857_n8438#
-+ m1_30781_n8466# m1_30495_n8174# m1_30409_n8262# m1_30133_n8350# m1_30869_n8466#
-+ m1_31045_n8466# m1_30979_n8174# hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142#
++ m1_30781_n8466# m1_30495_n8174# hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142#
++ m1_30409_n8262# m1_30133_n8350# m1_30869_n8466# m1_31045_n8466# m1_30979_n8174#
 + VSUBS
 Xhnmos_8_8 m1_30409_n8262# m1_31255_n8174# m1_30957_n8466# m1_30495_n8174# m1_29943_n8174#
-+ m1_30781_n8466# m1_30693_n8466# m1_31531_n8174# m1_31045_n8466# m1_29857_n8438#
-+ m1_30869_n8466# m1_31807_n8174# VSUBS m1_30219_n8174# m1_30133_n8350# m1_29667_n8174#
-+ m1_30979_n8174# hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142# hnmos_8
++ m1_30781_n8466# m1_30693_n8466# m1_31531_n8174# m1_31045_n8466# hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142#
++ m1_29857_n8438# m1_30869_n8466# m1_31807_n8174# VSUBS m1_30219_n8174# m1_30133_n8350#
++ m1_29667_n8174# m1_30979_n8174# hnmos_8
 .ends
 
 .subckt tps1_sw_stage_final m1_40713_n6008# m1_36293_n5562# m1_40537_n6184# m1_35741_n5738#
@@ -108,8 +109,8 @@ Xnswitch_8_stage_2_0 m2_34656_n5184# m2_34932_n5096# m2_36104_n4656# nswitch_8_s
 + m2_35562_n4832# m1_33951_n7626# m1_36293_n5562# VSUBS nswitch_8_stage_2
 Xnswitch_8_stage_1_0 m1_40449_n6272# m2_34656_n5184# m1_40713_n6008# m2_35208_n5008#
 + m2_35828_n4744# m2_34932_n5096# m2_36104_n4656# m2_36380_n4568# m1_40185_n6536#
-+ m1_40537_n6184# m2_35474_n4920# m1_40361_n6360# m1_40273_n6448# m1_40625_n6096#
-+ m1_40801_n5920# m2_35562_n4832# nswitch_8_stage_1_0/hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142#
++ m1_40537_n6184# m2_35474_n4920# nswitch_8_stage_1_0/hnmos_8_8/hnmos_4_1/hnmos_2_1/hnmos_1_1/m1_65_142#
++ m1_40361_n6360# m1_40273_n6448# m1_40625_n6096# m1_40801_n5920# m2_35562_n4832#
 + VSUBS nswitch_8_stage_1
 .ends
 
@@ -357,9 +358,9 @@ Xsky130_fd_pr__res_xhigh_po_1p41_VXMCTQ_0 m1_15452_n22801# m1_16459_n23063# VSUB
 XXR40 m1_16449_n23711# m1_15457_n23449# VSUBS sky130_fd_pr__res_xhigh_po_1p41_6E4SWG
 XXR33 XR33/a_n141_n518# m1_15454_n21505# VSUBS sky130_fd_pr__res_xhigh_po_1p41_355JL6
 XXR34 m1_16465_n21767# m1_15454_n21505# VSUBS sky130_fd_pr__res_xhigh_po_1p41_355JL6
-XXR36 m1_15447_n22153# m1_16459_n22415# VSUBS sky130_fd_pr__res_xhigh_po_1p41_VXMCTQ
 Xsky130_fd_pr__res_xhigh_po_1p41_355JL6_0 m1_16465_n21767# m1_15447_n22153# VSUBS
 + sky130_fd_pr__res_xhigh_po_1p41_355JL6
+XXR36 m1_15447_n22153# m1_16459_n22415# VSUBS sky130_fd_pr__res_xhigh_po_1p41_VXMCTQ
 XXR37 m1_16459_n22415# m1_15452_n22801# VSUBS sky130_fd_pr__res_xhigh_po_1p41_9JVM35
 XXR39 m1_16459_n23063# m1_15457_n23449# VSUBS sky130_fd_pr__res_xhigh_po_1p41_9JVM35
 Xsky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0 sky130_fd_pr__res_xhigh_po_1p41_6E4UWG_0/a_n141_n502#
@@ -552,14 +553,14 @@ Xnswitch_16_final_1 bb[0] tps1_sw_stage_final_0/m2_36380_n4568# tps1_sw_stage_fi
 + nswitch_16_final
 Xnswitch_8_stage_1_1 rseg_1_v3_1/v19 m2_n247_4318# rseg_1_v3_1/v22 m2_305_4494# m2_1341_4758#
 + m2_29_4406# m2_1617_4846# m2_1893_4934# rseg_1_v3_1/v16 rseg_1_v3_1/v20 m2_581_4582#
-+ rseg_1_v3_1/v18 rseg_1_v3_1/v17 rseg_1_v3_1/v21 rseg_1_v3_1/v23 m2_1065_4670# DEC[1]
++ DEC[1] rseg_1_v3_1/v18 rseg_1_v3_1/v17 rseg_1_v3_1/v21 rseg_1_v3_1/v23 m2_1065_4670#
 + GND nswitch_8_stage_1
 Xnswitch_8_stage_1_0 rseg_1_v3_1/v3 m2_n247_4318# rseg_1_v3_1/v6 m2_305_4494# m2_1341_4758#
-+ m2_29_4406# m2_1617_4846# m2_1893_4934# V0 rseg_1_v3_1/v4 m2_581_4582# rseg_1_v3_1/v2
-+ rseg_1_v3_1/v1 rseg_1_v3_1/v5 rseg_1_v3_1/v7 m2_1065_4670# DEC[0] GND nswitch_8_stage_1
++ m2_29_4406# m2_1617_4846# m2_1893_4934# V0 rseg_1_v3_1/v4 m2_581_4582# DEC[0] rseg_1_v3_1/v2
++ rseg_1_v3_1/v1 rseg_1_v3_1/v5 rseg_1_v3_1/v7 m2_1065_4670# GND nswitch_8_stage_1
 Xnswitch_8_stage_1_2 rseg_1_v3_1/v35 m2_n247_4318# rseg_1_v3_1/v38 m2_305_4494# m2_1341_4758#
 + m2_29_4406# m2_1617_4846# m2_1893_4934# rseg_1_v3_1/v32 rseg_1_v3_1/v36 m2_581_4582#
-+ rseg_1_v3_1/v34 rseg_1_v3_1/v33 rseg_1_v3_1/v37 rseg_1_v3_1/v39 m2_1065_4670# DEC[2]
++ DEC[2] rseg_1_v3_1/v34 rseg_1_v3_1/v33 rseg_1_v3_1/v37 rseg_1_v3_1/v39 m2_1065_4670#
 + GND nswitch_8_stage_1
 Xrseg_1_v3_1 V0 rseg_1_v3_1/v1 rseg_1_v3_1/v2 rseg_1_v3_1/v3 rseg_1_v3_1/v4 rseg_1_v3_1/v5
 + rseg_1_v3_1/v6 rseg_1_v3_1/v7 rseg_1_v3_1/v8 rseg_1_v3_1/v9 rseg_1_v3_1/v11 rseg_1_v3_1/v13
@@ -576,7 +577,7 @@ Xrseg_1_v3_1 V0 rseg_1_v3_1/v1 rseg_1_v3_1/v2 rseg_1_v3_1/v3 rseg_1_v3_1/v4 rseg
 + rseg_1_v3_1/v32 rseg_1_v3_1/v37 rseg_1_v3
 Xnswitch_8_stage_1_6 rseg_1_v3_1/v51 m2_n247_4318# rseg_1_v3_1/v54 m2_305_4494# m2_1341_4758#
 + m2_29_4406# m2_1617_4846# m2_1893_4934# rseg_1_v3_1/v48 rseg_1_v3_1/v52 m2_581_4582#
-+ rseg_1_v3_1/v50 rseg_1_v3_1/v49 rseg_1_v3_1/v53 rseg_1_v3_1/v55 m2_1065_4670# DEC[3]
++ DEC[3] rseg_1_v3_1/v50 rseg_1_v3_1/v49 rseg_1_v3_1/v53 rseg_1_v3_1/v55 m2_1065_4670#
 + GND nswitch_8_stage_1
 .ends
 

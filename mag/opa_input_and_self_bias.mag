@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1750156376
+timestamp 1751017459
 << metal1 >>
 rect 12 14552 9288 14609
 rect 12 -16 7032 28
@@ -191,7 +191,7 @@ timestamp 1750156376
 transform 1 0 4623 0 -1 28738
 box -4665 11508 4744 14208
 use opa_input_stage  opa_input_stage_0
-timestamp 1750150351
+timestamp 1751017459
 transform 1 0 -14 0 1 5133
 box -30 -5131 9334 9476
 << end >>

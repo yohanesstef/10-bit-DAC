@@ -1,6 +1,7 @@
 ** sch_path: /home/yohanes/10-bit-DAC/xschem/decoder_2to4.sch
 .include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 .include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
 .subckt decoder_2to4 VPBIAS VNBIAS b[0] b[1] bb[0] bb[1] VOUT[0] VOUT[1] VOUT[2] VOUT[3] VDD VDDH GND
 *.PININFO VPBIAS:I VNBIAS:I b[0:1]:I VOUT[0:3]:O VDDH:I GND:I VDD:I bb[0:1]:I
 x1 VPBIAS VNBIAS DIN[0] VOUT[1] VOUT[2] VOUT[3] VOUT[0] VDDH GND VDDH GND pull_up_down_network

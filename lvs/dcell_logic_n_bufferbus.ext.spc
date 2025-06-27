@@ -1,0 +1,181 @@
+* NGSPICE file created from dcell_logic_n_bufferbus.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__nand2_1 A B VGND VNB VPB VPWR Y
+X0 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.135 ps=1.27 w=1 l=0.15
+X1 Y A a_113_47# VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X2 a_113_47# B VGND VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X3 Y B VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+.ends
+
+.subckt sky130_fd_sc_hd__nand3_1 A B C VGND VNB VPB VPWR Y
+X0 VPWR B Y VPB sky130_fd_pr__pfet_01v8_hvt ad=0.165 pd=1.33 as=0.135 ps=1.27 w=1 l=0.15
+X1 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.165 ps=1.33 w=1 l=0.15
+X2 a_193_47# B a_109_47# VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.08775 ps=0.92 w=0.65 l=0.15
+X3 Y A a_193_47# VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.10725 ps=0.98 w=0.65 l=0.15
+X4 Y C VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X5 a_109_47# C VGND VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+.ends
+
+.subckt sky130_fd_sc_hd__inv_1 A VGND VNB VPB VPWR Y
+X0 Y A VGND VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.169 ps=1.82 w=0.65 l=0.15
+X1 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.26 ps=2.52 w=1 l=0.15
+.ends
+
+.subckt logic_shift_seg2 b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] BS[8] BS[9] BSB[8]
++ BSB[9] VDD m2_7109_n3782# GND
+Xx1 b[9] b[8] GND GND VDD VDD x4/A sky130_fd_sc_hd__nand2_1
+Xx3 b[7] b[9] GND GND VDD VDD x4/C sky130_fd_sc_hd__nand2_1
+Xx2 b[6] b[9] GND GND VDD VDD x4/B sky130_fd_sc_hd__nand2_1
+Xx4 x4/A x4/B x4/C GND GND VDD VDD BS[9] sky130_fd_sc_hd__nand3_1
+Xx5 x8/Y x6/Y x7/Y GND GND VDD VDD BS[8] sky130_fd_sc_hd__nand3_1
+Xx6 b[8] b[7] GND GND VDD VDD x6/Y sky130_fd_sc_hd__nand2_1
+Xx7 b[6] b[8] GND GND VDD VDD x7/Y sky130_fd_sc_hd__nand2_1
+Xx8 bb[6] bb[7] bb[8] GND GND VDD VDD x8/Y sky130_fd_sc_hd__nand3_1
+Xx9 BS[9] GND GND VDD VDD BSB[9] sky130_fd_sc_hd__inv_1
+Xx10 BS[8] GND GND VDD VDD BSB[8] sky130_fd_sc_hd__inv_1
+.ends
+
+.subckt sky130_fd_sc_hd__nor2_1 A B VGND VNB VPB VPWR Y
+X0 VPWR A a_109_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.105 ps=1.21 w=1 l=0.15
+X1 VGND A Y VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X2 a_109_297# B Y VPB sky130_fd_pr__pfet_01v8_hvt ad=0.105 pd=1.21 as=0.26 ps=2.52 w=1 l=0.15
+X3 Y B VGND VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+.ends
+
+.subckt seg_selector_1_logic x2/Y x1/B x1/A x3/B x3/A x1/Y x3/Y x3/VGND x3/VPB x3/VPWR
++ x2/B x2/A VSUBS
+Xx1 x1/A x1/B x3/VGND VSUBS x3/VPB x3/VPWR x1/Y sky130_fd_sc_hd__nand2_1
+Xx2 x2/A x2/B x3/VGND VSUBS x3/VPB x3/VPWR x2/Y sky130_fd_sc_hd__nand2_1
+Xx3 x3/A x3/B x3/VGND VSUBS x3/VPB x3/VPWR x3/Y sky130_fd_sc_hd__nor2_1
+.ends
+
+.subckt sky130_fd_sc_hd__nand4_1 A B C D VGND VNB VPB VPWR Y
+X0 Y B VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0.165 pd=1.33 as=0.135 ps=1.27 w=1 l=0.15
+X1 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt ad=0.3 pd=2.6 as=0.165 ps=1.33 w=1 l=0.15
+X2 VPWR C Y VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.135 ps=1.27 w=1 l=0.15
+X3 a_193_47# C a_109_47# VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.08775 ps=0.92 w=0.65 l=0.15
+X4 Y A a_277_47# VNB sky130_fd_pr__nfet_01v8 ad=0.195 pd=1.9 as=0.10725 ps=0.98 w=0.65 l=0.15
+X5 a_277_47# B a_193_47# VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.08775 ps=0.92 w=0.65 l=0.15
+X6 Y D VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X7 a_109_47# D VGND VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+.ends
+
+.subckt seg_selector_2_logic x4/B x4/A x2/Y x4/Y x1/B x1/A x3/B x3/A x5/C x5/B x5/A
++ x1/Y x3/Y x5/VPB x5/Y x2/B x2/A VSUBS x4/D x4/C
+Xx1 x1/A x1/B VSUBS VSUBS x5/VPB x5/VPB x1/Y sky130_fd_sc_hd__nand2_1
+Xx2 x2/A x2/B VSUBS VSUBS x5/VPB x5/VPB x2/Y sky130_fd_sc_hd__nand2_1
+Xx3 x3/A x3/B VSUBS VSUBS x5/VPB x5/VPB x3/Y sky130_fd_sc_hd__nand2_1
+Xx4 x4/A x4/B x4/C x4/D VSUBS VSUBS x5/VPB x5/VPB x4/Y sky130_fd_sc_hd__nand4_1
+Xx5 x5/A x5/B x5/C VSUBS VSUBS x5/VPB x5/VPB x5/Y sky130_fd_sc_hd__nand3_1
+.ends
+
+.subckt seg_selector_3_logic x2/Y x1/D x1/C x1/B x1/A x3/B x3/A x1/Y x3/Y x2/D x3/VPB
++ x2/C x2/B x2/A VSUBS
+Xx1 x1/A x1/B x1/C x1/D VSUBS VSUBS x3/VPB x3/VPB x1/Y sky130_fd_sc_hd__nand4_1
+Xx2 x2/A x2/B x2/C x2/D VSUBS VSUBS x3/VPB x3/VPB x2/Y sky130_fd_sc_hd__nand4_1
+Xx3 x3/A x3/B VSUBS VSUBS x3/VPB x3/VPB x3/Y sky130_fd_sc_hd__nand2_1
+.ends
+
+.subckt seg_selector_4_logic x2/Y x1/B x1/A x3/B x3/A x1/Y x3/Y x3/VGND x3/VPB x3/VPWR
++ x2/B x2/A VSUBS
+Xx1 x1/A x1/B x3/VGND VSUBS x3/VPB x3/VPWR x1/Y sky130_fd_sc_hd__nand2_1
+Xx2 x2/A x2/B x3/VGND VSUBS x3/VPB x3/VPWR x2/Y sky130_fd_sc_hd__nand2_1
+Xx3 x3/A x3/B x3/VGND VSUBS x3/VPB x3/VPWR x3/Y sky130_fd_sc_hd__nor2_1
+.ends
+
+.subckt seg_selector_logic b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] bb[9] S[1] S[2] S[3]
++ S[4] SB[1] SB[2] SB[3] SB[4] VDD GND
+Xx1 x1/x3/B bb[6] bb[7] x1/x3/B x1/x3/A x1/x3/A S[1] GND VDD VDD bb[8] bb[9] GND seg_selector_1_logic
+Xx2 x2/x4/B x2/x4/A x2/x4/B S[2] b[9] bb[8] bb[9] b[6] b[8] bb[7] bb[6] x2/x4/A x2/x4/C
++ VDD x2/x5/Y b[7] bb[9] GND x2/x5/Y x2/x4/C seg_selector_2_logic
+Xx3 x3/x3/A b[9] b[8] b[6] bb[7] x3/x3/B x3/x3/A x3/x3/B S[3] b[7] VDD bb[6] b[8]
++ b[9] GND seg_selector_3_logic
+Xx4 x4/x3/B b[9] b[8] x4/x3/B x4/x3/A x4/x3/A S[4] GND VDD VDD b[7] b[6] GND seg_selector_4_logic
+Xsky130_fd_sc_hd__inv_1_0 S[3] GND GND VDD VDD SB[3] sky130_fd_sc_hd__inv_1
+Xsky130_fd_sc_hd__inv_1_1 S[1] GND GND VDD VDD SB[1] sky130_fd_sc_hd__inv_1
+Xsky130_fd_sc_hd__inv_1_2 S[4] GND GND VDD VDD SB[4] sky130_fd_sc_hd__inv_1
+Xsky130_fd_sc_hd__inv_1_3 S[2] GND GND VDD VDD SB[2] sky130_fd_sc_hd__inv_1
+.ends
+
+.subckt dcell_lv seg_selector_logic_0/SB[1] seg_selector_logic_0/SB[2] seg_selector_logic_0/SB[3]
++ seg_selector_logic_0/SB[4] logic_shift_seg2_0/BSB[8] logic_shift_seg2_0/BSB[9] seg_selector_logic_0/bb[9]
++ seg_selector_logic_0/S[1] seg_selector_logic_0/S[2] seg_selector_logic_0/S[3] seg_selector_logic_0/S[4]
++ logic_shift_seg2_0/bb[6] logic_shift_seg2_0/bb[7] logic_shift_seg2_0/bb[8] logic_shift_seg2_0/VDD
++ logic_shift_seg2_0/b[6] logic_shift_seg2_0/b[7] logic_shift_seg2_0/BS[8] logic_shift_seg2_0/BS[9]
++ logic_shift_seg2_0/b[8] VSUBS logic_shift_seg2_0/b[9]
+Xlogic_shift_seg2_0 logic_shift_seg2_0/b[6] logic_shift_seg2_0/b[7] logic_shift_seg2_0/b[8]
++ logic_shift_seg2_0/b[9] logic_shift_seg2_0/bb[6] logic_shift_seg2_0/bb[7] logic_shift_seg2_0/bb[8]
++ logic_shift_seg2_0/BS[8] logic_shift_seg2_0/BS[9] logic_shift_seg2_0/BSB[8] logic_shift_seg2_0/BSB[9]
++ logic_shift_seg2_0/VDD seg_selector_logic_0/bb[9] VSUBS logic_shift_seg2
+Xseg_selector_logic_0 logic_shift_seg2_0/b[6] logic_shift_seg2_0/b[7] logic_shift_seg2_0/b[8]
++ logic_shift_seg2_0/b[9] logic_shift_seg2_0/bb[6] logic_shift_seg2_0/bb[7] logic_shift_seg2_0/bb[8]
++ seg_selector_logic_0/bb[9] seg_selector_logic_0/S[1] seg_selector_logic_0/S[2] seg_selector_logic_0/S[3]
++ seg_selector_logic_0/S[4] seg_selector_logic_0/SB[1] seg_selector_logic_0/SB[2]
++ seg_selector_logic_0/SB[3] seg_selector_logic_0/SB[4] logic_shift_seg2_0/VDD VSUBS
++ seg_selector_logic
+.ends
+
+.subckt sky130_fd_sc_hd__inv_2 A VGND VNB VPB VPWR Y
+X0 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X1 VGND A Y VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X2 Y A VGND VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X3 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.135 ps=1.27 w=1 l=0.15
+.ends
+
+.subckt buffer_cell IN OUT OUTB VDD GND
+Xx1 IN GND GND VDD VDD OUTB sky130_fd_sc_hd__inv_2
+Xx2 OUTB GND GND VDD VDD OUT sky130_fd_sc_hd__inv_2
+.ends
+
+.subckt buffer_bus buffer_cell_7/OUTB buffer_cell_6/OUT buffer_cell_4/OUTB buffer_cell_3/OUT
++ buffer_cell_11/OUTB buffer_cell_5/IN buffer_cell_1/OUTB buffer_cell_2/IN buffer_cell_0/OUT
++ buffer_cell_11/IN buffer_cell_7/OUT buffer_cell_5/OUTB buffer_cell_4/OUT buffer_cell_7/IN
++ buffer_cell_2/OUTB buffer_cell_4/IN buffer_cell_1/OUT buffer_cell_1/IN buffer_cell_10/IN
++ buffer_cell_10/OUT buffer_cell_6/OUTB buffer_cell_5/OUT buffer_cell_3/OUTB buffer_cell_2/OUT
++ buffer_cell_6/IN buffer_cell_3/IN buffer_cell_10/OUTB buffer_cell_0/IN buffer_cell_0/OUTB
++ buffer_cell_11/OUT buffer_cell_7/VDD VSUBS
+Xbuffer_cell_1 buffer_cell_1/IN buffer_cell_1/OUT buffer_cell_1/OUTB buffer_cell_7/VDD
++ VSUBS buffer_cell
+Xbuffer_cell_0 buffer_cell_0/IN buffer_cell_0/OUT buffer_cell_0/OUTB buffer_cell_7/VDD
++ VSUBS buffer_cell
+Xbuffer_cell_2 buffer_cell_2/IN buffer_cell_2/OUT buffer_cell_2/OUTB buffer_cell_7/VDD
++ VSUBS buffer_cell
+Xbuffer_cell_3 buffer_cell_3/IN buffer_cell_3/OUT buffer_cell_3/OUTB buffer_cell_7/VDD
++ VSUBS buffer_cell
+Xbuffer_cell_4 buffer_cell_4/IN buffer_cell_4/OUT buffer_cell_4/OUTB buffer_cell_7/VDD
++ VSUBS buffer_cell
+Xbuffer_cell_5 buffer_cell_5/IN buffer_cell_5/OUT buffer_cell_5/OUTB buffer_cell_7/VDD
++ VSUBS buffer_cell
+Xbuffer_cell_6 buffer_cell_6/IN buffer_cell_6/OUT buffer_cell_6/OUTB buffer_cell_7/VDD
++ VSUBS buffer_cell
+Xbuffer_cell_7 buffer_cell_7/IN buffer_cell_7/OUT buffer_cell_7/OUTB buffer_cell_7/VDD
++ VSUBS buffer_cell
+Xbuffer_cell_11 buffer_cell_11/IN buffer_cell_11/OUT buffer_cell_11/OUTB buffer_cell_7/VDD
++ VSUBS buffer_cell
+Xbuffer_cell_10 buffer_cell_10/IN buffer_cell_10/OUT buffer_cell_10/OUTB buffer_cell_7/VDD
++ VSUBS buffer_cell
+.ends
+
+.subckt dcell_buffer_bus DIN0 DIN1 DIN2 DIN3 DIN4 DIN5 DIN6 DIN7 DIN8 DIN9 D[0] D[1]
++ D[2] D[3] D[4] D[5] D[6] D[7] D[8] D[9] DB[0] DB[1] DB[2] DB[3] DB[4] DB[5] DB[6]
++ DB[7] DB[8] DB[9] VDD GND
+Xbuffer_bus_0 DB[4] D[5] DB[2] D[7] DB[0] DIN3 DB[8] DIN6 D[9] DIN0 D[4] DB[3] D[2]
++ DIN4 DB[6] DIN2 D[8] DIN8 DIN1 D[1] DB[5] D[3] DB[7] D[6] DIN5 DIN7 DB[1] DIN9 DB[9]
++ D[0] VDD GND buffer_bus
+.ends
+
+.subckt dcell_logic_n_bufferbus DIN0 DIN1 DIN2 DIN3 DIN4 DIN5 DIN6 DIN7 DIN8 DIN9
++ S[1] S[2] S[3] S[4] SB[1] SB[2] SB[3] SB[4] DS[8] DS[9] DSB[8] DSB[9] VDD GND
+Xdcell_lv_0 SB[1] SB[2] SB[3] SB[4] DSB[8] DSB[9] dcell_buffer_bus_0/DB[9] S[1] S[2]
++ S[3] S[4] dcell_buffer_bus_0/DB[6] dcell_buffer_bus_0/DB[7] dcell_buffer_bus_0/DB[8]
++ VDD dcell_buffer_bus_0/D[6] dcell_buffer_bus_0/D[7] DS[8] DS[9] dcell_buffer_bus_0/D[8]
++ GND dcell_buffer_bus_0/D[9] dcell_lv
+Xdcell_buffer_bus_0 DIN0 DIN1 DIN2 DIN3 DIN4 DIN5 DIN6 DIN7 DIN8 DIN9 dcell_buffer_bus_0/D[0]
++ dcell_buffer_bus_0/D[1] dcell_buffer_bus_0/D[2] dcell_buffer_bus_0/D[3] dcell_buffer_bus_0/D[4]
++ dcell_buffer_bus_0/D[5] dcell_buffer_bus_0/D[6] dcell_buffer_bus_0/D[7] dcell_buffer_bus_0/D[8]
++ dcell_buffer_bus_0/D[9] dcell_buffer_bus_0/DB[0] dcell_buffer_bus_0/DB[1] dcell_buffer_bus_0/DB[2]
++ dcell_buffer_bus_0/DB[3] dcell_buffer_bus_0/DB[4] dcell_buffer_bus_0/DB[5] dcell_buffer_bus_0/DB[6]
++ dcell_buffer_bus_0/DB[7] dcell_buffer_bus_0/DB[8] dcell_buffer_bus_0/DB[9] VDD GND
++ dcell_buffer_bus
+.ends
+

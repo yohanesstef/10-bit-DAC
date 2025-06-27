@@ -1,0 +1,33 @@
+v {xschem version=3.4.8RC file_version=1.2}
+G {}
+K {type=primitive
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -150 -30 -130 -30 {}
+L 4 130 -30 150 -30 {}
+L 4 130 -10 150 -10 {}
+L 4 130 10 150 10 {}
+L 4 130 30 150 30 {}
+L 4 -150 -10 -130 -10 {}
+L 4 -150 10 -130 10 {}
+B 5 -152.5 -32.5 -147.5 -27.5 {name=ROUT dir=in}
+B 5 147.5 -32.5 152.5 -27.5 {name=VBPLV dir=out}
+B 5 147.5 -12.5 152.5 -7.5 {name=VBNLV dir=out}
+B 5 147.5 7.5 152.5 12.5 {name=VBPDEC dir=out}
+B 5 147.5 27.5 152.5 32.5 {name=VBNDEC dir=out}
+B 5 -152.5 -12.5 -147.5 -7.5 {name=VDDA dir=in}
+B 5 -152.5 7.5 -147.5 12.5 {name=GNDA dir=in}
+P 4 5 130 -40 -130 -40 -130 40 130 40 130 -40 {}
+T {@symname} -58.5 -6 0 0 0.3 0.3 {}
+T {@name} 135 -52 0 0 0.2 0.2 {}
+T {ROUT} -125 -34 0 0 0.2 0.2 {}
+T {VBPLV} 125 -34 0 1 0.2 0.2 {}
+T {VBNLV} 125 -14 0 1 0.2 0.2 {}
+T {VBPDEC} 125 6 0 1 0.2 0.2 {}
+T {VBNDEC} 125 26 0 1 0.2 0.2 {}
+T {VDDA} -125 -14 0 0 0.2 0.2 {}
+T {GNDA} -125 6 0 0 0.2 0.2 {}

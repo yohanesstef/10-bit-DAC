@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749801796
+timestamp 1750828667
 << metal1 >>
 rect 45 2771 1035 2919
 rect 45 1998 1035 2207
@@ -26,7 +26,7 @@ timestamp 1749799496
 transform 1 0 281 0 -1 2889
 box -96 -50 612 890
 use lvsf  lvsf_0
-timestamp 1749801796
+timestamp 1750828667
 transform 1 0 -2592 0 1 1751
 box 2571 -1765 3693 326
 << end >>

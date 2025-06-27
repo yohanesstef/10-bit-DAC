@@ -1,0 +1,34 @@
+timestamp 1749799496
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_sc_hvl__inv_1 sky130_fd_sc_hvl__inv_1_1 1 0 258 0 1 -7
+use sky130_fd_sc_hvl__inv_1 sky130_fd_sc_hvl__inv_1_0 1 0 -30 0 1 -7
+port "GND" 4 -18 32 -18 32 m1
+port "VDDH" 3 -20 766 -20 766 m1
+port "OUT" 2 500 63 500 63 m2
+port "OUTB" 1 401 59 401 59 m2
+port "IN" 0 75 642 75 642 m2
+node "GND" 0 0 -18 32 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDDH" 0 0 -20 766 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "OUT" 0 0 500 63 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "OUTB" 0 0 401 59 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_239_303#" 0 0 239 303 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "IN" 0 0 75 642 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hvl__inv_1_0/VGND" "sky130_fd_sc_hvl__inv_1_0/VNB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hvl__inv_1_0/VNB" "sky130_fd_sc_hvl__inv_1_1/VNB"
+merge "sky130_fd_sc_hvl__inv_1_1/VNB" "VSUBS"
+merge "VSUBS" "sky130_fd_sc_hvl__inv_1_1/VGND"
+merge "sky130_fd_sc_hvl__inv_1_1/VGND" "GND"
+merge "sky130_fd_sc_hvl__inv_1_0/Y" "sky130_fd_sc_hvl__inv_1_1/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hvl__inv_1_1/A" "li_239_303#"
+merge "li_239_303#" "OUTB"
+merge "sky130_fd_sc_hvl__inv_1_0/VPWR" "sky130_fd_sc_hvl__inv_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hvl__inv_1_0/VPB" "sky130_fd_sc_hvl__inv_1_1/VPWR"
+merge "sky130_fd_sc_hvl__inv_1_1/VPWR" "sky130_fd_sc_hvl__inv_1_1/VPB"
+merge "sky130_fd_sc_hvl__inv_1_1/VPB" "VDDH"
+merge "sky130_fd_sc_hvl__inv_1_0/A" "IN" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hvl__inv_1_1/Y" "OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,49 +1,45 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749888358
+timestamp 1750863581
 use buffer_cell  buffer_cell_0
-timestamp 1749752891
+timestamp 1750863581
 transform 1 0 1290 0 1 4139
 box -38 -12848 682 -12208
 use buffer_cell  buffer_cell_1
-timestamp 1749752891
+timestamp 1750863581
 transform 1 0 1934 0 1 4139
 box -38 -12848 682 -12208
 use buffer_cell  buffer_cell_2
-timestamp 1749752891
+timestamp 1750863581
 transform 1 0 3222 0 1 4139
 box -38 -12848 682 -12208
 use buffer_cell  buffer_cell_3
-timestamp 1749752891
+timestamp 1750863581
 transform 1 0 2578 0 1 4139
 box -38 -12848 682 -12208
 use buffer_cell  buffer_cell_4
-timestamp 1749752891
+timestamp 1750863581
 transform 1 0 5798 0 1 4139
 box -38 -12848 682 -12208
 use buffer_cell  buffer_cell_5
-timestamp 1749752891
+timestamp 1750863581
 transform 1 0 5154 0 1 4139
 box -38 -12848 682 -12208
 use buffer_cell  buffer_cell_6
-timestamp 1749752891
+timestamp 1750863581
 transform 1 0 3866 0 1 4139
 box -38 -12848 682 -12208
 use buffer_cell  buffer_cell_7
-timestamp 1749752891
+timestamp 1750863581
 transform 1 0 4510 0 1 4139
 box -38 -12848 682 -12208
 use buffer_cell  buffer_cell_10
-timestamp 1749752891
+timestamp 1750863581
 transform 1 0 6442 0 1 4139
 box -38 -12848 682 -12208
 use buffer_cell  buffer_cell_11
-timestamp 1749752891
+timestamp 1750863581
 transform 1 0 7086 0 1 4139
 box -38 -12848 682 -12208
-use grid_ys_0p14_yr_0p3  grid_ys_0p14_yr_0p3_0
-timestamp 1749886903
-transform 1 0 -522 0 1 -11148
-box 1801 3053 3589 4841
 << end >>

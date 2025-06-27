@@ -5,15 +5,15 @@ V {}
 S {}
 E {}
 B 2 200 -760 1000 -360 {flags=graph
-y1=-0.58
-y2=1.5
+y1=0
+y2=0.01
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-2.0957218e-06
-x2=2.026212e-05
+x1=3.75e-06
+x2=2.875e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -26,15 +26,15 @@ color="4 5"
 node="x1.n1
 x1.n2"}
 B 2 200 -1160 1000 -760 {flags=graph
-y1=-0.00035
+y1=-0.00041
 y2=5.6
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-2.0957218e-06
-x2=2.026212e-05
+x1=3.75e-06
+x2=2.875e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -57,8 +57,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-2.0957218e-06
-x2=2.026212e-05
+x1=3.75e-06
+x2=2.875e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -78,8 +78,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-2.0957218e-06
-x2=2.026212e-05
+x1=3.75e-06
+x2=2.875e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -98,8 +98,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-2.0957218e-06
-x2=2.026212e-05
+x1=3.75e-06
+x2=2.875e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -115,14 +115,14 @@ N 710 -240 740 -240 {lab=#net1}
 N 240 -180 300 -180 {lab=in[0..1] bus=true}
 N 250 -180 250 -150 {lab=in[0..1]}
 N 290 -180 290 -150 {lab=in[0..1]}
-N 1720 -240 1850 -240 {lab=#net2}
-N 1720 -240 1720 -230 {lab=#net2}
 N 820 -240 850 -240 {lab=outbp}
 N 830 -280 830 -240 {lab=outbp}
 N 930 -280 930 -240 {lab=outp}
+N 1740 -230 1870 -230 {lab=#net2}
+N 1740 -230 1740 -220 {lab=#net2}
 C {devices/launcher.sym} 260 -340 0 0 {name=h5
 descr="load tran" 
-tclcommand="xschem raw_read $netlist_dir/lvsf-tb.raw tran"
+tclcommand="xschem raw_read $netlist_dir/lvsf-tb2.raw tran"
 }
 C {devices/launcher.sym} 430 -340 0 0 {name=h1
 descr="load dc" 
@@ -170,23 +170,23 @@ C {devices/lab_pin.sym} 1450 -240 2 0 {name=p15 sig_type=std_logic lab=outbp}
 C {devices/lab_pin.sym} 240 -180 0 0 {name=p16 sig_type=std_logic lab=in[0..1]}
 C {devices/lab_pin.sym} 250 -150 0 0 {name=p17 sig_type=std_logic lab=in0}
 C {devices/lab_pin.sym} 290 -150 0 0 {name=p18 sig_type=std_logic lab=in1}
-C {devices/res.sym} 1720 -200 0 0 {name=R2
-value=192.14k
-footprint=1206
-device=resistor
-m=1}
-C {devices/lab_pin.sym} 1720 -110 0 0 {name=p20 sig_type=std_logic lab=GND}
-C {devices/ammeter.sym} 1720 -140 0 0 {name=Vmeas6 savecurrent=true spice_ignore=0}
-C {bias_lvsf.sym} 2000 -210 0 0 {name=x4}
-C {devices/lab_pin.sym} 2150 -240 0 1 {name=p27 sig_type=std_logic lab=VBPLV}
-C {devices/lab_pin.sym} 2150 -220 0 1 {name=p28 sig_type=std_logic lab=VBNLV}
-C {devices/lab_pin.sym} 2150 -200 0 1 {name=p29 sig_type=std_logic lab=VBPDEC}
-C {devices/lab_pin.sym} 2150 -180 0 1 {name=p30 sig_type=std_logic lab=VBNDEC}
 C {devices/lab_pin.sym} 410 -240 0 0 {name=p31 sig_type=std_logic lab=VBPLV}
 C {devices/lab_pin.sym} 410 -220 0 0 {name=p32 sig_type=std_logic lab=VBNLV}
-C {devices/lab_pin.sym} 1850 -220 0 0 {name=p10 sig_type=std_logic lab=vddh}
-C {devices/lab_pin.sym} 1850 -200 0 0 {name=p11 sig_type=std_logic lab=gnd}
 C {lvsf_posim.sym} 560 -190 0 0 {name=x1}
 C {devices/code_shown.sym} 0 -290 0 0 {name=s1 only_toplevel=false value=".include $THESIS_WS/spice/lvsf-tb.sp"}
 C {sky130_stdcells/inv_1.sym} 780 -240 0 0 {name=x2 VGND=GND VNB=GND VPB=VDDH VPWR=VDDH prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/inv_1.sym} 890 -240 0 0 {name=x3 VGND=GND VNB=GND VPB=VDDH VPWR=VDDH prefix=sky130_fd_sc_hvl__ }
+C {devices/res.sym} 1740 -190 0 0 {name=R1
+value=671.63k
+footprint=1206
+device=resistor
+m=1}
+C {devices/lab_pin.sym} 1740 -100 0 0 {name=p2 sig_type=std_logic lab=GNDA}
+C {devices/ammeter.sym} 1740 -130 0 0 {name=Vmeas savecurrent=true spice_ignore=0}
+C {devices/lab_pin.sym} 1870 -210 0 0 {name=p7 sig_type=std_logic lab=VDDA}
+C {devices/lab_pin.sym} 1870 -190 0 0 {name=p8 sig_type=std_logic lab=GNDA}
+C {devices/lab_pin.sym} 2170 -230 0 1 {name=p21 sig_type=std_logic lab=VBPLV}
+C {devices/lab_pin.sym} 2170 -210 0 1 {name=p9 sig_type=std_logic lab=VBNLV}
+C {devices/lab_pin.sym} 2170 -190 0 1 {name=p19 sig_type=std_logic lab=VBPDEC}
+C {devices/lab_pin.sym} 2170 -170 0 1 {name=p33 sig_type=std_logic lab=VBNDEC}
+C {bias_lvsf_posim.sym} 2020 -200 0 0 {name=x5}

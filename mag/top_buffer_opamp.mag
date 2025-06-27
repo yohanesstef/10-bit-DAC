@@ -1,11 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1750156376
+timestamp 1751021419
 << nwell >>
 rect -3098 5083 -2883 13397
 << metal1 >>
 rect -3151 12991 -2366 13176
+rect -3151 12806 -2360 12991
 rect -3154 10640 -2369 10825
 rect -2682 7950 -2622 8044
 rect -3232 5142 -2903 5172
@@ -248,20 +249,10 @@ timestamp 1750150351
 transform 1 0 -2404 0 1 7738
 box -543 -9959 2211 5484
 use opa_input_and_self_bias  opa_input_and_self_bias_0
-timestamp 1750156376
+timestamp 1751017459
 transform 1 0 -12418 0 1 -3832
 box -44 -886 9367 17230
 << labels >>
-flabel metal2 s -12298 2884 -12238 2944 0 FreeSans 320 0 0 0 P_IN[0]
-port 0 nsew
-flabel metal2 s -12298 2796 -12238 2856 0 FreeSans 320 0 0 0 P_IN[1]
-port 1 nsew
-flabel metal2 s -12298 2708 -12238 2768 0 FreeSans 320 0 0 0 P_IN[2]
-port 2 nsew
-flabel metal2 s -12298 2620 -12238 2680 0 FreeSans 320 0 0 0 P_IN[3]
-port 3 nsew
-flabel metal2 s -12298 2532 -12238 2592 0 FreeSans 320 0 0 0 P_IN[4]
-port 4 nsew
 flabel metal1 s -3668 2688 -3608 2748 0 FreeSans 320 0 0 0 N_IN
 port 5 nsew
 flabel metal1 s -691 3347 -631 3407 0 FreeSans 320 0 0 0 VOUT
@@ -272,4 +263,14 @@ flabel metal1 s -2761 13050 -2701 13110 0 FreeSans 1600 0 0 0 VDDA
 port 8 nsew
 flabel metal1 s -3361 -3012 -3301 -2952 0 FreeSans 1600 0 0 0 GNDA
 port 9 nsew
+flabel metal2 s -12298 2532 -12238 2592 0 FreeSans 320 0 0 0 P_IN[0]
+port 0 nsew
+flabel metal2 s -12298 2620 -12238 2680 0 FreeSans 320 0 0 0 P_IN[1]
+port 1 nsew
+flabel metal2 s -12298 2708 -12238 2768 0 FreeSans 320 0 0 0 P_IN[2]
+port 2 nsew
+flabel metal2 s -12298 2796 -12238 2856 0 FreeSans 320 0 0 0 P_IN[3]
+port 3 nsew
+flabel metal2 s -12298 2884 -12238 2944 0 FreeSans 320 0 0 0 P_IN[4]
+port 4 nsew
 << end >>
