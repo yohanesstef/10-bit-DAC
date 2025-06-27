@@ -4,49 +4,20 @@ K {}
 V {}
 S {}
 E {}
-B 2 940 -880 1740 -480 {flags=graph
-y1=4.9
-y2=5.5
-ypos1=0.56976454
-ypos2=8.5171201
-divy=5
-subdivy=1
-unity=1
-x1=0
-x2=0.00017
-divx=5
-subdivx=1
-xlabmag=1.0
-ylabmag=1.0
-dataset=31
-unitx=1
-logx=0
-logy=0
-digital=0
-rainbow=1
-color=4
-node=load}
-B 2 140 -880 940 -480 {flags=graph
+B 2 150 -880 950 -480 {flags=graph
 y1=0
-y2=5.5
-ypos1=0.04026071
-ypos2=6.1040107
+y2=2
+ypos1=-0.22524444
+ypos2=1.9797556
 divy=5
 subdivy=1
 unity=1
 x1=0
-x2=0.00017
+x2=2e-05
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
-dataset=31
-unitx=1
-logx=0
-logy=0
-digital=1
-rainbow=1
-color="4 5 6 7 8 9 10 11 12 13"
 node="d9
 d8
 d7
@@ -56,14 +27,85 @@ d4
 d3
 d2
 d1
-d0"}
-N 830 -360 830 -340 {lab=LOAD}
-N 670 -360 710 -360 {lab=VOUT}
-N 500 -150 560 -150 {lab=GNDA}
+d0"
+color="4 5 6 7 8 9 10 11 12 13"
+dataset=-1
+unitx=1
+logx=0
+logy=0
+digital=1}
+B 2 950 -880 1750 -480 {flags=graph
+y1=-0.00054
+y2=5.8
+ypos1=-0.22524444
+ypos2=1.9797556
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=2e-05
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+digital=0
+color=4
+node=vout}
+B 2 950 -1280 1750 -880 {flags=graph
+y1=-0.00013
+y2=-1e-06
+ypos1=-0.22524444
+ypos2=1.9797556
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=2e-05
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+digital=0
+color=4
+node=i(vdda)}
+B 2 150 -1280 950 -880 {flags=graph
+y1=-0.00057
+y2=0.00044
+ypos1=-0.22524444
+ypos2=1.9797556
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=2e-05
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+digital=0
+color=4
+node=i(vdd)}
+N 900 -340 900 -320 {lab=LOAD}
+N 800 -340 840 -340 {lab=VOUT}
+N 640 -180 690 -180 {lab=0}
+N 550 -290 550 -270 {lab=0}
+N 550 -330 550 -310 {lab=VDDA}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {devices/launcher.sym} 210 -460 0 0 {name=h5
 descr="load tran" 
-tclcommand="xschem raw_read $netlist_dir/top_step_tr-tb.raw tran"
+tclcommand="xschem raw_read $netlist_dir/dynamic_power-tb.raw tran"
 }
 C {devices/launcher.sym} 400 -460 0 0 {name=h1
 descr="load dc" 
@@ -78,193 +120,49 @@ only_toplevel=true
 format="tcleval(@value )"
 value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 .include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
+.include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 "
 spice_ignore=false
 place=header}
-C {devices/simulator_commands.sym} 0 -390 0 0 {name=COMMANDS
-simulator=ngspice
-only_toplevel=false 
-value="  
-  *.options wnflag=0 bypass=1
-  .option wnflag=1
-  .option safecurrents
-  *.option klu
-  .options solver=klu nomod
-  .options method=trap rawfile=binary
-  *.options reltol=1e-2 abstol=1e-12 chgtol=1e-14
-  ********************Static Voltage Sources***************************
-  Vddh vddh gnd dc 5.5
-  Vdd vdd gnd dc 1.8
-  Vdda vdda gnd dc 5.5
-  Vgnda gnda gnd dc 0
-
-  VHREF x1.V[191] GND 5.5
-  VLREF x1.V[0] GND 0
-  ********************Dynamic Voltage Sources***************************
-  *******Calculation**********
-  .param base_f=100e3 base_t=\{1/base_f\} base_th=\{base_t/2\} base_d=\{base_th\}
-  .param d0_th=\{base_th\} d0_t=\{d0_th*2\}
-  .param d1_th=\{d0_th*2\} d1_t=\{d1_th*2\}
-  .param d2_th=\{d1_th*2\} d2_t=\{d2_th*2\}
-  .param d3_th=\{d2_th*2\} d3_t=\{d3_th*2\}
-  .param d4_th=\{d3_th*2\} d4_t=\{d4_th*2\}
-  .param d5_th=\{d4_th*2\} d5_t=\{d5_th*2\}
-  .param d6_th=\{d5_th*2\} d6_t=\{d6_th*2\}
-  .param d7_th=\{d6_th*2\} d7_t=\{d7_th*2\}
-  .param d8_th=\{d7_th*2\} d8_t=\{d8_th*2\}
-  .param d9_th=\{d8_th*2\} d9_t=\{d9_th*2\}
-  *******Signals**********
-  .param vhi=1.8
-
-  *Bd5  d5  gnd V = \{V(in) - 64*LSB0*floor(V(in)/(64*LSB0)) >= 32*LSB0 ? 1.8 : 0\}
-  *Bd6  d6  gnd V = \{V(in) - 128*LSB0*floor(V(in)/(128*LSB0)) >= 64*LSB0 ? 1.8 : 0\}
-  *Bd7  d7  gnd V = \{V(in) - 256*LSB0*floor(V(in)/(256*LSB0)) >= 128*LSB0 ? 1.8 : 0\}
-  *Bd8  d8  gnd V = \{V(in) - 512*LSB0*floor(V(in)/(512*LSB0)) >= 256*LSB0 ? 1.8 : 0\}
-  *Bd9  d9  gnd V = \{V(in) - 1024*LSB0*floor(V(in)/(1024*LSB0)) >= 512*LSB0 ? 1.8 : 0\}
-
-  Vd0  d0  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d0_th\} \{d0_t\})
-  Vd1  d1  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d1_th\} \{d1_t\})
-  Vd2  d2  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d2_th\} \{d2_t\})
-  Vd3  d3  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d3_th\} \{d3_t\})
-  Vd4  d4  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d4_th\} \{d4_t\})
-
-  *Bd5  d5  gnd V = \{V(in) - 64*LSB0*floor(V(in)/(64*LSB0)) >= 32*LSB0 ? 1.8 : 0\}
-  *Bd6  d6  gnd V = \{V(in) - 128*LSB0*floor(V(in)/(128*LSB0)) >= 64*LSB0 ? 1.8 : 0\}
-  *Bd7  d7  gnd V = \{V(in) - 256*LSB0*floor(V(in)/(256*LSB0)) >= 128*LSB0 ? 1.8 : 0\}
-  *Bd8  d8  gnd V = \{V(in) - 512*LSB0*floor(V(in)/(512*LSB0)) >= 256*LSB0 ? 1.8 : 0\}
-  *Bd9  d9  gnd V = \{V(in) - 1024*LSB0*floor(V(in)/(1024*LSB0)) >= 512*LSB0 ? 1.8 : 0\}
-
-  *Vd5  d5  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d5_th\} \{d5_t\})
-  *Vd6  d6  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d6_th\} \{d6_t\})
-  *Vd7  d7  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d7_th\} \{d7_t\})
-  *Vd8  d8  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d8_th\} \{d8_t\})
-  *Vd9  d9  gnd pulse(\{vhi\} 0 \{base_d\} 1n 1n \{d9_th\} \{d9_t\})
-
-  Vd5  d5  gnd 0
-  Vd6  d6  gnd 0
-  Vd7  d7  gnd 0
-  Vd8  d8  gnd 0
-  Vd9  d9  gnd 0
-  ********************Simulation Commands*****************************
-  .tran 1n 170u
-  .control
-     reset
-     set wr_vecnames
-     set wr_singlescale
-     set num_threads=16
-     *let iterration=0
-     
-
-     compose low_to_high values 0 1.8
-     compose high_to_low values 1.8 0
-
-     foreach var9 $&low_to_high
-       alter vd9 $var9
-
-       foreach var8 $&low_to_high
-         alter vd8 $var8
-
-         foreach var7 $&low_to_high
-           alter vd7 $var7
-
-             foreach var6 $&low_to_high
-             alter vd6 $var6
-
-             foreach var5 $&low_to_high
-             alter vd5 $var5
-             
-             run
-             write top_step_tr-tb.raw
-
-             let voutval= v(vout)
-             let vloadval = v(load)
-
-             let ir1 = i(vmeas)
-             let ir2 = i(vmeas1)
-             let ivdd = i(vmeas2)
-             let ivdda = i(vmeas3)
-             let ivddh = i(vmeas4)
-
-             let vd0 = v(d0)
-             let vd1 = v(d1)
-             let vd2 = v(d2)
-             let vd3 = v(d3)
-             let vd4 = v(d4)
-             let vd5 = v(d5)
-             let vd6 = v(d6)
-             let vd7 = v(d7)
-             let vd8 = v(d8)
-             let vd9 = v(d9)
-
-             wrdata $THESIS_WS/simulations/top_step_tr-tb.txt voutval vloadval ir1 ir2 ivdd ivdda ivddh vd9 vd8 vd7 vd6 vd5 vd4 vd3 vd2 vd1 vd0
-             *let iterration = iterration + 1
-             set appendwrite
-             unset set wr_vecnames
-             destroy all
-          end
-          end
-          end
-          end
-          end
-
-*    quit 0
-  .endc
-"}
-C {devices/lab_pin.sym} 420 -390 0 0 {name=p16 sig_type=std_logic lab=VDD2}
-C {devices/capa.sym} 830 -310 0 0 {name=C6
+C {devices/capa.sym} 900 -290 0 0 {name=C6
 m=1
 value=30p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/lab_pin.sym} 830 -280 0 0 {name=p101 sig_type=std_logic lab=GNDA}
-C {devices/res.sym} 800 -360 3 0 {name=R1
+C {devices/lab_pin.sym} 900 -260 0 0 {name=p101 sig_type=std_logic lab=0}
+C {devices/res.sym} 870 -340 3 0 {name=R1
 value=10k
 footprint=1206
 device=resistor
 m=1}
-C {devices/lab_pin.sym} 830 -360 0 1 {name=p99 sig_type=std_logic lab=LOAD}
-C {devices/ammeter.sym} 560 -180 0 1 {name=Vmeas1 savecurrent=true spice_ignore=0}
-C {devices/lab_pin.sym} 690 -360 3 1 {name=p8 sig_type=std_logic lab=VOUT}
-C {devices/lab_pin.sym} 210 -230 0 0 {name=p9 sig_type=std_logic lab=VDDH}
-C {devices/lab_pin.sym} 420 -330 0 0 {name=p11 sig_type=std_logic lab=GND}
-C {devices/lab_pin.sym} 420 -310 0 0 {name=p12 sig_type=std_logic lab=GNDA}
-C {devices/lab_pin.sym} 420 -410 0 0 {name=p13 sig_type=std_logic lab=D[0..9]}
-C {devices/res.sym} 500 -240 0 1 {name=R2
-value=767.08k
+C {devices/lab_pin.sym} 900 -340 0 1 {name=p99 sig_type=std_logic lab=LOAD}
+C {devices/lab_pin.sym} 820 -340 3 1 {name=p8 sig_type=std_logic lab=VOUT}
+C {devices/lab_pin.sym} 550 -290 0 0 {name=p11 sig_type=std_logic lab=0}
+C {devices/lab_pin.sym} 550 -410 0 0 {name=p13 sig_type=std_logic lab=d[0..9]}
+C {devices/lab_pin.sym} 640 -180 0 0 {name=p119 sig_type=std_logic lab=0}
+C {10b_DAC_top.sym} 670 -340 0 0 {name=x1}
+C {devices/lab_pin.sym} 550 -310 2 1 {name=p4 sig_type=std_logic lab=VDDA}
+C {devices/lab_pin.sym} 550 -350 2 1 {name=p14 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 550 -390 2 1 {name=p10 sig_type=std_logic lab=VLREF}
+C {devices/lab_pin.sym} 550 -370 2 1 {name=p12 sig_type=std_logic lab=VHREF}
+C {devices/res.sym} 640 -210 0 1 {name=R2
+value=1.759MEG
 footprint=1206
 device=resistor
 m=1}
-C {devices/lab_pin.sym} 500 -150 0 0 {name=p119 sig_type=std_logic lab=GNDA}
-C {devices/ammeter.sym} 500 -180 0 1 {name=Vmeas savecurrent=true spice_ignore=0}
-C {devices/res.sym} 560 -240 0 0 {name=R3
-value=192.15k
+C {devices/res.sym} 690 -210 0 0 {name=R3
+value=671.63k
 footprint=1206
 device=resistor
 m=1}
-C {devices/ammeter.sym} 370 -200 0 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
-C {10b_DAC_top.sym} 570 -340 0 0 {name=x1}
-C {devices/ammeter.sym} 290 -200 0 1 {name=Vmeas3 savecurrent=true spice_ignore=0}
-C {devices/lab_pin.sym} 290 -230 2 1 {name=p1 sig_type=std_logic lab=VDDA}
-C {devices/ammeter.sym} 210 -200 0 1 {name=Vmeas4 savecurrent=true spice_ignore=0}
-C {devices/lab_pin.sym} 290 -170 2 1 {name=p2 sig_type=std_logic lab=VDDA2}
-C {devices/lab_pin.sym} 210 -170 0 0 {name=p3 sig_type=std_logic lab=VDDH2}
-C {devices/lab_pin.sym} 420 -350 2 1 {name=p4 sig_type=std_logic lab=VDDA2}
-C {devices/lab_pin.sym} 420 -370 0 0 {name=p5 sig_type=std_logic lab=VDDH2}
-C {devices/lab_pin.sym} 370 -230 2 1 {name=p6 sig_type=std_logic lab=VDD}
-C {devices/ammeter.sym} 740 -360 3 1 {name=Vmeas5 savecurrent=true spice_ignore=0}
-C {devices/lab_pin.sym} 370 -170 2 1 {name=p7 sig_type=std_logic lab=VDD2}
-C {devices/code_shown.sym} -590 -370 0 0 {name=NGSPICE_SAVE only_toplevel=true 
+C {devices/code_shown.sym} -370 -610 0 0 {name=NGSPICE_SAVE only_toplevel=true 
 value="
+.include $THESIS_WS/spice/tran-tb.sp
 .save VOUT LOAD
 .save d0 d1 d2 d3 d4 d5 d6 d7 d8 d9
-.save x1.P_IN[0] x1.P_IN[1] x1.P_IN[2] x1.P_IN[3] x1.P_IN[4]
-*.save x1.b[0] x1.b[1] x1.b[2] x1.b[3] x1.b[4]
-*.save x1.b[5] x1.b[6]
-*.save x1.bb[0] x1.bb[1] x1.bb[2] x1.bb[3] x1.bb[4]
-*.save x1.bb[5] x1.bb[6]
-.save x1.VS1 x1.VL2 x1.VH2 x1.VL3 x1.VH3 x1.VS4
-.save x1.V[0] x1.V[1] x1.V[62] x1.V[63]
-.save x1.V[64] x1.V[65] x1.V[111] x1.V[112]
-.save x1.V[113] x1.V[114] x1.V[126] x1.V[127]
-.save x1.V[128] x1.V[129] x1.V[190] x1.V[191]
+*.save x1.V[0] x1.V[63]
+*.save x1.V[64] x1.V[112]
+*.save x1.V[113] x1.V[127]
+*.save x1.V[128] x1.V[191]
+.save i(Vdda) i(Vdd) i(R1) i(R2) i(R3)
 "}

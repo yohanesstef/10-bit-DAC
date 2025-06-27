@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,8 +12,8 @@ ypos2=1.98
 divy=5
 subdivy=4
 unity=1
-x1=-9.7667905e-06
-x2=1.121994e-05
+x1=0.0027732118
+x2=0.0027873131
 divx=5
 subdivx=4
 xlabmag=1.0
@@ -35,8 +35,8 @@ ypos2=0.5
 divy=5
 subdivy=4
 unity=1
-x1=-9.7667905e-06
-x2=1.121994e-05
+x1=0.0027732118
+x2=0.0027873131
 divx=5
 subdivx=4
 xlabmag=1.0
@@ -48,8 +48,7 @@ logy=0
 digital=1
 rainbow=1
 legend=1
-color=4
-node=clk}
+}
 N 1070 -240 1070 -220 {lab=LOAD}
 N 970 -240 1010 -240 {lab=VOUT}
 N 810 -80 860 -80 {lab=0}
@@ -123,14 +122,6 @@ value="
 .save x1.V[128] x1.V[191]
 .save i(Vdda) i(Vdd) i(R1) i(R2) i(R3)
 "}
-C {devices/code.sym} -130 -210 0 0 {name=TT_MODELS
-only_toplevel=true
-format="tcleval(@value )"
-value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
-.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
-"
-spice_ignore=false
-place=header}
 C {digital_sine_generator.sym} 210 -220 0 0 {name=ADUT model=digital_sine_generator
 
 device_model=".model digital_sine_generator d_cosim simulation=\\"ivlng\\" sim_args=[\\"dsine_gen\\"]"}
@@ -152,3 +143,12 @@ value=671.63k
 footprint=1206
 device=resistor
 m=1}
+C {devices/code.sym} -130 -220 0 0 {name=TT_MODELS
+only_toplevel=true
+format="tcleval(@value )"
+value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
+.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
+.include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+"
+spice_ignore=false
+place=header}

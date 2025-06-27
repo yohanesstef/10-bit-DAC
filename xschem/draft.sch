@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -431,6 +431,7 @@ N -1330 570 -1330 710 {lab=nn2}
 N -1410 570 -1330 570 {lab=nn2}
 N -1370 710 -1330 710 {lab=nn2}
 N 1300 130 1360 130 {lab=VOUT}
+N 2900 950 2900 970 {lab=CLK}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} -130 50 0 0 {name=M11
 L=l
 W=wn
@@ -1937,3 +1938,7 @@ value=767.08k
 footprint=1206
 device=resistor
 m=1}
+C {adc10b_va.sym} 2890 860 0 0 {name=x29}
+C {devices/lab_pin.sym} 2760 860 0 0 {name=p210 sig_type=std_logic lab=IN}
+C {devices/lab_pin.sym} 2900 970 0 0 {name=p211 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 3010 860 0 1 {name=p212 sig_type=std_logic lab=d[0..9]}

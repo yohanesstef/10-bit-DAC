@@ -7,12 +7,12 @@
 .param k11={13e-12} ep0={8.854e-12} elc=5.3 n_o=1.5 n_e=1.61
 .param vzero=5.5 vth=-1
 
-EX1 EX1 gnd value = {exp(-((V(VA)-vth)/vzero))}
-EX2 EX2 gnd value = {(n_e**2)*(cos(pi/2 - 2*atan(V(EX1)))**2)}
-EX3 EX3 gnd value = {(n_o**2)*(sin(pi/2 - 2*atan(V(EX1)))**2)}
-EX4 EX4 gnd value = {sqrt(abs(V(EX2)+V(EX3)))}
-EX5 delta_n gnd value = {((n_e*n_o)/V(EX4))-n_o}
-EX6 T gnd value = {0.5*((sin(2*thetha)**2)*sin(pi*V(delta_n)*cell_gap/lambda)**2)}
+*X1 EX1 gnd value = {exp(-((V(VA)-vth)/vzero))}
+*EX2 EX2 gnd value = {(n_e**2)*(cos(pi/2 - 2*atan(V(EX1)))**2)}
+*EX3 EX3 gnd value = {(n_o**2)*(sin(pi/2 - 2*atan(V(EX1)))**2)}
+*EX4 EX4 gnd value = {sqrt(abs(V(EX2)+V(EX3)))}
+*EX5 delta_n gnd value = {((n_e*n_o)/V(EX4))-n_o}
+*EX6 T gnd value = {0.5*((sin(2*thetha)**2)*sin(pi*V(delta_n)*cell_gap/lambda)**2)}
 *EX7 RANGE gnd value = {vecmax(V(T))-vecmin(V(T))}
 *EX8 TNOM gnd value = {(V(T)-vecmin(V(T)))/V(RANGE)}
 ************************************************************
@@ -40,7 +40,7 @@ E7 B7 gnd value = {V(d7)*L7};
 E8 B8 gnd value = {V(d8)*L8};
 E9 B9 gnd value = {V(d9)*L9};
 
-EA VA gnd value = {V(B0)+V(B1)+V(B2)+V(B3)+V(B4)+V(B5)+V(B6)+V(B7)+V(B8)+V(B9)}
+EA T gnd value = {V(B0)+V(B1)+V(B2)+V(B3)+V(B4)+V(B5)+V(B6)+V(B7)+V(B8)+V(B9)}
 
 .model dac_buff dac_bridge(out_low=0 out_high=1.8
   +out_undef=0 input_load=0.5e-15 t_rise=1e-9 t_fall=1e-9)
@@ -61,7 +61,7 @@ Vtest test gnd sin(1 1 10k)
     set wr_vecnames
     let va = V(VA)
     let test = V(test)
-    wrdata $THESIS_WS/simulations/top_large/signal_test.txt va test
+    wrdata $THESIS_WS/simulations/top_large/signal_test.txt T test
 
 *    quit 0
 .endc

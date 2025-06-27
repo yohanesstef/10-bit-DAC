@@ -29,8 +29,8 @@ set num_threads=8
 write op_amp_top-tb.raw
 
 
-*tran 10n 30u 
-dc vin0 -1 6.5 0.01
+tran 10n 200u 
+*dc vin0 -0.1 5.6 0.05
 *ac dec 100 1 1e9
 
 let vout_mag =abs(v(out))

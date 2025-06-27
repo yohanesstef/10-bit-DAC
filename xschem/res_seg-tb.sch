@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,8 +12,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-0.095449765
-x2=1.9781502
+x1=0
+x2=1
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -82,14 +82,14 @@ v[180]
 v[128]"}
 B 2 0 -800 1140 -400 {flags=graph
 y1=1
-y2=5.5
+y2=1.1
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-0.54401878
-x2=1.5295812
+x1=0
+x2=1
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -103,16 +103,10 @@ rainbow=1
 
 
 rawfile=$netlist_dir/res_seg-tb.raw
-sim_type=tran
-color="4 5 6 7 8 9 10 11"
-node="V1[64]
-V1[112]
-V1[128]
-V1[191]
-V[64]
-V[112]
-V[128]
-V[191]"}
+sim_type=dc
+color="4 4"
+node="v63
+v64"}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {devices/launcher.sym} 490 -380 0 0 {name=h5
 descr="load tran" 

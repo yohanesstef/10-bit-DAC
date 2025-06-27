@@ -1,30 +1,32 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
 B 2 190 -1000 990 -600 {flags=graph
-y1=-92
-y2=110
+y1=-0.0066
+y2=5.7
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9
+x1=9.2033346e-06
+x2=3.413456e-05
 divx=5
-subdivx=8
+subdivx=4
 xlabmag=1.0
 ylabmag=1.0
 dataset=-1
 unitx=1
-logx=1
+logx=0
 logy=0
-color="4 5"
-node="\\"OUT db20()\\"
-\\"LOAD db20()\\""}
+color="4 5 6 4"
+node="out
+load
+in[0]
+v-sweep"}
 B 2 990 -1000 1790 -600 {flags=graph
 y1=-180
 y2=180
@@ -33,8 +35,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9
+x1=9.2033346e-06
+x2=3.413456e-05
 divx=5
 subdivx=8
 xlabmag=1.0
@@ -124,13 +126,13 @@ C {devices/lab_pin.sym} 870 -370 0 1 {name=p99 sig_type=std_logic lab=load}
 C {devices/code_shown.sym} -230 -740 0 0 {name=NGSPICE only_toplevel=true 
 value="
 .include $THESIS_WS/spice/op_amp-tb.sp
-.save out load 
+.save out load in[0]
 "}
 C {devices/launcher.sym} 800 -580 0 0 {name=h26
 descr="Annotate OP" 
 tclcommand="set show_hidden_texts 1; xschem annotate_op"
 }
-C {devices/lab_pin.sym} 430 -410 0 0 {name=p30 sig_type=std_logic lab=IN[0]}
+C {devices/lab_pin.sym} 430 -410 0 0 {name=p30 sig_type=std_logic lab=IN[0:4]}
 C {devices/lab_pin.sym} 650 -270 0 1 {name=p49 sig_type=std_logic lab=OUT}
 C {devices/ammeter.sym} 710 -370 3 1 {name=Vmeas1 savecurrent=true spice_ignore=0}
 C {devices/lab_pin.sym} 230 -250 0 0 {name=p119 sig_type=std_logic lab=gnd}

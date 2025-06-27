@@ -1,5 +1,5 @@
-*.include $THESIS_WS/spice/header.spice
-.include $THESIS_WS/pex/top_segment_1.pex.spice
+.include $THESIS_WS/spice/header.spice
+*.include $THESIS_WS/pex/top_segment_1.pex.spice
 .option wnflag=1
 .option safecurrents
 .option gmin

@@ -6,6 +6,7 @@
 *.option klu
 .options solver=klu nomod
 .options method=trap rawfile=binary
+.option temp=80
 ********************Transmittance Modelling*****************
 .param pi=3.14159265359 thetha={pi/4} lambda={550e-9} cell_gap={3.6e-6}
 .param k11={13e-12} ep0={8.854e-12} elc=5.3 n_o=1.5 n_e=1.61
@@ -36,7 +37,7 @@ Vclk clk 0 pulse(1.8 0 10n 10n 0 5u 10u)
     set wr_vecnames
     tran 10n 10.3m 0 1n
     remzerovec
-    write spectral_tb.raw
-    wrdata $THESIS_WS/simulations/top_large/spectral_tb.txt tran.all
+    write spectral_tt_t0_tb.raw
+    wrdata $THESIS_WS/simulations/top_large/spectral_tt_t80_tb.txt tran.all
     destroy all
 .endc

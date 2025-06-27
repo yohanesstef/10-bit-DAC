@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -90,11 +90,8 @@ rainbow=1
 color="4 5"
 node="vl
 vh"}
-N 1000 -270 1000 -250 {lab=VH}
-N 830 -270 830 -250 {lab=VL}
-N 830 -190 1000 -190 {lab=gnd}
+N 800 -210 980 -210 {lab=gnd}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
-C {sky130_fd_pr/corner.sym} 0 -180 0 0 {name=CORNER only_toplevel=true corner=tt}
 C {devices/launcher.sym} 190 -740 0 0 {name=h5
 descr="load tran" 
 tclcommand="xschem raw_read $netlist_dir/res_seg_3-tb.raw tran"
@@ -114,11 +111,6 @@ C {devices/lab_pin.sym} 750 -400 0 0 {name=p5 sig_type=std_logic lab=d[3:6]}
 C {devices/lab_pin.sym} 1050 -440 0 1 {name=p7 sig_type=std_logic lab=VH}
 C {devices/lab_pin.sym} 1050 -420 0 1 {name=p8 sig_type=std_logic lab=VL}
 C {devices/lab_pin.sym} 750 -340 0 0 {name=p6 sig_type=std_logic lab=VDDH}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 830 -220 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=16 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1000 -220 0 0 {name=C2 model=cap_mim_m3_1 W=1 L=1 MF=16 spiceprefix=X}
-C {devices/lab_pin.sym} 830 -270 0 0 {name=p2 sig_type=std_logic lab=VL}
-C {devices/lab_pin.sym} 1000 -270 0 0 {name=p35 sig_type=std_logic lab=VH}
-C {devices/lab_pin.sym} 830 -190 0 0 {name=p61 sig_type=std_logic lab=gnd}
 C {lvsf_1buff.sym} 400 -560 0 0 {name=x3}
 C {devices/lab_pin.sym} 250 -610 0 0 {name=p9 sig_type=std_logic lab=VPLV}
 C {devices/lab_pin.sym} 250 -590 0 0 {name=p10 sig_type=std_logic lab=VNLV}
@@ -158,4 +150,26 @@ C {devices/lab_pin.sym} 250 -200 0 0 {name=p36 sig_type=std_logic lab=VNLV}
 C {devices/code_shown.sym} -230 -380 0 0 {name=s1 only_toplevel=false value="
 .include $THESIS_WS/spice/rseg_3_tb.sp"}
 C {devices/lab_pin.sym} 750 -420 0 0 {name=p43 sig_type=std_logic lab=V16}
-C {top_segment_3_posim.sym} 900 -390 0 0 {name=x1}
+C {devices/lab_pin.sym} 980 -270 2 0 {name=p2 sig_type=std_logic lab=VH}
+C {devices/lab_pin.sym} 800 -270 2 0 {name=p3 sig_type=std_logic lab=VL}
+C {devices/lab_pin.sym} 800 -210 0 0 {name=p35 sig_type=std_logic lab=gnd}
+C {devices/capa.sym} 800 -240 0 0 {name=C1
+m=1
+value=0.5p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/capa.sym} 980 -240 0 0 {name=C2
+m=1
+value=0.5p
+footprint=1206
+device="ceramic capacitor"}
+C {top_segment_3.sym} 900 -390 0 0 {name=x1}
+C {devices/code.sym} 20 -260 0 0 {name=TT_MODELS
+only_toplevel=true
+format="tcleval(@value )"
+value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
+.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
+.include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+"
+spice_ignore=false
+place=header}

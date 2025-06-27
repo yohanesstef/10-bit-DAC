@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,8 +12,8 @@ ypos2=12.651463
 divy=5
 subdivy=1
 unity=1
-x1=-0.01125
-x2=0.10125
+x1=-0.0225
+x2=0.09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -45,8 +45,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-0.01125
-x2=0.10125
+x1=-0.0225
+x2=0.09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -74,7 +74,8 @@ v[4]
 v[3]
 v[2]
 v[1]
-v[0]"}
+v[0]"
+sim_type=tran}
 B 2 820 -1430 2150 -1080 {flags=graph
 y1=4.8
 y2=23
@@ -83,8 +84,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-0.01125
-x2=0.10125
+x1=-0.0225
+x2=0.09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -105,8 +106,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-0.01125
-x2=0.10125
+x1=-0.0225
+x2=0.09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -134,9 +135,8 @@ x2.v1[3]
 x2.v1[2]
 x2.v1[1]
 x2.v1[0]"}
-N 380 -120 380 -100 {lab=CLK}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
-C {devices/launcher.sym} 210 -660 0 0 {name=h5
+C {devices/launcher.sym} 220 -660 0 0 {name=h5
 descr="load tran" 
 tclcommand="xschem raw_read $netlist_dir/res_seg_4-tb.raw tran"
 }
@@ -155,22 +155,14 @@ C {devices/lab_pin.sym} 1490 -360 0 1 {name=p1 sig_type=std_logic lab=vout}
 C {devices/lab_pin.sym} 1700 -380 2 0 {name=p2 sig_type=std_logic lab=vout}
 C {devices/lab_pin.sym} 1700 -320 0 0 {name=p17 sig_type=std_logic lab=gnd}
 C {decoder_2to4.sym} 360 -510 0 0 {name=x3}
-C {devices/lab_pin.sym} 210 -520 0 0 {name=p9 sig_type=std_logic lab=b[4..5]}
-C {devices/lab_pin.sym} 210 -500 0 0 {name=p10 sig_type=std_logic lab=VDD}
-C {devices/lab_pin.sym} 210 -480 0 0 {name=p11 sig_type=std_logic lab=vddh}
-C {devices/lab_pin.sym} 210 -460 0 0 {name=p12 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 210 -560 0 0 {name=p13 sig_type=std_logic lab=VPBIAS}
-C {devices/lab_pin.sym} 210 -540 0 0 {name=p14 sig_type=std_logic lab=VNBIAS}
-C {devices/lab_pin.sym} 510 -560 0 1 {name=p15 sig_type=std_logic lab=dd0[0:3]}
+C {devices/lab_pin.sym} 210 -530 0 0 {name=p9 sig_type=std_logic lab=b[4..5]}
+C {devices/lab_pin.sym} 210 -490 0 0 {name=p10 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 210 -470 0 0 {name=p11 sig_type=std_logic lab=vddh}
+C {devices/lab_pin.sym} 210 -450 0 0 {name=p12 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 210 -570 0 0 {name=p13 sig_type=std_logic lab=VPBIAS}
+C {devices/lab_pin.sym} 210 -550 0 0 {name=p14 sig_type=std_logic lab=VNBIAS}
+C {devices/lab_pin.sym} 510 -570 0 1 {name=p15 sig_type=std_logic lab=dd0[0:3]}
 C {devices/lab_pin.sym} 1190 -280 0 0 {name=p7 sig_type=std_logic lab=db[0:3]}
-C {devices/code.sym} 0 -170 0 0 {name=TT_MODELS
-only_toplevel=true
-format="tcleval(@value )"
-value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
-.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
-"
-spice_ignore=false
-place=header}
 C {lvsf_1buff.sym} 870 -540 0 0 {name=x5}
 C {devices/lab_pin.sym} 720 -590 0 0 {name=p5 sig_type=std_logic lab=VPLV}
 C {devices/lab_pin.sym} 720 -570 0 0 {name=p18 sig_type=std_logic lab=VNLV}
@@ -220,14 +212,20 @@ footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 1190 -360 0 0 {name=p3 sig_type=std_logic lab=V0}
 C {devices/lab_pin.sym} 1190 -340 0 0 {name=p4 sig_type=std_logic lab=V63}
-C {top_segment_4_posim.sym} 1340 -300 0 0 {name=x1}
 C {devices/code_shown.sym} -330 -410 0 0 {name=s1 only_toplevel=false value="
 .include $THESIS_WS/spice/rseg_4_tb.sp
 .save vout b0 b1 b2 b3 b4 b5
 .save bb0 bb1 bb2 bb3 bb4 bb5 
 
 "}
-C {adc10b_va.sym} 370 -210 0 0 {name=x2}
-C {devices/lab_pin.sym} 240 -210 0 0 {name=p54 sig_type=std_logic lab=IN}
-C {devices/lab_pin.sym} 380 -100 0 0 {name=p55 sig_type=std_logic lab=CLK}
-C {devices/lab_pin.sym} 490 -210 0 1 {name=p56 sig_type=std_logic lab=b[0..9]}
+C {devices/lab_pin.sym} 210 -510 0 0 {name=p57 sig_type=std_logic lab=bb[4..5]}
+C {top_segment_4.sym} 1340 -300 0 0 {name=x1}
+C {devices/code.sym} 40 -200 0 0 {name=TT_MODELS
+only_toplevel=true
+format="tcleval(@value )"
+value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
+.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
+.include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+"
+spice_ignore=false
+place=header}

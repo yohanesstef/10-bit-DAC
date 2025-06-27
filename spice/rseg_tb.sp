@@ -1,9 +1,9 @@
-*.include $THESIS_WS/spice/header.cir
+.include $THESIS_WS/spice/header.spice
 *.include $THESIS_WS/mag/rseg_2_v3.spice
-.include $THESIS_WS/pex/rseg_1_v3.pex.spice
-.include $THESIS_WS/pex/rseg_2_v3.pex.spice
-.include $THESIS_WS/pex/rseg_3_v3.pex.spice
-.include $THESIS_WS/pex/rseg_4_v3.pex.spice
+*.include $THESIS_WS/pex/rseg_1_v3.pex.spice
+*.include $THESIS_WS/pex/rseg_2_v3.pex.spice
+*.include $THESIS_WS/pex/rseg_3_v3.pex.spice
+*.include $THESIS_WS/pex/rseg_4_v3.pex.spice
 
 .option wnflag=1
 .option safecurrents
@@ -53,7 +53,7 @@ Vdm dm gnd 0
     write res_seg-tb.raw
     set wr_singlescale
     set wr_vecnames
-    wrdata $THESIS_WS/simulations/rseg_posim.txt dc.all
+    wrdata $THESIS_WS/simulations/rseg_graph.txt dc.all
 
 
 *     dc Vdm 0 1 1

@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -155,21 +155,13 @@ tclcommand="textwindow $netlist_dir/res_seg_1-tb.raw"
 C {devices/lab_pin.sym} 1250 -420 0 0 {name=p2 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 1250 -480 0 0 {name=p9 sig_type=std_logic lab=vout}
 C {decoder_2to4.sym} 390 -420 0 0 {name=x3}
-C {devices/lab_pin.sym} 240 -410 0 0 {name=p11 sig_type=std_logic lab=VDD}
-C {devices/lab_pin.sym} 240 -390 0 0 {name=p12 sig_type=std_logic lab=vddh}
-C {devices/lab_pin.sym} 240 -370 0 0 {name=p13 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 240 -470 0 0 {name=p14 sig_type=std_logic lab=VPBIAS}
-C {devices/lab_pin.sym} 240 -450 0 0 {name=p15 sig_type=std_logic lab=VNBIAS}
-C {devices/lab_pin.sym} 540 -470 0 1 {name=p17 sig_type=std_logic lab=d0[0:3]}
-C {devices/lab_pin.sym} 240 -430 0 0 {name=p25 sig_type=std_logic lab=b[4..5]}
-C {devices/code.sym} 0 -180 0 0 {name=TT_MODELS
-only_toplevel=true
-format="tcleval(@value )"
-value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
-.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
-"
-spice_ignore=false
-place=header}
+C {devices/lab_pin.sym} 240 -400 0 0 {name=p11 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 240 -380 0 0 {name=p12 sig_type=std_logic lab=vddh}
+C {devices/lab_pin.sym} 240 -360 0 0 {name=p13 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 240 -480 0 0 {name=p14 sig_type=std_logic lab=VPBIAS}
+C {devices/lab_pin.sym} 240 -460 0 0 {name=p15 sig_type=std_logic lab=VNBIAS}
+C {devices/lab_pin.sym} 540 -480 0 1 {name=p17 sig_type=std_logic lab=d0[0:3]}
+C {devices/lab_pin.sym} 240 -440 0 0 {name=p25 sig_type=std_logic lab=b[4..5]}
 C {lvsf_1buff.sym} 390 -290 0 0 {name=x4}
 C {lvsf_1buff.sym} 390 -160 0 0 {name=x5}
 C {lvsf_1buff.sym} 880 -290 0 0 {name=x6}
@@ -221,4 +213,15 @@ C {devices/lab_pin.sym} 1030 -470 0 1 {name=p56 sig_type=std_logic lab=vout}
 C {devices/code_shown.sym} -260 -320 0 0 {name=s1 only_toplevel=false value="
 .include $THESIS_WS/spice/rseg_1_tb.sp
 .save vout b0 b1 b2 b3 b4 b5"}
-C {top_segment_1_posim.sym} 880 -420 0 0 {name=x1}
+C {devices/lab_pin.sym} 240 -440 0 0 {name=p1 sig_type=std_logic lab=b[4..5]}
+C {devices/lab_pin.sym} 240 -420 0 0 {name=p3 sig_type=std_logic lab=bb[4:5]}
+C {top_segment_1.sym} 880 -420 0 0 {name=x1}
+C {devices/code.sym} 50 -200 0 0 {name=TT_MODELS
+only_toplevel=true
+format="tcleval(@value )"
+value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
+.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
+.include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+"
+spice_ignore=false
+place=header}

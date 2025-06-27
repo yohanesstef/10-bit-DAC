@@ -1,5 +1,5 @@
-*.include $THESIS_WS/spice/header.spice
-.include $THESIS_WS/pex/top_segment_2.pex.spice
+.include $THESIS_WS/spice/header.spice
+*.include $THESIS_WS/pex/top_segment_2.pex.spice
 .option wnflag=1
 .option safecurrents
 .options reltol=1e-5

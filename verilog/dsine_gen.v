@@ -1,4 +1,4 @@
-`timescale 100ns / 100ps
+`timescale 10ns / 100ps
 
 module dsine_gen(
     input clk,
@@ -14,13 +14,13 @@ module dsine_gen(
     reg clksin;
 
     initial begin
-        $display("===SINE GENERATOR START===");
+        $display("===SINE GENERATOR START!!!===");
         dout = 0;
         clksin = 0;
     end
     always #1 clksin <= ~clksin;
     always @(posedge(clksin))begin
-        phase_val = phase_val + 4*PI/1013.8 ;
+        phase_val = phase_val + 4*PI/10138.61386138 ;
         sin_val = $sin(phase_val) + 1;
     end 
     always @(posedge(clk))begin
