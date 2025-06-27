@@ -1,0 +1,25 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1751047404
+<< nwell >>
+rect 6231 294 7013 1813
+<< mvnsubdiff >>
+rect 6297 1689 6947 1747
+rect 6297 418 6355 1689
+rect 6889 418 6947 1689
+rect 6297 360 6947 418
+<< locali >>
+rect 6309 1701 6935 1735
+rect 6309 406 6343 1701
+rect 6901 406 6935 1701
+rect 6309 372 6935 406
+<< metal1 >>
+rect 6529 620 6557 1620
+rect 6687 620 6715 1620
+rect 6767 472 6813 1552
+use sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT  sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0
+timestamp 1751045931
+transform -1 0 6622 0 1 1048
+box -253 -642 253 604
+<< end >>

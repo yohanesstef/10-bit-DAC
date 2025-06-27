@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1751060191
+use top_DAC  top_DAC_0 ~/10-bit-DAC/mag
+timestamp 1751058658
+transform 1 0 56 0 1 -11
+box -72 -3 51201 27246
+<< end >>

@@ -1,0 +1,701 @@
+** sch_path: /home/yohanes/10-bit-DAC/xschem/top_rseg_n_dcell.sch
+.include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+.include ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+.subckt top_rseg_n_dcell DIN0 DIN1 DIN2 DIN3 DIN4 DIN5 DIN6 DIN7 DIN8 DIN9 ROUT VS1 VL2 VH2 VL3 VH3 VS4 SH[1] SH[2] SH[3] SH[4]
++ VDD VDDH GND
+*.PININFO GND:I VDD:I VDDH:I DIN[0..9]:I SH[1:4]:O VS1:O VH2:O VL2:O VH3:O VL3:O VS4:O ROUT:I
+x1 DIN0 DIN1 DIN2 DIN3 DIN4 DIN5 DIN6 DIN7 DIN8 DIN9 VBPLV VBNLV VBPDEC VBNDEC b[0] b[1] b[2] b[3] b[4] b[5] b[6] bb[0] bb[1]
++ bb[2] bb[3] bb[4] bb[5] bb[6] dec0[0] dec0[1] dec0[2] dec0[3] dec1[0] dec1[1] dec1[2] dec1[3] dec2[0] dec2[1] dec2[2] dec2[3] dec2b[0]
++ dec2b[1] dec2b[2] dec2b[3] SH[1] SH[2] SH[3] SH[4] VDD VDDH GND top_digital
+x2 GND V1_end dec2[0] dec2[1] dec2[2] dec2[3] b[0] b[1] b[2] b[3] bb[0] bb[1] bb[2] bb[3] VS1 GND top_segment_1
+x3 V1_end V2_end dec0[0] dec0[1] dec0[2] dec1[0] dec1[1] dec1[2] dec1[3] dec2[0] dec2[1] dec2[2] dec2[3] VH2 VL2 GND top_segment_2
+x4 V2_end V3_end b[3] b[4] b[5] b[6] bb[3] bb[4] bb[5] bb[6] VH3 VL3 GND VDDH top_segment_3
+x5 V3_end VDDH dec2b[0] dec2b[1] dec2b[2] dec2b[3] b[0] b[1] b[2] b[3] bb[0] bb[1] bb[2] bb[3] VS4 GND VDDH top_segment_4
+x6 ROUT VBPLV VBNLV VBPDEC VBNDEC VDDH GND bias_lvsf
+.ends
+
+* expanding   symbol:  top_digital.sym # of pins=15
+** sym_path: /home/yohanes/10-bit-DAC/xschem/top_digital.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/top_digital.sch
+.subckt top_digital DIN0 DIN1 DIN2 DIN3 DIN4 DIN5 DIN6 DIN7 DIN8 DIN9 VBPLV VBNLV VBPDEC VBNDEC b[0] b[1] b[2] b[3] b[4] b[5] b[6]
++ bb[0] bb[1] bb[2] bb[3] bb[4] bb[5] bb[6] dec0[0] dec0[1] dec0[2] dec0[3] dec1[0] dec1[1] dec1[2] dec1[3] dec2[0] dec2[1] dec2[2]
++ dec2[3] dec2b[0] dec2b[1] dec2b[2] dec2b[3] SH[1] SH[2] SH[3] SH[4] VDD VDDH GND
+*.PININFO GND:I VDD:I VBPLV:I VBNLV:I VDDH:I VBPDEC:I VBNDEC:I DIN[0..9]:I b[0:6]:O bb[0:6]:O dec0[0:3]:O dec1[0:3]:O dec2[0:3]:O
+*+ dec2b[0:3]:O SH[1:4]:O
+x5 d[6] d[7] d[8] d[9] db[6] db[7] db[8] db[9] S[1] S[2] S[3] S[4] SB[1] SB[2] SB[3] SB[4] VDD GND seg_selector_logic
+x6 VBPLV VBNLV S[4] SB[4] net1 VDDH GND lvsf
+x7 VBPLV VBNLV S[3] SB[3] net2 VDDH GND lvsf
+x8 VBPLV VBNLV SB[2] S[2] net3 VDDH GND lvsf
+x9 VBPLV VBNLV SB[1] S[1] net4 VDDH GND lvsf
+x14 net1 GND GND VDDH VDDH SH[4] sky130_fd_sc_hvl__inv_1
+x15 net2 GND GND VDDH VDDH SH[3] sky130_fd_sc_hvl__inv_1
+x16 net3 GND GND VDDH VDDH SH[2] sky130_fd_sc_hvl__inv_1
+x17 net4 GND GND VDDH VDDH SH[1] sky130_fd_sc_hvl__inv_1
+x10 VBPDEC VBNDEC DS[8] DS[9] DSB[8] DSB[9] dec0[0] dec0[1] dec0[2] dec0[3] VDD VDDH GND decoder_2to4
+x11 VBPDEC VBNDEC d[6] d[7] db[6] db[7] dec1[0] dec1[1] dec1[2] dec1[3] VDD VDDH GND decoder_2to4
+x12 VBPDEC VBNDEC d[4] d[5] db[4] db[5] dec2[0] dec2[1] dec2[2] dec2[3] VDD VDDH GND decoder_2to4
+x22 dec2[0] dec2[1] dec2[2] dec2[3] dec2b[0] dec2b[1] dec2b[2] dec2b[3] VDDH GND inv_hvl_4o
+x13 VBPLV VBNLV d[0] db[0] b[0] bb[0] VDDH GND lvsf_1buff
+x18 VBPLV VBNLV d[1] db[1] b[1] bb[1] VDDH GND lvsf_1buff
+x19 VBPLV VBNLV d[2] db[2] b[2] bb[2] VDDH GND lvsf_1buff
+x20 VBPLV VBNLV d[3] db[3] b[3] bb[3] VDDH GND lvsf_1buff
+x21 DIN0 DIN1 DIN2 DIN3 DIN4 DIN5 DIN6 DIN7 DIN8 DIN9 d[0] d[1] d[2] d[3] d[4] d[5] d[6] d[7] d[8] d[9] db[0] db[1] db[2] db[3]
++ db[4] db[5] db[6] db[7] db[8] db[9] VDD GND buffer_bus
+x23 VBPLV VBNLV d[4] db[4] b[4] bb[4] VDDH GND lvsf_1buff
+x24 VBPLV VBNLV d[5] db[5] b[5] bb[5] VDDH GND lvsf_1buff
+x25 VBPLV VBNLV d[6] db[6] b[6] bb[6] VDDH GND lvsf_1buff
+x26 d[6] d[7] d[8] d[9] db[6] db[7] db[8] DS[8] DS[9] DSB[8] DSB[9] VDD GND logic_shift_seg2
+.ends
+
+
+* expanding   symbol:  top_segment_1.sym # of pins=7
+** sym_path: /home/yohanes/10-bit-DAC/xschem/top_segment_1.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/top_segment_1.sch
+.subckt top_segment_1 V0 V64 DEC[0] DEC[1] DEC[2] DEC[3] b[0] b[1] b[2] b[3] bb[0] bb[1] bb[2] bb[3] VOUT GND
+*.PININFO V64:I VOUT:O GND:I DEC[0:3]:I b[0:3]:I bb[0:3]:I V0:I
+x1 V0 V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17 V18 V19 V20 V21 V22 V23 V24 V25 V26 V27 V28 V29 V30 V31 V32 V33
++ V34 V35 V36 V37 V38 V39 V40 V41 V42 V43 V44 V45 V46 V47 V48 V49 V50 V51 V52 V53 V54 V55 V56 V57 V58 V59 V60 V61 V62 V63 DEC[0] DEC[1]
++ DEC[2] DEC[3] v1[0] v1[1] v1[2] v1[3] v1[4] v1[5] v1[6] v1[7] v1[8] v1[9] v1[10] v1[11] v1[12] v1[13] v1[14] v1[15] GND
++ vselector_6b_1v_stage_1
+x2 v1[0] v1[1] v1[2] v1[3] v1[4] v1[5] v1[6] v1[7] bb[3] v2[0] v2[1] v2[2] v2[3] v2[4] v2[5] v2[6] v2[7] GND switch_nmos_1g_8o
+x3 v1[8] v1[9] v1[10] v1[11] v1[12] v1[13] v1[14] v1[15] b[3] v2[0] v2[1] v2[2] v2[3] v2[4] v2[5] v2[6] v2[7] GND
++ switch_nmos_1g_8o
+x4 v2[0] v2[1] v2[2] v2[3] bb[2] v3[0] v3[1] v3[2] v3[3] GND switch_nmos_1g_4o
+x5 v2[4] v2[5] v2[6] v2[7] b[2] v3[0] v3[1] v3[2] v3[3] GND switch_nmos_1g_4o
+x6 v3[0] v3[1] bb[1] v4[0] v4[1] GND switch_nmos_1g_2o
+x7 v3[2] v3[3] b[1] v4[0] v4[1] GND switch_nmos_1g_2o
+x8 v4[0] v4[1] b[0] bb[0] VOUT VOUT GND switch_nmos_2g_2o
+x9 V0 V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17 V18 V19 V20 V21 V22 V23 V24 V25 V26 V27 V28 V29 V30 V31 V32 V33
++ V34 V35 V36 V37 V38 V39 V40 V41 V42 V43 V44 V45 V46 V47 V48 V49 V50 V51 V52 V53 V54 V55 V56 V57 V58 V59 V60 V61 V62 V63 V64 GND
++ rseg_1_v3
+.ends
+
+
+* expanding   symbol:  top_segment_2.sym # of pins=8
+** sym_path: /home/yohanes/10-bit-DAC/xschem/top_segment_2.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/top_segment_2.sch
+.subckt top_segment_2 V0 V48 dec0[0] dec0[1] dec0[2] dec1[0] dec1[1] dec1[2] dec1[3] dec2[0] dec2[1] dec2[2] dec2[3] VH VL GND
+*.PININFO V48:I VH:O GND:I dec0[0:2]:I VL:O dec1[0:3]:I dec2[0:3]:I V0:I
+x1 V0 V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17 V18 V19 V20 V21 V22 V23 V24 V25 V26 V27 V28 V29 V30 V31 V32 V33
++ V34 V35 V36 V37 V38 V39 V40 V41 V42 V43 V44 V45 V46 V47 V48 dec0[0] dec0[1] dec0[2] vout1[0] vout1[1] vout1[2] vout1[3] vout1[4]
++ vout1[5] vout1[6] vout1[7] vout1[8] vout1[9] vout1[10] vout1[11] vout1[12] vout1[13] vout1[14] vout1[15] vout1[16] GND
++ vselector_6b_2v_stage_1
+x2 vout1[0] vout1[1] vout1[2] vout1[3] vout1[4] vout1[5] vout1[6] vout1[7] vout1[8] vout1[9] vout1[10] vout1[11] vout1[12]
++ vout1[13] vout1[14] vout1[15] vout1[16] dec1[1] dec1[2] dec1[3] dec1[0] vout2[0] vout2[1] vout2[2] vout2[3] vout2[4] GND
++ vselector_6b_2v_stage_2
+x3 vout2[0] vout2[1] vout2[2] vout2[3] vout2[4] dec2[0] dec2[1] dec2[2] dec2[3] VH VL GND vselector_6b_2v_stage_3
+.param wp=0.42 wn=0.42 l=0.5
+
+x4 V0 V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17 V18 V19 V20 V21 V22 V23 V24 V25 V26 V27 V28 V29 V30 V31 V32 V33
++ V34 V35 V36 V37 V38 V39 V40 V41 V42 V43 V44 V45 V46 V47 V48 GND rseg_2_v3
+.ends
+
+
+* expanding   symbol:  top_segment_3.sym # of pins=8
+** sym_path: /home/yohanes/10-bit-DAC/xschem/top_segment_3.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/top_segment_3.sch
+.subckt top_segment_3 V0 V16 b[3] b[4] b[5] b[6] bb[3] bb[4] bb[5] bb[6] VH VL GND VPB
+*.PININFO VH:O VPB:I b[3:6]:I VL:O bb[3:6]:I V16:I V0:I GND:I
+x1 V0 V1 V2 V3 V4 V5 V6 V7 V8 bb[6] v1[0] v1[1] v1[2] v1[3] v1[4] v1[5] v1[6] v1[7] v1[8] VPB switch_pmos_1g_9o
+x2 V8 V9 V10 V11 V12 V13 V14 V15 V16 b[6] v1[0] v1[1] v1[2] v1[3] v1[4] v1[5] v1[6] v1[7] v1[8] VPB switch_pmos_1g_9o
+x3 v1[0] v1[1] v1[2] v1[3] v1[4] b[5] v2[0] v2[1] v2[2] v2[3] v2[4] VPB switch_pmos_1g_5o
+x4 v1[4] v1[5] v1[6] v1[7] v1[8] bb[5] v2[0] v2[1] v2[2] v2[3] v2[4] VPB switch_pmos_1g_5o
+x5 v2[0] v2[1] v2[2] b[4] v3[0] v3[1] v3[2] VPB switch_pmos_1g_3o
+x6 v2[2] v2[3] v2[4] bb[4] v3[0] v3[1] v3[2] VPB switch_pmos_1g_3o
+x7 v3[0] v3[1] b[3] VH VL VPB switch_pmos_1g_2o
+x8 v3[1] v3[2] bb[3] VH VL VPB switch_pmos_1g_2o
+x9 V0 V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 GND rseg_3_v3
+.ends
+
+
+* expanding   symbol:  top_segment_4.sym # of pins=8
+** sym_path: /home/yohanes/10-bit-DAC/xschem/top_segment_4.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/top_segment_4.sch
+.subckt top_segment_4 V0 V63 DEC0 DEC1 DEC2 DEC3 b0 b1 b2 b3 bb0 bb1 bb2 bb3 VOUT GND VPB
+*.PININFO VOUT:O VPB:I DEC[0..3]:I b[0..3]:I bb[0..3]:I GND:I V0:I V63:I
+x1 V0 V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17 V18 V19 V20 V21 V22 V23 V24 V25 V26 V27 V28 V29 V30 V31 V32 V33
++ V34 V35 V36 V37 V38 V39 V40 V41 V42 V43 V44 V45 V46 V47 V48 V49 V50 V51 V52 V53 V54 V55 V56 V57 V58 V59 V60 V61 V62 V63 DEC0 DEC1
++ DEC2 DEC3 VA0 VA1 VA2 VA3 VA4 VA5 VA6 VA7 VA8 VA9 VA10 VA11 VA12 VA13 VA14 VA15 VPB vselector_6b_1v_stage_1_pmos
+x2 VA0 VA1 VA2 VA3 VA4 VA5 VA6 VA7 b3 VB0 VB1 VB2 VB3 VB4 VB5 VB6 VB7 VPB switch_pmos_1g_8o
+x3 VA8 VA9 VA10 VA11 VA12 VA13 VA14 VA15 bb3 VB0 VB1 VB2 VB3 VB4 VB5 VB6 VB7 VPB switch_pmos_1g_8o
+x4 VB0 VB1 VB2 VB3 b2 VC0 VC1 VC2 VC3 VPB switch_pmos_1g_4o
+x5 VB4 VB5 VB6 VB7 bb2 VC0 VC1 VC2 VC3 VPB switch_pmos_1g_4o
+x6 VC0 VC1 b1 VD1 VD0 VPB switch_pmos_1g_2o
+x7 VC2 VC3 bb1 VD1 VD0 VPB switch_pmos_1g_2o
+x8 VD0 VD1 b0 bb0 VOUT VPB switch_pmos_2g_1o
+x9 V0 V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17 V18 V19 V20 V21 V22 V23 V24 V25 V26 V27 V28 V29 V30 V31 V32 V33
++ V34 V35 V36 V37 V38 V39 V40 V41 V42 V43 V44 V45 V46 V47 V48 V49 V50 V51 V52 V53 V54 V55 V56 V57 V58 V59 V60 V61 V62 V63 GND rseg_4_v3
+.ends
+
+
+* expanding   symbol:  bias_lvsf.sym # of pins=7
+** sym_path: /home/yohanes/10-bit-DAC/xschem/bias_lvsf.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/bias_lvsf.sch
+.subckt bias_lvsf ROUT VBPLV VBNLV VBPDEC VBNDEC VDDA GNDA
+*.PININFO ROUT:I VBPLV:O VBNLV:O VBPDEC:O VBNDEC:O VDDA:I GNDA:I
+.param wp_iref=1.8 wn_iref=0.6 miref=2 lref=1 lr=20
+XM1 n1 n1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=1 W=1.8 nf=1 m=2
+XM2 n2 n2 n1 VDDA sky130_fd_pr__pfet_g5v0d10v5 L=1 W=1.8 nf=1 m=2
+XM3 net1 ROUT n2 VDDA sky130_fd_pr__pfet_g5v0d10v5 L=20 W=1.8 nf=1 m=2
+XM4 ROUT ROUT net1 VDDA sky130_fd_pr__pfet_g5v0d10v5 L=20 W=1.8 nf=1 m=2
+XM5 net2 n1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=1 W=1.8 nf=1 m=2
+XM6 n3 n2 net2 VDDA sky130_fd_pr__pfet_g5v0d10v5 L=1 W=1.8 nf=1 m=2
+XM9 net3 n1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=1 W=1.8 nf=1 m=2
+XM10 VBNLV n2 net3 VDDA sky130_fd_pr__pfet_g5v0d10v5 L=1 W=1.8 nf=1 m=2
+XM11 net4 n1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=1 W=1.8 nf=1 m=2
+XM12 VBNDEC n2 net4 VDDA sky130_fd_pr__pfet_g5v0d10v5 L=1 W=1.8 nf=1 m=2
+XM22 net6 n1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=1 W=1.8 nf=1 m=2
+XM23 VBPDEC n2 net6 VDDA sky130_fd_pr__pfet_g5v0d10v5 L=1 W=1.8 nf=1 m=2
+XM7 n3 n3 n4 GNDA sky130_fd_pr__nfet_g5v0d10v5 L=1 W=0.6 nf=1 m=2
+XM8 n4 n4 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 L=1 W=0.6 nf=1 m=2
+XM13 VBPLV n3 net5 GNDA sky130_fd_pr__nfet_g5v0d10v5 L=1 W=0.6 nf=1 m=2
+XM15 net5 n4 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 L=1 W=0.6 nf=1 m=2
+XM19 VBNLV VBNLV n6 GNDA sky130_fd_pr__nfet_g5v0d10v5 L=1 W=0.6 nf=1 m=2
+XM20 VBNDEC VBNDEC n7 GNDA sky130_fd_pr__nfet_g5v0d10v5 L=1 W=0.6 nf=1 m=2
+XM25 VBPDEC VBPDEC n14 GNDA sky130_fd_pr__nfet_g5v0d10v5 L=1 W=0.6 nf=1 m=2
+XM14 n6 VBNLV GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 L=5.3 W=0.6 nf=1 m=1
+XM16 n7 VBNDEC GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 L=9.7 W=0.61 nf=1 m=1
+XM27 n14 n14 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 L=12 W=0.64 nf=1 m=1
+XM18 VBPLV VBPLV n10 VDDA sky130_fd_pr__pfet_g5v0d10v5 L=1 W=1.8 nf=1 m=2
+XM17 n10 VBPLV VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=9.2 W=1 nf=1 m=1
+XM28 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=20 W=1.8 nf=1 m=2
+XM29 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=20 W=1.8 nf=1 m=2
+.ends
+
+
+* expanding   symbol:  seg_selector_logic.sym # of pins=6
+** sym_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_logic.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_logic.sch
+.subckt seg_selector_logic b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] bb[9] S[1] S[2] S[3] S[4] SB[1] SB[2] SB[3] SB[4] VDD GND
+*.PININFO b[6:9]:I S[1:4]:O GND:I VDD:I bb[6:9]:I SB[1:4]:O
+x1 bb[6] bb[7] bb[8] bb[9] S[1] VDD GND seg_selector_1_logic
+x2 b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] bb[9] S[2] VDD GND seg_selector_2_logic
+x3 b[6] b[7] b[8] b[9] bb[6] bb[7] S[3] VDD GND seg_selector_3_logic
+x4 b[6] b[7] b[8] b[9] S[4] VDD GND seg_selector_4_logic
+x10 S[1] GND GND VDD VDD SB[1] sky130_fd_sc_hd__inv_1
+x11 S[2] GND GND VDD VDD SB[2] sky130_fd_sc_hd__inv_1
+x12 S[3] GND GND VDD VDD SB[3] sky130_fd_sc_hd__inv_1
+x13 S[4] GND GND VDD VDD SB[4] sky130_fd_sc_hd__inv_1
+.ends
+
+
+* expanding   symbol:  lvsf.sym # of pins=7
+** sym_path: /home/yohanes/10-bit-DAC/xschem/lvsf.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/lvsf.sch
+.subckt lvsf VPBIAS VNBIAS IN INB OUTP VDDH GND
+*.PININFO IN:I INB:I OUTP:O VDDH:I GND:I VPBIAS:I VNBIAS:I
+XM1 net1 VPBIAS VDDH VDDH sky130_fd_pr__pfet_g5v0d10v5 L=0.8 W=1 nf=1 m=1
+XM2 net2 VPBIAS VDDH VDDH sky130_fd_pr__pfet_g5v0d10v5 L=0.8 W=1 nf=1 m=1
+XM3 OUTPB OUTP net1 VDDH sky130_fd_pr__pfet_g5v0d10v5 L=0.8 W=1 nf=1 m=1
+XM4 OUTP OUTPB net2 VDDH sky130_fd_pr__pfet_g5v0d10v5 L=0.8 W=1 nf=1 m=1
+XM8 OUTP VNBIAS n2 GND sky130_fd_pr__nfet_g5v0d10v5 L=1 W=1 nf=1 m=1
+XM5 OUTPB VNBIAS n1 GND sky130_fd_pr__nfet_g5v0d10v5 L=1 W=1 nf=1 m=1
+XM6 n1 IN GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM7 n2 INB GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+.ends
+
+
+* expanding   symbol:  decoder_2to4.sym # of pins=8
+** sym_path: /home/yohanes/10-bit-DAC/xschem/decoder_2to4.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/decoder_2to4.sch
+.subckt decoder_2to4 VPBIAS VNBIAS b[0] b[1] bb[0] bb[1] VOUT[0] VOUT[1] VOUT[2] VOUT[3] VDD VDDH GND
+*.PININFO VPBIAS:I VNBIAS:I b[0:1]:I VOUT[0:3]:O VDDH:I GND:I VDD:I bb[0:1]:I
+x1 VPBIAS VNBIAS DIN[0] VOUT[1] VOUT[2] VOUT[3] VOUT[0] VDDH GND VDDH GND pull_up_down_network
+x2 VPBIAS VNBIAS DIN[1] VOUT[0] VOUT[2] VOUT[3] VOUT[1] VDDH GND VDDH GND pull_up_down_network
+x3 VPBIAS VNBIAS DIN[2] VOUT[0] VOUT[1] VOUT[3] VOUT[2] VDDH GND VDDH GND pull_up_down_network
+x4 VPBIAS VNBIAS DIN[3] VOUT[0] VOUT[1] VOUT[2] VOUT[3] VDDH GND VDDH GND pull_up_down_network
+x6 bb[1] bb[0] GND GND VDD VDD DIN[0] sky130_fd_sc_hd__nand2_1
+x7 b[0] bb[1] GND GND VDD VDD DIN[1] sky130_fd_sc_hd__nand2_1
+x8 b[1] bb[0] GND GND VDD VDD DIN[2] sky130_fd_sc_hd__nand2_1
+x9 b[0] b[1] GND GND VDD VDD DIN[3] sky130_fd_sc_hd__nand2_1
+.ends
+
+
+* expanding   symbol:  inv_hvl_4o.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/inv_hvl_4o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/inv_hvl_4o.sch
+.subckt inv_hvl_4o IN[0] IN[1] IN[2] IN[3] OUT[0] OUT[1] OUT[2] OUT[3] VDDH GND
+*.PININFO IN[0:3]:I OUT[0:3]:O VDDH:I GND:I
+x1 IN[0] GND GND VDDH VDDH OUT[0] sky130_fd_sc_hvl__inv_1
+x2 IN[1] GND GND VDDH VDDH OUT[1] sky130_fd_sc_hvl__inv_1
+x3 IN[2] GND GND VDDH VDDH OUT[2] sky130_fd_sc_hvl__inv_1
+x4 IN[3] GND GND VDDH VDDH OUT[3] sky130_fd_sc_hvl__inv_1
+.ends
+
+
+* expanding   symbol:  lvsf_1buff.sym # of pins=8
+** sym_path: /home/yohanes/10-bit-DAC/xschem/lvsf_1buff.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/lvsf_1buff.sch
+.subckt lvsf_1buff VPBIAS VNBIAS IN INB OUT OUTB VDDH GND
+*.PININFO IN:I INB:I OUT:O VDDH:I GND:I VPBIAS:I VNBIAS:I OUTB:O
+x1 OUTP GND GND VDDH VDDH OUTB sky130_fd_sc_hvl__inv_1
+x2 OUTB GND GND VDDH VDDH OUT sky130_fd_sc_hvl__inv_1
+x6 VPBIAS VNBIAS IN INB OUTP VDDH GND lvsf
+.ends
+
+
+* expanding   symbol:  buffer_bus.sym # of pins=5
+** sym_path: /home/yohanes/10-bit-DAC/xschem/buffer_bus.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/buffer_bus.sch
+.subckt buffer_bus DIN0 DIN1 DIN2 DIN3 DIN4 DIN5 DIN6 DIN7 DIN8 DIN9 D[0] D[1] D[2] D[3] D[4] D[5] D[6] D[7] D[8] D[9] DB[0] DB[1]
++ DB[2] DB[3] DB[4] DB[5] DB[6] DB[7] DB[8] DB[9] VDD GND
+*.PININFO DIN[0..9]:I D[0:9]:O DB[0:9]:O VDD:I GND:I
+x1 DIN0 GND GND VDD VDD DB[0] sky130_fd_sc_hd__inv_2
+x2 DB[0] GND GND VDD VDD D[0] sky130_fd_sc_hd__inv_2
+x3 DIN1 GND GND VDD VDD DB[1] sky130_fd_sc_hd__inv_2
+x4 DB[1] GND GND VDD VDD D[1] sky130_fd_sc_hd__inv_2
+x5 DIN2 GND GND VDD VDD DB[2] sky130_fd_sc_hd__inv_2
+x6 DB[2] GND GND VDD VDD D[2] sky130_fd_sc_hd__inv_2
+x7 DIN3 GND GND VDD VDD DB[3] sky130_fd_sc_hd__inv_2
+x8 DB[3] GND GND VDD VDD D[3] sky130_fd_sc_hd__inv_2
+x9 DIN4 GND GND VDD VDD DB[4] sky130_fd_sc_hd__inv_2
+x10 DB[4] GND GND VDD VDD D[4] sky130_fd_sc_hd__inv_2
+x11 DIN5 GND GND VDD VDD DB[5] sky130_fd_sc_hd__inv_2
+x12 DB[5] GND GND VDD VDD D[5] sky130_fd_sc_hd__inv_2
+x13 DIN6 GND GND VDD VDD DB[6] sky130_fd_sc_hd__inv_2
+x14 DB[6] GND GND VDD VDD D[6] sky130_fd_sc_hd__inv_2
+x15 DIN7 GND GND VDD VDD DB[7] sky130_fd_sc_hd__inv_2
+x16 DB[7] GND GND VDD VDD D[7] sky130_fd_sc_hd__inv_2
+x17 DIN8 GND GND VDD VDD DB[8] sky130_fd_sc_hd__inv_2
+x18 DB[8] GND GND VDD VDD D[8] sky130_fd_sc_hd__inv_2
+x19 DIN9 GND GND VDD VDD DB[9] sky130_fd_sc_hd__inv_2
+x20 DB[9] GND GND VDD VDD D[9] sky130_fd_sc_hd__inv_2
+.ends
+
+
+* expanding   symbol:  logic_shift_seg2.sym # of pins=6
+** sym_path: /home/yohanes/10-bit-DAC/xschem/logic_shift_seg2.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/logic_shift_seg2.sch
+.subckt logic_shift_seg2 b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] BS[8] BS[9] BSB[8] BSB[9] VDD GND
+*.PININFO b[6:9]:I BS[8:9]:O GND:I VDD:I bb[6:8]:I BSB[8:9]:O
+x1 b[9] b[8] GND GND VDD VDD n1 sky130_fd_sc_hd__nand2_1
+x2 b[7] b[9] GND GND VDD VDD n2 sky130_fd_sc_hd__nand2_1
+x3 b[6] b[9] GND GND VDD VDD n3 sky130_fd_sc_hd__nand2_1
+x5 bb[6] bb[7] bb[8] GND GND VDD VDD n6 sky130_fd_sc_hd__nand3_1
+x4 n1 n3 n2 GND GND VDD VDD BS[9] sky130_fd_sc_hd__nand3_1
+x6 b[6] b[8] GND GND VDD VDD n4 sky130_fd_sc_hd__nand2_1
+x7 b[8] b[7] GND GND VDD VDD n5 sky130_fd_sc_hd__nand2_1
+x8 n6 n5 n4 GND GND VDD VDD BS[8] sky130_fd_sc_hd__nand3_1
+x9 BS[9] GND GND VDD VDD BSB[9] sky130_fd_sc_hd__inv_1
+x10 BS[8] GND GND VDD VDD BSB[8] sky130_fd_sc_hd__inv_1
+.ends
+
+
+* expanding   symbol:  vselector_6b_1v_stage_1.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/vselector_6b_1v_stage_1.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/vselector_6b_1v_stage_1.sch
+.subckt vselector_6b_1v_stage_1 vin[0] vin[1] vin[2] vin[3] vin[4] vin[5] vin[6] vin[7] vin[8] vin[9] vin[10] vin[11] vin[12]
++ vin[13] vin[14] vin[15] vin[16] vin[17] vin[18] vin[19] vin[20] vin[21] vin[22] vin[23] vin[24] vin[25] vin[26] vin[27] vin[28] vin[29]
++ vin[30] vin[31] vin[32] vin[33] vin[34] vin[35] vin[36] vin[37] vin[38] vin[39] vin[40] vin[41] vin[42] vin[43] vin[44] vin[45] vin[46]
++ vin[47] vin[48] vin[49] vin[50] vin[51] vin[52] vin[53] vin[54] vin[55] vin[56] vin[57] vin[58] vin[59] vin[60] vin[61] vin[62] vin[63]
++ dec[0] dec[1] dec[2] dec[3] vout[0] vout[1] vout[2] vout[3] vout[4] vout[5] vout[6] vout[7] vout[8] vout[9] vout[10] vout[11] vout[12]
++ vout[13] vout[14] vout[15] VNB
+*.PININFO vin[0:63]:I vout[0:15]:O VNB:I dec[0:3]:I
+x1 vin[48] vin[49] vin[50] vin[51] vin[52] vin[53] vin[54] vin[55] vin[56] vin[57] vin[58] vin[59] vin[60] vin[61] vin[62] vin[63]
++ dec[3] vout[0] vout[1] vout[2] vout[3] vout[4] vout[5] vout[6] vout[7] vout[8] vout[9] vout[10] vout[11] vout[12] vout[13] vout[14]
++ vout[15] VNB vselector_16b_1v
+x2 vin[32] vin[33] vin[34] vin[35] vin[36] vin[37] vin[38] vin[39] vin[40] vin[41] vin[42] vin[43] vin[44] vin[45] vin[46] vin[47]
++ dec[2] vout[0] vout[1] vout[2] vout[3] vout[4] vout[5] vout[6] vout[7] vout[8] vout[9] vout[10] vout[11] vout[12] vout[13] vout[14]
++ vout[15] VNB vselector_16b_1v
+x3 vin[16] vin[17] vin[18] vin[19] vin[20] vin[21] vin[22] vin[23] vin[24] vin[25] vin[26] vin[27] vin[28] vin[29] vin[30] vin[31]
++ dec[1] vout[0] vout[1] vout[2] vout[3] vout[4] vout[5] vout[6] vout[7] vout[8] vout[9] vout[10] vout[11] vout[12] vout[13] vout[14]
++ vout[15] VNB vselector_16b_1v
+x4 vin[0] vin[1] vin[2] vin[3] vin[4] vin[5] vin[6] vin[7] vin[8] vin[9] vin[10] vin[11] vin[12] vin[13] vin[14] vin[15] dec[0]
++ vout[0] vout[1] vout[2] vout[3] vout[4] vout[5] vout[6] vout[7] vout[8] vout[9] vout[10] vout[11] vout[12] vout[13] vout[14] vout[15] VNB
++ vselector_16b_1v
+.ends
+
+
+* expanding   symbol:  switch_nmos_1g_8o.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/switch_nmos_1g_8o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_nmos_1g_8o.sch
+.subckt switch_nmos_1g_8o vin[0] vin[1] vin[2] vin[3] vin[4] vin[5] vin[6] vin[7] DIN vout[0] vout[1] vout[2] vout[3] vout[4]
++ vout[5] vout[6] vout[7] VNB
+*.PININFO vin[0:7]:I vout[0:7]:O VNB:I DIN:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vin[0] DIN vout[0] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM2 vin[1] DIN vout[1] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM3 vin[2] DIN vout[2] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM4 vin[3] DIN vout[3] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM5 vin[4] DIN vout[4] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM6 vin[5] DIN vout[5] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM7 vin[6] DIN vout[6] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM8 vin[7] DIN vout[7] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+.ends
+
+
+* expanding   symbol:  switch_nmos_1g_4o.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/switch_nmos_1g_4o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_nmos_1g_4o.sch
+.subckt switch_nmos_1g_4o vin[0] vin[1] vin[2] vin[3] DIN vout[0] vout[1] vout[2] vout[3] VNB
+*.PININFO vin[0:3]:I vout[0:3]:O VNB:I DIN:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vin[0] DIN vout[0] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM2 vin[1] DIN vout[1] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM3 vin[2] DIN vout[2] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM4 vin[3] DIN vout[3] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+.ends
+
+
+* expanding   symbol:  switch_nmos_1g_2o.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/switch_nmos_1g_2o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_nmos_1g_2o.sch
+.subckt switch_nmos_1g_2o vin[0] vin[1] DIN vout[0] vout[1] VNB
+*.PININFO vin[0:1]:I vout[0:1]:O VNB:I DIN:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vin[0] DIN vout[0] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM2 vin[1] DIN vout[1] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+.ends
+
+
+* expanding   symbol:  switch_nmos_2g_2o.sym # of pins=6
+** sym_path: /home/yohanes/10-bit-DAC/xschem/switch_nmos_2g_2o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_nmos_2g_2o.sch
+.subckt switch_nmos_2g_2o vin[0] vin[1] DIN DINB VH VL VNB
+*.PININFO vin[0:1]:I VH:O VNB:I DIN:I VL:O DINB:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vin[0] DINB VL VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM2 vin[1] DIN VH VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+.ends
+
+
+* expanding   symbol:  vselector_6b_2v_stage_1.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/vselector_6b_2v_stage_1.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/vselector_6b_2v_stage_1.sch
+.subckt vselector_6b_2v_stage_1 vin[0] vin[1] vin[2] vin[3] vin[4] vin[5] vin[6] vin[7] vin[8] vin[9] vin[10] vin[11] vin[12]
++ vin[13] vin[14] vin[15] vin[16] vin[17] vin[18] vin[19] vin[20] vin[21] vin[22] vin[23] vin[24] vin[25] vin[26] vin[27] vin[28] vin[29]
++ vin[30] vin[31] vin[32] vin[33] vin[34] vin[35] vin[36] vin[37] vin[38] vin[39] vin[40] vin[41] vin[42] vin[43] vin[44] vin[45] vin[46]
++ vin[47] vin[48] dec[0] dec[1] dec[2] vout[0] vout[1] vout[2] vout[3] vout[4] vout[5] vout[6] vout[7] vout[8] vout[9] vout[10] vout[11]
++ vout[12] vout[13] vout[14] vout[15] vout[16] VNB
+*.PININFO vin[0:48]:I vout[0:16]:O VNB:I dec[0:2]:I
+x1 vin[0] vin[1] vin[2] vin[3] vin[4] vin[5] vin[6] vin[7] vin[8] vin[9] vin[10] vin[11] vin[12] vin[13] vin[14] vin[15] vin[16]
++ dec[0] vout[0] vout[1] vout[2] vout[3] vout[4] vout[5] vout[6] vout[7] vout[8] vout[9] vout[10] vout[11] vout[12] vout[13] vout[14]
++ vout[15] vout[16] VNB vselector_16b
+x2 vin[16] vin[17] vin[18] vin[19] vin[20] vin[21] vin[22] vin[23] vin[24] vin[25] vin[26] vin[27] vin[28] vin[29] vin[30] vin[31]
++ vin[32] dec[1] vout[0] vout[1] vout[2] vout[3] vout[4] vout[5] vout[6] vout[7] vout[8] vout[9] vout[10] vout[11] vout[12] vout[13]
++ vout[14] vout[15] vout[16] VNB vselector_16b
+x3 vin[32] vin[33] vin[34] vin[35] vin[36] vin[37] vin[38] vin[39] vin[40] vin[41] vin[42] vin[43] vin[44] vin[45] vin[46] vin[47]
++ vin[48] dec[2] vout[0] vout[1] vout[2] vout[3] vout[4] vout[5] vout[6] vout[7] vout[8] vout[9] vout[10] vout[11] vout[12] vout[13]
++ vout[14] vout[15] vout[16] VNB vselector_16b
+.ends
+
+
+* expanding   symbol:  vselector_6b_2v_stage_2.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/vselector_6b_2v_stage_2.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/vselector_6b_2v_stage_2.sch
+.subckt vselector_6b_2v_stage_2 vin[0] vin[1] vin[2] vin[3] vin[4] vin[5] vin[6] vin[7] vin[8] vin[9] vin[10] vin[11] vin[12]
++ vin[13] vin[14] vin[15] vin[16] dec[0] dec[1] dec[2] dec[3] vout[0] vout[1] vout[2] vout[3] vout[4] VNB
+*.PININFO vin[0:16]:I vout[0:4]:O VNB:I dec[0:3]:I
+x1 vin[0] vin[1] vin[2] vin[3] vin[4] dec[0] vout[0] vout[1] vout[2] vout[3] vout[4] VNB vselector_4b
+x2 vin[4] vin[5] vin[6] vin[7] vin[8] dec[1] vout[0] vout[1] vout[2] vout[3] vout[4] VNB vselector_4b
+x3 vin[8] vin[9] vin[10] vin[11] vin[12] dec[2] vout[0] vout[1] vout[2] vout[3] vout[4] VNB vselector_4b
+x4 vin[12] vin[13] vin[14] vin[15] vin[16] dec[3] vout[0] vout[1] vout[2] vout[3] vout[4] VNB vselector_4b
+.ends
+
+
+* expanding   symbol:  vselector_6b_2v_stage_3.sym # of pins=5
+** sym_path: /home/yohanes/10-bit-DAC/xschem/vselector_6b_2v_stage_3.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/vselector_6b_2v_stage_3.sch
+.subckt vselector_6b_2v_stage_3 vin[0] vin[1] vin[2] vin[3] vin[4] dec[0] dec[1] dec[2] dec[3] VH VL VNB
+*.PININFO vin[0:4]:I VH:O VNB:I dec[0:3]:I VL:O
+x1 vin[0] vin[1] dec[0] VH VL VNB vselector_1b
+x2 vin[1] vin[2] dec[1] VH VL VNB vselector_1b
+x3 vin[2] vin[3] dec[2] VH VL VNB vselector_1b
+x4 vin[3] vin[4] dec[3] VH VL VNB vselector_1b
+.ends
+
+
+* expanding   symbol:  switch_pmos_1g_9o.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_9o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_9o.sch
+.subckt switch_pmos_1g_9o vin[0] vin[1] vin[2] vin[3] vin[4] vin[5] vin[6] vin[7] vin[8] DIN vout[0] vout[1] vout[2] vout[3]
++ vout[4] vout[5] vout[6] vout[7] vout[8] VPB
+*.PININFO vin[0:8]:I vout[0:8]:O VPB:I DIN:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vout[0] DIN vin[0] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM2 vout[1] DIN vin[1] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM3 vout[2] DIN vin[2] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM4 vout[3] DIN vin[3] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM5 vout[4] DIN vin[4] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM6 vout[5] DIN vin[5] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM7 vout[6] DIN vin[6] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM8 vout[7] DIN vin[7] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM9 vout[8] DIN vin[8] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+.ends
+
+
+* expanding   symbol:  switch_pmos_1g_5o.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_5o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_5o.sch
+.subckt switch_pmos_1g_5o vin[0] vin[1] vin[2] vin[3] vin[4] DIN vout[0] vout[1] vout[2] vout[3] vout[4] VPB
+*.PININFO vin[0:4]:I vout[0:4]:O VPB:I DIN:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vout[0] DIN vin[0] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM2 vout[1] DIN vin[1] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM3 vout[2] DIN vin[2] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM4 vout[3] DIN vin[3] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM5 vout[4] DIN vin[4] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+.ends
+
+
+* expanding   symbol:  switch_pmos_1g_3o.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_3o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_3o.sch
+.subckt switch_pmos_1g_3o vin[0] vin[1] vin[2] DIN vout[0] vout[1] vout[2] VPB
+*.PININFO vin[0:2]:I vout[0:2]:O VPB:I DIN:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vout[0] DIN vin[0] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM2 vout[1] DIN vin[1] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM3 vout[2] DIN vin[2] VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+.ends
+
+
+* expanding   symbol:  switch_pmos_1g_2o.sym # of pins=5
+** sym_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_2o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_2o.sch
+.subckt switch_pmos_1g_2o vin0 vin1 DIN VH VL VPB
+*.PININFO vin[0..1]:I VH:O VPB:I DIN:I VL:O
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 VL DIN vin0 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM2 VH DIN vin1 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+.ends
+
+
+* expanding   symbol:  vselector_6b_1v_stage_1_pmos.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/vselector_6b_1v_stage_1_pmos.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/vselector_6b_1v_stage_1_pmos.sch
+.subckt vselector_6b_1v_stage_1_pmos vin0 vin1 vin2 vin3 vin4 vin5 vin6 vin7 vin8 vin9 vin10 vin11 vin12 vin13 vin14 vin15 vin16
++ vin17 vin18 vin19 vin20 vin21 vin22 vin23 vin24 vin25 vin26 vin27 vin28 vin29 vin30 vin31 vin32 vin33 vin34 vin35 vin36 vin37 vin38
++ vin39 vin40 vin41 vin42 vin43 vin44 vin45 vin46 vin47 vin48 vin49 vin50 vin51 vin52 vin53 vin54 vin55 vin56 vin57 vin58 vin59 vin60
++ vin61 vin62 vin63 dec0 dec1 dec2 dec3 vout0 vout1 vout2 vout3 vout4 vout5 vout6 vout7 vout8 vout9 vout10 vout11 vout12 vout13 vout14
++ vout15 VPB
+*.PININFO vin[0..63]:I vout[0..15]:O VPB:I dec[0..3]:I
+x1 vin0 vin1 vin2 vin3 vin4 vin5 vin6 vin7 vin8 vin9 vin10 vin11 vin12 vin13 vin14 vin15 dec0 vout0 vout1 vout2 vout3 vout4 vout5
++ vout6 vout7 vout8 vout9 vout10 vout11 vout12 vout13 vout14 vout15 VPB vselector_16b_1v_pmos
+x2 vin16 vin17 vin18 vin19 vin20 vin21 vin22 vin23 vin24 vin25 vin26 vin27 vin28 vin29 vin30 vin31 dec1 vout0 vout1 vout2 vout3
++ vout4 vout5 vout6 vout7 vout8 vout9 vout10 vout11 vout12 vout13 vout14 vout15 VPB vselector_16b_1v_pmos
+x3 vin32 vin33 vin34 vin35 vin36 vin37 vin38 vin39 vin40 vin41 vin42 vin43 vin44 vin45 vin46 vin47 dec2 vout0 vout1 vout2 vout3
++ vout4 vout5 vout6 vout7 vout8 vout9 vout10 vout11 vout12 vout13 vout14 vout15 VPB vselector_16b_1v_pmos
+x4 vin48 vin49 vin50 vin51 vin52 vin53 vin54 vin55 vin56 vin57 vin58 vin59 vin60 vin61 vin62 vin63 dec3 vout0 vout1 vout2 vout3
++ vout4 vout5 vout6 vout7 vout8 vout9 vout10 vout11 vout12 vout13 vout14 vout15 VPB vselector_16b_1v_pmos
+.ends
+
+
+* expanding   symbol:  switch_pmos_1g_8o.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_8o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_8o.sch
+.subckt switch_pmos_1g_8o vin0 vin1 vin2 vin3 vin4 vin5 vin6 vin7 DIN vout0 vout1 vout2 vout3 vout4 vout5 vout6 vout7 VPB
+*.PININFO vin[0..7]:I vout[0..7]:O VPB:I DIN:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vout0 DIN vin0 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM2 vout1 DIN vin1 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM3 vout2 DIN vin2 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM4 vout3 DIN vin3 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM5 vout4 DIN vin4 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM6 vout5 DIN vin5 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM7 vout6 DIN vin6 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM8 vout7 DIN vin7 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+.ends
+
+
+* expanding   symbol:  switch_pmos_1g_4o.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_4o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_1g_4o.sch
+.subckt switch_pmos_1g_4o vin0 vin1 vin2 vin3 DIN vout0 vout1 vout2 vout3 VPB
+*.PININFO vin[0..3]:I vout[0..3]:O VPB:I DIN:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vout0 DIN vin0 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM2 vout1 DIN vin1 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM3 vout2 DIN vin2 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM4 vout3 DIN vin3 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+.ends
+
+
+* expanding   symbol:  switch_pmos_2g_1o.sym # of pins=5
+** sym_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_2g_1o.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/switch_pmos_2g_1o.sch
+.subckt switch_pmos_2g_1o vin0 vin1 DIN DINB VOUT VPB
+*.PININFO vin[0..1]:I VOUT:O VPB:I DIN:I DINB:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 VOUT DIN vin0 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM2 VOUT DINB vin1 sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+.ends
+
+
+* expanding   symbol:  seg_selector_1_logic.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_1_logic.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_1_logic.sch
+.subckt seg_selector_1_logic bb[6] bb[7] bb[8] bb[9] S VDD GND
+*.PININFO S:O GND:I VDD:I bb[6:9]:I
+x1 bb[7] bb[6] GND GND VDD VDD net2 sky130_fd_sc_hd__nand2_1
+x3 net2 net1 GND GND VDD VDD S sky130_fd_sc_hd__nor2_1
+x2 bb[9] bb[8] GND GND VDD VDD net1 sky130_fd_sc_hd__nand2_1
+.ends
+
+
+* expanding   symbol:  seg_selector_2_logic.sym # of pins=5
+** sym_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_2_logic.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_2_logic.sch
+.subckt seg_selector_2_logic b[6] b[7] b[8] b[9] bb[6] bb[7] bb[8] bb[9] S VDD GND
+*.PININFO b[6:9]:I S:O GND:I VDD:I bb[6:9]:I
+x1 b[6] bb[9] GND GND VDD VDD n1 sky130_fd_sc_hd__nand2_1
+x2 bb[9] b[7] GND GND VDD VDD n2 sky130_fd_sc_hd__nand2_1
+x3 bb[8] b[9] GND GND VDD VDD n3 sky130_fd_sc_hd__nand2_1
+x5 bb[6] bb[7] b[8] GND GND VDD VDD n4 sky130_fd_sc_hd__nand3_1
+x4 n3 n2 n1 n4 GND GND VDD VDD S sky130_fd_sc_hd__nand4_1
+.ends
+
+
+* expanding   symbol:  seg_selector_3_logic.sym # of pins=5
+** sym_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_3_logic.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_3_logic.sch
+.subckt seg_selector_3_logic b[6] b[7] b[8] b[9] bb[6] bb[7] S VDD GND
+*.PININFO S:O GND:I VDD:I b[6:9]:I bb[6:7]:I
+x2 b[9] b[8] bb[6] b[7] GND GND VDD VDD net1 sky130_fd_sc_hd__nand4_1
+x1 bb[7] b[6] b[8] b[9] GND GND VDD VDD net2 sky130_fd_sc_hd__nand4_1
+x3 net1 net2 GND GND VDD VDD S sky130_fd_sc_hd__nand2_1
+.ends
+
+
+* expanding   symbol:  seg_selector_4_logic.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_4_logic.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/seg_selector_4_logic.sch
+.subckt seg_selector_4_logic b[6] b[7] b[8] b[9] S VDD GND
+*.PININFO S:O GND:I VDD:I b[6:9]:I
+x1 b[8] b[9] GND GND VDD VDD net1 sky130_fd_sc_hd__nand2_1
+x2 b[6] b[7] GND GND VDD VDD net2 sky130_fd_sc_hd__nand2_1
+x3 net1 net2 GND GND VDD VDD S sky130_fd_sc_hd__nor2_1
+.ends
+
+
+* expanding   symbol:  pull_up_down_network.sym # of pins=9
+** sym_path: /home/yohanes/10-bit-DAC/xschem/pull_up_down_network.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/pull_up_down_network.sch
+.subckt pull_up_down_network VPBIAS VNBIAS DIN V[0] V[1] V[2] VOUT VDDH GND VPB VNB
+*.PININFO VPBIAS:I VNBIAS:I DIN:I V[0:2]:I VOUT:O VDDH:I GND:I VPB:I VNB:I
+XM1 net2 VPBIAS VDDH VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+.param wp=0.84 wn=1 l=1
+
+XM2 net3 V[0] net2 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM3 net4 V[1] net3 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM4 VOUT V[2] net4 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM5 VOUT VNBIAS net1 VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM6 net1 DIN GND VNB sky130_fd_pr__nfet_01v8 L=0.15 W=2 nf=1 m=1
+.ends
+
+
+* expanding   symbol:  vselector_16b_1v.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/vselector_16b_1v.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/vselector_16b_1v.sch
+.subckt vselector_16b_1v vin[0] vin[1] vin[2] vin[3] vin[4] vin[5] vin[6] vin[7] vin[8] vin[9] vin[10] vin[11] vin[12] vin[13]
++ vin[14] vin[15] DIN vout[0] vout[1] vout[2] vout[3] vout[4] vout[5] vout[6] vout[7] vout[8] vout[9] vout[10] vout[11] vout[12] vout[13]
++ vout[14] vout[15] VNB
+*.PININFO vin[0:15]:I vout[0:15]:O VNB:I DIN:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vout[0] DIN vin[0] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM2 vout[1] DIN vin[1] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM3 vout[2] DIN vin[2] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM4 vout[3] DIN vin[3] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM5 vout[4] DIN vin[4] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM6 vout[5] DIN vin[5] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM7 vout[6] DIN vin[6] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM8 vout[7] DIN vin[7] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM9 vout[8] DIN vin[8] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM10 vout[9] DIN vin[9] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM11 vout[10] DIN vin[10] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM12 vout[11] DIN vin[11] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM13 vout[12] DIN vin[12] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM14 vout[13] DIN vin[13] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM15 vout[14] DIN vin[14] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM16 vout[15] DIN vin[15] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+.ends
+
+
+* expanding   symbol:  vselector_16b.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/vselector_16b.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/vselector_16b.sch
+.subckt vselector_16b vin[0] vin[1] vin[2] vin[3] vin[4] vin[5] vin[6] vin[7] vin[8] vin[9] vin[10] vin[11] vin[12] vin[13]
++ vin[14] vin[15] vin[16] DIN vout[0] vout[1] vout[2] vout[3] vout[4] vout[5] vout[6] vout[7] vout[8] vout[9] vout[10] vout[11] vout[12]
++ vout[13] vout[14] vout[15] vout[16] VNB
+*.PININFO vin[0:16]:I vout[0:16]:O VNB:I DIN:I
+XM1 vout[0] DIN vin[0] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM2 vout[1] DIN vin[1] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM3 vout[2] DIN vin[2] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM4 vout[3] DIN vin[3] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM5 vout[4] DIN vin[4] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM6 vout[5] DIN vin[5] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM7 vout[6] DIN vin[6] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM8 vout[7] DIN vin[7] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM9 vout[8] DIN vin[8] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM10 vout[9] DIN vin[9] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM11 vout[10] DIN vin[10] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM12 vout[11] DIN vin[11] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM13 vout[12] DIN vin[12] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM14 vout[13] DIN vin[13] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM15 vout[14] DIN vin[14] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM16 vout[15] DIN vin[15] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM17 vout[16] DIN vin[16] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+.ends
+
+
+* expanding   symbol:  vselector_4b.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/vselector_4b.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/vselector_4b.sch
+.subckt vselector_4b vin[0] vin[1] vin[2] vin[3] vin[4] DIN vout[0] vout[1] vout[2] vout[3] vout[4] VNB
+*.PININFO vin[0:4]:I vout[0:4]:O VNB:I DIN:I
+XM1 vout[0] DIN vin[0] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM2 vout[1] DIN vin[1] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM3 vout[2] DIN vin[2] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM4 vout[3] DIN vin[3] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM5 vout[4] DIN vin[4] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+.ends
+
+
+* expanding   symbol:  vselector_1b.sym # of pins=5
+** sym_path: /home/yohanes/10-bit-DAC/xschem/vselector_1b.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/vselector_1b.sch
+.subckt vselector_1b vin[0] vin[1] DIN VH VL VNB
+*.PININFO vin[0:1]:I VL:O VNB:I DIN:I VH:O
+XM1 VL DIN vin[0] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+XM2 VH DIN vin[1] VNB sky130_fd_pr__nfet_g5v0d10v5 L=l W=wn nf=1 m=1
+.ends
+
+
+* expanding   symbol:  vselector_16b_1v_pmos.sym # of pins=4
+** sym_path: /home/yohanes/10-bit-DAC/xschem/vselector_16b_1v_pmos.sym
+** sch_path: /home/yohanes/10-bit-DAC/xschem/vselector_16b_1v_pmos.sch
+.subckt vselector_16b_1v_pmos vin0 vin1 vin2 vin3 vin4 vin5 vin6 vin7 vin8 vin9 vin10 vin11 vin12 vin13 vin14 vin15 DIN vout0
++ vout1 vout2 vout3 vout4 vout5 vout6 vout7 vout8 vout9 vout10 vout11 vout12 vout13 vout14 vout15 VPB
+*.PININFO vin[0..15]:I vout[0..15]:O VPB:I DIN:I
+.param wp=0.42 wn=0.42 l=0.5
+
+XM1 vout0 DIN vin0 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM2 vout1 DIN vin1 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM3 vout2 DIN vin2 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM4 vout3 DIN vin3 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM5 vout4 DIN vin4 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM6 vout5 DIN vin5 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM7 vout6 DIN vin6 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM8 vout7 DIN vin7 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM9 vout8 DIN vin8 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM10 vout9 DIN vin9 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM11 vout10 DIN vin10 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM12 vout11 DIN vin11 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM13 vout12 DIN vin12 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM14 vout13 DIN vin13 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM15 vout14 DIN vin14 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+XM16 vout15 DIN vin15 VPB sky130_fd_pr__pfet_g5v0d10v5 L=l W=wp nf=1 m=1
+.ends
+

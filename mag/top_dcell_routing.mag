@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1750900893
+timestamp 1751042016
 << metal1 >>
 rect 40745 21212 40805 21218
 rect 40481 20870 40541 20876
@@ -378,10 +378,10 @@ rect 41069 7243 41075 7303
 rect 41135 7243 41184 7303
 rect 40981 6253 40987 6313
 rect 41047 6253 41190 6313
-use top_dcell_bias  top_dcell_bias_0 ~/10-bit-DAC/mag
-timestamp 1750867770
+use top_dcell_bias  top_dcell_bias_0
+timestamp 1751030423
 transform 1 0 36407 0 1 18556
-box -1184 -17354 10424 4891
+box -1184 -17354 10416 4891
 << labels >>
 flabel space 41553 10066 41553 10066 0 FreeSans 4800 0 0 0 b[0]
 flabel space 41488 11133 41488 11133 0 FreeSans 4800 0 0 0 b[1]

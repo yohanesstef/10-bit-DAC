@@ -1,0 +1,138 @@
+timestamp 1751047215
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use interpolation_s3_v2 interpolation_s3_v2_0 1 0 -14621 0 1 -13729
+use interpolation_s2_v2 interpolation_s2_v2_0 1 0 -14880 0 1 -13729
+node "m2_288_144#" 2 132.689 288 144 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17520 1228 0 0 0 0 0 0 0 0
+node "m2_130_202#" 4 119.283 130 202 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27000 1860 0 0 0 0 0 0 0 0
+node "m2_282_393#" 2 42.3304 282 393 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17880 1252 0 0 0 0 0 0 0 0
+node "m2_130_451#" 4 73.0649 130 451 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27000 1860 0 0 0 0 0 0 0 0
+node "m2_282_642#" 2 42.3304 282 642 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17880 1252 0 0 0 0 0 0 0 0
+node "m2_130_700#" 4 73.789 130 700 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27000 1860 0 0 0 0 0 0 0 0
+node "m2_282_891#" 2 42.3304 282 891 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17880 1252 0 0 0 0 0 0 0 0
+node "m2_130_949#" 4 208.71 130 949 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26850 1850 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m2_130_202#" "m2_282_393#" 134.842
+cap "m2_130_700#" "m2_282_642#" 338.636
+cap "m2_282_393#" "m2_130_451#" 338.636
+cap "m2_282_642#" "m2_130_451#" 134.842
+cap "m2_130_700#" "m2_282_891#" 134.842
+cap "m2_130_700#" "m2_130_451#" 54.4803
+cap "m2_130_202#" "m2_130_451#" 54.4803
+cap "m2_130_700#" "m2_130_949#" 53.5842
+cap "m2_130_202#" "m2_288_144#" 331.818
+cap "m2_130_949#" "m2_282_891#" 338.636
+cap "interpolation_s2_v2_0/li_14740_13627#" "interpolation_s3_v2_0/w_15213_13557#" 37.0083
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_2/a_n29_n73#" "interpolation_s2_v2_0/m1_14952_14395#" 3.9445
+cap "interpolation_s2_v2_0/m1_15110_14094#" "interpolation_s2_v2_0/m1_14952_13900#" 41.6858
+cap "interpolation_s2_v2_0/m1_15110_14094#" "interpolation_s2_v2_0/m1_14952_14149#" 82.6287
+cap "interpolation_s2_v2_0/m1_15110_13845#" "interpolation_s3_v2_0/li_15291_13635#" 9.5569
+cap "interpolation_s2_v2_0/m1_14952_13900#" "interpolation_s3_v2_0/w_15213_13557#" 15.7247
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/a_14728_13615#" 3.93107
+cap "interpolation_s3_v2_0/w_15213_13557#" "interpolation_s2_v2_0/m1_14952_14149#" 14.1551
+cap "interpolation_s2_v2_0/m1_15110_13845#" "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" 26.0642
+cap "interpolation_s2_v2_0/a_14728_13615#" "interpolation_s2_v2_0/m1_14952_14395#" 0.974174
+cap "interpolation_s2_v2_0/a_14728_13615#" "interpolation_s2_v2_0/m1_15110_14343#" 1.13301
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_n29_171#" "interpolation_s2_v2_0/m1_14952_14395#" 3.9445
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_n29_n327#" "interpolation_s2_v2_0/m1_14952_13900#" 3.9445
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_n29_171#" 0.00584893
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_15110_14343#" 7.40704
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_14952_14395#" 14.0771
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" 4.93471
+cap "interpolation_s2_v2_0/m1_15110_14343#" "interpolation_s2_v2_0/m1_14952_14395#" 82.6287
+cap "interpolation_s2_v2_0/li_14740_13627#" "interpolation_s2_v2_0/m1_14952_13900#" 8.97934
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" "interpolation_s2_v2_0/m1_15110_14343#" 33.3318
+cap "interpolation_s2_v2_0/li_14740_13627#" "interpolation_s2_v2_0/m1_14952_14149#" 7.99715
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" "interpolation_s2_v2_0/m1_14952_14395#" 36.4446
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_n29_n73#" "interpolation_s2_v2_0/m1_14952_13900#" 3.9445
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_129_n327#" "interpolation_s2_v2_0/m1_15110_13845#" 26.0483
+cap "interpolation_s2_v2_0/m1_14952_13900#" "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_n29_n78#" 8.22737
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_n29_n78#" "interpolation_s2_v2_0/m1_14952_14149#" 3.9445
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_129_n327#" "interpolation_s2_v2_0/a_14728_13615#" 2.98069
+cap "interpolation_s2_v2_0/m1_15110_13845#" "interpolation_s2_v2_0/m1_15110_14094#" -25.9571
+cap "interpolation_s2_v2_0/a_14728_13615#" "interpolation_s2_v2_0/m1_14952_14644#" 0.482691
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_n29_171#" "interpolation_s2_v2_0/m1_14952_14644#" 0.114702
+cap "interpolation_s2_v2_0/m1_15110_13845#" "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_n187_n73#" 0.00642981
+cap "interpolation_s2_v2_0/m1_14952_13900#" "interpolation_s2_v2_0/m1_14952_14149#" -18.0412
+cap "interpolation_s2_v2_0/a_14728_13615#" "interpolation_s2_v2_0/m1_15110_14592#" 0.772375
+cap "interpolation_s2_v2_0/m1_15110_14094#" "interpolation_s2_v2_0/a_14728_13615#" 0.913325
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_14952_14644#" 3.77201
+cap "interpolation_s2_v2_0/m1_15110_13845#" "interpolation_s3_v2_0/w_15213_13557#" 18.5724
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_15110_14592#" 5.05954
+cap "interpolation_s2_v2_0/m1_15110_14343#" "interpolation_s2_v2_0/m1_14952_14644#" 0.501227
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_129_n327#" "interpolation_s2_v2_0/m1_14952_14395#" 1.25685
+cap "interpolation_s2_v2_0/m1_14952_14395#" "interpolation_s2_v2_0/m1_14952_14644#" -9.00303
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_129_n327#" "interpolation_s2_v2_0/m1_15110_14343#" 9.94661
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_15110_14094#" 6.63466
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_129_n327#" "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" 54.0357
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" "interpolation_s2_v2_0/m1_14952_14644#" 1.25685
+cap "interpolation_s2_v2_0/m1_15110_14343#" "interpolation_s2_v2_0/m1_15110_14592#" -12.8347
+cap "interpolation_s2_v2_0/m1_14952_14395#" "interpolation_s2_v2_0/m1_15110_14592#" 20.8641
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_3/a_n29_n73#" "interpolation_s2_v2_0/m1_14952_14395#" 8.22737
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_n187_n327#" 0.0037285
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" "interpolation_s2_v2_0/m1_15110_14592#" 9.89689
+cap "interpolation_s2_v2_0/m1_15110_14094#" "interpolation_s2_v2_0/m1_15110_14343#" -25.9571
+cap "interpolation_s2_v2_0/m1_15110_14094#" "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" 27.0407
+cap "interpolation_s2_v2_0/m1_15110_14343#" "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_n187_n73#" 0.00642981
+cap "interpolation_s2_v2_0/m1_15110_14343#" "interpolation_s3_v2_0/w_15213_13557#" 12.6408
+cap "interpolation_s2_v2_0/m1_15110_13845#" "interpolation_s2_v2_0/li_14740_13627#" 9.61415
+cap "interpolation_s2_v2_0/m1_14952_14395#" "interpolation_s3_v2_0/w_15213_13557#" 16.5168
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" "interpolation_s3_v2_0/w_15213_13557#" 33.259
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_2/a_n29_n73#" "interpolation_s2_v2_0/m1_14952_14149#" 8.22737
+cap "interpolation_s2_v2_0/li_14740_13627#" "interpolation_s2_v2_0/a_14728_13615#" 2.13163e-14
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_129_n327#" "interpolation_s2_v2_0/m1_14952_14644#" 0.139637
+cap "interpolation_s2_v2_0/m1_15110_13845#" "interpolation_s2_v2_0/m1_14952_13900#" 89.4469
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/li_14740_13627#" 109.625
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_129_n327#" "interpolation_s2_v2_0/m1_15110_14592#" 0.194437
+cap "interpolation_s2_v2_0/m1_14952_14644#" "interpolation_s2_v2_0/m1_15110_14592#" 40.2064
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_3/a_n29_n73#" "interpolation_s2_v2_0/m1_14952_14644#" 3.9445
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_129_n327#" "interpolation_s2_v2_0/m1_15110_14094#" 27.0248
+cap "interpolation_s2_v2_0/a_14728_13615#" "interpolation_s2_v2_0/m1_14952_13900#" 1.31834
+cap "interpolation_s2_v2_0/a_14728_13615#" "interpolation_s2_v2_0/m1_14952_14149#" 0.921653
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_n29_171#" "interpolation_s2_v2_0/m1_14952_14149#" 8.22737
+cap "interpolation_s2_v2_0/li_14740_13627#" "interpolation_s2_v2_0/m1_14952_14395#" 8.2257
+cap "interpolation_s2_v2_0/li_14740_13627#" "interpolation_s2_v2_0/m1_15110_14343#" 6.80275
+cap "interpolation_s2_v2_0/m1_14952_14644#" "interpolation_s3_v2_0/w_15213_13557#" 2.94671
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_1/a_n29_n73#" "interpolation_s2_v2_0/m1_14952_13900#" 8.22737
+cap "interpolation_s2_v2_0/m1_15110_14094#" "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_n187_n73#" 0.00642981
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_1/a_n29_n73#" "interpolation_s2_v2_0/m1_14952_14149#" 3.9445
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_14952_13900#" 8.31947
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_14952_14149#" 7.46927
+cap "interpolation_s3_v2_0/w_15213_13557#" "interpolation_s2_v2_0/m1_15110_14592#" 7.87237
+cap "interpolation_s2_v2_0/m1_15110_14094#" "interpolation_s3_v2_0/w_15213_13557#" 11.7805
+cap "interpolation_s2_v2_0/m1_15110_14343#" "interpolation_s2_v2_0/m1_14952_14149#" 41.6858
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" "interpolation_s2_v2_0/m1_14952_13900#" 32.8793
+cap "interpolation_s2_v2_0/m1_14952_14395#" "interpolation_s2_v2_0/m1_14952_14149#" -18.0412
+cap "interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" "interpolation_s2_v2_0/m1_14952_14149#" 32.8793
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_129_n327#" "interpolation_s2_v2_0/li_14740_13627#" 3.07754
+cap "interpolation_s2_v2_0/li_14740_13627#" "interpolation_s2_v2_0/m1_14952_14644#" 15.721
+cap "interpolation_s2_v2_0/li_14740_13627#" "interpolation_s2_v2_0/m1_15110_14592#" 7.89266
+cap "interpolation_s2_v2_0/m1_15110_14094#" "interpolation_s2_v2_0/li_14740_13627#" 6.53237
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_129_n327#" "interpolation_s2_v2_0/m1_14952_13900#" 32.8793
+cap "interpolation_s2_v2_0/m1_15110_13845#" "interpolation_s2_v2_0/a_14728_13615#" 2.09087
+cap "interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_129_n327#" "interpolation_s2_v2_0/m1_14952_14149#" 31.6958
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_15110_13845#" 0.0350908
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_15110_14094#" 0.0350908
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_14952_13900#" 0.75466
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_14952_14395#" 0.848702
+cap "interpolation_s3_v2_0/li_15291_13635#" "interpolation_s2_v2_0/m1_14952_14149#" 0.75466
+cap "interpolation_s2_v2_0/m1_15110_14343#" "interpolation_s3_v2_0/li_15291_13635#" 0.0507646
+merge "interpolation_s2_v2_0/a_14728_13615#" "interpolation_s3_v2_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_s3_v2_0/VSUBS" "VSUBS"
+merge "interpolation_s2_v2_0/m1_14952_13900#" "interpolation_s3_v2_0/m1_15657_13912#" -92.9016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "interpolation_s3_v2_0/m1_15657_13912#" "m2_130_202#"
+merge "interpolation_s2_v2_0/m1_15110_14592#" "m2_282_891#" -37.484 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -180 -72 0 0 0 0 0 0 0 0
+merge "interpolation_s2_v2_0/m1_15110_14343#" "interpolation_s3_v2_0/m1_15499_14343#" -78.084 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -360 -144 0 0 0 0 0 0 0 0
+merge "interpolation_s3_v2_0/m1_15499_14343#" "m2_282_642#"
+merge "interpolation_s2_v2_0/m1_15110_13845#" "interpolation_s3_v2_0/m1_15499_13845#" -69.7729 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "interpolation_s3_v2_0/m1_15499_13845#" "m2_288_144#"
+merge "interpolation_s2_v2_0/m1_14952_14395#" "interpolation_s3_v2_0/m1_15657_14412#" -71.7914 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "interpolation_s3_v2_0/m1_15657_14412#" "m2_130_700#"
+merge "interpolation_s2_v2_0/m1_15110_14094#" "interpolation_s3_v2_0/m1_15499_14094#" -61.4763 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -360 -144 0 0 0 0 0 0 0 0
+merge "interpolation_s3_v2_0/m1_15499_14094#" "m2_282_393#"
+merge "interpolation_s2_v2_0/m1_14952_14644#" "m2_130_949#" -23.7736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -60 0 0 0 0 0 0 0 0
+merge "interpolation_s2_v2_0/m1_14952_14149#" "interpolation_s3_v2_0/m1_15657_14167#" -70.5801 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 0 0 0 0 0 0 0 0
+merge "interpolation_s3_v2_0/m1_15657_14167#" "m2_130_451#"

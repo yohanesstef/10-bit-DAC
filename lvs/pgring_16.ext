@@ -1,4 +1,4 @@
-timestamp 1749421208
+timestamp 1749664768
 version 8.3
 tech sky130A
 style ngspice()
@@ -8,10 +8,4 @@ use pswitch_16_final pswitch_16_final_0 1 0 2216 0 1 526
 node "w_37186_n4181#" 0 0 37186 -4181 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "pswitch_16_final_0/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "pswitch_16_final_0/pswitch_4_stage_3_0/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#"
-merge "pswitch_16_final_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/w_n144_n140#"
-merge "pswitch_16_final_0/hpmos_2_1/hpmos_1_0/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/w_n144_n140#"
-merge "pswitch_16_final_0/hpmos_2_0/hpmos_1_1/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_0/XM1/w_n144_n140#"
-merge "pswitch_16_final_0/hpmos_1_0/XM1/w_n144_n140#" "pswitch_16_final_0/hpmos_1_1/XM1/w_n144_n140#"
-merge "pswitch_16_final_0/hpmos_1_1/XM1/w_n144_n140#" "w_37186_n4181#"
+merge "pswitch_16_final_0/w_34970_n4707#" "w_37186_n4181#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

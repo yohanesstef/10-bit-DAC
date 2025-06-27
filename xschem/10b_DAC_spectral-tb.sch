@@ -52,8 +52,7 @@ color=4
 node=clk}
 N 1070 -240 1070 -220 {lab=LOAD}
 N 970 -240 1010 -240 {lab=VOUT}
-N 810 -80 860 -80 {lab=0}
-N 720 -190 720 -170 {lab=0}
+N 830 -100 880 -100 {lab=0}
 C {devices/code_shown.sym} -380 -520 0 0 {name=s1 only_toplevel=false value="
 .include $THESIS_WS/spice/spectral_tb.sp"}
 C {devices/launcher.sym} 190 -350 0 0 {name=h5
@@ -107,12 +106,10 @@ device=resistor
 m=1}
 C {devices/lab_pin.sym} 1070 -240 0 1 {name=p99 sig_type=std_logic lab=LOAD}
 C {devices/lab_pin.sym} 990 -240 3 1 {name=p8 sig_type=std_logic lab=VOUT}
-C {devices/lab_pin.sym} 720 -190 0 0 {name=p11 sig_type=std_logic lab=0}
-C {devices/lab_pin.sym} 720 -310 0 0 {name=p13 sig_type=std_logic lab=da[0..9]}
-C {devices/lab_pin.sym} 810 -80 0 0 {name=p119 sig_type=std_logic lab=0}
-C {10b_DAC_top.sym} 840 -240 0 0 {name=x1}
-C {devices/lab_pin.sym} 720 -210 2 1 {name=p1 sig_type=std_logic lab=VDDA}
-C {devices/lab_pin.sym} 720 -250 2 1 {name=p14 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 760 -210 0 0 {name=p11 sig_type=std_logic lab=0}
+C {devices/lab_pin.sym} 760 -270 0 0 {name=p13 sig_type=std_logic lab=da[0..9]}
+C {devices/lab_pin.sym} 830 -100 0 0 {name=p119 sig_type=std_logic lab=0}
+C {devices/lab_pin.sym} 760 -250 2 1 {name=p14 sig_type=std_logic lab=VDD}
 C {devices/code_shown.sym} -390 -440 0 0 {name=NGSPICE_SAVE only_toplevel=true 
 value="
 .save VOUT LOAD CLK V(T)
@@ -134,21 +131,20 @@ place=header}
 C {digital_sine_generator.sym} 210 -220 0 0 {name=ADUT model=digital_sine_generator
 
 device_model=".model digital_sine_generator d_cosim simulation=\\"ivlng\\" sim_args=[\\"dsine_gen\\"]"}
-C {devices/lab_pin.sym} 720 -230 2 1 {name=p5 sig_type=std_logic lab=VDDH}
-C {devices/lab_pin.sym} 720 -290 2 1 {name=p6 sig_type=std_logic lab=VLREF}
-C {devices/lab_pin.sym} 720 -270 2 1 {name=p7 sig_type=std_logic lab=VHREF}
+C {devices/lab_pin.sym} 760 -230 2 1 {name=p5 sig_type=std_logic lab=VDDH}
 C {devices/title.sym} 160 -30 0 0 {name=l3 author="Yohanes Stefanus"}
 C {devices/launcher.sym} 370 -350 0 0 {name=h1
 descr="Clear" 
 tclcommand="xschem raw_read $netlist_dir/spectral_tb.raw dc"
 }
-C {devices/res.sym} 810 -110 0 1 {name=R2
+C {devices/res.sym} 830 -130 0 1 {name=R2
 value=1.759MEG
 footprint=1206
 device=resistor
 m=1}
-C {devices/res.sym} 860 -110 0 0 {name=R3
+C {devices/res.sym} 880 -130 0 0 {name=R3
 value=671.63k
 footprint=1206
 device=resistor
 m=1}
+C {DAC_10b_posim_top.sym} 840 -240 0 0 {name=x1}

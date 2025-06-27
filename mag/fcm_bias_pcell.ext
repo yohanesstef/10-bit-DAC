@@ -1,0 +1,47 @@
+timestamp 1750065844
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use fcm_bias_pcell_2 fcm_bias_pcell_2_1 -1 0 953 0 -1 119
+use fcm_bias_pcell_2 fcm_bias_pcell_2_0 1 0 409 0 1 117
+node "VB1" 0 0 400 -987 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_645_0#" 1 99.9879 645 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8640 528 14880 616 0 0 0 0 0 0 0 0
+node "w_155_n1155#" 25810 12715.2 155 -1155 nw 0 0 0 0 2678392 7196 0 0 0 0 0 0 206856 12440 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 218552 12856 218552 12856 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "w_155_n1155#" "m1_645_0#" 105.493
+cap "fcm_bias_pcell_2_0/m1_n9_n29#" "fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_n29_n516#" 184.196
+cap "fcm_bias_pcell_2_1/a_574_33#" "fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_n29_n516#" 0.536228
+cap "fcm_bias_pcell_2_0/m1_n9_n29#" "fcm_bias_pcell_2_0/m1_n198_n29#" 7.04417
+cap "fcm_bias_pcell_2_1/a_574_33#" "fcm_bias_pcell_2_0/m1_n198_n29#" 252.609
+cap "fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_n29_n516#" "fcm_bias_pcell_2_1/a_n90_33#" 0.536228
+cap "fcm_bias_pcell_2_1/a_n90_33#" "fcm_bias_pcell_2_0/m1_n198_n29#" 252.609
+cap "fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_n29_n516#" "fcm_bias_pcell_2_0/m1_n198_n29#" -53.708
+cap "fcm_bias_pcell_2_0/a_n90_33#" "fcm_bias_pcell_2_1/a_574_33#" 15
+cap "fcm_bias_pcell_2_1/a_n90_33#" "fcm_bias_pcell_2_0/a_574_33#" 15
+cap "fcm_bias_pcell_2_0/a_n90_33#" "fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_n29_n516#" 0.536228
+cap "fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_n29_n516#" "fcm_bias_pcell_2_0/a_574_33#" 0.536228
+cap "fcm_bias_pcell_2_0/a_n90_33#" "fcm_bias_pcell_2_0/m1_n198_n29#" 27.0815
+cap "fcm_bias_pcell_2_0/a_574_33#" "fcm_bias_pcell_2_0/m1_n198_n29#" 27.0815
+cap "fcm_bias_pcell_2_1/a_574_33#" "fcm_bias_pcell_2_0/m1_n198_n29#" 0.446563
+cap "fcm_bias_pcell_2_0/a_574_33#" "fcm_bias_pcell_2_0/m1_n198_n29#" 225.974
+cap "fcm_bias_pcell_2_1/a_n90_33#" "fcm_bias_pcell_2_0/m1_n198_n29#" 0.446563
+cap "fcm_bias_pcell_2_0/m1_n9_n29#" "fcm_bias_pcell_2_0/m1_n198_n29#" 23.8504
+cap "fcm_bias_pcell_2_0/m1_n198_n29#" "fcm_bias_pcell_2_0/a_n90_33#" 225.974
+cap "fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_n29_n516#" "fcm_bias_pcell_2_0/m1_n198_n29#" 22.5599
+cap "fcm_bias_pcell_2_0/m1_n9_n29#" "fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_n29_n516#" 0.0625752
+merge "fcm_bias_pcell_2_0/VSUBS" "fcm_bias_pcell_2_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fcm_bias_pcell_2_1/VSUBS" "VSUBS"
+merge "fcm_bias_pcell_2_0/m1_n198_n29#" "fcm_bias_pcell_2_0/li_n175_n29#" -9559.98 0 0 0 0 -1449624 -7072 0 0 0 0 0 0 -214056 -12920 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -222632 -13232 -228152 -13416 0 0 0 0 0 0 0 0 0 0
+merge "fcm_bias_pcell_2_0/li_n175_n29#" "fcm_bias_pcell_2_0/a_n188_n29#"
+merge "fcm_bias_pcell_2_0/a_n188_n29#" "fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/w_n323_n578#"
+merge "fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/w_n323_n578#" "fcm_bias_pcell_2_1/m1_n198_n29#"
+merge "fcm_bias_pcell_2_1/m1_n198_n29#" "fcm_bias_pcell_2_1/li_n175_n29#"
+merge "fcm_bias_pcell_2_1/li_n175_n29#" "fcm_bias_pcell_2_1/a_n188_n29#"
+merge "fcm_bias_pcell_2_1/a_n188_n29#" "fcm_bias_pcell_2_1/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/w_n323_n578#"
+merge "fcm_bias_pcell_2_1/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/w_n323_n578#" "w_155_n1155#"
+merge "fcm_bias_pcell_2_0/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_n29_n516#" "fcm_bias_pcell_2_1/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_n29_n516#" -208.127 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5520 -424 0 0 0 0 0 0 0 0 0 0
+merge "fcm_bias_pcell_2_1/sky130_fd_pr__pfet_g5v0d10v5_XEEY48_0/a_n29_n516#" "m1_645_0#"
+merge "fcm_bias_pcell_2_0/m1_n9_n29#" "fcm_bias_pcell_2_1/m1_476_1060#" -447.073 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33720 -1244 0 0 0 0 0 0 0 0 0 0
+merge "fcm_bias_pcell_2_1/m1_476_1060#" "VB1"

@@ -7,12 +7,12 @@ resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 
 use hpmos_1 hpmos_1_1 1 0 585 0 1 31
 use hpmos_1 hpmos_1_0 1 0 309 0 1 31
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "hpmos_1_0/XM1/a_50_n78#" "hpmos_1_0/XM1/w_n144_n140#" 1.05123
-cap "hpmos_1_1/XM1/a_n108_n78#" "hpmos_1_0/XM1/w_n144_n140#" 1.05123
-cap "hpmos_1_0/XM1/a_50_n78#" "hpmos_1_0/m1_1998_n3033#" 0.0706211
 cap "hpmos_1_1/XM1/a_n108_n78#" "hpmos_1_0/m1_1998_n3033#" 0.0706211
-cap "hpmos_1_0/XM1/a_50_n78#" "hpmos_1_1/XM1/a_n108_n78#" 52.2566
-cap "hpmos_1_0/m1_1998_n3033#" "hpmos_1_0/XM1/w_n144_n140#" 17.2785
+cap "hpmos_1_0/XM1/w_n144_n140#" "hpmos_1_0/m1_1998_n3033#" 17.2785
+cap "hpmos_1_0/XM1/w_n144_n140#" "hpmos_1_1/XM1/a_n108_n78#" 1.05123
+cap "hpmos_1_0/XM1/a_50_n78#" "hpmos_1_0/m1_1998_n3033#" 0.0706211
+cap "hpmos_1_1/XM1/a_n108_n78#" "hpmos_1_0/XM1/a_50_n78#" 52.2566
+cap "hpmos_1_0/XM1/w_n144_n140#" "hpmos_1_0/XM1/a_50_n78#" 1.05123
 merge "hpmos_1_0/VSUBS" "hpmos_1_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "hpmos_1_1/VSUBS" "VSUBS"
 merge "hpmos_1_0/XM1/w_n144_n140#" "hpmos_1_1/XM1/w_n144_n140#" -8.856 0 0 0 0 -2952 -516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,4 +1,4 @@
-timestamp 1749119638
+timestamp 1749369846
 version 8.3
 tech sky130A
 style ngspice()
@@ -9,8 +9,8 @@ use sky130_fd_pr__res_xhigh_po_1p41_YY56WS XR9 0 -1 9297 -1 0 -4485
 use sky130_fd_pr__res_xhigh_po_1p41_QX57C3 XR10 0 -1 9297 -1 0 -4161
 use sky130_fd_pr__res_xhigh_po_1p41_H2U5BC XR11 0 -1 9297 -1 0 -3837
 use sky130_fd_pr__res_xhigh_po_1p41_E2U9YT XR12 0 -1 9297 -1 0 -3513
-use sky130_fd_pr__res_xhigh_po_1p41_4F76E7 XR13 0 -1 9297 -1 0 -3189
 use sky130_fd_pr__res_xhigh_po_1p41_5X5ZCF sky130_fd_pr__res_xhigh_po_1p41_5X5ZCF_0 0 -1 9297 -1 0 -1893
+use sky130_fd_pr__res_xhigh_po_1p41_4F76E7 XR13 0 -1 9297 -1 0 -3189
 use sky130_fd_pr__res_xhigh_po_1p41_KLD4QF XR14 0 -1 9297 -1 0 -2865
 use sky130_fd_pr__res_xhigh_po_1p41_HDPFLR XR15 0 -1 9297 -1 0 -2541
 use sky130_fd_pr__res_xhigh_po_1p41_5X53DF XR16 0 -1 9297 -1 0 -2217
@@ -53,7 +53,5 @@ merge "XR13/a_n141_444#" "m1_8330_n3320#"
 merge "XR13/a_n141_n876#" "rseg_4_pin_right_even_v2_0/m1_10058_n17036#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "rseg_4_pin_right_even_v2_0/m1_10058_n17036#" "XR12/a_n141_n861#"
 merge "XR12/a_n141_n861#" "m1_10152_n3644#"
-merge "rseg_4_pin_left_v2_1/rseg_1_pin_4_3/m1_1804_n22764#" "XR16/a_n141_526#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "XR16/a_n141_526#" "XR15/a_n141_496#"
+merge "XR16/a_n141_526#" "XR15/a_n141_496#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "XR15/a_n141_496#" "m1_8375_n2410#"
-merge "rseg_4_pin_right_even_v2_0/rseg_1_pin_4_3/m1_1804_n22764#" "XR16/a_n141_n958#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,42 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1751060820
+use top_DAC  top_DAC_0
+timestamp 1751060805
+transform 1 0 75 0 1 -4
+box 152 -3 51201 27246
+<< labels >>
+flabel metal2 s 50876 15212 51276 15612 0 FreeSans 1600 0 0 0 DIN0
+port 0 nsew
+flabel metal2 s 50876 14612 51276 15012 0 FreeSans 1600 0 0 0 DIN1
+port 1 nsew
+flabel metal2 s 50876 14012 51276 14412 0 FreeSans 1600 0 0 0 DIN2
+port 2 nsew
+flabel metal2 s 50876 13412 51276 13812 0 FreeSans 1600 0 0 0 DIN3
+port 3 nsew
+flabel metal2 s 50876 12812 51276 13212 0 FreeSans 1600 0 0 0 DIN4
+port 4 nsew
+flabel metal2 s 50876 12212 51276 12612 0 FreeSans 1600 0 0 0 DIN5
+port 5 nsew
+flabel metal2 s 50876 11612 51276 12012 0 FreeSans 1600 0 0 0 DIN6
+port 6 nsew
+flabel metal2 s 50876 11012 51276 11412 0 FreeSans 1600 0 0 0 DIN7
+port 7 nsew
+flabel metal2 s 50876 10412 51276 10812 0 FreeSans 1600 0 0 0 DIN8
+port 8 nsew
+flabel metal2 s 50876 9812 51276 10212 0 FreeSans 1600 0 0 0 DIN9
+port 9 nsew
+flabel metal2 s 12793 26842 13193 27242 0 FreeSans 1600 0 0 0 ROUT1
+port 10 nsew
+flabel metal2 s 39792 26842 40192 27242 0 FreeSans 1600 0 0 0 ROUT2
+port 11 nsew
+flabel metal2 s 2458 -1 3658 599 0 FreeSans 1600 0 0 0 VDD
+port 12 nsew
+flabel metal2 s 2458 1399 3658 1999 0 FreeSans 1600 0 0 0 VDDH
+port 13 nsew
+flabel metal2 s 2458 699 3658 1299 0 FreeSans 1600 0 0 0 GND
+port 14 nsew
+flabel metal2 s 316 13974 716 14374 0 FreeSans 1600 0 0 0 VOUT
+port 15 nsew
+<< end >>

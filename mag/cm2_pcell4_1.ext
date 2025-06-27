@@ -1,0 +1,47 @@
+timestamp 1750204708
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__pfet_g5v0d10v5_NWEVUG sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0 1 0 851 0 1 -225
+node "m1_n283_n485#" 8 1049.54 -283 -485 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 422344 10596 0 0 0 0 0 0 0 0 0 0
+node "li_n260_n462#" 1952 915.914 -260 -462 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 178636 10508 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1844_n387#" 259 49.1751 1844 -387 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19380 766 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n202_n387#" 259 49.1751 -202 -387 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19380 766 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n339_n541#" 13336 4505.34 -339 -541 nw 0 0 0 0 1501780 6022 0 0 0 0 0 0 315240 10508 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "w_n339_n541#" "m1_n283_n485#" 784.488
+cap "w_n339_n541#" "a_1844_n387#" 213.929
+cap "a_n202_n387#" "w_n339_n541#" 213.929
+cap "li_n260_n462#" "m1_n283_n485#" 840.857
+cap "li_n260_n462#" "a_1844_n387#" 51.5576
+cap "a_1844_n387#" "m1_n283_n485#" 34.7005
+cap "li_n260_n462#" "a_n202_n387#" 51.5576
+cap "li_n260_n462#" "w_n339_n541#" 1141.32
+cap "a_n202_n387#" "m1_n283_n485#" 33.4438
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n920_n162#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/w_n1014_n198#" 325.895
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n920_n162#" "li_n260_n462#" 671.796
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/w_n1014_n198#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n978_n136#" -0.534834
+cap "a_n202_n387#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_920_n136#" -1.42109e-14
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n978_n136#" "li_n260_n462#" 59.7918
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/w_n1014_n198#" "li_n260_n462#" -292.949
+cap "a_n202_n387#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n920_n162#" 29.1848
+cap "a_n202_n387#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n978_n136#" 14.9551
+cap "a_n202_n387#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/w_n1014_n198#" -18.4539
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n920_n162#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_920_n136#" 853.578
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_920_n136#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n978_n136#" 104.67
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_920_n136#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/w_n1014_n198#" -256.157
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_920_n136#" "li_n260_n462#" -3.18906
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/w_n1014_n198#" "a_1844_n387#" -18.4539
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/w_n1014_n198#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n920_n162#" 203.734
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/w_n1014_n198#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_920_n136#" -182.316
+cap "li_n260_n462#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/w_n1014_n198#" -202.64
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n920_n162#" "a_1844_n387#" 29.1848
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_920_n136#" "a_1844_n387#" 14.924
+cap "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_920_n136#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n920_n162#" 500.852
+cap "li_n260_n462#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n920_n162#" 426.036
+cap "li_n260_n462#" "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_920_n136#" 57.4741
+merge "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_920_n136#" "m1_n283_n485#" -115.676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -92 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/w_n1014_n198#" "w_n339_n541#" -2202.41 0 0 0 0 -734136 -4780 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

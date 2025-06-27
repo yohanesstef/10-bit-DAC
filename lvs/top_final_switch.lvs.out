@@ -1,0 +1,90 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+Flattening unmatched subcell seg_sel_pmos in circuit top_final_switch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT in circuit top_final_switch (0)(1 instance)
+Flattening unmatched subcell interpolation_switch in circuit top_final_switch (0)(1 instance)
+Flattening unmatched subcell interpolation_s3_v2 in circuit top_final_switch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_Z832FA in circuit top_final_switch (0)(1 instance)
+Flattening unmatched subcell interpolation_s2_v2 in circuit top_final_switch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ in circuit top_final_switch (0)(4 instances)
+Flattening unmatched subcell seg_sel_nmos in circuit top_final_switch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ in circuit top_final_switch (0)(5 instances)
+Flattening unmatched subcell interpolating_dec_4b in circuit top_final_switch (1)(1 instance)
+Flattening unmatched subcell interpolating_dec_3b in circuit top_final_switch (1)(1 instance)
+Flattening unmatched subcell seg_selector_1 in circuit top_final_switch (1)(1 instance)
+Flattening unmatched subcell seg_selector_2 in circuit top_final_switch (1)(1 instance)
+Flattening unmatched subcell seg_selector_3 in circuit top_final_switch (1)(1 instance)
+Flattening unmatched subcell seg_selector_4 in circuit top_final_switch (1)(1 instance)
+
+Subcircuit summary:
+Circuit 1: top_final_switch                |Circuit 2: top_final_switch                
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (16)          |sky130_fd_pr__pfet_g5v0d10v5 (16)          
+sky130_fd_pr__nfet_g5v0d10v5 (18)          |sky130_fd_pr__nfet_g5v0d10v5 (18)          
+Number of devices: 34                      |Number of devices: 34                      
+Number of nets: 32                         |Number of nets: 32                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: top_final_switch                |Circuit 2: top_final_switch                
+-------------------------------------------|-------------------------------------------
+GND                                        |GND                                        
+b[3]                                       |b[3]                                       
+bb[3]                                      |bb[3]                                      
+b[0]                                       |b[0]                                       
+b[2]                                       |b[2]                                       
+b[1]                                       |b[1]                                       
+bb[0]                                      |bb[0]                                      
+bb[2]                                      |bb[2]                                      
+bb[1]                                      |bb[1]                                      
+VDDH                                       |VDDH                                       
+VL2                                        |VL2                                        
+VL3                                        |VL3                                        
+SH[1]                                      |SH[1]                                      
+VS1                                        |VS1                                        
+SH[2]                                      |SH[2]                                      
+SH[3]                                      |SH[3]                                      
+SH[4]                                      |SH[4]                                      
+VS4                                        |VS4                                        
+VH2                                        |VH2                                        
+VOUT[0]                                    |VOUT[0]                                    
+VOUT[1]                                    |VOUT[1]                                    
+VOUT[4]                                    |VOUT[4]                                    
+VOUT[2]                                    |VOUT[2]                                    
+VOUT[3]                                    |VOUT[3]                                    
+VH3                                        |VH3                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes top_final_switch and top_final_switch are equivalent.
+
+Final result: Circuits match uniquely.
+.

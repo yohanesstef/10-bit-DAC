@@ -1,0 +1,20 @@
+timestamp 1749889584
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1 1 0 1868 0 1 271
+use sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5 sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0 1 0 1492 0 1 271
+node "m1_1340_373#" 2 508.29 1340 373 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72400 2502 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/w_n194_n278#" "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 33.6294
+merge "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/VSUBS" "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1/VSUBS" "VSUBS"
+merge "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/w_n194_n278#" "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1/w_n194_n278#" -18.792 0 0 0 0 -6264 -1068 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" -693.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -13800 -2256 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n100_n242#"
+merge "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n100_n242#" "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1/a_100_n216#"
+merge "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1/a_100_n216#" "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1/a_n158_n216#"
+merge "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1/a_n158_n216#" "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1/a_n100_n242#"
+merge "sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_1/a_n100_n242#" "m1_1340_373#"

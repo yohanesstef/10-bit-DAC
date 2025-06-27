@@ -1,4 +1,4 @@
-timestamp 1750863581
+timestamp 1751030423
 version 8.3
 tech sky130A
 style ngspice()
@@ -145,7 +145,10 @@ node "m1_9046_1081#" 0 0 9046 1081 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "VDDH" 0 0 10938 1313 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "GND" 0 0 6512 -4551 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/VPWR" "lvsf_7bit_0/lvsf_buff_7/lvsf_0/VDDH" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/decoder_2to4_2/dec_pcell_0/w_n601_499#" "decoder_3_0/decoder_2to4_2/VDDH" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_3_0/decoder_2to4_2/VDDH" "decoder_3_0/decoder_2to4_1/VDDH"
+merge "decoder_3_0/decoder_2to4_1/VDDH" "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/VPWR"
+merge "decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/VPWR" "lvsf_7bit_0/lvsf_buff_7/lvsf_0/VDDH"
 merge "lvsf_7bit_0/lvsf_buff_7/lvsf_0/VDDH" "lvsf_7bit_0/lvsf_buff_5/buff_hvl_0/sky130_fd_sc_hvl__inv_1_1/VPWR"
 merge "lvsf_7bit_0/lvsf_buff_5/buff_hvl_0/sky130_fd_sc_hvl__inv_1_1/VPWR" "lvsf_7bit_0/lvsf_buff_2/buff_hvl_0/VDDH"
 merge "lvsf_7bit_0/lvsf_buff_2/buff_hvl_0/VDDH" "lvsf_7bit_0/lvsf_buff_3/buff_hvl_0/VDDH"

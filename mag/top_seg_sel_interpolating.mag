@@ -1,7 +1,18 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1750851032
+timestamp 1751047404
+<< error_s >>
+rect 2358 3706 2380 3734
+rect 2386 3678 2408 3744
+rect 2358 3457 2380 3485
+rect 2386 3429 2408 3513
+rect 2358 3208 2380 3236
+rect 2386 3180 2408 3264
+rect 2612 3082 2680 3098
+rect 2596 3081 2696 3082
+rect 2585 3054 2707 3060
+rect 2562 3047 2730 3048
 << nwell >>
 rect 2160 3208 2180 3236
 << metal1 >>
@@ -211,14 +222,18 @@ rect 230 3194 1520 3250
 rect 1576 3194 1946 3250
 rect 2002 3194 2012 3250
 rect -262 3189 2012 3194
-use interpolation_s2  interpolation_s2_0 ~/10-bit-DAC/mag
-timestamp 1750851005
+use interpolation_s2  interpolation_s2_0
+timestamp 1751042016
 transform 1 0 585 0 1 3118
 box -151 -134 689 1279
 use interpolation_s3  interpolation_s3_0
-timestamp 1750851005
+timestamp 1751042016
 transform 1 0 2357 0 1 3100
 box -181 -164 719 1105
+use interpolation_switch  interpolation_switch_0
+timestamp 1751047215
+transform 1 0 559 0 1 5062
+box -188 -172 1374 1062
 use seg_sel_1  seg_sel_1_0
 timestamp 1750845293
 transform 1 0 -351 0 1 3052
@@ -235,4 +250,12 @@ use seg_sel_4  seg_sel_4_0
 timestamp 1750845534
 transform 1 0 1420 0 1 3041
 box -96 -105 520 1499
+use seg_sel_nmos  seg_sel_nmos_0
+timestamp 1751047180
+transform 1 0 701 0 1 5081
+box -930 -169 -200 1309
+use seg_sel_pmos  seg_sel_pmos_0
+timestamp 1751047404
+transform 1 0 -4488 0 1 4596
+box 6231 294 7013 1813
 << end >>

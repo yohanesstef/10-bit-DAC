@@ -1,4 +1,4 @@
-timestamp 1750840520
+timestamp 1750867770
 version 8.3
 tech sky130A
 style ngspice()
@@ -6,410 +6,494 @@ scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
 use seg_selector_logic seg_selector_logic_0 1 0 138 0 1 5744
 use logic_shift_seg2 logic_shift_seg2_0 1 0 -3908 0 1 2686
+port "GND" 21 3538 -813 3566 -785 m2
+port "VDD" 20 3349 -818 3377 -790 m2
+port "bb[9]" 7 3201 1594 3261 1654 m2
+port "bb[8]" 6 3109 1594 3169 1654 m2
+port "bb[7]" 5 3017 1594 3077 1654 m2
+port "bb[6]" 4 2925 1594 2985 1654 m2
+port "b[9]" 3 635 1560 695 1620 m2
+port "b[8]" 2 543 1560 603 1620 m2
+port "b[7]" 1 451 1560 511 1620 m2
+port "b[6]" 0 359 1560 419 1620 m2
+port "DS[8]" 16 3449 -972 3477 -944 m1
+port "DSB[8]" 18 3449 -916 3477 -888 m1
+port "DS[9]" 17 3449 -428 3477 -400 m1
+port "DSB[9]" 19 3449 -372 3477 -344 m1
+port "S[2]" 9 3449 -64 3477 -36 m1
+port "SB[2]" 13 3449 116 3477 144 m1
+port "SB[1]" 12 3449 688 3477 716 m1
+port "SB[3]" 14 3449 744 3477 772 m1
+port "S[1]" 8 3449 864 3477 892 m1
+port "S[3]" 10 3449 920 3477 948 m1
+port "SB[4]" 15 3453 1748 3481 1776 m1
+port "S[4]" 11 3461 1828 3489 1856 m1
+node "GND" 0 17.9054 3538 -813 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0
+node "VDD" 0 17.9054 3349 -818 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0
+node "bb[9]" 0 35.9624 3201 1594 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "bb[8]" 0 25.0378 3109 1594 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "bb[7]" 0 25.0378 3017 1594 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "bb[6]" 0 35.9624 2925 1594 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "b[9]" 0 35.9624 635 1560 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "b[8]" 0 25.0378 543 1560 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "b[7]" 0 25.0378 451 1560 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "b[6]" 0 35.9624 359 1560 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0
+node "DS[8]" 0 17.8052 3449 -972 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
+node "DSB[8]" 0 15.272 3449 -916 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
+node "DS[9]" 0 15.272 3449 -428 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
+node "DSB[9]" 0 14.3861 3449 -372 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
+node "S[2]" 0 15.4759 3449 -64 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
+node "SB[2]" 0 16.6552 3449 116 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
+node "SB[1]" 0 15.5654 3449 688 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
+node "SB[3]" 0 12.9674 3449 744 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
+node "S[1]" 0 12.9674 3449 864 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
+node "S[3]" 0 16.4059 3449 920 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
+node "SB[4]" 0 18.1123 3453 1748 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
+node "S[4]" 0 19.5117 3461 1828 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/x3/x2/B" 3.05398
-cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/x3/x2/A" 1.23084
-cap "seg_selector_logic_0/x3/x2/C" "seg_selector_logic_0/x3/x1/B" 0.022591
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 7.54919
-cap "seg_selector_logic_0/x3/x2/B" "seg_selector_logic_0/x3/x1/B" 0.1717
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x1/B" 1.45446
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x3/x2/D" 2.68821
-cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 0.0850392
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x2/x1/A" 0.844753
-cap "logic_shift_seg2_0/x1/a_113_47#" "seg_selector_logic_0/x3/x2/A" -5.55112e-17
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x2/x3/B" 0.00158535
-cap "seg_selector_logic_0/x4/x3/A" "seg_selector_logic_0/x3/x1/B" 0.0076097
-cap "seg_selector_logic_0/x3/x2/C" "seg_selector_logic_0/x3/x2/B" 0.187769
-cap "logic_shift_seg2_0/x6/a_113_47#" "seg_selector_logic_0/x2/x4/A" 0.000724935
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x2/B" 2.99035
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x2/D" 108.706
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x2/D" 0.583989
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x2/A" 8.24512
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x2/A" 2.84217e-14
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x2/x4/A" 0.575163
-cap "seg_selector_logic_0/x3/x3/A" "seg_selector_logic_0/x3/x2/A" 0.0596409
-cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/x3/x1/B" 0.0541758
-cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/x3/x2/D" 0.0335584
-cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/x3/x2/A" 9.60467
-cap "seg_selector_logic_0/x4/x3/A" "seg_selector_logic_0/x3/x2/B" 0.0324452
-cap "logic_shift_seg2_0/x4/a_109_47#" "seg_selector_logic_0/x3/x2/A" 1.38778e-17
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 5.68434e-14
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/x3/x2/D" 3.03263
-cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/x3/x1/B" 0.0848127
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/x3/x2/A" 7.01184
+cap "SB[1]" "SB[2]" 2.07407
+cap "GND" "VDD" 5.20362
+cap "SB[4]" "S[4]" 8.62745
+cap "S[1]" "SB[3]" 8.67606
+cap "S[2]" "SB[2]" 6.09901
+cap "DSB[9]" "DS[9]" 15.7949
+cap "DSB[8]" "DS[9]" 2.41569
+cap "S[1]" "S[3]" 15.7949
+cap "b[6]" "b[7]" 32.6087
+cap "b[9]" "b[8]" 32.6087
+cap "SB[4]" "S[3]" 1.24235
+cap "DSB[8]" "DS[8]" 15.7949
+cap "bb[7]" "bb[8]" 32.6087
+cap "bb[6]" "bb[7]" 32.6087
+cap "b[7]" "b[8]" 32.6087
+cap "bb[8]" "bb[9]" 32.6087
+cap "SB[1]" "SB[3]" 15.7949
+cap "S[2]" "DSB[9]" 3.73333
+cap "seg_selector_logic_0/b[8]" "seg_selector_logic_0/x3/x3/A" 0.10357
+cap "seg_selector_logic_0/x2/x1/A" "logic_shift_seg2_0/x6/Y" 0.168946
 cap "logic_shift_seg2_0/x1/a_113_47#" "seg_selector_logic_0/x2/x4/A" 0.00435095
-cap "seg_selector_logic_0/x3/x2/D" "seg_selector_logic_0/x3/x1/B" 0.0779902
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x4/x3/B" 0.00303911
-cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/x3/x2/B" 9.81628
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x3/x1/B" 0.137589
-cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 1.07291
-cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 0.0799719
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x2/x3/B" -4.52383e-18
-cap "logic_shift_seg2_0/x2/a_113_47#" "seg_selector_logic_0/x3/x2/A" 8.32667e-17
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x3/x2/A" 1.42109e-14
-cap "seg_selector_logic_0/sky130_fd_sc_hd__inv_1_2/A" "seg_selector_logic_0/x3/x1/B" 9.33564e-05
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 2.76982
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x2/x4/A" 3.96988
-cap "seg_selector_logic_0/x3/x2/B" "seg_selector_logic_0/x3/x2/D" 0.274314
-cap "seg_selector_logic_0/x3/x2/C" "seg_selector_logic_0/x3/x2/A" 0.00178586
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x2/D" 1.53372
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x3/x2/B" 0.809089
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x1/B" 26.5809
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x2/A" 5.35958
-cap "seg_selector_logic_0/x3/x3/A" "seg_selector_logic_0/x3/x1/B" 0.0189879
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 2.84217e-14
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x2/x1/A" 0.168946
-cap "logic_shift_seg2_0/x5/C" "seg_selector_logic_0/x2/x3/B" 0.175944
-cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/x3/x1/B" 0.791417
-cap "logic_shift_seg2_0/x4/a_193_47#" "seg_selector_logic_0/x3/x2/A" 1.38778e-17
+cap "seg_selector_logic_0/b[9]" "logic_shift_seg2_0/x4/a_193_47#" 1.38778e-17
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/b[6]" 0.137589
+cap "seg_selector_logic_0/b[9]" "logic_shift_seg2_0/x2/a_113_47#" 8.32667e-17
+cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/VDD" 1.07291
+cap "seg_selector_logic_0/b[6]" "seg_selector_logic_0/GND" 26.5809
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x6/Y" 0.575163
 cap "seg_selector_logic_0/x2/x3/B" "logic_shift_seg2_0/x2/Y" 0.966155
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x2/B" 8.3545
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" -39.5922
-cap "seg_selector_logic_0/x3/x3/A" "seg_selector_logic_0/x3/x2/B" 0.10357
-cap "logic_shift_seg2_0/x5/C" "seg_selector_logic_0/x2/x4/A" 1.07086
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/x3/x1/B" 2.97207
-cap "seg_selector_logic_0/x3/x1/B" "seg_selector_logic_0/x4/x3/B" 0.0102445
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x3/x2/D" 0.0129461
-cap "logic_shift_seg2_0/x2/a_113_47#" "seg_selector_logic_0/x2/x4/A" 0.179252
+cap "seg_selector_logic_0/b[6]" "seg_selector_logic_0/x3/x3/A" 0.0189879
+cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/VDD" 7.54919
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/GND" 8.24512
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/x3/x3/A" 0.0596409
+cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/b[6]" 0.791417
+cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/b[8]" 9.81628
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/x2/x3/B" 9.60467
+cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/GND" 0.0799719
 cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x2/Y" 5.01043
-cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/x3/x2/D" 0.14875
-cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 1.05867
-cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/x3/x2/A" 0.123734
-cap "logic_shift_seg2_0/x7/a_113_47#" "seg_selector_logic_0/x2/x4/A" 0.0264657
-cap "logic_shift_seg2_0/x3/a_113_47#" "seg_selector_logic_0/x3/x2/A" 2.77556e-17
-cap "logic_shift_seg2_0/BSB[9]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" -2.82207
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/x3/x1/A" -0.08579
-cap "seg_selector_logic_0/x3/x2/C" "seg_selector_logic_0/x3/x1/A" 1.56319e-13
-cap "seg_selector_logic_0/x2/x4/C" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 0.320396
-cap "seg_selector_logic_0/x2/x5/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 1.56426
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x2/x5/Y" 0.655768
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x2/x4/A" 10.5605
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x2/x4/B" 0.0138316
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x2/x4/C" 0.0443735
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" -0.0952159
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" -8.90756
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x1/A" -0.147931
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x2/C" 0.539002
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x3/x2/C" 0.390611
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x1/A" 0.0577944
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x2/x1/A" 0.00405556
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x2/x3/B" 0.0154533
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" -2.92248
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x3/x2/B" 0.60535
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 1.496
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 0.219834
-cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x2/x4/A" 23.0771
-cap "logic_shift_seg2_0/x5/C" "seg_selector_logic_0/x2/x4/A" 0.926783
-cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/x2/x4/C" 0.0151249
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x2/x5/Y" 0.0834944
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x2/x4/B" 0.000908111
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" "seg_selector_logic_0/S[2]" 3.94877
-cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x2/x3/B" 0.175353
-cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/x2/x1/A" 0.161912
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x3/x2/C" 0.52356
-cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/x3/x1/A" 0.013989
-cap "logic_shift_seg2_0/x5/C" "seg_selector_logic_0/x2/x3/B" 0.0142937
-cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/x3/x2/D" 0.089473
-cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/x3/x2/A" 0.189038
-cap "logic_shift_seg2_0/x1/a_113_47#" "seg_selector_logic_0/S[2]" 0.0156945
-cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.0304222
-cap "seg_selector_logic_0/x3/x2/D" "seg_selector_logic_0/x2/x1/A" 0.0443085
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x1/x3/A" 0.000488558
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x1/B" 1.39774
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x2/x5/Y" 0.304905
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/SB[3]" 0.00106249
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x2/x4/C" 0.0272123
-cap "seg_selector_logic_0/x2/x4/a_193_47#" "logic_shift_seg2_0/BSB[8]" 0.0458221
-cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/S[3]" 0.172911
-cap "logic_shift_seg2_0/x5/a_193_47#" "seg_selector_logic_0/x2/x4/A" 0.111467
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x3/x2/C" 11.3026
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x3/x1/A" 9.60749
-cap "seg_selector_logic_0/x3/x2/D" "seg_selector_logic_0/x3/x3/B" 0.00715551
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 1.13129
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" -0.163955
-cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x2/x4/C" 0.11038
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/S[2]" 40.2943
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "logic_shift_seg2_0/BSB[8]" -0.0117568
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/x3/x1/A" 0.53543
-cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/x3/x2/C" 5.68865
-cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/x2/x1/A" 0.00834729
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "seg_selector_logic_0/x2/x3/B" 0.667908
-cap "seg_selector_logic_0/x3/x1/A" "seg_selector_logic_0/x2/x3/B" 0.0168945
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 31.5504
-cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 4.16841
-cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/x3/x2/A" 0.0672722
-cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.00394863
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x2/x4/A" 17.5266
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/S[2]" 0.212974
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 0.00772678
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x2/x3/B" 1.88522
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x2/x1/A" 0.0415775
-cap "seg_selector_logic_0/x3/x2/D" "seg_selector_logic_0/x3/x2/C" 0.00644098
-cap "logic_shift_seg2_0/x2/Y" "logic_shift_seg2_0/x5/A" -2.77556e-17
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x2/x3/B" 0.0344271
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x2/B" 1.12417
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x2/D" 0.352459
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x3/x1/B" 0.0485466
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x2/x4/A" 3.24296
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x3/x3/B" 0.0654582
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/S[3]" 0.0131406
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x2/x3/B" 0.0124976
-cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/x3/x1/B" 0.00294721
-cap "logic_shift_seg2_0/x4/a_193_47#" "seg_selector_logic_0/x2/x4/A" 0.583731
-cap "logic_shift_seg2_0/x4/a_109_47#" "seg_selector_logic_0/S[2]" 0.0385567
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x3/x2/B" 0.0157183
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x3/x1/B" 0.0104069
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/x2/x1/A" -0.0664999
-cap "seg_selector_logic_0/x3/x2/C" "seg_selector_logic_0/x2/x1/A" 0.000916801
-cap "seg_selector_logic_0/x2/x4/C" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 1.57178
-cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 1.71364
-cap "seg_selector_logic_0/x3/x2/D" "seg_selector_logic_0/x3/x1/B" 0.148029
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x2/x4/C" 0.14653
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x2/x4/A" 5.86687
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x2/x4/B" 0.0539968
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/S[2]" 0.733081
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" -3.77583
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x1/A" 0.338774
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x2/x1/A" -0.0204782
-cap "logic_shift_seg2_0/BS[9]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" -1.52636
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x3/x1/A" 0.276636
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x2/x3/B" 0.474719
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x2/x1/A" 0.0331045
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_39#" "seg_selector_logic_0/x2/x3/B" 0.0978374
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x2/A" 0.196607
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x3/x2/B" 0.0485466
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 1.31479
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x3/x2/D" -5.68434e-14
-cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/S[2]" 5.52942
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x2/x4/C" 0.00219762
-cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/x2/x4/B" 0.00612865
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x2/x4/A" 0.835848
-cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/x2/x3/B" 0.047184
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_305#" "seg_selector_logic_0/x2/x3/B" 0.327624
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x3/x1/A" 0.010116
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x2/x3/B" 0.0106944
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/x3/x2/D" 5.54608
-cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/x3/x2/B" 0.0463034
-cap "logic_shift_seg2_0/x3/a_113_47#" "seg_selector_logic_0/x2/x4/A" 0.191979
-cap "logic_shift_seg2_0/x2/a_113_47#" "seg_selector_logic_0/S[2]" 0.0223884
-cap "seg_selector_logic_0/SB[3]" "seg_selector_logic_0/x2/x1/A" 0.000678339
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.0387388
-cap "seg_selector_logic_0/x3/x2/D" "seg_selector_logic_0/x2/x3/B" 0.19126
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/x3/x2/C" -0.113783
-cap "seg_selector_logic_0/x2/x5/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 0.0345449
-cap "seg_selector_logic_0/x3/x2/B" "seg_selector_logic_0/x3/x2/D" 2.17892
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x3/x1/B" 2.65188
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x2/x5/Y" 1.81715
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x2/x4/B" 0.0378405
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x2/x4/C" 0.00694031
-cap "seg_selector_logic_0/x2/x4/a_277_47#" "logic_shift_seg2_0/BSB[8]" 0.0650574
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" -26.1705
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x2/C" -0.172035
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x2/C" 0.377106
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x3/x1/A" 0.00570252
-cap "seg_selector_logic_0/x3/x2/D" "seg_selector_logic_0/x3/x3/A" 0.00542385
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.170472
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 0.480426
+cap "seg_selector_logic_0/b[7]" "logic_shift_seg2_0/x6/Y" 0.0129461
+cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/b[8]" 3.05398
+cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/b[6]" 0.0541758
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/VDD" 1.53372
+cap "seg_selector_logic_0/b[6]" "seg_selector_logic_0/sky130_fd_sc_hd__inv_1_2/A" 9.33564e-05
+cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/b[6]" 2.97207
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x2/a_113_47#" 0.179252
+cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/b[9]" 0.123734
+cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/GND" 0.0850392
+cap "seg_selector_logic_0/x4/x3/B" "seg_selector_logic_0/b[6]" 0.0102445
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x7/a_113_47#" 0.0264657
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/x2/x4/A" 7.01184
+cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/GND" 2.76982
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/x4/x3/B" 0.00303911
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/b[8]" 0.274314
+cap "seg_selector_logic_0/x4/x3/A" "seg_selector_logic_0/b[8]" 0.0324452
+cap "seg_selector_logic_0/b[9]" "logic_shift_seg2_0/x1/Y" 2.84217e-14
+cap "seg_selector_logic_0/GND" "logic_shift_seg2_0/x1/Y" 5.68434e-14
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/b[6]" 0.0779902
+cap "seg_selector_logic_0/x4/x3/A" "seg_selector_logic_0/b[6]" 0.0076097
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/b[8]" 0.187769
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/b[9]" 2.68821
+cap "seg_selector_logic_0/b[9]" "logic_shift_seg2_0/x3/a_113_47#" 2.77556e-17
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/GND" 108.706
+cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/b[6]" 0.0848127
+cap "seg_selector_logic_0/x2/x3/B" "logic_shift_seg2_0/x1/Y" -4.52383e-18
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x6/a_113_47#" 0.000724935
+cap "logic_shift_seg2_0/x5/C" "seg_selector_logic_0/x2/x3/B" 0.175944
+cap "logic_shift_seg2_0/x4/a_109_47#" "seg_selector_logic_0/b[9]" 1.38778e-17
+cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/b[9]" 1.23084
+cap "seg_selector_logic_0/b[6]" "seg_selector_logic_0/bb[6]" 0.022591
+cap "seg_selector_logic_0/b[8]" "seg_selector_logic_0/VDD" 2.99035
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/x2/x3/B" 0.0335584
+cap "seg_selector_logic_0/x2/x1/A" "logic_shift_seg2_0/x1/Y" 0.844753
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/bb[6]" 0.00178586
+cap "logic_shift_seg2_0/x1/a_113_47#" "seg_selector_logic_0/b[9]" -5.55112e-17
+cap "seg_selector_logic_0/b[6]" "seg_selector_logic_0/VDD" 1.45446
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x1/Y" 3.96988
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/x2/x1/A" 0.14875
+cap "logic_shift_seg2_0/x5/C" "seg_selector_logic_0/x2/x4/A" 1.07086
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/VDD" 5.35958
+cap "seg_selector_logic_0/GND" "seg_selector_logic_0/VDD" -39.5922
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/x2/x4/A" 3.03263
+cap "seg_selector_logic_0/x2/x3/B" "logic_shift_seg2_0/x6/Y" 0.00158535
+cap "seg_selector_logic_0/b[6]" "seg_selector_logic_0/b[8]" 0.1717
+cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/VDD" 1.05867
+cap "seg_selector_logic_0/b[7]" "logic_shift_seg2_0/x1/Y" 0.583989
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/b[8]" 0.809089
+cap "seg_selector_logic_0/b[9]" "logic_shift_seg2_0/x2/Y" 1.42109e-14
+cap "seg_selector_logic_0/GND" "seg_selector_logic_0/b[8]" 8.3545
+cap "seg_selector_logic_0/GND" "logic_shift_seg2_0/x2/Y" 2.84217e-14
+cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/bb[8]" 0.00405556
+cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/GND" 0.00772678
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/GND" -0.172035
 cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x2/x4/B" 0.108898
-cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/x2/x5/Y" 0.0307222
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x2/x4/C" 0.00199949
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "seg_selector_logic_0/S[2]" 19.6276
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/x2/x1/A" 0.73053
-cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/x3/x1/A" 0.144485
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" "seg_selector_logic_0/x2/x3/B" 0.520575
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x3/x3/B" 0.388888
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x3/x1/A" 0.0283186
-cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/x2/x3/B" 0.0259526
-cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 5.69297
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/x3/x2/A" 4.11455
-cap "seg_selector_logic_0/x2/x4/C" "seg_selector_logic_0/x3/x2/D" 0.0565877
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/S[2]" 10.5557
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.0308019
-cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" -0.0219772
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x2/x3/B" 0.223841
-cap "seg_selector_logic_0/x3/x2/D" "seg_selector_logic_0/x3/x1/A" 0.446621
-cap "logic_shift_seg2_0/x1/Y" "logic_shift_seg2_0/x5/A" -2.77556e-17
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x1/x3/B" 0.0602236
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x1/x3/A" 0.00158714
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x1/B" 1.04035
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x2/D" 1.21516
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x3/x2/B" 0.0317367
-cap "seg_selector_logic_0/x2/x4/a_109_47#" "logic_shift_seg2_0/BSB[8]" 0.0519067
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x2/x5/Y" 0.97122
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x1/B" 0.0397719
-cap "logic_shift_seg2_0/x5/a_109_47#" "seg_selector_logic_0/x2/x4/A" 0.0718498
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/S[2]" 0.0216931
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" -0.15761
-cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x2/x5/Y" 0.0676878
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/x2/x4/A" 6.25245
-cap "logic_shift_seg2_0/x4/a_193_47#" "seg_selector_logic_0/S[2]" 0.0957305
-cap "logic_shift_seg2_0/BSB[9]" "logic_shift_seg2_0/BSB[8]" -4.44089e-16
-cap "seg_selector_logic_0/x2/x4/C" "seg_selector_logic_0/x2/x1/A" 1.19079
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/x3/x2/C" 1.8763
-cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x3/x2/C" 0.0114507
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/x2/x3/B" -0.00557039
-cap "seg_selector_logic_0/x3/x2/C" "seg_selector_logic_0/x2/x3/B" 0.0150669
-cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.0401438
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 10.8463
-cap "seg_selector_logic_0/x2/x4/C" "seg_selector_logic_0/x3/x2/A" 0.611964
-cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 0.115237
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x2/x4/B" 3.12991
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x2/x4/A" 3.94983
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/S[2]" 0.294613
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/S[3]" 0.00474837
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x2/x3/B" 0.264755
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x2/x1/A" 0.149331
-cap "logic_shift_seg2_0/x3/Y" "logic_shift_seg2_0/x5/A" -2.22045e-16
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x2/x3/B" 0.0925475
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x2/x1/A" -0.0338632
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x2/B" 0.00241974
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x2/A" 1.34786
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x2/B" 0.0397719
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_305#" "seg_selector_logic_0/S[2]" 0.102102
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/x1/Y" 0.0577944
+cap "seg_selector_logic_0/b[8]" "seg_selector_logic_0/VDD" 1.12417
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/b[9]" 0.223841
+cap "seg_selector_logic_0/bb[8]" "logic_shift_seg2_0/BSB[9]" -0.0664999
 cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/x2/x4/A" 1.88467
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x2/x4/B" 0.00284254
-cap "logic_shift_seg2_0/x5/A" "logic_shift_seg2_0/BSB[8]" -2.84217e-14
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/S[3]" 0.0179907
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x3/A" 0.00547031
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x2/x1/A" 0.0013394
-cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/x3/x1/B" 0.629417
-cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/x3/x2/D" 0.170976
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" 0.667908
+cap "seg_selector_logic_0/x2/x4/C" "seg_selector_logic_0/b[9]" 0.611964
+cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/VDD" 0.0401438
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/x2/Y" 11.3026
+cap "seg_selector_logic_0/S[3]" "logic_shift_seg2_0/BS[8]" 0.00474837
+cap "seg_selector_logic_0/GND" "seg_selector_logic_0/b[9]" 0.196607
+cap "seg_selector_logic_0/bb[7]" "seg_selector_logic_0/b[7]" 0.446621
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "seg_selector_logic_0/GND" -8.90756
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/bb[8]" 0.000916801
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x5/a_193_47#" 0.111467
+cap "seg_selector_logic_0/b[8]" "logic_shift_seg2_0/BS[8]" 0.0157183
+cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/GND" 10.8463
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/S[2]" 0.047184
+cap "seg_selector_logic_0/x2/x4/B" "logic_shift_seg2_0/BS[8]" 0.00284254
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/BSB[9]" -0.113783
+cap "seg_selector_logic_0/GND" "seg_selector_logic_0/S[2]" 4.16841
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/BS[9]" 0.276636
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/b[9]" 0.0415775
+cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x2/x4/a_193_47#" 0.0458221
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x2/Y" 5.86687
+cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/bb[8]" 0.73053
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "logic_shift_seg2_0/BSB[9]" -2.82207
+cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/S[2]" 0.294613
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/S[2]" 0.161912
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/BSB[9]" 6.25245
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_305#" "seg_selector_logic_0/S[2]" 0.102102
+cap "logic_shift_seg2_0/x5/A" "logic_shift_seg2_0/x3/Y" -2.22045e-16
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/x2/x4/A" 1.8763
+cap "logic_shift_seg2_0/x5/C" "seg_selector_logic_0/b[6]" 0.017579
+cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/S[2]" 40.2943
+cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x2/x4/A" 0.835848
+cap "logic_shift_seg2_0/x2/a_113_47#" "seg_selector_logic_0/S[2]" 0.0223884
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/x3/Y" 0.0154533
+cap "seg_selector_logic_0/x2/x4/C" "logic_shift_seg2_0/x3/Y" 0.0272123
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/S[2]" 5.68865
+cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/GND" -0.15761
+cap "seg_selector_logic_0/VDD" "logic_shift_seg2_0/x1/Y" 1.496
+cap "seg_selector_logic_0/SB[3]" "logic_shift_seg2_0/BS[9]" 0.00106249
+cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/b[9]" 4.11455
+cap "seg_selector_logic_0/bb[7]" "seg_selector_logic_0/VDD" 0.338774
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/VDD" 1.21516
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/S[2]" 0.189038
+cap "seg_selector_logic_0/b[6]" "logic_shift_seg2_0/x1/Y" 0.0397719
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "seg_selector_logic_0/S[2]" 19.6276
+cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x2/x5/Y" 1.81715
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/BS[8]" 0.010116
+cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/b[8]" 0.869497
+cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/x2/x4/B" 0.00612865
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/b[6]" 0.148029
+cap "seg_selector_logic_0/b[8]" "seg_selector_logic_0/GND" 0.00241974
+cap "seg_selector_logic_0/VDD" "logic_shift_seg2_0/BS[9]" 1.31479
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/x3/x3/B" 0.00715551
+cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/GND" 1.71364
 cap "logic_shift_seg2_0/x4/a_109_47#" "seg_selector_logic_0/x2/x4/A" 0.332254
+cap "seg_selector_logic_0/S[3]" "logic_shift_seg2_0/x2/Y" 0.0179907
+cap "seg_selector_logic_0/S[3]" "seg_selector_logic_0/bb[8]" 0.172911
+cap "logic_shift_seg2_0/x4/a_109_47#" "seg_selector_logic_0/S[2]" 0.0385567
+cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/b[8]" 0.0485466
+cap "seg_selector_logic_0/x2/x5/Y" "logic_shift_seg2_0/BS[9]" 0.655768
+cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x2/x4/B" 0.0138316
+cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/bb[8]" 0.00834729
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x3/Y" 10.5605
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/x5/C" 0.0142937
+cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/VDD" 0.00394863
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x3/a_113_47#" 0.191979
+cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/S[2]" 0.733081
+cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x2/x4/B" 0.000908111
 cap "logic_shift_seg2_0/x3/a_113_47#" "seg_selector_logic_0/S[2]" 0.0398993
-cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/x3/x2/B" 0.869497
-cap "logic_shift_seg2_0/x5/C" "seg_selector_logic_0/x3/x1/B" 0.017579
-cap "seg_selector_logic_0/x3/x1/B" "seg_selector_logic_0/x2/x3/B" 1.52812
-cap "seg_selector_logic_0/x1/x2/B" "logic_shift_seg2_0/BSB[9]" -0.411843
-cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 3.55407
-cap "seg_selector_logic_0/x1/x2/B" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 3.55271e-15
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/BS[9]" -1.1509
-cap "seg_selector_logic_0/x3/x1/A" "seg_selector_logic_0/x2/x3/B" 0.0172894
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" "seg_selector_logic_0/S[2]" 2.20745
-cap "seg_selector_logic_0/x3/x1/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 3.52036
-cap "seg_selector_logic_0/x2/x5/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" -1.40998e-14
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/BSB[9]" -1.11751
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/x2/Y" -0.127516
-cap "seg_selector_logic_0/x2/x5/A" "seg_selector_logic_0/x1/x2/B" -1.42109e-14
-cap "seg_selector_logic_0/x2/x3/B" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" 0.532282
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/S[2]" 113.183
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "seg_selector_logic_0/S[2]" 52.8255
-cap "seg_selector_logic_0/x2/x3/B" "logic_shift_seg2_0/BS[9]" 0.0406137
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/x4/a_109_47#" -0.0197682
-cap "logic_shift_seg2_0/BSB[9]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" -1.24832
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" -1.83292
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/x3/A" -0.065959
-cap "seg_selector_logic_0/x1/x2/B" "seg_selector_logic_0/S[2]" 22.7759
-cap "seg_selector_logic_0/x2/x3/B" "logic_shift_seg2_0/BSB[9]" -0.362695
-cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 0.357423
-cap "seg_selector_logic_0/x2/x3/B" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_39#" 0.09943
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/x2/a_113_47#" -0.0010502
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" -52.215
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" -17.2553
-cap "seg_selector_logic_0/x2/x3/B" "logic_shift_seg2_0/BSB[8]" 0.0125993
-cap "seg_selector_logic_0/x1/x2/B" "seg_selector_logic_0/x2/x3/B" 0.0195501
-cap "seg_selector_logic_0/x2/x5/A" "seg_selector_logic_0/S[2]" 33.9772
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" -2.15337
-cap "seg_selector_logic_0/x1/x2/B" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 3.52036
-cap "seg_selector_logic_0/x3/x1/A" "logic_shift_seg2_0/BSB[9]" -0.411843
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/x4/A" -0.0189689
-cap "seg_selector_logic_0/x3/x1/A" "seg_selector_logic_0/x1/x2/B" 1.7053e-13
-cap "seg_selector_logic_0/x2/x5/A" "seg_selector_logic_0/x2/x3/B" 0.0153987
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "seg_selector_logic_0/S[2]" 6.93866
-cap "seg_selector_logic_0/x2/x5/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" 2.51474
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/x4/a_193_47#" -0.0476104
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/x2/A" -0.00183388
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/x3/Y" -0.32581
-cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/S[2]" 22.7759
-cap "seg_selector_logic_0/x2/x3/B" "logic_shift_seg2_0/BS[8]" 0.0114078
-cap "seg_selector_logic_0/x2/x5/A" "seg_selector_logic_0/x3/x1/A" -2.84217e-14
-cap "seg_selector_logic_0/x2/x3/B" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" 0.680527
+cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x2/x5/Y" 0.0676878
+cap "logic_shift_seg2_0/x5/A" "logic_shift_seg2_0/x1/Y" -2.77556e-17
+cap "seg_selector_logic_0/b[8]" "seg_selector_logic_0/b[9]" 0.0317367
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/x5/A" 0.013989
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/x1/Y" 0.0925475
+cap "seg_selector_logic_0/VDD" "logic_shift_seg2_0/BS[8]" 0.0387388
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" 0.520575
+cap "seg_selector_logic_0/x2/x4/B" "seg_selector_logic_0/b[9]" 0.0672722
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/b[6]" 1.39774
+cap "seg_selector_logic_0/x2/x4/C" "logic_shift_seg2_0/x1/Y" 0.0443735
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/x2/x5/Y" 1.56426
+cap "seg_selector_logic_0/GND" "logic_shift_seg2_0/x1/Y" 0.480426
+cap "seg_selector_logic_0/GND" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" -3.77583
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/bb[7]" 0.0168945
+cap "seg_selector_logic_0/bb[7]" "seg_selector_logic_0/GND" -0.147931
+cap "seg_selector_logic_0/b[8]" "seg_selector_logic_0/S[2]" 0.0463034
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/b[7]" 0.19126
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/x2/x4/C" 0.0565877
+cap "seg_selector_logic_0/x2/x5/Y" "logic_shift_seg2_0/BS[8]" 0.0834944
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/GND" 0.352459
+cap "seg_selector_logic_0/bb[8]" "logic_shift_seg2_0/x1/Y" 0.0331045
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/x2/Y" 0.00570252
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/BS[9]" 0.0344271
+cap "seg_selector_logic_0/x1/x3/A" "logic_shift_seg2_0/x1/Y" 0.00158714
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x5/a_109_47#" 0.0718498
+cap "seg_selector_logic_0/x2/x4/C" "logic_shift_seg2_0/BS[9]" 0.14653
+cap "seg_selector_logic_0/GND" "logic_shift_seg2_0/BS[9]" 0.219834
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x5/C" 0.926783
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/bb[8]" 0.0443085
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/BSB[9]" -0.08579
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/x1/Y" 0.377106
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/x6/Y" 0.0283186
+cap "seg_selector_logic_0/bb[7]" "seg_selector_logic_0/bb[6]" 1.56319e-13
+cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/b[8]" 0.60535
+cap "seg_selector_logic_0/x2/x4/B" "logic_shift_seg2_0/x3/Y" 0.0378405
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/bb[6]" 0.00644098
+cap "logic_shift_seg2_0/x1/a_113_47#" "seg_selector_logic_0/S[2]" 0.0156945
+cap "logic_shift_seg2_0/x5/A" "logic_shift_seg2_0/BSB[8]" -2.84217e-14
+cap "seg_selector_logic_0/bb[8]" "logic_shift_seg2_0/BS[9]" -0.0338632
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/BSB[8]" 0.175353
+cap "seg_selector_logic_0/x1/x3/A" "logic_shift_seg2_0/BS[9]" 0.000488558
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x1/Y" 3.94983
+cap "seg_selector_logic_0/x2/x4/C" "logic_shift_seg2_0/BSB[8]" 0.11038
+cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/GND" 0.115237
+cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/VDD" 0.0304222
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/x4/a_193_47#" 0.583731
+cap "seg_selector_logic_0/SB[3]" "seg_selector_logic_0/bb[8]" 0.000678339
+cap "seg_selector_logic_0/bb[7]" "seg_selector_logic_0/x2/x4/A" 0.53543
+cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/S[2]" 0.212974
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/BS[9]" 0.390611
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" "seg_selector_logic_0/S[2]" 3.94877
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/VDD" 1.88522
+cap "seg_selector_logic_0/x2/x4/C" "seg_selector_logic_0/VDD" 1.57178
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/x2/x4/A" 5.54608
+cap "logic_shift_seg2_0/x4/a_193_47#" "seg_selector_logic_0/S[2]" 0.0957305
+cap "seg_selector_logic_0/bb[7]" "seg_selector_logic_0/S[2]" 0.144485
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/GND" -2.92248
+cap "seg_selector_logic_0/x2/x4/a_277_47#" "logic_shift_seg2_0/BSB[8]" 0.0650574
+cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x2/x4/a_109_47#" 0.0519067
+cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/x2/x5/Y" 0.0307222
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/S[2]" 0.170976
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/BS[8]" 0.0124976
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/b[6]" 1.52812
+cap "seg_selector_logic_0/x2/x4/C" "logic_shift_seg2_0/BS[8]" 0.00219762
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "logic_shift_seg2_0/BS[9]" -1.52636
+cap "seg_selector_logic_0/GND" "seg_selector_logic_0/b[6]" 1.04035
+cap "logic_shift_seg2_0/BSB[8]" "logic_shift_seg2_0/BSB[9]" -4.44089e-16
+cap "seg_selector_logic_0/GND" "seg_selector_logic_0/x2/x5/Y" 0.0345449
+cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/VDD" 0.170472
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/BS[9]" 17.5266
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/VDD" 0.149331
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/BSB[8]" 0.0114507
+cap "seg_selector_logic_0/S[2]" "logic_shift_seg2_0/BS[9]" 10.5557
+cap "seg_selector_logic_0/VDD" "logic_shift_seg2_0/BSB[9]" -0.0952159
+cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/b[6]" 0.0485466
+cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x2/x5/Y" 0.304905
+cap "seg_selector_logic_0/bb[8]" "logic_shift_seg2_0/BS[8]" 0.0013394
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/x3/Y" 9.60749
+cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/VDD" 0.0308019
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/VDD" 0.539002
+cap "logic_shift_seg2_0/BSB[8]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" -0.0117568
+cap "seg_selector_logic_0/b[7]" "logic_shift_seg2_0/x3/Y" -5.68434e-14
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_39#" 0.0978374
+cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x2/x4/A" 23.0771
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/BS[8]" 0.52356
+cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/b[6]" 0.0104069
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/b[9]" 1.34786
+cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/S[2]" 5.52942
+cap "seg_selector_logic_0/S[3]" "logic_shift_seg2_0/x1/Y" 0.0131406
+cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/VDD" 31.5504
+cap "seg_selector_logic_0/b[8]" "logic_shift_seg2_0/x1/Y" 0.0397719
+cap "seg_selector_logic_0/b[6]" "seg_selector_logic_0/b[9]" 2.65188
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/S[2]" 5.69297
+cap "seg_selector_logic_0/x2/x4/B" "logic_shift_seg2_0/x1/Y" 0.0539968
+cap "seg_selector_logic_0/x2/x4/A" "logic_shift_seg2_0/BS[8]" 3.24296
+cap "seg_selector_logic_0/x3/x3/B" "seg_selector_logic_0/b[9]" 0.0654582
+cap "seg_selector_logic_0/x2/x4/A" "seg_selector_logic_0/b[6]" 0.629417
+cap "seg_selector_logic_0/x3/x3/A" "logic_shift_seg2_0/x1/Y" 0.00547031
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/b[8]" 2.17892
+cap "seg_selector_logic_0/x2/x4/C" "logic_shift_seg2_0/x5/A" 0.0151249
+cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/S[2]" 0.0216931
+cap "logic_shift_seg2_0/x5/A" "seg_selector_logic_0/GND" -0.0219772
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/x2/x4/B" 0.089473
+cap "seg_selector_logic_0/b[6]" "seg_selector_logic_0/S[2]" 0.00294721
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/GND" 0.264755
+cap "seg_selector_logic_0/x2/x4/C" "seg_selector_logic_0/GND" 0.320396
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/x3/x3/A" 0.00542385
+cap "logic_shift_seg2_0/x5/A" "logic_shift_seg2_0/x2/Y" -2.77556e-17
+cap "seg_selector_logic_0/x2/x4/B" "logic_shift_seg2_0/BS[9]" 3.12991
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/x2/Y" 0.474719
+cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/VDD" 1.13129
+cap "seg_selector_logic_0/x2/x4/C" "logic_shift_seg2_0/x2/Y" 0.00694031
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/bb[8]" 0.0259526
+cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/GND" -0.163955
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_305#" 0.327624
+cap "seg_selector_logic_0/x2/x4/C" "seg_selector_logic_0/bb[8]" 1.19079
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/GND" -0.0204782
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/BSB[9]" -0.00557039
+cap "seg_selector_logic_0/GND" "logic_shift_seg2_0/BSB[9]" -26.1705
+cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x2/x5/Y" 0.97122
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/x6/Y" 0.0106944
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/bb[6]" 0.0150669
+cap "seg_selector_logic_0/x1/x3/B" "logic_shift_seg2_0/BS[9]" 0.0602236
+cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x3/x3/B" 0.388888
+cap "seg_selector_logic_0/x2/x4/C" "logic_shift_seg2_0/x6/Y" 0.00199949
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/S[2]" 33.9772
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/BS[9]" -1.1509
+cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" -57.4186
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/S[2]" 22.7759
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/BS[9]" 0.0406137
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/x4/A" -0.0189689
+cap "seg_selector_logic_0/SB[2]" "seg_selector_logic_0/S[2]" -6.09901
+cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "seg_selector_logic_0/bb[6]" 2.51474
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/x3/A" -0.065959
+cap "seg_selector_logic_0/bb[8]" "logic_shift_seg2_0/BSB[9]" -0.411843
+cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "seg_selector_logic_0/bb[9]" 3.55407
+cap "logic_shift_seg2_0/BSB[9]" "logic_shift_seg2_0/BS[9]" -15.7949
+cap "seg_selector_logic_0/S[2]" "logic_shift_seg2_0/BSB[9]" 109.45
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/x4/a_109_47#" -0.0197682
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/bb[7]" -2.84217e-14
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" -2.15337
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" "seg_selector_logic_0/bb[9]" 0.532282
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/bb[7]" 0.0172894
+cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "logic_shift_seg2_0/BSB[9]" -17.2553
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" 0.680527
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/x3/a_113_47#" -0.0195994
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/BSB[9]" -0.411843
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/BSB[8]" 0.0125993
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "logic_shift_seg2_0/BSB[9]" -1.24832
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/S[2]" 22.7759
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" -1.40998e-14
+cap "logic_shift_seg2_0/BSB[8]" "logic_shift_seg2_0/BS[8]" -15.7949
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 0.357423
+cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "seg_selector_logic_0/bb[8]" 3.52036
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_305#" 0.334113
 cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "seg_selector_logic_0/S[2]" 49.318
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/x3/a_113_47#" -0.0195994
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" -4.32406
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/bb[6]" 0.0153987
 cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" -2.1415
-cap "seg_selector_logic_0/x2/x3/B" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_305#" 0.334113
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/x3/B" -0.0565686
-cap "seg_selector_logic_0/x3/x1/A" "seg_selector_logic_0/S[2]" 22.7759
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x2/A" 0.129641
-cap "seg_selector_logic_0/x3/x2/B" "seg_selector_logic_0/x3/x2/D" 0.416672
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x2/B" 0.0260336
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x3/x2/B" 0.653237
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x3/x1/B" 0.0295619
-cap "seg_selector_logic_0/x3/x2/C" "seg_selector_logic_0/x3/x2/A" 0.00399534
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x2/A" 0.633345
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x2/B" 1.586
-cap "seg_selector_logic_0/x3/x2/C" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 0.022174
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x3/x2/D" 0.0363658
-cap "seg_selector_logic_0/x3/x2/B" "seg_selector_logic_0/x3/x1/B" 0.191278
-cap "seg_selector_logic_0/x3/x2/C" "seg_selector_logic_0/x3/x2/B" 0.135818
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x3/x2/B" 0.00598177
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x2/B" 3.21163
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x2/x3/B" 0.100275
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x3/x1/B" 0.457541
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x1/x3/A" 0.00399529
-cap "seg_selector_logic_0/x1/x3/B" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.0145645
-cap "seg_selector_logic_0/x3/x1/A" "seg_selector_logic_0/x3/x2/D" 0.446621
-cap "seg_selector_logic_0/S[3]" "seg_selector_logic_0/x2/x1/A" 0.176254
-cap "seg_selector_logic_0/x3/x2/C" "seg_selector_logic_0/x2/x3/B" 0.0465868
-cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x3/x3/A" 0.00177377
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x3/x1/A" 0.043601
-cap "logic_shift_seg2_0/x5/C" "seg_selector_logic_0/x3/x2/B" 0.000104664
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x2/B" 0.0212586
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" "seg_selector_logic_0/x2/x3/B" 2.16952
-cap "seg_selector_logic_0/S[3]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" 0.0689379
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x1/A" -0.0200352
-cap "seg_selector_logic_0/x3/x2/A" "seg_selector_logic_0/x3/x2/B" 0.00594442
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x2/x3/B" 0.107184
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x3/x3/B" 0.000678339
-cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.0145645
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/sky130_fd_sc_hd__inv_1_2/A" 0.00179077
-cap "seg_selector_logic_0/x3/x3/B" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.0065116
-cap "seg_selector_logic_0/x3/x3/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.0509036
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/bb[7]" 1.7053e-13
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" "seg_selector_logic_0/S[2]" 2.20745
+cap "seg_selector_logic_0/bb[7]" "seg_selector_logic_0/S[2]" 22.7759
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/BSB[9]" -1.11751
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/x4/a_193_47#" -0.0476104
+cap "seg_selector_logic_0/S[2]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" 6.93866
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/BSB[9]" -0.362695
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/x3/B" -0.0565686
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/BS[8]" 0.0114078
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_39#" "seg_selector_logic_0/bb[9]" 0.09943
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" -1.83292
+cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "seg_selector_logic_0/bb[7]" 3.52036
+cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/bb[6]" -0.127516
+cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" -4.32406
+cap "logic_shift_seg2_0/BSB[8]" "logic_shift_seg2_0/BS[9]" -2.41569
+cap "seg_selector_logic_0/SB[2]" "seg_selector_logic_0/SB[1]" -1.03704
+cap "logic_shift_seg2_0/x2/A" "seg_selector_logic_0/bb[6]" -0.00183388
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 3.55271e-15
+cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/bb[6]" -0.32581
+cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 52.8255
+cap "logic_shift_seg2_0/x2/a_113_47#" "seg_selector_logic_0/bb[6]" -0.0010502
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/bb[6]" -1.42109e-14
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/bb[9]" 0.0195501
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/b[9]" 0.633345
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/b[8]" 3.21163
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/GND" 0.022174
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/b[9]" 0.00399534
+cap "seg_selector_logic_0/b[6]" "seg_selector_logic_0/b[7]" -32.6087
+cap "seg_selector_logic_0/b[6]" "seg_selector_logic_0/b[9]" 0.0295619
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/b[8]" 0.135818
+cap "seg_selector_logic_0/b[8]" "logic_shift_seg2_0/x6/Y" 0.00598177
+cap "seg_selector_logic_0/b[8]" "logic_shift_seg2_0/x1/Y" 0.0260336
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/b[7]" 0.0363658
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/GND" 0.129641
+cap "seg_selector_logic_0/b[6]" "seg_selector_logic_0/b[8]" 0.191278
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/b[8]" -32.192
+cap "seg_selector_logic_0/b[8]" "seg_selector_logic_0/GND" 1.586
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/b[8]" -31.9555
+cap "seg_selector_logic_0/bb[8]" "logic_shift_seg2_0/BS[9]" 0.00681367
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/x6/Y" 0.0283186
+cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/b[6]" 0.00448579
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/S[3]" 0.176254
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/VDD" 0.0145645
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/b[6]" 0.0217709
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/S[3]" 0.427531
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/bb[9]" 0.0465868
+cap "seg_selector_logic_0/GND" "seg_selector_logic_0/bb[7]" -0.0200352
 cap "seg_selector_logic_0/x2/x5/Y" "seg_selector_logic_0/x3/x3/B" 1.11022e-16
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_39#" "seg_selector_logic_0/x2/x3/B" 0.299148
-cap "seg_selector_logic_0/x3/x2/C" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.00138709
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_305#" "seg_selector_logic_0/x2/x3/B" 1.02965
-cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/x2/x3/B" 7.10543e-15
-cap "seg_selector_logic_0/x1/x3/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.0684764
-cap "seg_selector_logic_0/x3/x1/A" "seg_selector_logic_0/x2/x3/B" 0.0516055
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x3/A" 0.00119619
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x2/C" 0.253612
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x3/x1/B" 0.00271335
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x2/x3/B" 0.0334564
-cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" "seg_selector_logic_0/x2/x3/B" 1.58398
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/x1/x3/A" 0.00429127
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x3/x3/B" 0.402628
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x1/B" 0.0217709
-cap "seg_selector_logic_0/x2/x3/B" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 1.07377
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x3/B" 0.0274434
+cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/bb[9]" 0.0334564
+cap "seg_selector_logic_0/GND" "seg_selector_logic_0/b[6]" 0.00132401
+cap "seg_selector_logic_0/GND" "seg_selector_logic_0/S[3]" 0.0689379
+cap "seg_selector_logic_0/b[8]" "logic_shift_seg2_0/x1/Y" 2.17144e-19
+cap "seg_selector_logic_0/b[8]" "seg_selector_logic_0/b[9]" 0.00594442
 cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x3/x3/A" 0.00610505
-cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x3/x1/A" 0.0050785
-cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/x2/x3/B" 0.12538
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x2/C" -0.00661447
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" "seg_selector_logic_0/x3/x2/B" 0.13302
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x2/x1/A" 0.00681367
-cap "seg_selector_logic_0/S[3]" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.427531
-cap "seg_selector_logic_0/x2/x4/C" "seg_selector_logic_0/x3/x3/B" 3.46945e-18
-cap "seg_selector_logic_0/x3/x1/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.0596886
-cap "logic_shift_seg2_0/x6/Y" "seg_selector_logic_0/x3/x1/A" 0.0283186
-cap "seg_selector_logic_0/x3/x2/D" "seg_selector_logic_0/x3/x1/B" 0.0039164
-cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x2/B" 2.17144e-19
-cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x3/x1/B" 0.00448579
-cap "seg_selector_logic_0/x2/x1/A" "seg_selector_logic_0/x2/x3/B" 0.0574795
+cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/bb[9]" 0.199578
+cap "seg_selector_logic_0/bb[7]" "seg_selector_logic_0/bb[9]" 0.0516055
 cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x3/x3/A" 0.00821934
-cap "logic_shift_seg2_0/BS[9]" "seg_selector_logic_0/x3/x2/C" 0.00661278
-cap "seg_selector_logic_0/sky130_fd_sc_hd__inv_1_2/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" 0.00104032
-cap "logic_shift_seg2_0/BSB[8]" "seg_selector_logic_0/x2/x3/B" 0.199578
-cap "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND" "seg_selector_logic_0/x3/x1/B" 0.00132401
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" 2.16952
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/BS[9]" 0.107184
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/bb[9]" 0.0574795
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/x3/x3/A" 0.0509036
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/bb[9]" 1.07377
+cap "seg_selector_logic_0/x1/x3/A" "logic_shift_seg2_0/BSB[9]" 0.00429127
+cap "seg_selector_logic_0/bb[9]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_305#" 1.58398
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/x1/Y" 0.253612
+cap "seg_selector_logic_0/bb[7]" "seg_selector_logic_0/b[7]" 0.446621
+cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/x3/x3/B" 0.000678339
+cap "seg_selector_logic_0/GND" "seg_selector_logic_0/bb[9]" 0.100275
+cap "seg_selector_logic_0/b[7]" "seg_selector_logic_0/b[6]" 0.0039164
+cap "seg_selector_logic_0/b[8]" "logic_shift_seg2_0/x5/C" 0.000104664
+cap "seg_selector_logic_0/S[2]" "seg_selector_logic_0/bb[9]" 7.10543e-15
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_39#" "seg_selector_logic_0/bb[9]" 0.299148
+cap "seg_selector_logic_0/b[9]" "seg_selector_logic_0/b[6]" 0.457541
+cap "seg_selector_logic_0/b[8]" "seg_selector_logic_0/VDD" 0.13302
+cap "logic_shift_seg2_0/x3/Y" "seg_selector_logic_0/x3/x3/B" 0.402628
+cap "seg_selector_logic_0/VDD" "seg_selector_logic_0/x3/x3/B" 0.0065116
+cap "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_1/a_31_305#" "seg_selector_logic_0/bb[9]" 1.02965
+cap "seg_selector_logic_0/x2/x4/C" "seg_selector_logic_0/x3/x3/B" 3.46945e-18
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/BS[8]" 0.0050785
+cap "seg_selector_logic_0/b[8]" "seg_selector_logic_0/GND" 0.0212586
+cap "logic_shift_seg2_0/BSB[9]" "seg_selector_logic_0/bb[9]" 0.12538
+cap "seg_selector_logic_0/GND" "seg_selector_logic_0/x3/x3/B" 0.0274434
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/BS[9]" 0.00661278
+cap "logic_shift_seg2_0/x2/Y" "seg_selector_logic_0/x3/x3/A" 0.00177377
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/VDD" 0.00138709
+cap "logic_shift_seg2_0/BS[8]" "seg_selector_logic_0/b[6]" 0.00271335
+cap "seg_selector_logic_0/x1/x3/A" "logic_shift_seg2_0/BS[9]" 0.00399529
+cap "seg_selector_logic_0/S[4]" "logic_shift_seg2_0/x3/Y" 0.00179077
+cap "seg_selector_logic_0/x1/x3/A" "seg_selector_logic_0/VDD" 0.0684764
+cap "logic_shift_seg2_0/x1/Y" "seg_selector_logic_0/x3/x3/A" 0.00119619
+cap "seg_selector_logic_0/S[4]" "seg_selector_logic_0/VDD" 0.00104032
+cap "seg_selector_logic_0/bb[7]" "logic_shift_seg2_0/x3/Y" 0.043601
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/GND" -0.00661447
+cap "seg_selector_logic_0/bb[7]" "seg_selector_logic_0/VDD" 0.0596886
+cap "seg_selector_logic_0/x1/x3/B" "seg_selector_logic_0/VDD" 0.0145645
+cap "seg_selector_logic_0/bb[6]" "seg_selector_logic_0/bb[7]" -32.6087
+cap "seg_selector_logic_0/SB[2]" "seg_selector_logic_0/SB[1]" -1.03704
+cap "seg_selector_logic_0/S[3]" "seg_selector_logic_0/SB[4]" -0.621176
+cap "seg_selector_logic_0/bb[6]" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" 0.03506
+cap "seg_selector_logic_0/S[3]" "seg_selector_logic_0/S[1]" -15.7949
+cap "seg_selector_logic_0/bb[8]" "seg_selector_logic_0/bb[7]" -32.6087
 cap "seg_selector_logic_0/x1/x3/A" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" 0.00624192
-cap "seg_selector_logic_0/x2/x5/A" "logic_shift_seg2_0/sky130_ef_sc_hd__fill_4_0/a_31_39#" 0.03506
-merge "logic_shift_seg2_0/b[9]" "seg_selector_logic_0/x3/x2/A" -44.5183 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+cap "seg_selector_logic_0/SB[3]" "seg_selector_logic_0/SB[1]" -15.7949
+cap "seg_selector_logic_0/SB[3]" "seg_selector_logic_0/S[1]" -8.67606
+cap "seg_selector_logic_0/bb[9]" "seg_selector_logic_0/bb[8]" -32.6087
+cap "seg_selector_logic_0/SB[4]" "seg_selector_logic_0/S[3]" -0.621176
+cap "seg_selector_logic_0/SB[4]" "seg_selector_logic_0/S[4]" -8.62745
+merge "logic_shift_seg2_0/bb[8]" "seg_selector_logic_0/bb[8]" -51.5904 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -368 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/bb[8]" "bb[8]"
+merge "logic_shift_seg2_0/b[9]" "seg_selector_logic_0/b[9]" -80.4807 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -368 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/b[9]" "b[9]"
 merge "logic_shift_seg2_0/VSUBS" "seg_selector_logic_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "seg_selector_logic_0/VSUBS" "VSUBS"
-merge "logic_shift_seg2_0/bb[8]" "seg_selector_logic_0/x1/x2/B" -26.5526 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "seg_selector_logic_0/x1/x2/B" "seg_selector_logic_0/x2/x1/A"
-merge "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" -2180.95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -75072 -4484 -211968 -4608 -29952 -1008 0 0 0 0 0 0 0 0
-merge "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND"
+merge "logic_shift_seg2_0/BS[8]" "DS[8]" -18.3795 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0
+merge "logic_shift_seg2_0/BS[9]" "DS[9]" -22.1911 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0
+merge "logic_shift_seg2_0/bb[7]" "seg_selector_logic_0/bb[7]" -56.8819 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -368 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/bb[7]" "bb[7]"
+merge "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_3/VGND" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" -2198.85 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -75072 -4484 -211968 -4608 -30736 -1120 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VGND" "GND"
+merge "GND" "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND"
 merge "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "logic_shift_seg2_0/x1/VGND"
 merge "logic_shift_seg2_0/x1/VGND" "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
 merge "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "logic_shift_seg2_0/x2/VGND"
@@ -428,13 +512,28 @@ merge "seg_selector_logic_0/x2/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "seg_selec
 merge "seg_selector_logic_0/x2/x3/VGND" "seg_selector_logic_0/x2/x2/VGND"
 merge "seg_selector_logic_0/x2/x2/VGND" "seg_selector_logic_0/x2/x1/VGND"
 merge "seg_selector_logic_0/x2/x1/VGND" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND"
-merge "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VGND"
-merge "logic_shift_seg2_0/b[8]" "seg_selector_logic_0/x3/x2/B" -50.6166 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "logic_shift_seg2_0/b[7]" "seg_selector_logic_0/x3/x2/D" -79.0555 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "logic_shift_seg2_0/b[6]" "seg_selector_logic_0/x3/x1/B" -44.3856 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "logic_shift_seg2_0/bb[6]" "seg_selector_logic_0/x2/x5/A" -40.0624 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "seg_selector_logic_0/x2/x5/A" "seg_selector_logic_0/x3/x2/C"
-merge "logic_shift_seg2_0/bb[7]" "seg_selector_logic_0/x3/x1/A" -31.8441 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" -77.9522 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14976 -504 0 0 0 0 0 0 0 0
-merge "logic_shift_seg2_0/VDD" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_7/VPWR" -118.82 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14976 -504 0 0 0 0 0 0 0 0
-merge "logic_shift_seg2_0/m2_7109_n3782#" "seg_selector_logic_0/x2/x3/B" -41.8187 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_4/VGND" "seg_selector_logic_0/GND"
+merge "logic_shift_seg2_0/b[8]" "seg_selector_logic_0/b[8]" -75.6544 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -368 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/b[8]" "b[8]"
+merge "logic_shift_seg2_0/bb[6]" "seg_selector_logic_0/bb[6]" -76.0249 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -368 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/bb[6]" "bb[6]"
+merge "logic_shift_seg2_0/b[7]" "seg_selector_logic_0/b[7]" -104.093 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -368 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/b[7]" "b[7]"
+merge "logic_shift_seg2_0/b[6]" "seg_selector_logic_0/b[6]" -80.348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -368 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/b[6]" "b[6]"
+merge "logic_shift_seg2_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" -214.678 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30736 -1120 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/sky130_fd_sc_hd__tapvpwrvgnd_1_8/VPWR" "logic_shift_seg2_0/VDD"
+merge "logic_shift_seg2_0/VDD" "VDD"
+merge "VDD" "seg_selector_logic_0/VDD"
+merge "logic_shift_seg2_0/BSB[8]" "DSB[8]" -52.8272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0
+merge "logic_shift_seg2_0/BSB[9]" "DSB[9]" -102.415 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/S[4]" "S[4]" -19.5127 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/S[3]" "S[3]" -17.0595 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/S[2]" "S[2]" -213.382 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/SB[4]" "SB[4]" -18.1123 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/SB[3]" "SB[3]" -12.9674 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/S[1]" "S[1]" -12.9674 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0
+merge "logic_shift_seg2_0/m2_7109_n3782#" "seg_selector_logic_0/bb[9]" -77.7811 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -368 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/bb[9]" "bb[9]"
+merge "seg_selector_logic_0/SB[2]" "SB[2]" -16.6552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0
+merge "seg_selector_logic_0/SB[1]" "SB[1]" -15.5654 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0 0 0

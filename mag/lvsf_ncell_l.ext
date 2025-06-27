@@ -10,13 +10,13 @@ node "a_923_n339#" 108 293.387 923 -339 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "a_769_n339#" 108 293.387 769 -339 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6486 334 0 0 2244 200 4320 264 4320 264 0 0 0 0 0 0 0 0
 substrate "a_399_n430#" 0 0 399 -430 ppd 0 0 0 0 0 0 0 0 0 0 59400 2100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31620 1928 103080 3556 0 0 0 0 0 0 0 0 0 0
 cap "a_769_n339#" "a_923_n339#" 46.8963
+cap "sky130_fd_pr__nfet_01v8_AT5T57_0/a_n73_n300#" "sky130_fd_pr__nfet_01v8_AT5T57_0/a_15_n300#" 22.7529
+cap "sky130_fd_pr__nfet_01v8_AT5T57_1/a_n15_n326#" "sky130_fd_pr__nfet_01v8_AT5T57_0/a_15_n300#" 4.81462
+cap "sky130_fd_pr__nfet_01v8_AT5T57_1/a_15_n300#" "sky130_fd_pr__nfet_01v8_AT5T57_0/a_15_n300#" 22.7529
 cap "sky130_fd_pr__nfet_01v8_AT5T57_0/a_15_n300#" "sky130_fd_pr__nfet_01v8_AT5T57_0/a_n15_n326#" 4.81462
-cap "sky130_fd_pr__nfet_01v8_AT5T57_0/a_15_n300#" "sky130_fd_pr__nfet_01v8_AT5T57_1/a_n15_n326#" 4.81462
-cap "sky130_fd_pr__nfet_01v8_AT5T57_0/a_n15_n326#" "sky130_fd_pr__nfet_01v8_AT5T57_1/a_n15_n326#" 14.3448
-cap "sky130_fd_pr__nfet_01v8_AT5T57_0/a_15_n300#" "sky130_fd_pr__nfet_01v8_AT5T57_0/a_n73_n300#" 22.7529
-cap "sky130_fd_pr__nfet_01v8_AT5T57_0/a_n15_n326#" "sky130_fd_pr__nfet_01v8_AT5T57_0/a_n73_n300#" 60.2043
-cap "sky130_fd_pr__nfet_01v8_AT5T57_0/a_15_n300#" "sky130_fd_pr__nfet_01v8_AT5T57_1/a_15_n300#" 22.7529
-cap "sky130_fd_pr__nfet_01v8_AT5T57_1/a_15_n300#" "sky130_fd_pr__nfet_01v8_AT5T57_1/a_n15_n326#" 60.2043
+cap "sky130_fd_pr__nfet_01v8_AT5T57_1/a_n15_n326#" "sky130_fd_pr__nfet_01v8_AT5T57_0/a_n15_n326#" 14.3448
+cap "sky130_fd_pr__nfet_01v8_AT5T57_1/a_n15_n326#" "sky130_fd_pr__nfet_01v8_AT5T57_1/a_15_n300#" 60.2043
+cap "sky130_fd_pr__nfet_01v8_AT5T57_0/a_n73_n300#" "sky130_fd_pr__nfet_01v8_AT5T57_0/a_n15_n326#" 60.2043
 merge "sky130_fd_pr__nfet_01v8_AT5T57_0/VSUBS" "sky130_fd_pr__nfet_01v8_AT5T57_0/a_15_n300#" -824.134 0 0 0 0 0 0 0 0 -34800 -1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20672 -1284 -55200 -2584 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__nfet_01v8_AT5T57_0/a_15_n300#" "sky130_fd_pr__nfet_01v8_AT5T57_1/VSUBS"
 merge "sky130_fd_pr__nfet_01v8_AT5T57_1/VSUBS" "sky130_fd_pr__nfet_01v8_AT5T57_1/a_n73_n300#"

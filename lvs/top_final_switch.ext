@@ -1,0 +1,133 @@
+timestamp 1751053417
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use seg_sel_pmos seg_sel_pmos_0 1 0 10148 0 1 12795
+use seg_sel_nmos seg_sel_nmos_0 1 0 15337 0 1 13280
+use interpolation_switch interpolation_switch_0 1 0 15195 0 1 13261
+port "bb[0]" 4 17133 13405 17161 13433 m2
+port "b[0]" 0 17133 13463 17161 13491 m2
+port "bb[1]" 5 17129 13654 17157 13682 m2
+port "b[1]" 1 17129 13712 17157 13740 m2
+port "bb[2]" 6 17128 13903 17156 13931 m2
+port "b[2]" 2 17128 13961 17156 13989 m2
+port "bb[3]" 7 17131 14152 17159 14180 m2
+port "b[3]" 3 17131 14210 17159 14238 m2
+port "VS4" 17 16915 13089 16975 13149 m1
+port "SH[4]" 11 16835 13089 16863 13117 m1
+port "SH[3]" 10 16677 13089 16705 13117 m1
+port "VL3" 15 16323 14548 16383 14608 m1
+port "VH3" 16 15973 14548 16033 14608 m1
+port "VL2" 13 15517 14548 15577 14608 m1
+port "VH2" 14 15167 14548 15227 14608 m1
+port "SH[2]" 9 14837 13111 14865 13139 m1
+port "VOUT[0]" 18 14407 13288 14467 13354 m3
+port "VOUT[1]" 19 14407 13537 14467 13603 m3
+port "VOUT[2]" 20 14407 13786 14467 13852 m3
+port "VOUT[3]" 21 14407 14035 14467 14101 m3
+port "SH[1]" 8 14679 13111 14707 13139 m1
+port "VS1" 12 14567 13111 14627 13171 m1
+port "VOUT[4]" 22 14407 14285 14467 14351 m3
+port "VDDH" 23 16511 14484 16571 14542 m1
+port "GND" 24 14509 14495 14569 14553 m1
+node "bb[0]" 0 0 17133 13405 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[0]" 0 0 17133 13463 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[1]" 0 0 17129 13654 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[1]" 0 0 17129 13712 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[2]" 0 0 17128 13903 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[2]" 0 0 17128 13961 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bb[3]" 0 0 17131 14152 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b[3]" 0 0 17131 14210 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VS4" 0 0 16915 13089 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[4]" 0 0 16835 13089 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[3]" 0 0 16677 13089 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_16339_13233#" 0 0 16339 13233 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_14907_13221#" 0 0 14907 13221 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_16589_13351#" 0 0 16589 13351 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_14915_13540#" 0 0 14915 13540 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_16146_13291#" 0 0 16146 13291 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_16146_13540#" 0 0 16146 13540 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_14915_13789#" 0 0 14915 13789 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_16146_13789#" 0 0 16146 13789 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VL3" 0 0 16323 14548 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VH3" 0 0 15973 14548 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_14915_14038#" 0 0 14915 14038 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VL2" 0 0 15517 14548 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VH2" 0 0 15167 14548 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[2]" 0 0 14837 13111 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VOUT[0]" 0 0 14407 13288 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VOUT[1]" 0 0 14407 13537 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VOUT[2]" 0 0 14407 13786 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VOUT[3]" 0 0 14407 14035 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[1]" 0 0 14679 13111 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VS1" 0 0 14567 13111 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_14915_14287#" 0 0 14915 14287 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VOUT[4]" 0 0 14407 14285 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_17049_13227#" 0 0 17049 13227 mvnsc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_15865_13227#" 0 0 15865 13227 mvnsc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_15925_13167#" 0 0 15925 13167 mvnsc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDDH" 0 0 16511 14484 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "GND" 0 0 14509 14495 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/interpolation_s3_v2_0/m1_15657_13912#" "b[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/interpolation_s3_v2_0/li_15291_13635#" "VDDH" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "VDDH" "interpolation_switch_0/interpolation_s3_v2_0/w_15213_13557#"
+merge "interpolation_switch_0/interpolation_s3_v2_0/w_15213_13557#" "a_15865_13227#"
+merge "a_15865_13227#" "seg_sel_pmos_0/li_6309_372#"
+merge "seg_sel_pmos_0/li_6309_372#" "seg_sel_pmos_0/w_6231_294#"
+merge "seg_sel_pmos_0/w_6231_294#" "a_17049_13227#"
+merge "a_17049_13227#" "a_15925_13167#"
+merge "interpolation_switch_0/interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_n29_n327#" "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_129_n78#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_129_n78#" "m1_16146_13291#"
+merge "seg_sel_pmos_0/VSUBS" "interpolation_switch_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/VSUBS" "interpolation_switch_0/interpolation_s2_v2_0/li_14740_13627#"
+merge "interpolation_switch_0/interpolation_s2_v2_0/li_14740_13627#" "interpolation_switch_0/interpolation_s2_v2_0/a_14728_13615#"
+merge "interpolation_switch_0/interpolation_s2_v2_0/a_14728_13615#" "seg_sel_nmos_0/li_n882_n121#"
+merge "seg_sel_nmos_0/li_n882_n121#" "seg_sel_nmos_0/a_n894_n133#"
+merge "seg_sel_nmos_0/a_n894_n133#" "GND"
+merge "interpolation_switch_0/interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_n29_171#" "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_129_420#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_129_420#" "m1_16146_13789#"
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_n29_n576#" "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_n29_n73#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_n29_n73#" "VOUT[0]"
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_n29_n327#" "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_1/a_n29_n73#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_1/a_n29_n73#" "VOUT[1]"
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_n129_n104#" "SH[4]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/interpolation_s2_v2_0/m1_15202_13747#" "VL2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "VL2" "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#"
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_129_n73#" "m1_14907_13221#"
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_n29_420#" "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_4/a_n29_n73#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_4/a_n29_n73#" "VOUT[4]"
+merge "interpolation_switch_0/interpolation_s3_v2_0/m1_15499_13845#" "bb[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/interpolation_s3_v2_0/m1_15749_13747#" "VL3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "VL3" "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_129_n576#"
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_129_n576#" "m1_16339_13233#"
+merge "m1_16339_13233#" "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_129_n327#"
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_129_n327#" "m1_16589_13351#"
+merge "seg_sel_nmos_0/m1_n756_n1#" "VS1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_2/a_29_n99#" "SH[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/interpolation_s3_v2_0/m1_15499_14343#" "bb[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_n29_171#" "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_3/a_n29_n73#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_3/a_n29_n73#" "VOUT[3]"
+merge "seg_sel_pmos_0/m1_6767_472#" "VS4" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_3/a_n29_n73#" "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_4/a_129_n73#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_4/a_129_n73#" "m1_14915_14287#"
+merge "interpolation_switch_0/interpolation_s3_v2_0/m1_15657_14412#" "b[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_n29_n78#" "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_2/a_n29_n73#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_2/a_n29_n73#" "VOUT[2]"
+merge "interpolation_switch_0/interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_2/a_n29_n73#" "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_3/a_129_n73#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_3/a_129_n73#" "m1_14915_14038#"
+merge "interpolation_switch_0/m2_282_891#" "bb[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/interpolation_s3_v2_0/m1_15657_14167#" "b[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/interpolation_s3_v2_0/m1_15499_14094#" "bb[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0/a_n29_n73#" "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_1/a_129_n73#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_1/a_129_n73#" "m1_14915_13540#"
+merge "interpolation_switch_0/interpolation_s2_v2_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_1/a_n29_n73#" "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_2/a_129_n73#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_2/a_129_n73#" "m1_14915_13789#"
+merge "interpolation_switch_0/interpolation_s3_v2_0/sky130_fd_pr__pfet_g5v0d10v5_Z832FA_0/a_n29_n78#" "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_129_171#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_129_171#" "m1_16146_13540#"
+merge "interpolation_switch_0/interpolation_s2_v2_0/m1_14866_13747#" "VH2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_nmos_0/sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_2/a_n129_n99#" "SH[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/interpolation_s3_v2_0/m1_15413_13747#" "VH3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "seg_sel_pmos_0/sky130_fd_pr__pfet_g5v0d10v5_Y8TEUT_0/a_29_n104#" "SH[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "interpolation_switch_0/m2_130_949#" "b[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

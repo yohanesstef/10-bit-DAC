@@ -1,0 +1,43 @@
+timestamp 1750060524
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use cm_ncell_4 cm_ncell_4_0 1 0 9 0 1 6
+node "m1_n21_594#" 2 687.218 -21 594 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120320 3168 0 0 0 0 0 0 0 0 0 0
+node "li_n21_617#" 566 674.896 -21 617 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51136 3076 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "a_n21_604#" 0 0 -21 604 mvppd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 90240 3128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_n21_594#" "li_n21_617#" 231.33
+cap "a_n21_604#" "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" 0.0571881
+cap "a_n21_604#" "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" 0.0571881
+cap "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "a_n21_604#" 0.0571881
+cap "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" "li_n21_617#" 1.99146
+cap "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" "m1_n21_594#" 4.19429
+cap "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "a_n21_604#" 0.0571881
+cap "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "li_n21_617#" 1.99146
+cap "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "li_n21_617#" 1.99146
+cap "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" "a_n21_604#" 0.0571881
+cap "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" "m1_n21_594#" 4.19429
+cap "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "li_n21_617#" 1.99146
+cap "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n100_n117#" "a_n21_604#" 0.235956
+cap "a_n21_604#" "li_n21_617#" -7.10543e-15
+cap "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "m1_n21_594#" 4.19429
+cap "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "m1_n21_594#" 4.19429
+cap "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" "li_n21_617#" 1.99146
+cap "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "m1_n21_594#" 4.19429
+cap "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n100_n117#" "li_n21_617#" 51.2206
+cap "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "a_n21_604#" 0.0571881
+cap "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" "m1_n21_594#" 4.19429
+cap "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n100_n117#" "m1_n21_594#" 79.0536
+cap "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "li_n21_617#" 1.99146
+cap "a_n21_604#" "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" 0.0571881
+cap "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n158_n91#" "m1_n21_594#" 4.19429
+cap "li_n21_617#" "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" 1.99146
+cap "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" "m1_n21_594#" 4.19429
+cap "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" "a_n21_604#" 0.0571881
+cap "li_n21_617#" "cm_ncell_4_0/cm_ncell_2_1/cm_ncell_1_1/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_100_n91#" 1.99146
+cap "m1_n21_594#" "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n100_n117#" 1.62796
+cap "a_n21_604#" "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n100_n117#" 0.033708
+cap "li_n21_617#" "cm_ncell_4_0/cm_ncell_2_0/cm_ncell_1_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_0/a_n100_n117#" 1.37036
+merge "cm_ncell_4_0/VSUBS" "a_n21_604#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

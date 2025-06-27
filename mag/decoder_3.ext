@@ -1,245 +1,241 @@
-timestamp 1750825354
+timestamp 1750842002
 version 8.3
 tech sky130A
 style ngspice()
 scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
-use decoder_2to4 decoder_2to4_2 1 0 2225 0 1 1810
-use decoder_2to4 decoder_2to4_1 1 0 801 0 1 1810
-use dec_2 dec_2_0 1 0 4273 0 1 20
+use decoder_2to4 decoder_2to4_2 1 0 3649 0 1 1810
+use decoder_2to4 decoder_2to4_1 1 0 2225 0 1 1810
+use dec_2 dec_2_0 1 0 1425 0 1 20
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "decoder_2to4_2/GND" "decoder_2to4_1/b[0]" 1.69009
-cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/VDD" 0.958704
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 31.4764
+cap "decoder_2to4_1/bb[0]" "dec_2_0/decoder_2to4_0/b[1]" 9.88129
+cap "decoder_2to4_2/VDD" "dec_2_0/decoder_2to4_0/b[0]" 2.55124
+cap "decoder_2to4_1/bb[0]" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.639155
+cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "dec_2_0/decoder_2to4_0/b[1]" 2.84217e-14
+cap "decoder_2to4_1/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.133433
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_2/GND" 0.295879
+cap "decoder_2to4_1/bb[0]" "dec_2_0/decoder_2to4_0/bb[0]" 2.24594
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "dec_2_0/decoder_2to4_0/b[0]" 1.44396
+cap "decoder_2to4_1/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "dec_2_0/decoder_2to4_0/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 50.426
+cap "decoder_2to4_1/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_2/GND" 0.00626116
+cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/GND" 7.05692
+cap "dec_2_0/decoder_2to4_0/b[1]" "dec_2_0/decoder_2to4_0/b[0]" -2.84217e-14
+cap "decoder_2to4_1/bb[0]" "dec_2_0/decoder_2to4_0/b[0]" 8.71405
+cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "dec_2_0/decoder_2to4_0/b[0]" -5.68434e-14
+cap "dec_2_0/decoder_2to4_0/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "decoder_2to4_2/GND" 3.89568
+cap "decoder_2to4_1/bb[1]" "dec_2_0/decoder_2to4_0/b[1]" 0.971383
+cap "dec_2_0/decoder_2to4_0/b[0]" "decoder_2to4_2/GND" 1.69009
+cap "dec_2_0/decoder_2to4_0/b[1]" "decoder_2to4_2/VDD" 5.85338
+cap "dec_2_0/decoder_2to4_0/b[0]" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/a_113_47#" 0.0614069
+cap "dec_2_0/decoder_2to4_0/b[0]" "decoder_2to4_1/b[0]" 0.421878
+cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/VDD" 0.958704
+cap "decoder_2to4_1/bb[1]" "dec_2_0/decoder_2to4_0/b[0]" 0.228896
+cap "dec_2_0/decoder_2to4_0/b[0]" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" 2.07299
+cap "dec_2_0/decoder_2to4_0/bb[0]" "decoder_2to4_2/VDD" 0.753456
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "dec_2_0/decoder_2to4_0/b[1]" 0.684345
+cap "dec_2_0/decoder_2to4_0/b[0]" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/a_113_47#" 0.00273679
 cap "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_2/GND" 0.00626116
+cap "decoder_2to4_1/bb[0]" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 1.22098
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" "dec_2_0/decoder_2to4_0/b[0]" 2.04343
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "dec_2_0/decoder_2to4_0/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 0.133433
+cap "dec_2_0/decoder_2to4_0/b[1]" "decoder_2to4_1/bb[0]" 9.91088
+cap "decoder_2to4_2/GND" "dec_2_0/decoder_2to4_0/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 0.00626116
+cap "decoder_2to4_1/bb[0]" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_2/Y" 0.145881
+cap "dec_2_0/decoder_2to4_0/bb[0]" "decoder_2to4_1/bb[0]" 2.35551
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" "decoder_2to4_2/GND" 0.115717
 cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_1/b[1]" 2.84217e-14
-cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/bb[0]" 0.639155
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/a_113_47#" "decoder_2to4_1/b[0]" 0.0614069
-cap "decoder_2to4_2/bb[1]" "decoder_2to4_1/b[1]" 0.971383
-cap "decoder_2to4_2/VDD" "decoder_2to4_1/b[0]" 2.55124
-cap "decoder_2to4_1/b[1]" "decoder_2to4_1/b[0]" -2.84217e-14
-cap "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_1/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 50.426
-cap "decoder_2to4_2/bb[0]" "decoder_2to4_1/b[0]" 8.71405
-cap "decoder_2to4_1/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "decoder_2to4_2/GND" 3.89568
-cap "decoder_2to4_1/bb[0]" "decoder_2to4_2/VDD" 0.753456
-cap "decoder_2to4_1/bb[0]" "decoder_2to4_2/bb[0]" 2.24594
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/a_113_47#" "decoder_2to4_1/b[0]" 0.00273679
-cap "decoder_2to4_2/VDD" "decoder_2to4_1/b[1]" 5.85338
-cap "decoder_2to4_2/bb[0]" "decoder_2to4_1/b[1]" 9.88129
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 31.4764
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" "decoder_2to4_1/b[0]" 2.07299
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_1/b[0]" 1.44396
-cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_1/b[0]" -5.68434e-14
-cap "decoder_2to4_2/b[0]" "decoder_2to4_1/b[0]" 0.421878
-cap "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.133433
-cap "decoder_2to4_2/bb[1]" "decoder_2to4_1/b[0]" 0.228896
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_2/GND" 0.295879
+cap "decoder_2to4_2/VDD" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.958704
+cap "decoder_2to4_1/b[0]" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" -5.68434e-14
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.00725196
+cap "decoder_2to4_2/VDD" "decoder_2to4_1/bb[1]" 0.506684
+cap "decoder_2to4_1/bb[1]" "dec_2_0/decoder_2to4_0/b[0]" 0.0831622
+cap "decoder_2to4_2/GND" "decoder_2to4_1/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" 1.79125
+cap "decoder_2to4_2/bb[0]" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.639155
 cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/GND" 7.05692
+cap "decoder_2to4_2/VDD" "decoder_2to4_1/b[1]" 5.85338
+cap "decoder_2to4_1/b[0]" "decoder_2to4_1/b[1]" -2.84217e-14
+cap "decoder_2to4_2/VDD" "decoder_2to4_1/b[0]" 2.55124
+cap "decoder_2to4_1/b[0]" "dec_2_0/decoder_2to4_0/b[0]" 0.407407
+cap "decoder_2to4_2/bb[1]" "decoder_2to4_1/b[1]" 0.971383
+cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 31.4764
+cap "decoder_2to4_2/bb[1]" "decoder_2to4_1/b[0]" 0.228896
+cap "decoder_2to4_1/bb[1]" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.0588749
+cap "decoder_2to4_2/bb[0]" "decoder_2to4_1/b[1]" 9.88129
+cap "decoder_2to4_2/VDD" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 0.603198
+cap "dec_2_0/decoder_2to4_0/b[0]" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 1.37296
+cap "decoder_2to4_2/VDD" "decoder_2to4_2/GND" 2.84217e-14
+cap "decoder_2to4_1/b[0]" "decoder_2to4_2/bb[0]" 8.71405
+cap "dec_2_0/decoder_2to4_0/b[1]" "decoder_2to4_1/bb[1]" 0.832681
+cap "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.133433
+cap "decoder_2to4_1/b[0]" "decoder_2to4_2/GND" 1.70031
+cap "decoder_2to4_1/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "dec_2_0/decoder_2to4_0/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 50.426
+cap "decoder_2to4_2/b[0]" "decoder_2to4_1/b[0]" 0.421878
 cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_1/b[1]" 0.684345
-cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/a_113_47#" "decoder_2to4_2/b[0]" 0.00273679
-cap "decoder_2to4_2/b[1]" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 2.84217e-14
-cap "decoder_2to4_2/bb[1]" "decoder_2to4_2/VDD" 0.506684
+cap "decoder_2to4_1/b[0]" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.000596716
+cap "decoder_2to4_2/VDD" "decoder_2to4_1/bb[0]" 9.44009
+cap "decoder_2to4_2/GND" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 3.81333
+cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_1/b[0]" 1.44396
+cap "decoder_2to4_1/bb[0]" "dec_2_0/decoder_2to4_0/b[0]" 8.86965
+cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/a_113_47#" "decoder_2to4_1/b[0]" 0.00273679
+cap "decoder_2to4_1/b[0]" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" 2.07299
+cap "decoder_2to4_1/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" 10.0178
+cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 32.0301
+cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/GND" 0.796533
+cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_2/GND" 0.295879
+cap "decoder_2to4_1/bb[0]" "decoder_2to4_2/bb[0]" 2.24594
+cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/a_113_47#" "decoder_2to4_1/b[0]" 0.0614069
+cap "decoder_2to4_1/bb[0]" "decoder_2to4_2/GND" 0.336877
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/bb[1]" 0.0588749
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 32.0301
+cap "decoder_2to4_2/GND" "decoder_2to4_2/b[0]" 0.0102172
 cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_1/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 0.133433
-cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/a_113_47#" "decoder_2to4_2/b[0]" 0.0614069
-cap "decoder_2to4_2/bb[1]" "decoder_2to4_1/b[0]" 0.0831622
-cap "decoder_2to4_2/GND" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 7.05692
-cap "decoder_2to4_2/GND" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.796533
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/b[0]" -5.68434e-14
-cap "decoder_2to4_2/b[1]" "decoder_2to4_2/b[0]" -2.84217e-14
-cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/b[0]" 0.000596716
-cap "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_2/GND" 1.79125
-cap "decoder_2to4_2/VDD" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.958704
-cap "decoder_2to4_2/b[1]" "decoder_2to4_2/VDD" 5.85338
-cap "decoder_2to4_2/GND" "decoder_2to4_2/b[0]" 1.70031
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 31.4764
-cap "decoder_2to4_2/b[1]" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 0.684345
-cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" "decoder_2to4_2/b[0]" 2.07299
-cap "decoder_2to4_2/bb[1]" "decoder_2to4_1/b[1]" 0.832681
-cap "decoder_2to4_2/GND" "decoder_2to4_2/VDD" 2.84217e-14
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 32.0301
-cap "decoder_2to4_2/VDD" "decoder_2to4_2/b[0]" 2.55124
-cap "decoder_2to4_2/GND" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 0.295879
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.00725196
-cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/bb[0]" 1.22098
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_2/GND" 3.81333
-cap "decoder_2to4_2/b[0]" "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 1.44396
-cap "decoder_2to4_2/b[0]" "decoder_2to4_1/b[0]" 0.407407
-cap "decoder_2to4_2/GND" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" 0.115717
-cap "decoder_2to4_2/GND" "decoder_2to4_2/bb[0]" 0.336877
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_2/VDD" 0.603198
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "dec_2_0/decoder_2to4_0/bb[0]" 0.639155
-cap "decoder_2to4_2/b[1]" "dec_2_0/decoder_2to4_0/bb[0]" 9.88129
-cap "decoder_2to4_2/VDD" "decoder_2to4_2/bb[0]" 9.44009
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_1/b[0]" 1.37296
-cap "dec_2_0/decoder_2to4_0/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_2/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 10.0178
-cap "dec_2_0/decoder_2to4_0/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.133433
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" "decoder_2to4_1/b[0]" 2.04343
-cap "decoder_2to4_2/bb[0]" "decoder_2to4_1/b[0]" 8.86965
-cap "decoder_2to4_2/b[1]" "dec_2_0/decoder_2to4_0/bb[1]" 0.971383
-cap "decoder_2to4_2/b[0]" "dec_2_0/decoder_2to4_0/bb[0]" 8.71405
-cap "dec_2_0/decoder_2to4_0/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_2/GND" 0.00626116
-cap "decoder_2to4_2/bb[0]" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_2/Y" 0.145881
-cap "decoder_2to4_2/b[0]" "dec_2_0/decoder_2to4_0/bb[1]" 0.228896
-cap "decoder_2to4_1/b[1]" "decoder_2to4_2/bb[0]" 9.91088
-cap "decoder_2to4_1/bb[0]" "decoder_2to4_2/bb[0]" 2.35551
-cap "decoder_2to4_2/bb[1]" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.0588749
-cap "decoder_2to4_2/GND" "decoder_2to4_1/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 0.00626116
-cap "decoder_2to4_2/bb[0]" "dec_2_0/decoder_2to4_0/bb[0]" 2.24594
-cap "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_1/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 50.426
-cap "dec_2_0/decoder_2to4_0/b[0]" "decoder_2to4_2/b[0]" 0.421878
-cap "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/GND" 0.796533
-cap "dec_2_0/decoder_2to4_0/bb[0]" "decoder_2to4_2/GND" 0.336877
-cap "dec_2_0/decoder_2to4_0/bb[1]" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.0588749
-cap "decoder_2to4_2/VNBIAS" "decoder_2to4_2/GND" -1.77636e-15
-cap "dec_2_0/decoder_2to4_0/dec_pcell_0/w_n601_499#" "decoder_2to4_2/GND" 6.66134e-16
-cap "decoder_2to4_2/b[0]" "dec_2_0/decoder_2to4_0/b[0]" 0.407407
-cap "dec_2_0/decoder_2to4_0/bb[1]" "decoder_2to4_2/b[1]" 0.832681
-cap "dec_2_0/decoder_2to4_0/bb[0]" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 1.22098
-cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" "decoder_2to4_2/GND" 0.115717
-cap "dec_2_0/decoder_2to4_0/bb[0]" "decoder_2to4_2/b[1]" 9.91088
-cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_2/GND" 3.81333
-cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_2/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 0.133433
 cap "decoder_2to4_2/VDD" "decoder_2to4_2/GND" 3.55271e-14
-cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.00725196
-cap "dec_2_0/decoder_2to4_0/bb[1]" "decoder_2to4_2/b[0]" 0.0831622
-cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 32.0301
-cap "dec_2_0/decoder_2to4_0/bb[1]" "decoder_2to4_2/VDD" 0.506684
-cap "dec_2_0/decoder_2to4_0/bb[0]" "decoder_2to4_2/b[0]" 8.86965
-cap "dec_2_0/decoder_2to4_0/b[0]" "decoder_2to4_2/GND" 0.0102172
-cap "dec_2_0/decoder_2to4_0/bb[0]" "decoder_2to4_2/VDD" 8.68664
-cap "dec_2_0/decoder_2to4_0/bb[0]" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_2/Y" 0.145881
-cap "decoder_2to4_2/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "decoder_2to4_2/GND" 3.90194
-cap "dec_2_0/decoder_2to4_0/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_2/GND" 1.79125
-cap "dec_2_0/decoder_2to4_0/b[0]" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.000596716
-cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" "decoder_2to4_2/b[0]" 2.04343
-cap "decoder_2to4_2/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "dec_2_0/decoder_2to4_0/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" 90.8342
-cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_2/b[0]" 1.37296
-cap "dec_2_0/decoder_2to4_0/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" "decoder_2to4_2/VDD" 0.603198
-cap "dec_2_0/decoder_2to4_0/bb[0]" "decoder_2to4_2/bb[0]" 2.35551
-cap "decoder_2to4_1/VOUT[1]" "decoder_2to4_2/VDDH" -0.208958
-cap "decoder_2to4_2/VOUT[0]" "decoder_2to4_1/VOUT[0]" 2.51002
-cap "decoder_2to4_1/VOUT[1]" "decoder_2to4_2/VOUT[1]" 3.42983
-cap "decoder_2to4_1/VOUT[1]" "decoder_2to4_2/VOUT[2]" 9.03787
-cap "decoder_2to4_2/VOUT[3]" "decoder_2to4_1/VOUT[2]" 6.57015
-cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[3]" 5.65272
-cap "decoder_2to4_1/VOUT[2]" "decoder_2to4_2/VDDH" -0.257978
-cap "decoder_2to4_1/VOUT[1]" "decoder_2to4_2/VOUT[0]" 0.332297
-cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[0]" -0.254249
-cap "decoder_2to4_1/VOUT[2]" "decoder_2to4_2/VOUT[2]" 3.16456
-cap "decoder_2to4_1/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" 8.20447
+cap "decoder_2to4_2/bb[0]" "decoder_2to4_1/b[0]" 8.86965
+cap "decoder_2to4_2/GND" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 3.81333
+cap "decoder_2to4_1/b[1]" "decoder_2to4_2/bb[1]" 0.832681
+cap "decoder_2to4_2/VDD" "decoder_2to4_2/bb[1]" 0.506684
+cap "decoder_2to4_1/b[0]" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" 2.04343
+cap "decoder_2to4_2/VDD" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 0.603198
+cap "decoder_2to4_2/bb[0]" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 1.22098
+cap "decoder_2to4_1/b[0]" "decoder_2to4_2/b[0]" 0.407407
+cap "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_1/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 90.8342
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" 0.00725196
+cap "decoder_2to4_2/bb[0]" "decoder_2to4_2/GND" 0.336877
+cap "decoder_2to4_1/b[0]" "decoder_2to4_2/bb[1]" 0.0831622
+cap "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" "decoder_2to4_2/GND" 1.79125
+cap "decoder_2to4_2/bb[0]" "decoder_2to4_1/b[1]" 9.91088
+cap "decoder_2to4_2/bb[0]" "decoder_2to4_1/bb[0]" 2.35551
+cap "decoder_2to4_2/GND" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" 0.796533
+cap "decoder_2to4_1/b[0]" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_0/Y" 1.37296
+cap "decoder_2to4_2/bb[0]" "decoder_2to4_2/VDD" 8.68664
+cap "decoder_2to4_2/GND" "decoder_2to4_2/dec_logic_0/sky130_fd_sc_hd__nand2_1_1/Y" 0.115717
+cap "decoder_2to4_2/bb[0]" "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_2/Y" 0.145881
+cap "decoder_2to4_2/GND" "decoder_2to4_1/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" 3.90194
+cap "decoder_2to4_1/dec_logic_0/sky130_fd_sc_hd__nand2_1_3/Y" "decoder_2to4_2/b[0]" 0.000596716
+cap "decoder_2to4_1/VOUT[1]" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" 8.2942
+cap "decoder_2to4_2/VDDH" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" -0.208958
+cap "decoder_2to4_1/VOUT[0]" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" 0.332297
+cap "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" "decoder_2to4_2/VDDH" -0.257978
+cap "decoder_2to4_1/VOUT[2]" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" 9.03787
+cap "dec_2_0/decoder_2to4_0/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "decoder_2to4_1/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" 8.20447
+cap "decoder_2to4_2/VDDH" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" -0.254249
+cap "decoder_2to4_1/VOUT[1]" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" 3.42983
+cap "decoder_2to4_1/VOUT[0]" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" 2.51002
+cap "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" "decoder_2to4_1/VOUT[2]" 3.16456
+cap "decoder_2to4_2/VDDH" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 5.65272
+cap "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" "decoder_2to4_1/VOUT[0]" 23.1705
+cap "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" "decoder_2to4_1/VOUT[3]" 6.57015
+cap "decoder_2to4_1/dec_pcell_0/XM1/a_n287_n120#" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 1.68941
 cap "decoder_2to4_1/VOUT[0]" "decoder_2to4_2/VOUT[1]" 8.2942
-cap "decoder_2to4_2/VOUT[0]" "decoder_2to4_1/VOUT[3]" 23.1705
-cap "decoder_2to4_1/VOUT[1]" "decoder_2to4_2/VOUT[1]" 3.82287
-cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/VOUT[0]" 89.3302
-cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/VDDH" 2.28838
-cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VOUT[2]" -2.64582
-cap "decoder_2to4_1/VOUT[0]" "decoder_2to4_2/VOUT[1]" 42.0965
-cap "decoder_2to4_2/VOUT[0]" "decoder_2to4_2/VDDH" -1.80403
-cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/dec_pcell_0/XM1/a_n287_n120#" 1.68941
-cap "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" "decoder_2to4_2/VOUT[1]" 9.03787
-cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/VOUT[1]" 57.4685
-cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VPBIAS" -1.38778e-17
-cap "decoder_2to4_1/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" 13.1306
-cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/VOUT[3]" 74.4074
-cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VOUT[1]" -2.63309
-cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/dec_pcell_0/XM1/a_229_n120#" 0.664044
-cap "decoder_2to4_2/VNBIAS" "decoder_2to4_2/VDDH" 4.26326e-14
+cap "decoder_2to4_2/VOUT[3]" "decoder_2to4_1/VOUT[2]" 6.57015
+cap "dec_2_0/decoder_2to4_0/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "decoder_2to4_1/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" 13.1306
+cap "decoder_2to4_1/VOUT[2]" "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" 3.16456
+cap "decoder_2to4_1/dec_pcell_0/XM1/a_229_n120#" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 0.664044
+cap "decoder_2to4_2/VDDH" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" -2.54046
+cap "decoder_2to4_1/VOUT[0]" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" 3.29829
+cap "decoder_2to4_1/VOUT[1]" "decoder_2to4_2/VOUT[0]" 0.332297
+cap "decoder_2to4_2/VDD" "decoder_2to4_2/VNBIAS" 5.55112e-17
+cap "decoder_2to4_1/VOUT[1]" "decoder_2to4_2/VOUT[1]" 3.42983
+cap "decoder_2to4_2/VDDH" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" -2.54046
+cap "decoder_2to4_2/VDDH" "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" -2.54046
+cap "decoder_2to4_1/VOUT[1]" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" 3.82287
+cap "decoder_2to4_1/VOUT[1]" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" 42.0965
+cap "decoder_2to4_1/VOUT[2]" "decoder_2to4_2/VOUT[2]" 3.16456
+cap "decoder_2to4_1/VOUT[1]" "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" 0.493744
+cap "decoder_2to4_1/VOUT[3]" "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" 38.6886
+cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[2]" -2.64582
+cap "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" "decoder_2to4_1/VOUT[2]" 57.2563
+cap "decoder_2to4_2/VNBIAS" "decoder_2to4_2/GND" 7.10543e-15
+cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[0]" -1.80403
+cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VNBIAS" 0.00440205
+cap "decoder_2to4_1/VOUT[0]" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 89.3302
+cap "decoder_2to4_2/VDDH" "decoder_2to4_2/GND" -1.77636e-15
 cap "decoder_2to4_2/VNBIAS" "decoder_2to4_2/VPBIAS" 8.88178e-16
-cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VOUT[3]" -2.62202
-cap "decoder_2to4_2/VOUT[2]" "decoder_2to4_1/VOUT[2]" 3.16456
-cap "decoder_2to4_2/GND" "decoder_2to4_2/VDDH" -1.77636e-15
-cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[2]" -2.54046
-cap "decoder_2to4_2/GND" "decoder_2to4_2/VNBIAS" 7.10543e-15
-cap "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" "decoder_2to4_2/VOUT[0]" 2.51002
-cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/dec_pcell_0/XM1/a_n29_n120#" 1.68941
-cap "decoder_2to4_1/VOUT[2]" "decoder_2to4_2/VOUT[1]" 0.493744
-cap "decoder_2to4_2/VOUT[3]" "decoder_2to4_1/VOUT[2]" 38.6886
-cap "decoder_2to4_2/VOUT[0]" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" 8.2942
-cap "decoder_2to4_2/VOUT[2]" "decoder_2to4_1/VOUT[1]" 41.081
-cap "decoder_2to4_2/VOUT[2]" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 6.57015
-cap "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" "decoder_2to4_2/VOUT[1]" 0.332297
-cap "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" "decoder_2to4_2/VOUT[1]" 3.42983
-cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[1]" -2.54046
+cap "decoder_2to4_2/VDDH" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 2.28838
+cap "decoder_2to4_1/VOUT[1]" "decoder_2to4_2/VOUT[2]" 9.03787
+cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VPBIAS" -1.38778e-17
+cap "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" "decoder_2to4_1/dec_pcell_0/XM1/a_n29_n120#" 1.68941
+cap "decoder_2to4_1/VOUT[1]" "decoder_2to4_2/VDDH" -2.44908
+cap "decoder_2to4_1/VOUT[1]" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 57.4685
+cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[3]" -2.62202
+cap "decoder_2to4_1/VOUT[3]" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 74.4074
+cap "decoder_2to4_1/VOUT[0]" "decoder_2to4_2/VOUT[0]" 2.51002
+cap "decoder_2to4_1/VOUT[2]" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" 41.081
+cap "decoder_2to4_1/VOUT[0]" "decoder_2to4_2/VDDH" -2.54046
+cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VPBIAS" -1.38778e-17
+cap "decoder_2to4_2/VOUT[3]" "decoder_2to4_1/VOUT[3]" 74.4074
+cap "decoder_2to4_2/VOUT[1]" "decoder_2to4_1/VOUT[2]" 0.493744
+cap "decoder_2to4_2/dec_pcell_0/XM1/a_n287_n120#" "decoder_2to4_1/VOUT[3]" 1.68941
+cap "decoder_2to4_2/VOUT[2]" "decoder_2to4_1/VOUT[3]" 57.2563
 cap "decoder_2to4_2/VNBIAS" "decoder_2to4_2/VDD" 5.55112e-17
-cap "decoder_2to4_2/VOUT[2]" "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" 3.16456
-cap "decoder_2to4_2/VOUT[0]" "decoder_2to4_1/VOUT[0]" 3.29829
-cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/VOUT[2]" 57.2563
-cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[0]" -2.54046
-cap "decoder_2to4_2/VOUT[2]" "decoder_2to4_2/VDDH" -2.54046
-cap "decoder_2to4_2/VOUT[2]" "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" 3.16456
-cap "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" "decoder_2to4_2/VOUT[2]" 38.6886
-cap "decoder_2to4_2/VPBIAS" "decoder_2to4_2/VDDH" -6.93889e-18
-cap "decoder_2to4_2/VOUT[0]" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" 42.0965
-cap "decoder_2to4_2/VPBIAS" "decoder_2to4_2/VNBIAS" 6.66134e-16
-cap "decoder_2to4_2/VDDH" "decoder_2to4_2/GND" -1.55431e-15
-cap "decoder_2to4_2/VOUT[0]" "decoder_2to4_2/VDDH" -2.54046
-cap "decoder_2to4_2/VNBIAS" "decoder_2to4_2/GND" 6.21725e-15
-cap "decoder_2to4_2/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "dec_2_0/decoder_2to4_0/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" 21.3351
-cap "decoder_2to4_2/VOUT[3]" "dec_2_0/decoder_2to4_0/dec_pcell_0/XM1/a_n287_n120#" 1.68941
-cap "decoder_2to4_2/VOUT[0]" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" 3.29829
-cap "decoder_2to4_2/VNBIAS" "decoder_2to4_2/VDD" 4.16334e-17
-cap "decoder_2to4_2/VOUT[1]" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" 3.82287
-cap "decoder_2to4_2/VOUT[3]" "dec_2_0/decoder_2to4_0/dec_pcell_0/XM1/a_229_n120#" 0.664044
-cap "decoder_2to4_2/VOUT[3]" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" 57.4685
-cap "decoder_2to4_2/VOUT[1]" "decoder_2to4_2/VDDH" -2.54046
-cap "decoder_2to4_2/VOUT[1]" "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" 41.081
-cap "decoder_2to4_2/VDDH" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" -2.42413
-cap "decoder_2to4_2/VOUT[3]" "decoder_2to4_2/VDDH" 7.94111
-cap "decoder_2to4_2/VOUT[3]" "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" 57.2563
-cap "decoder_2to4_2/VOUT[3]" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 74.4074
-cap "decoder_2to4_2/VOUT[3]" "dec_2_0/decoder_2to4_0/dec_pcell_0/XM1/a_n29_n120#" 1.68941
-cap "decoder_2to4_2/VOUT[3]" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" 112.501
-cap "dec_2_0/sky130_fd_sc_hvl__inv_1_0/A" "decoder_2to4_2/VDDH" -2.38785
-cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VNBIAS" 3.19744e-14
-cap "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" "decoder_2to4_2/VDDH" -2.62202
-cap "decoder_2to4_2/VOUT[2]" "dec_2_0/sky130_fd_sc_hvl__inv_1_2/A" 0.493744
-cap "decoder_2to4_2/VDDH" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" -1.54978
+cap "decoder_2to4_2/VNBIAS" "decoder_2to4_2/VDDH" 2.84217e-14
+cap "decoder_2to4_2/VOUT[2]" "decoder_2to4_1/VOUT[1]" 41.081
+cap "decoder_2to4_1/VOUT[2]" "decoder_2to4_2/VDDH" -2.54046
+cap "decoder_2to4_2/VNBIAS" "decoder_2to4_2/VPBIAS" 8.88178e-16
+cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/VOUT[1]" 57.4685
+cap "decoder_2to4_2/VOUT[3]" "decoder_2to4_2/VDDH" -2.62202
+cap "decoder_2to4_2/VOUT[1]" "decoder_2to4_1/VOUT[1]" 3.82287
+cap "decoder_2to4_1/dec_ncell_l_1_0/sky130_fd_pr__nfet_01v8_TC9PLT_3/a_15_n200#" "decoder_2to4_2/dec_ncell_h_0/sky130_fd_pr__nfet_g5v0d10v5_EY6AGD_0/a_n158_n131#" 21.3351
+cap "decoder_2to4_2/VOUT[2]" "decoder_2to4_2/VDDH" -2.38785
+cap "decoder_2to4_2/VOUT[0]" "decoder_2to4_1/VOUT[3]" 112.501
+cap "decoder_2to4_2/VDDH" "decoder_2to4_2/GND" -1.77636e-15
+cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/VDDH" 7.94111
+cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/dec_pcell_0/XM1/a_n29_n120#" 1.68941
+cap "decoder_2to4_2/VOUT[1]" "decoder_2to4_2/VDDH" -2.42413
+cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[1]" -2.54046
+cap "decoder_2to4_1/VOUT[0]" "decoder_2to4_2/VOUT[1]" 42.0965
+cap "decoder_2to4_2/VOUT[3]" "decoder_2to4_1/VOUT[2]" 38.6886
+cap "decoder_2to4_2/dec_pcell_0/XM1/a_229_n120#" "decoder_2to4_1/VOUT[3]" 0.664044
+cap "decoder_2to4_2/VOUT[0]" "decoder_2to4_2/VDDH" -1.54978
+cap "decoder_2to4_2/VOUT[2]" "decoder_2to4_1/VOUT[2]" 3.16456
+cap "decoder_2to4_2/VNBIAS" "decoder_2to4_2/GND" 7.10543e-15
+cap "decoder_2to4_1/VOUT[0]" "decoder_2to4_2/VOUT[0]" 3.29829
 cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VPBIAS" -0.244754
-cap "decoder_2to4_2/dec_pcell_0/XM1/a_229_n120#" "decoder_2to4_1/VOUT[3]" 2.22122
+cap "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" "decoder_2to4_2/VPBIAS" 25.4457
+cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VPBIAS" -6.14973
+cap "decoder_2to4_1/VOUT[2]" "decoder_2to4_2/VDDH" 0.0673252
+cap "decoder_2to4_1/VOUT[0]" "decoder_2to4_2/VPBIAS" 0.4137
+cap "decoder_2to4_2/VDDH" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 25.3245
+cap "decoder_2to4_1/VOUT[0]" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 78.5457
+cap "decoder_2to4_1/dec_pcell_0/XM1/a_229_n120#" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/A" 2.22122
+cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[3]" 0.0376297
+cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[1]" 0.152143
+cap "decoder_2to4_1/VOUT[0]" "decoder_2to4_2/VDDH" -2.68149
+cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/VOUT[0]" 78.5457
+cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/dec_pcell_0/XM1/a_229_n120#" 2.22122
+cap "decoder_2to4_2/VPBIAS" "decoder_2to4_2/VOUT[0]" 0.4137
 cap "decoder_2to4_2/VDDH" "decoder_2to4_1/VOUT[3]" 25.3245
-cap "decoder_2to4_2/VOUT[0]" "decoder_2to4_2/VDDH" -3.31442
-cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VPBIAS" -6.86534
-cap "decoder_2to4_2/VOUT[0]" "decoder_2to4_1/VOUT[3]" 78.5457
-cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/VPBIAS" 25.4457
-cap "decoder_2to4_2/VOUT[0]" "decoder_2to4_2/VPBIAS" 0.4137
-cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VOUT[0]" 0.0499752
-cap "decoder_2to4_2/VOUT[1]" "decoder_2to4_2/VDDH" 0.0998459
-cap "decoder_2to4_2/VPBIAS" "decoder_2to4_2/VNBIAS" -1.11022e-16
-cap "decoder_2to4_2/VDDH" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" -3.31442
-cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VOUT[3]" 33.1872
-cap "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" "decoder_2to4_2/VOUT[3]" 78.5457
-cap "dec_2_0/decoder_2to4_0/dec_pcell_0/XM1/a_229_n120#" "decoder_2to4_2/VOUT[3]" 2.22122
 cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VPBIAS" -6.62058
-cap "decoder_2to4_2/VPBIAS" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/A" 0.4137
-cap "decoder_2to4_2/VPBIAS" "decoder_2to4_2/VOUT[3]" 25.4457
-cap "decoder_2to4_2/VOUT[2]" "decoder_2to4_2/VDDH" 0.290966
-cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/VDDH" 0.0214672
+cap "decoder_2to4_2/VDDH" "decoder_2to4_2/VOUT[0]" -3.31442
+cap "decoder_2to4_1/VOUT[3]" "decoder_2to4_2/VPBIAS" 25.4457
 merge "dec_2_0/VSUBS" "decoder_2to4_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "decoder_2to4_1/VSUBS" "decoder_2to4_2/VSUBS"
 merge "decoder_2to4_2/VSUBS" "VSUBS"
-merge "dec_2_0/decoder_2to4_0/dec_pcell_0/w_n601_499#" "decoder_2to4_1/dec_pcell_0/w_n601_499#" -1354.08 0 0 0 0 -382800 -6328 0 0 0 0 0 0 0 -480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -272 0 -384 0 0 0 0 0 0 0 0 0 0
+merge "dec_2_0/decoder_2to4_0/dec_pcell_0/w_n601_499#" "decoder_2to4_1/dec_pcell_0/w_n601_499#" -1367.72 0 0 0 0 -382800 -6328 0 0 0 0 0 0 0 -480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -272 0 -384 0 0 0 0 0 0 0 0 0 0
 merge "decoder_2to4_1/dec_pcell_0/w_n601_499#" "decoder_2to4_2/dec_pcell_0/w_n601_499#"
-merge "decoder_2to4_2/dec_pcell_0/w_n601_499#" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/VPWR"
-merge "dec_2_0/sky130_fd_sc_hvl__inv_1_3/VPWR" "dec_2_0/decoder_2to4_0/VDDH"
-merge "dec_2_0/decoder_2to4_0/VDDH" "decoder_2to4_1/VDDH"
+merge "decoder_2to4_2/dec_pcell_0/w_n601_499#" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/VPWR"
+merge "dec_2_0/sky130_fd_sc_hvl__inv_1_1/VPWR" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/VPWR"
+merge "dec_2_0/sky130_fd_sc_hvl__inv_1_3/VPWR" "decoder_2to4_1/VDDH"
 merge "decoder_2to4_1/VDDH" "decoder_2to4_2/VDDH"
-merge "decoder_2to4_1/dec_ncell_h_0/a_689_n291#" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/VGND" -244.947 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -136 0 -384 0 0 0 0 0 0 0 0 0 0
+merge "decoder_2to4_1/dec_ncell_h_0/a_689_n291#" "dec_2_0/sky130_fd_sc_hvl__inv_1_1/VGND" -244.947 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -136 0 -384 0 0 0 0 0 0 0 0 0 0
+merge "dec_2_0/sky130_fd_sc_hvl__inv_1_1/VGND" "dec_2_0/sky130_fd_sc_hvl__inv_1_3/VGND"
 merge "dec_2_0/sky130_fd_sc_hvl__inv_1_3/VGND" "decoder_2to4_1/sky130_fd_sc_hd__tap_1_1/VGND"
-merge "decoder_2to4_1/sky130_fd_sc_hd__tap_1_1/VGND" "decoder_2to4_2/sky130_fd_sc_hd__tap_1_1/VGND"
-merge "decoder_2to4_2/sky130_fd_sc_hd__tap_1_1/VGND" "decoder_2to4_2/dec_ncell_h_0/a_689_n291#"
-merge "decoder_2to4_2/dec_ncell_h_0/a_689_n291#" "dec_2_0/decoder_2to4_0/GND"
-merge "dec_2_0/decoder_2to4_0/GND" "dec_2_0/decoder_2to4_0/dec_ncell_h_0/a_689_n291#"
-merge "dec_2_0/decoder_2to4_0/dec_ncell_h_0/a_689_n291#" "decoder_2to4_1/GND"
+merge "decoder_2to4_1/sky130_fd_sc_hd__tap_1_1/VGND" "dec_2_0/decoder_2to4_0/sky130_fd_sc_hd__tap_1_1/VGND"
+merge "dec_2_0/decoder_2to4_0/sky130_fd_sc_hd__tap_1_1/VGND" "dec_2_0/decoder_2to4_0/GND"
+merge "dec_2_0/decoder_2to4_0/GND" "decoder_2to4_1/GND"
 merge "decoder_2to4_1/GND" "decoder_2to4_2/GND"
-merge "decoder_2to4_1/dec_pcell_0/m1_n535_1581#" "decoder_2to4_2/dec_pcell_0/m1_n535_1581#" -241.158 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -240 0 0 0 0 0 0 0 0 0 0
-merge "decoder_2to4_2/dec_pcell_0/m1_n535_1581#" "dec_2_0/decoder_2to4_0/VPBIAS"
+merge "decoder_2to4_2/GND" "decoder_2to4_2/dec_ncell_h_0/a_689_n291#"
+merge "decoder_2to4_1/dec_pcell_0/m1_n535_1581#" "dec_2_0/decoder_2to4_0/dec_pcell_0/m1_n535_1581#" -241.873 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -240 0 0 0 0 0 0 0 0 0 0
+merge "dec_2_0/decoder_2to4_0/dec_pcell_0/m1_n535_1581#" "dec_2_0/decoder_2to4_0/VPBIAS"
 merge "dec_2_0/decoder_2to4_0/VPBIAS" "decoder_2to4_1/VPBIAS"
 merge "decoder_2to4_1/VPBIAS" "decoder_2to4_2/VPBIAS"
-merge "decoder_2to4_1/sky130_fd_sc_hd__tap_1_1/VPWR" "decoder_2to4_2/sky130_fd_sc_hd__tap_1_1/VPWR" -472.954 0 0 0 0 -84744 -1812 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -384 0 0 0 0 0 0 0 0 0 0
-merge "decoder_2to4_2/sky130_fd_sc_hd__tap_1_1/VPWR" "dec_2_0/decoder_2to4_0/VDD"
-merge "dec_2_0/decoder_2to4_0/VDD" "dec_2_0/decoder_2to4_0/sky130_fd_sc_hd__tap_1_0/VPB"
-merge "dec_2_0/decoder_2to4_0/sky130_fd_sc_hd__tap_1_0/VPB" "decoder_2to4_1/VDD"
+merge "decoder_2to4_1/sky130_fd_sc_hd__tap_1_1/VPWR" "dec_2_0/decoder_2to4_0/sky130_fd_sc_hd__tap_1_1/VPWR" -472.954 0 0 0 0 -84744 -1812 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -384 0 0 0 0 0 0 0 0 0 0
+merge "dec_2_0/decoder_2to4_0/sky130_fd_sc_hd__tap_1_1/VPWR" "dec_2_0/decoder_2to4_0/VDD"
+merge "dec_2_0/decoder_2to4_0/VDD" "decoder_2to4_1/VDD"
 merge "decoder_2to4_1/VDD" "decoder_2to4_2/VDD"
-merge "decoder_2to4_1/dec_ncell_h_0/m1_689_n29#" "decoder_2to4_2/dec_ncell_h_0/m1_689_n29#" -325.655 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -240 0 0 0 0 0 0 0 0 0 0
-merge "decoder_2to4_2/dec_ncell_h_0/m1_689_n29#" "dec_2_0/decoder_2to4_0/VNBIAS"
+merge "decoder_2to4_2/VDD" "decoder_2to4_2/sky130_fd_sc_hd__tap_1_0/VPB"
+merge "decoder_2to4_1/dec_ncell_h_0/m1_689_n29#" "dec_2_0/decoder_2to4_0/dec_ncell_h_0/m1_689_n29#" -325.659 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -240 0 0 0 0 0 0 0 0 0 0
+merge "dec_2_0/decoder_2to4_0/dec_ncell_h_0/m1_689_n29#" "dec_2_0/decoder_2to4_0/VNBIAS"
 merge "dec_2_0/decoder_2to4_0/VNBIAS" "decoder_2to4_1/VNBIAS"
 merge "decoder_2to4_1/VNBIAS" "decoder_2to4_2/VNBIAS"

@@ -8,27 +8,27 @@ use hpmos_4 hpmos_4_1 1 0 1087 0 1 -43
 use hpmos_4 hpmos_4_0 1 0 -17 0 1 -43
 node "w_227_n172#" 16729 6412.25 227 -172 nw 0 0 0 0 1549184 6312 0 0 0 0 0 0 322016 11104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 188768 11104 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" 17.8333
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" 17.8333
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_1/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" 18.8845
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" 42.8011
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" 17.8333
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/m1_1998_n3033#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" 0.0706211
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" 17.8333
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" 17.8333
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" 17.8333
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "hpmos_4_1/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" 52.2566
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" 18.8845
 cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/m1_1998_n3033#" "hpmos_4_1/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" 0.0706211
+cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/m1_1998_n3033#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" 0.0706211
+cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" 17.8333
+cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" 17.8333
+cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" 17.8333
+cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_1/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" 18.8845
+cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" 18.8845
+cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" 17.8333
+cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" 42.8011
+cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "hpmos_4_1/hpmos_2_0/hpmos_1_0/XM1/a_n108_n78#" 52.2566
 cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/m1_1998_n3033#" 431.287
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_1/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" 42.8011
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_1/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" 17.8333
+cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" 17.8333
+cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" 17.8333
+cap "hpmos_4_1/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 17.8333
+cap "hpmos_4_1/hpmos_2_1/hpmos_1_1/XM1/a_50_n78#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 42.8011
+cap "hpmos_4_1/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 17.8333
 cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/m1_1998_n3033#" 340.372
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_1/hpmos_2_0/hpmos_1_1/XM1/a_50_n78#" 17.8333
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_1/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" 17.8333
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_1/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" 17.8333
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_1/hpmos_2_1/hpmos_1_0/XM1/a_n108_n78#" 17.8333
-cap "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_1/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" 17.8333
+cap "hpmos_4_1/hpmos_2_0/hpmos_1_0/XM1/a_50_n78#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 17.8333
+cap "hpmos_4_1/hpmos_2_1/hpmos_1_1/XM1/a_n108_n78#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 17.8333
+cap "hpmos_4_1/hpmos_2_1/hpmos_1_0/XM1/a_50_n78#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 17.8333
+cap "hpmos_4_1/hpmos_2_0/hpmos_1_1/XM1/a_n108_n78#" "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" 17.8333
 merge "hpmos_4_0/VSUBS" "hpmos_4_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "hpmos_4_1/VSUBS" "VSUBS"
 merge "hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" "hpmos_4_1/hpmos_2_1/hpmos_1_1/XM1/w_n144_n140#" -1835.38 0 0 0 0 -549072 -5448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

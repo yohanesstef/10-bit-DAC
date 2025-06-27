@@ -1,0 +1,41 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1751047180
+<< pwell >>
+rect -930 -169 -200 1309
+<< mvpsubdiff >>
+rect -894 1215 -236 1273
+rect -894 -75 -836 1215
+rect -294 -75 -236 1215
+rect -894 -133 -236 -75
+<< locali >>
+rect -882 1227 -248 1261
+rect -882 -87 -848 1227
+rect -282 -87 -248 1227
+rect -882 -121 -248 -87
+<< metal1 >>
+rect -756 -1 -710 1079
+rect -658 138 -630 1138
+rect -500 138 -472 1138
+use sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ  sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_0
+timestamp 1751042016
+transform 1 0 -565 0 1 72
+box -187 -99 187 99
+use sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ  sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_1
+timestamp 1751042016
+transform 1 0 -565 0 1 321
+box -187 -99 187 99
+use sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ  sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_2
+timestamp 1751042016
+transform 1 0 -565 0 1 570
+box -187 -99 187 99
+use sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ  sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_3
+timestamp 1751042016
+transform 1 0 -565 0 1 819
+box -187 -99 187 99
+use sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ  sky130_fd_pr__nfet_g5v0d10v5_CSEDJZ_4
+timestamp 1751042016
+transform 1 0 -565 0 1 1068
+box -187 -99 187 99
+<< end >>

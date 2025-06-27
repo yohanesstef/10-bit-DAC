@@ -1,7 +1,18 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1750890396
+timestamp 1751058216
+<< error_s >>
+rect 14927 13410 15071 13414
+rect 14915 13409 15083 13410
+rect 14927 13397 15071 13409
+rect 14949 13375 15049 13376
+rect 14711 13221 14733 13249
+rect 14739 13193 14761 13277
+rect 14711 12972 14733 13000
+rect 14739 12944 14761 13028
+rect 14711 12723 14733 12751
+rect 14739 12713 14761 12779
 << metal1 >>
 rect 40745 21212 40805 21218
 rect 40481 20870 40541 20876
@@ -401,21 +412,21 @@ timestamp 1749886903
 transform 1 0 37244 0 1 15425
 box 1801 3053 3589 4841
 use top_dcell_bias  top_dcell_bias_0
-timestamp 1750867770
+timestamp 1751030423
 transform 1 0 36407 0 1 18556
-box -1184 -17354 10424 4891
+box -1184 -17354 10416 4891
 use top_opamp_n_final_switch  top_opamp_n_final_switch_0
-timestamp 1750851269
+timestamp 1751058216
 transform 1 0 1535 0 1 367
 box -2676 876 13894 23072
 use top_segment_1  top_segment_1_0
-timestamp 1749633251
+timestamp 1750900893
 transform 1 0 26106 0 1 1210
 box -385 -24 14453 8429
 use top_segment_2  top_segment_2_0
-timestamp 1749580325
+timestamp 1750900893
 transform -1 0 34310 0 -1 23469
-box -870 14 15704 7051
+box -727 39 15704 7051
 use top_segment_3  top_segment_3_0
 timestamp 1749552768
 transform -1 0 24112 0 -1 23696

@@ -1,0 +1,148 @@
+timestamp 1749896124
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use cm_pcell2_4_2 cm_pcell2_4_2_1 1 0 4959 0 1 2673
+use cm_pcell2_4_2 cm_pcell2_4_2_0 1 0 3455 0 1 2673
+use cm_pcell2_2_2 cm_pcell2_2_2_0 1 0 6463 0 1 2673
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "cm_pcell2_4_2_0/m1_1457_n514#" "cm_pcell2_4_2_1/cm_pcell2_4_1/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.00120811
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m1_17_719#" -0.0130025
+cap "cm_pcell2_4_2_0/m1_1457_n514#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m1_17_719#" 4.65612
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m1_17_719#" "cm_pcell2_4_2_0/m1_1457_n514#" 0.752137
+cap "cm_pcell2_4_2_0/m1_1457_n514#" "cm_pcell2_4_2_1/cm_pcell2_4_1/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 2.73252
+cap "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 165.588
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_2_2_0/w_n31_n941#" 0.526437
+cap "cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_4_2_0/m1_1457_n514#" -25.5665
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/li_17_742#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" -1.42109e-14
+cap "cm_pcell2_4_2_0/m1_1457_n514#" "cm_pcell2_4_2_1/cm_pcell2_4_1/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.00149776
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_4_2_0/m1_1457_n514#" 0.0415252
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m1_17_719#" -0.0648054
+cap "cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_2_2_0/cm_pcell2_2_1/li_17_742#" -2.10938
+cap "cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" -3.21326
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_4_2_0/m1_1457_n514#" 0.0159579
+cap "cm_pcell2_4_2_0/m1_1457_n514#" "cm_pcell2_2_2_0/cm_pcell2_2_1/li_17_742#" 0.57474
+cap "cm_pcell2_4_2_0/m1_1457_n514#" "cm_pcell2_4_2_1/cm_pcell2_4_1/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.373102
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.0353106
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_4_2_0/m1_1457_n514#" 0.251835
+cap "cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" -3.21326
+cap "cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" 0.271763
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.0353106
+cap "cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m1_17_719#" -6.30873
+cap "cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_4_2_1/cm_pcell2_4_1/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" -0.316848
+cap "cm_pcell2_4_2_0/m1_1457_n514#" "cm_pcell2_4_2_1/cm_pcell2_4_1/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.677094
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" -1.42109e-14
+cap "cm_pcell2_4_2_0/m1_1457_n514#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" 20.3701
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.373102
+cap "cm_pcell2_4_2_0/m1_1457_n514#" "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.0151517
+cap "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.57474
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 20.3573
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 7.78065
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.0353106
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_2_2_0/cm_pcell2_2_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.0353106
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.15154
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_2_2_0/li_1539_n862#" -1.04083e-17
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" -3.19744e-14
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_4_2_1/cm_pcell2_4_1/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.00149515
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_2_2_0/w_n31_n941#" -3.21326
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_2_2_0/m1_1538_n885#" -0.0130025
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/w_n31_n941#" -3.21326
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_4_2_1/cm_pcell2_4_1/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.00183605
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" "cm_pcell2_2_2_0/w_n31_n941#" 0.271763
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.0415252
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 165.588
+cap "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/w_n31_n941#" -2.10938
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/w_n31_n941#" -3.81186
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/w_n31_n941#" -25.3653
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/cm_pcell2_2_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" -0.0648054
+cap "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" -3.90799e-14
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.677094
+cap "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/m1_1538_n885#" -3.55271e-14
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" 0.330974
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_4_2_1/cm_pcell2_4_1/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.0015005
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.251835
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_2_2_0/w_n31_n941#" 0.526437
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 2.84217e-14
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.0134083
+cap "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" 0.00708236
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/m1_1538_n885#" 0.0134083
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/w_n31_n941#" -0.0501001
+cap "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/w_n31_n941#" -0.00175428
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/li_1539_n862#" 0.00337194
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 1.47216
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.373102
+cap "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/m2_47_457#" "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 1.01537
+cap "cm_pcell2_4_2_0/w_n31_n941#" "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" -0.283292
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/w_n31_n941#" -0.39867
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/li_17_742#" "cm_pcell2_4_2_0/m1_1457_n514#" 0.0826127
+cap "cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 0.947295
+cap "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 19.5662
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m1_17_719#" "cm_pcell2_4_2_0/m1_1457_n514#" 0.697107
+cap "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 0.0353106
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.373102
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 1.01537
+cap "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_2_2_0/w_n31_n941#" -0.39867
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_4_2_0/m1_1457_n514#" 0.0749552
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_2_2_0/w_n31_n941#" -0.283292
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m1_17_719#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.824467
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.373102
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/cm_pcell1_2_0/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.0629059
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m1_17_719#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" -0.0130025
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 1.37423
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.262011
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_2_2_0/w_n31_n941#" 0.0290079
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/li_17_742#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 2.84217e-14
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 7.10543e-15
+cap "cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_2_2_0/cm_pcell2_2_0/li_17_742#" -2.10938
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 1.47216
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 0.0353106
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/m1_17_719#" "cm_pcell2_2_2_0/w_n31_n941#" -4.02734
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 1.77636e-14
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/li_1539_n862#" 0.0826127
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" "cm_pcell2_2_2_0/li_1539_n862#" -1.04083e-17
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.697107
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 0.0353106
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" -0.0130025
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.827804
+cap "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" -2.13163e-14
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/w_n31_n941#" -0.39867
+cap "cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 0.947295
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 0.611695
+cap "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/w_n31_n941#" -2.10938
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/li_1539_n862#" -7.10543e-15
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.000470305
+cap "cm_pcell2_2_2_0/cm_pcell2_2_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 19.5662
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 0.0353106
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/w_n31_n941#" -1.3667
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" 0.00102484
+cap "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" "cm_pcell2_2_2_0/w_n31_n941#" -0.39867
+cap "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/cm_pcell1_2_1/cm_pcell_1_1/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_100_n216#" 0.0869368
+cap "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 0.0749552
+cap "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" 0.00708236
+cap "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/m1_1538_n885#" 0.00337194
+cap "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/w_n31_n941#" -0.00175428
+merge "cm_pcell2_2_2_0/m1_1538_n885#" "cm_pcell2_2_2_0/cm_pcell2_2_1/m1_17_719#" -101.331 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -480 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_2_2_0/cm_pcell2_2_1/m1_17_719#" "cm_pcell2_4_2_0/cm_pcell2_4_1/m1_17_719#"
+merge "cm_pcell2_4_2_0/cm_pcell2_4_1/m1_17_719#" "cm_pcell2_4_2_1/cm_pcell2_4_1/m1_17_719#"
+merge "cm_pcell2_4_2_1/cm_pcell2_4_1/m1_17_719#" "cm_pcell2_2_2_0/cm_pcell2_2_0/m1_17_719#"
+merge "cm_pcell2_2_2_0/cm_pcell2_2_0/m1_17_719#" "cm_pcell2_4_2_0/cm_pcell2_4_0/m1_17_719#"
+merge "cm_pcell2_4_2_0/cm_pcell2_4_0/m1_17_719#" "cm_pcell2_4_2_1/cm_pcell2_4_0/m1_17_719#"
+merge "cm_pcell2_2_2_0/VSUBS" "cm_pcell2_4_2_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_4_2_0/VSUBS" "cm_pcell2_4_2_1/VSUBS"
+merge "cm_pcell2_4_2_1/VSUBS" "VSUBS"
+merge "cm_pcell2_2_2_0/cm_pcell2_2_1/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" "cm_pcell2_4_2_1/m1_1457_n514#" -255.603 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12696 -644 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_2_2_0/li_1539_n862#" "cm_pcell2_2_2_0/cm_pcell2_2_1/li_17_742#" -35.1859 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_2_2_0/cm_pcell2_2_1/li_17_742#" "cm_pcell2_4_2_0/cm_pcell2_4_1/li_17_742#"
+merge "cm_pcell2_4_2_0/cm_pcell2_4_1/li_17_742#" "cm_pcell2_4_2_1/cm_pcell2_4_1/li_17_742#"
+merge "cm_pcell2_4_2_1/cm_pcell2_4_1/li_17_742#" "cm_pcell2_2_2_0/cm_pcell2_2_0/li_17_742#"
+merge "cm_pcell2_2_2_0/cm_pcell2_2_0/li_17_742#" "cm_pcell2_4_2_0/cm_pcell2_4_0/li_17_742#"
+merge "cm_pcell2_4_2_0/cm_pcell2_4_0/li_17_742#" "cm_pcell2_4_2_1/cm_pcell2_4_0/li_17_742#"
+merge "cm_pcell2_2_2_0/w_n31_n941#" "cm_pcell2_4_2_0/w_n31_n941#" -1492.13 0 0 0 0 -497376 -8064 0 0 0 0 0 0 0 -480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_4_2_0/w_n31_n941#" "cm_pcell2_4_2_1/w_n31_n941#"
+merge "cm_pcell2_2_2_0/cm_pcell2_2_1/m2_17_455#" "cm_pcell2_4_2_0/cm_pcell2_4_1/cm_pcell_4_0/m2_47_457#" -144.094 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -240 0 0 0 0 0 0 0 0
+merge "cm_pcell2_4_2_0/cm_pcell2_4_1/cm_pcell_4_0/m2_47_457#" "cm_pcell2_4_2_1/cm_pcell2_4_1/cm_pcell_4_0/m2_47_457#"
+merge "cm_pcell2_4_2_0/m1_1457_n514#" "cm_pcell2_4_2_1/cm_pcell2_4_1/cm_pcell_4_0/cm_pcell1_2_0/cm_pcell_1_0/sky130_fd_pr__pfet_g5v0d10v5_4JJ3P5_0/a_n158_n216#" -255.57 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12696 -644 0 0 0 0 0 0 0 0 0 0
+merge "cm_pcell2_2_2_0/cm_pcell2_2_0/m2_17_455#" "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/m2_47_457#" -144.094 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -240 0 0 0 0 0 0 0 0
+merge "cm_pcell2_4_2_0/cm_pcell2_4_0/cm_pcell_4_0/m2_47_457#" "cm_pcell2_4_2_1/cm_pcell2_4_0/cm_pcell_4_0/m2_47_457#"

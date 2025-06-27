@@ -1,4 +1,4 @@
-timestamp 1750773250
+timestamp 1751027542
 version 8.3
 tech sky130A
 style ngspice()
@@ -11,15 +11,13 @@ use cm2_pcell3 cm2_pcell3_0 1 0 12701 0 -1 5847
 use cm2_ncell cm2_ncell_0 1 0 3923 0 1 -2596
 use cm2_ncell4 cm2_ncell4_0 1 0 3934 0 1 -4128
 use cm2_ncell3 cm2_ncell3_0 1 0 3595 0 1 -2894
-port "GNDA" 6 3947 -1407 3981 -1373 m1
-port "VDDA" 5 3947 645 3981 679 m1
 port "VBPDEC" 3 6701 -1963 6761 -1903 m2
 port "ROUT" 0 7134 1669 7180 1701 m1
 port "VBNDEC" 4 5988 -2932 6048 -2872 m2
 port "VBNLV" 2 6368 -2559 6428 -2499 m2
 port "VBPLV" 1 7643 -1324 7703 -1264 m2
-node "GNDA" 0 0 3947 -1407 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "VDDA" 0 0 3947 645 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+port "VDDA" 5 3947 645 3981 679 m1
+port "GNDA" 6 3947 -1407 3981 -1373 m1
 node "VBPDEC" 0 0 6701 -1963 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "ROUT" 0 0 7134 1669 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "m2_5855_n1570#" 0 0 5855 -1570 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -33,51 +31,59 @@ node "VBNLV" 0 0 6368 -2559 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "m1_7180_n494#" 0 0 7180 -494 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "VBPLV" 0 0 7643 -1324 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "m1_7127_170#" 0 0 7127 170 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "a_4072_645#" 0 0 4072 645 mvnsc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-substrate "a_4159_n3193#" 0 0 4159 -3193 mvpsc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "cm2_pcell_0/cm2_pcell1_0/cm2_pcell1_5_1/li_n1289_203#" "cm2_pcell_0/cm2_pcell1_0/w_1957_1661#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "cm2_pcell_0/cm2_pcell1_0/w_1957_1661#" "VDDA"
-merge "VDDA" "cm2_pcell3_0/w_n5785_3966#"
-merge "cm2_pcell3_0/w_n5785_3966#" "a_4072_645#"
-merge "a_4072_645#" "cm2_pcell4_1_0/m1_n283_n485#"
-merge "cm2_pcell4_1_0/m1_n283_n485#" "cm2_pcell4_2_0/m1_n1450_n443#"
-merge "cm2_pcell4_2_0/m1_n1450_n443#" "cm2_pcell_0/cm2_pcell2_0/m1_1859_1359#"
-merge "cm2_pcell_0/cm2_pcell2_0/m1_1859_1359#" "cm2_pcell4_1_0/li_n260_n462#"
-merge "cm2_pcell4_1_0/li_n260_n462#" "cm2_pcell4_2_0/li_n1427_n420#"
-merge "cm2_pcell4_2_0/li_n1427_n420#" "cm2_pcell_0/cm2_pcell2_0/VDDA"
-merge "cm2_pcell_0/cm2_pcell2_0/VDDA" "cm2_pcell4_1_0/w_n339_n541#"
-merge "cm2_pcell4_1_0/w_n339_n541#" "cm2_pcell4_2_0/w_n1506_n499#"
-merge "cm2_pcell4_2_0/w_n1506_n499#" "cm2_pcell_0/cm2_pcell2_0/w_1803_1303#"
+node "m1_6898_702#" 0 0 6898 702 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDDA" 0 0 3947 645 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "GNDA" 0 0 3947 -1407 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "cm2_pcell_0/cm2_pcell2_0/D2" "cm2_ncell3_0/m1_2358_1146#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "cm2_ncell3_0/m1_2358_1146#" "m2_5855_n1570#"
+merge "cm2_pcell_0/cm2_pcell1_0/cm2_pcell1_5_0/m1_n1312_203#" "m1_6898_702#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "m1_6898_702#" "cm2_pcell_0/cm2_pcell1_0/cm2_pcell1_5_0/li_n1289_203#"
+merge "cm2_pcell_0/cm2_pcell1_0/cm2_pcell1_5_0/li_n1289_203#" "cm2_pcell_0/cm2_pcell1_0/w_1957_1661#"
+merge "cm2_pcell_0/cm2_pcell1_0/w_1957_1661#" "cm2_pcell3_0/w_n5785_3966#"
+merge "cm2_pcell3_0/w_n5785_3966#" "cm2_pcell4_1_0/m1_n283_n485#"
+merge "cm2_pcell4_1_0/m1_n283_n485#" "cm2_pcell4_1_0/li_n260_n462#"
+merge "cm2_pcell4_1_0/li_n260_n462#" "cm2_pcell4_1_0/w_n339_n541#"
+merge "cm2_pcell4_1_0/w_n339_n541#" "cm2_pcell4_2_0/m1_n1450_n443#"
+merge "cm2_pcell4_2_0/m1_n1450_n443#" "cm2_pcell4_2_0/li_n1427_n420#"
+merge "cm2_pcell4_2_0/li_n1427_n420#" "cm2_pcell4_2_0/w_n1506_n499#"
+merge "cm2_pcell4_2_0/w_n1506_n499#" "cm2_pcell_0/cm2_pcell2_0/VDDA"
+merge "cm2_pcell_0/cm2_pcell2_0/VDDA" "cm2_pcell_0/cm2_pcell2_0/m1_1859_1359#"
+merge "cm2_pcell_0/cm2_pcell2_0/m1_1859_1359#" "cm2_pcell_0/VDDA"
+merge "cm2_pcell_0/VDDA" "cm2_pcell_0/cm2_pcell2_0/w_1803_1303#"
+merge "cm2_pcell_0/cm2_pcell2_0/w_1803_1303#" "VDDA"
+merge "cm2_pcell3_0/VSUBS" "cm2_pcell4_1_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm2_pcell4_1_0/VSUBS" "cm2_pcell4_2_0/VSUBS"
+merge "cm2_pcell4_2_0/VSUBS" "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_0/m1_1032_175#"
+merge "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_0/m1_1032_175#" "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_0/li_1055_175#"
+merge "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_0/li_1055_175#" "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_0/a_1042_175#"
+merge "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_0/a_1042_175#" "cm2_pcell_0/VSUBS"
+merge "cm2_pcell_0/VSUBS" "cm2_ncell3_0/m1_1985_426#"
+merge "cm2_ncell3_0/m1_1985_426#" "cm2_ncell3_0/li_2008_449#"
+merge "cm2_ncell3_0/li_2008_449#" "cm2_ncell3_0/a_1995_436#"
+merge "cm2_ncell3_0/a_1995_436#" "cm2_ncell4_0/cm2_ncell4_3_0/m1_1795_1542#"
+merge "cm2_ncell4_0/cm2_ncell4_3_0/m1_1795_1542#" "cm2_ncell4_0/cm2_ncell4_1_0/m1_1795_1542#"
+merge "cm2_ncell4_0/cm2_ncell4_1_0/m1_1795_1542#" "cm2_ncell4_0/cm2_ncell4_3_0/li_1818_1564#"
+merge "cm2_ncell4_0/cm2_ncell4_3_0/li_1818_1564#" "cm2_ncell4_0/cm2_ncell4_1_0/li_1818_1564#"
+merge "cm2_ncell4_0/cm2_ncell4_1_0/li_1818_1564#" "cm2_ncell4_0/cm2_ncell4_1_0/a_1805_1552#"
+merge "cm2_ncell4_0/cm2_ncell4_1_0/a_1805_1552#" "cm2_ncell4_0/VSUBS"
+merge "cm2_ncell4_0/VSUBS" "cm2_ncell_0/VSUBS"
+merge "cm2_ncell_0/VSUBS" "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_1/m1_1032_175#"
+merge "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_1/m1_1032_175#" "m1_3924_n3597#"
+merge "m1_3924_n3597#" "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_1/li_1055_175#"
+merge "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_1/li_1055_175#" "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_1/a_1042_175#"
+merge "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_1/a_1042_175#" "GNDA"
 merge "cm2_pcell_0/cm2_pcell2_0/D3" "cm2_ncell3_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_4/a_n100_n117#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "cm2_ncell3_0/sky130_fd_pr__nfet_g5v0d10v5_QKV39N_4/a_n100_n117#" "cm2_ncell4_0/cm2_ncell4_1_0/sky130_fd_pr__nfet_g5v0d10v5_SZ2N2S_0/a_n530_n117#"
 merge "cm2_ncell4_0/cm2_ncell4_1_0/sky130_fd_pr__nfet_g5v0d10v5_SZ2N2S_0/a_n530_n117#" "VBNLV"
 merge "cm2_pcell3_0/cm2_pcell3_cell_3/sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_n2058_n216#" "ROUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "cm2_pcell3_0/cm2_pcell3_cell_0/sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_n2058_n216#" "cm2_pcell_0/cm2_pcell2_0/cm2_pcell2_5_0/m2_n720_637#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "cm2_pcell_0/cm2_pcell2_0/cm2_pcell2_5_0/m2_n720_637#" "m1_7127_170#"
-merge "cm2_pcell3_0/VSUBS" "cm2_pcell4_1_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "cm2_pcell4_1_0/VSUBS" "cm2_pcell4_2_0/VSUBS"
-merge "cm2_pcell4_2_0/VSUBS" "cm2_pcell_0/VSUBS"
-merge "cm2_pcell_0/VSUBS" "cm2_ncell3_0/a_1995_436#"
-merge "cm2_ncell3_0/a_1995_436#" "cm2_ncell4_0/cm2_ncell4_1_0/a_1805_1552#"
-merge "cm2_ncell4_0/cm2_ncell4_1_0/a_1805_1552#" "cm2_ncell4_0/VSUBS"
-merge "cm2_ncell4_0/VSUBS" "cm2_ncell4_0/cm2_ncell4_2_0/m1_1795_1542#"
-merge "cm2_ncell4_0/cm2_ncell4_2_0/m1_1795_1542#" "cm2_ncell4_0/cm2_ncell4_2_0/li_1818_1564#"
-merge "cm2_ncell4_0/cm2_ncell4_2_0/li_1818_1564#" "cm2_ncell4_0/cm2_ncell4_2_0/a_1805_1552#"
-merge "cm2_ncell4_0/cm2_ncell4_2_0/a_1805_1552#" "cm2_ncell_0/VSUBS"
-merge "cm2_ncell_0/VSUBS" "cm2_ncell_0/cm2_ncell1_0/cm2_ncell1_cell_1/m1_1755_797#"
-merge "cm2_ncell_0/cm2_ncell1_0/cm2_ncell1_cell_1/m1_1755_797#" "m1_3924_n3597#"
-merge "m1_3924_n3597#" "cm2_ncell_0/cm2_ncell1_0/cm2_ncell1_cell_1/li_1778_797#"
-merge "cm2_ncell_0/cm2_ncell1_0/cm2_ncell1_cell_1/li_1778_797#" "cm2_ncell_0/cm2_ncell1_0/cm2_ncell1_cell_1/a_1765_797#"
-merge "cm2_ncell_0/cm2_ncell1_0/cm2_ncell1_cell_1/a_1765_797#" "a_4159_n3193#"
 merge "cm2_pcell_0/cm2_pcell2_0/D1" "cm2_pcell_0/D1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "cm2_pcell_0/D1" "cm2_ncell_0/cm2_ncell2_0/m1_826_n96#"
 merge "cm2_ncell_0/cm2_ncell2_0/m1_826_n96#" "m2_5041_n2044#"
 merge "cm2_pcell4_1_0/sky130_fd_pr__pfet_g5v0d10v5_NWEVUG_0/a_n920_n162#" "cm2_pcell4_2_0/sky130_fd_pr__pfet_g5v0d10v5_YDEY4G_0/a_229_n216#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "cm2_pcell4_2_0/sky130_fd_pr__pfet_g5v0d10v5_YDEY4G_0/a_229_n216#" "cm2_ncell_0/cm2_ncell2_0/m1_826_24#"
 merge "cm2_ncell_0/cm2_ncell2_0/m1_826_24#" "VBPLV"
-merge "cm2_ncell3_0/m1_1985_426#" "cm2_ncell4_0/cm2_ncell4_1_0/m1_1795_1542#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "cm2_ncell3_0/m1_2526_1013#" "VBPDEC" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "cm2_ncell3_0/m1_2181_622#" "cm2_ncell4_0/cm2_ncell4_3_0/sky130_fd_pr__nfet_g5v0d10v5_MLSP8N_0/a_n1258_n95#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "cm2_ncell4_0/cm2_ncell4_3_0/sky130_fd_pr__nfet_g5v0d10v5_MLSP8N_0/a_n1258_n95#" "m1_6982_n3385#"
@@ -90,5 +96,6 @@ merge "cm2_pcell4_2_0/sky130_fd_pr__pfet_g5v0d10v5_YDEY4G_0/a_n29_n216#" "m1_718
 merge "cm2_pcell_0/cm2_pcell2_0/D4" "cm2_ncell3_0/m1_2093_710#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "cm2_ncell3_0/m1_2093_710#" "cm2_ncell4_0/cm2_ncell4_2_0/sky130_fd_pr__nfet_g5v0d10v5_TNA5KF_0/a_n970_n118#"
 merge "cm2_ncell4_0/cm2_ncell4_2_0/sky130_fd_pr__nfet_g5v0d10v5_TNA5KF_0/a_n970_n118#" "VBNDEC"
-merge "cm2_ncell_0/cm2_ncell2_0/cm2_ncell2_ncell_0/m1_1032_175#" "GNDA" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "cm2_ncell3_0/li_2008_449#" "cm2_ncell4_0/cm2_ncell4_1_0/li_1818_1564#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm2_ncell4_0/cm2_ncell4_2_0/m1_1795_1542#" "cm2_ncell4_0/cm2_ncell4_2_0/li_1818_1564#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "cm2_ncell4_0/cm2_ncell4_2_0/li_1818_1564#" "cm2_ncell4_0/cm2_ncell4_2_0/a_1805_1552#"
+merge "cm2_ncell4_0/cm2_ncell4_2_0/a_1805_1552#" "cm2_ncell_0/cm2_ncell1_0/a_3674_1973#"

@@ -1,0 +1,23 @@
+timestamp 1750201071
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1 1 0 308 0 1 7659
+node "a_2381_7417#" 388 377.007 2381 7417 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28980 1086 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n1825_7417#" 388 377.007 -1825 7417 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28980 1086 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "a_n1825_7417#" "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_n2000_n242#" 28.8349
+cap "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/w_n2094_n278#" "a_n1825_7417#" 138.399
+cap "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_n2058_n216#" "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/w_n2094_n278#" -2.81551
+cap "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_n2058_n216#" "a_n1825_7417#" 24.9317
+cap "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/w_n2094_n278#" "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_n2000_n242#" -3.11685
+cap "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_2000_n216#" "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/w_n2094_n278#" -2.81551
+cap "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_n2000_n242#" "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/w_n2094_n278#" -3.11685
+cap "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_2000_n216#" "a_2381_7417#" 15.9266
+cap "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_n2000_n242#" "a_2381_7417#" 15.3554
+cap "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_n2000_n242#" "a_2381_7417#" 13.4795
+cap "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/a_2000_n216#" "a_2381_7417#" 9.00512
+cap "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/w_n2094_n278#" "a_2381_7417#" 138.399
+merge "sky130_fd_pr__pfet_g5v0d10v5_RPZ9PD_1/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

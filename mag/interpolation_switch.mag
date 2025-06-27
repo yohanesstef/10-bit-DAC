@@ -1,0 +1,22 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1751047215
+<< metal2 >>
+rect 130 949 1025 979
+rect 282 891 878 921
+rect 130 700 1030 730
+rect 282 642 878 672
+rect 130 451 1030 481
+rect 282 393 878 423
+rect 130 202 1030 232
+rect 288 144 872 174
+use interpolation_s2_v2  interpolation_s2_v2_0
+timestamp 1751045299
+transform 1 0 -14880 0 1 -13729
+box 14692 13579 15422 14791
+use interpolation_s3_v2  interpolation_s3_v2_0
+timestamp 1751045299
+transform 1 0 -14621 0 1 -13729
+box 15213 13557 15995 14590
+<< end >>

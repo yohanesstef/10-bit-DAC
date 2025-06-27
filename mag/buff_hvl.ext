@@ -18,30 +18,30 @@ node "OUTB" 14 131.869 401 59 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "li_239_303#" 21 43.2963 239 303 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3619 248 0 0 0 0 0 0 0 0 0 0 0 0
 node "IN" 14 274.863 75 642 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 4320 264 31680 1176 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "IN" "GND" 8.90883
-cap "OUT" "GND" 34.9901
-cap "GND" "VDDH" 22.8661
-cap "OUTB" "IN" 22.6176
-cap "OUT" "OUTB" 280.423
-cap "OUTB" "VDDH" 6.27624
+cap "li_239_303#" "VDDH" 0.416779
+cap "li_239_303#" "OUT" 0.53548
 cap "IN" "VDDH" 43.421
-cap "GND" "li_239_303#" 0.78792
-cap "OUT" "VDDH" 6.27624
 cap "OUTB" "li_239_303#" 8.52926
+cap "IN" "OUTB" 22.6176
+cap "GND" "VDDH" 22.8661
+cap "OUT" "GND" 34.9901
 cap "OUTB" "GND" 41.578
+cap "OUT" "VDDH" 6.27624
+cap "OUTB" "VDDH" 6.27624
+cap "OUTB" "OUT" 280.423
 cap "IN" "li_239_303#" 7.67749
-cap "OUT" "li_239_303#" 0.53548
-cap "VDDH" "li_239_303#" 0.416779
-cap "sky130_fd_sc_hvl__inv_1_1/VGND" "sky130_fd_sc_hvl__inv_1_1/A" 154.338
-cap "sky130_fd_sc_hvl__inv_1_0/A" "sky130_fd_sc_hvl__inv_1_1/Y" 4.58386
-cap "sky130_fd_sc_hvl__inv_1_0/A" "sky130_fd_sc_hvl__inv_1_1/VPWR" 134.446
-cap "sky130_fd_sc_hvl__inv_1_1/VPWR" "sky130_fd_sc_hvl__inv_1_1/Y" 3.18728
-cap "sky130_fd_sc_hvl__inv_1_0/A" "sky130_fd_sc_hvl__inv_1_1/A" 40.9016
-cap "sky130_fd_sc_hvl__inv_1_1/Y" "sky130_fd_sc_hvl__inv_1_1/A" 3.84935
-cap "sky130_fd_sc_hvl__inv_1_0/A" "sky130_fd_sc_hvl__inv_1_1/VGND" 10.2048
+cap "li_239_303#" "GND" 0.78792
+cap "IN" "GND" 8.90883
+cap "sky130_fd_sc_hvl__inv_1_1/A" "sky130_fd_sc_hvl__inv_1_0/A" 40.9016
+cap "sky130_fd_sc_hvl__inv_1_1/A" "sky130_fd_sc_hvl__inv_1_1/VGND" 154.338
+cap "sky130_fd_sc_hvl__inv_1_1/VGND" "sky130_fd_sc_hvl__inv_1_0/A" 10.2048
+cap "sky130_fd_sc_hvl__inv_1_1/A" "sky130_fd_sc_hvl__inv_1_1/VPWR" 137.947
+cap "sky130_fd_sc_hvl__inv_1_1/VPWR" "sky130_fd_sc_hvl__inv_1_0/A" 134.446
+cap "sky130_fd_sc_hvl__inv_1_1/VGND" "sky130_fd_sc_hvl__inv_1_1/VPWR" -41.2908
+cap "sky130_fd_sc_hvl__inv_1_1/A" "sky130_fd_sc_hvl__inv_1_1/Y" 3.84935
+cap "sky130_fd_sc_hvl__inv_1_1/Y" "sky130_fd_sc_hvl__inv_1_0/A" 4.58386
 cap "sky130_fd_sc_hvl__inv_1_1/VGND" "sky130_fd_sc_hvl__inv_1_1/Y" 35.5653
-cap "sky130_fd_sc_hvl__inv_1_1/VPWR" "sky130_fd_sc_hvl__inv_1_1/A" 137.947
-cap "sky130_fd_sc_hvl__inv_1_1/VPWR" "sky130_fd_sc_hvl__inv_1_1/VGND" -41.2908
+cap "sky130_fd_sc_hvl__inv_1_1/VPWR" "sky130_fd_sc_hvl__inv_1_1/Y" 3.18728
 merge "sky130_fd_sc_hvl__inv_1_0/VGND" "sky130_fd_sc_hvl__inv_1_0/VNB" -297.321 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -68 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -68 0 -2544 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_sc_hvl__inv_1_0/VNB" "sky130_fd_sc_hvl__inv_1_1/VNB"
 merge "sky130_fd_sc_hvl__inv_1_1/VNB" "VSUBS"

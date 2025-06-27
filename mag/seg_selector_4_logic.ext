@@ -8,43 +8,43 @@ use sky130_fd_sc_hd__nor2_1 x3 1 0 840 0 1 -2214
 use sky130_fd_sc_hd__nand2_1 x2 1 0 564 0 1 -2214
 use sky130_fd_sc_hd__nand2_1 x1 1 0 288 0 1 -2214
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "x3/VGND" "x3/VPB" -4.44089e-15
-cap "x1/B" "x3/VGND" 0.320965
-cap "x3/VPB" "x2/B" 1.2455
-cap "x3/a_109_297#" "x3/VPWR" 0.13816
-cap "x3/VPB" "x1/Y" 0.529245
-cap "x2/A" "x3/B" 54.7749
-cap "x1/A" "x3/VPWR" 0.602699
-cap "x2/Y" "x3/a_109_297#" 0.00762458
-cap "x3/Y" "x3/VPB" -1.32459
-cap "x2/Y" "x1/A" 0.93413
-cap "x3/VGND" "x1/a_113_47#" 0.0983738
-cap "x2/Y" "x3/VPWR" 0.0455868
-cap "x3/VGND" "x2/A" 1.27566
-cap "x3/B" "x3/VPWR" 1.31503
+cap "x3/Y" "x2/Y" 6.6475
 cap "x3/Y" "x2/A" 1.04527
-cap "x2/Y" "x3/B" 1.03447
-cap "x3/VGND" "x1/A" 1.28593
-cap "x1/A" "x2/B" 54.7748
-cap "x3/VPB" "x2/A" 1.29967
-cap "x3/VGND" "x3/VPWR" -1.42109e-14
-cap "x2/B" "x3/VPWR" 0.559253
-cap "x2/Y" "x3/VGND" 49.1185
-cap "x3/VPB" "x1/A" 1.40877
-cap "x3/VPWR" "x1/Y" 0.0455868
-cap "x3/VPB" "x3/VPWR" -12.023
+cap "x3/VPB" "x3/Y" -1.32459
+cap "x3/a_109_297#" "x3/VPWR" 0.13816
+cap "x1/A" "x3/VPWR" 0.602699
+cap "x3/VPWR" "x3/B" 1.31503
+cap "x2/B" "x1/A" 54.7748
 cap "x3/VGND" "x2/a_113_47#" 0.0962615
-cap "x2/Y" "x1/Y" 6.44762
-cap "x3/Y" "x3/VPWR" 76.3897
-cap "x3/VGND" "x3/B" 0.381
-cap "x2/Y" "x3/Y" 6.6475
-cap "x2/Y" "x3/VPB" 1.0736
-cap "x3/A" "x3/VPWR" 0.388899
+cap "x3/a_109_297#" "x2/Y" 0.00762458
+cap "x3/B" "x2/Y" 1.03447
+cap "x1/A" "x2/Y" 0.93413
+cap "x3/VPB" "x1/A" 1.40877
+cap "x3/B" "x2/A" 54.7749
 cap "x3/VPB" "x3/B" 1.30168
-cap "x3/VGND" "x2/B" 0.686482
+cap "x3/VGND" "x3/B" 0.381
+cap "x3/VGND" "x1/A" 1.28593
+cap "x3/VGND" "x1/B" 0.320965
+cap "x3/VPWR" "x1/Y" 0.0455868
+cap "x2/B" "x3/VPWR" 0.559253
+cap "x3/VPWR" "x2/Y" 0.0455868
+cap "x3/VPB" "x3/VPWR" -12.023
+cap "x3/VPWR" "x2/A" 0.381
 cap "x2/B" "x1/Y" 1.52188
+cap "x3/VGND" "x3/VPWR" -1.42109e-14
+cap "x1/a_113_47#" "x3/VGND" 0.0983738
+cap "x2/Y" "x1/Y" 6.44762
+cap "x3/VPB" "x1/Y" 0.529245
+cap "x2/B" "x3/VPB" 1.2455
 cap "x3/VGND" "x1/Y" 51.9631
-cap "x2/A" "x3/VPWR" 0.381
+cap "x3/VPB" "x2/Y" 1.0736
+cap "x3/A" "x3/VPWR" 0.388899
+cap "x3/VGND" "x2/B" 0.686482
+cap "x3/VGND" "x2/Y" 49.1185
+cap "x3/VPB" "x2/A" 1.29967
+cap "x3/VGND" "x2/A" 1.27566
+cap "x3/VGND" "x3/VPB" -4.44089e-15
+cap "x3/Y" "x3/VPWR" 76.3897
 merge "x1/VNB" "x2/VNB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "x2/VNB" "x3/VNB"
 merge "x3/VNB" "VSUBS"

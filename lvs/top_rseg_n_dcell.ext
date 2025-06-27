@@ -1,0 +1,243 @@
+timestamp 1751036427
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use top_segment_4 top_segment_4_1 1 0 -17367 0 1 13412
+use top_segment_3 top_segment_3_0 -1 0 24112 0 -1 23696
+use top_segment_2 top_segment_2_0 -1 0 34310 0 -1 23469
+use top_segment_1 top_segment_1_0 1 0 26106 0 1 1210
+use top_dcell_routing top_dcell_routing_0 1 0 0 0 1 0
+port "VS4" 16 17831 9309 17891 9369 m2
+port "VH3" 15 18852 17418 18912 17478 m2
+port "VL3" 14 18575 17506 18635 17566 m2
+port "VH2" 13 20566 16688 20626 16748 m2
+port "VL2" 12 20842 16776 20902 16836 m2
+port "VS1" 11 32932 9309 32992 9369 m2
+port "SH[1]" 17 12084 11733 12144 11793 m2
+port "SH[2]" 18 12084 11821 12144 11881 m2
+port "SH[3]" 19 12084 11909 12144 11969 m2
+port "SH[4]" 20 12084 11997 12144 12057 m2
+port "DIN9" 9 49423 8800 49823 9200 m2
+port "DIN8" 8 49423 9400 49823 9800 m2
+port "DIN7" 7 49423 10000 49823 10400 m2
+port "DIN6" 6 49423 10600 49823 11000 m2
+port "DIN5" 5 49423 11200 49823 11600 m2
+port "DIN4" 4 49423 11800 49823 12200 m2
+port "DIN3" 3 49423 12400 49823 12800 m2
+port "DIN2" 2 49423 13000 49823 13400 m2
+port "DIN1" 1 49423 13600 49823 14000 m2
+port "DIN0" 0 49423 14200 49823 14600 m2
+port "VDD" 21 -916 -1013 284 -413 m2
+port "ROUT" 10 38339 25830 38739 26230 m2
+port "VDDH" 22 -916 387 284 987 m2
+port "GND" 23 -916 -313 284 287 m2
+node "VS4" 0 0 17831 9309 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VH3" 0 0 18852 17418 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VL3" 0 0 18575 17506 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VH2" 0 0 20566 16688 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VL2" 0 0 20842 16776 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VS1" 0 0 32932 9309 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[1]" 0 0 12084 11733 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[2]" 0 0 12084 11821 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[3]" 0 0 12084 11909 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SH[4]" 0 0 12084 11997 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_20147_6584#" 0 0 20147 6584 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_23482_6584#" 0 0 23482 6584 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_34815_13845#" 0 0 34815 13845 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_38148_13936#" 0 0 38148 13936 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_18405_13143#" 0 0 18405 13143 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_15886_13231#" 0 0 15886 13231 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_26262_19079#" 0 0 26262 19079 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_21430_14551#" 0 0 21430 14551 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_34162_20383#" 0 0 34162 20383 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_18478_20374#" 0 0 18478 20374 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_13764_3987#" 0 0 13764 3987 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_46623_7314#" 0 0 46623 7314 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN9" 0 0 49423 8800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN8" 0 0 49423 9400 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN7" 0 0 49423 10000 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN6" 0 0 49423 10600 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN5" 0 0 49423 11200 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN4" 0 0 49423 11800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN3" 0 0 49423 12400 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_34223_9136#" 0 0 34223 9136 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_33340_9132#" 0 0 33340 9132 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_33039_9132#" 0 0 33039 9132 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_33644_9133#" 0 0 33644 9133 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_35068_9134#" 0 0 35068 9134 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_36213_9132#" 0 0 36213 9132 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_32093_8056#" 0 0 32093 8056 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_37333_8071#" 0 0 37333 8071 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN2" 0 0 49423 13000 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_21112_9141#" 0 0 21112 9141 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_17938_9141#" 0 0 17938 9141 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_18239_9141#" 0 0 18239 9141 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_18543_9142#" 0 0 18543 9142 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_19122_9144#" 0 0 19122 9144 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_19967_9143#" 0 0 19967 9143 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_22995_8062#" 0 0 22995 8062 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_26935_6659#" 0 0 26935 6659 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_31462_7586#" 0 0 31462 7586 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN1" 0 0 49423 13600 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DIN0" 0 0 49423 14200 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_31892_14367#" 0 0 31892 14367 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_27878_14103#" 0 0 27878 14103 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_26470_14191#" 0 0 26470 14191 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_25062_14279#" 0 0 25062 14279 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_23654_14015#" 0 0 23654 14015 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_22400_13663#" 0 0 22400 13663 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_21820_13751#" 0 0 21820 13751 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_21240_13839#" 0 0 21240 13839 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_20660_13927#" 0 0 20660 13927 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_18764_12607#" 0 0 18764 12607 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_18173_12695#" 0 0 18173 12695 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_17467_8060#" 0 0 17467 8060 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_17327_12783#" 0 0 17327 12783 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_16781_7587#" 0 0 16781 7587 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_16471_12871#" 0 0 16471 12871 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_16187_6578#" 0 0 16187 6578 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_15217_16885#" 0 0 15217 16885 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_13975_16797#" 0 0 13975 16797 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 -916 -1013 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ROUT" 0 0 38339 25830 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDDH" 0 0 -916 387 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "GND" 0 0 -916 -313 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/top_dcell_bias_0/top_bias_lvsf_dec_0/cm2_pcell3_0/w_n5785_3966#" "top_dcell_routing_0/top_dcell_bias_0/top_bias_lvsf_dec_0/cm2_pcell_0/cm2_pcell1_0/cm2_pcell1_5_0/m1_n1312_203#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/top_dcell_bias_0/top_bias_lvsf_dec_0/cm2_pcell_0/cm2_pcell1_0/cm2_pcell1_5_0/m1_n1312_203#" "top_segment_3_0/hpmos_9_1/w_2208_736#"
+merge "top_segment_3_0/hpmos_9_1/w_2208_736#" "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/VDDH"
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/VDDH" "top_segment_4_1/pswitch_8_stage_1_0/hpmos_8_8/w_227_n172#"
+merge "top_segment_4_1/pswitch_8_stage_1_0/hpmos_8_8/w_227_n172#" "top_segment_4_1/rseg_4_routing_0/rseg_4_v3_0/m1_24468_n18814#"
+merge "top_segment_4_1/rseg_4_routing_0/rseg_4_v3_0/m1_24468_n18814#" "VDDH"
+merge "top_segment_2_0/tps2_sw_stage_1_1/hnmos_4_2/hnmos_2_0/hnmos_1_0/m1_65_142#" "top_dcell_routing_0/m1_38911_14455#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_38911_14455#" "m2_26262_19079#"
+merge "top_segment_2_0/VSUBS" "top_segment_3_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_3_0/VSUBS" "top_segment_1_0/VSUBS"
+merge "top_segment_1_0/VSUBS" "top_dcell_routing_0/VSUBS"
+merge "top_dcell_routing_0/VSUBS" "top_segment_4_1/VSUBS"
+merge "top_segment_4_1/VSUBS" "VSUBS"
+merge "top_segment_2_0/rseg_2_v3_0/gnd" "top_segment_3_0/rseg_3_v3_0/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_3_0/rseg_3_v3_0/gnd" "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/buffer_bus_0/buffer_cell_0/GND"
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/buffer_bus_0/buffer_cell_0/GND" "top_segment_1_0/rseg_1_v3_1/v0"
+merge "top_segment_1_0/rseg_1_v3_1/v0" "m1_46623_7314#"
+merge "m1_46623_7314#" "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/GND"
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/GND" "top_segment_1_0/rseg_1_v3_1/gnd"
+merge "top_segment_1_0/rseg_1_v3_1/gnd" "top_segment_4_1/rseg_4_routing_0/rseg_4_v3_0/a_12838_n21572#"
+merge "top_segment_4_1/rseg_4_routing_0/rseg_4_v3_0/a_12838_n21572#" "GND"
+merge "top_segment_2_0/V48" "top_segment_3_0/V0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_3_0/V0" "m2_18478_20374#"
+merge "top_segment_2_0/DEC2[1]" "top_dcell_routing_0/m1_39615_13751#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_39615_13751#" "m1_21820_13751#"
+merge "m1_21820_13751#" "top_segment_1_0/DEC[1]"
+merge "top_segment_1_0/DEC[1]" "m1_31462_7586#"
+merge "top_segment_3_0/bb[3]" "top_dcell_routing_0/m1_40577_12613#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_40577_12613#" "top_segment_1_0/tps1_sw_stage_final_0/nswitch_8_stage_2_0/hnmos_8_8/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#"
+merge "top_segment_1_0/tps1_sw_stage_final_0/nswitch_8_stage_2_0/hnmos_8_8/hnmos_4_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "m1_32093_8056#"
+merge "m1_32093_8056#" "m1_18764_12607#"
+merge "m1_18764_12607#" "top_segment_4_1/pswitch_8_stage_1_4/hpmos_8_8/hpmos_4_1/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#"
+merge "top_segment_4_1/pswitch_8_stage_1_4/hpmos_8_8/hpmos_4_1/hpmos_2_0/hpmos_1_0/XM1/a_n50_n104#" "m1_22995_8062#"
+merge "top_segment_2_0/V0" "top_segment_1_0/V64" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_1_0/V64" "m2_34162_20383#"
+merge "top_dcell_routing_0/m1_40407_11340#" "top_segment_1_0/b[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_1_0/b[1]" "m1_33644_9133#"
+merge "m1_33644_9133#" "top_segment_4_1/b1"
+merge "top_segment_4_1/b1" "m1_19122_9144#"
+merge "top_segment_2_0/tps2_sw_stage_1_2/hnmos_4_2/hnmos_2_0/hnmos_1_0/m1_65_142#" "top_dcell_routing_0/m1_38823_14543#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_38823_14543#" "m2_21430_14551#"
+merge "top_segment_2_0/tps2_sw_stage_2_0/hnmos_4_1/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "top_dcell_routing_0/m1_39175_14191#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_39175_14191#" "m1_26470_14191#"
+merge "top_segment_2_0/DEC2[0]" "top_segment_2_0/tps2_sw_stage_3_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_2_0/tps2_sw_stage_3_0/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "top_dcell_routing_0/m1_39703_13663#"
+merge "top_dcell_routing_0/m1_39703_13663#" "m1_22400_13663#"
+merge "m1_22400_13663#" "top_segment_1_0/DEC[0]"
+merge "top_segment_1_0/DEC[0]" "m1_26935_6659#"
+merge "top_segment_3_0/bb[6]" "top_dcell_routing_0/m1_40231_13135#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_40231_13135#" "m2_18405_13143#"
+merge "top_segment_3_0/bb[5]" "top_segment_3_0/tps3_switch_10_0/hpmos_5_1/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n50_n104#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_3_0/tps3_switch_10_0/hpmos_5_1/hpmos_4_0/hpmos_2_1/hpmos_1_1/XM1/a_n50_n104#" "top_dcell_routing_0/m1_40407_12959#"
+merge "top_dcell_routing_0/m1_40407_12959#" "m1_13975_16797#"
+merge "top_segment_3_0/b[3]" "top_segment_3_0/tps3_switch_final_stage_0/hpmos_2_2/hpmos_1_0/XM1/a_n50_n104#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_3_0/tps3_switch_final_stage_0/hpmos_2_2/hpmos_1_0/XM1/a_n50_n104#" "top_dcell_routing_0/m1_40495_12695#"
+merge "top_dcell_routing_0/m1_40495_12695#" "top_segment_1_0/b[3]"
+merge "top_segment_1_0/b[3]" "m1_37333_8071#"
+merge "m1_37333_8071#" "m1_18173_12695#"
+merge "m1_18173_12695#" "top_segment_4_1/pswitch_8_stage_2_0/hpmos_8_8/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n50_n104#"
+merge "top_segment_4_1/pswitch_8_stage_2_0/hpmos_8_8/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n50_n104#" "m1_17467_8060#"
+merge "top_dcell_routing_0/m1_39791_13575#" "top_segment_4_1/DEC3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_4_1/DEC3" "m2_23482_6584#"
+merge "top_segment_3_0/tps3_switch_final_stage_0/hpmos_2_1/hpmos_1_1/XM1/a_n50_n104#" "top_dcell_routing_0/m1_40987_12871#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_40987_12871#" "m1_16471_12871#"
+merge "top_segment_2_0/VL" "VL2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_3_0/b[6]" "top_dcell_routing_0/m1_40143_13223#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_40143_13223#" "m2_15886_13231#"
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/VDD" "VDD" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_40577_12525#" "top_segment_1_0/b[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_1_0/b[2]" "m1_36213_9132#"
+merge "m1_36213_9132#" "top_segment_4_1/b2"
+merge "top_segment_4_1/b2" "m1_19967_9143#"
+merge "top_dcell_routing_0/m1_39879_8139#" "SH[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_1_0/VOUT" "VS1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_40495_12242#" "top_segment_1_0/bb[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_1_0/bb[2]" "m1_35068_9134#"
+merge "m1_35068_9134#" "top_segment_4_1/pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n50_n104#"
+merge "top_segment_4_1/pgring_16_0/pswitch_16_final_0/pswitch_4_stage_3_H_0/hpmos_4_0/hpmos_2_0/hpmos_1_1/XM1/a_n50_n104#" "m1_21112_9141#"
+merge "top_segment_3_0/V16" "top_segment_4_1/rseg_4_routing_0/rseg_4_v3_0/m1_14122_n18814#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_4_1/rseg_4_routing_0/rseg_4_v3_0/m1_14122_n18814#" "m2_13764_3987#"
+merge "top_dcell_routing_0/m1_39967_13399#" "top_segment_4_1/DEC1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_4_1/DEC1" "m1_16781_7587#"
+merge "top_dcell_routing_0/m1_40231_10350#" "top_segment_1_0/b[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_1_0/b[0]" "m1_33039_9132#"
+merge "m1_33039_9132#" "top_segment_4_1/pgring_16_0/pswitch_16_final_0/hpmos_1_1/XM1/a_n50_n104#"
+merge "top_segment_4_1/pgring_16_0/pswitch_16_final_0/hpmos_1_1/XM1/a_n50_n104#" "m1_18239_9141#"
+merge "top_segment_2_0/tps2_sw_stage_2_0/hnmos_4_0/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "top_dcell_routing_0/m1_39263_14103#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_39263_14103#" "m1_27878_14103#"
+merge "top_segment_2_0/tps2_sw_stage_1_0/hnmos_4_1/hnmos_2_0/hnmos_1_1/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "top_dcell_routing_0/m1_38999_14367#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_38999_14367#" "m1_31892_14367#"
+merge "top_dcell_routing_0/m1_39879_13487#" "top_segment_4_1/DEC2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_4_1/DEC2" "m2_20147_6584#"
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/buffer_bus_0/buffer_cell_1/IN" "DIN8" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/buffer_bus_0/buffer_cell_4/IN" "DIN2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_2_0/DEC1[0]" "top_dcell_routing_0/m1_39351_14015#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_39351_14015#" "m1_23654_14015#"
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/buffer_bus_0/buffer_cell_7/IN" "DIN4" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_4_1/VOUT" "VS4" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_40319_11252#" "top_segment_1_0/bb[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_1_0/bb[1]" "m1_34223_9136#"
+merge "m1_34223_9136#" "top_segment_4_1/bb1"
+merge "top_segment_4_1/bb1" "m1_18543_9142#"
+merge "top_segment_2_0/DEC2[2]" "top_dcell_routing_0/m1_39527_13839#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_39527_13839#" "m1_21240_13839#"
+merge "m1_21240_13839#" "top_segment_1_0/DEC[2]"
+merge "top_segment_1_0/DEC[2]" "m2_34815_13845#"
+merge "top_segment_2_0/DEC2[3]" "top_dcell_routing_0/m1_39439_13927#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_39439_13927#" "m1_20660_13927#"
+merge "m1_20660_13927#" "top_segment_1_0/DEC[3]"
+merge "top_segment_1_0/DEC[3]" "m2_38148_13936#"
+merge "top_segment_3_0/bb[4]" "top_dcell_routing_0/m1_41075_12783#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_41075_12783#" "m1_17327_12783#"
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/buffer_bus_0/buffer_cell_10/IN" "DIN1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_40055_13311#" "top_segment_4_1/pswitch_8_stage_1_up_0/hpmos_8_8/hpmos_4_1/hpmos_2_1/hpmos_1_1/m1_1998_n3033#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_4_1/pswitch_8_stage_1_up_0/hpmos_8_8/hpmos_4_1/hpmos_2_1/hpmos_1_1/m1_1998_n3033#" "m1_16187_6578#"
+merge "top_segment_3_0/tps3_switch_10_0/hpmos_5_0/hpmos_4_0/hpmos_2_1/hpmos_1_0/XM1/a_n50_n104#" "top_dcell_routing_0/m1_40319_13047#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_40319_13047#" "m1_15217_16885#"
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/DIN9" "DIN9" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_40143_10262#" "top_segment_1_0/bb[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_1_0/bb[0]" "m1_33340_9132#"
+merge "m1_33340_9132#" "top_segment_4_1/bb0"
+merge "top_segment_4_1/bb0" "m1_17938_9141#"
+merge "top_segment_3_0/VL" "VL3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/buffer_bus_0/buffer_cell_11/IN" "DIN0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/top_dcell_bias_0/top_bias_lvsf_dec_0/ROUT" "ROUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_2_0/VH" "VH2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_40055_9217#" "SH[4]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/buffer_bus_0/buffer_cell_5/IN" "DIN3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_3_0/VH" "VH3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/buffer_bus_0/buffer_cell_2/IN" "DIN6" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_39967_8227#" "SH[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/buffer_bus_0/buffer_cell_6/IN" "DIN5" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_39791_8051#" "SH[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/top_dcell_bias_0/top_digital_cell_0/buffer_bus_0/buffer_cell_3/IN" "DIN7" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_segment_2_0/tps2_sw_stage_2_0/hnmos_4_2/hnmos_2_1/hnmos_1_0/sky130_fd_pr__nfet_g5v0d10v5_NQHLCX_0/a_n50_n99#" "top_dcell_routing_0/m1_39087_14279#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_dcell_routing_0/m1_39087_14279#" "m1_25062_14279#"

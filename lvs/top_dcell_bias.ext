@@ -1,4 +1,4 @@
-timestamp 1750863581
+timestamp 1751030423
 version 8.3
 tech sky130A
 style ngspice()
@@ -11,20 +11,19 @@ node "m2_420_1687#" 0 0 420 1687 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "m1_1964_n1850#" 0 0 1964 -1850 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "m1_4736_1000#" 0 0 4736 1000 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "m1_6074_1278#" 0 0 6074 1278 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "m1_4188_2787#" 0 0 4188 2787 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_4188_2726#" 0 0 4188 2726 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "w_4244_2153#" 0 0 4244 2153 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "top_digital_cell_0/decoder_3_0/decoder_2to4_2/VPBIAS" "top_bias_lvsf_dec_0/VBPDEC" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "top_bias_lvsf_dec_0/VBPDEC" "m1_4736_1000#"
-merge "top_bias_lvsf_dec_0/a_4159_n3193#" "top_digital_cell_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "top_bias_lvsf_dec_0/GNDA" "top_digital_cell_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "top_digital_cell_0/VSUBS" "VSUBS"
 merge "top_digital_cell_0/decoder_3_0/decoder_2to4_2/VNBIAS" "top_bias_lvsf_dec_0/cm2_ncell3_0/m1_2093_710#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "top_bias_lvsf_dec_0/cm2_ncell3_0/m1_2093_710#" "m1_6074_1278#"
 merge "top_bias_lvsf_dec_0/cm2_pcell3_0/w_n5785_3966#" "top_digital_cell_0/decoder_3_0/decoder_2to4_2/dec_pcell_0/w_n601_499#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "top_digital_cell_0/decoder_3_0/decoder_2to4_2/dec_pcell_0/w_n601_499#" "top_bias_lvsf_dec_0/cm2_pcell4_1_0/m1_n283_n485#"
-merge "top_bias_lvsf_dec_0/cm2_pcell4_1_0/m1_n283_n485#" "m1_4188_2787#"
-merge "m1_4188_2787#" "top_bias_lvsf_dec_0/cm2_pcell4_1_0/w_n339_n541#"
-merge "top_bias_lvsf_dec_0/cm2_pcell4_1_0/w_n339_n541#" "top_digital_cell_0/decoder_3_0/decoder_2to4_2/VDDH"
+merge "top_digital_cell_0/decoder_3_0/decoder_2to4_2/dec_pcell_0/w_n601_499#" "top_bias_lvsf_dec_0/cm2_pcell4_1_0/w_n339_n541#"
+merge "top_bias_lvsf_dec_0/cm2_pcell4_1_0/w_n339_n541#" "m1_4188_2726#"
+merge "m1_4188_2726#" "top_digital_cell_0/decoder_3_0/decoder_2to4_2/VDDH"
 merge "top_digital_cell_0/decoder_3_0/decoder_2to4_2/VDDH" "w_4244_2153#"
 merge "top_digital_cell_0/decoder_3_0/dec_2_0/sky130_fd_sc_hvl__inv_1_3/VGND" "top_bias_lvsf_dec_0/cm2_ncell4_0/cm2_ncell4_3_0/m1_1795_1542#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "top_bias_lvsf_dec_0/cm2_ncell4_0/cm2_ncell4_3_0/m1_1795_1542#" "m1_1964_n1850#"

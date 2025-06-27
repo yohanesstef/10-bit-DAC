@@ -69,7 +69,7 @@ descr="load tran"
 tclcommand="xschem raw_read $netlist_dir/top_digital_posim_2-tb.raw tran"
 }
 C {devices/lab_pin.sym} 520 -290 0 0 {name=p6 sig_type=std_logic lab=d[0..9]}
-C {devices/code_shown.sym} -280 -300 0 0 {name=s1 only_toplevel=false value=".include $THESIS_WS/spice/top_rseg_n_dcell-tb.sp"}
+C {devices/code_shown.sym} -340 -310 0 0 {name=s1 only_toplevel=false value=".include $THESIS_WS/spice/top_rseg_n_dcell-tb.sp"}
 C {devices/code.sym} 160 -260 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
@@ -85,8 +85,7 @@ footprint=1206
 device=resistor
 m=1}
 C {devices/lab_pin.sym} 390 -150 0 0 {name=p38 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 520 -190 0 0 {name=p39 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 520 -210 0 0 {name=p40 sig_type=std_logic lab=VDDA}
+C {devices/lab_pin.sym} 520 -210 0 0 {name=p39 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 520 -250 0 0 {name=p42 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 520 -230 0 0 {name=p43 sig_type=std_logic lab=VDDH}
 C {devices/capa.sym} 1030 -270 0 0 {name=C1
@@ -96,7 +95,6 @@ footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 1030 -300 0 0 {name=p41 sig_type=std_logic lab=VS1}
 C {devices/lab_pin.sym} 1030 -240 0 0 {name=p44 sig_type=std_logic lab=gnd}
-C {top_rseg_n_dcell-tb.sch} 6960 -170 0 0 {}
 C {devices/lab_pin.sym} 820 -290 0 1 {name=p47 sig_type=std_logic lab=VS1}
 C {devices/lab_pin.sym} 820 -270 0 1 {name=p48 sig_type=std_logic lab=VL2}
 C {devices/lab_pin.sym} 820 -250 0 1 {name=p49 sig_type=std_logic lab=VH2}
@@ -137,11 +135,12 @@ m=1
 value=50f
 footprint=1206
 device="ceramic capacitor"}
-C {devices/lab_pin.sym} 1510 -300 0 0 {name=p10 sig_type=std_logic lab=VH4}
 C {devices/lab_pin.sym} 1510 -240 0 0 {name=p11 sig_type=std_logic lab=gnd}
-C {devices/code_shown.sym} -270 -250 0 0 {name=s2 only_toplevel=false value="
+C {devices/code_shown.sym} -330 -260 0 0 {name=s2 only_toplevel=false value="
 .save d0 d1 d2 d3 d4 d5 d6 d7 d8 d9
 .save VS1 VL2 VH2 VL3 VH3 VS4 
 .save SH[1] SH[2] SH[3] SH[4]
 "}
 C {devices/ammeter.sym} 390 -240 0 0 {name=Vmeas savecurrent=true spice_ignore=0}
+C {top_rseg_n_dcell.sym} 670 -230 0 0 {name=x1}
+C {devices/lab_pin.sym} 1510 -300 0 0 {name=p10 sig_type=std_logic lab=VS4}
