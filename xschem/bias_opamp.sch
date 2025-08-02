@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -33,10 +33,10 @@ N 460 -470 490 -470 {lab=#net2}
 N 490 -470 490 -350 {lab=#net2}
 N 420 -350 490 -350 {lab=#net2}
 N 460 -390 490 -390 {lab=#net2}
-N 460 -310 490 -310 {lab=ROUT}
-N 490 -310 490 -200 {lab=ROUT}
-N 420 -200 490 -200 {lab=ROUT}
-N 460 -230 490 -230 {lab=ROUT}
+N 460 -310 490 -310 {lab=#net9}
+N 490 -310 490 -200 {lab=#net9}
+N 420 -200 490 -200 {lab=#net9}
+N 460 -230 490 -230 {lab=#net9}
 N 670 -390 700 -390 {lab=#net5}
 N 700 -510 700 -390 {lab=#net5}
 N 630 -510 700 -510 {lab=#net5}
@@ -65,9 +65,6 @@ N 730 -350 730 -240 {lab=VTAIL1}
 N 630 -430 720 -430 {lab=VTAIL2}
 N 720 -430 720 -320 {lab=VTAIL2}
 N 830 -700 830 -660 {lab=VDDA}
-N 1100 -200 1100 -140 {lab=GNDA}
-N 830 -200 830 -140 {lab=GNDA}
-N 630 -200 630 -140 {lab=GNDA}
 N 590 -640 590 -630 {lab=VHEAD1}
 N 790 -640 790 -630 {lab=VHEAD1}
 N 630 -630 640 -630 {lab=VDDA}
@@ -91,20 +88,20 @@ N 830 -630 840 -630 {lab=VDDA}
 N 1090 -550 1100 -550 {lab=VDDA}
 N 1090 -660 1090 -550 {lab=VDDA}
 N 1090 -630 1100 -630 {lab=VDDA}
-N 620 -470 630 -470 {lab=GNDA}
-N 620 -470 620 -200 {lab=GNDA}
-N 620 -200 630 -200 {lab=GNDA}
-N 620 -230 630 -230 {lab=GNDA}
-N 620 -390 630 -390 {lab=GNDA}
-N 620 -310 630 -310 {lab=GNDA}
-N 1100 -310 1110 -310 {lab=GNDA}
-N 1110 -310 1110 -200 {lab=GNDA}
-N 1100 -200 1110 -200 {lab=GNDA}
-N 1100 -230 1110 -230 {lab=GNDA}
-N 820 -310 830 -310 {lab=GNDA}
-N 820 -310 820 -200 {lab=GNDA}
-N 820 -200 830 -200 {lab=GNDA}
-N 820 -230 830 -230 {lab=GNDA}
+N 620 -470 630 -470 {lab=#net10}
+N 620 -470 620 -200 {lab=#net10}
+N 620 -200 630 -200 {lab=#net10}
+N 620 -230 630 -230 {lab=#net10}
+N 620 -390 630 -390 {lab=#net10}
+N 620 -310 630 -310 {lab=#net10}
+N 1100 -310 1110 -310 {lab=#net11}
+N 1110 -310 1110 -200 {lab=#net11}
+N 1100 -200 1110 -200 {lab=#net11}
+N 1100 -230 1110 -230 {lab=#net11}
+N 820 -310 830 -310 {lab=#net12}
+N 820 -310 820 -200 {lab=#net12}
+N 820 -200 830 -200 {lab=#net12}
+N 820 -230 830 -230 {lab=#net12}
 N 1300 -330 1300 -270 {lab=GNDA}
 N 1260 -300 1300 -300 {lab=GNDA}
 N 1300 -270 1300 -190 {lab=GNDA}
@@ -119,7 +116,6 @@ N 1300 -460 1300 -400 {lab=GNDA}
 N 1260 -430 1300 -430 {lab=GNDA}
 N 630 -550 640 -550 {lab=VDDA}
 N 640 -630 640 -550 {lab=VDDA}
-N 420 -200 420 -140 {lab=ROUT}
 C {devices/param.sym} 30 -590 0 0 {name=s2 value="
 +wp_iref=1.8
 +wn_iref=0.6
@@ -522,3 +518,7 @@ model=nfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} 1260 -430 0 0 {name=p21 sig_type=std_logic lab=GNDA}
+C {devices/ammeter.sym} 420 -170 0 0 {name=Vmeas savecurrent=true spice_ignore=0}
+C {devices/ammeter.sym} 630 -170 0 0 {name=Vmeas1 savecurrent=true spice_ignore=0}
+C {devices/ammeter.sym} 830 -170 0 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
+C {devices/ammeter.sym} 1100 -170 0 0 {name=Vmeas3 savecurrent=true spice_ignore=0}

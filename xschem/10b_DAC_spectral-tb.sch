@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -114,13 +114,9 @@ C {devices/code_shown.sym} -390 -440 0 0 {name=NGSPICE_SAVE only_toplevel=true
 value="
 .save VOUT LOAD CLK V(T)
 .save da0 da1 da2 da3 da4 da5 da6 da7 da8 da9
-.save x1.V[0] x1.V[63]
-.save x1.V[64] x1.V[112]
-.save x1.V[113] x1.V[127]
-.save x1.V[128] x1.V[191]
-.save i(Vdda) i(Vdd) i(R1) i(R2) i(R3)
+.save i(Vddh) i(Vdd) i(R1) i(R2) i(R3)
 "}
-C {devices/code.sym} -130 -210 0 0 {name=TT_MODELS
+C {devices/code.sym} -150 -270 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
 value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt

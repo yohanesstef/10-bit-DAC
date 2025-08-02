@@ -1,5 +1,5 @@
 .include $THESIS_WS/spice/header.spice
-.include $THESIS_WS/pex/DAC_10b_top.pex.spice
+*.include $THESIS_WS/pex/DAC_10b_top.pex.spice
 *.include $HOME/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
 *.options wnflag=0 bypass=1
 .option wnflag=1 
@@ -25,16 +25,15 @@ Vddh vddh 0 dc 5.5
 Vdd vdd 0 dc 1.8
 
 *****Dynamic Voltage Sources******
-Vclk clk 0 pulse(1.8 0 10n 10n 0 5u 10u)
+Vd0 d0 gnd pulse(1.8 0 5u 10n 10n 10u 20u)
 
 ********************Control Commands*****************************
 .control
     set num_threads=8
     set wr_singlescale
     set wr_vecnames
-    tran 10n 10.3m 0 10n
+    tran 10n 30u
     remzerovec
-    write spectral_tb.raw
-    wrdata $THESIS_WS/simulations/top_large/spectral_posim2_tb.txt tran.all
-    destroy all
+    write tran_presim_tb.raw
+    *wrdata $THESIS_WS/simulations/top_large/spectral_posim_tb.txt tran.all
 .endc

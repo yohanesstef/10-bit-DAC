@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -6,7 +6,6 @@ S {}
 E {}
 N 430 -360 430 -330 {lab=n1}
 N 430 -270 430 -260 {lab=GNDA}
-N 430 -480 430 -420 {lab=I_OUT}
 N 430 -390 440 -390 {lab=GNDA}
 N 440 -390 440 -270 {lab=GNDA}
 N 430 -270 440 -270 {lab=GNDA}
@@ -49,3 +48,4 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
+C {devices/ammeter.sym} 430 -450 0 0 {name=Vmeas savecurrent=true spice_ignore=0}

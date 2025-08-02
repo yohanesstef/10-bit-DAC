@@ -1,11 +1,13 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
-N 960 -230 1020 -230 {lab=VOUT}
-N 1190 -290 1190 -230 {lab=GNDA}
+P 4 1 1090 -280 {}
+P 4 1 1100 -260 {}
+N 970 -210 1030 -210 {lab=VOUT}
+N 1200 -270 1200 -210 {lab=GNDA}
 C {devices/title.sym} 160 -50 0 0 {name=l1 author="Yohanes Stefanus"}
 C {devices/ipin.sym} -160 -290 0 0 {name=p30 lab=P_IN[0:4]}
 C {devices/ipin.sym} -160 -230 0 0 {name=p85 lab=ROUT}
@@ -126,13 +128,6 @@ C {devices/lab_pin.sym} 30 -530 0 0 {name=p136 sig_type=std_logic lab=I_TAIL1}
 C {devices/lab_pin.sym} 30 -400 0 0 {name=p137 sig_type=std_logic lab=I_TAIL2}
 C {devices/lab_pin.sym} 30 -270 0 0 {name=p138 sig_type=std_logic lab=I_TAIL3}
 C {devices/lab_pin.sym} 30 -140 0 0 {name=p139 sig_type=std_logic lab=I_TAIL4}
-C {devices/lab_pin.sym} 960 -290 2 1 {name=p198 sig_type=std_logic lab=I_ONA}
-C {devices/lab_pin.sym} 960 -170 2 1 {name=p199 sig_type=std_logic lab=I_OPA}
-C {devices/lab_pin.sym} 1020 -230 0 1 {name=p200 sig_type=std_logic lab=VOUT}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 960 -260 0 0 {name=C1 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 960 -200 2 1 {name=C2 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1190 -260 0 0 {name=C3 model=cap_mim_m3_1 W=2 L=2 MF=38 spiceprefix=X}
-C {devices/lab_pin.sym} 1190 -290 0 0 {name=p2 sig_type=std_logic lab=GNDA}
 C {devices/lab_pin.sym} 30 -570 0 0 {name=p3 sig_type=std_logic lab=N_IN}
 C {devices/lab_pin.sym} 30 -440 0 0 {name=p25 sig_type=std_logic lab=N_IN}
 C {devices/lab_pin.sym} 30 -310 0 0 {name=p29 sig_type=std_logic lab=N_IN}
@@ -147,3 +142,10 @@ C {devices/lab_pin.sym} 30 -250 0 0 {name=p10 sig_type=std_logic lab=VDDA}
 C {devices/lab_pin.sym} 30 -230 0 0 {name=p11 sig_type=std_logic lab=GNDA}
 C {devices/lab_pin.sym} 30 -120 0 0 {name=p12 sig_type=std_logic lab=VDDA}
 C {devices/lab_pin.sym} 30 -100 0 0 {name=p13 sig_type=std_logic lab=GNDA}
+C {devices/lab_pin.sym} 970 -270 2 1 {name=p210 sig_type=std_logic lab=I_ONA}
+C {devices/lab_pin.sym} 970 -150 2 1 {name=p211 sig_type=std_logic lab=I_OPA}
+C {devices/lab_pin.sym} 1030 -210 0 1 {name=p212 sig_type=std_logic lab=VOUT}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 970 -240 0 0 {name=C5 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 970 -180 2 1 {name=C6 model=cap_mim_m3_1 W=2 L=2 MF=20 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1200 -240 0 0 {name=C7 model=cap_mim_m3_1 W=2 L=2 MF=38 spiceprefix=X}
+C {devices/lab_pin.sym} 1200 -270 0 0 {name=p213 sig_type=std_logic lab=GNDA}

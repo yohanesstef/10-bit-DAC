@@ -1,18 +1,18 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
 N 430 -360 430 -330 {lab=n1}
-N 430 -270 430 -260 {lab=I_OUT}
+N 430 -270 430 -260 {lab=#net1}
 N 430 -430 430 -420 {lab=VDDA}
 N 430 -300 440 -300 {lab=VDDA}
 N 440 -420 440 -300 {lab=VDDA}
 N 430 -420 440 -420 {lab=VDDA}
 N 430 -390 440 -390 {lab=VDDA}
 C {devices/title.sym} 160 -40 0 0 {name=l1 author="Yohanes Stefanus"}
-C {devices/lab_pin.sym} 430 -260 2 1 {name=p1 sig_type=std_logic lab=I_OUT}
+C {devices/lab_pin.sym} 430 -200 2 1 {name=p1 sig_type=std_logic lab=I_OUT}
 C {devices/opin.sym} 50 -380 0 0 {name=p19 lab=I_OUT}
 C {devices/ipin.sym} 70 -420 0 0 {name=p5 lab=VB1}
 C {devices/ipin.sym} 70 -400 0 0 {name=p7 lab=VB2}
@@ -49,3 +49,4 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
+C {devices/ammeter.sym} 430 -230 0 0 {name=Vmeas savecurrent=true spice_ignore=0}

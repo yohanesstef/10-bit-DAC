@@ -1,0 +1,1438 @@
+* PEX produced on Sun Jul 20 22:38:46 WIB 2025 using ./iic-pex.sh with m=2 and s=1
+* NGSPICE file created from top_buffer_opamp.ext - technology: sky130A
+
+.subckt op_amp_posim P_IN[0] P_IN[1] P_IN[2] P_IN[3] P_IN[4] N_IN VOUT ROUT VDDA
++ GNDA
+X0 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X3 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X4 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X5 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X6 GNDA opa_folded_cascode_0.monticelli_top_0.B VOUT GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X7 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X8 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X9 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X10 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X11 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X12 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=27.84 ps=269.72 w=0.6 l=1
+X13 a_n9736_226# N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X14 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X15 opa_folded_cascode_0.monticelli_top_0.A opa_folded_cascode_0.VB2 opa_folded_cascode_0.monticelli_top_0.B GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0.464 ps=3.78 w=1.6 l=1
+X16 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X17 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X18 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X19 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X20 a_n9736_226# P_IN[2] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X21 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X22 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X23 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X24 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X25 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X26 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X27 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X28 VDDA a_n4822_n1462# a_n4822_n1462# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=0.696 ps=5.09 w=4.8 l=1
+X29 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X30 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X31 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X32 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X33 GNDA opa_folded_cascode_0.monticelli_top_0.Bx opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X34 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X35 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X36 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X37 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X38 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X39 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X40 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X41 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=95.352 ps=756.20001 w=1.8 l=1
+X42 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0 ps=0 w=1.6 l=1
+X43 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X44 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_folded_cascode_0.monticelli_top_0.Bx GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0.464 ps=3.78 w=1.6 l=1
+X45 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X46 a_n9242_n890# P_IN[1] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X47 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X48 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X49 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X50 a_n9242_n890# N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X51 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[0] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X52 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X53 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X54 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X55 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X56 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X57 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB N_IN a_n9242_n890# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X58 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X59 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X60 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X61 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X62 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X63 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X64 opa_folded_cascode_0.monticelli_top_0.B opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0.464 ps=3.78 w=1.6 l=1
+X65 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA P_IN[1] a_n9242_n890# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X66 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA opa_folded_cascode_0.monticelli_top_0.Ax VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X67 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X68 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X69 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X70 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X71 a_n9242_n890# N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X72 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X73 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X74 opa_folded_cascode_0.monticelli_top_0.A opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X75 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X76 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X77 a_n9242_n890# P_IN[1] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X78 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X79 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X80 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X81 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X82 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X83 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0 ps=0 w=1.6 l=1
+X84 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X85 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X86 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA P_IN[1] a_n9242_n890# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X87 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB N_IN a_n10488_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X88 opa_folded_cascode_0.VB1 opa_folded_cascode_0.VB1 a_n4822_n1462# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=0.696 ps=5.09 w=4.8 l=1
+X89 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X90 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X91 a_n9736_226# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X92 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA P_IN[3] a_n10488_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X93 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X94 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X95 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X96 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB N_IN a_n9242_n890# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X97 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X98 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X99 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X100 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X101 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X102 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X103 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X104 opa_folded_cascode_0.VB2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X105 a_n4822_464# opa_folded_cascode_0.VB2 opa_folded_cascode_0.VB2 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.464 ps=3.78 w=1.6 l=1
+X106 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X107 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X108 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X109 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X110 a_n7784_12197# ROUT ROUT VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.261 pd=2.09 as=0.522 ps=4.18 w=1.8 l=20
+X111 a_n10488_226# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X112 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB opa_folded_cascode_0.monticelli_top_0.Ax VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X113 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD P_IN[1] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X114 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X115 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X116 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X117 a_n11843_11539# a_n11843_11539# opa_input_and_self_bias_0/cm_pcell3_0.VB2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.261 ps=2.09 w=1.8 l=20
+X118 opa_input_and_self_bias_0/cm_pcell3_0.VB2 a_n11843_11539# a_n11843_11539# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.261 pd=2.09 as=0.522 ps=4.18 w=1.8 l=20
+X119 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.087 ps=0.89 w=0.6 l=20
+X120 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X121 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X122 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_folded_cascode_0.VB2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X123 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X124 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X125 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X126 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X127 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_folded_cascode_0.VB2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X128 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X129 a_n9242_226# N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X130 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X131 opa_folded_cascode_0.monticelli_top_0.Bx opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0.464 ps=3.78 w=1.6 l=1
+X132 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X133 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X134 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X135 a_n9242_226# P_IN[0] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X136 opa_folded_cascode_0.monticelli_top_0.B opa_folded_cascode_0.VB1 opa_folded_cascode_0.monticelli_top_0.A VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X137 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X138 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X139 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X140 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X141 a_n9736_226# P_IN[2] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X142 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X143 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n9242_n890# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X144 opa_folded_cascode_0.monticelli_top_0.Ax opa_folded_cascode_0.VB2 opa_folded_cascode_0.monticelli_top_0.Bx GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0.464 ps=3.78 w=1.6 l=1
+X145 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X146 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_folded_cascode_0.VB1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X147 a_n9736_226# N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X148 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[1] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X149 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X150 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X151 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X152 VOUT opa_folded_cascode_0.monticelli_top_0.B GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X153 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X154 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0 ps=0 w=1.6 l=1
+X155 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD P_IN[3] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X156 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X157 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X158 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X159 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB N_IN a_n9736_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X160 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X161 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_folded_cascode_0.VB2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X162 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X163 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X164 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X165 a_n11789_1598# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X166 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA P_IN[2] a_n9736_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X167 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X168 GNDA opa_folded_cascode_0.monticelli_top_0.B VOUT GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X169 a_n10488_226# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X170 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X171 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X172 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_folded_cascode_0.VB1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X173 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X174 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X175 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X176 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_ncell3_0.DRAIN GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.087 pd=0.89 as=0.174 ps=1.78 w=0.6 l=20
+X177 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X178 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X179 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X180 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_folded_cascode_0.monticelli_top_0.Bx GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X181 a_n11789_1598# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X182 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X183 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X184 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X185 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_folded_cascode_0.monticelli_top_0.Bx GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X186 opa_folded_cascode_0.monticelli_top_0.A opa_folded_cascode_0.VB1 opa_folded_cascode_0.monticelli_top_0.B VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X187 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X188 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X189 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X190 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X191 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X192 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X193 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X194 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0 ps=0 w=1.6 l=1
+X195 a_n11789_1598# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X196 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X197 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X198 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X199 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n10488_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X200 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X201 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X202 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X203 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[0] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X204 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD P_IN[2] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X205 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X206 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X207 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X208 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X209 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X210 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X211 GNDA opa_folded_cascode_0.monticelli_top_0.Bx opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X212 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X213 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X214 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X215 a_n4822_n1462# opa_folded_cascode_0.VB1 opa_folded_cascode_0.VB1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.696 pd=5.09 as=1.392 ps=10.18 w=4.8 l=1
+X216 a_n11789_1598# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X217 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X218 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X219 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_folded_cascode_0.monticelli_top_0.Bx GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X220 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X221 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X222 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X223 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X224 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X225 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X226 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_folded_cascode_0.monticelli_top_0.Bx GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X227 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X228 a_n10488_226# P_IN[3] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X229 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X230 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X231 a_n10488_226# N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X232 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X233 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X234 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X235 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X236 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X237 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X238 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X239 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X240 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X241 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X242 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X243 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X244 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X245 a_n4822_464# a_n4822_464# GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.464 ps=3.78 w=1.6 l=1
+X246 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X247 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X248 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X249 GNDA opa_folded_cascode_0.monticelli_top_0.Bx opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X250 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X251 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X252 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X253 opa_folded_cascode_0.monticelli_top_0.Bx opa_folded_cascode_0.VB2 opa_folded_cascode_0.monticelli_top_0.Ax GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0.464 ps=3.78 w=1.6 l=1
+X254 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X255 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X256 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X257 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X258 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD P_IN[2] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X259 opa_folded_cascode_0.monticelli_top_0.Ax opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X260 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X261 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X262 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X263 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X264 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X265 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X266 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X267 a_n4822_n1462# a_n4822_n1462# VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.696 pd=5.09 as=1.392 ps=10.18 w=4.8 l=1
+X268 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X269 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X270 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X271 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X272 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X273 opa_folded_cascode_0.VB2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X274 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X275 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD P_IN[3] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X276 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X277 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X278 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_folded_cascode_0.VB2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X279 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X280 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X281 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X282 VOUT opa_folded_cascode_0.monticelli_top_0.A VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X283 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X284 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X285 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X286 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X287 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X288 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X289 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[1] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X290 ROUT ROUT a_n7784_12197# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.261 ps=2.09 w=1.8 l=20
+X291 a_n9242_226# P_IN[0] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X292 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X293 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_folded_cascode_0.monticelli_top_0.Ax VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X294 a_n9242_226# N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X295 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X296 VDDA opa_folded_cascode_0.monticelli_top_0.A VOUT VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X297 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD P_IN[1] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X298 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X299 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X300 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X301 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X302 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X303 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X304 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X305 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X306 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X307 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X308 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X309 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X310 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n9736_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X311 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X312 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X313 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X314 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[3] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X315 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X316 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X317 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n10488_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X318 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X319 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X320 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X321 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X322 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X323 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X324 a_n11789_1598# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X325 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n10488_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X326 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X327 GNDA a_n4822_464# a_n4822_464# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0.232 ps=1.89 w=1.6 l=1
+X328 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X329 a_n11789_1598# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X330 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X331 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X332 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X333 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X334 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X335 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X336 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X337 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X338 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X339 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X340 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X341 GNDA opa_folded_cascode_0.monticelli_top_0.Bx opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X342 a_n11789_1598# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X343 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD P_IN[0] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X344 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_folded_cascode_0.monticelli_top_0.B GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0.464 ps=3.78 w=1.6 l=1
+X345 a_n9736_226# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X346 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X347 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X348 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X349 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X350 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X351 opa_folded_cascode_0.monticelli_top_0.Ax opa_folded_cascode_0.VB1 opa_folded_cascode_0.monticelli_top_0.Bx VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X352 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD P_IN[0] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X353 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X354 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X355 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X356 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n10488_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X357 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X358 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X359 opa_folded_cascode_0.VB2 opa_folded_cascode_0.VB2 a_n4822_464# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0.232 ps=1.89 w=1.6 l=1
+X360 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X361 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X362 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X363 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X364 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X365 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X366 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X367 opa_input_and_self_bias_0/cm_pcell3_0.VB2 a_n11843_11539# opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.261 pd=2.09 as=0.522 ps=4.18 w=1.8 l=20
+X368 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X369 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X370 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X371 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X372 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X373 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.087 pd=0.89 as=0.174 ps=1.78 w=0.6 l=20
+X374 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X375 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X376 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[2] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X377 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X378 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X379 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X380 GNDA opa_folded_cascode_0.monticelli_top_0.Bx opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X381 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X382 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X383 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X384 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X385 VDDA opa_folded_cascode_0.monticelli_top_0.Ax opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X386 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X387 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X388 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X389 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X390 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X391 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X392 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X393 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X394 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X395 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X396 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X397 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X398 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X399 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA P_IN[2] a_n9736_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X400 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X401 a_n11843_11539# ROUT a_n7784_12197# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.261 ps=2.09 w=1.8 l=20
+X402 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X403 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X404 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X405 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X406 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X407 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB N_IN a_n9736_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X408 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X409 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X410 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X411 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X412 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X413 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X414 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X415 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 a_n11843_11539# opa_input_and_self_bias_0/cm_pcell3_0.VB2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.261 ps=2.09 w=1.8 l=20
+X416 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X417 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X418 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X419 VDDA opa_folded_cascode_0.monticelli_top_0.Ax opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X420 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X421 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X422 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA P_IN[4] a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X423 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X424 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X425 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X426 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X427 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X428 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB N_IN a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X429 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X430 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X431 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X432 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X433 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X434 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X435 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X436 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X437 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X438 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X439 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X440 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X441 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X442 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X443 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X444 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X445 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X446 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X447 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[2] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X448 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_folded_cascode_0.monticelli_top_0.Bx GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X449 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X450 a_n9242_n890# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X451 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_folded_cascode_0.monticelli_top_0.A VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X452 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X453 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X454 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X455 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X456 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X457 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X458 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X459 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X460 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.087 ps=0.89 w=0.6 l=20
+X461 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X462 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X463 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X464 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X465 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_folded_cascode_0.VB1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X466 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X467 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X468 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X469 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X470 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X471 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X472 a_n10488_226# N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X473 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X474 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X475 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X476 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X477 a_n10488_226# P_IN[3] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X478 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X479 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X480 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X481 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X482 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X483 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X484 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X485 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X486 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X487 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA P_IN[3] a_n10488_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X488 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X489 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X490 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X491 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB N_IN a_n10488_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X492 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_folded_cascode_0.monticelli_top_0.Bx GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X493 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X494 opa_folded_cascode_0.monticelli_top_0.B opa_folded_cascode_0.VB2 opa_folded_cascode_0.monticelli_top_0.A GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.464 pd=3.78 as=0.464 ps=3.78 w=1.6 l=1
+X495 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X496 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X497 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X498 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X499 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X500 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X501 a_n11789_1598# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X502 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X503 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X504 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X505 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n9242_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X506 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X507 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X508 opa_folded_cascode_0.VB2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X509 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X510 GNDA GNDA GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0 ps=0 w=0.6 l=1
+X511 opa_folded_cascode_0.monticelli_top_0.Bx opa_folded_cascode_0.VB1 opa_folded_cascode_0.monticelli_top_0.Ax VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.392 pd=10.18 as=1.392 ps=10.18 w=4.8 l=1
+X512 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X513 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X514 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X515 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X516 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X517 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X518 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X519 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X520 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X521 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X522 VOUT opa_folded_cascode_0.monticelli_top_0.A VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=1
+X523 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB N_IN a_n9242_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X524 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X525 a_n10488_226# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X526 a_n11789_1598# P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X527 opa_folded_cascode_0.VB2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X528 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X529 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA P_IN[0] a_n9242_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X530 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X531 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X532 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_folded_cascode_0.VB1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X533 a_n11789_1598# N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X534 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=1
+X535 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X536 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X537 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X538 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X539 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n9736_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X540 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X541 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X542 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X543 VDDA opa_folded_cascode_0.monticelli_top_0.A VOUT VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X544 a_n7784_12197# ROUT a_n11843_11539# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.261 pd=2.09 as=0.522 ps=4.18 w=1.8 l=20
+X545 GNDA opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X546 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB N_IN a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X547 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X548 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X549 GNDA GNDA sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X550 a_n10488_226# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X551 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[3] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=1
+X552 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X553 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA P_IN[4] a_n11789_1598# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X554 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X555 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X556 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X557 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+X558 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA P_IN[0] a_n9242_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X559 VDDA VDDA VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0 ps=0 w=1.8 l=1
+X560 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X561 VOUT opa_folded_cascode_0.monticelli_top_0.B GNDA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X562 a_n11789_1598# N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X563 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB N_IN a_n9242_226# GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X564 GNDA opa_folded_cascode_0.monticelli_top_0.Bx opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.232 pd=1.89 as=0.232 ps=1.89 w=1.6 l=1
+X565 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X566 a_n11789_1598# P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X567 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.522 pd=4.18 as=0.522 ps=4.18 w=1.8 l=1
+X568 a_n9242_226# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 GNDA sky130_fd_pr__nfet_g5v0d10v5 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=1
+X569 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA VOUT sky130_fd_pr__cap_mim_m3_1 l=2 w=2
+C0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 0.63136f
+C1 a_n9242_n890# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 0.11462f
+C2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 a_n9242_226# 0.02955f
+C3 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_folded_cascode_0.VB2 0.16159f
+C4 a_n9242_n890# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 0.10076f
+C5 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_folded_cascode_0.VB2 0.39803f
+C6 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 0.13514f
+C7 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 a_n9242_226# 0.07275f
+C8 a_n4955_464# a_n4822_464# 0.02841f
+C9 a_n9736_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 0.22623f
+C10 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 0.2177f
+C11 N_IN a_n9736_226# 0.46012f
+C12 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 0.21911f
+C13 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.11834f
+C14 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 VDDA 0.77292f
+C15 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_folded_cascode_0.VB1 0.22726f
+C16 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 4.55333f
+C17 P_IN[0] P_IN[3] 0.43345f
+C18 a_n4955_n2609# opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.01976f
+C19 a_n1209_5246# opa_folded_cascode_0.VB1 0.0335f
+C20 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 0.16205f
+C21 N_IN P_IN[0] 6.78834f
+C22 opa_folded_cascode_0.monticelli_top_0.A a_n1209_9323# 0.07342f
+C23 a_n9242_n890# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 0.8028f
+C24 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 0.13332f
+C25 P_IN[3] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.01325f
+C26 P_IN[0] VDDA 1.62418f
+C27 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n9242_226# 4.21941f
+C28 opa_folded_cascode_0.monticelli_top_0.A a_n1209_1507# 0.06294f
+C29 N_IN a_n9214_1510# 0.03463f
+C30 a_n1209_1507# opa_folded_cascode_0.monticelli_top_0.B 0.01649f
+C31 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_folded_cascode_0.monticelli_top_0.Bx 1.25574f
+C32 a_n9242_n890# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 0.04978f
+C33 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD opa_folded_cascode_0.VB2 1.19048f
+C34 a_n9736_226# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.53099f
+C35 N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.67332f
+C36 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 a_n9242_226# 0.20391f
+C37 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.14638f
+C38 a_n7486_4060# P_IN[2] 0.03029f
+C39 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 0.34329f
+C40 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.58085f
+C41 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.13217f
+C42 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.21897f
+C43 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB opa_folded_cascode_0.monticelli_top_0.Bx 0.12775f
+C44 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 3.26761f
+C45 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.23878f
+C46 N_IN a_n6938_2008# 0.02203f
+C47 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.08428f
+C48 VDDA opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.63708f
+C49 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n1991_n641# 0.04179f
+C50 a_n4955_n2609# a_n4291_n2609# 0.02543f
+C51 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 1.90588f
+C52 P_IN[0] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.40498f
+C53 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n5210_1510# 0.0208f
+C54 a_n1209_n23# opa_folded_cascode_0.monticelli_top_0.B 0.03761f
+C55 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.09585f
+C56 a_n1209_n641# opa_folded_cascode_0.monticelli_top_0.Bx 0.05988f
+C57 a_n1991_5246# opa_folded_cascode_0.monticelli_top_0.Bx 0.08404f
+C58 a_n9242_n890# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 0.20828f
+C59 a_n10488_226# P_IN[3] 0.43675f
+C60 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 0.23045f
+C61 a_n949_4121# a_n949_3356# 0.02286f
+C62 a_n7486_2008# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.0208f
+C63 a_n5758_4060# P_IN[1] 0.03029f
+C64 a_n1991_8056# opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.05231f
+C65 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 a_n9242_226# 0.0665f
+C66 a_n9242_n890# P_IN[1] 0.43692f
+C67 a_n10488_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 0.2514f
+C68 N_IN a_n10488_226# 0.46019f
+C69 VDDA a_n11843_11539# 31.1879f
+C70 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.13554f
+C71 a_n949_2355# a_n949_2711# 0.02286f
+C72 N_IN a_n5210_3153# 0.06743f
+C73 a_n6938_2008# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.0208f
+C74 ROUT opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.02043f
+C75 P_IN[3] a_n9214_4060# 0.03029f
+C76 P_IN[4] a_n10942_2008# 0.02842f
+C77 a_n1209_10706# VDDA 0.73997f
+C78 a_n4955_n2609# VDDA 0.72861f
+C79 VDDA a_n5210_3153# 0.49013f
+C80 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA a_n12122_4060# 0.04134f
+C81 P_IN[4] P_IN[3] 4.12251f
+C82 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 0.03137f
+C83 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 1.24832f
+C84 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.44079f
+C85 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 10.3151f
+C86 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 4.14638f
+C87 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.03331f
+C88 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 1.2633f
+C89 N_IN a_n9214_4060# 0.01454f
+C90 N_IN a_n5758_3153# 0.0409f
+C91 ROUT a_n7784_12197# 1.17372f
+C92 VDDA a_n9214_4060# 0.49792f
+C93 N_IN P_IN[4] 8.14547f
+C94 a_n5758_3153# VDDA 0.49013f
+C95 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB P_IN[3] 0.20491f
+C96 a_n5210_4060# a_n5758_4060# 0.0237f
+C97 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 3.4669f
+C98 a_n9736_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 0.31066f
+C99 a_n10488_226# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.53099f
+C100 P_IN[4] VDDA 1.92972f
+C101 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_folded_cascode_0.VB2 0.13276f
+C102 opa_folded_cascode_0.monticelli_top_0.A a_n1209_5246# 0.0747f
+C103 a_n1209_5246# opa_folded_cascode_0.monticelli_top_0.B 0.08441f
+C104 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB P_IN[3] 0.20652f
+C105 P_IN[0] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.59734f
+C106 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.63053f
+C107 N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 3.83784f
+C108 a_n6938_4060# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA 0.04959f
+C109 P_IN[2] P_IN[3] 4.12484f
+C110 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB opa_folded_cascode_0.VB2 0.15473f
+C111 a_n9242_n890# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 0.12565f
+C112 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 0.32927f
+C113 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB VDDA 1.85473f
+C114 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.54635f
+C115 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB N_IN 2.58453f
+C116 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 a_n9242_226# 0.12707f
+C117 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 3.04089f
+C118 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 0.2482f
+C119 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[1] 0.59591f
+C120 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.03879f
+C121 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB a_n9214_3153# 0.04994f
+C122 P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.3195f
+C123 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 0.06117f
+C124 N_IN P_IN[2] 6.36553f
+C125 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB VDDA 2.32844f
+C126 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_folded_cascode_0.monticelli_top_0.Ax 0.48335f
+C127 opa_folded_cascode_0.VB1 a_n4822_464# 0.0135f
+C128 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_folded_cascode_0.VB2 0.70581f
+C129 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n1991_9323# 0.01554f
+C130 P_IN[2] VDDA 1.61107f
+C131 opa_folded_cascode_0.monticelli_top_0.B opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 0.26297f
+C132 a_n1991_5246# VDDA 0.72637f
+C133 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.61822f
+C134 opa_folded_cascode_0.VB1 a_n4955_n1462# 0.01613f
+C135 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 1.40678f
+C136 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 VDDA 8.60419f
+C137 P_IN[2] a_n9214_3153# 0.01204f
+C138 a_n1991_8056# a_n1209_8056# 0.02127f
+C139 N_IN a_n8666_4060# 0.04641f
+C140 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 13.38f
+C141 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VOUT 24.2634f
+C142 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.02575f
+C143 a_n8666_4060# VDDA 0.49783f
+C144 P_IN[2] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.40094f
+C145 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 0.25378f
+C146 a_n1991_10706# opa_folded_cascode_0.monticelli_top_0.Ax 0.03151f
+C147 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB a_n10942_3153# 0.04994f
+C148 a_n1613_3356# a_n1613_4121# 0.02286f
+C149 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA a_n5210_4060# 0.04959f
+C150 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.0839f
+C151 a_n6938_1510# P_IN[1] 0.01061f
+C152 a_n4955_n34# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 0.01106f
+C153 VDDA a_n949_3356# 0.53376f
+C154 a_n10488_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 0.78597f
+C155 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_folded_cascode_0.VB2 0.20881f
+C156 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 0.07563f
+C157 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 a_n11789_1598# 6.03974f
+C158 a_n1209_8056# opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.03145f
+C159 N_IN a_n11789_1598# 0.55146f
+C160 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD N_IN 0.6262f
+C161 a_n9242_n890# a_n9242_226# 2.85565f
+C162 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 0.29164f
+C163 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_folded_cascode_0.VB2 3.9742f
+C164 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD VDDA 0.74227f
+C165 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 0.1884f
+C166 N_IN a_n4030_2008# 0.0131f
+C167 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.95801f
+C168 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.96164f
+C169 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 VDDA 3.79805f
+C170 a_n9736_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 0.17245f
+C171 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 2.6115f
+C172 a_n9242_n890# opa_folded_cascode_0.VB1 0.17535f
+C173 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 1.00436f
+C174 opa_folded_cascode_0.VB1 opa_folded_cascode_0.monticelli_top_0.Ax 1.45275f
+C175 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB a_n10394_3153# 0.04959f
+C176 opa_folded_cascode_0.VB1 a_n9242_226# 0.64856f
+C177 a_n11789_1598# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.53031f
+C178 a_n9736_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 0.61545f
+C179 opa_folded_cascode_0.monticelli_top_0.A VOUT 0.83676f
+C180 opa_folded_cascode_0.monticelli_top_0.B VOUT 0.4823f
+C181 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 1.09015f
+C182 a_n4955_n34# a_n4955_464# 0.015f
+C183 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 10.1432f
+C184 a_n4030_2008# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.02092f
+C185 a_n1991_11973# opa_folded_cascode_0.monticelli_top_0.Ax 0.03145f
+C186 a_n1209_8056# opa_folded_cascode_0.monticelli_top_0.Ax 0.13749f
+C187 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n10394_1510# 0.0208f
+C188 opa_folded_cascode_0.monticelli_top_0.A a_n1991_8056# 0.06357f
+C189 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.17402f
+C190 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.18431f
+C191 a_n1991_6513# VDDA 0.72716f
+C192 a_n10942_4060# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.01033f
+C193 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA a_n5758_4060# 0.04959f
+C194 opa_folded_cascode_0.monticelli_top_0.A a_n1613_3356# 0.04784f
+C195 a_n6938_1510# a_n7486_1510# 0.0103f
+C196 a_n9736_226# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 1.28111f
+C197 ROUT opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 0.0341f
+C198 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 a_n11843_11539# 0.0184f
+C199 opa_folded_cascode_0.monticelli_top_0.A opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.37749f
+C200 a_n9736_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 1.6476f
+C201 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 1.77943f
+C202 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.36581f
+C203 a_n4291_n1462# a_n4291_n2609# 0.015f
+C204 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 10.7556f
+C205 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.26862f
+C206 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA a_n1991_n641# 0.02628f
+C207 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_folded_cascode_0.VB1 0.19101f
+C208 P_IN[0] a_n5210_2008# 0.03196f
+C209 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 0.17464f
+C210 a_n10488_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 0.55166f
+C211 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 2.46853f
+C212 VDDA a_n949_4121# 0.554f
+C213 a_n6938_3153# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 0.04959f
+C214 a_n1209_11973# VDDA 0.73797f
+C215 N_IN a_n7486_4060# 0.01454f
+C216 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 a_n11789_1598# 0.08498f
+C217 opa_folded_cascode_0.monticelli_top_0.Bx opa_folded_cascode_0.VB2 1.48647f
+C218 P_IN[4] a_n12122_3153# 0.01875f
+C219 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 1.51685f
+C220 a_n7486_4060# VDDA 0.49886f
+C221 a_n10488_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 0.26604f
+C222 P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 0.06309f
+C223 a_n1991_1507# opa_folded_cascode_0.VB2 0.04249f
+C224 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n4291_n34# 0.01297f
+C225 a_n10394_4060# P_IN[3] 0.03805f
+C226 VDDA opa_folded_cascode_0.monticelli_top_0.Bx 0.39566f
+C227 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_folded_cascode_0.VB2 4.37057f
+C228 N_IN a_n5210_1510# 0.04473f
+C229 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB a_n12122_3153# 0.04134f
+C230 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.20864f
+C231 a_n4291_n1462# VDDA 0.73032f
+C232 opa_folded_cascode_0.monticelli_top_0.B opa_folded_cascode_0.monticelli_top_0.Ax 0.42504f
+C233 opa_folded_cascode_0.monticelli_top_0.A opa_folded_cascode_0.monticelli_top_0.Ax 4.43463f
+C234 a_n1209_11973# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.06357f
+C235 N_IN opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.31808f
+C236 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 0.16693f
+C237 a_n1991_n23# opa_folded_cascode_0.monticelli_top_0.Bx 0.02385f
+C238 opa_folded_cascode_0.monticelli_top_0.B a_n1613_2355# 0.03772f
+C239 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 2.48633f
+C240 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 3.40713f
+C241 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 0.22837f
+C242 P_IN[0] P_IN[1] 4.45233f
+C243 N_IN a_n10394_4060# 0.04641f
+C244 VDDA opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 3.43281f
+C245 a_n1209_889# opa_folded_cascode_0.monticelli_top_0.Ax 0.02366f
+C246 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 0.56882f
+C247 VDDA a_n10394_4060# 0.49886f
+C248 a_n10488_226# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 1.05749f
+C249 a_n9242_n890# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 0.1876f
+C250 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 0.42152f
+C251 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA a_n4030_4060# 0.04959f
+C252 opa_folded_cascode_0.monticelli_top_0.B a_n1991_n641# 0.02366f
+C253 a_n9242_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 0.17196f
+C254 P_IN[1] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.01647f
+C255 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB a_n4030_3153# 0.05017f
+C256 opa_folded_cascode_0.VB1 opa_folded_cascode_0.monticelli_top_0.B 0.38202f
+C257 opa_folded_cascode_0.monticelli_top_0.A opa_folded_cascode_0.VB1 0.6924f
+C258 a_n10488_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 0.5084f
+C259 P_IN[0] opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 0.20524f
+C260 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 0.41078f
+C261 a_n6938_2008# P_IN[1] 0.03215f
+C262 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.14677f
+C263 a_n9214_2008# a_n8666_2008# 0.0103f
+C264 P_IN[4] a_n12122_4060# 0.03952f
+C265 a_n9736_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 0.28554f
+C266 opa_folded_cascode_0.monticelli_top_0.A a_n1209_8056# 0.02486f
+C267 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.48023f
+C268 opa_folded_cascode_0.monticelli_top_0.A a_n1613_4121# 0.04824f
+C269 P_IN[0] a_n5210_4060# 0.03805f
+C270 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.1725f
+C271 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA a_n10942_4060# 0.04959f
+C272 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 0.0315f
+C273 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB a_n7486_3153# 0.04994f
+C274 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.09063f
+C275 a_n1209_5246# a_n1991_5246# 0.02127f
+C276 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.3935f
+C277 VDDA a_n4291_n2609# 0.79433f
+C278 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.1264f
+C279 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.37639f
+C280 a_n10488_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 0.03682f
+C281 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 1.34502f
+C282 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 1.03205f
+C283 N_IN P_IN[3] 6.36674f
+C284 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 1.39622f
+C285 a_n1209_6513# opa_folded_cascode_0.monticelli_top_0.Ax 0.01034f
+C286 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_folded_cascode_0.monticelli_top_0.B 0.33001f
+C287 N_IN opa_folded_cascode_0.VB2 0.05796f
+C288 VDDA P_IN[3] 1.61195f
+C289 N_IN opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 0.02946f
+C290 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 0.20768f
+C291 VDDA opa_folded_cascode_0.VB2 4.40756f
+C292 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 a_n11843_11539# 0.01802f
+C293 P_IN[0] opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.0151f
+C294 N_IN VDDA 7.41634f
+C295 a_n4822_464# a_n4291_n34# 0.02841f
+C296 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 a_n11789_1598# 5.66494f
+C297 a_n1209_n641# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 0.02965f
+C298 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 4.44061f
+C299 a_n10942_2008# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.0208f
+C300 N_IN a_n9214_3153# 0.0409f
+C301 P_IN[4] P_IN[1] 0.10289f
+C302 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n10942_1510# 0.02171f
+C303 P_IN[3] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.40061f
+C304 opa_folded_cascode_0.VB1 a_n1209_6513# 0.03145f
+C305 a_n1991_9323# VDDA 0.73351f
+C306 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 a_n11789_1598# 1.81049f
+C307 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.22509f
+C308 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.84443f
+C309 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.5492f
+C310 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.44293f
+C311 a_n4291_464# a_n4291_n34# 0.015f
+C312 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA opa_folded_cascode_0.VB2 0.20339f
+C313 VDDA a_n9214_3153# 0.49013f
+C314 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB P_IN[1] 0.20421f
+C315 N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 1.84784f
+C316 P_IN[4] a_n12122_1510# 0.01061f
+C317 a_n9242_n890# a_n9736_226# 0.11851f
+C318 ROUT a_n11843_11539# 6.8653f
+C319 a_n9736_226# a_n9242_226# 0.09543f
+C320 VDDA opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 2.24614f
+C321 P_IN[3] a_n10942_3153# 0.01208f
+C322 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB P_IN[1] 0.20714f
+C323 a_n1991_9323# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.05719f
+C324 a_n8666_3153# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 0.04959f
+C325 a_n4955_n2609# a_n4955_n1462# 0.015f
+C326 a_n10488_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 0.43083f
+C327 P_IN[0] a_n5758_4060# 0.01175f
+C328 a_n4822_n1462# opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.12726f
+C329 a_n12122_2008# P_IN[4] 0.03376f
+C330 opa_folded_cascode_0.monticelli_top_0.A opa_folded_cascode_0.monticelli_top_0.B 5.08653f
+C331 opa_input_and_self_bias_0/cm_pcell3_0.VB2 a_n11843_11539# 1.64444f
+C332 P_IN[2] P_IN[1] 4.1241f
+C333 P_IN[0] a_n9242_226# 0.47498f
+C334 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n11789_1598# 2.13138f
+C335 N_IN a_n10942_3153# 0.0409f
+C336 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n12122_1510# 0.01625f
+C337 a_n9736_226# opa_folded_cascode_0.VB1 0.26324f
+C338 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.61305f
+C339 opa_folded_cascode_0.monticelli_top_0.B a_n1209_889# 0.02524f
+C340 VDDA a_n10942_3153# 0.49013f
+C341 a_n8666_3153# P_IN[2] 0.01867f
+C342 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 a_n11789_1598# 0.21493f
+C343 a_n7784_12197# a_n11843_11539# 0.42801f
+C344 opa_folded_cascode_0.monticelli_top_0.A a_n1991_889# 0.02366f
+C345 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 P_IN[2] 0.20891f
+C346 a_n949_2711# VOUT 0.01205f
+C347 a_n1209_n23# opa_folded_cascode_0.monticelli_top_0.Bx 0.02584f
+C348 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 0.3441f
+C349 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 0.39965f
+C350 a_n9214_4060# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.01035f
+C351 P_IN[3] a_n10394_3153# 0.01871f
+C352 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD a_n6938_4060# 0.01033f
+C353 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n1991_8056# 0.01343f
+C354 P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.5994f
+C355 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD opa_folded_cascode_0.VB2 0.33091f
+C356 P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.01346f
+C357 a_n4822_n1462# a_n4291_n2609# 0.03284f
+C358 a_n10394_1510# P_IN[3] 0.01061f
+C359 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 a_n11789_1598# 0.02599f
+C360 N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.61932f
+C361 a_n1209_10706# a_n1991_10706# 0.02127f
+C362 N_IN a_n10394_3153# 0.06741f
+C363 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 0.20703f
+C364 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD P_IN[1] 0.59768f
+C365 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 1.00408f
+C366 VDDA opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 1.17943f
+C367 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 1.00479f
+C368 N_IN a_n10394_1510# 0.04471f
+C369 VDDA a_n10394_3153# 0.49013f
+C370 a_n1209_10706# opa_folded_cascode_0.monticelli_top_0.Ax 0.0991f
+C371 a_n10488_226# a_n9242_226# 0.01462f
+C372 opa_folded_cascode_0.monticelli_top_0.A a_n1209_6513# 0.06525f
+C373 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB opa_input_and_self_bias_0/cm_pcell3_0.VB2 2.89925f
+C374 P_IN[0] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA 0.59581f
+C375 VOUT a_n949_3356# 0.02398f
+C376 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 0.13043f
+C377 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n7486_1510# 0.02171f
+C378 P_IN[2] opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.01031f
+C379 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 0.16361f
+C380 a_n4822_n1462# VDDA 1.5705f
+C381 P_IN[2] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.01655f
+C382 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 2.81584f
+C383 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 opa_folded_cascode_0.VB2 0.16031f
+C384 a_n1209_1507# opa_folded_cascode_0.VB2 0.02948f
+C385 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 2.35144f
+C386 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/cm_pcell3_0.VB2 12.2409f
+C387 a_n1209_9323# VDDA 0.72706f
+C388 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 1.8091f
+C389 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.30956f
+C390 P_IN[0] a_n4030_4060# 0.03029f
+C391 a_n10488_226# opa_folded_cascode_0.VB1 3.25971f
+C392 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 5.81219f
+C393 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 0.32704f
+C394 a_n1991_9323# a_n1209_9323# 0.02127f
+C395 a_n4955_n2609# opa_folded_cascode_0.VB1 0.10623f
+C396 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.96291f
+C397 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 0.65106f
+C398 a_n1613_3356# a_n949_3356# 0.01589f
+C399 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n1991_10706# 0.01199f
+C400 a_n10942_3153# a_n10394_3153# 0.0237f
+C401 a_n9214_1510# a_n8666_1510# 0.0103f
+C402 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 a_n11789_1598# 0.11559f
+C403 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n9242_n890# 0.55688f
+C404 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB opa_folded_cascode_0.monticelli_top_0.Ax 1.33763f
+C405 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 0.4603f
+C406 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n9242_226# 0.56299f
+C407 N_IN a_n6938_3153# 0.06741f
+C408 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 1.63629f
+C409 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_folded_cascode_0.monticelli_top_0.Bx 0.31237f
+C410 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.18445f
+C411 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.92259f
+C412 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.14299f
+C413 a_n6938_3153# VDDA 0.49013f
+C414 a_n1991_5246# opa_folded_cascode_0.monticelli_top_0.Ax 0.07145f
+C415 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 0.16742f
+C416 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 1.7781f
+C417 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.53743f
+C418 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/cm_pcell3_0.VB2 1.27443f
+C419 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.37208f
+C420 a_n6938_4060# a_n7486_4060# 0.0237f
+C421 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB opa_folded_cascode_0.VB1 0.57726f
+C422 N_IN a_n12122_3153# 0.06888f
+C423 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_folded_cascode_0.VB2 0.09533f
+C424 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA a_n9214_4060# 0.04959f
+C425 N_IN opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 0.03004f
+C426 VDDA a_n12122_3153# 0.48f
+C427 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[4] 0.47338f
+C428 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 12.9813f
+C429 a_n7486_4060# P_IN[1] 0.01175f
+C430 opa_folded_cascode_0.VB1 a_n1991_5246# 0.0585f
+C431 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 VDDA 7.84417f
+C432 N_IN opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 0.75441f
+C433 a_n1991_11973# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB 0.07653f
+C434 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 1.16507f
+C435 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD a_n5758_4060# 0.01033f
+C436 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 11.2661f
+C437 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 8.23983f
+C438 a_n9242_n890# a_n11789_1598# 0.02789f
+C439 N_IN a_n4030_3153# 0.05095f
+C440 N_IN opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 0.02759f
+C441 a_n949_4121# VOUT 0.01189f
+C442 P_IN[2] a_n8666_2008# 0.03212f
+C443 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA 0.0591f
+C444 VDDA a_n4030_3153# 0.48125f
+C445 a_n1209_5246# VDDA 0.72203f
+C446 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.1193f
+C447 a_n4955_464# opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.01003f
+C448 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 a_n11843_11539# 6.33991f
+C449 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[2] 0.59606f
+C450 P_IN[4] a_n10942_4060# 0.03029f
+C451 N_IN a_n7486_3153# 0.0409f
+C452 opa_folded_cascode_0.monticelli_top_0.Bx VOUT 0.12768f
+C453 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.15608f
+C454 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_folded_cascode_0.VB2 0.19471f
+C455 opa_folded_cascode_0.VB1 a_n11789_1598# 0.05319f
+C456 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 3.4847f
+C457 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.98465f
+C458 N_IN a_n12122_4060# 0.04557f
+C459 VDDA a_n7486_3153# 0.49013f
+C460 N_IN opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 0.09581f
+C461 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 0.62163f
+C462 a_n10488_226# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 0.03683f
+C463 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n8666_1510# 0.0208f
+C464 VOUT opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.03648f
+C465 VDDA a_n12122_4060# 0.48931f
+C466 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA a_n8666_4060# 0.04959f
+C467 N_IN a_n5210_2008# 0.02204f
+C468 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 0.48886f
+C469 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 VDDA 0.1547f
+C470 a_n8666_1510# P_IN[2] 0.01061f
+C471 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 a_n1991_n23# 0.04394f
+C472 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n6938_1510# 0.0208f
+C473 a_n1991_6513# opa_folded_cascode_0.monticelli_top_0.Ax 0.06384f
+C474 a_n4822_464# opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.08766f
+C475 a_n4291_n1462# a_n4955_n1462# 0.02543f
+C476 N_IN a_n10942_1510# 0.03463f
+C477 P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 0.06879f
+C478 a_n949_2355# VOUT 0.01053f
+C479 opa_folded_cascode_0.monticelli_top_0.B opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 0.01931f
+C480 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n4030_1510# 0.02171f
+C481 a_n4955_n1462# opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.01975f
+C482 N_IN a_n6938_4060# 0.04641f
+C483 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA 0.96164f
+C484 P_IN[3] P_IN[1] 0.10582f
+C485 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 0.07481f
+C486 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.08315f
+C487 opa_folded_cascode_0.monticelli_top_0.B a_n949_2711# 0.02725f
+C488 a_n6938_4060# VDDA 0.49751f
+C489 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.05844f
+C490 a_n5210_2008# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.0208f
+C491 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.08136f
+C492 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.03344f
+C493 opa_folded_cascode_0.VB1 a_n1991_6513# 0.0506f
+C494 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.17446f
+C495 N_IN P_IN[1] 6.36642f
+C496 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 2.66628f
+C497 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.15777f
+C498 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 P_IN[3] 0.20612f
+C499 VDDA P_IN[1] 1.61332f
+C500 a_n10394_4060# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.01033f
+C501 a_n1209_11973# opa_folded_cascode_0.monticelli_top_0.Ax 0.09901f
+C502 N_IN a_n8666_3153# 0.06741f
+C503 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 0.78185f
+C504 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_folded_cascode_0.VB2 0.24606f
+C505 N_IN a_n12122_1510# 0.04641f
+C506 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_folded_cascode_0.VB2 0.09525f
+C507 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 3.95069f
+C508 a_n8666_3153# VDDA 0.49013f
+C509 N_IN opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 0.21011f
+C510 VOUT opa_folded_cascode_0.VB2 0.03299f
+C511 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 1.40144f
+C512 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 3.18174f
+C513 N_IN a_n12122_2008# 0.02119f
+C514 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 VDDA 11.2802f
+C515 opa_folded_cascode_0.monticelli_top_0.A a_n949_3356# 0.03043f
+C516 opa_folded_cascode_0.monticelli_top_0.Bx opa_folded_cascode_0.monticelli_top_0.Ax 4.04973f
+C517 a_n8666_3153# a_n9214_3153# 0.0237f
+C518 P_IN[1] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.40148f
+C519 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 0.28513f
+C520 a_n4822_464# opa_folded_cascode_0.VB2 0.7841f
+C521 VDDA VOUT 1.08526f
+C522 N_IN a_n5210_4060# 0.04644f
+C523 a_n1991_1507# opa_folded_cascode_0.monticelli_top_0.Ax 0.05618f
+C524 a_n9736_226# a_n10488_226# 1.49673f
+C525 a_n6938_2008# a_n7486_2008# 0.0103f
+C526 N_IN a_n4822_464# 0.01183f
+C527 a_n5758_2008# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.0208f
+C528 a_n5210_4060# VDDA 0.49886f
+C529 a_n4822_464# VDDA 0.01434f
+C530 a_n1991_8056# VDDA 0.72849f
+C531 a_n9242_226# opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 1.39442f
+C532 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 2.17542f
+C533 a_n4291_464# opa_folded_cascode_0.VB2 0.06246f
+C534 P_IN[3] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.01676f
+C535 a_n1613_4121# a_n949_4121# 0.01589f
+C536 P_IN[3] opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.01093f
+C537 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 0.15175f
+C538 P_IN[3] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.5979f
+C539 a_n1209_11973# a_n1991_11973# 0.02127f
+C540 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 0.61039f
+C541 P_IN[0] a_n5210_3153# 0.01852f
+C542 opa_folded_cascode_0.VB1 opa_folded_cascode_0.monticelli_top_0.Bx 1.1422f
+C543 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n5758_1510# 0.02171f
+C544 a_n4955_n1462# VDDA 0.79462f
+C545 a_n12122_2008# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.01625f
+C546 opa_folded_cascode_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 2.89603f
+C547 opa_folded_cascode_0.VB1 a_n4291_n1462# 0.11619f
+C548 VOUT opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 19.3099f
+C549 ROUT VDDA 28.3503f
+C550 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_folded_cascode_0.VB2 1.16389f
+C551 a_n1613_3356# VDDA 0.53441f
+C552 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD opa_folded_cascode_0.VB2 4.1684f
+C553 a_n11789_1598# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 0.02693f
+C554 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 3.60244f
+C555 N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.61926f
+C556 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 3.39716f
+C557 N_IN opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.03859f
+C558 a_n4822_n1462# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 0.01452f
+C559 N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.62599f
+C560 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.45968f
+C561 a_n1991_8056# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.0593f
+C562 N_IN a_n7486_1510# 0.03463f
+C563 VDDA opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 2.42443f
+C564 VDDA opa_input_and_self_bias_0/cm_pcell3_0.VB2 25.2922f
+C565 P_IN[0] a_n5758_3153# 0.01199f
+C566 a_n10394_1510# a_n10942_1510# 0.0103f
+C567 VDDA opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 1.06003f
+C568 a_n1991_9323# opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.05095f
+C569 P_IN[0] P_IN[4] 0.42909f
+C570 a_n7486_4060# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA 0.04959f
+C571 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n9736_226# 0.55688f
+C572 opa_folded_cascode_0.monticelli_top_0.B a_n1991_6513# 0.06357f
+C573 P_IN[1] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.01299f
+C574 VDDA a_n7784_12197# 0.05763f
+C575 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 0.13628f
+C576 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_folded_cascode_0.monticelli_top_0.Bx 1.70038f
+C577 P_IN[0] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 0.20404f
+C578 a_n9736_226# P_IN[2] 0.43678f
+C579 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.52521f
+C580 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 0.1736f
+C581 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 10.1642f
+C582 opa_folded_cascode_0.monticelli_top_0.Ax opa_folded_cascode_0.VB2 0.27696f
+C583 a_n6938_3153# a_n7486_3153# 0.0237f
+C584 a_n1991_10706# VDDA 0.75792f
+C585 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.0971f
+C586 N_IN a_n5758_4060# 0.01454f
+C587 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB P_IN[0] 0.20785f
+C588 a_n9242_n890# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 0.17806f
+C589 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.73274f
+C590 a_n1209_n23# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 0.02981f
+C591 N_IN a_n9242_n890# 0.46013f
+C592 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.17799f
+C593 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 a_n9242_226# 0.19638f
+C594 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA a_n10394_4060# 0.04959f
+C595 a_n5758_4060# VDDA 0.49751f
+C596 P_IN[0] P_IN[2] 0.43345f
+C597 N_IN a_n9242_226# 0.52986f
+C598 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 1.0059f
+C599 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n9214_1510# 0.02171f
+C600 VDDA opa_folded_cascode_0.monticelli_top_0.Ax 4.71078f
+C601 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 7.26391f
+C602 a_n1991_9323# opa_folded_cascode_0.monticelli_top_0.Ax 0.06368f
+C603 a_n9242_226# VDDA 0.01047f
+C604 a_n7486_2008# P_IN[2] 0.02847f
+C605 opa_folded_cascode_0.monticelli_top_0.A a_n949_4121# 0.03043f
+C606 a_n5758_3153# a_n5210_3153# 0.0237f
+C607 a_n5210_4060# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.01037f
+C608 a_n1991_10706# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.13435f
+C609 opa_folded_cascode_0.VB1 opa_folded_cascode_0.VB2 0.45991f
+C610 P_IN[2] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.66459f
+C611 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_folded_cascode_0.VB1 0.3192f
+C612 N_IN opa_folded_cascode_0.VB1 0.03415f
+C613 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 0.32371f
+C614 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 0.11461f
+C615 a_n9242_n890# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.53099f
+C616 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA opa_folded_cascode_0.monticelli_top_0.Ax 1.32808f
+C617 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.11794f
+C618 a_n9736_226# a_n11789_1598# 0.12855f
+C619 opa_folded_cascode_0.VB1 VDDA 7.28409f
+C620 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 2.84584f
+C621 a_n9242_226# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.53575f
+C622 opa_folded_cascode_0.monticelli_top_0.A opa_folded_cascode_0.monticelli_top_0.Bx 0.4915f
+C623 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 0.21785f
+C624 opa_folded_cascode_0.monticelli_top_0.B opa_folded_cascode_0.monticelli_top_0.Bx 2.34702f
+C625 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 0.35096f
+C626 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB a_n5210_3153# 0.04959f
+C627 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 0.57519f
+C628 a_n1991_6513# a_n1209_6513# 0.02127f
+C629 a_n10942_4060# a_n10394_4060# 0.0237f
+C630 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 3.34137f
+C631 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 7.06738f
+C632 a_n8666_4060# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.01034f
+C633 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.19454f
+C634 a_n6938_3153# P_IN[1] 0.01864f
+C635 opa_input_and_self_bias_0/cm_pcell3_0.VB2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.72782f
+C636 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n10488_226# 0.55688f
+C637 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.08235f
+C638 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA P_IN[3] 0.59629f
+C639 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n1209_10706# 0.06357f
+C640 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD P_IN[0] 0.01642f
+C641 a_n4822_n1462# a_n4955_n1462# 0.03284f
+C642 a_n1991_11973# VDDA 0.77199f
+C643 a_n1209_8056# VDDA 0.722f
+C644 a_n1613_4121# VDDA 0.54014f
+C645 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 0.87726f
+C646 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 8.15945f
+C647 N_IN a_n8666_2008# 0.02203f
+C648 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_folded_cascode_0.VB2 0.46882f
+C649 a_n5758_3153# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 0.04994f
+C650 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.69504f
+C651 P_IN[0] a_n4030_2008# 0.02832f
+C652 a_n1991_889# opa_folded_cascode_0.monticelli_top_0.Bx 0.0175f
+C653 N_IN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA 1.91702f
+C654 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 8.67322f
+C655 a_n1613_2355# a_n1613_2711# 0.02286f
+C656 P_IN[4] opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 0.05989f
+C657 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 1.18645f
+C658 a_n949_2355# opa_folded_cascode_0.monticelli_top_0.B 0.02725f
+C659 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.04827f
+C660 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA VDDA 1.90636f
+C661 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB P_IN[4] 0.07844f
+C662 a_n1209_9323# opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.03145f
+C663 P_IN[2] a_n9214_4060# 0.01175f
+C664 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA a_n1991_n23# 0.02444f
+C665 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 0.43454f
+C666 N_IN a_n4030_4060# 0.0236f
+C667 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 1.05534f
+C668 P_IN[4] P_IN[2] 0.10303f
+C669 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.09057f
+C670 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 0.46005f
+C671 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.12567f
+C672 a_n8666_2008# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.0208f
+C673 a_n9214_2008# P_IN[3] 0.02844f
+C674 a_n4030_4060# VDDA 0.49013f
+C675 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 1.32033f
+C676 a_n10942_4060# P_IN[3] 0.01175f
+C677 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 0.07698f
+C678 N_IN a_n8666_1510# 0.04471f
+C679 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 3.4882f
+C680 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 0.14077f
+C681 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB P_IN[2] 0.20447f
+C682 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 1.88113f
+C683 a_n8666_4060# a_n9214_4060# 0.0237f
+C684 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 23.5069f
+C685 a_n9242_n890# opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 0.2492f
+C686 opa_folded_cascode_0.monticelli_top_0.Bx a_n1209_6513# 0.06357f
+C687 N_IN a_n10942_4060# 0.01454f
+C688 N_IN a_n6938_1510# 0.04471f
+C689 a_n10488_226# a_n11789_1598# 0.15848f
+C690 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 a_n9242_226# 0.09303f
+C691 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB P_IN[2] 0.20676f
+C692 a_n10942_4060# VDDA 0.49751f
+C693 opa_folded_cascode_0.monticelli_top_0.B opa_folded_cascode_0.VB2 0.6182f
+C694 opa_folded_cascode_0.monticelli_top_0.A opa_folded_cascode_0.VB2 0.35421f
+C695 N_IN a_n4030_1510# 0.039f
+C696 a_n5758_1510# a_n5210_1510# 0.0103f
+C697 a_n1209_9323# opa_folded_cascode_0.monticelli_top_0.Ax 0.06418f
+C698 a_n10394_2008# a_n10942_2008# 0.0103f
+C699 P_IN[1] a_n7486_3153# 0.01201f
+C700 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 0.25263f
+C701 a_n1209_889# opa_folded_cascode_0.VB2 0.02948f
+C702 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 opa_folded_cascode_0.VB2 0.06042f
+C703 a_n10394_2008# P_IN[3] 0.03209f
+C704 opa_folded_cascode_0.monticelli_top_0.B VDDA 2.19142f
+C705 opa_folded_cascode_0.VB1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 3.43068f
+C706 opa_folded_cascode_0.monticelli_top_0.A VDDA 3.89016f
+C707 P_IN[4] a_n11789_1598# 0.43838f
+C708 a_n9214_2008# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.0208f
+C709 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 1.57333f
+C710 a_n1991_889# opa_folded_cascode_0.VB2 0.04314f
+C711 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 0.08957f
+C712 a_n8666_4060# P_IN[2] 0.03805f
+C713 VDDA opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 48.6569f
+C714 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 5.28584f
+C715 opa_folded_cascode_0.VB1 a_n4822_n1462# 1.28797f
+C716 N_IN a_n10394_2008# 0.02203f
+C717 a_n4955_n34# opa_folded_cascode_0.VB2 0.0541f
+C718 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.18261f
+C719 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB 1.00479f
+C720 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/cm_pcell3_0.VB2 10.5012f
+C721 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD 0.22101f
+C722 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.15407f
+C723 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 0.09267f
+C724 a_n5758_2008# a_n5210_2008# 0.0103f
+C725 opa_folded_cascode_0.monticelli_top_0.A opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.91896f
+C726 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 0.79254f
+C727 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.95959f
+C728 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB a_n11789_1598# 0.55417f
+C729 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 VOUT 0.03563f
+C730 a_n6938_4060# P_IN[1] 0.03805f
+C731 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD P_IN[2] 0.01317f
+C732 a_n7486_4060# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.01033f
+C733 P_IN[0] a_n5210_1510# 0.01061f
+C734 P_IN[0] opa_input_and_self_bias_0/cm_ncell3_0.DRAIN 0.08765f
+C735 a_n10394_2008# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA 0.0208f
+C736 a_n4030_4060# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD 0.01033f
+C737 a_n4822_464# opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 0.12264f
+C738 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 0.16543f
+C739 opa_folded_cascode_0.monticelli_top_0.B a_n1613_2711# 0.03745f
+C740 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 8.75672f
+C741 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 6.01491f
+C742 a_n5758_2008# P_IN[1] 0.02851f
+C743 N_IN a_n5758_1510# 0.03463f
+C744 VDDA a_n1209_6513# 0.722f
+C745 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD 0.05622f
+C746 a_n12122_4060# opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD 0.01033f
+C747 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 P_IN[1] 0.20513f
+C748 VOUT GNDA 24.4888f
+C749 P_IN[0] GNDA 3.51875f
+C750 P_IN[1] GNDA 3.1974f
+C751 P_IN[2] GNDA 3.19667f
+C752 P_IN[3] GNDA 3.19685f
+C753 N_IN GNDA 15.2125f
+C754 P_IN[4] GNDA 3.48639f
+C755 ROUT GNDA 13.3313f
+C756 VDDA GNDA 0.39583p
+C757 a_n1209_n641# GNDA 0.31627f $ **FLOATING
+C758 a_n1991_n641# GNDA 0.3141f $ **FLOATING
+C759 a_n1209_n23# GNDA 0.31363f $ **FLOATING
+C760 a_n1991_n23# GNDA 0.31147f $ **FLOATING
+C761 a_n4291_n2609# GNDA 0.10989f $ **FLOATING
+C762 a_n4955_n2609# GNDA 0.11496f $ **FLOATING
+C763 a_n4291_n1462# GNDA 0.10301f $ **FLOATING
+C764 a_n4822_n1462# GNDA 0.63162f
+C765 a_n4955_n1462# GNDA 0.11145f $ **FLOATING
+C766 a_n1209_889# GNDA 0.31296f $ **FLOATING
+C767 a_n1991_889# GNDA 0.31079f $ **FLOATING
+C768 a_n1209_1507# GNDA 0.31297f $ **FLOATING
+C769 a_n1991_1507# GNDA 0.31285f $ **FLOATING
+C770 a_n4291_n34# GNDA 0.36693f $ **FLOATING
+C771 a_n4955_n34# GNDA 0.35967f $ **FLOATING
+C772 a_n4291_464# GNDA 0.34413f $ **FLOATING
+C773 a_n4822_464# GNDA 1.47391f
+C774 a_n4955_464# GNDA 0.38872f $ **FLOATING
+C775 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to1 GNDA 0.82997f
+C776 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to0 GNDA 0.80456f
+C777 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to2 GNDA 1.26949f
+C778 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to3 GNDA 2.03401f
+C779 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io1 GNDA 2.5745f
+C780 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.G1 GNDA 42.4514f
+C781 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.io0 GNDA 8.66471f
+C782 opa_input_and_self_bias_0/opa_input_stage_0/cm_tail_0/cm_ncell1_0.to4 GNDA 4.87468f
+C783 opa_input_and_self_bias_0/cm_ncell3_0.VTAIL2 GNDA 31.9912f
+C784 a_n949_2355# GNDA 0.27787f $ **FLOATING
+C785 a_n1613_2355# GNDA 0.27287f $ **FLOATING
+C786 a_n949_2711# GNDA 0.26729f $ **FLOATING
+C787 a_n1613_2711# GNDA 0.26729f $ **FLOATING
+C788 a_n4030_1510# GNDA 0.23225f $ **FLOATING
+C789 a_n5210_1510# GNDA 0.22396f $ **FLOATING
+C790 a_n4030_2008# GNDA 0.23057f $ **FLOATING
+C791 a_n9242_226# GNDA 2.14878f
+C792 a_n5210_2008# GNDA 0.22049f $ **FLOATING
+C793 a_n5758_1510# GNDA 0.22721f $ **FLOATING
+C794 a_n6938_1510# GNDA 0.22504f $ **FLOATING
+C795 a_n5758_2008# GNDA 0.2208f $ **FLOATING
+C796 a_n9242_n890# GNDA 1.81326f
+C797 a_n6938_2008# GNDA 0.2208f $ **FLOATING
+C798 a_n7486_1510# GNDA 0.22611f $ **FLOATING
+C799 a_n8666_1510# GNDA 0.22485f $ **FLOATING
+C800 a_n7486_2008# GNDA 0.2208f $ **FLOATING
+C801 a_n9736_226# GNDA 1.10924f
+C802 a_n8666_2008# GNDA 0.2208f $ **FLOATING
+C803 a_n9214_1510# GNDA 0.22553f $ **FLOATING
+C804 a_n10394_1510# GNDA 0.22626f $ **FLOATING
+C805 a_n9214_2008# GNDA 0.2208f $ **FLOATING
+C806 a_n10488_226# GNDA 1.89347f
+C807 a_n10394_2008# GNDA 0.2208f $ **FLOATING
+C808 a_n10942_1510# GNDA 0.2248f $ **FLOATING
+C809 a_n12122_1510# GNDA 0.23775f $ **FLOATING
+C810 a_n10942_2008# GNDA 0.2208f $ **FLOATING
+C811 a_n11789_1598# GNDA 4.05149f
+C812 a_n12122_2008# GNDA 0.23134f $ **FLOATING
+C813 a_n949_3356# GNDA 0.06968f $ **FLOATING
+C814 a_n1613_3356# GNDA 0.06968f $ **FLOATING
+C815 a_n949_4121# GNDA 0.06696f $ **FLOATING
+C816 a_n1613_4121# GNDA 0.06696f $ **FLOATING
+C817 a_n4030_3153# GNDA 0.03708f $ **FLOATING
+C818 a_n4030_4060# GNDA 0.03501f $ **FLOATING
+C819 a_n12122_3153# GNDA 0.03708f $ **FLOATING
+C820 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPB GNDA 4.52109f
+C821 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_OPA GNDA 11.1227f
+C822 a_n12122_4060# GNDA 0.03439f $ **FLOATING
+C823 a_n1209_5246# GNDA 0.04167f $ **FLOATING
+C824 a_n1991_5246# GNDA 0.0358f $ **FLOATING
+C825 a_n1209_6513# GNDA 0.04167f $ **FLOATING
+C826 opa_folded_cascode_0.monticelli_top_0.Bx GNDA 10.3513f
+C827 opa_folded_cascode_0.monticelli_top_0.B GNDA 5.4314f
+C828 opa_folded_cascode_0.VB1 GNDA 5.61623f
+C829 a_n1991_6513# GNDA 0.03283f $ **FLOATING
+C830 a_n1209_8056# GNDA 0.04167f $ **FLOATING
+C831 a_n1991_8056# GNDA 0.03182f $ **FLOATING
+C832 a_n1209_9323# GNDA 0.04167f $ **FLOATING
+C833 opa_folded_cascode_0.monticelli_top_0.A GNDA 2.10967f
+C834 a_n1991_9323# GNDA 0.03182f $ **FLOATING
+C835 a_n1209_10706# GNDA 0.04167f $ **FLOATING
+C836 a_n1991_10706# GNDA 0.03283f $ **FLOATING
+C837 a_n1209_11973# GNDA 0.04712f $ **FLOATING
+C838 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONA GNDA 8.77858f
+C839 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_nmos_top_0/dp_nmos_5.I_ONB GNDA 3.41841f
+C840 opa_folded_cascode_0.monticelli_top_0.Ax GNDA 2.20369f
+C841 a_n1991_11973# GNDA 0.03804f $ **FLOATING
+C842 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_3.I_HEAD GNDA 0.75655f
+C843 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_2.I_HEAD GNDA 0.83779f
+C844 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_5.I_HEAD GNDA 0.77987f
+C845 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_1.I_HEAD GNDA 1.07238f
+C846 opa_folded_cascode_0.VB2 GNDA 4.67635f
+C847 opa_input_and_self_bias_0/opa_input_stage_0/opa_diffpairs_0/dp_pmos_top_0/dp_pmos_0.I_HEAD GNDA 1.35931f
+C848 opa_input_and_self_bias_0/cm_ncell3_0.DRAIN GNDA 44.4331f
+C849 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho2 GNDA 0.3605f
+C850 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho1 GNDA 0.21892f
+C851 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho0 GNDA 0.22212f
+C852 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho3 GNDA 0.62827f
+C853 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io2 GNDA 0.69955f
+C854 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.ho4 GNDA 1.28005f
+C855 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io1 GNDA 1.47691f
+C856 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.io0 GNDA 1.51763f
+C857 opa_input_and_self_bias_0/opa_input_stage_0/cm_head_0/cm_pcell1_0.G1 GNDA 16.0863f
+C858 opa_input_and_self_bias_0/cm_pcell3_0.VB2 GNDA 16.085f
+C859 a_n7784_12197# GNDA 0.43943f
+C860 a_n11843_11539# GNDA 12.568f
+.ends
+
